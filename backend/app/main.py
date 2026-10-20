@@ -177,12 +177,15 @@ async def lifespan(_app):
     yield
 
 
-app = FastAPI(title="SoulFlow",version="1.1.1",lifespan=lifespan,docs_url=None,redoc_url=None,openapi_url=None)
+app = FastAPI(title="SoulFlow",version="1.1.2",lifespan=lifespan,docs_url=None,redoc_url=None,openapi_url=None)
 app.add_middleware(TrustedHostMiddleware,allowed_hosts=allowed_hosts())
 
 
 @app.middleware("http")
 async def guard(request: Request, call_next):
+    if hosted() and request.url.hostname != urlparse(public_origin()).hostname:
+        if request.method != "GET" or request.url.path != "/api/internal/learning-updates":
+            return JSONResponse({"detail":"Ungültige App-Adresse."},status_code=400)
     # The loopback guard applies only to the explicitly local runtime.
     if not hosted() and request.client and request.client.host not in ("127.0.0.1","::1","testclient"):
         return JSONResponse({"detail":"Diese lokale V1 ist nur über Loopback freigegeben."},status_code=403)
@@ -222,7 +225,7 @@ async def database_error(_request, _exc):
 
 @app.get("/api/health")
 def health():
-    return {"status":"ok","mode":"hosted" if hosted() else "demo" if demo_mode() else "local","version":"1.1.1",
+    return {"status":"ok","mode":"hosted" if hosted() else "demo" if demo_mode() else "local","version":"1.1.2",
             "source_url":os.environ.get("SOULFLOW_SOURCE_URL") if os.environ.get("SOULFLOW_SWISS_LICENSE")=="agpl-3.0" else None,
             "license":"AGPL-3.0-only" if os.environ.get("SOULFLOW_SWISS_LICENSE")=="agpl-3.0" else None}
 

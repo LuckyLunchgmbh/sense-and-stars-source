@@ -1,5 +1,6 @@
 """Explicit hosted configuration; local defaults never become a public demo."""
 import os
+import re
 from urllib.parse import parse_qs, urlsplit
 
 
@@ -25,7 +26,15 @@ def public_origin():
 
 def allowed_hosts():
     origin = public_origin()
-    return [urlsplit(origin).hostname] if origin else ["localhost", "127.0.0.1", "[::1]", "testserver"]
+    if not origin:
+        return ["localhost", "127.0.0.1", "[::1]", "testserver"]
+    hosts = [urlsplit(origin).hostname]
+    # Vercel's registered scheduler calls the immutable deployment hostname.
+    # Only its exact server-provided name is added; no wildcard hosts.
+    deployment = os.environ.get("VERCEL_URL", "")
+    if re.fullmatch(r"[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.vercel\.app", deployment) and deployment not in hosts:
+        hosts.append(deployment)
+    return hosts
 
 
 def validate_hosted_settings():
