@@ -29,8 +29,8 @@ inside the checkout. The local demo contains fictional data and binds only to
 the loopback interface.
 
 ```sh
-git clone https://github.com/LuckyLunchgmbh/soulflow-marina-source.git
-cd soulflow-marina-source
+git clone https://github.com/LuckyLunchgmbh/sense-and-stars-source.git
+cd sense-and-stars-source
 python3.12 scripts/setup.py
 .venv/bin/python scripts/run.py --demo --open
 ```

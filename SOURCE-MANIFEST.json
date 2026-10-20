@@ -1,12 +1,12 @@
 {
   "files": {
-    ".env.example": "b3bca7792b5b8d5acffa8fc03fc892eaefd5ae5331592bb8856da68987c826df",
+    ".env.example": "cc50ad57eb2d9e32c06e33b85cbc9778695e9fbf91c91560a366a404b56085e2",
     ".github/workflows/verify.yml": "39acca3376822776e7bcdcbd4f7f03561f2a8729ca8e7b91df83ecc28e0bbc4c",
     ".gitignore": "17c256404efbde4a94bc85191a6bea38c63608f142f989bfa171d6768f53e553",
     ".python-version": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d",
     ".vercelignore": "f8139f3bbc0ca05f0cad27d48db03958706e43ee930d63e5818d838c01f2e0d3",
     "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-    "README.md": "d1595675970b64d9fee4b7c45c6d107ec09adf13da5251c5312abc72d937cb9e",
+    "README.md": "5227732d2766ecbe444c35a33cd3128c787420d1e835ac5c9d7ce178a2d84772",
     "THIRD_PARTY_NOTICES.md": "d90203f0ad8adfe0edd283777e08e1f1dbc0caf1238e48330d0f24c1f8308564",
     "api/index.py": "62b79b3732a99a3b55c96695ccfeb9c0331f75bd8b1bcea6f7f88b4125f308a4",
     "backend/app/__init__.py": "a8dd9afec4e5747fde694f187925098b13df26c0aa778dd5a28a7bf928b49f11",
@@ -63,7 +63,7 @@
     "frontend/tsconfig.json": "7a4785ff5d62d7d4ab13d7676d7b125e2a6621678b6fb1534cdaca68ce26f256",
     "frontend/vite.config.ts": "ad1ae14ee43ec465fc5d81c46f77a7daaf6684f78825b08557f459fcf38cbbd0",
     "pyproject.toml": "b7bc77031aaa65675494f354db50e234de0e3672ada5dfb7cb0a3cd6170c1f60",
-    "release/README.source.md": "d1595675970b64d9fee4b7c45c6d107ec09adf13da5251c5312abc72d937cb9e",
+    "release/README.source.md": "5227732d2766ecbe444c35a33cd3128c787420d1e835ac5c9d7ce178a2d84772",
     "requirements.txt": "bd83a8462dc48b9fcc031941aaefa0cc5e2e19af44cc701b2b588241b65fa998",
     "scripts/account.py": "05bbd834604c61075fdefa686df85ed06327ea2501d517b6da1f71e29fe292c6",
     "scripts/backup.py": "e653224628c0aea331ffeb877455e353c2a80af073dd4eb8b57b26dc6ce9d478",
