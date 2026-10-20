@@ -1,7 +1,7 @@
 import type { Chart, Planet } from "./types";
 
-// SoulFlow's explicit teaching convention, not an ephemeris-derived chakra measure.
-export const BODY_MODEL_VERSION = "SoulFlow-Symbolmodell 1.0";
+// Sense & Stars' explicit teaching convention, not an ephemeris-derived chakra measure.
+export const BODY_MODEL_VERSION = "Sense & Stars-Symbolmodell 1.0";
 export const BODY_CENTERS = [
   {
     id: "root",
@@ -80,7 +80,10 @@ export const PLANET_LABELS: Record<string, string> = {
   Chiron: "Chiron",
 };
 const PLANET_ALIASES: Record<string, string> = {
-  Sonne: "Sun", Mond: "Moon", Merkur: "Mercury", Neptun: "Neptune",
+  Sonne: "Sun",
+  Mond: "Moon",
+  Merkur: "Mercury",
+  Neptun: "Neptune",
 };
 export function centerForPlanet(name: string): BodyCenterId | undefined {
   const canonical = PLANET_ALIASES[name] || name;

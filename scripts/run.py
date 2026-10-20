@@ -11,7 +11,7 @@ import urllib.request
 import webbrowser
 
 ROOT = Path(__file__).resolve().parents[1]
-parser=argparse.ArgumentParser(description="SoulFlow lokal starten")
+parser=argparse.ArgumentParser(description="Sense & Stars lokal starten")
 parser.add_argument("--demo",action="store_true",help="Nur synthetische Beispieldaten")
 parser.add_argument("--port",type=int,default=8768)
 parser.add_argument("--open",action="store_true")
@@ -27,7 +27,7 @@ try:
         health=json.load(response)
     if health.get("version") not in ("1.0.0", "1.1.0") or health.get("mode")!=("demo" if args.demo else "local"):
         sys.exit("Dieser Port wird bereits von einem anderen Modus oder Dienst verwendet.")
-    print("SoulFlow läuft bereits: "+url,flush=True)
+    print("Sense & Stars läuft bereits: "+url,flush=True)
     if args.open: webbrowser.open(url)
     sys.exit(0)
 except (urllib.error.URLError,TimeoutError,ConnectionError):
@@ -35,7 +35,7 @@ except (urllib.error.URLError,TimeoutError,ConnectionError):
 env=os.environ.copy()
 env["SOULFLOW_DEMO"]="1" if args.demo else "0"
 env.setdefault("SOULFLOW_DB",str(ROOT/"data"/("demo" if args.demo else "local")/"soulflow.sqlite3"))
-print("SoulFlow "+("DEMO · nur erfundene Daten" if args.demo else "lokaler Kontobetrieb")+" · "+url,flush=True)
+print("Sense & Stars "+("DEMO · nur erfundene Daten" if args.demo else "lokaler Kontobetrieb")+" · "+url,flush=True)
 if args.open:
     # Browser can load while uvicorn starts; the launcher remains the foreground process.
     import threading

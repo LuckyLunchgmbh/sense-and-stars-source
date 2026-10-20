@@ -58,7 +58,7 @@ function LessonSource({ lesson }: { lesson: Lesson }) {
           </a>
         ) : (
           <span>
-            {lesson.source_title || "Eigenständiger SoulFlow-Lehrtext"}
+            {lesson.source_title || "Eigenständiger Sense & Stars-Lehrtext"}
           </span>
         )}
         {lesson.source_note && <p>{lesson.source_note}</p>}
@@ -1474,8 +1474,8 @@ function SourcesPanel({ revision }: { revision: number }) {
         Die Links führen zu externen Originalen. Öffentliche Einstiege können
         auf kostenpflichtige Angebote verweisen; ein Kauf ist für diesen
         Lernraum nicht nötig. Die Auswahl behauptet keine Zusammenarbeit oder
-        Empfehlung durch die genannten Lehrenden. SoulFlow-Lektionen sind
-        eigenständige Texte, keine Kopien ihrer Kurse.
+        Empfehlung durch die genannten Lehrenden. Sense &amp; Stars-Lektionen
+        sind eigenständige Texte, keine Kopien ihrer Kurse.
       </p>
     </section>
   );

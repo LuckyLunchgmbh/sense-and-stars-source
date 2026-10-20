@@ -312,7 +312,7 @@ def _reading_draft(conn,finding,run_id):
                 "Die Quelle ist nicht als Artikeltext zugänglich oder noch nicht vollständig abrufbar. Bisher liegen nur Fundmetadaten vor; Video-/Audioinhalte wurden nicht geprüft.")
         lesson=LessonCreate(title=f"Rechercheentwurf · {finding['title']}"[:160],category="Quellen-Leseübung",
             summary=f"Unveröffentlichter Rechercheentwurf zur eigenen Lektüre bei {finding['source_title']}. Fachliche Prüfung und eigener Lehrtext stehen aus."[:600],
-            body=(f"Rechercheentwurf · SoulFlow · {_iso(utc_now())[:10]}\n\nQuelle: {finding['source_title']}\nOriginaltitel: {finding['title']}\n"
+            body=(f"Rechercheentwurf · Sense & Stars · {_iso(utc_now())[:10]}\n\nQuelle: {finding['source_title']}\nOriginaltitel: {finding['title']}\n"
                   f"Originaladresse: {finding['url']}\nVeröffentlichungsdatum laut Website-Metadaten: {finding['published_at'] or 'nicht angegeben'}\n\n{access}\n\n"
                   "Dies ist eine eigene Quellen-Leseübung, keine Zusammenfassung des Originalinhalts und keine fertige Fachlektion. "
                   "Die Überschrift und technische Erreichbarkeit belegen weder die Richtigkeit einer Aussage noch eine spirituelle Fähigkeit. "

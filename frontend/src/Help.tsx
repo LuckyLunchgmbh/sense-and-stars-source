@@ -19,7 +19,7 @@ const helpTopics = {
   },
   body: {
     title: "Die Körperansicht lesen",
-    text: "Die menschliche Figur ist das SoulFlow-Symbolmodell. Wähle eines der sieben Zentren. Daneben siehst du die zugeordneten Planeten mit Zeichen, Grad, Haus und ihren vorhandenen Radix-Aspekten. Unter der Darstellung steht die vollständige feste Zuordnungsregel.",
+    text: "Die menschliche Figur ist das Sense & Stars-Symbolmodell. Wähle eines der sieben Zentren. Daneben siehst du die zugeordneten Planeten mit Zeichen, Grad, Haus und ihren vorhandenen Radix-Aspekten. Unter der Darstellung steht die vollständige feste Zuordnungsregel.",
     next: "Die Linien visualisieren astrologische Beziehungen. Sie messen keinen Energiefluss, keine Blockaden und keine körperlichen Befunde. Für die originalen Positionen wechselst du jederzeit zu Radix.",
   },
   calendar: {
@@ -138,8 +138,8 @@ export function HelpPage() {
         <p>
           Astrologie und die Körperansicht dienen der spirituellen Reflexion.
           Eine Vermutung über einen Menschen wird erst durch dessen freiwillige
-          Rückmeldung überprüfbar. SoulFlow ersetzt keine medizinische oder
-          psychotherapeutische Beratung.
+          Rückmeldung überprüfbar. Sense &amp; Stars ersetzt keine medizinische
+          oder psychotherapeutische Beratung.
         </p>
       </section>
     </>

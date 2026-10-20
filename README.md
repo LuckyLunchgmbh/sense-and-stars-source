@@ -1,6 +1,6 @@
-# SoulFlow
+# Sense & Stars (SoulFlow)
 
-SoulFlow is a German-language web application for one spiritual counselling
+Sense & Stars, originally named SoulFlow, is a German-language web application for one spiritual counselling
 practice. It includes client and appointment management, astronomical radix
 calculations, a client portal, an open learning workspace, personal bookmarks
 and notebooks, fictional practice cases, and a symbolic body view.

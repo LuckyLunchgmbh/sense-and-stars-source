@@ -1,11 +1,12 @@
 /* Public app shell only. API responses and client records never enter Cache Storage. */
-const CACHE = "soulflow-public-v2";
+const CACHE = "sense-stars-public-v1";
 const PUBLIC_FILES = [
   "/",
   "/index.html",
   "/icon.svg",
   "/icon-192.png",
   "/icon-512.png",
+  "/icon-maskable-512.png",
   "/manifest.webmanifest",
 ];
 self.addEventListener("install", (event) => {
@@ -31,7 +32,10 @@ self.addEventListener("activate", (event) => {
         Promise.all(
           keys
             .filter(
-              (key) => key.startsWith("soulflow-public-") && key !== CACHE,
+              (key) =>
+                (key.startsWith("soulflow-public-") ||
+                  key.startsWith("sense-stars-public-")) &&
+                key !== CACHE,
             )
             .map((key) => caches.delete(key)),
         ),

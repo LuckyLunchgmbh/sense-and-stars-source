@@ -465,7 +465,7 @@ def export_notebook(request: Request):
     user = require_staff(request)
     with get_db() as conn:
         rows = _own_notes(conn, user["id"])
-    lines = ["# Mein SoulFlow-Notizbuch", "", "Privater lokaler Export. Eigene Notizen sind keine Qualifikationsnachweise.", ""]
+    lines = ["# Mein Sense & Stars-Notizbuch", "", "Privater lokaler Export. Eigene Notizen sind keine Qualifikationsnachweise.", ""]
     for row in rows:
         lines.extend([f"## {' '.join(row['title'].split())}", "", f"Erstellt: {row['created_at']}", f"Bearbeitet: {row['updated_at']}", ""])
         if row["lesson_id"] is not None:
@@ -477,7 +477,7 @@ def export_notebook(request: Request):
         else:
             lines.extend(["Freie Notiz ohne Lektionsverknüpfung.", ""])
         lines.extend([row["body"], "", "---", ""])
-    return {"filename": f"soulflow-notizbuch-{utc_now().date().isoformat()}.md", "content": "\n".join(lines)}
+    return {"filename": f"sense-and-stars-notizbuch-{utc_now().date().isoformat()}.md", "content": "\n".join(lines)}
 
 
 @router.post("/api/learning/notebook")

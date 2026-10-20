@@ -177,7 +177,7 @@ async def lifespan(_app):
     yield
 
 
-app = FastAPI(title="SoulFlow",version="1.1.2",lifespan=lifespan,docs_url=None,redoc_url=None,openapi_url=None)
+app = FastAPI(title="Sense & Stars",version="1.2.0",lifespan=lifespan,docs_url=None,redoc_url=None,openapi_url=None)
 app.add_middleware(TrustedHostMiddleware,allowed_hosts=allowed_hosts())
 
 
@@ -193,7 +193,7 @@ async def guard(request: Request, call_next):
         origin = request.headers.get("origin")
         expected = public_origin() if hosted() else f"{request.url.scheme}://{request.headers.get('host','')}"
         if request.headers.get("x-soulflow") != "1" or (origin and origin != expected) or request.headers.get("sec-fetch-site") == "cross-site":
-            return JSONResponse({"detail":"Sicherheitsprüfung fehlgeschlagen. Bitte SoulFlow direkt öffnen."},status_code=403)
+            return JSONResponse({"detail":"Sicherheitsprüfung fehlgeschlagen. Bitte Sense & Stars direkt öffnen."},status_code=403)
         try:
             size = int(request.headers.get("content-length","0"))
         except ValueError:
@@ -225,7 +225,7 @@ async def database_error(_request, _exc):
 
 @app.get("/api/health")
 def health():
-    return {"status":"ok","mode":"hosted" if hosted() else "demo" if demo_mode() else "local","version":"1.1.2",
+    return {"status":"ok","mode":"hosted" if hosted() else "demo" if demo_mode() else "local","version":"1.2.0",
             "source_url":os.environ.get("SOULFLOW_SOURCE_URL") if os.environ.get("SOULFLOW_SWISS_LICENSE")=="agpl-3.0" else None,
             "license":"AGPL-3.0-only" if os.environ.get("SOULFLOW_SWISS_LICENSE")=="agpl-3.0" else None}
 

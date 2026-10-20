@@ -272,7 +272,7 @@ export function Modal({
     >
       <div className="modal-top">
         <div>
-          <span className="eyebrow">SOULFLOW</span>
+          <span className="eyebrow">SENSE &amp; STARS</span>
           <h2 id={id}>{title}</h2>
           {description && <p>{description}</p>}
         </div>
@@ -401,6 +401,66 @@ export function ChakraMark({ className = "" }: { className?: string }) {
         fill="currentColor"
       />
     </svg>
+  );
+}
+export function GuidingStarMark({ className = "" }: { className?: string }) {
+  const maskId = `guiding-star-${useId().replace(/:/g, "")}`;
+  const star =
+    "M32 2c1.1 13.8 4.8 22.1 12.8 26.2C50.1 30.9 56.7 32 62 32c-13.7 2-21.8 5.8-26 13.4C33.9 51 32.7 57.3 32 62c-1.3-13.1-5.1-21.2-13-25.3C13.8 34.1 7.1 32.8 2 32c13.6-2 21.7-5.8 25.8-13.4C30.5 13.4 31.5 6.7 32 2Z";
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 64 64"
+      fill="none"
+      aria-hidden="true"
+    >
+      <defs>
+        <mask id={maskId}>
+          <rect width="64" height="64" fill="white" />
+          <path
+            d="M27.5 14.5c-5.2 9-3.5 14.4 5.8 18.1 8.5 3.4 9.7 8.3 4 16.9"
+            fill="none"
+            stroke="black"
+            strokeWidth="5.4"
+            strokeLinecap="round"
+          />
+        </mask>
+        <clipPath id={`${maskId}-accent`}>
+          <path d="M27 0h37v38H38c-3.8-2.5-6.6-5.1-8.3-8.1-3.2-5.6-3.5-14-.8-22.5Z" />
+        </clipPath>
+      </defs>
+      <g mask={`url(#${maskId})`}>
+        <path className="brand-mark-dark" d={star} />
+        <path
+          className="brand-mark-accent"
+          d={star}
+          clipPath={`url(#${maskId}-accent)`}
+        />
+      </g>
+    </svg>
+  );
+}
+export function Brand({
+  className = "",
+  dark = false,
+  tagline = true,
+}: {
+  className?: string;
+  dark?: boolean;
+  tagline?: boolean;
+}) {
+  return (
+    <span
+      className={`brand${dark ? " brand-on-dark" : ""}${className ? ` ${className}` : ""}`}
+    >
+      <GuidingStarMark className="brand-mark" />
+      <span className="brand-copy">
+        <span className="brand-name">
+          Sense <span className="brand-amp">&amp;</span> Stars
+        </span>
+        {tagline && <small>RAUM FÜR ENTWICKLUNG</small>}
+      </span>
+    </span>
   );
 }
 export function OrbitArt() {

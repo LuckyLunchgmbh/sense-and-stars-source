@@ -5,7 +5,7 @@ import { go, useRoute } from "./hooks";
 import {
   Avatar,
   Badge,
-  ChakraMark,
+  Brand,
   ErrorBox,
   Icon,
   Loading,
@@ -119,7 +119,7 @@ export default function App() {
   if (checking)
     return (
       <div className="full-loading">
-        <ChakraMark />
+        <Brand className="full-loading-brand" tagline={false} />
         <Loading />
       </div>
     );
@@ -209,13 +209,11 @@ export default function App() {
       )}
       <aside className="sidebar" aria-label="Hauptnavigation">
         <a
-          className="brand"
+          className="brand-link"
           href={"#" + (practice ? "practice/" : "") + "home"}
+          aria-label="Sense & Stars – Startseite"
         >
-          <ChakraMark />
-          <span>
-            SoulFlow<small>RAUM FÜR ENTWICKLUNG</small>
-          </span>
+          <Brand />
         </a>
         <div className="workspace-label">
           <span className="status-dot" />{" "}
@@ -430,7 +428,7 @@ export default function App() {
         </main>
         <footer className="app-footer">
           <span>
-            SoulFlow <span aria-hidden="true">·</span> Mit Achtsamkeit
+            Sense &amp; Stars <span aria-hidden="true">·</span> Mit Achtsamkeit
             verbunden.
           </span>
           {sourceUrl && (
@@ -439,7 +437,7 @@ export default function App() {
               href={sourceUrl}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Quellcode von SoulFlow unter der AGPL öffnen"
+              aria-label="Quellcode von Sense & Stars unter der AGPL öffnen"
             >
               Quellcode · AGPL
             </a>
@@ -531,11 +529,12 @@ function Login({
   return (
     <div className="login-page">
       <div className="login-story">
-        <a className="brand" href="#">
-          <ChakraMark />
-          <span>
-            SoulFlow<small>RAUM FÜR ENTWICKLUNG</small>
-          </span>
+        <a
+          className="brand-link"
+          href="#"
+          aria-label="Sense & Stars – Anmeldung"
+        >
+          <Brand dark />
         </a>
         <div className="login-story-content">
           <span className="eyebrow">ANKOMMEN. VERBINDEN. ENTFALTEN.</span>
@@ -543,8 +542,7 @@ function Login({
             Ein Raum.
             <br />
             Unendlich viel
-            <br />
-            <em>Entwicklung.</em>
+            <br /> <em>Entwicklung.</em>
           </h1>
           <p>
             Für die Menschen, die du begleitest.
@@ -663,8 +661,8 @@ function Login({
             </details>
           )}
           <div className="login-disclaimer">
-            Astrologie dient der spirituellen Reflexion. SoulFlow ersetzt keine
-            medizinische oder psychotherapeutische Beratung.
+            Astrologie dient der spirituellen Reflexion. Sense &amp; Stars
+            ersetzt keine medizinische oder psychotherapeutische Beratung.
           </div>
         </div>
       </div>
@@ -794,7 +792,7 @@ function Tour({
   }
   return (
     <Modal
-      title="Willkommen bei SoulFlow"
+      title="Willkommen bei Sense & Stars"
       onClose={() => {
         if (!busy) void finish();
       }}
@@ -913,14 +911,15 @@ function Settings({
           <h2>Ein bewusster Rahmen.</h2>
           {mode === "hosted" ? (
             <p>
-              SoulFlow wird online bereitgestellt. Klientenakten, Termine und
-              Sitzungen werden dort serverseitig gespeichert und verarbeitet.
-              Die Offline-Funktion speichert nur öffentliche App-Dateien;
-              geschützte Inhalte werden nicht im Offline-Cache abgelegt.
+              Sense &amp; Stars wird online bereitgestellt. Klientenakten,
+              Termine und Sitzungen werden dort serverseitig gespeichert und
+              verarbeitet. Die Offline-Funktion speichert nur öffentliche
+              App-Dateien; geschützte Inhalte werden nicht im Offline-Cache
+              abgelegt.
             </p>
           ) : (
             <p>
-              SoulFlow läuft lokal. Die Offline-Funktion speichert nur
+              Sense &amp; Stars läuft lokal. Die Offline-Funktion speichert nur
               öffentliche App-Dateien. Klientenakten, Termine und Sitzungen
               werden nicht im Offline-Cache abgelegt.
             </p>

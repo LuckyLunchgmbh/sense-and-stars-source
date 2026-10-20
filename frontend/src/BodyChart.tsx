@@ -208,12 +208,12 @@ export function BodyChart({ chart }: { chart: Chart }) {
         <summary>Wie entsteht diese Darstellung?</summary>
         <p>
           Planetenpositionen, Zeichen, Häuser und Aspekte kommen unverändert aus
-          der Radix-Berechnung. SoulFlow ordnet für diese Lernansicht Saturn und
-          Pluto der Wurzel, den Mond dem Sakralzentrum, Sonne und Mars dem
-          Solarplexus, Venus dem Herz, Merkur der Kehle, Uranus der Stirn sowie
-          Jupiter und Neptun der Krone zu. Diese feste didaktische Konvention
-          ist keine astronomische Berechnung von Chakren, keine individuelle
-          Diagnose und keine Human-Design-Grafik.
+          der Radix-Berechnung. Sense &amp; Stars ordnet für diese Lernansicht
+          Saturn und Pluto der Wurzel, den Mond dem Sakralzentrum, Sonne und
+          Mars dem Solarplexus, Venus dem Herz, Merkur der Kehle, Uranus der
+          Stirn sowie Jupiter und Neptun der Krone zu. Diese feste didaktische
+          Konvention ist keine astronomische Berechnung von Chakren, keine
+          individuelle Diagnose und keine Human-Design-Grafik.
         </p>
         <p>
           Ein Aspekt erscheint als Linie zwischen den zugeordneten Zentren. Die

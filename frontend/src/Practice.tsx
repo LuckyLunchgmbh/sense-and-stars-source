@@ -290,7 +290,7 @@ export function DashboardPage(props: PageProps) {
               <br />
               sich nach dir anfühlen.“
             </p>
-            <span>DEIN SOULFLOW-MOMENT</span>
+            <span>DEIN SENSE &amp; STARS-MOMENT</span>
           </div>
         </div>
       </div>
@@ -1693,7 +1693,7 @@ function PortalAccount({
           </div>
           <p>
             Übergib das festgelegte Passwort über einen geeigneten persönlichen
-            Weg. SoulFlow hat keine Nachricht versendet.
+            Weg. Sense &amp; Stars hat keine Nachricht versendet.
           </p>
           <div className="form-actions">
             <button className="button primary" onClick={onClose}>
@@ -2074,7 +2074,7 @@ function ChartBuilder({ client, ...props }: PageProps & { client: Client }) {
     );
     const a = document.createElement("a");
     a.href = url;
-    a.download = `soulflow-radix-${client.id}.json`;
+    a.download = `sense-and-stars-radix-${client.id}.json`;
     a.click();
     URL.revokeObjectURL(url);
   }
