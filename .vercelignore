@@ -1,0 +1,12 @@
+.git
+.venv
+.vercel_python_packages
+.env
+.env.*
+.qa-postgres.env
+data
+artifacts
+backend/tests
+frontend/node_modules
+docs
+*.command

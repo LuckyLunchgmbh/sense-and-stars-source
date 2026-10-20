@@ -1,0 +1,11 @@
+[project]
+name = "soulflow"
+version = "1.1.0"
+requires-python = ">=3.12,<3.13"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["backend/requirements.lock"]}
+
+[tool.setuptools.packages.find]
+include = ["backend.app*"]

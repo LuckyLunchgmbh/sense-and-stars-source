@@ -1,0 +1,17 @@
+.venv
+node_modules
+frontend/dist/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+.env.*
+!.env.example
+.vercel/
+.vercel_python_packages/
+.qa-postgres.env
+data/
+.DS_Store
+artifacts/browser/
+*.egg-info/
+*.tsbuildinfo
