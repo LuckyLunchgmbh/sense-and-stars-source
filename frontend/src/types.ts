@@ -14,6 +14,7 @@ export interface User {
   role: Role;
   client_id: number | null;
   tour_completed: boolean;
+  hourly_rate_cents?: number | null;
 }
 export interface Client {
   is_test?: boolean;
@@ -94,6 +95,9 @@ export interface Chart {
   warnings: string[];
 }
 export interface Lesson {
+  academy_course_id?: string;
+  academy_key?: string;
+  minutes?: number;
   id: number;
   title: string;
   category: string;
@@ -122,6 +126,94 @@ export interface Lesson {
   pinned: boolean;
   practiced: boolean;
   reflected: boolean;
+}
+export interface AcademyCourse {
+  id: string;
+  title: string;
+  summary: string;
+  tradition: string;
+  level: Lesson["level"];
+  lesson_count: number;
+  published_count: number;
+  completed_count: number;
+  passed_count: number;
+  badge_earned: boolean;
+  search_text?: string;
+}
+export interface AcademyProgress {
+  points: number;
+  read_count: number;
+  passed_count: number;
+  practice_count: number;
+}
+export interface AcademyOverview {
+  courses: AcademyCourse[];
+  progress: AcademyProgress;
+  badges: { id: string; title: string; earned_at: string }[];
+  reviews: { lesson_id: number; title: string; due_at: string }[];
+  preview_available: boolean;
+}
+export interface AcademyAttempt {
+  id: string;
+  kind?: string;
+  response?: string;
+  self_checks?: boolean[];
+  score?: number;
+  passed?: boolean;
+  created_at: string;
+  feedback?: {
+    question_id?: string;
+    correct?: boolean;
+    correct_index?: number;
+    explanation?: string;
+    criterion?: string;
+    self_checked?: boolean;
+  }[];
+}
+export interface AcademyLesson {
+  lesson: Lesson;
+  course: AcademyCourse;
+  examples: { title: string; body: string }[];
+  practice: { prompt: string; model_answer: string; rubric: string[] };
+  sources: {
+    url: string;
+    title: string;
+    author: string;
+    note: string;
+    checked_at: string;
+  }[];
+  quiz: Lesson["quiz"];
+  attempts: AcademyAttempt[];
+  attempts_has_more: boolean;
+  latest_practice: AcademyAttempt | null;
+  state: {
+    read: boolean;
+    quiz_passed: boolean;
+    practice_completed: boolean;
+    review_due_at: string | null;
+  };
+}
+export interface AcademyQuizResult {
+  score: number;
+  passed: boolean;
+  feedback: {
+    question_id: string;
+    correct: boolean;
+    correct_index: number;
+    explanation: string;
+  }[];
+  points_awarded: number;
+  progress: AcademyProgress;
+  review_due_at: string;
+}
+export interface AcademyRelease {
+  manifest_sha256: string;
+  expected_lessons: number;
+  course_count: number;
+  lesson_count: number;
+  published_count: number;
+  draft_count: number;
+  ready: boolean;
 }
 export interface AdminLesson extends Lesson {
   quiz: (Lesson["quiz"][number] & { correct_index: number })[];

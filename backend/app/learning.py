@@ -407,6 +407,7 @@ def _lesson_json(row, state=None, admin=False):
         "source_url": row["source_url"], "source_title": row["source_title"], "status": row["status"],
         "available": state["available"], "completed": state["completed"], "quiz": quiz,
         "source_kind": row["source_kind"],
+        **{key: row[key] for key in ("academy_course_id", "academy_key") if key in row.keys()},
         **{key: row[key] for key in LESSON_METADATA},
         **{key: state[key] for key in PERSONAL_STATE_FIELDS},
     }
@@ -541,9 +542,20 @@ def update_personal_state(lesson_id: int, payload: PersonalStateUpdate, request:
     return _lesson_json(lesson, _lesson_state(lesson, progress))
 
 
+def _is_academy_lesson(lesson_id):
+    with get_db() as conn:
+        row = conn.execute("SELECT seed_key FROM learning_lessons WHERE id=?", (lesson_id,)).fetchone()
+        return bool(row and (row["seed_key"] or "").startswith("academy-"))
+
+
 @router.post("/api/learning/{lesson_id}/quiz")
-def submit_quiz(lesson_id: int, payload: QuizSubmission, request: Request):
+def submit_quiz(lesson_id: int, payload: QuizSubmission, request: Request, preview: bool = False):
     user = require_staff(request)
+    if _is_academy_lesson(lesson_id):
+        from .academy import submit_quiz as academy_quiz
+        result = academy_quiz(lesson_id, payload, request, preview=preview)
+        return {"score": result["score"], "passed": result["passed"],
+                "feedback": "Quiz bestanden." if result["passed"] else "Du kannst freiwillig erneut üben oder weiterlesen."}
     with get_db() as conn:
         conn.execute("BEGIN IMMEDIATE")
         lesson, _ = _require_available(conn, user["id"], lesson_id)
@@ -569,8 +581,12 @@ def submit_quiz(lesson_id: int, payload: QuizSubmission, request: Request):
 
 
 @router.post("/api/learning/{lesson_id}/complete")
-def complete_lesson(lesson_id: int, payload: EmptyRequest, request: Request):
+def complete_lesson(lesson_id: int, payload: EmptyRequest, request: Request, preview: bool = False):
     user = require_staff(request)
+    if _is_academy_lesson(lesson_id):
+        from .academy import complete as academy_complete
+        academy_complete(lesson_id, payload, request, preview=preview)
+        return {"ok": True}
     with get_db() as conn:
         conn.execute("BEGIN IMMEDIATE")
         _, progress = _require_available(conn, user["id"], lesson_id)
@@ -607,6 +623,8 @@ def publish_lesson(lesson_id: int, payload: EmptyRequest, request: Request):
         row = conn.execute("SELECT * FROM learning_lessons WHERE id=?", (lesson_id,)).fetchone()
         if row is None:
             raise HTTPException(404, "Diese Lektion wurde nicht gefunden.")
+        if (row["seed_key"] or "").startswith("academy-"):
+            raise HTTPException(409, "Der Akademie-Erstbestand wird ausschließlich als geprüftes Gesamtpaket freigegeben.")
         if row["status"] == "published":
             return _lesson_json(row, admin=True)
         if row["source_kind"] != "editorial":
@@ -632,6 +650,8 @@ def edit_lesson(lesson_id: int, payload: LessonCreate, request: Request):
         row = conn.execute("SELECT * FROM learning_lessons WHERE id=?", (lesson_id,)).fetchone()
         if row is None:
             raise HTTPException(404, "Dieser Entwurf wurde nicht gefunden.")
+        if (row["seed_key"] or "").startswith("academy-"):
+            raise HTTPException(409, "Akademie-Lektionen werden im zusammengehörigen Kurspaket redigiert.")
         if row["status"] != "draft":
             raise HTTPException(409, "Veröffentlichte Lektionen werden hier nicht überschrieben. Erstelle eine neue Fassung.")
         if row["source_kind"] != "editorial" and (payload.body == row["body"] or payload.title.startswith("Rechercheentwurf")):

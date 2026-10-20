@@ -72,3 +72,7 @@ def init_schema(conn):
       id INTEGER PRIMARY KEY, user_id INTEGER, action TEXT NOT NULL,
       resource_id INTEGER, created_at TEXT NOT NULL);
     """)
+    # Additive migration: existing appointments retain their agreed price.
+    columns = {row["name"] for row in conn.execute("PRAGMA table_info(users)")}
+    if "hourly_rate_cents" not in columns:
+        conn.execute("ALTER TABLE users ADD COLUMN hourly_rate_cents INTEGER CHECK(hourly_rate_cents >= 0 AND hourly_rate_cents <= 1000000)")

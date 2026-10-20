@@ -1,0 +1,617 @@
+{
+  "id": "hellenistisch",
+  "title": "Hellenistische Techniken",
+  "summary": "Acht Lektionen zu Ganzzeichenhäusern, Sektion, Herrschern, Würden, Aspekten, Profektionen und Losen mit eigenen Rechenbeispielen.",
+  "tradition": "Hellenistische Astrologie in moderner Rekonstruktion; tropischer Tierkreis und traditionelle sieben Gestirne als erklärte Übungskonvention",
+  "level": "deepening",
+  "prerequisites": [
+    "Grundlagen von Zeichen, Häusern und Gradangaben sind hilfreich, aber keine Zugangssperre."
+  ],
+  "lessons": [
+    {
+      "key": "academy-hellenistisch-01",
+      "title": "Ganzzeichenhäuser selbst aufbauen",
+      "summary": "Ordne jedes Zeichen einem Haus zu und halte Achsengrad und Hausanfang auseinander.",
+      "objective": "Du erzeugst aus einem vorgegebenen Aszendentenzeichen eine korrekte Ganzzeichen-Häusertabelle.",
+      "level": "deepening",
+      "minutes": 35,
+      "body": "## Eine klar definierte Konvention\nBei Ganzzeichenhäusern wird das gesamte Zeichen, in dem der Aszendent liegt, zum ersten Haus. Das folgende Zeichen bildet das zweite Haus und so weiter. Der genaue Aszendentengrad bleibt ein wichtiger Punkt innerhalb des ersten Hauses, ist aber nicht dessen Anfang. Liegt der Aszendent beispielsweise bei 18 Grad Löwe, beginnt das erste Ganzzeichenhaus bei null Grad Löwe. Diese Regel unterscheidet sich von Placidus und von gleich großen Häusern, die beim exakten Aszendentengrad beginnen. Vermische die drei Systeme nicht.\n\n## Vom Zeichen zur Tabelle\nSchreibe die zwölf Zeichen in ihrer normalen Reihenfolge auf. Markiere das Aszendentenzeichen und zähle es als eins. Bei Löwe folgen Jungfrau als zweites, Waage als drittes und Skorpion als viertes Haus. Nach Fische geht die Zählung mit Widder weiter, bis Krebs das zwölfte Haus bildet. Jeder Planet im selben Zeichen erhält in dieser Konvention dieselbe Hausnummer. Seine genaue Gradposition bleibt für andere Fragen erhalten. Die Zuordnung lässt sich deshalb leicht auf Papier kontrollieren, ohne neue Hausspitzen zu berechnen.\n\n## Achsen verschwinden nicht\nDas Medium Coeli, kurz MC, ist ein berechneter Himmelsmeridianpunkt. In Ganzzeichenhäusern muss es nicht mit dem Anfang des zehnten Hauses zusammenfallen. Es kann je nach geometrischer Situation in einem anderen Zeichen stehen. Deshalb werden der Themenbereich des zehnten Hauses und die genaue MC-Position getrennt betrachtet. Dasselbe Prinzip gilt für den Aszendentengrad innerhalb des ersten Zeichens. Wer die Achsen einfach an die Ganzzeichen-Grenzen verschiebt, verändert die Daten statt nur die Hauskonvention.\n\n## Ein Vergleich mit Placidus\nWenn ein Planet zwischen zwei Systemen eine andere Hausnummer erhält, bedeutet das zunächst: Die Zuordnungsregel wurde geändert. Es bedeutet nicht, dass sich der Planet bewegt hat oder eine der beiden Biografien nun bewiesen wäre. Erstelle einen Vergleich mit identischen Geburtsdaten und identischem Tierkreis. Notiere nur die tatsächlichen Unterschiede. Für diese Akademie werden Ganzzeichenbeispiele ausdrücklich von Hand aus vorgegebenen Angaben aufgebaut. Die reguläre Radixansicht der App verwendet weiterhin ihre ausgewiesene Berechnung; ein Kurswechsel schaltet den Rechner nicht automatisch um.\n\n## Welche Daten trotzdem nötig sind\nAuch die einfache Hauszählung benötigt ein verlässliches Aszendentenzeichen. Dafür sind Geburtszeit und Ort wesentlich. Ein Aszendent nahe einer Zeichengrenze kann bei unsicherer Zeit das ganze Ganzzeichenschema verändern. Die Methode beseitigt also nicht jede Datenunsicherheit. Wenn nur das Datum bekannt ist, darfst du kein beliebiges erstes Haus einsetzen und anschließend genaue Lebensbereiche behaupten. Arbeite dann mit einer deutlich markierten Übungskarte oder mit Themen, die keine Häuserzuordnung benötigen.\n\n## Die erste Anwendung\nWähle einen Planeten im vorgegebenen Datensatz und prüfe seine Hausnummer zweimal: einmal durch Abzählen, einmal über deine fertige Tabelle. Formuliere danach eine einzige Frage zum Lebensbereich. Ein Planet im elften Haus kann beispielsweise eine Frage zu Gruppen oder Unterstützung anregen. Er garantiert weder Freunde noch Erfolg. Das Lernziel ist zunächst die saubere Zuordnung. Erst eine nachvollziehbare technische Grundlage ermöglicht es, unterschiedliche Deutungsschulen sinnvoll miteinander zu vergleichen und im Gespräch verständlich zu erklären.",
+      "examples": [
+        {
+          "title": "Leas Zeichenreihe",
+          "body": "Leas didaktische Karte erhält einen Aszendenten bei 18 Grad Löwe und Merkur in Waage. Marina zählt Löwe als eins, Jungfrau als zwei und Waage als drei. Merkur liegt damit im dritten Ganzzeichenhaus. Der Aszendent bleibt trotzdem bei 18 Grad und wird nicht auf null verschoben. Die Angaben sind erfunden, nicht aus Leas echten Geburtsdaten berechnet. Als Gesprächsfrage bietet sich an, wie sie Informationen im Alltag austauscht, ohne daraus eine sichere Fähigkeit abzuleiten."
+        },
+        {
+          "title": "Ein MC außerhalb des zehnten Zeichens",
+          "body": "Samirs Übungsblatt gibt Schütze als aufsteigendes Zeichen und ein MC in Waage vor. Das zehnte Ganzzeichenhaus ist Jungfrau; Waage ist das elfte. Marina hält beide Angaben getrennt fest. Sie erklärt, dass ein Meridianpunkt und eine thematische Hauszählung unterschiedliche Dinge sind. Die vorgegebenen Achsen werden für die Rechnung übernommen, nicht neu erfunden. Ein späterer Vergleich müsste dieselben Eingabedaten und die genaue Berechnung prüfen, bevor daraus persönliche Fragen entwickelt werden."
+        }
+      ],
+      "practice": {
+        "prompt": "Baue eine Ganzzeichentabelle für Aszendent 9 Grad Stier. Ordne Sonne in Löwe, Mond in Wassermann und Merkur in Jungfrau zu.",
+        "model_answer": "Ich beginne das erste Haus bei null Grad Stier und lasse den Aszendenten als Punkt bei 9 Grad Stier stehen. Die Folge lautet Stier eins, Zwillinge zwei, Krebs drei, Löwe vier, Jungfrau fünf, Waage sechs, Skorpion sieben, Schütze acht, Steinbock neun, Wassermann zehn, Fische elf und Widder zwölf. Die vorgegebene Sonne gehört damit ins vierte, der Mond ins zehnte und Merkur ins fünfte Ganzzeichenhaus. Ich kontrolliere die Reihenfolge über den vollständigen Kreis und prüfe, dass kein Zeichen fehlt oder doppelt vorkommt. Die genauen Planetengrade werden für diese Hauszuordnung nicht benötigt, bleiben aber für andere Rechnungen relevant. Ich bezeichne das Blatt ausdrücklich als manuelle Übung nach Ganzzeichenkonvention. Daraus folgt keine Änderung der Placidus-Anzeige in der App. Eine spätere Deutung müsste ihre Fragen zusätzlich am tatsächlichen Anliegen der Person ausrichten.",
+        "rubric": [
+          "Das Aszendentenzeichen wird vollständig Haus eins.",
+          "Alle zwölf Zeichen sind lückenlos zugeordnet.",
+          "Sonne vier, Mond zehn und Merkur fünf stimmen.",
+          "Aszendentengrad und Hausanfang werden unterschieden."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Aszendent 18 Grad Löwe: Wo beginnt Haus eins bei Ganzzeichenhäusern?",
+          "options": [
+            "Bei 18 Grad Löwe",
+            "Bei null Grad Löwe",
+            "Bei null Grad Jungfrau"
+          ],
+          "correct_index": 1,
+          "explanation": "Das gesamte aufsteigende Zeichen bildet das erste Haus."
+        },
+        {
+          "id": "q2",
+          "question": "Was geschieht mit dem genauen Aszendentengrad?",
+          "options": [
+            "Er bleibt als eigener Punkt erhalten",
+            "Er wird gelöscht",
+            "Er wird automatisch zum MC"
+          ],
+          "correct_index": 0,
+          "explanation": "Die Hauskonvention verändert den berechneten Achsengrad nicht."
+        },
+        {
+          "id": "q3",
+          "question": "Was muss für einen fairen Häuservergleich gleich bleiben?",
+          "options": [
+            "Nur die Lieblingsdeutung",
+            "Nur der Name der Person",
+            "Geburtsdaten und Tierkreis"
+          ],
+          "correct_index": 2,
+          "explanation": "Sonst können Unterschiede aus mehreren gleichzeitig veränderten Grundlagen stammen."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/transcripts/ep-52-whole-sign-houses-the-best-system-of-house-division/",
+          "title": "Whole Sign Houses as a System of House Division",
+          "author": "Chris Brennan",
+          "note": "Öffentliches Originaltranskript zur Ganzzeichen-Häuseregel. Die Rechenblätter und Fallkombinationen sind eigene Lehrbeispiele; die Präferenz des Autors ist kein Wirksamkeitsnachweis.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-hellenistisch-02",
+      "title": "Sektion: Tag- und Nachtkarte unterscheiden",
+      "summary": "Bestimme die Lage der Sonne zum Horizont und ordne die traditionellen Planetengruppen ein.",
+      "objective": "Du erkennst Tag und Nacht anhand der tatsächlichen Horizontlage und übersetzt historische Wertungen vorsichtig.",
+      "level": "deepening",
+      "minutes": 35,
+      "body": "## Die entscheidende Grenze ist der Horizont\nSektion bezeichnet in der hier verwendeten traditionellen Lehre zunächst die Unterscheidung zwischen Tag- und Nachtgeburt. Eine Tagkarte hat die Sonne oberhalb des örtlichen Horizonts, eine Nachtkarte darunter. Die Uhrzeit allein reicht dafür nicht: Acht Uhr kann je nach Datum und Ort vor oder nach Sonnenaufgang liegen. Auch die Hausnummer in einem Ganzzeichensystem ersetzt die genaue Horizontlage nicht. Besonders nahe dem Auf- oder Untergang musst du die tatsächliche Geometrie und die Unsicherheit der Geburtszeit beachten.\n\n## Zwei traditionelle Gruppen\nZur Tagesgruppe werden Sonne, Jupiter und Saturn gerechnet, zur Nachtgruppe Mond, Venus und Mars. Merkur wird in traditionellen Darstellungen abhängig von seiner Beziehung zur Sonne differenzierter behandelt und bleibt in dieser Einstiegsübung zunächst offen. Die Gruppen sind eine historische Interpretationskonvention. Sie bedeuten nicht, dass ein Planet nachts verschwindet oder tagsüber physikalisch anders zusammengesetzt ist. Schreibe die Gruppenzuordnung auf eine Karteikarte, damit du sie nicht mit Domicil, Element oder Haus verwechselst.\n\n## Eine Bedingung unter mehreren\nIm traditionellen Vokabular kann die passende Sektion die Bewertung eines Planeten verändern. Daraus folgt aber kein vollständiges Urteil über sein Wirken. Zeichenstellung, Haus, Beziehungen zu anderen Planeten und weitere Bedingungen werden ebenfalls betrachtet. Ein Saturn in einer Tagkarte ist nicht automatisch harmlos, und ein Mars in einer Nachtkarte garantiert keinen guten Konfliktverlauf. Lerne zuerst, Bedingungen getrennt zu erfassen. Eine Tabelle mit mehreren Spalten ist nützlicher als eine Rangliste angeblich guter oder schlechter Menschen.\n\n## Historische Sprache übersetzen\nDie Begriffe Wohltäter und Übeltäter stammen aus einer bestimmten astrologischen Tradition. In der Beratung können sie schnell Angst auslösen oder als moralisches Urteil verstanden werden. Erkläre deshalb, dass die Begriffe historische Kategorien sind. Du kannst anschließend vorsichtig nach unterstützenden Bedingungen, Belastung oder dem Umgang mit Grenzen fragen. Behaupte keine Krankheit, Gewalt oder Katastrophe aus einer Planetengruppe. Eine moderne, respektvolle Anwendung muss den Unterschied zwischen dem Studium alter Regeln und einer Aussage über das reale Leben sichtbar halten.\n\n## Grenzfälle nicht übergehen\nWenn eine Geburt wenige Minuten um Sonnenaufgang liegt und die Zeit ungenau ist, notiere den Sektionsstatus als unsicher. Rechne gegebenenfalls beide technischen Varianten, ohne die günstigere auszuwählen. Für die Lernaufgabe kann eine klare Angabe „Sonne über dem Horizont“ genügen. Bei einer echten Karte sollte diese Angabe aus der Berechnung stammen. Ein Planet im ersten Ganzzeichenhaus kann bereits oberhalb des Aszendentengrades stehen; deshalb ist „Haus eins bedeutet Nacht“ keine sichere Regel.\n\n## Eine begrenzte Vergleichsübung\nVergleiche zwei fiktive Karten, bei denen nur die Tag-/Nachtangabe als Übungsvariable wechselt. Notiere, welche traditionelle Kategorie sich verändert und welche Informationen gleich bleiben. Anschließend formulierst du eine offene Frage, die keine Katastrophe voraussetzt. So lernst du den systematischen Einfluss einer Konvention, ohne aus zwei erfundenen Fällen einen Beleg für ihre Wirksamkeit zu machen. Der wichtigste Lernerfolg ist, dass du deine Schlussfolgerung auf genau die Daten begrenzt, die tatsächlich vorliegen.",
+      "examples": [
+        {
+          "title": "Acht Uhr ist noch keine Tagkarte",
+          "body": "Lea bekommt zwei fiktive Datensätze mit derselben lokalen Uhrzeit acht Uhr, aber unterschiedlichen Orten und Jahreszeiten. Marina entscheidet nicht anhand der Uhrzeit über die Sektion. In der Übung wird für eine Karte die Sonne über, für die andere unter dem Horizont angegeben. Erst damit ordnet sie Tag und Nacht zu. Sie hält fest, dass die Gruppenregel von der lokalen Himmelslage abhängt und nicht vom Gefühl, wann ein normaler Arbeitstag beginnt."
+        },
+        {
+          "title": "Ein unsicherer Sonnenaufgang",
+          "body": "Samirs erfundene Geburtsangabe liegt ungefähr am Sonnenaufgang und ist auf zehn Minuten gerundet. Marina markiert die Sektion als ungeklärt. Sie vermeidet eine präzise Rangfolge der Planeten, die diese Ungewissheit verschweigen würde. Für das Lernen vergleicht sie beide Varianten und notiert nur den Unterschied der Kategorien. Im Gespräch bleibt sie beim aktuellen Anliegen. Eine ungeklärte technische Voraussetzung wird nicht durch eine besonders überzeugende psychologische Geschichte ersetzt oder nach dem gewünschten Ergebnis ausgewählt."
+        }
+      ],
+      "practice": {
+        "prompt": "Gegeben: Sonne sicher unter dem Horizont, Jupiter und Mars in unbekannten Zeichen. Bestimme die Sektion und erkläre, was du daraus noch nicht ableiten kannst.",
+        "model_answer": "Die sicher unter dem Horizont stehende Sonne kennzeichnet in dieser Übung eine Nachtkarte. Zur Nachtgruppe gehören Mond, Venus und Mars; Mars gehört damit zur passenden Gruppe. Jupiter gehört zur Tagesgruppe. Mehr behaupte ich aus diesen Angaben nicht. Mir fehlen die Zeichen, Häuser, Aspekte und weitere Bedingungen, und selbst eine vollständige traditionelle Bewertung wäre keine bewiesene Aussage über bestimmte Ereignisse. Ich würde insbesondere nicht erklären, Jupiter sei schlecht oder Mars garantiere einen positiven Konflikt. In einer Lerntabelle trage ich für beide Planeten die Gruppenzugehörigkeit ein und markiere die übrigen Spalten als unbekannt. Eine mögliche Gesprächsfrage könnte nach hilfreichen Bedingungen für klare Grenzen fragen, sofern dies zum Anliegen passt. Sie wäre eine eigene, offene Übersetzung und keine sichere Folgerung aus der Sektion. Bei einer echten Karte würde ich zusätzlich die Herkunft und Genauigkeit der Geburtszeit dokumentieren.",
+        "rubric": [
+          "Nacht wird aus der Horizontlage der Sonne bestimmt.",
+          "Mars und Jupiter werden den richtigen Gruppen zugeordnet.",
+          "Fehlende Bedingungen bleiben offen.",
+          "Historische Kategorien werden nicht als Ereignisgarantie benutzt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was bestimmt Tag oder Nacht in dieser Übung?",
+          "options": [
+            "Die Arbeitszeit der Person",
+            "Die Zeichenposition des Mondes",
+            "Die Sonne über oder unter dem lokalen Horizont"
+          ],
+          "correct_index": 2,
+          "explanation": "Sektion bezieht sich auf die örtliche Horizontlage der Sonne."
+        },
+        {
+          "id": "q2",
+          "question": "Welcher Planet gehört zur Tagesgruppe?",
+          "options": [
+            "Saturn",
+            "Venus",
+            "Mars"
+          ],
+          "correct_index": 0,
+          "explanation": "Die Tagesgruppe umfasst Sonne, Jupiter und Saturn."
+        },
+        {
+          "id": "q3",
+          "question": "Was tust du bei unklarer Zeit direkt am Sonnenaufgang?",
+          "options": [
+            "Die günstigere Variante wählen",
+            "Die Sektion als unsicher markieren",
+            "Immer eine Tagkarte annehmen"
+          ],
+          "correct_index": 1,
+          "explanation": "Ein Grenzfall muss anhand der Daten geklärt oder als unsicher belassen werden."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/transcripts/tap-ep-274-transcript-sect-in-astrology-day-and-night-charts/",
+          "title": "Sect in Astrology: Day and Night Charts",
+          "author": "Chris Brennan",
+          "note": "Originaltranskript zur traditionellen Tag-/Nachtunterscheidung. Eigene Beispiele und vorsichtige Gesprächsübersetzung; historische Wertungen werden nicht als Personenurteil übernommen.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-hellenistisch-03",
+      "title": "Traditionelle Herrscher als Verweiskette",
+      "summary": "Verfolge die Zuständigkeit eines Hauses über seinen Zeichenherrscher.",
+      "objective": "Du verwendest die traditionelle Siebenerzuordnung konsequent und zeichnest eine nachvollziehbare Herrscherkette.",
+      "level": "deepening",
+      "minutes": 35,
+      "body": "## Herrschaft ist eine symbolische Zuordnung\nIn der traditionellen westlichen Astrologie wird jedem Zeichen eines der sieben sichtbaren Gestirne als Domicilherrscher zugeordnet. Sonne und Mond zählen in dieser Sprache mit, obwohl sie astronomisch kein Planet im heutigen Sinn sind. Der Mond gehört zum Krebs, die Sonne zum Löwen. Merkur wird Zwillingen und Jungfrau zugeordnet, Venus Stier und Waage, Mars Widder und Skorpion, Jupiter Schütze und Fische, Saturn Steinbock und Wassermann. Für diese Lektion bleibt genau diese Konvention durchgehend bestehen.\n\n## Keine stillen Systemwechsel\nModerne Schulen verbinden Uranus mit Wassermann, Neptun mit Fische und Pluto mit Skorpion. Das ist eine andere Zuordnung und darf als solche verglichen werden. In einer traditionellen Profektion ersetzt du den traditionellen Herrscher jedoch nicht unbemerkt durch einen äußeren Planeten. Sonst ändert sich die Methode mitten in der Rechnung. Schreibe die verwendete Tabelle auf das Arbeitsblatt. Du musst keine Schule für alle Zeiten wählen; du musst nur im konkreten Vergleich erkennen lassen, nach welchen Regeln du arbeitest.\n\n## Ein Haus verweist auf seinen Herrscher\nNimm ein Haus mit dem Zeichen Waage. Sein traditioneller Herrscher ist Venus, unabhängig davon, ob im Haus ein Planet steht. Suche dann Venus im gegebenen Horoskop und notiere ihr Zeichen und ihr Haus. Dadurch entsteht eine Verknüpfung zwischen dem ursprünglichen Themenbereich und dem Ort des Herrschers. Ein leeres Haus ist also nicht bedeutungslos innerhalb dieser Technik. Es wird auch nicht automatisch schwach. Die Verweiskette ist zunächst eine Struktur der Interpretation, keine Kausalkette im Leben.\n\n## Die Kette weiterführen\nWenn Venus in Zwillinge steht, verweist ihr Zeichen auf Merkur. Steht Merkur in Jungfrau, erreicht die Kette in dieser Konvention einen Planeten im eigenen Domicil. Du kannst dort für diese Übung stoppen. Es kann auch eine Schleife entstehen: Venus in Widder und Mars in Stier verweisen aufeinander. Eine solche gegenseitige Zuordnung nennt man im einfachen Domicilsinn gegenseitige Rezeption. Daraus folgt noch nicht, dass jedes beteiligte Thema problemlos funktioniert; weitere Bedingungen können unterschiedlich gewichtet werden.\n\n## Nicht zu viele Verbindungen erzählen\nEine lange Kette kann verführerisch sein, weil sich viele Lebensbereiche miteinander verknüpfen lassen. Begrenze die Auslegung auf das aktuelle Anliegen und auf zwei nachvollziehbare Schritte. Bei Leas Workshop könnte eine Verbindung von Gruppenarbeit und Kommunikation eine Frage nach ihrem Austausch mit Teilnehmenden anregen. Du brauchst daraus keine Geschichte über ihre gesamte Herkunft, Beziehung und Zukunft zu bauen. Prüfe, ob die Person den vorgeschlagenen Zusammenhang tatsächlich erlebt und welche konkrete Situation sie dazu nennen kann.\n\n## Eine Zeichnung statt eines Etiketts\nZeichne Pfeile zwischen Haus, Zeichenherrscher und dessen Standort. Beschrifte jeden Pfeil mit der Regel, nicht mit einer psychologischen Behauptung. Anschließend ergänze eine Frage in Alltagssprache. So kann eine andere Lernende deinen Gedankengang prüfen und einen Fehler in der Herrschertabelle erkennen. Die Methode wird besonders nützlich, wenn du technische Zuordnung und persönliche Bedeutung getrennt halten kannst. Ein korrekt gezeichneter Pfeil belegt die verwendete Konvention, während die Antwort des Menschen erst im Gespräch entsteht.",
+      "examples": [
+        {
+          "title": "Ein leeres Haus hat einen Verweis",
+          "body": "Leas Übungskarte hat Waage im dritten Ganzzeichenhaus, ohne Planeten darin. Venus steht vorgegeben in Zwillinge im elften Haus. Marina zeichnet den Verweis vom dritten Haus zu Venus im elften. Als mögliche Frage verbindet sie alltäglichen Austausch und Gruppen: Welche Rückmeldungen aus einer Lerngruppe helfen Lea beim Erklären? Sie behauptet nicht, ein leeres Haus bedeute fehlende Kommunikationsfähigkeit. Die Verbindung ist ein symbolischer Gesprächsvorschlag auf Basis eines erfundenen Datensatzes, keine reale Prognose."
+        },
+        {
+          "title": "Eine Schleife erkennen",
+          "body": "Samirs didaktisches Blatt enthält Venus in Widder und Mars in Stier. Marina ordnet Widder Mars und Stier Venus zu. Die Pfeile führen deshalb wechselseitig zurück. Sie benennt die gegenseitige Domicilrezeption und stoppt die Zeichnung, statt endlos weiterzugehen. Für eine Deutung wären weitere Bedingungen nötig. Insbesondere erklärt sie nicht, dass jede Beziehung dadurch harmonisch sein müsse. Samir lernt zunächst eine formale Struktur und kann später prüfen, welche offene Frage dazu überhaupt hilfreich wäre."
+        }
+      ],
+      "practice": {
+        "prompt": "Nutze die traditionelle Tabelle: Ein Haus liegt in Fische, Jupiter steht in Zwillinge, Merkur in Jungfrau. Zeichne die Kette und nenne einen typischen Systemfehler.",
+        "model_answer": "Ich beginne beim Haus in Fische. In der hier festgelegten traditionellen Zuordnung ist Jupiter sein Herrscher. Da Jupiter in Zwillinge steht, verweist seine Zeichenstellung auf Merkur. Merkur steht in Jungfrau und damit in einem eigenen Domicil; für diese einfache Übung stoppt die Kette hier. Ich zeichne also Haus in Fische → Jupiter in Zwillinge → Merkur in Jungfrau. Einen typischen Fehler würde ich begehen, wenn ich zunächst Neptun als Fischeherrscher einsetzte, später aber traditionelle Regeln beanspruchte. Ein Vergleich beider Schulen wäre möglich, müsste jedoch als eigener Vergleich beschriftet werden. Aus der Kette allein kenne ich weder die Hauspositionen der beiden Planeten noch die Lebensgeschichte einer Person. Eine persönliche Frage würde ich erst entwickeln, wenn das Anliegen und die fehlenden Angaben klar sind. Die korrekte Zuordnung zeigt zunächst nur, dass ich die gewählte Methode konsistent anwenden kann.",
+        "rubric": [
+          "Fische wird traditionell Jupiter zugeordnet.",
+          "Zwillinge verweist auf Merkur.",
+          "Merkur in Jungfrau beendet diese einfache Kette.",
+          "Moderne und traditionelle Herrscher werden nicht still vermischt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Wer herrscht in dieser traditionellen Tabelle über Wassermann?",
+          "options": [
+            "Uranus",
+            "Saturn",
+            "Neptun"
+          ],
+          "correct_index": 1,
+          "explanation": "Die Siebenerzuordnung verwendet Saturn für Steinbock und Wassermann."
+        },
+        {
+          "id": "q2",
+          "question": "Ist ein leeres Haus ohne Bezug in der Herrschertechnik?",
+          "options": [
+            "Ja, es wird immer ignoriert",
+            "Nur wenn es das erste Haus ist",
+            "Nein, sein Zeichenherrscher kann betrachtet werden"
+          ],
+          "correct_index": 2,
+          "explanation": "Die Technik verfolgt den Herrscher unabhängig von einer Besetzung des Hauses."
+        },
+        {
+          "id": "q3",
+          "question": "Venus in Widder und Mars in Stier bilden welche einfache Struktur?",
+          "options": [
+            "Gegenseitige Domicilrezeption",
+            "Eine astronomische Konjunktion",
+            "Eine sichere Harmoniegarantie"
+          ],
+          "correct_index": 0,
+          "explanation": "Die Planeten stehen wechselseitig in den Domicilen des anderen; eine umfassende Bewertung folgt daraus nicht."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://astrococktail.com/rulerships.html",
+          "title": "Rulerships",
+          "author": "John Townley",
+          "note": "Öffentlicher Autorenartikel beschreibt die symmetrische traditionelle Zuordnung der sieben Gestirne. Die Routing-Übung ist eigenständig.",
+          "checked_at": "2026-10-20"
+        },
+        {
+          "url": "https://theastrologypodcast.com/2018/05/10/essential-dignities-and-debilities-with-charles-obert/",
+          "title": "Essential Dignities and Debilities",
+          "author": "Chris Brennan und Charles Obert",
+          "note": "Primärquelle zum traditionellen Würdensystem mit verlinkter Tabelle. Hier begrenzte Begriffseinführung und eigene Anwendungen, kein Ersatz des vollständigen Werks.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-hellenistisch-04",
+      "title": "Würden lesen, ohne Menschen zu bewerten",
+      "summary": "Unterscheide Domicil, Erhöhung und andere Bedingungen von moralischen Eigenschaften.",
+      "objective": "Du erstellst eine mehrdimensionale Planetentabelle und vermeidest ein pauschales Gut-Schlecht-Urteil.",
+      "level": "deepening",
+      "minutes": 35,
+      "body": "## Eine Fachsprache mit erklärungsbedürftigen Wörtern\nTraditionelle Würden beschreiben in astrologischer Symbolsprache, wie ein Planet zu einem Zeichen oder Zeichenabschnitt steht. Das Wort Würde bewertet dabei nicht den Wert eines Menschen. Ebenso bedeutet Fall nicht, dass eine Person minderwertig oder zum Scheitern bestimmt sei. Diese Unterscheidung gehört an den Anfang jeder Erklärung. Wer die Begriffe ohne Kontext verwendet, kann unnötige Angst auslösen. Für das Lernen erfassen wir zunächst formale Kategorien und prüfen erst danach, ob eine vorsichtige Übersetzung für ein Anliegen hilfreich ist.\n\n## Domicil und Erhöhung unterscheiden\nDomicil ist die Zuordnung eines Zeichens zu seinem traditionellen Herrscher. Erhöhung ist eine weitere überlieferte Zuordnung. Beispielsweise wird Saturn in Waage als erhöht bezeichnet, während Steinbock und Wassermann seine Domicile sind. Die Gegenzeichen zu Domicilen werden als Exil oder Detriment bezeichnet; die Gegenposition zur Erhöhung als Fall. Diese Kategorien sind nicht einfach verschiedene Wörter für dasselbe. Ein Planet kann in einer Tabelle mehrere unterschiedliche Bedingungen haben, weshalb du die Spalten getrennt führen solltest.\n\n## Mehr als eine einzige Kategorie\nTraditionelle Systeme kennen außerdem Triplizitäten, Grenzen beziehungsweise Terms und Dekane. Die genauen Tabellen unterscheiden sich teilweise nach Quelle. Diese Lektion verlangt nicht, jede Unterteilung auswendig zu können. Sie vermittelt die Arbeitsweise: Quelle wählen, Tabelle lesen, konkrete Gradposition prüfen und die verwendete Variante notieren. Erfinde keine Punktwerte, die scheinbar objektive Präzision erzeugen. Eine moderne Zusammenfassung darf nicht behaupten, alle historischen Autoren hätten dieselbe Gewichtung benutzt. Für eine vertiefte Rechnung wäre eine ausdrücklich ausgewählte Tabelle erforderlich.\n\n## Stärke ist nicht gleich angenehmes Ergebnis\nSelbst innerhalb traditioneller Auslegung ist die Fähigkeit eines Planeten, seine Themen deutlich einzubringen, nicht dasselbe wie ein angenehmes Ereignis. Eine starke Mars-Symbolik kann zum Beispiel klare Durchsetzung oder eine intensive Auseinandersetzung als Frage aufwerfen. Die Würde allein entscheidet nicht zwischen diesen Lesarten. Ebenso können Menschen mit als schwierig bezeichneten Positionen hilfreiche Fähigkeiten entwickeln. Eine Planetentabelle ist kein Zeugnis über Charakter, Gesundheit oder beruflichen Wert und ersetzt keine Kenntnis der tatsächlichen Lebensumstände.\n\n## Eine Tabelle mit offenen Feldern\nLege Spalten für Zeichen, Domicilstatus, Erhöhung oder Fall, Haus, Sektion und wichtige Aspekte an. Trage nur Angaben ein, die du wirklich besitzt. Unbekannt bleibt unbekannt. Wenn Saturn in Waage vorgegeben ist, kannst du die Erhöhung notieren; ohne Horizontlage kennst du die Sektion nicht. Ohne weitere Positionen kennst du keine Aspekte. Diese Disziplin verhindert, dass ein bekanntes Schlagwort die fehlenden Informationen überdeckt und eine scheinbar vollständige Deutung erzeugt.\n\n## In eine brauchbare Frage übersetzen\nWähle abschließend einen einzigen Zusammenhang aus deiner Tabelle. Bei einem Saturnthema könnte die Frage lauten, welche Regeln Zusammenarbeit erleichtern und welche zu starr geworden sind. Biete auch eine alternative Lesart an. Die Person kann berichten, dass Regeln gerade gar nicht ihr Thema sind. Dann wird die Frage verworfen. Das Ziel ist eine nachvollziehbare, begrenzte Anwendung einer historischen Symbolsprache. Das Beherrschen ihrer Kategorien belegt Fachwissen über diese Tradition, aber keine sichere Vorhersage des Lebens eines Menschen.",
+      "examples": [
+        {
+          "title": "Saturns verschiedene Spalten",
+          "body": "Leas fiktive Karte enthält Saturn in Waage. Marina schreibt in die Würdenspalte „Erhöhung“, nicht „Domicil“. Die Hausposition und die Sektion sind in dieser Aufgabe unbekannt und bleiben leer. Sie nutzt den Eintrag nicht, um Lea besonders reif oder moralisch überlegen zu nennen. Für ein Gespräch über ihren Workshop wäre höchstens eine offene Frage nach fairen Regeln denkbar. Der technische Begriff wird damit erklärt, ohne zu einem persönlichen Gütesiegel zu werden."
+        },
+        {
+          "title": "Ein Fall ist kein Versagen",
+          "body": "Samir liest auf einem Lernblatt den Ausdruck „Saturn im Fall“ für eine vorgegebene Widderposition. Er befürchtet, dadurch unfähig zu Verantwortung zu sein. Marina erklärt zuerst den historischen Tabellenbegriff und seine Begrenzung. Anschließend fragt sie nach einer tatsächlich gelungenen Verantwortungsübernahme. Diese Erfahrung wird nicht abgewertet. Ein Symbol kann zu Fragen über Tempo und Planung anregen, darf aber keine vorhandenen Fähigkeiten auslöschen oder aus einer Kategorie ein Urteil über Samirs Wert machen."
+        }
+      ],
+      "practice": {
+        "prompt": "Erstelle eine unvollständige, aber ehrliche Tabelle für Saturn in Waage bei unbekannter Geburtszeit. Formuliere eine offene Frage und eine unzulässige Schlussfolgerung.",
+        "model_answer": "In der Zeichenspalte steht Waage. Ich notiere Erhöhung als traditionelle Kategorie; Saturns Domicile wären Steinbock und Wassermann. Die Geburtszeit ist unbekannt, deshalb bleiben Haus und Sektion offen. Auch Aspekte trage ich ohne weitere Positionen nicht ein. Meine Tabelle zeigt damit sowohl Wissen als auch fehlende Grundlagen. Eine mögliche Frage lautet: „Welche gemeinsamen Regeln helfen dir, Verantwortung fair zu verteilen?“ Ich könnte alternativ fragen, ob eine Regel inzwischen zu starr geworden ist. Beide Fragen brauchen eine tatsächliche Rückmeldung. Unzulässig wäre die Schlussfolgerung, die Person sei wegen der Erhöhung automatisch zuverlässig, gesund oder beruflich erfolgreich. Ebenso wenig würde ich ihre Erfahrungen anhand des Tabellenworts korrigieren. Falls ein vertiefter traditioneller Vergleich gewünscht ist, müssten die fehlenden Daten und eine konkrete Quellentabelle ergänzt werden. Die offene Dokumentation ist hier wertvoller als eine scheinbar vollständige Bewertung.",
+        "rubric": [
+          "Erhöhung wird von Domicil unterschieden.",
+          "Unbekannte Häuser, Sektion und Aspekte bleiben offen.",
+          "Die Frage ist konkret und ergebnisoffen.",
+          "Keine moralische oder gesundheitliche Wertung folgt aus der Würde."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was bedeutet „Würde“ hier?",
+          "options": [
+            "Eine traditionelle Planet-Zeichen-Kategorie",
+            "Den Wert eines Menschen",
+            "Eine staatliche Qualifikation"
+          ],
+          "correct_index": 0,
+          "explanation": "Der Begriff gehört zu einem astrologischen Regelsystem und ist kein Personenurteil."
+        },
+        {
+          "id": "q2",
+          "question": "Saturn in Waage wird traditionell wie eingeordnet?",
+          "options": [
+            "Im eigenen Domicil",
+            "Im Fall",
+            "In Erhöhung"
+          ],
+          "correct_index": 2,
+          "explanation": "Saturns Erhöhung wird Waage zugeordnet; seine Domicile sind Steinbock und Wassermann."
+        },
+        {
+          "id": "q3",
+          "question": "Was machst du mit unbekannten Bedingungen?",
+          "options": [
+            "Aus dem stärksten Stichwort ableiten",
+            "Als unbekannt markieren",
+            "Durch einen Durchschnittswert ersetzen"
+          ],
+          "correct_index": 1,
+          "explanation": "Fehlende Voraussetzungen dürfen nicht still ergänzt werden."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2018/05/10/essential-dignities-and-debilities-with-charles-obert/",
+          "title": "Essential Dignities and Debilities",
+          "author": "Chris Brennan und Charles Obert",
+          "note": "Primärquelle zum traditionellen Würdensystem mit verlinkter Tabelle. Hier begrenzte Begriffseinführung und eigene Anwendungen, kein Ersatz des vollständigen Werks.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-hellenistisch-05",
+      "title": "Ganzzeichenaspekte und Gradabstände vergleichen",
+      "summary": "Erkenne, wann Zeichenbeziehung und exakter Winkel unterschiedliche Informationen liefern.",
+      "objective": "Du berechnest einen kleineren Winkel und beschreibst daneben die Ganzzeichenbeziehung korrekt.",
+      "level": "deepening",
+      "minutes": 35,
+      "body": "## Zwei Arten, eine Beziehung zu beschreiben\nEine Ganzzeichenbeziehung betrachtet zuerst die Zeichen, in denen zwei Planeten stehen. Eine gradbezogene Betrachtung untersucht ihre tatsächlichen Längen und den Abstand zu einem exakten Winkel. Beide Ebenen können zusammenpassen, müssen es aber nicht. Ein Planet am Anfang eines Zeichens und ein anderer am Ende eines entsprechend verbundenen Zeichens können einen großen Abstand vom exakten Winkel haben. Schreibe deshalb zwei Ergebnisse auf, statt eine Ebene unbemerkt durch die andere zu ersetzen.\n\n## Zeichenbeziehungen abzählen\nVon einem Ausgangszeichen aus stehen das dritte und elfte Zeichen in einer Sextilbeziehung, das vierte und zehnte in einer Quadratbeziehung, das fünfte und neunte in einer Trigonbeziehung und das siebte in Opposition. Das Ausgangszeichen wird beim Zählen als eins mitgezählt. Planeten im selben Zeichen sind zeichenweise zusammen anwesend; ihr genauer Abstand kann trotzdem groß sein. Die übrigen Zeichen bilden in diesem begrenzten Hauptaspektschema keine solche Beziehung. Traditionelle Texte verwenden dafür unter anderem den Begriff Aversion.\n\n## Gradabstände unabhängig rechnen\nWandle beide Positionen in Gesamtlängen zwischen null und 360 Grad um. Subtrahiere den kleineren vom größeren Wert. Ist das Ergebnis größer als 180 Grad, ziehst du es von 360 ab, um den kleineren Kreiswinkel zu erhalten. Vergleiche dann mit null, sechzig, neunzig, hundertzwanzig oder hundertachtzig Grad. Der Abstand zum jeweiligen exakten Winkel ist der Orbis. Welche Orbisgrenze du akzeptierst, ist eine gewählte Auslegungsregel und wird vor dem Vergleich notiert.\n\n## Ein bewusst widersprüchliches Beispiel\nNimm einen Planeten bei 29 Grad Widder und einen bei 1 Grad Löwe. Die Zeichen Widder und Löwe stehen in Trigonbeziehung. Die Gesamtlängen lauten aber 29 und 121 Grad; ihr Abstand beträgt 92 Grad. Gradbezogen liegt der Abstand nahe einem Quadrat, nicht nahe einem exakten Trigon. Dieses Beispiel zeigt, warum du deine Methode nennen musst. Es beweist nicht, dass eine Schule falsch ist. Es macht sichtbar, dass zwei Verfahren unterschiedliche Merkmale des gleichen Datensatzes beschreiben.\n\n## Aversion nicht psychologisieren\nWenn zwei Zeichen in diesem Schema keine Hauptaspektbeziehung bilden, heißt das nicht, dass zwei Menschen einander nicht sehen können oder ein Lebensbereich unvermeidlich scheitert. Der historische Ausdruck beschreibt eine interne Regel. Übersetze ihn nur vorsichtig in eine mögliche Frage nach Verbindung oder Aufmerksamkeit. Eine fehlende Ganzzeichenbeziehung ist auch nicht automatisch eine fehlende gradbezogene Nähe. Besonders über Zeichengrenzen hinweg können Planeten dicht beieinanderliegen. Solche Fälle sollten klar beschriftet und nicht mit widersprüchlichen Kurzurteilen versehen werden.\n\n## Eine vergleichbare Notiz\nDein fertiges Blatt enthält Positionen, Gesamtlängen, Ganzzeichenbeziehung, kleineren Winkel, vorab gewählten Orbis und eine mögliche Frage. Wenn die Ergebnisse auseinandergehen, bleibt der Unterschied sichtbar. Frage im Gespräch nach einem konkreten Erleben, statt die Person zwischen zwei vermeintlich wahren Charakterbildern wählen zu lassen. Für das technische Lernen zählt, dass jemand deine Rechnung nachvollziehen kann. Für die Symbolarbeit zählt, dass du offen mit mehreren Lesarten umgehst und keine davon allein durch eine geschickte Winkelwahl nachträglich beweist.",
+      "examples": [
+        {
+          "title": "Ein Quadrat nach Zeichen",
+          "body": "Leas Übung enthält Merkur bei 4 Grad Stier und Saturn bei 25 Grad Löwe. Stier und Löwe stehen in Quadratbeziehung. Die Längen 34 und 145 Grad ergeben jedoch 111 Grad Abstand; zu einem exakten Quadrat fehlen 21 Grad. Marina notiert beide Ergebnisse. Wenn ihre gradbezogene Orbisregel nur sechs Grad erlaubt, ist dort kein Quadrat vorhanden. Die zeichenweise Beziehung bleibt eine andere, ausdrücklich benannte Beschreibung desselben erfundenen Datensatzes."
+        },
+        {
+          "title": "Nähe über einer Grenze",
+          "body": "Samirs didaktische Karte setzt Venus auf 29 Grad Fische und Mars auf 1 Grad Widder. Marina rechnet den kleineren Abstand mit zwei Grad. Nach einer gradbezogenen Regel kann das eine enge Konjunktion sein, während die Planeten nicht im selben Zeichen stehen. Sie vermerkt diesen Unterschied, statt die Zeichen zu verschieben. Eine mögliche Gesprächsfrage würde zusätzlich das Anliegen berücksichtigen. Die geometrische Nähe allein erklärt keine tatsächliche Beziehung oder einen bestimmten Konfliktverlauf."
+        }
+      ],
+      "practice": {
+        "prompt": "Berechne die Beziehung von 28 Grad Zwillinge zu 2 Grad Waage: Ganzzeichenbeziehung, Gesamtlängen, kleinerer Winkel und Abstand zu Quadrat und Trigon.",
+        "model_answer": "Zwillinge beginnt bei 60 Grad, also liegt die erste Position bei 88 Grad Gesamtlänge. Waage beginnt bei 180 Grad; die zweite Position liegt bei 182 Grad. Die Differenz beträgt 94 Grad und ist bereits der kleinere Kreiswinkel. Von einem exakten Quadrat bei 90 Grad ist sie vier Grad entfernt, von einem exakten Trigon bei 120 Grad dagegen sechsundzwanzig Grad. Zeichenweise stehen Zwillinge und Waage in Trigonbeziehung. Ich notiere deshalb „Ganzzeichen-Trigon; gradbezogen nahe Quadrat“ und nenne die verwendete Orbisregel, bevor ich einen Aspekt akzeptiere. Der Unterschied ist kein Rechenfehler, sondern entsteht aus zwei verschiedenen Betrachtungsebenen. Ich würde daraus keine feste Eigenschaft einer Person ableiten. Für eine symbolische Anwendung könnte ich beide Lesarten nebeneinander prüfen, müsste aber offenlegen, welcher Gedankenschritt aus welchem Verfahren stammt und welche tatsächliche Rückmeldung noch fehlt.",
+        "rubric": [
+          "Gesamtlängen 88 und 182 Grad stimmen.",
+          "Der kleinere Winkel beträgt 94 Grad.",
+          "Vier Grad zum Quadrat und 26 Grad zum Trigon sind korrekt.",
+          "Ganzzeichenbeziehung und Gradbetrachtung bleiben getrennt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was zählt bei einem Ganzzeichenaspekt zuerst?",
+          "options": [
+            "Nur die Geburtsminute",
+            "Die Beziehung der beiden Zeichen",
+            "Die Größe der Planeten"
+          ],
+          "correct_index": 1,
+          "explanation": "Die Zeichenbeziehung ist die Grundlage dieser Betrachtung."
+        },
+        {
+          "id": "q2",
+          "question": "Was bedeutet Aversion in diesem begrenzten Schema?",
+          "options": [
+            "Keine der verwendeten Hauptaspektbeziehungen zwischen den Zeichen",
+            "Eine psychische Störung",
+            "Ein sicherer Beziehungskonflikt"
+          ],
+          "correct_index": 0,
+          "explanation": "Es ist eine technische Kategorie innerhalb der Tradition."
+        },
+        {
+          "id": "q3",
+          "question": "Was ist bei auseinandergehenden Ergebnissen sinnvoll?",
+          "options": [
+            "Den unangenehmen Wert löschen",
+            "Die Zeichen nachträglich verändern",
+            "Beide Methoden mit ihren Ergebnissen kennzeichnen"
+          ],
+          "correct_index": 2,
+          "explanation": "Transparenz ist wichtiger als künstliche Übereinstimmung."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/transcripts/episode-52-whole-sign-houses/",
+          "title": "On Whole Sign Houses",
+          "author": "Chris Brennan",
+          "note": "Originaltranskript behandelt Zeichenbeziehungen und Hauskonventionen. Rechenwerte und Beispiele hier sind unabhängig entwickelte Übungen.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-hellenistisch-06",
+      "title": "Jährliche Profektionen rechnen",
+      "summary": "Bestimme aus vollendetem Alter das aktivierte Ganzzeichenhaus und seinen traditionellen Herrscher.",
+      "objective": "Du rechnest Hausnummer und Jahresherrscher aus, ohne daraus ein Ereignisversprechen zu machen.",
+      "level": "deepening",
+      "minutes": 35,
+      "body": "## Ein einfacher Zählzyklus\nBei der hier gelehrten jährlichen Profektion beginnt das erste Lebensjahr mit dem ersten Haus. Vom Geburtstag an, an dem eine Person ein Jahr alt wird, zählt das zweite Haus, mit zwei Jahren das dritte und so weiter. Mit zwölf Jahren beginnt der Zyklus erneut beim ersten Haus. Die Rechenregel lautet: Rest des vollendeten Alters bei Division durch zwölf, plus eins. Das Ergebnis ist die Hausnummer. Es geht um das vollendete Alter, nicht um das Kalenderjahr und nicht um die Zahl des kommenden Geburtstags.\n\n## Geburtstag statt Jahreswechsel\nEine Person, die heute 29 Jahre alt ist, befindet sich in dieser Methode im sechsten Hausjahr: 29 geteilt durch zwölf lässt den Rest fünf, plus eins ergibt sechs. Erst mit dem dreißigsten Geburtstag wechselt das Jahr ins siebte Haus. Am ersten Januar wird nicht automatisch weitergeschaltet. Wenn du einen historischen Zeitraum untersuchst, prüfe deshalb, ob das Ereignis vor oder nach dem Geburtstag liegt. Ein falsches Alter erzeugt eine falsche Zuordnung, auch wenn die anschließende Deutung überzeugend klingt.\n\n## Das Zeichen und seinen Herrscher bestimmen\nNach der Hausnummer brauchst du das Ganzzeichenschema der Radix. Bei einem Löwe-Aszendenten ist das sechste Haus Steinbock. Traditionell wird Steinbock Saturn zugeordnet; Saturn ist dann der Jahresherrscher dieser einfachen Profektion. Verwende die traditionelle Herrschertabelle konsequent. Die Technik ist nicht identisch mit einem Transit: Sie schaltet symbolisch Zeichen oder Themen weiter, während Transite tatsächliche laufende Positionen betrachten. Erst in einem ausdrücklich beschriebenen weiteren Schritt können beide Ebenen kombiniert werden.\n\n## Eine Themenfrage formulieren\nDas aktivierte Haus liefert innerhalb dieser Tradition ein Themenfeld, kein garantiertes Ereignis. Ein sechstes Hausjahr kann beispielsweise zum Nachdenken über alltägliche Aufgaben und Arbeitsabläufe anregen. Daraus folgt keine Krankheitsprognose. Prüfe, welches Anliegen die Person tatsächlich mitbringt. Lege eine kleine Frage fest, etwa welche Routine entlastet werden soll. Wenn das Thema nicht passt, muss die Erfahrung nicht dem Jahr zugeordnet werden. Eine Profektion soll nicht jeden Monat mit einer vorgegebenen Geschichte überziehen.\n\n## Mehrere Bedingungen getrennt halten\nDer Standort und die Bedingungen des Jahresherrschers können traditionell weiter untersucht werden. Dafür brauchst du weitere Daten und eine klare Reihenfolge. Notiere zuerst die unstrittige Rechnung, dann die verwendeten Symbolregeln und erst zuletzt deine Gesprächsfrage. Vermeide die Schlussfolgerung, ein schwieriger Planet mache das ganze Jahr schlecht. Ein einzelnes Jahr enthält gewöhnlich unterschiedliche Erfahrungen. Ein Rückblick, der nur passende Ereignisse sammelt und widersprechende Wochen auslässt, prüft die Methode nicht fair.\n\n## Eine überprüfbare Lerntabelle\nErstelle für drei aufeinanderfolgende Geburtstage die Hausnummer, das Zeichen und den Herrscher. Prüfe den Übergang über zwölf und über vierundzwanzig besonders sorgfältig. Diese Übung macht die Zählregel dauerhaft verständlich. Für echte Fälle bleibt die Deutung eine spirituelle beziehungsweise traditionelle Reflexionsmethode. Deine technische Kompetenz zeigt sich darin, dass du die Rechnung reproduzieren und ihre Grenzen erklären kannst, ohne aus einem korrekten Restwert eine sichere Kenntnis kommender Lebensereignisse abzuleiten.",
+      "examples": [
+        {
+          "title": "Leas dreißigster Geburtstag",
+          "body": "Leas fiktive Karte hat Löwe als aufsteigendes Zeichen. Mit 29 Jahren zählt das sechste Ganzzeichenhaus Steinbock und damit Saturn als traditioneller Jahresherrscher. Ab dem dreißigsten Geburtstag wird das siebte Haus Wassermann aktiviert, ebenfalls mit Saturn als Herrscher. Marina erkennt, dass zwei aufeinanderfolgende Hausjahre denselben Herrscher haben können. Trotzdem sind die Hausnummern verschieden. Sie verspricht weder einen beruflichen Einschnitt noch eine Beziehungskrise, sondern übt zunächst die eindeutige Zuordnung."
+        },
+        {
+          "title": "Samir vor und nach dem Geburtstag",
+          "body": "Samir wird im erfundenen Beispiel am 10. September 24 Jahre alt. Eine Übung am 1. September gehört noch zum Alter 23 und damit zum zwölften Hausjahr. Eine Übung am 20. September gehört zum ersten Hausjahr. Marina benutzt nicht das Kalenderjahr als Abkürzung. Sie trägt die genaue Grenze in die Tabelle ein. So lässt sich später nachvollziehen, weshalb zwei Termine im selben Monat unterschiedliche Profektionszuordnungen erhalten, ohne dass dafür eine Deutung geändert werden muss."
+        }
+      ],
+      "practice": {
+        "prompt": "Für Aszendent Stier: Bestimme Haus, Zeichen und traditionellen Herrscher im Alter von 26, 27 und 28 Jahren. Erkläre den Zeitpunkt des Wechsels.",
+        "model_answer": "Bei 26 Jahren ergibt die Division durch zwölf den Rest zwei; plus eins führt zum dritten Haus. Vom Stier-Aszendenten aus ist das dritte Zeichen Krebs, dessen traditioneller Herrscher der Mond ist. Mit 27 Jahren folgt das vierte Haus Löwe mit der Sonne als Herrscher. Mit 28 Jahren wird das fünfte Haus Jungfrau mit Merkur aktiviert. Ich notiere für jeden Abschnitt den Geburtstag als Beginn und den folgenden Geburtstag als Grenze. Ein Jahreswechsel im Januar verändert die Zuordnung nicht. Die Tabelle enthält damit eine reproduzierbare Rechnung. Eine mögliche Reflexion zu Kommunikation, privater Grundlage oder kreativem Ausdruck wäre ein weiterer, ausdrücklich interpretierender Schritt. Ich würde aus diesen Themen weder ein bestimmtes Ereignis noch eine Pflicht ableiten. Für eine weitergehende traditionelle Bewertung fehlen außerdem die Positionen und Bedingungen von Mond, Sonne und Merkur in der tatsächlichen Radix.",
+        "rubric": [
+          "Restrechnung plus eins ist korrekt.",
+          "Krebs/Mond, Löwe/Sonne und Jungfrau/Merkur stimmen.",
+          "Der Wechsel erfolgt am Geburtstag.",
+          "Themenfragen werden nicht als sichere Ereignisse dargestellt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welches Hausjahr gehört zu 24 vollendeten Jahren?",
+          "options": [
+            "Das erste",
+            "Das zwölfte",
+            "Das dritte"
+          ],
+          "correct_index": 0,
+          "explanation": "24 lässt bei Division durch zwölf den Rest null; plus eins ergibt Haus eins."
+        },
+        {
+          "id": "q2",
+          "question": "Wann wechselt das jährliche Profektionshaus?",
+          "options": [
+            "Immer am 1. Januar",
+            "Beim nächsten Neumond",
+            "Am Geburtstag"
+          ],
+          "correct_index": 2,
+          "explanation": "Diese Methode zählt nach vollendetem Lebensalter."
+        },
+        {
+          "id": "q3",
+          "question": "Was unterscheidet Profektion und Transit?",
+          "options": [
+            "Es gibt keinen Unterschied",
+            "Profektion ist eine symbolische Fortschaltung, Transit eine laufende Position",
+            "Ein Transit braucht keine Zeitangabe"
+          ],
+          "correct_index": 1,
+          "explanation": "Die beiden Techniken verwenden unterschiedliche Grundlagen und können erst bewusst kombiniert werden."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/transcripts/ep-153-annual-profections-an-ancient-time-lord-technique/",
+          "title": "Annual Profections: An Ancient Time-Lord Technique",
+          "author": "Chris Brennan",
+          "note": "Öffentliche Originalquelle zur jährlichen Profektion; Altersfälle und Gesprächsfragen sind eigene Entwürfe, keine Prognosegarantie.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-hellenistisch-07",
+      "title": "Fortuna und Daimon: Lose von Hand berechnen",
+      "summary": "Rechne zwei mathematische Punkte und prüfe die Tag-/Nachtumkehr.",
+      "objective": "Du wandelst Positionen in Gesamtlängen um und berechnest Fortuna und Daimon nach der angegebenen Konvention.",
+      "level": "deepening",
+      "minutes": 35,
+      "body": "## Mathematische Punkte, keine Körper\nLose, häufig auch arabische Teile genannt, werden aus Abständen zwischen astrologischen Positionen berechnet. Fortuna und Daimon, auch Spirit genannt, verwenden Aszendent, Sonne und Mond. Sie sind keine zusätzlichen Himmelskörper. Die Rechnung markiert einen Punkt auf dem Tierkreis. Traditionelle Deutungen verbinden Fortuna unter anderem mit Umständen und körperlich-materiellen Bedingungen, Daimon mit Absicht und Handeln. Diese Bedeutungen sind Symbolsprache; aus dem Punkt entstehen keine medizinischen Befunde und keine gesicherten Aussagen über Vermögen oder Berufung.\n\n## Die verwendete Formel ausdrücklich nennen\nFür eine Tagkarte verwenden wir hier Fortuna gleich Aszendent plus Mond minus Sonne. Daimon lautet Aszendent plus Sonne minus Mond. Für die Nachtkarte werden diese beiden Formeln vertauscht. Es existieren historische Unterschiede in der Überlieferung und Anwendung; deshalb gehört die gewählte Tag-/Nachtkonvention auf jedes Arbeitsblatt. Die korrekte Sektion muss aus der Horizontlage der Sonne stammen. Wenn sie unsicher ist, können auch die beiden Ergebnisse nicht still als eindeutig behandelt werden.\n\n## Ein vollständiger Rechengang\nNimm eine Tagkarte mit Aszendent 10 Grad Stier, Sonne 20 Grad Steinbock und Mond 5 Grad Schütze. In Gesamtlängen sind das 40, 290 und 245 Grad. Die Sonne liegt auf der oberen Horizonthälfte zwischen Deszendent und Aszendent. Fortuna ergibt 40 plus 245 minus 290, also minus 5 Grad. Addiere 360 Grad: 355 Grad entsprechen 25 Grad Fische. Daimon ergibt 40 plus 290 minus 245, also 85 Grad: 25 Grad Zwillinge. Die Angaben sind didaktisch vorgegeben, ohne eine reale Geburt zu behaupten.\n\n## Rückführung und Gegenkontrolle\nEin Ergebnis unter null wird durch Addition von 360 Grad in den Kreis zurückgeführt. Ein Ergebnis ab 360 wird entsprechend vermindert. Kontrolliere anschließend die Zeichenanfänge in Dreißiggradschritten. Eine zweite Prüfung ist die geometrische Richtung: Für Fortuna in der Tagkarte überträgst du den Abstand von Sonne zu Mond ab dem Aszendenten. Verwechsle dabei nicht den gerichteten Abstand mit dem stets kleineren Aspektwinkel. Lose benötigen eine Richtung, weshalb eine bloße absolute Differenz die Rechnung verändern kann.\n\n## Was du danach noch wissen müsstest\nFür eine traditionelle Auslegung könnten Haus, Zeichenherrscher und weitere Bedingungen des Loses betrachtet werden. Die Rechnung allein genügt nicht. Sense & Stars berechnet diese Punkte in der normalen Radixansicht nicht automatisch als vollständige traditionelle Analyse; diese Lektion arbeitet manuell mit den angegebenen Werten. Übertrage die Zahlen nicht ungeprüft in einen echten Klientenfall. Erst müssen Eingaben, Sektion, Koordinatensystem und Formelvariante geklärt sein. Ein falsches Vorzeichen kann einen ganz anderen Punkt ergeben.\n\n## Die Deutung begrenzen\nEine sinnvolle Reflexionsfrage könnte zwischen gegebenen Umständen und selbst gewählten Handlungen unterscheiden. Welche Bedingung kann die Person gerade nicht ändern, und welchen kleinen Schritt kann sie trotzdem bestimmen? Diese Frage kann nützlich sein, ohne dass ein Los ihre Antwort beweist. Vermeide Aussagen wie „Fortuna garantiert Geld“ oder „Daimon zeigt deine einzige Berufung“. Das Lernziel ist, einen traditionellen Rechenweg zu verstehen und seine symbolische Verwendung verständlich zu begrenzen, nicht aus Mathematik eine unvermeidliche Lebensgeschichte zu erzeugen.",
+      "examples": [
+        {
+          "title": "Ein negatives Ergebnis korrigieren",
+          "body": "Leas vorgegebene Tagkarte führt bei der Fortuna-Rechnung auf minus 5 Grad. Marina schreibt nicht „5 Grad rückläufig“ und verwirft den Wert auch nicht. Sie addiert 360 und erhält 355 Grad, also 25 Grad Fische. Danach überprüft sie die Zeichenanfänge. Das Beispiel zeigt eine rein mathematische Rückführung. Welche persönliche Bedeutung Lea darin sehen könnte, wäre eine getrennte freiwillige Reflexion und folgt weder aus dem Minuszeichen noch aus der korrekten Addition."
+        },
+        {
+          "title": "Eine konsistente Nachtkarte rechnen",
+          "body": "Samirs Übungsblatt gibt Aszendent 10 Grad Stier, Sonne 20 Grad Löwe und Mond 5 Grad Schütze vor. Die Sonne liegt zwischen Aszendent und Deszendent auf der unteren Horizonthälfte: eine Nachtkarte. Marina verwendet deshalb Fortuna gleich Aszendent plus Sonne minus Mond und erhält 295 Grad; Daimon ergibt 145 Grad. Sie dokumentiert sowohl die geometrisch passende Sektion als auch die Formel. Die Werte sind didaktisch gesetzt und beschreiben keinen echten Menschen."
+        }
+      ],
+      "practice": {
+        "prompt": "Gegeben ist eine Tagkarte mit Aszendent 15 Grad Zwillinge, Sonne 10 Grad Wassermann und Mond 20 Grad Waage. Berechne beide Lose nach der hier verwendeten Konvention.",
+        "model_answer": "Ich wandle zuerst alle Angaben um: Der Aszendent liegt bei 75 Grad, die Sonne bei 310 Grad und der Mond bei 200 Grad Gesamtlänge. Der Deszendent liegt bei 255 Grad; die Sonne befindet sich damit auf der oberen Horizonthälfte zwischen Deszendent und Aszendent. Für Fortuna in der Tagkarte rechne ich 75 plus 200 minus 310 und erhalte minus 35 Grad. Nach Addition von 360 sind das 325 Grad, also 25 Grad Wassermann. Für Daimon rechne ich 75 plus 310 minus 200 und erhalte 185 Grad, also 5 Grad Waage. Auf dem Blatt notiere ich die Tagformel, die vorgegebenen Übungsdaten und beide Zwischenschritte. Ich verwende nicht den absoluten Abstand von Sonne und Mond, weil die Richtung Teil der Formel ist. Die Ergebnisse sind mathematische Punkte dieser Konvention und erlauben keine sichere Aussage über Gesundheit, Einkommen oder einen vorgeschriebenen Lebensweg.",
+        "rubric": [
+          "Gesamtlängen 75, 310 und 200 Grad stimmen.",
+          "Fortuna ergibt 25 Grad Wassermann.",
+          "Daimon ergibt 5 Grad Waage.",
+          "Tagstatus, Richtung und Rückführung sind sichtbar."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was sind Fortuna und Daimon?",
+          "options": [
+            "Zusätzliche Monde",
+            "Berechnete Punkte auf dem Tierkreis",
+            "Zwei feste Sternbilder"
+          ],
+          "correct_index": 1,
+          "explanation": "Lose werden aus Positionsabständen gebildet und sind keine Körper."
+        },
+        {
+          "id": "q2",
+          "question": "Welche Fortuna-Formel gilt hier bei Tag?",
+          "options": [
+            "Aszendent plus Mond minus Sonne",
+            "Mond plus Sonne minus Aszendent",
+            "Aszendent minus Mond minus Sonne"
+          ],
+          "correct_index": 0,
+          "explanation": "Die gewählte Tageskonvention überträgt den gerichteten Abstand von Sonne zu Mond auf den Aszendenten."
+        },
+        {
+          "id": "q3",
+          "question": "Was wird aus minus 25 Grad im Bereich 0–360?",
+          "options": [
+            "25 Grad",
+            "385 Grad",
+            "335 Grad"
+          ],
+          "correct_index": 2,
+          "explanation": "Durch Addition eines Vollkreises entsteht die äquivalente positive Länge."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/transcripts/tap-ep-433-transcript-the-lot-of-fortune-and-spirit-in-astrology/",
+          "title": "The Lot of Fortune and Spirit – Transcript",
+          "author": "Chris Brennan und Kira Ryberg",
+          "note": "Originaltranskript für Geometrie und Tag-/Nachtumkehr der Lose. Verwendete Zahlen und Auswertungsblätter sind eigene Beispiele.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-hellenistisch-08",
+      "title": "Ein hellenistisches Arbeitsblatt zusammenführen",
+      "summary": "Verbinde Hauszählung, Herrscher und Profektion in einer begrenzten Fallbearbeitung.",
+      "objective": "Du erstellst eine nachvollziehbare technische Kette und leitest daraus höchstens zwei offene Beratungsfragen ab.",
+      "level": "deepening",
+      "minutes": 35,
+      "body": "## Ein Arbeitsblatt statt vieler Urteile\nNach mehreren Techniken besteht die Versuchung, jede davon sofort auf einen Menschen anzuwenden. Beginne stattdessen mit einem klaren Anliegen und einer begrenzten Reihenfolge. Für diesen Abschlussfall genügt eine Ganzzeichentabelle, eine jährliche Profektion und der Standort ihres traditionellen Herrschers. Sektion kann als zusätzliche Bedingung notiert werden, sofern sie bekannt ist. Lose, Asteroiden und weitere Zeittechniken bleiben zunächst draußen. Eine kleine, sauber nachvollziehbare Bearbeitung ist lehrreicher als ein dichtes Netz sich gegenseitig bestätigender Behauptungen.\n\n## Der vorgegebene Fall\nLea ist in dieser eigenständigen Übung 29 Jahre alt, ihr Aszendent liegt im Löwen, und Saturn wird im Wassermann im siebten Ganzzeichenhaus vorgegeben. Die Sonne steht laut Aufgabenblatt sicher über dem Horizont. Diese Angaben sind didaktisch gesetzt und keine reale Geburtsberechnung. Leas Anliegen lautet: Sie möchte für ihren ersten Workshop verlässliche Absprachen mit einer Mitveranstalterin treffen. Dieses tatsächlich genannte Anliegen bestimmt den Gesprächsrahmen. Es wird nicht erst aus der Karte erfunden.\n\n## Die technische Kette\nMit 29 Jahren ergibt die Profektionsrechnung das sechste Haus. Bei Löwe als erstem Zeichen ist Steinbock das sechste. Sein traditioneller Herrscher ist Saturn. Saturn steht im gegebenen Blatt im siebten Haus und im eigenen Domicil Wassermann. Die bekannte Tagsektion kann getrennt notiert werden. Damit ist die technische Kette vollständig genug für diese Übung. Sie verknüpft im Symbolsystem alltägliche Aufgaben mit Vereinbarungen oder Zusammenarbeit. Sie sagt nicht, ob die Mitveranstalterin zuverlässig ist oder der Workshop wirtschaftlich erfolgreich sein wird.\n\n## Zwei mögliche Gesprächsfragen\nEine erste Frage könnte lauten: „Welche Aufgaben sollen vor dem Workshop ausdrücklich verteilt werden?“ Eine zweite: „Woran erkennt ihr beide, dass eine Absprache für euch passt?“ Die Fragen sind aus dem Anliegen und der symbolischen Verknüpfung entwickelt. Sie enthalten keine Aussage über das Innenleben einer abwesenden Person. Lea kann antworten, dass die Zusammenarbeit bereits gut geregelt ist und sie eher Materialprobleme hat. Dann wird der Schwerpunkt entsprechend verändert, statt eine verborgene Partnerschaftskrise zu behaupten.\n\n## Ein konkretes Ergebnis vereinbaren\nDas Ergebnis könnte eine Tabelle mit Aufgabe, zuständiger Person, Termin und offener Rückfrage sein. Eine fehlende Zusage bleibt als offen markiert. Marina entscheidet nicht für die Mitveranstalterin und trägt keine vermutete Bereitschaft als Zustimmung ein. Lea prüft die Tabelle anschließend gemeinsam mit ihr. So führt die Sitzung zu einer Handlung, die auch ohne astrologische Deutung nachvollziehbar ist. Die Symbolarbeit liefert einen möglichen Zugang; die tatsächliche Vereinbarung entsteht durch Kommunikation zwischen den Beteiligten.\n\n## Rückblick mit Grenzen\nBewerte die Bearbeitung in zwei getrennten Teilen. Technisch: Stimmen Alter, Zeichenfolge, Herrscher und dokumentierte Bedingungen? Praktisch: War die Frage verständlich und half das Arbeitsblatt beim gewählten Anliegen? Ein gutes praktisches Ergebnis beweist nicht rückwirkend, dass Saturn es verursacht hat. Ein Rechenfehler bleibt ein Fehler, auch wenn das Gespräch angenehm war. Diese doppelte Auswertung schützt sowohl die fachliche Sorgfalt als auch die Entscheidungsfreiheit der Person und schafft eine klare Grundlage für weitere Lernschritte.",
+      "examples": [
+        {
+          "title": "Eine technische Korrektur bleibt sichtbar",
+          "body": "Marina zählt in Leas fiktivem Fall zunächst versehentlich das siebte Profektionshaus. Bei der Gegenkontrolle erkennt sie, dass 29 modulo zwölf den Rest fünf ergibt und deshalb das sechste Haus gilt. Sie korrigiert die Tabelle, bevor sie weiterarbeitet. Weil beide Zeichen traditionell Saturn zugeordnet sind, hätte der Fehler im Herrschernamen unbemerkt bleiben können. Das Beispiel zeigt, warum die ganze Kette dokumentiert werden muss und ein passender Endwert allein keine korrekte Rechnung beweist."
+        },
+        {
+          "title": "Samir wählt eine andere Frage",
+          "body": "Samir erhält für eine eigene Übung eine ähnliche Symbolkette, möchte aber nicht über Partnerschaft sprechen. Sein Anliegen ist die Vorbereitung eines Lernabends. Marina fragt deshalb nach Rollen und Aufgaben im gemeinsamen Projekt. Samir erkennt eine unklare Zuständigkeit und formuliert eine Rückfrage. Sie deutet seine Wahl nicht als Vermeidung eines Beziehungsthemas. Die Technik bleibt ein Angebot, während das tatsächlich genannte Anliegen und die Zustimmung den Inhalt der Sitzung bestimmen."
+        }
+      ],
+      "practice": {
+        "prompt": "Bearbeite Leas vorgegebenen Fall in sechs Zeilen: Daten, Profektionsrechnung, Herrscherkette, zwei Fragen, Handlung und Grenze deiner Aussage.",
+        "model_answer": "Meine Datenzeile nennt die didaktischen Angaben: Alter 29, Löwe-Aszendent, Saturn im Wassermann im siebten Ganzzeichenhaus und sicher bekannte Tagsektion. Die Rechnung lautet 29 modulo zwölf gleich fünf, plus eins gleich sechstes Haus. Die Herrscherkette führt vom sechsten Haus Steinbock zu Saturn im siebten Haus Wassermann; dort steht Saturn im eigenen Domicil. Meine beiden Fragen betreffen ausdrücklich verteilte Aufgaben und die Merkmale einer für beide passenden Absprache. Als Handlung erstellt Lea eine kleine Tabelle mit Aufgabe, Zuständigkeit, Termin und noch offener Zusage. Diese Tabelle bespricht sie mit ihrer Mitveranstalterin. Ich kenne deren Gedanken nicht und behaupte weder einen Konflikt noch einen garantierten Erfolg. Im Rückblick prüfe ich Rechnung und Gesprächsnutzen getrennt. Falls Lea das Thema unpassend findet, bleibt ihre Rückmeldung gültig und die symbolische Verbindung wird für dieses Anliegen nicht weiterverwendet.",
+        "rubric": [
+          "Alle Angaben sind als didaktischer Fall gekennzeichnet.",
+          "Die Kette vom Alter über Haus und Zeichen zum Herrscher stimmt.",
+          "Fragen und Handlung passen zum genannten Anliegen.",
+          "Keine Gedanken oder sicheren Ereignisse werden aus der Karte behauptet."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Warum reicht ein richtiger Jahresherrscher allein nicht als Rechenkontrolle?",
+          "options": [
+            "Weil Herrscher zufällig wechseln",
+            "Weil zwei verschiedene Zeichen denselben traditionellen Herrscher haben können",
+            "Weil Häuser keine Rolle spielen"
+          ],
+          "correct_index": 1,
+          "explanation": "Eine falsche Hauszählung kann zufällig beim gleichen Herrschernamen enden."
+        },
+        {
+          "id": "q2",
+          "question": "Woran wird der praktische Nutzen geprüft?",
+          "options": [
+            "An der erzwungenen Zustimmung zur Deutung",
+            "An möglichst vielen Fachwörtern",
+            "An Verständlichkeit und hilfreicher Handlung zum Anliegen"
+          ],
+          "correct_index": 2,
+          "explanation": "Das Gesprächsergebnis wird unabhängig von der technischen Zuordnung beurteilt."
+        },
+        {
+          "id": "q3",
+          "question": "Was bestimmt den Gesprächsrahmen zuerst?",
+          "options": [
+            "Das tatsächlich genannte Anliegen und die Zustimmung",
+            "Die dramatischste historische Deutung",
+            "Die Zahl der verwendeten Techniken"
+          ],
+          "correct_index": 0,
+          "explanation": "Techniken dienen dem vereinbarten Anliegen und ersetzen es nicht."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/transcripts/ep-153-annual-profections-an-ancient-time-lord-technique/",
+          "title": "Annual Profections: An Ancient Time-Lord Technique",
+          "author": "Chris Brennan",
+          "note": "Öffentliche Originalquelle zur jährlichen Profektion; Altersfälle und Gesprächsfragen sind eigene Entwürfe, keine Prognosegarantie.",
+          "checked_at": "2026-10-20"
+        },
+        {
+          "url": "https://theastrologypodcast.com/transcripts/tap-ep-274-transcript-sect-in-astrology-day-and-night-charts/",
+          "title": "Sect in Astrology: Day and Night Charts",
+          "author": "Chris Brennan",
+          "note": "Originaltranskript zur traditionellen Tag-/Nachtunterscheidung. Eigene Beispiele und vorsichtige Gesprächsübersetzung; historische Wertungen werden nicht als Personenurteil übernommen.",
+          "checked_at": "2026-10-20"
+        },
+        {
+          "url": "https://astrococktail.com/rulerships.html",
+          "title": "Rulerships",
+          "author": "John Townley",
+          "note": "Öffentlicher Autorenartikel beschreibt die symmetrische traditionelle Zuordnung der sieben Gestirne. Die Routing-Übung ist eigenständig.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import { api, roleName } from "./api";
 import type { DeploymentMode, Health, User } from "./types";
-import { go, useRoute } from "./hooks";
+import { go, useRequestScope, useRoute } from "./hooks";
 import {
   Avatar,
   Badge,
@@ -24,6 +24,7 @@ import {
 import { LearningPage, AdminPage } from "./Learning";
 import { HelpPage, ContextHelp } from "./Help";
 import { parseWorkspaceRoute } from "./practiceMode";
+import { euroToCents } from "./pricing";
 export type Notify = (message: string) => void;
 export interface PageProps {
   user: User;
@@ -175,6 +176,7 @@ export default function App() {
         restart={() => setTour(true)}
         logout={logout}
         mode={mode}
+        onSaved={(updated) => setUser((current) => current?.id === updated.id ? updated : current)}
       />
     );
   else if (active === "learning" && !isClient)
@@ -860,12 +862,61 @@ function Settings({
   restart,
   logout,
   mode,
+  onSaved,
 }: {
   user: User;
   restart: () => void;
   logout: () => void;
   mode: DeploymentMode;
+  onSaved: (user: User) => void;
 }) {
+  const isCurrent = useRequestScope();
+  const [name, setName] = useState(user.name);
+  const [rate, setRate] = useState(
+    user.hourly_rate_cents == null
+      ? ""
+      : (user.hourly_rate_cents / 100).toFixed(2),
+  );
+  const [busy, setBusy] = useState(false);
+  const [saved, setSaved] = useState("");
+  const [error, setError] = useState("");
+  const lock = useRef(false);
+  async function saveProfile(event: FormEvent) {
+    event.preventDefault();
+    if (lock.current) return;
+    setError("");
+    setSaved("");
+    try {
+      const trimmedName = name.trim();
+      if (!trimmedName) throw new Error("Bitte gib deinen Anzeigenamen ein.");
+      const payload = {
+        name: trimmedName,
+        ...(user.role !== "client"
+          ? { hourly_rate_cents: euroToCents(rate) }
+          : {}),
+      };
+      lock.current = true;
+      setBusy(true);
+      const updated = await api<User>("/auth/me", payload, "PATCH");
+      if (updated.id !== user.id) return;
+      onSaved(updated);
+      if (!isCurrent()) return;
+      setName(updated.name);
+      setRate(
+        updated.hourly_rate_cents == null
+          ? ""
+          : (updated.hourly_rate_cents / 100).toFixed(2),
+      );
+      setSaved(
+        "Dein Profil ist gespeichert. Bereits vereinbarte Sitzungspreise bleiben erhalten.",
+      );
+    } catch (e) {
+      if (isCurrent()) setError((e as Error).message);
+    } finally {
+      lock.current = false;
+      if (isCurrent()) setBusy(false);
+    }
+  }
   return (
     <>
       <div className="page-heading">
@@ -887,6 +938,49 @@ function Settings({
               <Badge>{roleName(user.role)}</Badge>
             </div>
           </div>
+          <form className="profile-settings-form" onSubmit={saveProfile}>
+            <label>
+              Anzeigename
+              <input
+                name="display_name"
+                value={name}
+                onChange={(event) => setName(event.target.value)}
+                maxLength={120}
+                required
+                readOnly={busy}
+                autoComplete="name"
+              />
+              <small>So begrüßt dich deine Übersicht.</small>
+            </label>
+            {user.role !== "client" && (
+              <label>
+                Stundensatz in €
+                <input
+                  name="hourly_rate"
+                  inputMode="decimal"
+                  value={rate}
+                  onChange={(event) => setRate(event.target.value)}
+                  readOnly={busy}
+                  placeholder="Noch nicht festgelegt"
+                />
+                <small>
+                  Für neue Termine: Stundensatz × Dauer. Leer bedeutet ohne
+                  Standardpreis. Einzelne Sitzungspreise kannst du beim Anlegen
+                  anpassen.
+                </small>
+              </label>
+            )}
+            <ErrorBox error={error} />
+            {saved && (
+              <p className="workspace-feedback" role="status">
+                {saved}
+              </p>
+            )}
+            <button className="button primary" disabled={busy}>
+              {busy ? "Wird gespeichert …" : "Profil speichern"}
+              <Icon name="check" size={17} />
+            </button>
+          </form>
           <button className="button secondary" onClick={logout}>
             <Icon name="logout" size={17} /> Sicher abmelden
           </button>

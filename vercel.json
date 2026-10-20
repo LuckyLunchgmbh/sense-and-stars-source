@@ -6,7 +6,7 @@
   "functions": {
     "api/index.py": {
       "maxDuration": 120,
-      "includeFiles": "frontend/dist/**",
+      "includeFiles": "{frontend/dist/**,backend/app/academy_content/*.json}",
       "excludeFiles": "{backend/tests/**,**/tests/**,**/test/**,frontend/src/**,frontend/tests/**,data/**,artifacts/**,docs/**,.qa-postgres.env,.env*}"
     }
   },

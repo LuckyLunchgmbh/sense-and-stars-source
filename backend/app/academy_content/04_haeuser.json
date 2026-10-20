@@ -1,0 +1,895 @@
+{
+  "id": "haeuser",
+  "title": "Die zwölf Häuser: Lebensbereiche verstehen",
+  "summary": "Ordne konkrete Anliegen den Häusern zu und verbinde Besetzung, Herrscher und Gegenachse zu nachvollziehbaren Fragen.",
+  "tradition": "Westliche Häuserlehre; traditionelle Themen und moderne psychologische Reflexion ausdrücklich unterschieden.",
+  "level": "foundation",
+  "prerequisites": [
+    "Grundlagen, Zeichen und Planeten sind hilfreich; ein direkter Einstieg ist möglich."
+  ],
+  "lessons": [
+    {
+      "key": "academy-haeuser-01",
+      "title": "Haus 1: Auftreten und eigener Handlungsspielraum",
+      "summary": "Unterscheide Aszendent, erstes Haus und Selbstbeschreibung.",
+      "objective": "Du kannst das erste Haus aus den Karteneinstellungen bestimmen und drei unterschiedliche Aussagen über Auftreten, Handlung und Selbsterleben formulieren.",
+      "level": "foundation",
+      "minutes": 30,
+      "body": "## Der Anfang der persönlichen Landkarte\nDas erste Haus gehört zu den vier Eckhäusern. Traditionell wird es mit der Person selbst, ihrem Körper und ihrer Erscheinung verbunden. In unserer modernen Reflexionsarbeit fragen wir zusätzlich nach der Art, wie jemand eine Situation betritt. Das ist eine didaktische Erweiterung, keine Messung der Persönlichkeit. Ein Mensch kann nach außen ruhig wirken und innerlich sehr wach sein. Darum werden sichtbares Auftreten, eigenes Erleben und astrologisches Bild getrennt beschrieben. Die Karte ersetzt keine dieser Beobachtungen.\n\n## Aszendent und Haus sind nicht dasselbe\nDer Aszendent ist der Schnittpunkt der aufsteigenden Ekliptik mit dem östlichen Horizont. In der üblichen Placidusdarstellung beginnt dort das erste Haus. Im Ganzzeichenmodell bildet hingegen das gesamte aufsteigende Tierkreiszeichen das erste Haus; der Aszendent bleibt ein genauer Punkt darin. Deshalb kann ein Planet je nach Häusersystem anders eingeordnet werden. Prüfe zunächst die Beschriftung deiner Karte. Ein Zeichenname am Aszendenten ist noch keine Aussage darüber, welche Planeten im ersten Haus stehen.\n\n## Drei Ebenen einer Lesart\nArbeite in dieser Reihenfolge: Welches Zeichen steigt auf? Welche Planeten befinden sich im ersten Haus? Wo steht der gewählte Herrscher des aufsteigenden Zeichens? Verwende für die erste Übung die traditionelle Herrschertabelle, damit die Entscheidung nachvollziehbar bleibt. Bei Jungfrau-Aszendent ist Merkur zuständig. Steht Merkur im zehnten Haus, kannst du eine Verbindung zwischen persönlicher Selbstdarstellung und öffentlicher Tätigkeit untersuchen. Das bedeutet nicht automatisch, dass die Person ausschließlich durch ihren Beruf definiert ist. Die Verbindung ist eine Frage, kein Lebenslauf.\n\n## Von einem Etikett zu einer Szene\nNimm eine fiktive Lehrkonstellation mit Mars im ersten Haus. Statt „aggressiv“ aufzuschreiben, beschreibe drei mögliche Szenen: jemand beginnt entschlossen ein Gespräch, verteidigt eine Grenze oder handelt schneller als beabsichtigt. Dieselbe Symbolik erhält dadurch beobachtbare Varianten. Frage anschließend nach einer konkreten Begegnung. Welche Handlung hat die Person tatsächlich gewählt? Welche Alternative hätte ihr ebenfalls entsprochen? Ein solches Gespräch behandelt den Menschen als handelndes Gegenüber und hält mehrere Ausdrucksmöglichkeiten offen.\n\n## Die Gegenachse mitdenken\nDem ersten steht das siebte Haus gegenüber. Diese Achse lässt sich als Gespräch zwischen eigener Position und gemeinsamer Vereinbarung nutzen. Viel Aufmerksamkeit für andere muss die eigene Richtung nicht aufheben; selbstbewusstes Auftreten muss Beziehungen nicht verhindern. Zeichne zwei Felder auf ein Blatt: „Das bringe ich ein“ und „Das möchte ich abstimmen“. Lass die Person beide ausfüllen. Erst danach vergleichst du ihre Aussagen mit deiner ersten astrologischen Vermutung. So wird keine Antwort in die Karte hineingezwungen.\n\n## Eine belastbare Kurznotiz\nDeine fertige Notiz enthält die verwendete Hausdefinition, eine technische Angabe, zwei mögliche Ausdrucksformen und eine offene Frage. Wenn die Geburtszeit unsicher ist, kennzeichne besonders Aszendent und Häuser als vorläufig. Behaupte dann keinen verlässlichen ersten Eindruck aus einer scheinbar exakten Gradzahl. Als Abschluss kann die Person einen kleinen Versuch wählen, etwa ihren Gesprächswunsch zu Beginn eines Treffens klar zu benennen. Ob dieser Versuch hilfreich war, wird später anhand ihrer Erfahrung besprochen.",
+      "examples": [
+        {
+          "title": "Lea eröffnet ihren Workshop",
+          "body": "Lea ist eine fiktive Person. Für diese Übung wird Jungfrau-Aszendent mit Merkur im zehnten Haus vorgegeben; die Position ist kein berechnetes Geburtshoroskop. Lea sagt, dass sie ihre Begrüßung oft zu lange vorbereitet. Die Lesart „Auftreten mit beruflichem Anspruch verbinden“ wird als Frage angeboten. Sie entscheidet selbst, eine kurze Begrüßung mit drei Sätzen auszuprobieren. Die konkrete Handlung entsteht aus ihrem Anliegen, nicht aus einer vermeintlichen Pflicht des Zeichens."
+        },
+        {
+          "title": "Samir bleibt zunächst still",
+          "body": "Auch Samir ist fiktiv. Ein Übungsblatt nennt Mars im ersten Haus, während Samir im Rollenspiel still zuhört. Marina erklärt sein Schweigen nicht automatisch als unterdrückte Wut. Sie fragt, was er gerade braucht. Samir möchte erst das Thema verstehen und danach deutlich Stellung beziehen. Damit wird sichtbar, dass Initiative auch vorbereitet werden kann. Die anfängliche Vermutung wird anhand seiner Aussage verändert und in der Notiz ausdrücklich als solche markiert."
+        }
+      ],
+      "practice": {
+        "prompt": "Für eine fiktive Person sind Waage-Aszendent und Venus im dritten Haus vorgegeben. Formuliere eine technische Beschreibung, zwei mögliche Verbindungen zwischen Auftreten und Gespräch sowie eine Frage, die auch Widerspruch erlaubt.",
+        "model_answer": "Ich halte zuerst fest, dass die Aufgabe Waage als aufsteigendes Zeichen und Venus im dritten Haus vorgibt. Ohne zusätzliche Angaben kann ich das verwendete Häusersystem nicht prüfen; diese Unsicherheit bleibt in der Notiz. Mit der traditionellen Herrschertabelle verbindet Venus den Aszendenten mit Themen des dritten Hauses. Eine mögliche Lesart wäre, dass die Person ihre eigene Position im Gespräch entwickelt. Eine zweite wäre, dass sie viel Aufmerksamkeit auf eine verständliche, verbindliche Sprache legt, dabei aber gelegentlich ihre erste spontane Antwort zurückstellt. Keine dieser Varianten ist eine Tatsachenfeststellung. Ich frage: „Wie findest du in einem neuen Gespräch heraus, was du selbst sagen möchtest?“ Wenn die Person sich sofort sicher äußert und Sprache kein besonderes Thema ist, darf sie das genauso berichten. Als praktischen Versuch könnte sie einen eigenen Wunsch vor einem Treffen in einem Satz notieren. Ob das hilfreich ist, entscheidet ihre Erfahrung.",
+        "rubric": [
+          "Aszendentpunkt und Hausdefinition werden unterschieden.",
+          "Die Herrscherverbindung wird technisch nachvollziehbar benannt.",
+          "Zwei unterschiedliche Ausdrucksmöglichkeiten bleiben offen.",
+          "Die Frage erlaubt ein unpassendes Ergebnis."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was bezeichnet der Aszendent?",
+          "options": [
+            "Das gesamte erste Haus",
+            "Einen genauen Horizontpunkt auf der Ekliptik",
+            "Den stärksten Planeten"
+          ],
+          "correct_index": 1,
+          "explanation": "Der Aszendent ist ein berechneter Punkt. Die Hausfläche hängt zusätzlich vom Häusersystem ab."
+        },
+        {
+          "id": "q2",
+          "question": "Welche Aussage folgt im Ganzzeichenmodell aus Jungfrau-Aszendent?",
+          "options": [
+            "Jungfrau bildet das erste Haus",
+            "Das erste Haus beginnt grundsätzlich erst bei15°Jungfrau",
+            "Merkur muss im ersten Haus stehen"
+          ],
+          "correct_index": 0,
+          "explanation": "Das ganze aufsteigende Zeichen zählt als erstes Haus; der Zeichenherrscher kann an anderer Stelle stehen."
+        },
+        {
+          "id": "q3",
+          "question": "Was ist eine offene Frage zu Mars im ersten Haus?",
+          "options": [
+            "Warum bist du immer aggressiv?",
+            "Wer hat deine Wut verursacht?",
+            "Wie entscheidest du, wann du selbst die Initiative übernimmst?"
+          ],
+          "correct_index": 2,
+          "explanation": "Die dritte Frage macht keine Eigenschaft zur feststehenden Tatsache und lässt unterschiedliche Erfahrungen zu."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2019/11/27/significations-of-the-twelve-houses-part-1/",
+          "title": "The Astrology Podcast · Häuser 1–6",
+          "author": "Chris Brennan, Kelly Surtees und Austin Coppock",
+          "note": "Frei zugängliche Episodenseite zur traditionellen Themenzuordnung, hier Haus 1. Die Gesprächsabläufe, Lehrkonstellationen und Übungen sind eigene didaktische Entwürfe, keine Wiedergabe des Kurses oder Podcasttranskripts.",
+          "checked_at": "2026-10-20"
+        },
+        {
+          "url": "https://cpalondon.com/books/direction-and-destiny-in-the-birth-chart/",
+          "title": "Direction and Destiny in the Birth Chart · Einführung",
+          "author": "Liz Greene über Howard Sasportas / CPA",
+          "note": "Die frei lesbare Einführung beschreibt Sasportas’ Orientierung an Möglichkeiten und eigener Wahl. Das Buch wurde hier nicht vollständig ausgewertet; die Übungsfälle sind eigene Texte.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-haeuser-02",
+      "title": "Haus 2: Eigene Mittel, Werte und tragfähige Entscheidungen",
+      "summary": "Lies Ressourcen differenziert, ohne Wohlstand aus der Karte zu versprechen.",
+      "objective": "Du kannst Besitz, verfügbare Mittel und persönliche Wertentscheidungen auseinanderhalten und eine nachvollziehbare Verbindung zum Hausherrscher herstellen.",
+      "level": "foundation",
+      "minutes": 30,
+      "body": "## Was wirklich verfügbar ist\nDas zweite Haus ist ein Folgehaus und wird traditionell mit Besitz, Einkommen und eigenen Mitteln verbunden. Im Unterschied zu einer bloßen Wunschliste fragt die praktische Arbeit: Worüber kann die Person tatsächlich verfügen? Ein eigenes Werkzeug, eine freie Stunde und ein Geldbetrag sind verschiedenartige Ressourcen. Wir dürfen sie im Gespräch nebeneinander betrachten, aber nicht rechnerisch gleichsetzen. Ein Gefühl von Sicherheit ist wiederum etwas anderes als ein nachprüfbarer Kontostand. Die symbolische Karte liefert keinen Ersatz für diese Unterscheidung.\n\n## Ein eigener Ressourcenplan\nTeile ein Blatt in vier Felder: vorhandene Mittel, laufende Verpflichtungen, gewünschter Spielraum und persönliche Prioritäten. Für einen fiktiven Workshop könnte Lea einen Raum, ein bereits vorhandenes Materialset und zwei freie Abende nennen. Gleichzeitig muss sie ihre alltäglichen Ausgaben berücksichtigen. Das Blatt wird aus ihren Angaben ausgefüllt, nicht aus Planetenstellungen. Erst danach dient das zweite Haus als symbolischer Gesprächsanlass: Was möchte sie aufbauen, bewahren oder bewusst einsetzen? Diese Reihenfolge verhindert, dass eine schöne Deutung praktische Grenzen verdeckt.\n\n## Zeichen und Herrscher verbinden\nLiegt die zweite Häuserspitze im Stier, wählen wir in dieser Übung Venus als Herrscherin. Steht Venus im elften Haus, ergibt sich eine symbolische Verbindung zwischen eigenen Mitteln und Gruppen oder Verbündeten. Daraus folgt keine automatische Einnahmequelle. Du kannst fragen, ob gemeinsame Projekte eine Rolle spielen und welche Vereinbarungen dafür nötig wären. Bei einem anderen Häusersystem könnte die Zuordnung anders aussehen. Schreibe daher die technische Grundlage dazu, bevor du eine Geschichte über Geld und Freundschaften entwickelst.\n\n## Besetzung ist keine Vermögensbilanz\nJupiter im zweiten Haus wird in manchen Schulen mit Erweiterung verbunden. Daraus lassen sich sowohl großzügiger Umgang mit Mitteln als auch eine Neigung zu großen Plänen als Hypothesen entwickeln. Saturn kann in einer modernen Lesart Ordnung, Vorsicht oder Konzentration anregen. Keiner dieser Begriffe sagt voraus, wie reich jemand ist. Ein leeres zweites Haus bedeutet ebenfalls nicht, dass Besitz oder Einkommen fehlen. Die Themenzuordnung bleibt bestehen, und der Herrscher kann als weiterer Bezugspunkt betrachtet werden.\n\n## Die Achse zwei und acht\nDas zweite Haus hilft, eigene Mittel zu sortieren; das achte eröffnet Fragen zu geteilten Mitteln und Verpflichtungen gegenüber anderen. Ein gemeinsamer Raum gehört deshalb nicht einfach in dieselbe Spalte wie ein eigenes Notizbuch. Im Rollenspiel kann Marina fragen: „Was gehört dir, was nutzt ihr zusammen und was ist noch nicht vereinbart?“ Die Antwort ist eine konkrete Sachinformation. Aus ihr lassen sich klare nächste Schritte ableiten, ohne eine finanzielle Entscheidung durch eine astrologische Bewertung zu ersetzen.\n\n## Selbstwert als vorsichtige Erweiterung\nModerne psychologische Deutungen verbinden das zweite Haus manchmal mit Selbstwert. Behandle diese Erweiterung als gewählte Schule, nicht als Grund für eine Diagnose. Der Wert eines Menschen ist weder an Einkommen noch an eine Hausposition gebunden. Eine brauchbare Reflexionsfrage lautet: „Wofür möchtest du deine begrenzte Zeit einsetzen?“ Sie lässt sich durch konkrete Entscheidungen beantworten. Die fertige Arbeitsnotiz sollte benennen, welche Angaben bekannt sind, welche symbolischen Zusammenhänge untersucht wurden und welche praktische Klärung die Person selbst als hilfreich ausgewählt hat.",
+      "examples": [
+        {
+          "title": "Leas Material und Zeit",
+          "body": "Lea plant im fiktiven Fall einen kleinen Kreativabend. Sie besitzt schon Papier und Stifte, hat aber keinen eigenen Raum. Marina trennt vorhandene Mittel von noch zu klärenden Bedingungen. Die Lehrkonstellation Venus im elften Haus dient als Anlass, nach möglichen Kooperationen zu fragen. Lea möchte eine Freundin um Informationen zu einem Gemeinschaftsraum bitten. Es wird weder ein bestimmter Umsatz behauptet noch die Freundschaft als garantierte Geldquelle dargestellt."
+        },
+        {
+          "title": "Eine Karte ohne Planeten im zweiten Haus",
+          "body": "Samirs Lehrkarte zeigt keine Planeten im zweiten Haus. Er fragt, ob das fehlenden finanziellen Erfolg bedeute. Marina erklärt, dass eine unbesetzte Fläche keine fehlende Lebensfunktion darstellt. Sie schaut zunächst nach Zeichen und Herrscher und fragt dann nach seinen tatsächlichen Zielen. Samir möchte seine Arbeitszeit bewusster verteilen. Die anschließende Übung betrifft verfügbare Stunden und selbst gewählte Prioritäten; sie versucht nicht, eine Einkommenshöhe aus der Karte abzuleiten."
+        }
+      ],
+      "practice": {
+        "prompt": "In einer fiktiven Lehrkarte steht der Herrscher des zweiten Hauses im elften. Lea möchte gemeinsam mit zwei Bekannten einen Workshop anbieten. Erstelle drei sachliche Klärungsfragen und zwei mögliche symbolische Lesarten. Trenne eigene und gemeinsame Mittel.",
+        "model_answer": "Ich beginne mit den sachlichen Fragen: Welche Materialien gehören Lea bereits? Wer stellt den Raum bereit? Wie werden gemeinsame Ausgaben und Aufgaben vorab vereinbart? Damit unterscheiden sich eigene Mittel von einer Nutzung, die Zustimmung anderer voraussetzt. Die symbolische Herrscherverbindung könnte erstens die Zusammenarbeit als hilfreichen Rahmen für Leas Ressourcenplanung anregen. Zweitens könnte sie eine Frage nach Abhängigkeit von Gruppenabsprachen eröffnen. Diese beiden Lesarten schließen einander nicht aus, sind aber auch keine Vorhersagen. Ich würde Lea fragen, welche Erfahrung sie mit solchen Kooperationen bisher gemacht hat. Eine konkrete nächste Aufgabe wäre eine gemeinsam bestätigte Liste von Beiträgen und Verantwortlichkeiten. Preise, Ausgaben und mögliche Einnahmen würden aus tatsächlichen Angaben berechnet. Ich würde aus dem Horoskop weder Erfolg versprechen noch einen finanziellen Schritt empfehlen. Eine fachliche Geldentscheidung braucht die passenden sachlichen Grundlagen jenseits der Symbolarbeit.",
+        "rubric": [
+          "Eigene Mittel und gemeinsam genutzte Ressourcen werden getrennt.",
+          "Drei konkrete Klärungsfragen sind enthalten.",
+          "Die Herrscherverbindung wird als Hypothese behandelt.",
+          "Die Karte ersetzt keine finanzielle Berechnung."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was bedeutet ein unbesetztes zweites Haus?",
+          "options": [
+            "Das Einkommen bleibt grundsätzlich niedrig",
+            "Das Thema bleibt vorhanden; Herrscher und Kontext können betrachtet werden",
+            "Alle Geldfragen gehören deshalb ins zehnte Haus"
+          ],
+          "correct_index": 1,
+          "explanation": "Ein Haus benötigt keine Planetenbesetzung, um als Themenbereich gelesen zu werden."
+        },
+        {
+          "id": "q2",
+          "question": "Welche Information entsteht nicht aus einer Hausposition?",
+          "options": [
+            "Die gewählte Themenzuordnung",
+            "Eine symbolische Verbindung zum Herrscherhaus",
+            "Die tatsächliche Höhe eines Kontostands"
+          ],
+          "correct_index": 2,
+          "explanation": "Ein Kontostand benötigt reale Daten. Symbolzuordnungen sind keine Vermögensmessung."
+        },
+        {
+          "id": "q3",
+          "question": "Wofür eignet sich die Gegenüberstellung von Haus2 und Haus8?",
+          "options": [
+            "Eigene und geteilte Mittel unterscheiden",
+            "Erfolg und Misserfolg sicher vorhersagen",
+            "Menschen nach ihrem Wert ordnen"
+          ],
+          "correct_index": 0,
+          "explanation": "Diese Gegenüberstellung ist eine nützliche thematische Ordnung, keine Erfolgs- oder Menschenbewertung."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2019/11/27/significations-of-the-twelve-houses-part-1/",
+          "title": "The Astrology Podcast · Häuser 1–6",
+          "author": "Chris Brennan, Kelly Surtees und Austin Coppock",
+          "note": "Frei zugängliche Episodenseite zur traditionellen Themenzuordnung, hier Haus 2. Die Gesprächsabläufe, Lehrkonstellationen und Übungen sind eigene didaktische Entwürfe, keine Wiedergabe des Kurses oder Podcasttranskripts.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-haeuser-03",
+      "title": "Haus 3: Alltagssprache, Lernen und nahe Verbindungen",
+      "summary": "Übersetze Kommunikation in beobachtbare Situationen statt Persönlichkeitslabels.",
+      "objective": "Du kannst eine Kommunikationsfrage im dritten Haus verorten und zwischen Nachricht, Interpretation und Rückmeldung unterscheiden.",
+      "level": "foundation",
+      "minutes": 30,
+      "body": "## Die nahe Umgebung als Lernraum\nDas dritte Haus ist ein fallendes Haus. Zu seinen traditionellen Themen gehören Geschwister, nähere Wege und alltägliche Verständigung. In unserer Übung wird daraus eine konkrete Beobachtung: Welche Begegnungen und Informationen füllen den gewöhnlichen Tag? Eine kurze Nachricht, ein Gespräch mit einer Nachbarin und eine tägliche Fahrt haben jeweils einen eigenen Kontext. Es ist hilfreich, zunächst diesen Kontext zu benennen. „Kommunikation“ allein ist als Deutung zu groß, weil fast jede Tätigkeit irgendwie Kommunikation enthält.\n\n## Nachricht und Bedeutung auseinanderhalten\nStell dir vor, eine fiktive Person erhält die Nachricht „Wir sprechen morgen“. Der Wortlaut ist bekannt. Die Schlussfolgerung „Mein Gegenüber ist unzufrieden“ ist dagegen eine Interpretation. Das dritte Haus kann als Anlass dienen, genau diesen Übergang zu untersuchen. Schreibe den Wortlaut auf und ergänze mindestens zwei mögliche Bedeutungen. Erst eine Rückfrage liefert zusätzliche Information. Auch ein astrologisches Symbol darf die fehlende Rückmeldung nicht ersetzen. So wird die Arbeit mit Sprache praktisch und überprüfbar.\n\n## Herrscher als Verbindung\nIn einer Lehrkarte beginnt das dritte Haus in Zwillinge; Merkur ist der gewählte Herrscher. Steht Merkur im sechsten Haus, kann Marina nach Zusammenhängen zwischen Alltagssprache und Arbeitsabläufen fragen. Vielleicht benötigt die Person verständliche Übergaben, vielleicht möchte sie bei Routineaufgaben weniger unterbrochen werden. Das sind unterschiedliche Varianten derselben thematischen Brücke. Nenne zunächst die technische Verbindung und prüfe danach, ob sie zur konkreten Frage passt. Ohne diese Prüfung wird aus einem Hausverweis schnell eine beliebige Geschichte.\n\n## Eine hilfreiche Hörübung\nLass im Rollenspiel eine Person zwei Minuten lang von einer gewöhnlichen Situation erzählen. Die andere notiert anschließend drei Dinge: den beobachtbaren Ablauf, die ausdrücklich genannten Gefühle und eine eigene offene Frage. Danach liest sie ihre Zusammenfassung vor. Die erzählende Person korrigiert, was nicht stimmt. Diese Übung wurde für den Lernraum entworfen; sie ist kein Test übersinnlicher Wahrnehmung. Ihr Nutzen liegt darin, hörbare Angaben von den eigenen Ergänzungen zu unterscheiden und die Rückmeldung ernst zu nehmen.\n\n## Nicht alles zu Merkur machen\nDas dritte Haus, das Zeichen Zwillinge und Merkur können verwandte Themen berühren, sind aber unterschiedliche Bestandteile einer Karte. Ein Planet beschreibt eine symbolische Funktion, das Zeichen eine Ausdrucksweise und das Haus einen Lebensbereich. Saturn im dritten Haus muss deshalb nicht „schlechtes Reden“ bedeuten. Als moderne Hypothesen wären sorgfältiges Formulieren, ein Wunsch nach Vorbereitung oder die Erfahrung hoher Ansprüche denkbar. Entscheidend ist, welche konkrete Situation die Person selbst schildert und welche Lesart sie als nützlich erlebt.\n\n## Vom Nahen zum größeren Zusammenhang\nDie Gegenachse führt zum neunten Haus mit seinen Fragen nach größeren Wissensrahmen und Weltbildern. Für die Übung kannst du einen Satz in Alltagssprache und anschließend seine allgemeine Annahme formulieren. „Ich frage vor dem Termin nach“ ist eine Handlung. „Klare Absprachen helfen mir“ ist eine weiter gefasste Haltung. Beide Ebenen sind wichtig. Deine Abschlussnotiz sollte zeigen, wie eine konkrete Rückfrage das Verständnis verändert hat. Ein gelungener Lernschritt ist oft keine brillante Deutung, sondern eine genauer verstandene Nachricht.",
+      "examples": [
+        {
+          "title": "Samirs kurze Nachricht",
+          "body": "Samir erzählt im fiktiven Gespräch, dass er eine knappe Antwort als Ablehnung gelesen hat. Die Lehrkarte nennt Saturn im dritten Haus. Marina bietet nicht sofort eine Deutung über Kommunikationsblockaden an. Sie lässt sich zunächst den genauen Wortlaut nennen und fragt nach dem Anlass. Gemeinsam sammeln sie zwei alternative Bedeutungen. Samir entscheidet, eine konkrete Rückfrage zu stellen. Erst die spätere Antwort zeigt, welche Interpretation in dieser Situation tatsächlich zutraf."
+        },
+        {
+          "title": "Lea erklärt eine Aufgabe",
+          "body": "Lea leitet im Rollenspiel einen Workshop und merkt, dass ihre Anweisungen unterschiedlich verstanden werden. Für die Übung ist Merkur als Herrscher des dritten Hauses im sechsten vorgegeben. Marina nutzt die Verbindung, um nach der praktischen Reihenfolge zu fragen. Lea teilt ihre Erklärung in Material, ersten Schritt und Rückfrage auf. Danach lässt sie eine Teilnehmerin den Ablauf in eigenen Worten wiedergeben. Die Rückmeldung zeigt eine unklare Stelle, die Lea konkret überarbeiten kann."
+        }
+      ],
+      "practice": {
+        "prompt": "Formuliere für „Du antwortest nie richtig“ eine sachliche Beobachtung, zwei mögliche Interpretationen und eine überprüfbare Rückfrage. Ergänze, wie eine symbolische Haus3-Verbindung im Gespräch hilfreich sein könnte.",
+        "model_answer": "Ich ersetze die pauschale Bewertung zunächst durch eine konkrete Szene: „Auf meine Frage nach dem Termin hast du gestern nur mit einem Daumenzeichen reagiert.“ Das beschreibt eine beobachtbare Nachricht und einen bestimmten Anlass. Eine mögliche Interpretation wäre Zustimmung zum vorgeschlagenen Zeitpunkt. Eine andere wäre lediglich die Bestätigung, dass die Nachricht angekommen ist. Meine Rückfrage lautet: „Meinst du mit dem Zeichen, dass Dienstag um zehn für dich passt?“ Sie kann eine klare neue Information liefern. Eine Haus3-Verbindung könnte mich daran erinnern, die alltägliche Verständigung genauer zu untersuchen. Sie entscheidet jedoch nicht, welche Interpretation wahr ist. Wenn das Gegenüber den Termin bestätigt, notiere ich diese Antwort als tatsächliche Rückmeldung. Ich würde außerdem festhalten, welche Formulierung für künftige Absprachen hilfreich sein könnte. Aus einer einzelnen Nachricht leite ich weder einen Charakterfehler noch ein dauerhaftes Beziehungsmuster ab.",
+        "rubric": [
+          "Die Beobachtung enthält eine konkrete Situation statt eines Pauschalurteils.",
+          "Mindestens zwei plausible Bedeutungen werden geprüft.",
+          "Die Rückfrage kann neue Information liefern.",
+          "Astrologischer Anlass und tatsächliche Rückmeldung bleiben getrennt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welche Aussage beschreibt eine Beobachtung?",
+          "options": [
+            "Er will mich nicht ernst nehmen",
+            "Er hat gestern mit einem Daumenzeichen geantwortet",
+            "Sein Merkur macht ihn unzuverlässig"
+          ],
+          "correct_index": 1,
+          "explanation": "Der konkrete Antwortvorgang ist beobachtbar. Absicht und astrologische Erklärung sind zusätzliche Deutungen."
+        },
+        {
+          "id": "q2",
+          "question": "Was verbindet die Achse3/9 in dieser Übung?",
+          "options": [
+            "Eigene Mittel und gemeinsame Verpflichtungen",
+            "Privates Zuhause und öffentliches Auftreten",
+            "Alltägliche Verständigung und übergeordnete Wissensrahmen"
+          ],
+          "correct_index": 2,
+          "explanation": "Das dritte Haus ordnet nahe Verständigung, das neunte größere Lern- und Weltbildzusammenhänge."
+        },
+        {
+          "id": "q3",
+          "question": "Warum sind Haus3, Zwillinge und Merkur nicht austauschbar?",
+          "options": [
+            "Sie bezeichnen Lebensbereich, Zeichenqualität und Planetenfunktion",
+            "Sie dürfen nie gemeinsam betrachtet werden",
+            "Nur Merkur enthält überhaupt Information"
+          ],
+          "correct_index": 0,
+          "explanation": "Die Bausteine können kombiniert werden, behalten dabei aber unterschiedliche Aufgaben in der Deutung."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2019/11/27/significations-of-the-twelve-houses-part-1/",
+          "title": "The Astrology Podcast · Häuser 1–6",
+          "author": "Chris Brennan, Kelly Surtees und Austin Coppock",
+          "note": "Frei zugängliche Episodenseite zur traditionellen Themenzuordnung, hier Haus 3. Die Gesprächsabläufe, Lehrkonstellationen und Übungen sind eigene didaktische Entwürfe, keine Wiedergabe des Kurses oder Podcasttranskripts.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-haeuser-04",
+      "title": "Haus 4: Zuhause, Herkunft und selbst gewählte Zugehörigkeit",
+      "summary": "Erkunde die private Basis, ohne eine Familiengeschichte aus der Karte zu erfinden.",
+      "objective": "Du kannst die vierte Hausposition von der IC-Achse unterscheiden und eine offene Frage nach heutiger Zugehörigkeit entwickeln.",
+      "level": "foundation",
+      "minutes": 30,
+      "body": "## Der private Bezugspunkt\nDas vierte Haus zählt zu den Eckhäusern und wird traditionell mit Eltern, Familie, Zuhause und dem privaten Lebensbereich verbunden. Für eine heutige Beratung bedeutet das zunächst: Welche Form von Zuhause meint die Person überhaupt? Das kann eine Wohnung, eine vertraute Gemeinschaft oder ein selbst gewählter Rückzugsort sein. Biologische Verwandtschaft und erlebte Zugehörigkeit müssen nicht zusammenfallen. Beginne deshalb mit der Sprache des Gegenübers. Ein Hausbegriff soll die Lebenswirklichkeit ordnen helfen, statt eine bestimmte Familienform vorauszusetzen.\n\n## Hausfläche und Achsenpunkt prüfen\nIn der üblichen Placidusdarstellung liegt der Beginn des vierten Hauses am IC, dem Gegenpunkt des MC. Im Ganzzeichenmodell ist das vierte Haus dagegen das vierte ganze Zeichen vom aufsteigenden Zeichen aus gezählt. Der IC-Punkt kann dann innerhalb einer anderen Hausfläche liegen. Beides beschreibt unterschiedliche Konstruktionen einer Karte. Wenn zwei Programme abweichende Hausangaben zeigen, prüfst du daher zuerst System, Geburtszeit und Zeitzone. Du brauchst keine besondere spirituelle Erklärung für eine unterschiedliche technische Einstellung.\n\n## Herkunft ist kein fertiges Drehbuch\nEine moderne psychologische Lesart kann fragen, welche Gewohnheiten jemand aus früheren Lebensumständen kennt und welche er heute behalten möchte. Das ist keine Behauptung, die Karte zeige verborgene Familienereignisse. Gerade Begriffe wie Belastung oder Bindung sollten an konkrete Erzählungen angeschlossen werden. Wenn die Person nichts über ihre Herkunft sprechen möchte, kann die Arbeit beim heutigen Alltag bleiben. Eine hilfreiche Alternative lautet: „Woran merkst du in deiner jetzigen Umgebung, dass du ankommen kannst?“ Diese Frage benötigt keine Offenlegung persönlicher Geschichte.\n\n## Eine Verbindung zum Herrscher\nFür eine Lehrkarte nehmen wir Krebs an der vierten Häuserspitze und den Mond im elften Haus an. Die technische Verbindung führt vom privaten Zuhause zu Gruppen und Freundschaften. Eine mögliche Frage wäre, ob vertraute Menschen zur erlebten Zugehörigkeit beitragen. Eine andere wäre, ob Erwartungen einer Gemeinschaft den privaten Rückzug erschweren. Beide Lesarten bleiben offen. Die tatsächlich berichtete Erfahrung entscheidet, welche Frage weiterverfolgt wird. Aus einer Mondposition wird weder ein bestimmtes Elternteil noch eine Diagnose abgeleitet.\n\n## Die Achse vier und zehn\nDie Gegenüberstellung von privater Basis und öffentlicher Rolle ist besonders in Übergängen nützlich. Lea möchte im fiktiven Fall selbstständig arbeiten und braucht gleichzeitig einen verlässlichen Feierabend. Zeichne dafür zwei Kreise: einen für öffentlich sichtbare Aufgaben und einen für den privaten Bereich. Was darf sich überschneiden, was soll getrennt bleiben? Die Übung führt zu konkreten Absprachen wie Erreichbarkeitszeiten. Sie behauptet nicht, dass eine bestimmte Hausbesetzung diese Grenzen zwingend vorgibt.\n\n## Zugehörigkeit bewusst gestalten\nLass die Person zum Abschluss drei Merkmale eines passenden Alltagsortes benennen. Das können Ruhe, vertraute Gegenstände oder die Möglichkeit ungestörter Gespräche sein. Anschließend wählt sie eine kleine Veränderung aus, die tatsächlich umsetzbar ist. In deiner Notiz stehen ihre eigenen Kriterien neben der symbolischen Ausgangsfrage. Elternzuordnungen unterscheiden sich außerdem zwischen astrologischen Schulen; verwende daher keine starre Gleichung „Haus vier ist immer Mutter“. Klare Begriffe und die tatsächliche Lebensgeschichte sind hilfreicher als eine automatische Rollenverteilung.",
+      "examples": [
+        {
+          "title": "Ein Arbeitsraum wird wieder privat",
+          "body": "Lea arbeitet im fiktiven Fall am Küchentisch und merkt, dass Unterlagen bis spät abends liegen bleiben. Die Haus4/10-Achse dient als Gesprächsstruktur für private Basis und öffentliche Aufgabe. Sie entscheidet, ihre Arbeitsmaterialien nach dem letzten Termin in eine Kiste zu räumen. Das ist ein selbst gewählter praktischer Versuch. Ob er hilft, wird nach einer Woche besprochen; die Karte verspricht weder Entspannung noch einen bestimmten familiären Effekt."
+        },
+        {
+          "title": "Zugehörigkeit ohne Familiengespräch",
+          "body": "Samir möchte in einer Übung keine persönlichen Familienerlebnisse erzählen. Marina respektiert das und fragt nach Orten, an denen er sich heute willkommen fühlt. Er nennt eine kleine Sportgruppe. Die vorgegebene Herrscherverbindung von Haus4 zu Haus11 kann dazu als symbolisches Bild passen. Marina hält dennoch fest, dass die konkrete Information von Samir stammt. Er muss weder ein Herkunftsproblem bestätigen noch eine spirituelle Erklärung für seine Zugehörigkeit übernehmen."
+        }
+      ],
+      "practice": {
+        "prompt": "Eine fiktive Person beschreibt ihr Zuhause als laut und zugleich lebendig. Entwickle zwei offene Fragen, die keine problematische Familiengeschichte voraussetzen. Ergänze einen kleinen, selbst wählbaren Versuch zur Achse4/10.",
+        "model_answer": "Ich beginne mit der Frage: „Welche Seiten dieser lebendigen Umgebung magst du, und wann wünschst du dir etwas anderes?“ Damit behandle ich Lautstärke nicht automatisch als Belastung. Eine zweite Frage lautet: „Wie möchtest du nach einer öffentlichen Aufgabe oder einem Arbeitstag zu Hause ankommen?“ Diese verbindet die Achse vier und zehn mit einer konkreten Alltagssituation. Als Versuch könnte die Person selbst ein kurzes Zeitfenster auswählen, in dem sie ihre Arbeitsunterlagen schließt und über ihre Erreichbarkeit entscheidet. Vielleicht möchte sie danach sofort Gesellschaft, vielleicht zunächst Ruhe. Beide Antworten bleiben gültig. Ich würde die Vereinbarung in ihren eigenen Worten notieren und beim nächsten Gespräch nach der tatsächlichen Erfahrung fragen. Die astrologische Zuordnung ist der Gesprächsanlass. Eine Aussage über Kindheit, Eltern oder ein verborgenes Problem folgt daraus nicht. Wenn das Thema keine Bedeutung hat, kann die Person eine andere Frage wählen.",
+        "rubric": [
+          "Die Fragen lassen positive und schwierige Erfahrungen zu.",
+          "Private Basis und öffentliche Rolle sind erkennbar getrennt.",
+          "Der Versuch ist konkret, klein und freiwillig.",
+          "Es wird keine unbekannte Familiengeschichte behauptet."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was sollte bei abweichenden Haus4-Angaben zuerst geprüft werden?",
+          "options": [
+            "Welches Programm spirituell höher entwickelt ist",
+            "Ob die Person ihre Herkunft verdrängt",
+            "Häusersystem, Geburtszeit und Zeitzone"
+          ],
+          "correct_index": 2,
+          "explanation": "Unterschiedliche Recheneinstellungen können die Hauszuordnung erklären und werden zuerst geprüft."
+        },
+        {
+          "id": "q2",
+          "question": "Welche Frage bleibt offen?",
+          "options": [
+            "Was brauchst du heute, um zu Hause anzukommen?",
+            "Warum war deine Kindheit belastend?",
+            "Welches Elternteil blockiert dich?"
+          ],
+          "correct_index": 0,
+          "explanation": "Die erste Frage setzt keine unbekannte Familiengeschichte voraus."
+        },
+        {
+          "id": "q3",
+          "question": "Ist das IC im Ganzzeichenmodell zwingend die Spitze des vierten Hauses?",
+          "options": [
+            "Ja, das gilt für jedes System",
+            "Nein, Achsenpunkt und Ganzzeichen-Hausfläche sind verschiedene Konstruktionen",
+            "Nur bei einer unbekannten Geburtszeit"
+          ],
+          "correct_index": 1,
+          "explanation": "Die Ganzzeichenhäuser beginnen an Zeichengrenzen; der genaue IC-Punkt bleibt separat erhalten."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2019/11/27/significations-of-the-twelve-houses-part-1/",
+          "title": "The Astrology Podcast · Häuser 1–6",
+          "author": "Chris Brennan, Kelly Surtees und Austin Coppock",
+          "note": "Frei zugängliche Episodenseite zur traditionellen Themenzuordnung, hier Haus 4. Die Gesprächsabläufe, Lehrkonstellationen und Übungen sind eigene didaktische Entwürfe, keine Wiedergabe des Kurses oder Podcasttranskripts.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-haeuser-05",
+      "title": "Haus 5: Spielraum, Gestaltung und Freude",
+      "summary": "Unterscheide kreativen Ausdruck, Publikum und berufliche Verwertung.",
+      "objective": "Du kannst eine spielerische Aufgabe entwickeln und Haus5 von Leistungs- und Berufsfragen abgrenzen.",
+      "level": "foundation",
+      "minutes": 30,
+      "body": "## Etwas aus eigenem Antrieb gestalten\nDas fünfte Haus gehört zu den Folgehäusern. Traditionell werden unter anderem Kinder, Vergnügen und schöpferischer Ausdruck damit verbunden. In diesem Kurs konzentrieren wir uns auf eine eigene praktische Frage: Was möchtest du ausprobieren, auch wenn daraus kein messbarer Erfolg entstehen muss? Ein Bild, ein Lied oder eine kleine Geschichte kann diesen Spielraum eröffnen. Die Übung setzt weder Elternschaft noch künstlerische Begabung voraus. Sie beginnt mit Neugier und mit einer Tätigkeit, die die Person selbst interessant findet.\n\n## Ausdruck und Ergebnis auseinanderhalten\nLea könnte einen Workshop entwerfen, weil sie gern gestaltet. Sobald sie Eintrittspreise, Werbung und Erwartungen des Publikums plant, kommen weitere Lebensbereiche hinzu. Haus fünf kann ihren eigenen kreativen Antrieb ordnen; Haus zehn fragt nach öffentlicher Aufgabe, Haus zwei nach eigenen Mitteln und Haus elf nach Gruppen. Diese Trennung macht das Horoskop nicht komplizierter, sondern die Frage genauer. Eine kreative Tätigkeit muss nicht automatisch zum Beruf werden, und eine berufliche Tätigkeit darf trotzdem Freude enthalten.\n\n## Eine begrenzte Spielübung\nWähle für das Rollenspiel eine Aufgabe mit wenig Material und einem klaren Zeitrahmen. Die fiktive Person zeichnet etwa fünf Minuten lang drei Formen und gibt ihnen anschließend einen Titel. Danach wird nicht gefragt, was das Bild geheimnisvoll über sie verrät. Stattdessen beschreibt sie selbst, was ihr daran gefällt und was sie verändern möchte. Marina kann zuhören und nach dem Entstehungsprozess fragen. Diese Übung ist eine redaktionelle Lernaufgabe, keine Kunsttherapie und kein Verfahren zur Persönlichkeitsmessung.\n\n## Planeten als verschiedene Ausdrucksweisen\nFür eine Lehrkonstellation nehmen wir Saturn im fünften Haus. Eine mögliche moderne Lesart wäre ein Wunsch nach sorgfältiger Gestaltung. Eine andere wäre das Gefühl, erst etwas gut können zu müssen, bevor man es zeigt. Es wäre zu eng, daraus grundsätzlich mangelnde Freude abzuleiten. Mit Venus könnte dagegen die Frage nach Genuss, Auswahl oder einer stimmigen Form auftauchen. Die Person prüft selbst, welche Beschreibung passt. Besonders aufschlussreich ist oft der Vergleich zwischen einer privaten Skizze und einem Ergebnis für ein Publikum.\n\n## Kinder als eigenständige Menschen\nWenn Kinder zum Anliegen gehören, bleiben deren Bedürfnisse und tatsächliche Lebensumstände eigenständig. Die Karte eines Elternteils liefert keine verlässliche Aussage darüber, wie ein Kind sein muss oder welche Zukunft es haben wird. Frage deshalb nach der Beziehung und nach konkreten gemeinsam erlebten Situationen. Auch Kinderlosigkeit oder ein bewusst anderer Lebensentwurf benötigen keine astrologische Rechtfertigung. Das Haus stellt ein Themenfeld bereit; es erteilt niemandem einen Lebensauftrag, eine bestimmte Familienform zu erfüllen.\n\n## Die Gegenachse fünf und elf\nZwischen eigenem Ausdruck und Zugehörigkeit zur Gruppe entstehen interessante Fragen. Möchte jemand etwas teilen, gemeinsam gestalten oder erst allein experimentieren? Keine dieser Varianten ist grundsätzlich höherwertig. Lass die Person eine kleine Tätigkeit auswählen und anschließend festhalten, ob sie dabei eher eigene Freude oder Zustimmung gesucht hat. Beide Motive dürfen vorkommen. Die Auswertung bleibt beschreibend: Was war leicht, was überraschend, was möchte sie wiederholen? Ein sichtbarer Lernschritt besteht darin, den gewünschten Spielraum selbst genauer benennen zu können.",
+      "examples": [
+        {
+          "title": "Leas erster Entwurf",
+          "body": "Lea soll im fiktiven Fall sofort einen perfekten Workshopplan zeigen und merkt, dass sie keine Ideen mehr ausprobiert. Die Lehrkonstellation Saturn im fünften Haus wird als mögliche Frage nach dem Verhältnis von Gestaltung und Anspruch angeboten. Sie entscheidet, zunächst drei unfertige Skizzen nur für sich zu erstellen. Danach wählt sie eine aus. Das Ergebnis ist ein konkreter Arbeitsversuch; es wird nicht als Heilung einer astrologisch festgestellten Blockade bezeichnet."
+        },
+        {
+          "title": "Samir zeigt seine Musik",
+          "body": "Samir spielt im Rollenspiel gern Gitarre, möchte aber nicht auftreten. Marina deutet das nicht als fehlenden Mut. Sie fragt, ob er Musik für sich, mit Freunden oder für ein Publikum machen möchte. Samir wählt einen Abend mit einer vertrauten Person. Die Achse5/11 hilft, eigenen Ausdruck und gemeinsames Erleben auseinanderzuhalten. Sein Wunsch nach einem kleinen Rahmen bleibt ein vollständiger, gültiger Entschluss und muss nicht zu einer Bühne weiterentwickelt werden."
+        }
+      ],
+      "practice": {
+        "prompt": "Entwirf für eine fiktive Person mit hohem Anspruch an ihre kreative Arbeit eine zehnminütige Spielaufgabe. Beschreibe Ziel, Ablauf und drei offene Auswertungsfragen. Vermeide eine Bewertung der Begabung.",
+        "model_answer": "Das Ziel lautet, einen kleinen Gestaltungsprozess zu beobachten, ohne ein vorzeigbares Ergebnis liefern zu müssen. Die Person wählt Papier oder ein digitales Notizfeld. In den ersten drei Minuten sammelt sie drei Formen, Wörter oder Motive. In den nächsten vier Minuten kombiniert sie zwei davon zu einer kleinen Skizze. Die letzten drei Minuten dienen der eigenen Betrachtung. Sie darf die Aufgabe jederzeit verändern oder beenden. Meine Auswertungsfragen wären: „An welcher Stelle warst du neugierig?“, „Wann hast du angefangen, das Ergebnis zu bewerten?“ und „Was möchtest du beim nächsten Mal gleich lassen oder verändern?“ Ich bewerte weder Schönheit noch Talent. Falls eine Haus5-Deutung verwendet wird, dient sie nur als Anlass, über eigenen Ausdruck zu sprechen. Die Person entscheidet selbst, ob sie das Ergebnis behalten, teilen oder verwerfen möchte. Eine berufliche Verwendung oder ein Auftritt ist kein notwendiger nächster Schritt.",
+        "rubric": [
+          "Das Ziel beschreibt Erkundung statt Begabungsprüfung.",
+          "Der Ablauf ist innerhalb von zehn Minuten machbar.",
+          "Drei offene Auswertungsfragen sind enthalten.",
+          "Teilen, Behalten oder Verwerfen bleiben freiwillig."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welche Unterscheidung hilft bei einer kreativen Geschäftsidee?",
+          "options": [
+            "Jede kreative Tätigkeit gehört ausschließlich zu Haus5",
+            "Eigener Ausdruck, öffentliche Rolle und Mittel getrennt betrachten",
+            "Freude lässt sich nicht mit Arbeit verbinden"
+          ],
+          "correct_index": 1,
+          "explanation": "Mehrere Häuser können unterschiedliche Seiten desselben Vorhabens ordnen."
+        },
+        {
+          "id": "q2",
+          "question": "Was folgt aus Saturn im fünften Haus?",
+          "options": [
+            "Die Person kann grundsätzlich keine Freude empfinden",
+            "Sie muss öffentlich auftreten",
+            "Es können verschiedene symbolische Fragen zu Anspruch und Gestaltung angeboten werden"
+          ],
+          "correct_index": 2,
+          "explanation": "Die Position begründet keine feste Eigenschaft oder vorgeschriebene Handlung."
+        },
+        {
+          "id": "q3",
+          "question": "Wer bestimmt, was ein selbst gestaltetes Bild für die Person bedeutet?",
+          "options": [
+            "Die Person beschreibt ihre eigene Erfahrung",
+            "Die Beraterin erkennt darin zuverlässig verborgene Tatsachen",
+            "Die Hausnummer entscheidet die einzig richtige Bedeutung"
+          ],
+          "correct_index": 0,
+          "explanation": "Die eigene Beschreibung bleibt die maßgebliche Rückmeldung; das Bild ist kein diagnostischer Beweis."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2019/11/27/significations-of-the-twelve-houses-part-1/",
+          "title": "The Astrology Podcast · Häuser 1–6",
+          "author": "Chris Brennan, Kelly Surtees und Austin Coppock",
+          "note": "Frei zugängliche Episodenseite zur traditionellen Themenzuordnung, hier Haus 5. Die Gesprächsabläufe, Lehrkonstellationen und Übungen sind eigene didaktische Entwürfe, keine Wiedergabe des Kurses oder Podcasttranskripts.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-haeuser-06",
+      "title": "Haus 6: Arbeitsschritte, Belastung und hilfreiche Routinen",
+      "summary": "Arbeite mit konkretem Alltag, ohne körperliche Beschwerden astrologisch zu erklären.",
+      "objective": "Du kannst Arbeitsabläufe von öffentlicher Rolle unterscheiden und eine freiwillige Routine anhand tatsächlicher Rückmeldungen prüfen.",
+      "level": "foundation",
+      "minutes": 30,
+      "body": "## Der Unterschied zwischen Rolle und Tätigkeit\nDas sechste Haus ist ein fallendes Haus. In traditionellen Zuordnungen erscheinen Arbeit, untergeordnete Tätigkeiten und auch Krankheit. Für unsere Beratungspraxis steht der konkrete Alltag im Mittelpunkt: Was muss tatsächlich getan werden, in welcher Reihenfolge und unter welchen Bedingungen? Das unterscheidet sich von Haus zehn als öffentlicher Rolle. Eine Person kann den Berufstitel lieben und trotzdem mit einzelnen Abläufen unzufrieden sein. Umgekehrt können unscheinbare Tätigkeiten sinnvoll erlebt werden, ohne besondere öffentliche Anerkennung zu erhalten.\n\n## Aus einer großen Klage einen Ablauf machen\nDie Aussage „Mein Alltag ist chaotisch“ enthält noch keinen bearbeitbaren Vorgang. Bitte die fiktive Person, einen einzelnen Morgen oder einen konkreten Termin nachzuerzählen. Was passiert zuerst? Wo fehlt Information? Welche Aufgabe wartet auf eine andere? Schreibe die Schritte in ihrer Reihenfolge auf. Danach markiert die Person selbst die Stelle, an der sie etwas ausprobieren möchte. Diese Prozessbeschreibung ist eine eigene Lernmethode des Kurses. Sie braucht keine Behauptung darüber, welcher Planet das Chaos verursacht.\n\n## Herrscherverbindungen praktisch lesen\nNehmen wir für eine Übung Jungfrau an der sechsten Häuserspitze und Merkur im dritten Haus an. Die technische Verbindung legt eine symbolische Frage nach Verständigung in den alltäglichen Abläufen nahe. Vielleicht fehlt eine klare Terminbestätigung, vielleicht werden Aufgaben mündlich unterschiedlich verstanden. Beide Möglichkeiten können überprüft werden. Steht der Herrscher stattdessen im zweiten Haus, könnte die Person ihre Arbeitsmittel betrachten. Der nächste Schritt folgt aber erst aus dem Gespräch: Eine neue Liste hilft wenig, wenn tatsächlich ein defektes Werkzeug das Problem ist.\n\n## Eine Routine ist ein Versuch\nEine brauchbare Routine hat einen Auslöser, eine kleine Handlung und eine einfache Rückmeldung. Lea könnte nach jedem Termin zwei Minuten lang ihre Materialien ordnen. Der Auslöser ist das Terminende, die Handlung das Einräumen, die Rückmeldung ihre spätere Einschätzung beim nächsten Beginn. Ob sie dadurch leichter startet, wird beobachtet. Die Übung sollte nicht immer weiter wachsen. Wenn sie zusätzliche Last erzeugt, wird sie verkleinert oder beendet. Eine selbst gewählte Routine bleibt veränderbar und ist kein moralischer Beweis für Disziplin.\n\n## Die gesundheitliche Themenzuordnung begrenzen\nHistorische Texte verbinden dieses Haus teilweise mit Krankheit. Daraus entsteht in Sense & Stars keine Möglichkeit, eine Erkrankung, Ursache oder Behandlung aus einer Stellung abzuleiten. Bei tatsächlichen Beschwerden bleibt die passende medizinische Abklärung außerhalb der astrologischen Deutung. Im Gespräch kann Marina nach gewünschten Pausen, Grenzen und organisatorischer Unterstützung fragen, ohne eine Gesundheitswirkung zu versprechen. Auch ein leeres sechstes Haus ist weder ein Gesundheitszeugnis noch ein Warnsignal. Diese Grenze ist Teil einer präzisen Anwendung der Themenlehre.\n\n## Die Achse sechs und zwölf\nDie Gegenachse kann als Frage nach verlässlichem Tun und Raum ohne unmittelbare Leistungsanforderung dienen. Ein ausgefüllter Tag benötigt nicht automatisch eine weitere Optimierungsaufgabe. Lass die Person deshalb benennen, was bewusst unerledigt bleiben darf. In der Abschlussnotiz stehen der konkret beobachtete Ablauf, der gewählte Versuch und ein Zeitpunkt für eine Rückfrage. Die Karte bleibt der Anlass zur Reflexion. Das Urteil über die Alltagstauglichkeit entsteht aus der tatsächlichen Erfahrung mit diesem kleinen Versuch.",
+      "examples": [
+        {
+          "title": "Lea bereitet ihre Termine vor",
+          "body": "Lea beschreibt im fiktiven Fall, dass sie vor jedem Workshop ihre Materialien neu zusammensucht. Marina fragt nach dem konkreten Ablauf und erkennt mit ihr eine fehlende feste Ablage. Die Lehrkonstellation Merkur als Herrscher des sechsten Hauses im dritten dient als Anlass, die Beschriftung zu überprüfen. Lea testet drei klar bezeichnete Fächer. Beim nächsten Gespräch berichtet sie selbst, ob das Suchen leichter geworden ist; eine allgemeine Wirkung wird nicht versprochen."
+        },
+        {
+          "title": "Samir möchte weniger optimieren",
+          "body": "Samir hat im Rollenspiel bereits mehrere Listen und fühlt sich von ihnen bedrängt. Eine vorschnelle Haus6-Deutung würde ihm noch mehr Ordnung empfehlen. Marina fragt stattdessen, welche Liste wirklich gebraucht wird. Samir entscheidet, eine doppelte Aufzeichnung für eine Woche wegzulassen. Der Versuch richtet sich nach seiner Erfahrung. Die astrologische Symbolik dient der Frage nach Alltag und Belastung, nicht dem Urteil, dass er grundsätzlich disziplinierter oder leistungsfähiger sein müsse."
+        }
+      ],
+      "practice": {
+        "prompt": "Eine fiktive Beraterin findet nach Sitzungen ihre Unterlagen schwer wieder. Entwirf einen kleinen Routineversuch mit Auslöser, Handlung und Rückmeldung. Ergänze die Abgrenzung zwischen Alltagsorganisation und einer gesundheitlichen Deutung.",
+        "model_answer": "Als Auslöser wähle ich das Ende einer Sitzung. Die Handlung besteht darin, die zugehörigen Unterlagen in eine eindeutig bezeichnete Mappe oder in den vorgesehenen geschützten digitalen Bereich einzuordnen. Der Versuch soll höchstens zwei Minuten dauern. Als Rückmeldung prüft die Beraterin beim nächsten Termin, ob sie das benötigte Material ohne erneutes Suchen findet. Nach einer Woche entscheidet sie, ob die Ordnung hilfreich war oder angepasst werden muss. Die Aufgabe betrifft einen beobachtbaren Arbeitsablauf. Sie stellt keine Diagnose über Konzentration, Stress oder einen körperlichen Zustand. Eine Haus6-Verbindung kann die Reflexion über Routinen anregen, erklärt aber nicht die Ursache möglicher Beschwerden. Falls der eigentliche Engpass fehlende Informationen oder ungeklärte Zuständigkeiten ist, würde ich den Versuch entsprechend verändern. Die Person darf ihn auch beenden. Eine passende Routine soll eine konkrete Tätigkeit erleichtern und keine neue Verpflichtung nur um ihrer selbst willen erzeugen.",
+        "rubric": [
+          "Auslöser, kleine Handlung und Rückmeldung sind konkret.",
+          "Der Versuch lässt sich verändern oder beenden.",
+          "Öffentliche Rolle und konkrete Tätigkeit werden unterschieden.",
+          "Gesundheitliche Aussagen werden nicht aus der Karte abgeleitet."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welche Frage passt besonders zur Alltagsarbeit mit Haus6?",
+          "options": [
+            "Welchen öffentlichen Titel sollst du tragen?",
+            "Welcher konkrete Schritt erschwert deinen Terminbeginn?",
+            "Welche Krankheit zeigt dein Planet?"
+          ],
+          "correct_index": 1,
+          "explanation": "Die konkrete Ablaufstelle ist beobachtbar und kann mit Zustimmung praktisch bearbeitet werden."
+        },
+        {
+          "id": "q2",
+          "question": "Wie wird der Nutzen einer Routine hier beurteilt?",
+          "options": [
+            "An der Planetenzahl im Haus",
+            "An der Zustimmung der Beraterin",
+            "An der tatsächlichen Erfahrung der Person im vereinbarten Versuch"
+          ],
+          "correct_index": 2,
+          "explanation": "Eine Rückmeldung zur realen Anwendung ist aussagekräftiger als eine symbolische Zuschreibung."
+        },
+        {
+          "id": "q3",
+          "question": "Was folgt aus der historischen Verbindung von Haus6 mit Krankheit?",
+          "options": [
+            "Sie ist eine Themenkonvention, keine Diagnosemöglichkeit",
+            "Ein leerer Bereich beweist Gesundheit",
+            "Ein schwieriger Aspekt bestimmt die passende Behandlung"
+          ],
+          "correct_index": 0,
+          "explanation": "Historische Bedeutungen legitimieren keine medizinischen Schlussfolgerungen aus der Karte."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2019/11/27/significations-of-the-twelve-houses-part-1/",
+          "title": "The Astrology Podcast · Häuser 1–6",
+          "author": "Chris Brennan, Kelly Surtees und Austin Coppock",
+          "note": "Frei zugängliche Episodenseite zur traditionellen Themenzuordnung, hier Haus 6. Die Gesprächsabläufe, Lehrkonstellationen und Übungen sind eigene didaktische Entwürfe, keine Wiedergabe des Kurses oder Podcasttranskripts.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-haeuser-07",
+      "title": "Haus 7: Begegnung und klare Vereinbarungen",
+      "summary": "Lies die Beziehungsachse, ohne aus einer Karte Eigenschaften eines anderen Menschen zu behaupten.",
+      "objective": "Du kannst eigene Wünsche, beobachtbares Verhalten und gemeinsame Absprachen in einer Beziehungssituation unterscheiden.",
+      "level": "foundation",
+      "minutes": 30,
+      "body": "## Ein Gegenüber tritt in den Blick\nDas siebte Haus ist ein Eckhaus und liegt dem ersten gegenüber. Zur traditionellen Themenfamilie gehören Partnerschaften, Verträge und offene Auseinandersetzungen. Gemeinsam ist diesen Feldern eine direkte Beziehung zu einem Gegenüber. Das kann eine Lebenspartnerschaft sein, aber auch eine geschäftliche Zusammenarbeit oder ein einzelnes Beratungsgespräch. In der Übung fragen wir deshalb zuerst, welche konkrete Beziehung gemeint ist. Ohne diesen Bezug wird aus einem vielseitigen Symbol leicht eine zu allgemeine Aussage über Liebe oder Bindung.\n\n## Der Deszendent als genauer Punkt\nDer Deszendent liegt dem Aszendenten auf der Ekliptik genau gegenüber. In einem üblichen Quadrantenhäusersystem beginnt dort Haus sieben. Im Ganzzeichenmodell bildet das gegenüberliegende Zeichen das gesamte siebte Haus; der Deszendent bleibt ein Punkt darin. Wenn der Aszendent bei zwölf Grad Widder liegt, steht der Deszendent bei zwölf Grad Waage. Daraus folgt noch keine Aussage darüber, ob eine Beziehung gelingt. Es ist zunächst eine nachvollziehbare geometrische Angabe, die wir von einer späteren symbolischen Interpretation trennen.\n\n## Von der Zuschreibung zur eigenen Frage\nEine moderne Deutung spricht gelegentlich von Projektion: Eigenschaften, die man besonders beim Gegenüber wahrnimmt, können Anlass zur eigenen Reflexion sein. Das ist keine Erlaubnis, jedes Problem der fragenden Person selbst zuzuschreiben. Wenn jemand eine gebrochene Vereinbarung schildert, prüfen wir zunächst die berichtete Situation. Die Karte beweist weder Schuld noch Unschuld. Eine hilfreiche Frage lautet: „Was hattest du vereinbart, was ist tatsächlich passiert, und was möchtest du jetzt klären?“ Damit bleibt konkretes Verhalten besprechbar.\n\n## Besetzung und Herrscher verbinden\nFür eine fiktive Lehrkarte nehmen wir Waage am Beginn des siebten Hauses und Venus im zweiten Haus. Mit traditioneller Herrschaft verbinden wir Beziehungsthemen mit eigenen Mitteln und Werten. Mögliche Fragen betreffen gemeinsame Ausgaben oder den Umgang mit persönlichen Prioritäten. Venus im zweiten Haus bedeutet dabei nicht, dass die Person Beziehungen kaufen möchte. Auch ein Planet direkt im siebten Haus wird zuerst als zusätzliche Perspektive gelesen. Saturn könnte etwa Verbindlichkeit oder sorgfältige Vereinbarungen ansprechen, ohne eine schwierige Partnerschaft festzuschreiben.\n\n## Ein Gespräch über Vereinbarungen\nLege drei Spalten an: eigener Wunsch, Aussage des Gegenübers und tatsächlich gemeinsame Absprache. Ein Wunsch ist noch keine Zusage. Eine Vermutung über die andere Person gehört nicht in die zweite Spalte, solange diese sich dazu nicht geäußert hat. Im Rollenspiel kann Marina eine präzise Rückfrage üben: „Habe ich richtig verstanden, dass wir uns am Freitag melden?“ Die Antwort wird wörtlich im Sinngehalt festgehalten. So entsteht eine überprüfbare Vereinbarung statt einer astrologisch begründeten Erwartung.\n\n## Die Achse eins und sieben zusammenhalten\nDie eigene Position und die Beziehung müssen nicht gegeneinander ausgespielt werden. Eine Person darf einen Wunsch haben, während die andere ablehnt. Das Lernziel ist nicht, mit der passenden Deutung Zustimmung herzustellen. Am Ende formuliert die fiktive Person eine eigene Grenze und einen verhandelbaren Vorschlag. Marina fragt anschließend, welche Formulierung wirklich zu ihr passt. Eine gute Abschlussnotiz enthält das Anliegen, die vorläufige Lesart und die gewählte Handlung. Über Gefühle oder Absichten eines abwesenden Menschen wird keine sichere Aussage behauptet.",
+      "examples": [
+        {
+          "title": "Leas Workshopvertrag",
+          "body": "Lea arbeitet in einem fiktiven Fall mit einem Veranstaltungsraum zusammen. Sie glaubt, dass Reinigung im Preis enthalten sei, findet dazu aber keine klare Vereinbarung. Die Lehrverbindung von Haus7 zu Haus2 dient als Anlass, Beziehung und eigene Mittel getrennt anzusehen. Marina empfiehlt keine Entscheidung aus der Venusstellung. Lea liest die vorhandene Absprache und formuliert eine konkrete Rückfrage. Erst die Antwort des Vertragspartners klärt, welche Leistung tatsächlich vereinbart wurde."
+        },
+        {
+          "title": "Samirs gemeinsamer Abend",
+          "body": "Samir erzählt im Rollenspiel, seine Freundin wolle bestimmt keinen gemeinsamen Abend mehr. Marina behandelt diese Vermutung nicht als Wissen aus seinem siebten Haus. Sie fragt nach der letzten tatsächlichen Absprache. Es stellt sich heraus, dass nur ein Termin abgesagt wurde. Samir formuliert einen neuen Vorschlag und lässt eine Ablehnung zu. Die Deutung unterstützt seine eigene Gesprächsvorbereitung; über die unbekannten Gefühle der Freundin wird keine Aussage als Tatsache festgehalten."
+        }
+      ],
+      "practice": {
+        "prompt": "Waage bildet in einer Lehrkarte Haus7, Venus steht in Haus2. Eine fiktive Person möchte eine gemeinsame Ausgabe klären. Formuliere die technische Verbindung, zwei offene Fragen und eine klare Absprachevorlage.",
+        "model_answer": "Die traditionelle Herrscherin der Waage ist Venus. Ihre vorgegebene Position im zweiten Haus verbindet das Beziehungsthema symbolisch mit eigenen Mitteln oder persönlichen Prioritäten. Ich würde daraus weder Harmonie noch einen Konflikt vorhersagen. Meine erste Frage lautet: „Welche Ausgabe möchtest du selbst übernehmen, und welche Aufteilung erscheint dir passend?“ Die zweite fragt: „Was hat die andere Person dazu tatsächlich gesagt, und was vermutest du bisher nur?“ Als Vorlage schlage ich vor: „Ich kann diesen Betrag übernehmen. Wäre diese Aufteilung für dich passend, oder möchtest du etwas anderes vorschlagen?“ Ein konkreter Betrag wird erst von der Person selbst eingesetzt. Die Antwort des Gegenübers gehört zur Vereinbarung und kann nicht aus der Karte ersetzt werden. Ich dokumentiere deshalb den eigenen Wunsch, die tatsächliche Rückmeldung und eine gegebenenfalls gemeinsame Absprache getrennt. Wenn keine Einigung entsteht, bleibt das ein offenes Gesprächsergebnis und kein astrologischer Fehler.",
+        "rubric": [
+          "Die Herrscherverbindung ist technisch richtig beschrieben.",
+          "Wunsch, Vermutung und tatsächliche Aussage bleiben getrennt.",
+          "Die Fragen erlauben unterschiedliche Antworten.",
+          "Die Absprache braucht die ausdrückliche Antwort beider Beteiligten."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Wo liegt der Deszendent bei einem Aszendenten auf12°Widder?",
+          "options": [
+            "Bei12°Waage",
+            "Bei0°Waage unabhängig vom Aszendenten",
+            "Bei12°Krebs"
+          ],
+          "correct_index": 0,
+          "explanation": "Der Deszendent liegt dem Aszendenten genau180°gegenüber; die Hausfläche wird zusätzlich vom Häusersystem bestimmt."
+        },
+        {
+          "id": "q2",
+          "question": "Welche Notiz beschreibt eine überprüfbare Vereinbarung?",
+          "options": [
+            "Die Person erwartet, dass es der andere genauso sieht",
+            "Beide haben die Aufteilung ausdrücklich bestätigt",
+            "Venus steht günstig, daher besteht Zustimmung"
+          ],
+          "correct_index": 1,
+          "explanation": "Eine gemeinsame Vereinbarung benötigt tatsächliche Zustimmung; Wunsch und Symbolik ersetzen sie nicht."
+        },
+        {
+          "id": "q3",
+          "question": "Was lässt sich über ein abwesendes Gegenüber sicher aus Haus7 ableiten?",
+          "options": [
+            "Seine verborgenen Gefühle",
+            "Seine spätere Entscheidung",
+            "Keine solche Gewissheit; die Deutung kann eigene Fragen strukturieren"
+          ],
+          "correct_index": 2,
+          "explanation": "Die Karte liefert keine verifizierten Informationen über unbekannte Absichten anderer Menschen."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2019/12/05/significations-of-the-twelve-houses-part-2-houses-7-12/",
+          "title": "The Astrology Podcast · Häuser 7–12",
+          "author": "Chris Brennan, Kelly Surtees und Austin Coppock",
+          "note": "Frei zugängliche Episodenseite zur traditionellen Themenzuordnung, hier Haus 7. Die Gesprächsabläufe, Lehrkonstellationen und Übungen sind eigene didaktische Entwürfe, keine Wiedergabe des Kurses oder Podcasttranskripts.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-haeuser-08",
+      "title": "Haus 8: Gemeinsame Mittel und verantwortliche Übergänge",
+      "summary": "Unterscheide persönliche Verfügung, gemeinsame Verantwortung und symbolische Veränderung.",
+      "objective": "Du kannst eine Frage zu gemeinsam verwalteten Mitteln strukturieren und historische Themen von unzulässigen Zukunftsbehauptungen trennen.",
+      "level": "foundation",
+      "minutes": 30,
+      "body": "## Ein anspruchsvolles Themenfeld\nTraditionelle Häuserlehren verbinden das achte Haus unter anderem mit Tod, Erbschaft und Mitteln anderer Menschen. Diese historischen Zuordnungen sind keine verlässliche Methode, Todeszeitpunkte oder Vermögensereignisse vorherzusagen. In unserer praktischen Übung betrachten wir vor allem, was eine Person mit anderen teilt und worüber sie nicht allein entscheiden kann. Das kann eine gemeinsame Kasse, eine übernommene Verantwortung oder eine Vereinbarung über geliehene Gegenstände sein. Ein konkretes Anliegen verhindert, dass ein stark aufgeladener Begriff das ganze Gespräch bestimmt.\n\n## Die Achse zwei und acht\nHaus zwei ordnet in dieser Lesart eigene Mittel; Haus acht richtet den Blick auf gemeinsame oder fremde Mittel. Diese Gegenüberstellung ist nicht mit einer juristischen Eigentumsprüfung gleichzusetzen. Für eine Lernaufgabe reicht eine Tabelle: Was ist ausdrücklich mein eigener Spielraum, was verwalten wir gemeinsam, und was darf nur die andere Person entscheiden? Wenn der Status unklar ist, markieren wir ihn als ungeklärt. Eine astrologische Zuordnung kann eine fehlende Vereinbarung weder ersetzen noch rechtlich auslegen.\n\n## Verantwortung sichtbar machen\nLea organisiert im fiktiven Fall einen Workshop mit einer Kollegin. Beide haben Material gekauft, aber nicht besprochen, wer übrig gebliebene Dinge behält. Statt von energetischer Verstrickung zu sprechen, sammeln sie Belege und formulieren ihre Wünsche. Danach können sie eine konkrete Absprache treffen. Die Symbolik des achten Hauses dient als Anlass, gemeinsame Verantwortung genau anzusehen. Die tatsächliche Entscheidung entsteht aus Kommunikation und vorhandenen Unterlagen. Ein ungünstig wirkender Planet ist kein Grund, einer anderen Person Misstrauen entgegenzubringen.\n\n## Veränderung als moderne Erweiterung\nIn moderner psychologischer Astrologie wird das achte Haus häufig mit intensiven Übergängen oder Wandlung verbunden. Kennzeichne diese Lesart als Schultradition. Nicht jede Veränderung ist eine Krise, und nicht jede Schwierigkeit muss als notwendige Transformation gefeiert werden. Eine offene Frage lautet: „Welche bisherige Vereinbarung passt nicht mehr, und was soll an ihre Stelle treten?“ Sie lässt auch die Antwort zu, dass nichts verändert werden soll. Die Person behält das Recht, Stabilität zu wünschen und einen Deutungsvorschlag abzulehnen.\n\n## Eine Herrscherverbindung prüfen\nNehmen wir Zwillinge am Beginn des achten Hauses und Merkur im zehnten Haus an. Die traditionelle Herrschaft verbindet gemeinsame Mittel mit öffentlicher Tätigkeit oder Verantwortung. Als Lesart könnte eine gemeinsame berufliche Finanzierung thematisch werden. Das ist jedoch nur passend, wenn die Person tatsächlich ein solches Anliegen nennt. Ohne diese Rückmeldung genügt eine offene Frage. Die technische Verbindung sagt nicht, ob ein Kredit sinnvoll ist, welches Angebot gewählt werden sollte oder wie sich ein Geschäft entwickeln wird.\n\n## Mit Verlustthemen sorgsam umgehen\nWenn eine Person selbst über einen Verlust sprechen möchte, hört Marina zunächst zu und fragt nach dem gewünschten Gesprächsrahmen. Sie muss keine spirituelle Bedeutung liefern. Der passende Abschluss kann eine klare Zuständigkeit, ein selbst formulierter Wunsch oder die Entscheidung sein, heute nicht weiter darüber zu sprechen. Die Lernnotiz enthält nur notwendige Angaben. Vor allem werden weder ein Todesereignis angekündigt noch Schuld oder eine karmische Notwendigkeit behauptet. Präzise Häuserarbeit zeigt ihre Qualität auch darin, die Reichweite der eigenen Aussagen zu begrenzen.",
+      "examples": [
+        {
+          "title": "Die gemeinsame Materialkasse",
+          "body": "Lea und eine Kollegin haben im fiktiven Übungsfall aus einer gemeinsamen Kasse Materialien bezahlt. Nach dem Workshop möchten beide unterschiedlich damit umgehen. Marina nutzt Haus2/8 als Struktur für eigenen Spielraum und gemeinsame Verantwortung. Zuerst werden die ursprünglichen Absprachen gesammelt. Dann benennen beide ihren Vorschlag für den Restbestand. Die Lösung hängt von ihrer Einigung ab, nicht von einer angeblich günstigen oder ungünstigen Konstellation in einer der beiden Karten."
+        },
+        {
+          "title": "Ein belastender Begriff im Gespräch",
+          "body": "Samir erschrickt im Rollenspiel über das Wort Tod in einer historischen Beschreibung des achten Hauses. Marina erklärt, dass eine traditionelle Themenzuordnung keine Vorhersage über sein Leben erlaubt. Sie fragt, ob er den historischen Kontext weiter kennenlernen oder zu seinem tatsächlichen Anliegen zurückkehren möchte. Samir wählt die Frage nach einer geliehenen Ausrüstung. Beide klären, was dazu vereinbart wurde. Es wird kein verborgenes Verlustereignis gesucht oder als astrologische Wahrheit behauptet."
+        }
+      ],
+      "practice": {
+        "prompt": "Zwei fiktive Personen haben gemeinsame Arbeitsmaterialien und möchten ihre Zusammenarbeit beenden. Erstelle eine dreiteilige Gesprächsstruktur: vorhandene Fakten, offene Fragen und nächste freiwillige Vereinbarung. Ordne Haus2/8 als Symbolik ein.",
+        "model_answer": "Zuerst sammeln die beiden Personen, welche Materialien vorhanden sind und welche Belege oder bisherigen Absprachen es dazu gibt. Ich ordne diese Angaben als berichtete oder dokumentierte Fakten ein. Danach werden offene Fragen benannt: Welche Dinge wurden gemeinsam bezahlt, welche nur ausgeliehen, und welche Wünsche hat jede Person für die weitere Nutzung? Ein ungeklärter Status bleibt ausdrücklich ungeklärt. Als dritten Schritt könnten beide eine Liste mit ihren Vorschlägen erstellen und einen Zeitpunkt für die gemeinsame Entscheidung vereinbaren. Haus zwei und acht dienen dabei als symbolische Unterscheidung zwischen eigenem Spielraum und geteilter Verantwortung. Sie entscheiden weder über Eigentum noch über eine rechtliche Verpflichtung. Falls eine verbindliche Rechtsfrage entsteht, braucht sie eine dafür geeignete Klärung außerhalb der astrologischen Deutung. Meine Notiz hält nur fest, was beide tatsächlich vereinbart haben. Ein Rückzug aus der Zusammenarbeit wird nicht als notwendige karmische Lektion oder als Beweis einer problematischen Konstellation bewertet.",
+        "rubric": [
+          "Vorhandene Angaben und ungeklärte Annahmen sind unterscheidbar.",
+          "Eigener Spielraum und gemeinsame Verantwortung werden getrennt.",
+          "Die Vereinbarung bleibt ein Vorschlag bis zur tatsächlichen Zustimmung.",
+          "Es werden keine rechtlichen oder schicksalhaften Aussagen aus der Karte abgeleitet."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welche Aussage gehört zur historischen Einordnung von Haus8?",
+          "options": [
+            "Die Themenfamilie umfasst unter anderem Erbschaft und fremde Mittel",
+            "Jede Veränderung beweist ein bevorstehendes Erbe",
+            "Ein Planet bestimmt den Todeszeitpunkt"
+          ],
+          "correct_index": 0,
+          "explanation": "Die historische Themenliste beschreibt eine Tradition, keine zuverlässige Ereignisvorhersage."
+        },
+        {
+          "id": "q2",
+          "question": "Was ist bei unklarer Verfügung über gemeinsame Mittel sinnvoll?",
+          "options": [
+            "Die stärkere Planetenkonstellation entscheidet",
+            "Die Unsicherheit markieren und vorhandene Vereinbarungen prüfen",
+            "Den Betrag symbolisch auf beide Karten aufteilen"
+          ],
+          "correct_index": 1,
+          "explanation": "Ungeklärte Verantwortung wird durch Fakten und Absprachen bearbeitet; die Karte ersetzt diese nicht."
+        },
+        {
+          "id": "q3",
+          "question": "Wie wird die moderne Wandlungsdeutung hier eingesetzt?",
+          "options": [
+            "Als notwendige Erklärung jeder Krise",
+            "Als Beweis, dass Stabilität vermieden werden muss",
+            "Als ausdrücklich vorläufige Perspektive, die abgelehnt werden darf"
+          ],
+          "correct_index": 2,
+          "explanation": "Eine moderne Schulinterpretation bleibt ein Angebot und begründet keine Pflicht zur Veränderung."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2019/12/05/significations-of-the-twelve-houses-part-2-houses-7-12/",
+          "title": "The Astrology Podcast · Häuser 7–12",
+          "author": "Chris Brennan, Kelly Surtees und Austin Coppock",
+          "note": "Frei zugängliche Episodenseite zur traditionellen Themenzuordnung, hier Haus 8. Die Gesprächsabläufe, Lehrkonstellationen und Übungen sind eigene didaktische Entwürfe, keine Wiedergabe des Kurses oder Podcasttranskripts.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-haeuser-09",
+      "title": "Haus 9: Lernen, Weltbilder und neue Horizonte",
+      "summary": "Verbinde vertiefendes Lernen mit nachvollziehbarer Quellenarbeit und persönlicher Wahl.",
+      "objective": "Du kannst ein größeres Lernthema strukturieren und Glaubensannahmen, Quellenangaben und eigene Schlussfolgerungen auseinanderhalten.",
+      "level": "foundation",
+      "minutes": 30,
+      "body": "## Über den vertrauten Rahmen hinaus\nDas neunte Haus ist ein fallendes Haus. Traditionell werden unter anderem weite Reisen, höhere Bildung und Religion damit verbunden. Als gemeinsame Gesprächsfrage lässt sich formulieren: Wie erweitert jemand seinen bisherigen Bezugsrahmen? Das kann durch ein Studium, eine Reise, ein Buch oder eine Begegnung geschehen. Keine dieser Möglichkeiten ist für jede Person notwendig. Auch wer zu Hause bleibt und keine Religion ausübt, kann sich mit einem größeren Zusammenhang beschäftigen. Das konkrete Interesse steht vor der symbolischen Zuordnung.\n\n## Die Achse drei und neun\nHaus drei kann in unserer modernen Lernstruktur den nahen Austausch und einzelne Informationen repräsentieren; Haus neun fragt nach größeren Zusammenhängen und Weltbildern. Diese Unterscheidung ist eine Arbeitshilfe, keine strikte Trennung aller Bildungsformen. Ein kurzer Artikel kann eine große Denkänderung anstoßen, während ein langes Studium viele kleine Fakten enthält. Marina kann fragen: „Suchst du gerade eine einzelne Erklärung oder möchtest du dein bisheriges Gesamtbild überprüfen?“ Die Antwort hilft, die passende Tiefe des Gesprächs zu wählen.\n\n## Eine Quelle in drei Zeilen lesen\nFür die Lernpraxis verwenden wir ein eigenes einfaches Verfahren. In Zeile eins steht, was eine Quelle ausdrücklich sagt. In Zeile zwei wird notiert, auf welche Art von Beleg sie sich stützt: etwa eine Berechnung, historische Überlieferung oder persönliche spirituelle Erfahrung. Zeile drei enthält die eigene Schlussfolgerung. Diese Trennung verhindert, dass eine persönliche Aussage unbemerkt zu einem allgemeinen Nachweis wird. Sie ist besonders hilfreich, wenn verschiedene astrologische Schulen dieselben Begriffe mit unterschiedlichen Voraussetzungen verwenden.\n\n## Weltanschauung ohne Vorgabe\nEine Person kann muslimisch, christlich, anders religiös, suchend oder nicht religiös leben. Aus dieser Selbstbeschreibung folgt nicht automatisch, welche astrologischen oder spirituellen Inhalte sie nutzen möchte. Frage nach ihren eigenen Grenzen und Interessen. Ein Thema wie Karma kann als Perspektive einer bestimmten Tradition erklärt werden, ohne Zustimmung zu verlangen. Wenn eine Person es auslassen möchte, bleiben andere Lernwege offen. Respekt zeigt sich darin, die selbst gewählte Haltung weder zu korrigieren noch für eine vermeintlich höhere Entwicklungsstufe zu bewerten.\n\n## Eine Herrscherverbindung als Lernfrage\nIn einer fiktiven Karte liegt Schütze am Beginn des neunten Hauses und Jupiter im dritten Haus. Mit traditioneller Herrschaft entsteht eine Verbindung von größerem Weltbild und nahem Austausch. Eine mögliche Frage wäre, ob die Person ihr Verständnis durch Gespräche entwickelt. Eine andere wäre, ob viele einzelne Informationen das gewünschte Gesamtbild verdecken. Beide Lesarten brauchen Rückmeldung. Die Position sagt weder etwas über Intelligenz noch über einen garantierten Studienerfolg aus. Auch ein wenig besetztes Haus bedeutet keine geringe Lernfähigkeit.\n\n## Ein überschaubares Lernvorhaben wählen\nZum Abschluss formuliert die Person eine Frage, die sie tatsächlich untersuchen möchte. Danach wählt sie zwei geeignete Quellen mit unterschiedlichen Perspektiven und notiert, woran sie einen Erkenntnisgewinn erkennen würde. Das kann eine erklärte Unterscheidung oder eine präzisere Folgefrage sein. Ein großes Thema muss nicht sofort zu einem vollständigen Weltbild führen. Die Aufgabe ist gelungen, wenn die Person ihre Quellen und Annahmen genauer benennen kann. Ihre Überzeugung bleibt ihre eigene Entscheidung und wird nicht durch ein Abzeichen oder eine Quizpunktzahl bewertet.",
+      "examples": [
+        {
+          "title": "Marina wählt ihren Lernweg",
+          "body": "In einem fiktiven Lehrszenario möchte Marina Häuser verstehen, aber zunächst keine karmischen Deutungen lesen. Sie steigt direkt in den Häuserkurs ein und markiert eine Lektion für später. Die Haus9-Perspektive dient als Frage nach dem gewünschten Wissensrahmen. Ihre Auswahl gilt nicht als unvollständige spirituelle Entwicklung. Nach zwei Lektionen formuliert sie eine eigene Frage zum Unterschied der Häusersysteme und sucht dazu eine technische sowie eine historische Quelle für den Vergleich."
+        },
+        {
+          "title": "Samir vergleicht zwei Erklärungen",
+          "body": "Samir liest im Rollenspiel eine astronomische Erklärung der Mondknoten und daneben einen Text über einen Seelenweg. Er notiert zunächst die geometrische Aussage und dann die spirituelle Interpretation. Marina hilft ihm, die unterschiedlichen Belegarten zu erkennen. Er darf beide interessant finden oder nur eine davon weiterverfolgen. Die drei Zeilen der Quellenübung zeigen, welche Schlussfolgerung seine eigene ist. Eine religiöse Zugehörigkeit wird nicht als fertige Antwort auf diese Auswahl verwendet."
+        }
+      ],
+      "practice": {
+        "prompt": "Eine fiktive Lernende möchte den Unterschied zwischen astronomischem Mondknoten und spiritueller Mondknotendeutung verstehen. Plane einen kleinen Quellenvergleich und eine Erfolgskontrolle, die keine Glaubensüberzeugung bewertet.",
+        "model_answer": "Ich beginne mit der konkreten Frage, welche geometrische Größe als Mondknoten bezeichnet wird und welche zusätzliche Bedeutung eine bestimmte astrologische Schule damit verbindet. Die Lernende wählt eine technische Quelle zur Berechnung und einen klar benannten spirituellen Deutungstext. Für beide erstellt sie drei Zeilen: ausdrückliche Aussage, Art der Begründung und eigene Schlussfolgerung. Als Erfolgskontrolle soll sie anschließend in eigenen Worten erklären können, dass eine berechenbare Position und eine spirituelle Interpretation unterschiedliche Aussagearten sind. Sie muss weder die Deutung übernehmen noch sie ablehnen. Eine offene Folgefrage könnte lauten, wie verschiedene Schulen dieselbe Position interpretieren. Der Quellenvergleich bleibt überschaubar und kann nach zwei Texten beendet werden. In der Lernnotiz stehen die überprüften Fundstellen und die noch offenen Begriffe. Punkte oder eine Rückmeldung beziehen sich auf die nachvollziehbare Unterscheidung, nicht auf eine vermeintlich richtige religiöse oder spirituelle Haltung der Lernenden.",
+        "rubric": [
+          "Die Frage unterscheidet Berechnung und Interpretation.",
+          "Zwei passend unterschiedliche Quellenarten sind vorgesehen.",
+          "Quellenaussage und eigene Schlussfolgerung bleiben getrennt.",
+          "Die Erfolgskontrolle verlangt Verständnis, keine Glaubenszustimmung."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was trennt die Drei-Zeilen-Methode?",
+          "options": [
+            "Planeten, Zeichen und Häuser ausschließlich",
+            "Quellenaussage, Belegart und eigene Schlussfolgerung",
+            "Richtige und falsche Religionen"
+          ],
+          "correct_index": 1,
+          "explanation": "Die Methode macht nachvollziehbar, wo eine Information endet und die eigene Interpretation beginnt."
+        },
+        {
+          "id": "q2",
+          "question": "Welche Wahl bleibt bei spirituellen Inhalten offen?",
+          "options": [
+            "Nur die Reihenfolge der Zustimmung",
+            "Nur der Zeitpunkt einer Pflichtprüfung",
+            "Die Person kann eine Perspektive prüfen, auslassen oder ablehnen"
+          ],
+          "correct_index": 2,
+          "explanation": "Eine frei wählbare Akademie setzt keine Glaubensüberzeugung voraus."
+        },
+        {
+          "id": "q3",
+          "question": "Was zeigt ein bestandenes Wissensquiz in diesem Kurs?",
+          "options": [
+            "Die abgefragte Unterscheidung wurde verstanden",
+            "Das Weltbild ist endgültig richtig",
+            "Die Person besitzt eine spirituelle Qualifikation"
+          ],
+          "correct_index": 0,
+          "explanation": "Das Quiz prüft konkrete Lerninhalte; es bewertet weder Glauben noch persönliche Befähigung zur Beratung."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2019/12/05/significations-of-the-twelve-houses-part-2-houses-7-12/",
+          "title": "The Astrology Podcast · Häuser 7–12",
+          "author": "Chris Brennan, Kelly Surtees und Austin Coppock",
+          "note": "Frei zugängliche Episodenseite zur traditionellen Themenzuordnung, hier Haus 9. Die Gesprächsabläufe, Lehrkonstellationen und Übungen sind eigene didaktische Entwürfe, keine Wiedergabe des Kurses oder Podcasttranskripts.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-haeuser-10",
+      "title": "Haus 10: Öffentliche Rolle und sichtbare Verantwortung",
+      "summary": "Unterscheide Hausfläche, Medium Coeli und die tatsächlich gewählte berufliche Aufgabe.",
+      "objective": "Du kannst eine öffentliche Rolle konkret beschreiben und den MC-Punkt von einer Hauszuordnung unterscheiden.",
+      "level": "foundation",
+      "minutes": 30,
+      "body": "## Sichtbar handeln\nDas zehnte Haus ist ein Eckhaus. In traditionellen Themenlisten stehen öffentliche Tätigkeit, Ansehen und Handeln im Vordergrund. Moderne berufliche Deutungen knüpfen daran an, sollten aber nicht auf einen einzigen passenden Beruf reduziert werden. Eine Person kann mehrere Rollen ausüben: angestellt arbeiten, Angehörige unterstützen, ein Ehrenamt übernehmen oder ein eigenes Angebot entwickeln. Die Frage lautet zunächst, in welchem Zusammenhang sie gesehen und angesprochen wird. Die astrologische Karte legt weder einen Berufstitel noch eine bestimmte gesellschaftliche Stellung fest.\n\n## MC und zehntes Haus unterscheiden\nDas Medium Coeli, kurz MC, ist ein genauer Schnittpunkt von Ekliptik und lokalem Meridian auf der oberen Seite. In Placidus bildet es gewöhnlich die Spitze des zehnten Hauses. Im Ganzzeichenmodell ist dagegen das zehnte Zeichen vom aufsteigenden Zeichen aus das zehnte Haus. Der MC-Punkt kann dort in einem anderen Haus liegen. Deshalb darfst du eine Softwareangabe zum MC nicht ungeprüft als Beginn der zehnten Ganzzeichenfläche behandeln. Notiere zuerst das verwendete System und danach die konkrete Position.\n\n## Eine Rolle in beobachtbare Aufgaben übersetzen\nDer Satz „Ich möchte Menschen begleiten“ beschreibt eine Richtung, aber noch kein verständliches Angebot. Bitte die fiktive Person, drei tatsächlich mögliche Tätigkeiten zu nennen. Lea könnte ein Vorbereitungsgespräch führen, eine symbolische Radixbesprechung anbieten und eine gemeinsame Abschlussnotiz erstellen. Danach wird geklärt, was sie dabei nicht verspricht. Eine öffentliche Rolle wird glaubwürdig, wenn Umfang und Grenzen verständlich sind. Diese Angebotsarbeit ist eine eigene praktische Übung des Kurses, keine aus einem Planeten abgeleitete Berufsberatung.\n\n## Herrscher und Hausbesetzung zusammenlesen\nFür die Lehrkarte nehmen wir Steinbock an der zehnten Häuserspitze und Saturn im sechsten Haus. Die traditionelle Herrschaft verbindet öffentliche Verantwortung mit konkreter Alltagsarbeit. Eine mögliche Frage lautet, welche verlässlichen Abläufe das gewünschte Angebot tragen. Eine andere betrifft Aufgaben, die zu viel Zeit beanspruchen. Saturn verspricht weder späten Erfolg noch eine schwere Laufbahn. Auch eine Sonne im zehnten Haus kann als Frage nach Sichtbarkeit gelesen werden, ohne daraus einen Anspruch auf Führung oder öffentliche Anerkennung abzuleiten.\n\n## Rückmeldung statt Rangliste\nÖffentliche Wirkung entsteht im Kontakt mit anderen. Eine Person kann sich als klar und hilfreich erleben, während ihr Angebot für Außenstehende unverständlich bleibt. Darum lässt Lea im Rollenspiel eine vertraute Testperson ihr Angebot in eigenen Worten wiedergeben. Stimmen die wesentlichen Punkte überein, ist die Beschreibung verständlicher geworden. Wenn nicht, verändert sie den Text. Die Karte entscheidet nicht, welche Rückmeldung wahr sein muss. Das Lernziel ist eine nachvollziehbare Beschreibung, keine möglichst beeindruckende Selbstdarstellung oder ein Wettbewerb um spirituelle Autorität.\n\n## Die private Basis mitbedenken\nDie Achse vier und zehn erinnert daran, dass eine öffentliche Rolle einen privaten Rahmen braucht. Nicht jede Erfahrung muss zum Teil eines Angebots werden. Marina kann die Person fragen, welche Zeiten, Räume und persönlichen Themen privat bleiben sollen. Zum Abschluss stehen drei Dinge in der Notiz: die gewählte Aufgabe, eine verständliche Leistungsgrenze und ein kleiner nächster Test. So wird aus einem großen Berufungswort eine selbst gewählte Handlung. Ob das Angebot wirtschaftlich trägt, muss später anhand tatsächlicher Nachfrage und Kosten geprüft werden.",
+      "examples": [
+        {
+          "title": "Leas verständliches Angebot",
+          "body": "Lea sagt im fiktiven Fall zunächst, sie arbeite ganzheitlich mit Lebenswegen. Eine Testperson versteht darunter viele unterschiedliche Leistungen. Marina verwendet Haus10 als Gesprächsanlass für die öffentliche Rolle. Lea formuliert anschließend, dass sie eine symbolische Radixbesprechung mit gemeinsamem Reflexionsprotokoll anbietet. Sie ergänzt Dauer und Grenzen. Die Testperson kann den Ablauf nun wiedergeben. Das zeigt eine verständlichere Beschreibung, belegt aber noch keine Nachfrage, Wirksamkeit oder berufliche Qualifikation für weitere Leistungen."
+        },
+        {
+          "title": "Zwei verschiedene Kartenansichten",
+          "body": "Samir sieht in einer Übung einen MC-Punkt im neunten Ganzzeichenhaus und hält das zunächst für einen Programmfehler. Marina prüft mit ihm, ob die Ganzzeichenansicht aktiviert ist. Das zehnte Haus bleibt das zehnte Zeichen ab dem aufsteigenden Zeichen; der MC-Punkt wird getrennt angezeigt. Sie dokumentieren beide Angaben. Anschließend vergleichen sie die symbolischen Fragen, ohne das System zu wechseln, nur weil eine der Beschreibungen im ersten Moment besser gefällt."
+        }
+      ],
+      "practice": {
+        "prompt": "Eine fiktive Person möchte ihr erstes Beratungsangebot beschreiben. Formuliere drei konkrete Bestandteile, eine Leistungsgrenze und einen kleinen Verständlichkeitstest. Erkläre zusätzlich, warum MC und Haus10 nicht in jeder Darstellung dieselbe Grenze bezeichnen.",
+        "model_answer": "Das Angebot könnte aus einem kurzen Gespräch über das Anliegen, einer symbolischen Besprechung ausgewählter Radixfaktoren und einer gemeinsamen Notiz mit offenen Fragen bestehen. Als Grenze wird ausdrücklich festgehalten, dass keine Diagnose oder sichere Zukunftsvorhersage angeboten wird. Die Person wählt selbst, welche weiteren Grenzen für ihr tatsächliches Können notwendig sind. Für den Verständlichkeitstest liest eine fiktive Testperson die Beschreibung und erklärt danach in eigenen Worten, was sie erwarten würde. Abweichungen helfen, den Text zu verbessern. Sie sind keine Bewertung des persönlichen Wertes der Anbieterin. Technisch unterscheide ich das MC als genauen Meridianpunkt von der Fläche des zehnten Hauses. In Placidus beginnt das zehnte Haus am MC, während Ganzzeichenhäuser an Zeichengrenzen beginnen. Der MC kann daher in einem anderen Ganzzeichenhaus liegen. Beide Angaben werden mit ihrem System dokumentiert. Aus dieser Konstellation folgt kein bestimmter Beruf und kein Nachweis wirtschaftlichen Erfolgs.",
+        "rubric": [
+          "Die Angebotsbestandteile sind konkret und verständlich.",
+          "Eine nachvollziehbare Leistungsgrenze wird benannt.",
+          "Der Test nutzt tatsächliche Rückmeldung.",
+          "MC-Punkt und Hausfläche werden systemabhängig unterschieden."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was bezeichnet das MC zunächst?",
+          "options": [
+            "Eine nachgewiesene Berufung",
+            "Einen genauen astronomisch berechneten Achsenpunkt",
+            "Die zehnte Ganzzeichenfläche unabhängig vom Ort"
+          ],
+          "correct_index": 1,
+          "explanation": "Das MC ist ein berechneter Punkt; seine Hauszuordnung hängt von der verwendeten Hausdefinition ab."
+        },
+        {
+          "id": "q2",
+          "question": "Was prüft die Wiedergabe eines Angebots durch eine Testperson?",
+          "options": [
+            "Ob die Beschreibung verständlich ist",
+            "Ob das Geschäft sicher profitabel wird",
+            "Ob die Anbieterin spirituell qualifiziert ist"
+          ],
+          "correct_index": 0,
+          "explanation": "Die Rückmeldung belegt zunächst Verständlichkeit, nicht wirtschaftlichen Erfolg oder eine Qualifikation."
+        },
+        {
+          "id": "q3",
+          "question": "Welche Verbindung legt Saturn als Herrscher von Haus10 in Haus6 symbolisch nahe?",
+          "options": [
+            "Ein zwingend schweres Berufsleben",
+            "Eine garantierte Beförderung nach langer Wartezeit",
+            "Öffentliche Aufgabe und konkrete Arbeitsabläufe zusammen betrachten"
+          ],
+          "correct_index": 2,
+          "explanation": "Die Herrscherverbindung dient als Frage nach Zusammenhängen und legt keine Laufbahn fest."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2019/12/05/significations-of-the-twelve-houses-part-2-houses-7-12/",
+          "title": "The Astrology Podcast · Häuser 7–12",
+          "author": "Chris Brennan, Kelly Surtees und Austin Coppock",
+          "note": "Frei zugängliche Episodenseite zur traditionellen Themenzuordnung, hier Haus 10. Die Gesprächsabläufe, Lehrkonstellationen und Übungen sind eigene didaktische Entwürfe, keine Wiedergabe des Kurses oder Podcasttranskripts.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-haeuser-11",
+      "title": "Haus 11: Freundschaften, Gruppen und gemeinsame Vorhaben",
+      "summary": "Ordne Zugehörigkeit und Unterstützung, ohne Kontakte auf ihren Nutzen zu reduzieren.",
+      "objective": "Du kannst ein gemeinsames Vorhaben mit Rollen, Erwartungen und freiwilliger Unterstützung beschreiben.",
+      "level": "foundation",
+      "minutes": 30,
+      "body": "## Gemeinsam etwas ermöglichen\nDas elfte Haus gehört zu den Folgehäusern. Freundschaften, Unterstützer und Hoffnungen zählen zu seinen traditionellen Themen. In moderner Anwendung werden auch Gruppen und Netzwerke betrachtet. Ein Netzwerk ist dabei nicht nur eine Liste nützlicher Kontakte. Menschen können einander begegnen, ohne eine Leistung austauschen oder ein Ziel verfolgen zu müssen. Für eine konkrete Deutung fragt Marina deshalb zuerst, ob es um Freundschaft, gemeinsame Arbeit, Zugehörigkeit oder Unterstützung bei einem Vorhaben geht. Diese Beziehungen können sich überschneiden, bleiben aber unterscheidbar.\n\n## Eine Gruppe ist keine einzelne Partnerschaft\nHaus sieben eignet sich in unserer Themenstruktur für das direkte Gegenüber; Haus elf richtet den Blick auf mehrere miteinander verbundene Menschen. In einer Gruppe entstehen zusätzliche Fragen: Wer entscheidet, wie werden Aufgaben verteilt und wie können Mitglieder widersprechen? Eine gute Atmosphäre ersetzt keine klare Absprache. Umgekehrt muss eine formelle Rolle persönliche Nähe nicht verhindern. Für das Rollenspiel genügt eine Gruppe von drei Personen, die ein kleines Treffen organisiert. So wird sichtbar, welche Erwartungen tatsächlich ausgesprochen wurden.\n\n## Eigener Ausdruck und gemeinsames Ziel\nDie Achse fünf und elf lässt sich als Verhältnis von eigener Gestaltung und gemeinsamem Vorhaben lesen. Lea hat eine kreative Idee, die ihre Gruppe verändern möchte. Das muss weder Verrat an ihrem Ausdruck noch mangelnde Teamfähigkeit bedeuten. Sie kann entscheiden, welche Teile ihr wichtig sind und welche sie gemeinsam entwickeln möchte. Marina hilft, diese Unterschiede in Worte zu fassen. Das Gespräch sucht eine brauchbare Vereinbarung und keine astrologische Rangordnung darüber, wessen Idee aufgrund einer Planetenkonstellation Vorrang haben sollte.\n\n## Unterstützung konkret erfragen\nDer Satz „Ich brauche mehr Unterstützung“ bleibt oft zu allgemein. Frage nach einer kleinen, klaren Bitte: Soll jemand zuhören, einen Text gegenlesen oder beim Aufbau helfen? Dazu gehören ein Umfang und die Möglichkeit abzulehnen. Eine Person, die nicht helfen kann, ist nicht automatisch ein falscher Freund. Auch die eigene Bereitschaft darf begrenzt sein. Die Übung trennt deshalb Bedarf, Bitte und tatsächliche Zusage. In der Notiz wird nur die erfolgte Zusage als verbindliche Unterstützung festgehalten.\n\n## Eine Herrscherverbindung nutzen\nNehmen wir Wassermann am Beginn des elften Hauses und Saturn im dritten Haus an. Mit der hier gewählten traditionellen Herrschertabelle verbindet Saturn Gruppenthemen mit Verständigung und nahem Austausch. Eine moderne Schule könnte zusätzlich Uranus betrachten; dieser Wechsel muss benannt werden. Für die erste Übung bleiben wir bei einer Methode. Eine mögliche Frage lautet, welche Kommunikationswege der Gruppe helfen. Daraus folgt keine Aussage, dass Freundschaften kühl sein müssen oder nur mit einer bestimmten Art von Menschen gelingen können.\n\n## Hoffnungen in nächste Schritte übersetzen\nEin gemeinsames Ziel darf größer sein als die nächste Aufgabe. Trotzdem braucht es einen kleinen überprüfbaren Anfang. Die Gruppe kann etwa ein erstes Treffen mit klarer Dauer planen und danach fragen, ob alle weiterarbeiten möchten. Marina notiert das Ziel, die freiwilligen Beiträge und den Rückmeldepunkt. Menschen dürfen ihre Beteiligung verändern. Das Lernziel besteht darin, Zugehörigkeit und konkrete Zusammenarbeit bewusster zu gestalten. Eine hohe Zahl von Kontakten oder eine stark besetzte Hausfläche ist kein Maß für den Wert einer Freundschaft oder die Qualität eines Lebens.",
+      "examples": [
+        {
+          "title": "Eine Gruppe plant einen Abend",
+          "body": "Lea möchte im fiktiven Fall mit zwei Bekannten einen offenen Gesprächsabend organisieren. Alle finden die Idee gut, aber niemand hat eine konkrete Aufgabe übernommen. Marina nutzt Haus11 als Struktur für gemeinsames Ziel und Unterstützung. Die Gruppe fragt, wer einen Raum anfragen, einen Text lesen oder beim Aufbau helfen möchte. Jede Bitte darf abgelehnt werden. Erst die ausdrücklich übernommenen Aufgaben kommen in den Plan; freundliche Zustimmung allein gilt noch nicht als feste Zusage."
+        },
+        {
+          "title": "Samir sagt eine Bitte ab",
+          "body": "Samir wird im Rollenspiel gebeten, jede Woche bei einem Gruppenprojekt zu helfen. Er möchte nur einmal im Monat teilnehmen. Marina deutet diese Grenze nicht als mangelnde Loyalität. Sie fragt, wie er seinen tatsächlichen Beitrag klar anbieten kann. Samir benennt den möglichen Termin und lässt die Gruppe entscheiden, ob das hilfreich ist. Die Freundschaft wird dabei nicht auf die Zahl seiner Arbeitsstunden reduziert. Eine symbolische Haus11-Deutung bleibt der Anlass für eine konkrete Absprache."
+        }
+      ],
+      "practice": {
+        "prompt": "Drei fiktive Personen planen einen kleinen Lernabend. Entwickle eine Aufgabenübersicht mit freiwilligen Beiträgen und einem Rückmeldepunkt. Zeige an einer Formulierung, wie eine Bitte eine echte Ablehnung zulässt.",
+        "model_answer": "Zuerst hält die Gruppe fest, was der Lernabend leisten soll: etwa zwei Begriffe gemeinsam verstehen und ein Beispiel besprechen. Danach werden drei kleine Aufgaben vorgeschlagen, beispielsweise Raum prüfen, ein Übungsblatt vorbereiten und die Zeit im Blick behalten. Jede Person entscheidet selbst, ob und in welchem Umfang sie etwas übernimmt. Eine passende Bitte lautet: „Könntest du das Übungsblatt bis Donnerstag gegenlesen? Wenn es zeitlich nicht passt, suchen wir eine andere Lösung.“ Dadurch ist eine Ablehnung tatsächlich möglich. Im Plan stehen nur bestätigte Beiträge mit einem vereinbarten Zeitpunkt. Nach dem ersten Abend bespricht die Gruppe, was verständlich war und ob sie fortfahren möchte. Haus elf dient als symbolische Perspektive auf das gemeinsame Vorhaben. Die Qualität der Freundschaft wird nicht an der Mitarbeit gemessen. Falls Erwartungen auseinandergehen, werden sie ausgesprochen, statt sie als verborgene Eigenschaft eines Zeichens oder einer Planetenkonstellation zu erklären.",
+        "rubric": [
+          "Ziel und einzelne Beiträge sind unterscheidbar.",
+          "Im Plan stehen nur tatsächlich bestätigte Aufgaben.",
+          "Eine konkrete Bitte lässt eine Ablehnung zu.",
+          "Ein Rückmeldepunkt und veränderbare Beteiligung sind vorgesehen."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was unterscheidet eine Bitte von einer stillen Erwartung?",
+          "options": [
+            "Die Bitte wird konkret ausgesprochen und darf abgelehnt werden",
+            "Die Bitte muss astrologisch begründet sein",
+            "Die Erwartung ist verbindlicher als eine Zusage"
+          ],
+          "correct_index": 0,
+          "explanation": "Eine konkrete, freiwillige Bitte macht die Entscheidung des Gegenübers möglich."
+        },
+        {
+          "id": "q2",
+          "question": "Welcher Herrscher wird für Wassermann in der traditionellen Tabelle verwendet?",
+          "options": [
+            "Ausschließlich Uranus",
+            "Saturn",
+            "Merkur"
+          ],
+          "correct_index": 1,
+          "explanation": "Die traditionelle Sieben-Planeten-Tabelle ordnet Wassermann Saturn zu; moderne Uranuszuordnungen müssen als Methodenwechsel benannt werden."
+        },
+        {
+          "id": "q3",
+          "question": "Was beschreibt die Achse5/11 in dieser Übung?",
+          "options": [
+            "Eine Rangfolge zwischen Künstlern und Gruppen",
+            "Die Zahl guter Freunde",
+            "Eigener Ausdruck und gemeinsames Vorhaben"
+          ],
+          "correct_index": 2,
+          "explanation": "Die Achse wird als Gesprächshilfe verwendet; sie misst weder Beliebtheit noch persönlichen Wert."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2019/12/05/significations-of-the-twelve-houses-part-2-houses-7-12/",
+          "title": "The Astrology Podcast · Häuser 7–12",
+          "author": "Chris Brennan, Kelly Surtees und Austin Coppock",
+          "note": "Frei zugängliche Episodenseite zur traditionellen Themenzuordnung, hier Haus 11. Die Gesprächsabläufe, Lehrkonstellationen und Übungen sind eigene didaktische Entwürfe, keine Wiedergabe des Kurses oder Podcasttranskripts.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-haeuser-12",
+      "title": "Haus 12: Rückzug, Grenzen und stille Selbstbeobachtung",
+      "summary": "Nutze schwierige historische Begriffe sorgfältig und gestalte freiwillige Reflexion ohne Fernwahrnehmungsbehauptungen.",
+      "objective": "Du kannst eine begrenzte Selbstbeobachtungsübung anleiten und eigene Empfindungen von Aussagen über andere Menschen trennen.",
+      "level": "foundation",
+      "minutes": 30,
+      "body": "## Historische Begriffe bewusst einordnen\nDas zwölfte Haus ist ein fallendes Haus. In älteren astrologischen Themenlisten finden sich unter anderem Abgeschiedenheit, Verluste und verborgene Gegnerschaft. Diese Begriffe können beunruhigen, wenn sie ohne Kontext als persönliche Gewissheit gelesen werden. Eine Hausbesetzung beweist jedoch weder einen heimlichen Feind noch eine Krankheit oder ein bevorstehendes Unglück. In diesem Kurs werden historische Zuordnungen als Geschichte einer Deutungstradition behandelt. Für die praktische Reflexion wählen wir eine engere Frage: Welchen Raum braucht eine Person, wenn sie gerade nichts leisten oder erklären möchte?\n\n## Rückzug hat unterschiedliche Formen\nAlleinsein kann freiwillig und angenehm sein, aber auch ungewollt und belastend. Von außen lässt sich das nicht allein an der Dauer erkennen. Frage deshalb nach der erlebten Qualität und dem tatsächlichen Wunsch. Samir könnte nach einem lebhaften Treffen Ruhe suchen; Lea könnte sich dagegen mehr Kontakt wünschen. Beide Erfahrungen dürfen beschrieben werden, ohne sie in dieselbe astrologische Erklärung zu pressen. Eine stille Übung ist nur passend, wenn die Person sie selbst ausprobieren möchte und jederzeit beenden kann.\n\n## Selbstbeobachtung in klaren Schritten\nFür eine kurze Übung wählt die Person einen sicheren, gewöhnlichen Sitzplatz und schaut sich zunächst im Raum um. Dann benennt sie für sich drei wahrnehmbare Dinge, etwa einen Gegenstand, ein Geräusch und den Kontakt der Füße zum Boden. Anschließend fragt sie, ob sie fortfahren oder aufhören möchte. Der Ablauf ist eine eigene Aufmerksamkeitsübung, keine Behandlung und kein Nachweis einer besonderen Fähigkeit. Falls die Übung unangenehm wird, wird sie beendet und zu einem normalen Gespräch zurückgekehrt.\n\n## Empfindung und Fremdaussage trennen\nMarina kann in einer Telefonberatung eine eigene Anspannung bemerken. Eine präzise Notiz lautet zunächst: „Ich bemerke gerade Anspannung.“ Daraus folgt nicht, dass die andere Person diese Empfindung über eine Entfernung übertragen hat. Sie kann viele Ursachen haben oder ungeklärt bleiben. Eine offene Gesprächsfrage könnte lauten: „Wie geht es dir gerade mit unserem Thema?“ Die Antwort des Gegenübers ist eine neue Information. Eigene Empfindung, Vermutung und tatsächliche Rückmeldung bleiben in getrennten Sätzen stehen, auch wenn eine spirituelle Interpretation persönlich bedeutsam ist.\n\n## Die Achse sechs und zwölf\nDer konkrete Alltag des sechsten Hauses und der Raum jenseits unmittelbarer Aufgaben des zwölften können sich ergänzen. Nicht jede Pause braucht einen messbaren Nutzen. Gleichzeitig hilft eine klare zeitliche Grenze, wenn ein Rückzug in einen vollen Alltag eingebettet werden soll. Lea könnte nach einer Sitzung fünf Minuten ohne weitere Aufgabe einplanen. Ob sie das angenehm findet, wird später gefragt. Die Übung wird weder als notwendige energetische Reinigung noch als Pflicht aufgrund einer bestimmten Hausstellung dargestellt.\n\n## Ein Abschluss mit eigener Entscheidung\nZum Ende der Häuserreihe kann Marina alle zwölf Themen als offene Landkarte betrachten. Sie wählt das Haus, das zum aktuellen Anliegen passt, und prüft zuerst die technischen Angaben. Danach bietet sie mehrere mögliche Fragen an. Bei Haus zwölf kann das Ergebnis schlicht lauten, dass die Person heute keine stille Übung möchte. Auch das ist eine vollständige Rückmeldung. Eine gute Deutung erkennt die Grenzen ihrer Aussagekraft und lässt Platz für ein unbekanntes Ergebnis. Die persönliche Erfahrung wird respektiert, ohne daraus unbelegte Tatsachen über andere Menschen abzuleiten.",
+      "examples": [
+        {
+          "title": "Eine Empfindung am Telefon",
+          "body": "Marina bemerkt in einer fiktiven Telefonübung plötzlich Unruhe. Sie schreibt zunächst nur ihre eigene Wahrnehmung auf und unterbricht nicht mit einer Behauptung über das Energiefeld des Gegenübers. Sie fragt, ob das aktuelle Thema gerade angenehm zu besprechen ist. Die fiktive Person sagt, sie sei entspannt, aber das Gespräch dürfe kürzer sein. Marina übernimmt diese Rückmeldung. Ihre eigene Unruhe bleibt eine ungeklärte Empfindung und wird nicht gegen die Aussage der Person ausgespielt."
+        },
+        {
+          "title": "Lea wählt Gesellschaft",
+          "body": "Lea liest im Rollenspiel eine moderne Haus12-Deutung über Rückzug, möchte nach einem anstrengenden Tag aber mit einer Freundin sprechen. Marina bewertet das nicht als Vermeidung einer spirituellen Aufgabe. Sie fragt, welche Art von Kontakt Lea gerade wünscht. Lea entscheidet sich für ein kurzes Gespräch ohne Beratungsthema. Die passende Handlung ergibt sich aus ihrem tatsächlichen Wunsch. Die symbolische Hauszuordnung bleibt ein möglicher Gesprächsanlass und schreibt keine bestimmte Form von Erholung oder Alleinsein vor."
+        }
+      ],
+      "practice": {
+        "prompt": "Du bemerkst während einer fiktiven Fernberatung eigene Anspannung. Schreibe drei getrennte Notizen: Wahrnehmung, vorläufige Vermutung und offene Rückfrage. Ergänze, wie du mit einer widersprechenden Antwort des Gegenübers umgehst.",
+        "model_answer": "Meine Wahrnehmungsnotiz lautet: „Ich bemerke gerade Anspannung in meinem eigenen Erleben.“ Als vorläufige Vermutung könnte ich festhalten, dass das Gespräch, meine Tagesform oder etwas noch Unbekanntes damit zusammenhängt. Ich schreibe nicht, dass die Empfindung sicher aus dem Energiefeld der anderen Person stammt. Meine offene Rückfrage lautet: „Wie geht es dir gerade mit unserem Thema, und möchtest du so weiterreden?“ Wenn die Person sagt, dass sie sich entspannt fühlt, übernehme ich diese Antwort als ihre eigene Beschreibung. Ich erkläre nicht, dass sie ihre tatsächlichen Gefühle nur noch nicht erkenne. Bei Bedarf kann ich selbst eine kurze Pause vorschlagen, ohne ihr die Verantwortung für meinen Zustand zuzuschreiben. Die drei Ebenen bleiben in der Notiz getrennt. Eine spirituelle Interpretation darf als persönliche Vermutung benannt werden, ist aber kein verifiziertes Wissen über ein abwesendes Gegenüber und kein Grund, dessen Rückmeldung zu übergehen.",
+        "rubric": [
+          "Die eigene Wahrnehmung wird als eigene beschrieben.",
+          "Eine Vermutung bleibt ausdrücklich vorläufig.",
+          "Die Rückfrage erlaubt eine widersprechende Antwort.",
+          "Die tatsächliche Rückmeldung wird respektiert und nicht umgedeutet."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was folgt sicher aus einer eigenen Empfindung während eines Telefonats?",
+          "options": [
+            "Die andere Person überträgt gerade ihre Gefühle",
+            "Ein Planet bestätigt die Herkunft der Empfindung",
+            "Zunächst nur, dass eine eigene Empfindung bemerkt wurde"
+          ],
+          "correct_index": 2,
+          "explanation": "Die Ursache bleibt offen. Eine Empfindung allein beweist keine Fernübertragung oder einen Zustand des Gegenübers."
+        },
+        {
+          "id": "q2",
+          "question": "Wann darf eine stille Übung beendet werden?",
+          "options": [
+            "Jederzeit auf Wunsch der Person",
+            "Erst nach einer vollständigen astrologischen Deutung",
+            "Nur wenn eine festgelegte Punktzahl erreicht wurde"
+          ],
+          "correct_index": 0,
+          "explanation": "Die Übung ist freiwillig und darf jederzeit beendet werden."
+        },
+        {
+          "id": "q3",
+          "question": "Wie wird eine widersprechende Rückmeldung behandelt?",
+          "options": [
+            "Als fehlendes spirituelles Verständnis",
+            "Als gültige Aussage der Person, die die Deutung verändern kann",
+            "Als Beweis für einen verborgenen Feind"
+          ],
+          "correct_index": 1,
+          "explanation": "Die eigene symbolische Vermutung darf nicht über die tatsächliche Selbstbeschreibung gestellt werden."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2019/12/05/significations-of-the-twelve-houses-part-2-houses-7-12/",
+          "title": "The Astrology Podcast · Häuser 7–12",
+          "author": "Chris Brennan, Kelly Surtees und Austin Coppock",
+          "note": "Frei zugängliche Episodenseite zur traditionellen Themenzuordnung, hier Haus 12. Die Gesprächsabläufe, Lehrkonstellationen und Übungen sind eigene didaktische Entwürfe, keine Wiedergabe des Kurses oder Podcasttranskripts.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    }
+  ]
+}

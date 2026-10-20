@@ -3,7 +3,7 @@ from datetime import date, datetime, time
 from typing import Annotated, Literal
 from urllib.parse import urlparse
 
-from pydantic import BaseModel, ConfigDict, EmailStr, Field, field_validator
+from pydantic import BaseModel, ConfigDict, EmailStr, Field, field_validator, model_validator
 
 
 class StrictModel(BaseModel):
@@ -25,7 +25,18 @@ class Login(StrictModel):
 
 
 class ProfileUpdate(StrictModel):
-    tour_completed: bool
+    tour_completed: bool | None = None
+    name: Annotated[str, Field(min_length=1, max_length=120)] | None = None
+    hourly_rate_cents: Annotated[int, Field(strict=True, ge=0, le=1000000)] | None = None
+
+    @model_validator(mode="after")
+    def nonempty_update(self):
+        if not self.model_fields_set:
+            raise ValueError("Mindestens eine Profileinstellung angeben.")
+        for key in ("name", "tour_completed"):
+            if key in self.model_fields_set and getattr(self, key) is None:
+                raise ValueError("Name und Tourstatus dürfen nicht leer sein.")
+        return self
 
 
 class ClientCreate(StrictModel):
@@ -89,7 +100,7 @@ class Booking(StrictModel):
     start_at: datetime
     title: Name
     duration_minutes: int = Field(default=60,ge=15,le=180)
-    price_cents: int = Field(default=0,ge=0,le=1000000)
+    price_cents: Annotated[int, Field(strict=True, ge=0, le=1000000)] | None = None
 
     @field_validator("start_at")
     @classmethod

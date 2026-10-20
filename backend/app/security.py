@@ -39,7 +39,8 @@ def token_hash(token: str) -> str:
 
 def public_user(row) -> dict:
     return {"id":row["id"], "name":row["name"], "email":row["email"], "role":row["role"],
-            "client_id":row["client_id"], "tour_completed":bool(row["tour_completed"])}
+            "client_id":row["client_id"], "tour_completed":bool(row["tour_completed"]),
+            "hourly_rate_cents":row["hourly_rate_cents"] if row["role"] != "client" else None}
 
 
 def require_user(request: Request) -> dict:

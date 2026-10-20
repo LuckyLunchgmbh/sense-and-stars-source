@@ -1,0 +1,981 @@
+{
+  "id": "beratung-feldarbeit",
+  "title": "Beratung und reflektierte Feldarbeit",
+  "summary": "Zwölf praktische Lektionen für freiwillige spirituelle Reflexion, konzentriertes Fernzuhören, klare Grenzen und fiktive Erstgespräche. Eindrücke werden geprüft statt als fremde Tatsachen behauptet.",
+  "tradition": "Eigene Gesprächsübungen mit optionaler spiritueller Bildsprache; Aufmerksamkeit und Selbsterfahrung ohne Behauptung gemessener Energiefelder",
+  "level": "practice",
+  "prerequisites": [
+    "Du kannst direkt mit Gesprächsübungen beginnen; astrologische Vertiefungen sind freiwillig."
+  ],
+  "lessons": [
+    {
+      "key": "academy-beratung-feldarbeit-01",
+      "title": "Ein gemeinsamer Arbeitsrahmen",
+      "summary": "Kläre Anliegen, Sprache, Grenzen und Ergebnis, bevor du mit Symbolen arbeitest.",
+      "objective": "Du eröffnest ein Erstgespräch so, dass die Person informiert wählen, widersprechen und pausieren kann.",
+      "level": "practice",
+      "minutes": 35,
+      "body": "## Ein klarer Anfang schafft Orientierung\nEine erste Sitzung beginnt mit einer verständlichen Erklärung des Angebots. Marina kann sagen, dass sie astrologische Symbole und freiwillige Reflexionsübungen verwendet, um Anliegen zu erkunden. Sie sollte ebenso klar benennen, welche Ausbildung und Erfahrung sie tatsächlich hat. Ein schönes Radix oder ein Lernabzeichen ersetzt diese Angabe nicht. Die Person soll wissen, worauf sie sich einlässt, wie lange die Sitzung dauert und was sie kostet. Der Arbeitsrahmen ist Teil der Dienstleistung, nicht ein lästiger Vorspann vor der eigentlichen spirituellen Arbeit.\n\n## Das Anliegen in eigenen Worten\nBitte um eine kurze Beschreibung dessen, was heute hilfreich wäre. „Ich möchte meine Berufung erkennen“ ist ein großer Wunsch. Du kannst nachfragen, welche konkrete Frage heute bearbeitet werden soll: eine Entscheidung sortieren, Stärken benennen oder einen nächsten Lernschritt finden. Fasse die Antwort in den Worten der Person zusammen und lasse sie korrigieren. So entsteht ein gemeinsamer Fokus. Ohne diesen Schritt kann eine ausführliche Deutung an der tatsächlichen Frage vorbeigehen, auch wenn sie interessant klingt.\n\n## Die Sprache gemeinsam wählen\nManche Menschen möchten mit Begriffen wie Seele, Feld oder Energie arbeiten, andere bevorzugen Alltagssprache. Frage nach dieser Präferenz, ohne eine Religion oder Weltanschauung zu unterstellen. Du kannst eine Empfindung als subjektive Wahrnehmung beschreiben und bei Bedarf eine spirituelle Metapher anbieten. Zustimmung zu Astrologie ist keine pauschale Zustimmung zu Aussagen über frühere Leben, Krankheit oder abwesende Personen. Ein Thema darf ausgelassen werden. Auch ein bereits begonnenes Gespräch kann eine andere Sprache oder eine Pause brauchen.\n\n## Eine echte Wahl ermöglichen\nErkläre vor einer Übung knapp ihren Ablauf und ihren Zweck. Frage dann, ob die Person teilnehmen möchte. Ein Nein führt zu einer Alternative, nicht zu einem Urteil über angebliche Blockaden. Ein mögliches Stoppsignal ist ein einfaches „Pause“. Bei einem Telefonat sollte es genauso leicht verwendbar sein wie im Raum. Vermeide den Druck, eine Übung durchzuhalten, um spirituell offen zu wirken. Freiwilligkeit zeigt sich besonders daran, wie du mit einer Ablehnung umgehst.\n\n## Praktische Absprachen sichtbar machen\nHalte Dauer, vereinbarten Sitzungspreis, Kommunikationsweg und Umgang mit Notizen verständlich fest. Sammle nur Informationen, die für den vereinbarten Zweck gebraucht werden. Eine Aufzeichnung ist kein automatischer Teil einer Sitzung; sie braucht eine gesonderte klare Zustimmung und einen passenden Umgang mit den Daten. Dieser Kurs liefert keine fertige Rechtsvereinbarung für alle Fälle. Er trainiert, dass beide Seiten dieselben Erwartungen kennen und offene organisatorische Fragen vor einer persönlichen Vertiefung geklärt werden.\n\n## Einen brauchbaren Abschluss vorbereiten\nFrage schon am Anfang, woran die Person am Ende erkennen würde, dass das Gespräch hilfreich war. Eine mögliche Antwort ist: „Ich kann zwei Optionen benennen und einen kleinen nächsten Schritt wählen.“ Das ist realistischer als vollständige Klarheit über das ganze Leben. Im Abschluss greifst du genau dieses Kriterium wieder auf. Eine gute Sitzung darf offene Fragen hinterlassen. Ihr Wert liegt darin, verständliche Orientierung und eigene Entscheidungsspielräume zu schaffen, ohne Gewissheiten zu versprechen, die die Methode nicht liefern kann.",
+      "examples": [
+        {
+          "title": "Leas großer Wunsch wird konkret",
+          "body": "Lea kommt im fiktiven Erstgespräch mit dem Wunsch, endlich ihre Berufung zu kennen. Marina fragt, welche Entscheidung gerade ansteht. Lea möchte herausfinden, ob sie einen kleinen Workshop ausprobieren will. Beide vereinbaren, heute zwei mögliche Formate und einen ersten Testschritt zu erarbeiten. Spirituelle Begriffe sind willkommen, aber Lea möchte keine Aussagen über frühere Leben. Marina hält diese Präferenz fest. Der konkrete Rahmen macht die Sitzung überprüfbar, ohne Leas ursprünglichen Wunsch abzuwerten oder eine endgültige Bestimmung zu versprechen."
+        },
+        {
+          "title": "Samir lehnt eine Übung ab",
+          "body": "Samir möchte in einer Telefonübung seine Augen nicht schließen. Marina akzeptiert das und bietet an, einfach weiterzusprechen oder einen Gegenstand im Raum anzusehen. Sie erklärt die Ablehnung nicht als Widerstand gegen seine Entwicklung. Samir entscheidet sich für das Gespräch. Marina bestätigt, dass eine Pause jederzeit möglich bleibt. Das Beispiel zeigt, dass Zustimmung nicht nur am Anfang eingeholt wird, sondern während der Zusammenarbeit veränderbar bleibt und die gewählte Methode dem Menschen angepasst wird."
+        }
+      ],
+      "practice": {
+        "prompt": "Schreibe eine Gesprächseröffnung von etwa einer Minute für Lea: Angebot, Anliegen, Sprachwahl, Pause und ein konkretes Abschlusskriterium.",
+        "model_answer": "„Wir können heute mit astrologischen Bildern und offenen Fragen auf deinen geplanten Workshop schauen. Die Bilder sind Deutungsangebote; ich kann daraus keine sichere berufliche Zukunft ablesen. Mich interessiert zuerst, welche Frage du am Ende klarer sehen möchtest. Du sagst, du möchtest zwischen zwei kleinen Workshopformaten wählen. Habe ich das richtig verstanden? Wir haben für dieses Gespräch den vereinbarten Zeitrahmen und Preis. Spirituelle Sprache können wir verwenden, wenn sie für dich passt; Themen wie frühere Leben lassen wir auf deinen Wunsch weg. Du kannst jeder Frage widersprechen und jederzeit Pause sagen. Als Ergebnis könnten wir zwei Formate vergleichen und einen kleinen Testschritt festhalten. Wäre das für heute hilfreich?“ Danach warte ich auf ihre Antwort und ändere den Fokus gegebenenfalls. Ich würde nicht schon während dieser Frage mit einer ausführlichen Deutung beginnen. Der vereinbarte Rahmen wird in einer knappen, zweckbezogenen Notiz dokumentiert.",
+        "rubric": [
+          "Angebot und Grenzen werden verständlich erklärt.",
+          "Das Anliegen wird rückbestätigt.",
+          "Sprachwahl und Pause bleiben freiwillig.",
+          "Ein konkretes Ergebnis ist gemeinsam überprüfbar."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was kommt vor einer ausführlichen Deutung?",
+          "options": [
+            "Die dramatischste Planetenkonstellation",
+            "Ein gemeinsames Anliegen und ein klarer Rahmen",
+            "Eine verpflichtende Energieübung"
+          ],
+          "correct_index": 1,
+          "explanation": "Die Methode soll dem vereinbarten Anliegen dienen."
+        },
+        {
+          "id": "q2",
+          "question": "Wie zeigt sich echte Freiwilligkeit?",
+          "options": [
+            "Ein Nein wird respektiert und eine Alternative ist möglich",
+            "Eine Ablehnung wird als Blockade gedeutet",
+            "Alle müssen dieselbe Übung machen"
+          ],
+          "correct_index": 0,
+          "explanation": "Zustimmung ist nur echt, wenn Ablehnung ohne Druck möglich bleibt."
+        },
+        {
+          "id": "q3",
+          "question": "Welches Abschlusskriterium ist konkret?",
+          "options": [
+            "Vollständige Erkenntnis des Seelenplans",
+            "Garantierter beruflicher Erfolg",
+            "Zwei Optionen und ein selbst gewählter Testschritt"
+          ],
+          "correct_index": 2,
+          "explanation": "Ein begrenztes Ergebnis kann gemeinsam geprüft werden."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bacp.co.uk/about-therapy/counselling-terms-and-concepts/",
+          "title": "Counselling terms and concepts",
+          "author": "British Association for Counselling and Psychotherapy",
+          "note": "Primärquelle zur Unterscheidung von Empathie, Arbeitsvereinbarung und Grenzen. Die konkreten Dialoge und Übungsabläufe wurden eigenständig für diesen Lernraum entwickelt.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://coachingfederation.org/credentialing/coaching-competencies/icf-core-competencies/",
+          "title": "ICF Core Competencies",
+          "author": "International Coaching Federation",
+          "note": "Primärquelle zu gemeinsamem Arbeitsrahmen, aktivem Zuhören und selbst bestimmten Lernschritten. Keine ICF-Zertifizierung oder Übernahme eines vollständigen Ausbildungsprogramms.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "academy-beratung-feldarbeit-02",
+      "title": "Auf Distanz präsent zuhören",
+      "summary": "Gestalte ein konzentriertes Telefon- oder Videogespräch, ohne fremde Gefühle als bekannt auszugeben.",
+      "objective": "Du führst einen klaren Ablauf für Fernaufmerksamkeit, Rückfragen und technische Unterbrechungen durch.",
+      "level": "practice",
+      "minutes": 35,
+      "body": "## Nähe beginnt mit Aufmerksamkeit\nEine Person kann weit entfernt sitzen und sich dennoch im Gespräch verstanden fühlen. Dafür brauchst du keine Behauptung, ihr Energiefeld sicher zu betreten. Du kannst deine eigene Aufmerksamkeit sammeln, Ablenkungen reduzieren und genau auf das hören, was tatsächlich gesagt wird. Wer diese Erfahrung spirituell als Feldkontakt beschreibt, darf das als persönliche Metapher tun. Im Arbeitsprotokoll bleiben jedoch gehörte Angaben, eigene Empfindungen und Deutungen getrennt. Entfernung allein macht einen Eindruck weder wahr noch falsch.\n\n## Den Gesprächsraum vorbereiten\nPrüfe vor dem Anruf, ob du ungestört sprechen und Notizen geschützt aufbewahren kannst. Schließe unnötige Fenster, stelle Benachrichtigungen leise und lege das vereinbarte Anliegen bereit. Frage am Anfang, ob auch das Gegenüber gerade ausreichend ungestört ist. Vereinbart einen einfachen Rückweg bei Verbindungsabbruch, etwa erneutes Anrufen nach kurzer Zeit. Ein technisches Problem ist kein spirituelles Zeichen. Wenn die Verständigung schlecht bleibt, ist eine Verschiebung oft hilfreicher als eine Sitzung voller Vermutungen.\n\n## Drei hörbare Ebenen\nAchte auf Inhalt, Ausdruck und Gesprächsverlauf. Inhalt sind die tatsächlich gesprochenen Worte. Ausdruck umfasst zum Beispiel Lautstärke, Tempo oder Pausen, soweit du sie zuverlässig hören kannst. Gesprächsverlauf meint, wann ein Thema wechselt oder eine Frage unbeantwortet bleibt. Aus diesen Beobachtungen entstehen mögliche Rückfragen, keine sicheren Innenansichten. Eine leise Stimme kann Müdigkeit, Rücksicht auf Mitbewohner oder technische Lautstärke bedeuten. Frage nach, bevor du Angst oder Traurigkeit unterstellst.\n\n## Eine kurze Zuhörschleife\nLass die Person zunächst einen Gedanken zu Ende führen. Fasse danach einen zentralen Inhalt in eigenen Worten zusammen. Ergänze eine offene Rückfrage und warte auf Korrektur. Beispielsweise: „Du möchtest helfen, aber die vielen Nachrichten werden dir zu viel. Was genau wäre für dich eine passende Grenze?“ Diese Schleife ist konzentriert und überprüfbar. Sie erlaubt der Person, sich verstanden oder missverstanden zu fühlen und das mitzuteilen. Du musst dafür weder jeden Ton analysieren noch sofort eine spirituelle Ursache anbieten.\n\n## Eigene Eindrücke dosiert verwenden\nWenn in dir ein Bild oder Gefühl auftaucht, notiere es zunächst innerlich als dein Erleben. Prüfe, ob es überhaupt zum vereinbarten Anliegen passt. Falls du es ansprichst, kennzeichne es ausdrücklich als unsicheren Eindruck und biete eine echte Möglichkeit des Widerspruchs. Oft ist eine neutrale Frage besser als die Mitteilung des Bildes. Vermeide Aussagen über Krankheiten, geheime Ereignisse oder Gedanken abwesender Personen. Ein entfernter Gesprächspartner kann solche Behauptungen besonders schwer prüfen und könnte ihnen zu viel Autorität geben.\n\n## Einen bewussten Abschluss setzen\nFasse am Ende die tatsächlich vereinbarten Erkenntnisse zusammen und lasse die Person korrigieren. Prüfe, ob noch eine praktische Frage offen ist, und beende den Kontakt zur vereinbarten Zeit. Danach richtest du deine Aufmerksamkeit wieder auf den eigenen Raum und notierst nur das Nötige. Diese klare Grenze hilft, eine Sitzung abzuschließen. Sie belegt keinen entfernten Energiefluss und verlangt keine Vorstellung, du müsstest fremden Ballast aus deinem Körper entfernen.",
+      "examples": [
+        {
+          "title": "Ein Anruf nach Indien",
+          "body": "Samir sitzt im fiktiven Fall in Indien und spricht mit Marina per Telefon. Seine Stimme klingt leise. Marina vermutet zunächst Traurigkeit, fragt aber neutral, ob die Lautstärke für ihn gerade angenehm ist. Samir erklärt, dass ein Mitbewohner schläft. Marina korrigiert ihren Eindruck und spricht etwas ruhiger. Der geografische Abstand verhindert keine aufmerksame Zusammenarbeit, liefert aber auch keinen Beleg für eine besondere Wahrnehmung seiner Gefühle. Die Rückfrage klärt mehr als eine sichere Behauptung über sein Feld."
+        },
+        {
+          "title": "Eine Pause hat mehrere Erklärungen",
+          "body": "Lea antwortet im Übungstelefonat mehrere Sekunden nicht. Marina wartet kurz und fragt dann, ob die Frage angekommen ist oder sie mehr Zeit möchte. Lea hat tatsächlich nachgedacht; bei einem anderen Anruf hätte die Verbindung gestört sein können. Marina schreibt daher nicht automatisch „starker Widerstand“ in die Notiz. Sie hält den bestätigten Inhalt fest und setzt das Gespräch in einem passenden Tempo fort. Die kleine Nachfrage schützt vor einer unnötig dramatischen Interpretation einer gewöhnlichen Pause."
+        }
+      ],
+      "practice": {
+        "prompt": "Entwirf einen fünfminütigen Einstieg für ein Fernübungsgespräch mit Samir. Baue Raumprüfung, Rückweg bei Abbruch, Zuhörschleife und eine Korrekturmöglichkeit ein.",
+        "model_answer": "Ich beginne mit der Frage, ob Samir gerade ungestört sprechen kann und mich gut hört. Wir vereinbaren, dass ich bei einem Abbruch einmal erneut anrufe und wir bei weiterem Problem einen neuen Termin abstimmen. Danach bitte ich ihn, sein heutiges Anliegen in wenigen Sätzen zu beschreiben. Ich höre zu, ohne aus Stimme oder Pausen schon Gefühle als Tatsache abzuleiten. Anschließend fasse ich zusammen: „Du möchtest den Kontakt zu einem Freund erhalten und zugleich weniger Nachrichten beantworten. Trifft das dein Anliegen?“ Samir kann korrigieren. Meine nächste Frage lautet, welche konkrete Situation ihn zuletzt belastet hat. Wenn ich eigene Anspannung bemerke, behandle ich sie zunächst als meinen Zustand und überprüfe Haltung, Tempo und Erwartung. Ich behaupte keinen sicheren Zugang zu seinem Energiefeld. Der Einstieg ist gelungen, wenn wir uns technisch verstehen, dasselbe Anliegen meinen und Samir weiß, dass er jederzeit eine Frage zurückweisen oder pausieren darf.",
+        "rubric": [
+          "Technische und räumliche Bedingungen werden kurz geklärt.",
+          "Ein Verbindungsabbruch hat einen praktischen Rückweg.",
+          "Zusammenfassung und offene Nachfrage bilden eine Zuhörschleife.",
+          "Eigene Eindrücke werden nicht als Samirs Gefühle behauptet."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was folgt sicher aus einer leisen Stimme?",
+          "options": [
+            "Dass die Person traurig ist",
+            "Dass ein Energiefeld blockiert ist",
+            "Zunächst nur eine hörbare Lautstärke, deren Grund offen ist"
+          ],
+          "correct_index": 2,
+          "explanation": "Mehrere Ursachen sind möglich; eine Rückfrage ist genauer als eine Unterstellung."
+        },
+        {
+          "id": "q2",
+          "question": "Was gehört zu einer Zuhörschleife?",
+          "options": [
+            "Zuhören, zusammenfassen, offen nachfragen",
+            "Deuten, überreden, bestätigen lassen",
+            "Jede Pause sofort füllen"
+          ],
+          "correct_index": 0,
+          "explanation": "Die Schleife macht Verständnis überprüfbar und erlaubt Korrektur."
+        },
+        {
+          "id": "q3",
+          "question": "Wie wird ein technischer Abbruch behandelt?",
+          "options": [
+            "Als karmisches Zeichen",
+            "Nach dem vorher vereinbarten praktischen Rückweg",
+            "Als Beweis fremder Energie"
+          ],
+          "correct_index": 1,
+          "explanation": "Eine technische Störung braucht eine technische beziehungsweise organisatorische Antwort."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://coachingfederation.org/credentialing/coaching-competencies/icf-core-competencies/",
+          "title": "ICF Core Competencies",
+          "author": "International Coaching Federation",
+          "note": "Primärquelle zu gemeinsamem Arbeitsrahmen, aktivem Zuhören und selbst bestimmten Lernschritten. Keine ICF-Zertifizierung oder Übernahme eines vollständigen Ausbildungsprogramms.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://www.bacp.co.uk/about-therapy/counselling-terms-and-concepts/",
+          "title": "Counselling terms and concepts",
+          "author": "British Association for Counselling and Psychotherapy",
+          "note": "Primärquelle zur Unterscheidung von Empathie, Arbeitsvereinbarung und Grenzen. Die konkreten Dialoge und Übungsabläufe wurden eigenständig für diesen Lernraum entwickelt.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "academy-beratung-feldarbeit-03",
+      "title": "Erdung als freiwillige Orientierung",
+      "summary": "Übe eine kurze Rückkehr zu Raum, Körperkontakt und Aufgabe, ohne Atem oder Gefühle zu erzwingen.",
+      "objective": "Du leitest eine einfache Orientierungsübung mit Wahlmöglichkeiten und Abbruchmöglichkeit an.",
+      "level": "practice",
+      "minutes": 35,
+      "body": "## Was wir hier mit Erdung meinen\nIn diesem Lernraum bezeichnet Erdung eine freiwillige Übung, bei der du deine Aufmerksamkeit auf den aktuellen Raum, eine angenehme Körperposition und die nächste überschaubare Aufgabe richtest. Manche Menschen verbinden damit eine spirituelle Vorstellung. Andere möchten nur kurz ankommen. Beide Zugänge sind möglich, solange klar bleibt, dass keine Energie gemessen und keine Heilung versprochen wird. Die Übung soll die eigene Orientierung unterstützen. Sie ersetzt keine Behandlung und ist kein Test dafür, ob jemand spirituell offen genug ist.\n\n## Erst eine passende Wahl anbieten\nFrage, ob eine kurze Pause von ungefähr einer Minute willkommen ist. Biete an, die Augen offen zu lassen, einfach zuzuhören oder die Übung ganz auszulassen. Nicht jeder Mensch erlebt Körperfokus oder geschlossene Augen als angenehm. Eine Wahlmöglichkeit ist deshalb Bestandteil der Methode. Wenn die Person Unbehagen bemerkt, wird nicht weiter vertieft. Sie kann sich umsehen, die Haltung ändern oder zum normalen Gespräch zurückkehren. Das Ziel ist eine brauchbare Unterstützung, kein möglichst intensives Erlebnis.\n\n## Ein einfacher eigener Ablauf\nBeginne mit dem Raum: Nimm einen neutralen Gegenstand wahr und beschreibe still seine Farbe oder Form. Spüre danach, wenn angenehm, den Kontakt der Füße zum Boden oder des Rückens zum Stuhl. Lass den Atem in seinem gewöhnlichen Rhythmus; es gibt keine Pflicht, besonders tief zu atmen oder ihn anzuhalten. Benenne zuletzt die nächste kleine Aufgabe, etwa dem Gegenüber einen Satz lang zuzuhören. Diese Abfolge ist ein eigener kurzer Übungsentwurf, keine vollständige Wiedergabe eines WHO-Programms.\n\n## Beobachten statt produzieren\nVielleicht verändert sich nichts Spürbares. Auch das ist ein gültiges Ergebnis. Frage danach schlicht, ob die Pause hilfreich, neutral oder unangenehm war. Verlange keine Wärme, kein Kribbeln und keinen Energiefluss. Solche Erwartungen können dazu führen, dass Menschen etwas berichten, nur um die Übung richtig zu machen. Ebenso ist ein angenehmes Gefühl kein Beweis für eine bestimmte Erklärung. Halte die tatsächliche Rückmeldung fest und entscheide gemeinsam, ob diese Form künftig genutzt werden soll.\n\n## In eine Sitzung einbauen\nEine kurze Orientierung kann vor einem Gespräch, nach einer Unterbrechung oder am Ende angeboten werden. Sie muss nicht jede Sitzung eröffnen. Marina kann sie auch allein zur Vorbereitung nutzen, bevor ein Klient zugeschaltet wird. Dann prüft sie ihren eigenen Zustand, statt aus Nervosität sofort auf das Gegenüber zu schließen. Ein sichtbarer Gegenstand, ein Glas Wasser oder eine bequeme Sitzposition reichen als Alltagshilfen. Besondere Ausrüstung oder kostenpflichtige Rituale sind für diese Übung nicht erforderlich.\n\n## Grenzen und Abschluss\nWenn jemand starke oder anhaltende Beschwerden beschreibt, sollte die spirituelle Beratung diese nicht durch eine intensivere Erdungsübung erklären oder behandeln wollen. Benenne die Grenze und unterstütze eine passende fachliche Abklärung. Für den normalen Lernversuch genügt ein kurzer Abschluss: Raum wahrnehmen, zur vereinbarten Aufgabe zurückkehren und eine Rückmeldung geben. Im Notizbuch steht anschließend, welche Variante gewählt wurde und wie sie erlebt wurde. Daraus entsteht eine persönliche Erfahrungsgrundlage, keine allgemeine Behauptung über gemessene Felder oder die Gefühle anderer Menschen.",
+      "examples": [
+        {
+          "title": "Lea bevorzugt offene Augen",
+          "body": "Lea möchte vor einer fiktiven Übung kurz ankommen, fühlt sich mit geschlossenen Augen aber unwohl. Marina lädt sie ein, einen neutralen Gegenstand im Raum anzusehen und ihre Sitzposition zu prüfen. Der Atem bleibt unverändert. Nach einer Minute sagt Lea, dass die Pause angenehm war. Marina notiert genau diese Rückmeldung und keine angebliche Reinigung eines Energiefelds. Beim nächsten Mal kann Lea dieselbe Variante wählen, verändern oder auslassen; der positive Eindruck wird nicht zur Pflicht gemacht."
+        },
+        {
+          "title": "Samir spürt keine Veränderung",
+          "body": "Samir probiert die kurze Orientierung im Übungsgespräch und sagt danach, es habe sich nichts verändert. Marina bedankt sich für die klare Rückmeldung und setzt das Gespräch fort. Sie deutet das Ergebnis nicht als Blockade und verlängert die Übung nicht gegen seinen Wunsch. Vielleicht hilft ihm ein praktischer Blick auf die Gesprächsfrage mehr. Das Beispiel zeigt, dass eine neutrale Wirkung genauso dokumentiert werden darf wie eine angenehme und dass der Mensch nicht der Methode dienen muss."
+        }
+      ],
+      "practice": {
+        "prompt": "Schreibe eine kurze Anleitung mit drei Schritten für eine freiwillige Orientierungsminute. Ergänze eine Alternative bei Unbehagen und die anschließende Rückfrage.",
+        "model_answer": "„Wenn du möchtest, nehmen wir uns ungefähr eine Minute zum Ankommen. Du kannst die Augen offen lassen oder die Übung auslassen. Schau zuerst auf einen neutralen Gegenstand und nimm seine Form wahr. Prüfe dann, ob deine Sitzposition bequem ist; wenn es angenehm ist, bemerke kurz den Kontakt zum Stuhl oder Boden. Lass deinen Atem so, wie er gerade kommt. Benenne zuletzt für dich, womit du dich in unserem Gespräch als Nächstes beschäftigen möchtest.“ Wenn Unbehagen entsteht, biete ich an, sich umzusehen, die Haltung zu verändern oder sofort normal weiterzusprechen. Danach frage ich: „War diese kurze Pause hilfreich, neutral oder eher unangenehm?“ Jede Antwort bleibt gültig. Ich verlange keine bestimmte Empfindung und leite aus Kribbeln oder Wärme keine gemessene Energie ab. In der Lernnotiz halte ich Variante und Rückmeldung fest, ohne daraus eine therapeutische Wirkung zu behaupten.",
+        "rubric": [
+          "Teilnahme, offene Augen und Auslassen sind echte Optionen.",
+          "Die drei Schritte bleiben einfach und ohne Atemzwang.",
+          "Bei Unbehagen gibt es einen unmittelbaren Ausstieg.",
+          "Die Rückfrage erlaubt hilfreiche, neutrale und unangenehme Ergebnisse."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was ist das Ziel dieser Erdungsübung?",
+          "options": [
+            "Orientierung im gegenwärtigen Raum und bei der Aufgabe",
+            "Eine garantierte Heilung",
+            "Ein Beweis für fremde Gefühle"
+          ],
+          "correct_index": 0,
+          "explanation": "Die Übung richtet Aufmerksamkeit und prüft ihren subjektiven Nutzen."
+        },
+        {
+          "id": "q2",
+          "question": "Wie soll der Atem geführt werden?",
+          "options": [
+            "Möglichst lange anhalten",
+            "Immer maximal tief",
+            "Ohne Zwang im gewöhnlichen Rhythmus lassen"
+          ],
+          "correct_index": 2,
+          "explanation": "Der eigene Ablauf verlangt keine intensive Atemtechnik."
+        },
+        {
+          "id": "q3",
+          "question": "Eine Person spürt keine Veränderung. Was ist passend?",
+          "options": [
+            "Die Übung bis zum gewünschten Ergebnis verlängern",
+            "Die Rückmeldung akzeptieren und gemeinsam weiterentscheiden",
+            "Die Person als blockiert bezeichnen"
+          ],
+          "correct_index": 1,
+          "explanation": "Die Rückmeldung bestimmt, ob die Übung nützlich ist; ein bestimmtes Erlebnis wird nicht erzwungen."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.who.int/publications/i/item/9789240003927",
+          "title": "Doing What Matters in Times of Stress",
+          "author": "World Health Organization",
+          "note": "Öffentlicher Leitfaden zu alltagstauglicher Stressbewältigung. Die kurze Orientierungsübung hier ist ein eigener Entwurf; die Quelle belegt weder Energiefelder noch Heilung durch Astrologie.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "academy-beratung-feldarbeit-04",
+      "title": "Drei Spalten für Gefühl, Vermutung und Bericht",
+      "summary": "Trenne eigene Empfindungen von Hypothesen über andere und von tatsächlich gehörten Angaben.",
+      "objective": "Du führst ein Resonanzprotokoll, das Rückfragen ermöglicht und falsche Zuschreibungen korrigierbar hält.",
+      "level": "practice",
+      "minutes": 35,
+      "body": "## Ein Gefühl ist zunächst dein Erleben\nWährend eines Gesprächs kannst du Anspannung, Wärme, Traurigkeit, Müdigkeit oder ein inneres Bild bemerken. Diese Wahrnehmung verdient Aufmerksamkeit. Ihre Herkunft ist damit jedoch noch nicht geklärt. Vielleicht reagierst du auf Worte, auf Erinnerungen, auf deinen Arbeitstag oder auf deine Sitzhaltung. Vielleicht entsteht eine Vermutung über das Gegenüber. Der Satz „Das sind nicht meine Gefühle, sondern dein Ballast“ überspringt diese Prüfung. Eine sorgfältige Feldarbeit beginnt hier mit Differenzierung, nicht mit einer sicheren Zuschreibung fremden Innenlebens.\n\n## Die erste Spalte: eigene Wahrnehmung\nSchreibe möglichst konkret auf, was du selbst bemerkst. „Meine Schultern sind angespannt“ ist genauer als „Das Feld ist schwer“. Ergänze Zeitpunkt und Situation: Trat die Empfindung schon vor dem Anruf auf oder erst während eines bestimmten Themas? Eine kurze Selbstprüfung vor der Sitzung schafft einen Vergleich. Du brauchst dafür keine umfassende Körperanalyse. Ein bis zwei neutrale Beobachtungen reichen, um später zu erkennen, dass nicht jede Veränderung vom Klienten stammen muss.\n\n## Die zweite Spalte: mögliche Erklärung\nIn die zweite Spalte kommen ausdrücklich Vermutungen. Formuliere mindestens zwei plausible Erklärungen, wenn du einen Eindruck besonders überzeugend findest. Beispielsweise könnte deine Anspannung mit eigener Zeitnot zusammenhängen oder mit einem schwierigen Gesprächsmoment. Eine weitere Möglichkeit bleibt, dass du den Grund gerade nicht kennst. Die Spalte ist kein Wettbewerb um die spirituell eindrucksvollste Geschichte. Sie trainiert, einen spontanen Eindruck auszuhalten, ohne ihn sofort als Tatsache behandeln zu müssen.\n\n## Die dritte Spalte: berichtete Information\nHier steht, was die Person tatsächlich sagt, möglichst als sinngenaue Zusammenfassung mit klarer Herkunft. Wenn Samir erklärt, er sei wegen eines Termins in Eile, ist das seine Selbstauskunft. Du kannst sie berücksichtigen, ohne rückwirkend zu behaupten, du hättest seinen Zustand sicher gespürt. Wenn er deine Vermutung verneint, bleibt das Nein stehen. Er muss nicht überzeugt werden, ein verborgenes Gefühl zu besitzen, damit dein erster Eindruck erhalten bleibt. Die dritte Spalte kann eine Hypothese verändern oder ganz entkräften.\n\n## Eine Rückfrage auswählen\nNicht jeder eigene Eindruck muss angesprochen werden. Frage zuerst, ob eine Rückfrage dem vereinbarten Anliegen dient. Statt „Ich fühle deine Angst“ könnte es heißen: „Wie ist das Tempo gerade für dich?“ Oder: „Was geht dir durch den Kopf, wenn du diese Situation beschreibst?“ Eine solche Frage erlaubt unterschiedliche Antworten. Sie lenkt die Person weniger stark auf eine vorgegebene Emotion. Bei sehr persönlichen oder gesundheitsbezogenen Vermutungen ist Zurückhaltung besonders wichtig; ein subjektives Körpergefühl liefert keine Diagnose.\n\n## Die Notiz nach der Sitzung bereinigen\nBewahre im Lernjournal die drei Ebenen getrennt auf. In eine Klientenakte gehören keine unbestätigten Behauptungen über fremde Energie oder geheime Ereignisse. Falls eine Vermutung für die gemeinsame Arbeit relevant war, kennzeichne sie samt Rückmeldung. Markiere auch Korrekturen ausdrücklich, statt nur den passenden Endzustand aufzuschreiben. So entwickelst du ein feineres Verständnis deiner Aufmerksamkeit und deiner Grenzen. Die Fähigkeit, einen starken Eindruck zu revidieren, ist eine wichtige praktische Kompetenz und kein Verlust spiritueller Offenheit.",
+      "examples": [
+        {
+          "title": "Anspannung vor dem Anruf",
+          "body": "Marina bemerkt schon vor Leas fiktivem Telefontermin einen festen Kiefer. Während Lea über ihren Workshop spricht, wird die Spannung stärker. Im Drei-Spalten-Blatt steht zuerst die eigene Wahrnehmung samt Beginn vor dem Anruf. Als Erklärungen notiert Marina Zeitdruck und die Konzentration auf das Gespräch. Lea berichtet, dass sie sich auf den Workshop freut. Marina übernimmt diese Aussage und schreibt nicht, Lea verberge Angst. Das Protokoll verhindert, dass ein eigener Zustand automatisch zum fremden Problem wird."
+        },
+        {
+          "title": "Ein Eindruck wird korrigiert",
+          "body": "Samir spricht im Übungsdialog knapp. Marina vermutet zunächst Ärger, fragt aber, ob er gerade genug Zeit hat. Samir erklärt, dass ein Lieferdienst gleich klingeln könnte und er abgelenkt ist. In der dritten Spalte notiert sie diese Selbstauskunft. Die Ärgerhypothese wird als nicht bestätigt markiert. Beide vereinbaren eine kurze Pause. Die praktische Klärung hilft dem Gespräch mehr als eine Behauptung über fremde Belastung und zeigt, dass Korrekturen ausdrücklich zum Lernen dazugehören."
+        }
+      ],
+      "practice": {
+        "prompt": "Ordne diese Angaben in drei Spalten: „Ich spüre Druck im Brustbereich“, „Vielleicht ist Samir traurig“, „Samir sagt, er ist wegen eines Termins in Eile“. Ergänze zwei andere Erklärungen und eine neutrale Rückfrage.",
+        "model_answer": "In die erste Spalte kommt ausschließlich meine eigene Wahrnehmung: „Ich bemerke Druck im Brustbereich.“ Ich ergänze, wann sie auftrat, ohne daraus eine Aussage über Samir zu machen. Die zweite Spalte enthält die Vermutung „Vielleicht ist Samir traurig“. Als andere Erklärungen notiere ich meine eigene Anspannung vor dem Gespräch und eine unbequeme Sitzhaltung; außerdem kann die Ursache unbekannt bleiben. Die dritte Spalte enthält Samirs tatsächliche Aussage, dass er wegen eines Termins in Eile ist. Eine passende Rückfrage lautet: „Möchtest du heute kürzer sprechen oder lieber einen ruhigeren Zeitpunkt wählen?“ Ich erkläre nicht, seine Eile bestätige automatisch meine Traurigkeitshypothese. Das Protokoll trennt Wahrnehmung, Deutung und Bericht und erlaubt, die erste Vermutung zu verwerfen. Eigene neue oder anhaltende körperliche Beschwerden würde ich nicht als fremde Energie behandeln, sondern bei Bedarf angemessen abklären lassen.",
+        "rubric": [
+          "Die eigene Empfindung wird nicht Samir zugeschrieben.",
+          "Mindestens zwei alternative Erklärungen sind genannt.",
+          "Samirs Selbstauskunft bleibt als eigene Informationsart erkennbar.",
+          "Die Rückfrage ist neutral und praktisch hilfreich."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Wohin gehört „Ich bemerke Anspannung“?",
+          "options": [
+            "In die Spalte eigener Wahrnehmung",
+            "Als Diagnose in die Klientenakte",
+            "Als bewiesenes Gefühl des Gegenübers"
+          ],
+          "correct_index": 0,
+          "explanation": "Die Beobachtung beschreibt zunächst den eigenen Zustand."
+        },
+        {
+          "id": "q2",
+          "question": "Was geschieht mit einer verneinten Vermutung?",
+          "options": [
+            "Sie wird automatisch zur unbewussten Wahrheit",
+            "Sie wird ohne Rückfrage bestätigt",
+            "Sie kann als nicht bestätigt verworfen werden"
+          ],
+          "correct_index": 2,
+          "explanation": "Ein Nein muss eine Hypothese tatsächlich verändern können."
+        },
+        {
+          "id": "q3",
+          "question": "Welche Rückfrage ist am wenigsten suggestiv?",
+          "options": [
+            "Warum bist du so traurig?",
+            "Wie passt das Gesprächstempo gerade für dich?",
+            "Du spürst doch auch diese schwere Energie?"
+          ],
+          "correct_index": 1,
+          "explanation": "Die Frage legt keine bestimmte Emotion als Tatsache vor."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bacp.co.uk/about-therapy/counselling-terms-and-concepts/",
+          "title": "Counselling terms and concepts",
+          "author": "British Association for Counselling and Psychotherapy",
+          "note": "Primärquelle zur Unterscheidung von Empathie, Arbeitsvereinbarung und Grenzen. Die konkreten Dialoge und Übungsabläufe wurden eigenständig für diesen Lernraum entwickelt.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://coachingfederation.org/credentialing/coaching-competencies/icf-core-competencies/",
+          "title": "ICF Core Competencies",
+          "author": "International Coaching Federation",
+          "note": "Primärquelle zu gemeinsamem Arbeitsrahmen, aktivem Zuhören und selbst bestimmten Lernschritten. Keine ICF-Zertifizierung oder Übernahme eines vollständigen Ausbildungsprogramms.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "academy-beratung-feldarbeit-05",
+      "title": "Ein Intuitionstagebuch mit Gegenbeispielen",
+      "summary": "Dokumentiere Eindrücke vor der Rückmeldung und lerne aus Treffern, Nicht-Treffern und unklaren Fällen.",
+      "objective": "Du entwirfst einen begrenzten Lernversuch, der Erinnerung und nachträgliches Passendmachen sichtbar macht.",
+      "level": "practice",
+      "minutes": 35,
+      "body": "## Intuition darf eine Hypothese beginnen\nEin spontaner Eindruck kann eine interessante Frage anregen. Er ist aber noch kein Beleg für seine Erklärung. Ein Intuitionstagebuch hilft, eigene Muster kennenzulernen: Wann entstehen bestimmte Eindrücke? Welche bestätigen sich in einer klaren Rückmeldung, welche nicht? Die Übung soll weder jede Intuition abwerten noch Hellsicht bescheinigen. Ihr Ziel ist eine ehrliche Lernspur. Gerade wenn eine Erfahrung eindrucksvoll wirkt, lohnt es sich, Wortlaut und Zeitpunkt festzuhalten, bevor weitere Informationen die Erinnerung verändern.\n\n## Die Notiz vor der Rückmeldung\nSchreibe einen kurzen, konkreten Eindruck auf, bevor du nachfragst. Vermeide so weite Sätze wie „Es gibt etwas Wichtiges in deinem Leben“, die fast immer passen können. Eine prüfbare Notiz könnte lauten: „Ich vermute, dass die Person heute wegen eines konkreten Termins unter Zeitdruck steht.“ Daneben steht, welche Beobachtungen bereits bekannt waren, etwa ein Blick auf die Uhr oder eine geäußerte Eile. So wird später sichtbar, ob der Eindruck auch aus gewöhnlichen Hinweisen entstanden sein könnte.\n\n## Vorher festlegen, was zählt\nDefiniere im Voraus drei Kategorien: bestätigt, nicht bestätigt und unklar. Eine ausdrückliche passende Selbstauskunft kann als Bestätigung dieser einzelnen Vermutung gelten. Ein Nein wird als Nicht-Treffer festgehalten. Eine ausweichende oder mehrdeutige Antwort bleibt unklar und zählt nicht automatisch als Treffer. Die Kategorien betreffen den Inhalt der Vermutung, nicht ihre Ursache. Selbst mehrere bestätigte Eindrücke beweisen ohne geeignete Kontrollen keine besondere Wahrnehmungsfähigkeit. Ein persönliches Lernjournal ist keine wissenschaftliche Untersuchung.\n\n## Rückfragen ohne Druck\nFühre solche Übungen nur mit Zustimmung durch und wähle unverfängliche Themen. Keine Vermutungen über Krankheiten, Todesfälle, Untreue oder verdrängte Erinnerungen. Eine Person darf die Rückmeldung verweigern. Frage so neutral wie möglich und erkläre, dass ein Nein für dein Lernen genauso willkommen ist. Wenn du die Antwort ausführlich lenkst, wird schwer erkennbar, was ursprünglich gemeint war. Das Gespräch soll nicht dazu dienen, den anderen von deiner Trefferquote zu überzeugen oder ihm eine fremde Geschichte nahezulegen.\n\n## Alle Versuche behalten\nLege eine kleine feste Zahl von Übungen fest, beispielsweise sechs harmlose Eindrücke mit einer freiwilligen Übungspartnerin. Bewahre jede Notiz auf. Bei zwei Bestätigungen, drei Nicht-Treffern und einem unklaren Fall lautet die Beschreibung genau so. Du darfst nicht nur die zwei eindrucksvollen Treffer weitererzählen. Auch die Formulierung „zwei von zwei“ wäre irreführend, wenn vier andere Versuche ausgelassen wurden. Kleine Zahlen und persönliche Rückmeldungen erlauben ohnehin keine verlässliche Erfolgsprognose für spätere Klientensitzungen.\n\n## Eine nützliche Auswertung\nLies am Ende zunächst die ursprünglichen Notizen und erst dann die Antworten. Suche nach Mustern deiner eigenen Aufmerksamkeit: Überschätzt du bestimmte Gefühle? Verwechselst du Ruhe mit Traurigkeit? Entstehen bessere Fragen, wenn du ausgeschlafen bist? Solche Erkenntnisse können deine Gesprächsführung verbessern. Formuliere daraus einen konkreten nächsten Lernschritt, etwa häufiger neutral nachzufragen. Die Quelle zur Vorabplanung liefert dafür ein methodisches Vorbild; dein Tagebuch bleibt ein eigener, begrenzter Selbstlernversuch und keine zertifizierende Prüfung spiritueller Fähigkeiten.",
+      "examples": [
+        {
+          "title": "Sechs Versuche vollständig zählen",
+          "body": "Marina hält in einem fiktiven Übungsdurchlauf sechs harmlose Vermutungen vor der Rückmeldung fest. Zwei werden bestätigt, drei verneint und eine bleibt unklar. In ihrer Auswertung stehen alle sechs. Sie schreibt nicht, ihre Wahrnehmung sei hundertprozentig, nur weil die zwei bestätigten Eindrücke besonders deutlich waren. Anschließend schaut sie, welche gewöhnlichen Hinweise bereits vorhanden waren. Das Ergebnis hilft ihr beim vorsichtigen Fragenstellen und wird weder als Werbeaussage noch als Beleg für Hellsicht verwendet."
+        },
+        {
+          "title": "Ein weiter Satz wird präziser",
+          "body": "Lea notiert zunächst den Eindruck „Samir steht vor einer Veränderung“. Marina fragt, woran eine Bestätigung oder Widerlegung erkennbar wäre. Lea merkt, dass fast jede neue Woche darunterfallen könnte. Für eine weitere freiwillige Übung wählt sie eine konkretere, unverfängliche Vermutung und schreibt die Kriterien vorher auf. Der erste weite Satz bleibt als unklar gekennzeichnet. Er wird nicht nachträglich mit einer zufällig erzählten Kleinigkeit gefüllt, um einen scheinbaren Treffer zu erzeugen."
+        }
+      ],
+      "practice": {
+        "prompt": "Entwirf einen sechs Versuche umfassenden Lernbogen für harmlose Eindrücke. Definiere Einwilligung, Vorabnotiz, Auswertung und eine ehrliche Ergebnisformulierung bei 2 Treffern, 3 Nicht-Treffern und 1 unklarem Fall.",
+        "model_answer": "Ich vereinbare zuerst mit einer freiwilligen Übungspartnerin, dass wir sechs unverfängliche Eindrücke protokollieren und jede Frage ausgelassen werden darf. Persönliche Krisen, Gesundheit und abwesende Dritte bleiben außerhalb der Übung. Vor jeder Rückmeldung schreibe ich den konkreten Eindruck, die bereits bekannten Hinweise und mein Bestätigungskriterium auf. Danach frage ich neutral nach und notiere die Antwort möglichst genau. Eine klare passende Antwort zählt als bestätigt, ein Nein als nicht bestätigt und eine mehrdeutige Antwort als unklar. Am Ende lautet mein Bericht: „Von sechs Versuchen wurden zwei bestätigt, drei nicht bestätigt und einer blieb unklar.“ Ich behaupte daraus weder eine verlässliche Quote für andere Situationen noch einen Nachweis besonderer Wahrnehmung. Ich prüfe außerdem mögliche gewöhnliche Hinweise und meine Erwartungen. Mein nächster Lernschritt könnte sein, weniger allgemeine Vermutungen zu formulieren und Widerspruch ruhiger anzunehmen. Alle ursprünglichen Notizen bleiben erhalten.",
+        "rubric": [
+          "Die Übung ist freiwillig und auf harmlose Themen begrenzt.",
+          "Eindruck und Kriterien werden vor der Rückmeldung notiert.",
+          "Alle sechs Ergebnisse bleiben sichtbar.",
+          "Bestätigung des Inhalts wird nicht als Hellsichtnachweis ausgegeben."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Wann wird der Eindruck dokumentiert?",
+          "options": [
+            "Erst nach der passenden Geschichte",
+            "Vor der Rückmeldung",
+            "Nur bei einem Treffer"
+          ],
+          "correct_index": 1,
+          "explanation": "Die zeitliche Reihenfolge schützt vor veränderter Erinnerung und nachträglichem Passendmachen."
+        },
+        {
+          "id": "q2",
+          "question": "Wie zählt eine mehrdeutige Antwort?",
+          "options": [
+            "Immer als Treffer",
+            "Immer als Beweis einer Blockade",
+            "Als unklar nach der vorher festgelegten Regel"
+          ],
+          "correct_index": 2,
+          "explanation": "Unklarheit darf nicht still zur Bestätigung werden."
+        },
+        {
+          "id": "q3",
+          "question": "Was zeigen zwei bestätigte Vermutungen sicher?",
+          "options": [
+            "Dass diese zwei Inhalte nach den Regeln bestätigt wurden",
+            "Dass die Ursache Hellsicht ist",
+            "Dass alle späteren Eindrücke stimmen werden"
+          ],
+          "correct_index": 0,
+          "explanation": "Inhaltliche Übereinstimmung erklärt noch nicht, wie der Eindruck entstanden ist."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cos.io/initiatives/prereg",
+          "title": "Preregistration",
+          "author": "Center for Open Science",
+          "note": "Methodische Orientierung: Fragen und Auswertungsregeln vor der Rückmeldung festhalten. Das eigene Lernprotokoll ist keine wissenschaftliche Studie und kein Nachweis von Hellsicht.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "academy-beratung-feldarbeit-06",
+      "title": "Offene Fragen und verständliche Rückmeldungen",
+      "summary": "Übe Zuhören, Spiegeln und Nachfragen ohne versteckte Vorgaben.",
+      "objective": "Du verwandelst suggestive Aussagen in Fragen, die neue Informationen und echten Widerspruch erlauben.",
+      "level": "practice",
+      "minutes": 35,
+      "body": "## Eine Frage kann schon eine Behauptung enthalten\n„Warum lässt du dich immer ausnutzen?“ sieht wie eine Frage aus, behauptet aber bereits ein dauerhaftes Muster. „Was ist in dieser Situation passiert?“ lässt mehr Raum. Gute Gesprächsführung beginnt damit, die eingebauten Annahmen zu hören. Prüfe besonders Wörter wie immer, nie, eigentlich und offensichtlich. Sie können eine fremde Geschichte festschreiben, bevor die Person ihre eigene Sicht erklärt hat. Eine offene Frage muss nicht besonders poetisch sein. Sie sollte verständlich sein und eine Antwort erlauben, die du nicht erwartet hast.\n\n## Erst Inhalt, dann Bedeutung\nBitte zunächst um eine konkrete Szene: Wer sagte was, was geschah danach, und was möchte die Person daran verändern? Erst anschließend kannst du nach Bedeutung oder Gefühl fragen. Diese Reihenfolge verhindert, dass ein abstraktes Etikett die Beobachtung ersetzt. Bei einem Konflikt reicht es oft, eine einzelne Situation sorgfältig zu betrachten, statt gleich die gesamte Beziehung zu erklären. Die Person entscheidet, wie viel sie erzählen möchte. Details werden nicht aus Neugier gesammelt, wenn sie für das Anliegen keine Rolle spielen.\n\n## Spiegeln ohne Verstärken\nEine Spiegelung gibt einen verstandenen Inhalt in knapper Form zurück. „Du möchtest erreichbar sein und zugleich mehr Ruhe haben“ ist etwas anderes als „Du bist zwischen Liebe und völliger Überforderung gefangen“. Die zweite Formulierung dramatisiert und ergänzt. Bleibe nahe an den tatsächlich gehörten Worten und frage, ob die Zusammenfassung stimmt. Ein falsch verstandener Punkt wird berichtigt. Du brauchst nicht jede Aussage zu spiegeln; eine gezielte Zusammenfassung an einem Übergang kann hilfreicher sein als ständige Wiederholung.\n\n## Einladungen statt Verhöre\nStelle jeweils eine Frage und lasse Zeit für die Antwort. Mehrere Fragen in einem Satz erzeugen leicht Unklarheit darüber, worauf die Person reagieren soll. Wenn du eine Idee anbieten möchtest, kündige sie an und hole Zustimmung ein: „Ich habe einen möglichen Blickwinkel; möchtest du ihn hören?“ Danach darf die Person ihn ablehnen. Ein Gespräch wird nicht dadurch tief, dass viele Warum-Fragen folgen. Manchmal führt „Was wäre ein kleiner Unterschied?“ schneller zu einer brauchbaren Handlung.\n\n## Gefühlssprache vorsichtig nutzen\nWenn du ein Gefühl vermutest, formuliere es als Möglichkeit oder frage offen nach dem Erleben. „Wie war das für dich?“ ist oft weniger lenkend als „Das hat dich bestimmt verletzt“. Wenn die Person selbst ein Gefühl benennt, kannst du es aufnehmen, ohne seine Stärke zu vergrößern. Unterschiedliche Menschen verwenden dieselben Wörter unterschiedlich. Frage gegebenenfalls, was „Druck“ oder „Leichtigkeit“ für diese Person konkret bedeutet. Deine eigene Vorstellung ist kein Ersatz für ihre Beschreibung.\n\n## Eine kurze Übungsschleife\nLass eine Partnerin zwei Minuten über ein neutrales Anliegen erzählen. Fasse danach in zwei Sätzen zusammen und stelle eine einzige offene Frage. Die Partnerin bewertet, ob sie sich verstanden fühlte und welche Ergänzung von dir stammte. Tauscht anschließend die Rollen. Diese Übung trainiert eine beobachtbare Fähigkeit: aufmerksam zuhören und verständlich zurückgeben. Sie braucht keine Deutung von Energiefeldern. Wer spirituelle Bilder später einsetzen möchte, kann sie auf dieser Grundlage präziser, freiwilliger und weniger suggestiv anbieten.",
+      "examples": [
+        {
+          "title": "Leas Workshopfrage öffnen",
+          "body": "Lea sagt im fiktiven Gespräch, sie habe ihren Workshopentwurf noch nicht verschickt. Marina könnte vorschnell fragen, warum Lea solche Angst vor Sichtbarkeit habe. Stattdessen fragt sie, was noch fehlt, damit Lea den Entwurf teilen möchte. Lea erklärt, dass der Raumtermin ungeklärt ist. Die offene Frage findet eine praktische Information, die in der Angstannahme verloren gegangen wäre. Marina hilft anschließend, den nächsten organisatorischen Schritt zu benennen, ohne ein nicht berichtetes Gefühl zu erfinden."
+        },
+        {
+          "title": "Samirs Worte nicht verschärfen",
+          "body": "Samir beschreibt die Nachrichten eines Freundes als „manchmal anstrengend“. Marina spiegelt nicht „Du wirst emotional ausgebeutet“, sondern fragt, welche Nachrichten er meint und wann es zu viel wird. Samir nennt späte Anrufe während seiner Arbeitszeit. Daraus entsteht eine konkrete Grenzfrage. Seine Freundschaft wird nicht pauschal problematisiert. Die Rückmeldung bleibt nah an den gehörten Worten und lässt offen, welche Teile des Kontakts Samir weiterhin gern hat."
+        }
+      ],
+      "practice": {
+        "prompt": "Formuliere drei Aussagen um: „Du hast Angst vor Erfolg“, „Diese Beziehung raubt dir Energie“, „Du musst dich endlich abgrenzen“. Ergänze eine kurze Spiegelung zu Samirs Nachrichtenanliegen.",
+        "model_answer": "Aus der ersten Aussage mache ich: „Was macht den nächsten Schritt für dich gerade leicht oder schwierig?“ Damit setze ich Angst nicht voraus. Die zweite wird zu: „Wie erlebst du den Kontakt, und welche Situationen tun dir gut oder werden dir zu viel?“ So bleibt auch eine positive Erfahrung möglich. Die dritte formuliere ich als: „Welche Grenze wäre für dich in dieser konkreten Situation passend, falls du etwas verändern möchtest?“ Ich schreibe keine Pflicht vor. Zu Samir spiegele ich: „Du möchtest mit deinem Freund verbunden bleiben und während der Arbeit weniger unterbrochen werden. Habe ich das richtig verstanden?“ Danach warte ich auf Korrektur. Ich würde nicht alle Fragen nacheinander abfeuern, sondern die passende auswählen und die Antwort aufnehmen. Die Qualität zeigt sich daran, ob neue Informationen entstehen und Samir seine eigene Sicht ohne Druck ausdrücken kann.",
+        "rubric": [
+          "Die Fragen setzen keine unbestätigten Gefühle voraus.",
+          "Positive und widersprechende Antworten bleiben möglich.",
+          "Die Spiegelung enthält nur gehörte Inhalte.",
+          "Es wird jeweils eine passende Frage gestellt und abgewartet."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welche Frage enthält die wenigsten Vorannahmen?",
+          "options": [
+            "Warum bist du immer blockiert?",
+            "Warum lässt du dich ausnutzen?",
+            "Was ist in dieser konkreten Situation passiert?"
+          ],
+          "correct_index": 2,
+          "explanation": "Die dritte Frage bittet um Information, statt ein Muster vorauszusetzen."
+        },
+        {
+          "id": "q2",
+          "question": "Was soll eine Spiegelung leisten?",
+          "options": [
+            "Verstandenen Inhalt knapp und korrigierbar zurückgeben",
+            "Das Problem möglichst dramatisch formulieren",
+            "Die richtige Deutung durchsetzen"
+          ],
+          "correct_index": 0,
+          "explanation": "Eine Spiegelung prüft Verständnis und lässt Ergänzungen zu."
+        },
+        {
+          "id": "q3",
+          "question": "Wie viele Fragen sind in einer Zuhörschleife meist sinnvoll?",
+          "options": [
+            "Möglichst viele gleichzeitig",
+            "Eine klare Frage, dann Zeit für die Antwort",
+            "Keine, wenn die Beraterin schon einen Eindruck hat"
+          ],
+          "correct_index": 1,
+          "explanation": "Eine Frage erleichtert eine genaue Antwort und echtes Zuhören."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://coachingfederation.org/credentialing/coaching-competencies/icf-core-competencies/",
+          "title": "ICF Core Competencies",
+          "author": "International Coaching Federation",
+          "note": "Primärquelle zu gemeinsamem Arbeitsrahmen, aktivem Zuhören und selbst bestimmten Lernschritten. Keine ICF-Zertifizierung oder Übernahme eines vollständigen Ausbildungsprogramms.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://www.bacp.co.uk/about-therapy/counselling-terms-and-concepts/",
+          "title": "Counselling terms and concepts",
+          "author": "British Association for Counselling and Psychotherapy",
+          "note": "Primärquelle zur Unterscheidung von Empathie, Arbeitsvereinbarung und Grenzen. Die konkreten Dialoge und Übungsabläufe wurden eigenständig für diesen Lernraum entwickelt.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "academy-beratung-feldarbeit-07",
+      "title": "Ein Feldritual öffnen und bewusst schließen",
+      "summary": "Gestalte einen freiwilligen inneren Begegnungsraum mit Intention, Resonanzbeobachtung und klarem Abschluss.",
+      "objective": "Du praktizierst ein eigenes spirituelles Vorstellungsritual und wertest sein Erleben ohne fremde Tatsachenbehauptungen aus.",
+      "level": "practice",
+      "minutes": 35,
+      "body": "## Ein freiwilliger innerer Begegnungsraum\nDiese Übung nimmt das Wort Feld als persönliches spirituelles Vorstellungs- und Resonanzmodell ernst. Du stellst dir einen Raum aufmerksamer Begegnung vor, in dem du zuhören und deine eigenen Eindrücke wahrnehmen möchtest. Du musst dafür weder ein physikalisches Energiefeld behaupten noch eine religiöse Lehre übernehmen. Manche Menschen verwenden Licht, einen Kreis oder einen stillen Garten als Bild. Andere wählen einen einfachen leeren Raum. Entscheidend ist, dass das Bild für dich stimmig ist und jederzeit verändert oder verlassen werden kann.\n\n## Vorbereiten und eine Intention setzen\nNimm dir allein ungefähr drei Minuten. Lege einen kleinen neutralen Gegenstand vor dich, etwa einen Stein oder einen Stift, der den Anfang und das Ende markiert. Prüfe, wie du dich gerade fühlst, und schreibe ein Wort dazu auf. Formuliere dann eine Intention: „Ich möchte aufmerksam zuhören, ohne die Geschichte des anderen vorwegzunehmen.“ Wenn du eine spirituelle Sprache bevorzugst, kannst du denselben Wunsch in deinen eigenen Worten ausdrücken. Das Ritual braucht keine gekauften Gegenstände und keine besondere Begabung.\n\n## Das Bild öffnen\nStelle dir mit offenen oder geschlossenen Augen einen klar begrenzten Begegnungsraum vor. Lass eine Tür, einen Weg oder eine weiche Lichtgrenze entstehen. Du entscheidest über Form und Abstand. Sage innerlich, dass du bereit bist, Wahrnehmungen zu bemerken und zugleich offen für Irrtum zu bleiben. Richte die Aufmerksamkeit auf deine eigene Haltung: neugierig, ruhig, vielleicht noch unsicher. Es geht nicht darum, ohne Zustimmung in das Innenleben eines entfernten Menschen einzudringen. Der vorgestellte Raum bereitet deine Art der Begegnung vor.\n\n## Resonanz wahrnehmen\nBleibe für einige Atemzüge in diesem Bild, ohne den Atem zu verändern. Welche Farbe, Körperempfindung oder Stimmung entsteht bei dir? Vielleicht erscheint nichts. Notiere später genau das. Im anschließenden Gespräch hörst du weiter auf tatsächliche Worte und Rückmeldungen. Wenn du ein inneres Bild teilen möchtest, frage vorher, ob eine solche Metapher willkommen ist. Formuliere es als dein Erleben: „Mir kam gerade das Bild einer offenen Tür; wäre das für dich ein brauchbarer Gesprächsimpuls?“ Ein Nein beendet die Deutung des Bildes.\n\n## Das Ritual schließen\nNach der Sitzung kehrst du bewusst zu deinem Gegenstand zurück. Stelle dir vor, wie die Tür deines inneren Begegnungsraums geschlossen oder das Licht langsam gedimmt wird. Bedanke dich in deiner gewählten Sprache für die gemeinsame Zeit. Sage innerlich: „Das Gespräch ist beendet; ich bin wieder bei meinem eigenen Alltag.“ Bewege Hände oder Schultern angenehm, sieh dich im tatsächlichen Raum um und nenne die nächste praktische Tätigkeit. Dieser Abschluss markiert Aufmerksamkeit und Zeit, ohne fremde Gefühle als übernommenen Stoff behandeln zu müssen.\n\n## Die Erfahrung auswerten\nSchreibe drei kurze Zeilen: Was habe ich mir vorgestellt? Was habe ich bei mir erlebt? Was wurde im Gespräch tatsächlich bestätigt oder korrigiert? Vergleiche gelegentlich eine Sitzung mit und eine ohne Ritual. Vielleicht hilft dir das Bild, ruhiger zu beginnen; vielleicht lenkt es ab. Beides ist wertvolle Lerninformation. Das Ritual darf persönlich bedeutsam sein, ohne eine Erklärung für fremde Zustände zu liefern. Wenn es Druck oder Unbehagen erzeugt, verändere oder beende es. Seine Qualität liegt in freiwilliger, klarer und reflektierter Anwendung.",
+      "examples": [
+        {
+          "title": "Marinas innerer Garten",
+          "body": "Marina wählt für ihren fiktiven Übungsabend einen Garten als inneres Feldbild. Vor dem Gespräch legt sie einen Stift quer vor sich und stellt sich ein offenes Gartentor vor. Ihre Intention lautet, neugierig zuzuhören. Nach dem Gespräch schließt sie das vorgestellte Tor, dreht den Stift und notiert ihre eigene Erfahrung. Sie fühlte sich ruhiger, behauptet aber nicht, dadurch Zugang zu Leas unbekannten Gefühlen erhalten zu haben. Das Ritual ist ihr persönlicher Rahmen, den sie jederzeit ändern kann."
+        },
+        {
+          "title": "Samir möchte kein Lichtbild",
+          "body": "Samir mag im Übungsgespräch keine Licht- oder Energiebilder. Marina bietet an, das Ritual nur für ihre eigene Vorbereitung zu verwenden und im Gespräch bei Alltagssprache zu bleiben. Samir entscheidet sich für eine kurze stille Pause ohne Bild. Beide Varianten sind gleichberechtigt. Marina verlangt nicht, dass er ihre Vorstellung teilt, damit eine gute Begegnung möglich wird. Im Rückblick prüft sie, ob ihr eigenes Ritual die Aufmerksamkeit unterstützt hat, während Samirs Erleben aus seiner tatsächlichen Rückmeldung stammt."
+        }
+      ],
+      "practice": {
+        "prompt": "Entwirf dein eigenes dreiminütiges Feldritual mit einem Anfangszeichen, einer Intention, einem freiwilligen Bild, einem Abschluss und drei Auswertungsfragen.",
+        "model_answer": "Mein Anfangszeichen ist ein kleiner Stein neben dem Notizbuch. Ich berühre ihn und notiere zunächst meinen eigenen Zustand, etwa „etwas müde, aber interessiert“. Meine Intention lautet: „Ich möchte offen zuhören und keine Geschichte festlegen.“ Als freiwilliges Bild wähle ich einen hellen Raum mit einer Tür, deren Abstand ich selbst bestimme. Ich bleibe kurz bei diesem Bild und lasse alle Empfindungen als mein Erleben stehen. Nach der Sitzung stelle ich mir vor, die Tür zu schließen, berühre den Stein erneut und richte den Blick auf meinen tatsächlichen Raum. Danach frage ich mich: Welche Vorstellung war hilfreich? Welche Empfindung hatte ich selbst? Welche Angaben kamen tatsächlich vom Gegenüber? Ich würde aus einer Farbe oder Wärme keine fremde Emotion ableiten. Wenn das Bild unangenehm wird, lasse ich es weg und nutze nur den Gegenstand als Anfangs- und Endmarkierung. Das Ritual bleibt ein persönlicher spiritueller Rahmen, kein Wahrnehmungsbeweis.",
+        "rubric": [
+          "Anfang, Intention und Abschluss sind konkret beschrieben.",
+          "Bild und Teilnahme bleiben frei wählbar.",
+          "Eigene Resonanz und fremde Angaben werden getrennt ausgewertet.",
+          "Unbehagen erlaubt Änderung oder Abbruch."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welche Funktion hat das Feldbild in dieser Übung?",
+          "options": [
+            "Ein freiwilliger innerer Rahmen für Aufmerksamkeit",
+            "Eine Messung fremder Energie",
+            "Eine automatische Diagnose"
+          ],
+          "correct_index": 0,
+          "explanation": "Das Bild strukturiert die eigene Vorbereitung und Erfahrung."
+        },
+        {
+          "id": "q2",
+          "question": "Was ist beim Teilen eines inneren Bildes wichtig?",
+          "options": [
+            "Es als sichere Botschaft ausgeben",
+            "Ein Nein als Verschlossenheit deuten",
+            "Vorher fragen und es als eigenen Eindruck kennzeichnen"
+          ],
+          "correct_index": 2,
+          "explanation": "Das Gegenüber entscheidet, ob die Metapher willkommen ist und passt."
+        },
+        {
+          "id": "q3",
+          "question": "Woran wird das Ritual ausgewertet?",
+          "options": [
+            "An einer behaupteten übernommenen Last",
+            "Am eigenen Erleben und tatsächlichen Rückmeldungen",
+            "An der Zahl gekaufter Gegenstände"
+          ],
+          "correct_index": 1,
+          "explanation": "Die Auswertung bleibt beobachtbar und benötigt keine Behauptung über unsichtbare Stoffübertragung."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://demetra-george.com/learn/mythology2/",
+          "title": "Mythology, Archetypes and Astrology",
+          "author": "Demetra George",
+          "note": "Primärquelle für die bewusst mythologische Arbeit mit inneren Bildern. Das hier beschriebene Feldritual und die Körperlandkarte sind eigene freiwillige Übungen, keine überlieferte Methode der Autorin und kein Wirkungsnachweis.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://www.bacp.co.uk/about-us/protecting-the-public/professional-conduct/what-complaints-tell-us/boundaries/",
+          "title": "Boundaries – what complaints tell us",
+          "author": "British Association for Counselling and Psychotherapy",
+          "note": "Orientierung zu klaren Zeit- und Kontaktgrenzen. Das selbst entwickelte spirituelle Ritual ersetzt diese praktischen Absprachen nicht.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "academy-beratung-feldarbeit-08",
+      "title": "Eine symbolische Körperlandkarte und ihr Fluss",
+      "summary": "Erkunde innere Bilder von Halt, Handlung, Verbindung und Ausdruck in einer freiwilligen Selbstübung.",
+      "objective": "Du verbindest eine gewählte astrologische Metapher mit einer eigenen Körperwahrnehmung und einem konkreten Alltagsschritt.",
+      "level": "practice",
+      "minutes": 35,
+      "body": "## Der Körper als Bildraum\nEine menschliche Silhouette kann helfen, abstrakte Themen anschaulich zu ordnen. In dieser eigenen Übung steht der Fußbereich als gewähltes Bild für Halt, die Hände für Handeln, der Brustraum für Verbindung, der Halsbereich für Ausdruck und der Kopf für Überblick. Diese Zuordnung ist eine didaktische Metapher. Sie behauptet keine anatomische Wirkung von Planeten und keine Messung von Chakren oder Energiekanälen. Du kannst andere Orte wählen oder ganz ohne Körperbild arbeiten. Die Person entscheidet, welche Darstellung angenehm und verständlich ist.\n\n## Ein Thema statt eines ganzen Systems\nWähle zunächst nur ein aktuelles Anliegen. Lea möchte zum Beispiel eine Workshopidee aussprechen. Sie kann dazu das Symbol Merkur als Bild für Kommunikation nutzen, wenn diese astrologische Sprache für sie passt. Anschließend markiert sie auf der Silhouette, wo sie ihre Aufmerksamkeit beim Sprechen selbst bemerkt. Das ist ihre momentane Wahrnehmung, keine aus dem Horoskop abgelesene Körperdiagnose. Marina fragt nach, statt die Markierung vorzugeben. Ein astrologisches Symbol und eine Körperempfindung werden erst durch die freiwillige Übung miteinander verbunden.\n\n## Einen vorgestellten Fluss zeichnen\nZeichne nun einen Pfeil zwischen zwei selbst gewählten Stationen, etwa von den Füßen als Haltbild über die Hände als Handlung zum Ausdruck. Stelle dir vor, wie eine Idee diesen Weg nimmt: ankommen, etwas auswählen, einen Satz sagen. Der Fluss ist eine Vorstellung für einen Handlungsablauf. Er muss weder warm noch gleichmäßig erscheinen. Wenn kein Bild entsteht, kannst du die Stationen einfach mit Wörtern beschriften. Die Übung funktioniert als kreative Selbstreflexion auch ohne intensive Empfindung oder besondere Visualisierungsfähigkeit.\n\n## Eine Unterbrechung neugierig betrachten\nFalls der vorgestellte Weg an einer Stelle stockt, frage nicht sofort nach einer Blockade. Vielleicht fehlt eine konkrete Information, ein passender Satz oder eine praktische Vorbereitung. Lea könnte bemerken, dass sie gar nicht weiß, wem sie ihre Idee zuerst vorstellen möchte. Dann hilft eine Empfängerauswahl mehr als eine Energiedeutung. Die Frage lautet: „Was wäre hier der nächste kleine, tatsächlich machbare Schritt?“ So wird aus einem inneren Bild eine überprüfbare Handlung, ohne den Körper als Beweis für eine psychologische Erklärung zu benutzen.\n\n## Ein eigenes spirituelles Bild ergänzen\nWer möchte, kann dem Pfeil eine Farbe, einen Lichtpunkt oder ein persönliches Symbol geben. Vielleicht steht ein ruhiger goldener Punkt für Mut oder ein grüner Weg für Verbindung. Diese Bedeutung wird von der Person selbst gewählt. Marina deutet nicht jede Farbe nach einer universellen Tabelle und schreibt keine religiöse Zuordnung vor. Ein solches Bild darf als Erinnerung an eine selbst gewählte Absicht dienen. Es ist kein Nachweis, dass ein Planet genau diesen Energiefluss im Körper verursacht oder eine andere Person aus der Ferne beeinflusst.\n\n## Rückkehr und Handlung\nBeende die Übung, indem du die tatsächliche Umgebung wahrnimmst und die Silhouette als Zeichnung betrachtest. Notiere einen Satz: „Aus diesem Bild nehme ich den Schritt mit, dass ich …“ Prüfe später, ob du diesen Schritt getan hast und ob er hilfreich war. Neue oder anhaltende körperliche Beschwerden gehören nicht in eine astrologische Ursachenbehauptung, sondern bei Bedarf in passende fachliche Abklärung. Die Körperlandkarte bleibt ein kreatives Lernwerkzeug. Ihr Wert liegt in verständlicher Selbstbeobachtung und Wahlfreiheit, nicht in einer vorgetäuschten medizinischen oder energetischen Messung.",
+      "examples": [
+        {
+          "title": "Leas Weg zur ausgesprochenen Idee",
+          "body": "Lea zeichnet in der fiktiven Übung einen Pfeil von den Füßen zu den Händen und zum Halsbereich. Für sie bedeutet das: erst ankommen, dann eine Notiz auswählen, dann einen Satz aussprechen. Sie nennt den Pfeil ihren persönlichen Merkurweg. Marina übernimmt diese selbst gewählte Bedeutung, ohne daraus eine körperliche Merkurwirkung abzuleiten. Lea entscheidet, ihrer Freundin morgen eine kurze Workshopidee vorzulesen. Im Rückblick wird dieser konkrete Schritt geprüft, nicht die vermeintliche Stärke eines Energiekanals."
+        },
+        {
+          "title": "Samir arbeitet lieber mit Karten",
+          "body": "Samir möchte keine Körperwahrnehmung vertiefen. Marina bietet fünf Papierkarten mit den Wörtern Halt, Handlung, Verbindung, Ausdruck und Überblick an. Samir ordnet sie als Weg auf dem Tisch und ergänzt ein eigenes Symbol für Ruhe. Damit bleibt die kreative Idee erhalten, ohne eine Silhouette oder innere Empfindung zu verlangen. Sein nächster Schritt ist, vor einer Antwort auf späte Nachrichten kurz innezuhalten. Das Bild unterstützt eine Handlung und wird nicht als Messung seines Feldes ausgegeben."
+        }
+      ],
+      "practice": {
+        "prompt": "Entwickle eine freiwillige Landkarte für Leas Workshopidee. Nenne drei Stationen, eine selbst gewählte spirituelle Metapher, eine Alternative ohne Körperfokus und einen überprüfbaren Schritt.",
+        "model_answer": "Ich biete Lea zuerst an, entweder eine Silhouette oder drei Wortkarten zu verwenden. Sie wählt Halt, Handlung und Ausdruck. Als eigenes Bild verbindet sie die Stationen mit einem goldenen Faden, der für ihre Absicht steht, eine Idee verständlich zu teilen. Ich erkläre den Faden nicht als real gemessenen Energiekanal. Lea beschreibt selbst, dass sie beim Ausdruck noch keinen passenden ersten Satz hat. Wir formulieren deshalb eine kurze Einleitung und wählen eine Freundin als erste Zuhörerin. Als überprüfbarer Schritt liest Lea ihr morgen zwei Sätze vor und fragt, was verständlich war. Falls Körperfokus unangenehm wird, bleiben nur die Wortkarten auf dem Tisch; das Ziel der Übung bleibt gleich. Im Rückblick trennen wir vorgestelltes Bild, eigenes Erleben und tatsächliche Handlung. Ich leite aus der Markierung weder eine Krankheit noch eine feste psychologische Blockade ab und lasse Leas eigene Bedeutung gelten.",
+        "rubric": [
+          "Stationen und Metapher werden von der Person gewählt.",
+          "Die Darstellung wird als Bild statt Messung erklärt.",
+          "Eine Alternative ohne Körperfokus ist vorhanden.",
+          "Ein konkreter überprüfbarer Alltagsschritt folgt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was zeigt der gezeichnete Fluss hier?",
+          "options": [
+            "Eine garantierte Planetenwirkung im Körper",
+            "Einen selbst gewählten Vorstellungs- und Handlungsweg",
+            "Eine medizinische Diagnose"
+          ],
+          "correct_index": 1,
+          "explanation": "Die Pfeile strukturieren eine Metapher und einen möglichen Ablauf."
+        },
+        {
+          "id": "q2",
+          "question": "Wer bestimmt die Bedeutung einer Farbe in dieser Übung?",
+          "options": [
+            "Die universelle Farbe muss erzwungen werden",
+            "Eine automatisch berechnete Chakratabelle",
+            "Die Person selbst im vereinbarten Bildrahmen"
+          ],
+          "correct_index": 2,
+          "explanation": "Die kreative Bedeutung wird nicht als allgemeine Tatsache vorgegeben."
+        },
+        {
+          "id": "q3",
+          "question": "Was ist eine passende Alternative zur Silhouette?",
+          "options": [
+            "Wortkarten mit denselben frei gewählten Themen",
+            "Eine erzwungene intensivere Körperübung",
+            "Eine Diagnose aus der Ablehnung"
+          ],
+          "correct_index": 0,
+          "explanation": "Das Lernziel kann ohne Körperfokus erreicht werden."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://demetra-george.com/learn/mythology2/",
+          "title": "Mythology, Archetypes and Astrology",
+          "author": "Demetra George",
+          "note": "Primärquelle für die bewusst mythologische Arbeit mit inneren Bildern. Das hier beschriebene Feldritual und die Körperlandkarte sind eigene freiwillige Übungen, keine überlieferte Methode der Autorin und kein Wirkungsnachweis.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://www.who.int/publications/i/item/9789240003927",
+          "title": "Doing What Matters in Times of Stress",
+          "author": "World Health Organization",
+          "note": "Öffentlicher Leitfaden zu alltagstauglicher Stressbewältigung. Die kurze Orientierungsübung hier ist ein eigener Entwurf; die Quelle belegt weder Energiefelder noch Heilung durch Astrologie.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "academy-beratung-feldarbeit-09",
+      "title": "Eine Sitzung mit Zeit und Preis strukturieren",
+      "summary": "Plane einen realistischen Gesprächsablauf und halte vereinbarte Preise von späteren Einstellungen getrennt.",
+      "objective": "Du erstellst einen Sitzungsplan mit Zeitbudget, verständlicher Preisabsprache und einem klaren Abschluss.",
+      "level": "practice",
+      "minutes": 35,
+      "body": "## Ein begrenztes Angebot ist leichter nutzbar\nEine Sitzung muss nicht alle astrologischen Themen eines Menschen behandeln. Wähle gemeinsam einen Fokus und einen passenden Zeitrahmen. Für eine sechzigminütige Übung kann der Ablauf aus Ankommen, Anliegen, vertiefender Arbeit, Handlung und Abschluss bestehen. Die genaue Verteilung ist ein Vorschlag, kein starres Gesetz. Wichtig ist, dass genug Zeit zum Zusammenfassen bleibt. Ein Gespräch, das mit einer neuen dramatischen Deutung in der letzten Minute endet, lässt die Person oft ohne verständlichen nächsten Schritt zurück.\n\n## Ein konkretes Zeitbudget\nEin möglicher eigener Plan lautet: fünf Minuten Ankommen und Rahmen, zehn Minuten Anliegen und konkrete Situation, fünfundzwanzig Minuten ausgewählte Symbol- oder Gesprächsarbeit, zehn Minuten Optionen und nächster Schritt, zehn Minuten Zusammenfassung und Rückmeldung. Diese Abschnitte ergeben sechzig Minuten. Wenn das Anliegen länger geklärt werden muss, wird die Vertiefung kleiner. Du versuchst nicht, die verlorene Zeit durch schnelleres Sprechen aufzuholen. Die Person soll den Gedankengang verstehen und ihre eigenen Antworten finden können.\n\n## Den Preis vorher verständlich machen\nEin Stundensatz ist die Grundlage einer Berechnung, der Sitzungspreis die konkrete Vereinbarung für einen Termin. Bei einem rein didaktischen Satz von sechzig Euro pro Stunde kosten fünfundvierzig Minuten rechnerisch fünfundvierzig Euro. Marina legt ihren tatsächlichen Satz selbst fest. Eine manuelle Preisänderung kann sinnvoll sein, muss aber klar als vereinbarter Terminpreis behandelt werden. Die App speichert diesen Preis beim Termin. Eine spätere Änderung des Stundensatzes darf bereits vereinbarte Preise nicht still verändern. Rechnungen und Zahlungen sind damit noch nicht abgewickelt.\n\n## Zeitgrenzen freundlich halten\nKündige rechtzeitig an, wenn der Abschluss beginnt. Du kannst sagen: „Wir haben noch zehn Minuten; was sollen wir unbedingt in deinen nächsten Schritt mitnehmen?“ Falls ein neues großes Thema auftaucht, würdige es und entscheide gemeinsam, ob es heute nur notiert oder bei einem späteren Gespräch bearbeitet wird. Eine Verlängerung ist keine automatische Folge von Emotion oder spiritueller Intensität. Sie braucht eine klare neue Absprache über Zeit und gegebenenfalls Preis. So entsteht keine überraschende Verpflichtung.\n\n## Der Übungsmodus hat einen anderen Zweck\nFiktive Fälle dienen dazu, Ablauf, Formulierungen und Technik zu testen. Sie werden nicht als echte Sitzungsumsätze behandelt. In Sense & Stars bleiben Testtermine ohne Praxispreis. Übe daher bewusst die Unterscheidung zwischen einem synthetischen Test und einem realen Termin. Ein erfolgreicher Probelauf zeigt, dass der Ablauf bedienbar ist; er beweist nicht, dass du schon jedes reale Anliegen fachlich begleiten kannst. Die erste echte Dienstleistung sollte zu deinen tatsächlich vorhandenen Fähigkeiten und deinem erklärten Angebot passen.\n\n## Abschluss als eigener Arbeitsschritt\nLass die Person in eigenen Worten sagen, was sie mitnimmt. Notiere einen selbst gewählten Schritt und offene Punkte. Frage, ob etwas missverständlich oder unpassend war. Erst danach endet die Sitzung. Deine Nachbereitung kann kurz sein: vereinbarter Inhalt, tatsächliche Rückmeldung und ein eigener Lernpunkt. Halte private Hypothesen getrennt von bestätigten Angaben. Ein ruhiger, klarer Abschluss macht den Nutzen sichtbarer als eine möglichst große Zahl von Deutungen und respektiert die vereinbarte Zeit beider Menschen.",
+      "examples": [
+        {
+          "title": "Ein Preis bleibt vereinbart",
+          "body": "Marina verwendet in einer reinen Rechenübung einen Stundensatz von sechzig Euro. Für einen fünfundvierzigminütigen Termin ergibt sich ein Vorschlag von fünfundvierzig Euro. Sie vereinbart jedoch ausdrücklich vierzig Euro als individuellen Sitzungspreis. Später ändert sie ihren Standardsatz. Der bereits gespeicherte Termin behält vierzig Euro. Die Übung trennt Preisvorschlag und tatsächliche Vereinbarung. Sie ist keine Empfehlung für Marinas Marktpreis und stellt weder eine Rechnung noch einen Zahlungseingang dar."
+        },
+        {
+          "title": "Leas neues Thema am Ende",
+          "body": "Lea erwähnt im fiktiven Gespräch fünf Minuten vor Schluss eine weitere große berufliche Frage. Marina würdigt sie und fragt, ob sie als offener Punkt notiert werden soll. Beide bleiben beim heutigen Abschluss und halten den bereits gewählten Testschritt fest. Marina verlängert nicht still um eine halbe Stunde und kündigt auch keine überraschenden Kosten an. Das neue Thema bleibt sichtbar, während Zeitrahmen und Ergebnis der aktuellen Sitzung respektiert werden."
+        }
+      ],
+      "practice": {
+        "prompt": "Plane eine 45-minütige Sitzung. Verwende für die Rechenübung 80 Euro pro Stunde, berechne den Vorschlag und erkläre den Umgang mit einer ausdrücklich vereinbarten Abweichung.",
+        "model_answer": "Mein Zeitplan lautet fünf Minuten Rahmen, acht Minuten Anliegen, siebzehn Minuten vertiefende Arbeit, acht Minuten nächste Schritte und sieben Minuten Abschluss. Zusammen sind das fünfundvierzig Minuten. Bei einem ausschließlich für diese Aufgabe vorgegebenen Stundensatz von achtzig Euro ergibt die Rechnung achtzig mal fünfundvierzig geteilt durch sechzig einen Vorschlag von sechzig Euro. Wenn beide Seiten stattdessen ausdrücklich fünfundfünfzig Euro vereinbaren, wird dieser Wert als konkreter Terminpreis festgehalten. Eine spätere Änderung des Standardsatzes verändert ihn nicht rückwirkend. Ich würde Preis und Dauer vor Beginn verständlich klären und eine Verlängerung nicht einfach voraussetzen. Bei einem fiktiven Testtermin in der App bleibt der Preis dagegen null, weil er dem Üben dient. Der Abschluss enthält eine Zusammenfassung in den Worten der Person, einen selbst gewählten Schritt und offene Fragen. Die Preisnotiz ist weder eine Rechnung noch ein Nachweis einer Zahlung.",
+        "rubric": [
+          "Die Zeitabschnitte ergeben genau 45 Minuten.",
+          "Der Rechenvorschlag beträgt 60 Euro.",
+          "Eine ausdrücklich vereinbarte Abweichung bleibt am Termin erhalten.",
+          "Übungstermin, Rechnung und Zahlung werden nicht verwechselt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "80 Euro pro Stunde für 45 Minuten ergeben welchen Vorschlag?",
+          "options": [
+            "60 Euro",
+            "45 Euro",
+            "80 Euro"
+          ],
+          "correct_index": 0,
+          "explanation": "80 mal 45 geteilt durch 60 ergibt 60 Euro."
+        },
+        {
+          "id": "q2",
+          "question": "Was passiert mit einem vereinbarten alten Terminpreis bei neuem Stundensatz?",
+          "options": [
+            "Er wird immer automatisch erhöht",
+            "Er wird gelöscht",
+            "Er bleibt als vereinbarter Preis bestehen"
+          ],
+          "correct_index": 2,
+          "explanation": "Der gespeicherte Terminpreis ist eine Momentaufnahme der Vereinbarung."
+        },
+        {
+          "id": "q3",
+          "question": "Was ist bei einer Verlängerung nötig?",
+          "options": [
+            "Stillschweigende Annahme",
+            "Eine klare neue Absprache",
+            "Eine astrologische Rechtfertigung"
+          ],
+          "correct_index": 1,
+          "explanation": "Zeit und mögliche Kosten dürfen nicht überraschend erweitert werden."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bacp.co.uk/about-us/protecting-the-public/professional-conduct/what-complaints-tell-us/boundaries/",
+          "title": "Boundaries – what complaints tell us",
+          "author": "British Association for Counselling and Psychotherapy",
+          "note": "Orientierung zu klaren Zeit- und Kontaktgrenzen. Das selbst entwickelte spirituelle Ritual ersetzt diese praktischen Absprachen nicht.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://coachingfederation.org/credentialing/coaching-competencies/icf-core-competencies/",
+          "title": "ICF Core Competencies",
+          "author": "International Coaching Federation",
+          "note": "Primärquelle zu gemeinsamem Arbeitsrahmen, aktivem Zuhören und selbst bestimmten Lernschritten. Keine ICF-Zertifizierung oder Übernahme eines vollständigen Ausbildungsprogramms.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "academy-beratung-feldarbeit-10",
+      "title": "Nachbereitung: aus einer Sitzung gezielt lernen",
+      "summary": "Schließe die Arbeit ab, halte vereinbarte Ergebnisse knapp fest und mache aus einer offenen Frage deinen nächsten Lernschritt.",
+      "objective": "Du trennst Ergebnisnotiz, persönliche Lernreflexion und vereinbarten Kontakt und nutzt Lesezeichen, Pins und Notizbuch gezielt.",
+      "level": "practice",
+      "minutes": 35,
+      "body": "## Die Sitzung ist beendet, die Auswertung beginnt\nNach einem persönlichen Gespräch wirken einzelne Sätze, Bilder oder eigene Gefühle manchmal weiter. Nimm dir einen kurzen Übergang, bevor du in die nächste Aufgabe wechselst. Schließe die Gesprächsunterlagen, orientiere dich im Raum und prüfe, was du selbst gerade brauchst. Wenn du ein freiwilliges Abschlussritual verwendest, darf es diesen Übergang markieren. Ein nachklingendes Gefühl ist zunächst dein gegenwärtiges Erleben. Es verpflichtet weder dich noch die andere Person zu weiterem Kontakt und beweist nicht, dass eine unsichtbare Verbindung offen geblieben ist.\n\n## Eine knappe Ergebnisnotiz schreiben\nHalte zuerst den bestätigten Gesprächsinhalt fest: das vereinbarte Anliegen, die selbst gewählte Handlung und gegebenenfalls den nächsten vereinbarten Termin. Schreibe so, dass du später zwischen Aussage und Interpretation unterscheiden kannst. „Lea möchte ein kleines Workshopformat testen“ ist eine bestätigte Absicht. „Lea hat ihre endgültige Berufung gefunden“ wäre eine zusätzliche Deutung. Ein unfertiger Gedanke darf unfertig bleiben. Wenn du einen eigenen Eindruck dokumentierst, kennzeichne ihn als solchen und überlege, ob seine Speicherung für den Zweck überhaupt nötig ist.\n\n## Das eigene Lernen getrennt betrachten\nDein persönliches Lernprotokoll fragt nach deinem Handeln: Welche Frage war verständlich? Wo habe ich zu früh gedeutet? Welche Erklärung konnte ich noch nicht sauber geben? Dafür brauchst du gewöhnlich weder den vollständigen Namen noch private Einzelheiten der Person. Formuliere die Lernfrage allgemein oder nutze einen ausdrücklich fiktiven Fall. „Wie unterscheide ich Ganzzeichenhaus und Placidushaus?“ ist ein geeigneter Lernauftrag. Eine intime Lebensgeschichte in mehreren persönlichen Notizen zu vervielfältigen schafft dagegen zusätzliche Daten ohne entsprechenden Lernnutzen.\n\n## Lesezeichen, Pin und Notizbuch bewusst einsetzen\nEin Lesezeichen markiert eine Lektion, die du wiederfinden möchtest. Ein Pin hebt eine ganze Lektion hervor, die für deine aktuelle Arbeit besonders wichtig ist. Einzelne Sätze werden damit nicht separat gepinnt. Im Notizbuch formulierst du den Gedanken in eigenen Worten und verbindest ihn mit einer konkreten Übung. Diese drei Handlungen haben unterschiedliche Zwecke. Speichere nicht alles gleichzeitig, nur weil es möglich ist. Wenn eine Sitzung eine Frage über Profektionen auslöst, kannst du die Rechenlektion bookmarken, die Lektion für einen aktuellen Kontrollschritt pinnen und eine eigene kleine Zahlenaufgabe ins Notizbuch schreiben.\n\n## Kontakt braucht eine Vereinbarung\nEin Nachgespräch oder eine Nachricht nach der Sitzung sollte zum vorher vereinbarten Rahmen passen. Definiert Anlass, Kanal und einen ungefähren Zeitpunkt, sofern ihr einen solchen Kontakt überhaupt möchtet. Eine spontan aufgetauchte Eingebung ist kein Auftrag, nachts zusätzliche Deutungen zu schicken. Wenn keine Nachbetreuung vereinbart wurde, bleibt das Gespräch abgeschlossen. Neue Anliegen gehören in einen neuen abgestimmten Rahmen. So kann die Person selbst entscheiden, wann sie wieder Kontakt möchte, und du schützt deine Arbeitszeit vor einer unklaren Dauerverfügbarkeit.\n\n## Eine kleine Verbesserung auswählen\nBewerte nach einer Übung drei konkrete Fähigkeiten: Anliegen klären, einen Eindruck überprüfbar formulieren und einen selbst gewählten nächsten Schritt sichern. Wähle anschließend genau eine Verbesserung für die nächste Sitzung. Übe diese an einem neuen fiktiven Beispiel und vergleiche dein Vorgehen. Ein umfangreiches Fehlerprotokoll ohne erneuten Versuch bringt weniger als eine gezielte Wiederholung. Notiere auch gelungene Korrekturen: Wenn du eine unpassende Vermutung zurückgenommen hast, ist das eine beobachtbare Gesprächsleistung. Dein Fortschritt besteht in nachvollziehbar besserem Handeln, nicht darin, nach jeder Sitzung immer sicherer klingende Deutungen zu produzieren.",
+      "examples": [
+        {
+          "title": "Leas Fall führt zu einer klaren Lernfrage",
+          "body": "Nach Leas fiktiver Sitzung merkt Marina, dass sie Häuser und Zeichen zu schnell gleichgesetzt hat. In die Ergebnisnotiz kommt nur Leas gewählter Workshoptest. Im persönlichen Notizbuch steht eine allgemeine Lernfrage zum Unterschied zwischen Zeichenstil und Lebensbereich. Marina setzt ein Lesezeichen bei der passenden Lektion und schreibt ein neues erfundenes Beispiel dazu. Sie kopiert nicht Leas gesamte Gesprächsgeschichte. Beim nächsten Übungsgespräch prüft sie bewusst, ob sie beide Ebenen verständlich auseinanderhalten kann."
+        },
+        {
+          "title": "Ein später Eindruck wird nicht zur Nachricht",
+          "body": "Am Abend fällt Marina nach Samirs Übungsgespräch ein Bild von einer geschlossenen Tür ein. Es wurde keine Nachbetreuung vereinbart. Sie notiert das Bild bei Bedarf als eigenes Erleben und schickt Samir keine zusätzliche Botschaft darüber, was angeblich mit ihm geschehen sei. Für ihre Lernreflexion fragt sie, ob das Bild mit ihrer eigenen Müdigkeit zusammenhängt. Der Kontakt bleibt beendet. Ein später gemeinsam vereinbarter Termin kann neue Anliegen aufnehmen, ohne dass daraus eine ständige unsichtbare Zuständigkeit entsteht."
+        }
+      ],
+      "practice": {
+        "prompt": "Erstelle für den fiktiven Workshopfall drei getrennte Einträge: eine knappe Ergebnisnotiz, einen persönlichen Lernauftrag mit sinnvoller Lernraumfunktion und eine Kontaktregel. Wähle genau eine Verbesserung für die nächste Übung.",
+        "model_answer": "Meine Ergebnisnotiz lautet: „Lea möchte zwei Workshopideen anhand von Zeitaufwand und Freude vergleichen. Sie wählt einen kleinen freiwilligen Probetermin als nächsten Schritt.“ Ich ergänze keine endgültige Berufungsdiagnose. Mein persönlicher Lernauftrag lautet: „Ich möchte Zeichen und Häuser in zwei Sätzen unterscheiden können.“ Dafür setze ich ein Lesezeichen bei der passenden Lektion und schreibe im Notizbuch ein neues fiktives Beispiel. Einen Pin setze ich bei der ganzen Lektion, die ich im nächsten Übungsgespräch tatsächlich brauche. Den einzelnen Kontrollsatz schreibe ich dagegen in mein Notizbuch. Private Angaben aus Leas Fall kopiere ich nicht in das Lernprotokoll. Als Kontaktregel halte ich fest, dass in diesem Beispiel keine zusätzliche Nachricht vereinbart wurde. Das Gespräch ist daher abgeschlossen. Meine einzige Verbesserung für die nächste Übung ist, vor jeder astrologischen Erklärung zuerst den Lebensbereich und dann den Zeichenstil zu benennen. Ich prüfe anschließend, ob die Testperson diese Unterscheidung in eigenen Worten wiedergeben konnte.",
+        "rubric": [
+          "Bestätigtes Ergebnis und eigene Interpretation bleiben getrennt.",
+          "Der Lernauftrag ist konkret und enthält keine unnötigen persönlichen Angaben.",
+          "Lesezeichen, Pin oder Notizbuch erfüllen einen erkennbaren Zweck.",
+          "Weiterer Kontakt folgt einer ausdrücklichen Vereinbarung."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welche Formulierung gehört als bestätigtes Ergebnis in die Notiz?",
+          "options": [
+            "Lea hat ihren endgültigen Seelenauftrag erkannt",
+            "Lea wählt einen kleinen Workshoptest als nächsten Schritt",
+            "Leas Zweifel sind nachweislich aus ihrem Feld entfernt"
+          ],
+          "correct_index": 1,
+          "explanation": "Die selbst gewählte Handlung lässt sich auf das Gespräch zurückführen. Die anderen Sätze behaupten zusätzliche Gewissheiten."
+        },
+        {
+          "id": "q2",
+          "question": "Was ist ein brauchbarer persönlicher Lernauftrag?",
+          "options": [
+            "Eine private Lebensgeschichte vollständig in mehrere Notizen kopieren",
+            "Alle Lektionen gleichzeitig pinnen",
+            "Den Unterschied zwischen Zeichen und Häusern an einem neuen fiktiven Beispiel üben"
+          ],
+          "correct_index": 2,
+          "explanation": "Eine begrenzte Frage mit neuer Anwendung ermöglicht gezielte Wiederholung und benötigt keine zusätzlichen privaten Falldaten."
+        },
+        {
+          "id": "q3",
+          "question": "Was folgt aus einem später auftauchenden inneren Bild?",
+          "options": [
+            "Zunächst ein eigener Eindruck; weiterer Kontakt richtet sich nach der Vereinbarung",
+            "Die Verpflichtung, sofort eine Deutung zu senden",
+            "Ein sicherer Nachweis, dass die andere Person noch verbunden ist"
+          ],
+          "correct_index": 0,
+          "explanation": "Ein subjektives Bild ersetzt weder die Zustimmung zu weiterem Kontakt noch Informationen über den Zustand einer anderen Person."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://coachingfederation.org/credentialing/coaching-competencies/icf-core-competencies/",
+          "title": "ICF Core Competencies",
+          "author": "International Coaching Federation",
+          "note": "Primärquelle zu gemeinsamem Arbeitsrahmen, aktivem Zuhören und selbst bestimmten Lernschritten. Keine ICF-Zertifizierung oder Übernahme eines vollständigen Ausbildungsprogramms.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://www.bacp.co.uk/about-us/protecting-the-public/professional-conduct/what-complaints-tell-us/boundaries/",
+          "title": "Boundaries – what complaints tell us",
+          "author": "British Association for Counselling and Psychotherapy",
+          "note": "Orientierung zu klaren Zeit- und Kontaktgrenzen. Das selbst entwickelte spirituelle Ritual ersetzt diese praktischen Absprachen nicht.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://www.bacp.co.uk/about-therapy/counselling-terms-and-concepts/",
+          "title": "Counselling terms and concepts",
+          "author": "British Association for Counselling and Psychotherapy",
+          "note": "Primärquelle zur Unterscheidung von Empathie, Arbeitsvereinbarung und Grenzen. Die konkreten Dialoge und Übungsabläufe wurden eigenständig für diesen Lernraum entwickelt.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "academy-beratung-feldarbeit-11",
+      "title": "Erstfall Lea: vom Wunsch zum Workshopversuch",
+      "summary": "Verbinde astrologische Symbolarbeit, freiwillige Resonanzübung und konkrete Planung in einem vollständigen fiktiven Erstfall.",
+      "objective": "Du führst einen Übungsfall vom Anliegen über alternative Deutungen bis zu einem begrenzten, selbst gewählten nächsten Schritt.",
+      "level": "practice",
+      "minutes": 50,
+      "body": "## Die Fallkarte lesen\nLea ist eine frei erfundene Übungsperson. Sie berichtet: „Ich möchte einen kleinen Workshop anbieten, aber ich habe zu viele Ideen und ändere ständig den Text.“ Sie kann zwei Stunden pro Woche zur Vorbereitung verwenden. Sie möchte zunächst mit wenigen freiwilligen Bekannten üben. Diese Angaben sind die Fallgrundlage. Eine didaktisch gesetzte Symbolkarte enthält einen Löwe-Aszendenten und Merkur in der Waage im dritten Ganzzeichenhaus. Diese einzelnen Positionen sind keine aus echten Geburtsdaten berechnete Radix. Es gibt hier keine versteckte richtige Lebensgeschichte, die du erraten sollst.\n\n## Den Auftrag begrenzen\nLea wünscht sich zunächst Gewissheit, dass sie dafür bestimmt ist. Erkläre, was du stattdessen gemeinsam mit ihr bearbeiten kannst: zwei Workshopideen vergleichen, ihre Auswahlkriterien klären und einen überschaubaren Versuch planen. Frage, ob das ihrem heutigen Anliegen dient. Als Ergebnis vereinbart ihr eine Entscheidung für einen Test oder eine begründete Vertagung. Beides ist zulässig. Die Aufgabe besteht nicht darin, Lea unbedingt zur Selbstständigkeit zu bewegen. Auch ihre Zeit, Freude und tatsächlichen Fähigkeiten gehören in die Entscheidung.\n\n## Zwei Deutungen nebeneinander halten\nMerkur wird in dieser symbolischen Arbeit mit Denken und Vermitteln verbunden. Die Waage kann als Bild für Abwägen und Perspektivwechsel dienen; das dritte Ganzzeichenhaus lenkt die Aufmerksamkeit auf Kommunikation und nahes Lernen. Daraus entsteht eine erste Lesart: Lea könnte verschiedene Sichtweisen gut verständlich zusammenbringen. Eine zweite Lesart lautet: Das wiederholte Abwägen könnte die Fertigstellung ihres Einladungstextes erschweren. Beide sind Hypothesen. Frage nach einer konkreten bisherigen Situation und lasse Lea bestätigen, verändern oder verwerfen. Das Symbol allein entscheidet nicht, welche Lesart passt.\n\n## Eine freiwillige Resonanzübung anbieten\nWenn Lea innere Bilder mag, kann sie sich zwei kleine Räume vorstellen. Im ersten erklärt sie ein Thema anhand eigener Karten; im zweiten begleitet sie eine offene Gesprächsrunde. Sie betrachtet beide Bilder jeweils kurz und beschreibt ihre eigenen Reaktionen. Ein neutrales Gefühl ist ebenfalls ein Ergebnis. Frage danach, welche konkrete Tätigkeit sie gern ausführen würde und welche Vorbereitung notwendig wäre. Die Übung untersucht ihre gegenwärtige Vorstellung. Sie kann weder den späteren Erfolg messen noch eine verborgene Entscheidung des Universums verbindlich anzeigen. Als Alternative genügt eine schriftliche Liste.\n\n## Den Versuch ausführbar machen\nLea wählt in dieser Fallvariante eine zwanzigminütige Einführung mit drei selbst entworfenen Reflexionskarten. Sie bereitet innerhalb ihrer zwei verfügbaren Stunden eine Einladung, die Karten und zwei Feedbackfragen vor. Die Fragen lauten: „Was war verständlich?“ und „Wo brauchtest du ein konkreteres Beispiel?“ Sie verspricht weder Heilung noch eine Ausbildung. Der Probetermin ist im Fall freiwillig und kostenlos. Ein späterer eigener Sitzungspreis wäre gesondert festzulegen; die Fallzahl ist keine Empfehlung für Marinas tatsächlichen Stundensatz.\n\n## Den Ausgang offen dokumentieren\nAm Ende wiederholt Lea selbst, was sie ausprobieren möchte und was sie vorerst weglässt. Marina fragt, ob der Schritt mit ihrer verfügbaren Zeit vereinbar bleibt. Falls Lea keine Variante wählen kann, wird der nächste Schritt kleiner: zuerst eine einzelne Karte erklären und Rückmeldung dazu sammeln. Dokumentiere die tatsächliche Entscheidung statt ein gelungenes Ritual als Erfolg vorauszusetzen. Prüfe deine Gesprächsleistung daran, ob Lea frei wählen konnte, ihre Aussagen verständlich aufgenommen wurden und der nächste Schritt konkret genug ist, um später Erfahrungen daraus zu gewinnen.",
+      "examples": [
+        {
+          "title": "Lea erkennt eine passende Lesart",
+          "body": "Lea erzählt, dass sie bei Gruppengesprächen gut zwischen verschiedenen Sichtweisen vermittelt. Sie bestätigt zugleich, ihren Einladungstext ständig umzuschreiben. Marina behandelt beide Aussagen als konkrete Rückmeldungen und schlägt keinen festen Persönlichkeitstyp vor. Lea entscheidet, den Text auf drei Sätze zu begrenzen und erst nach einem Test zu überarbeiten. So wird aus dem Symbolbild eine überprüfbare Handlung. Ob diese Regel ihr hilft, erfährt sie durch den eigenen Versuch und nicht schon durch die astrologische Beschreibung."
+        },
+        {
+          "title": "Lea verwirft das innere Bild",
+          "body": "In einer zweiten Fallvariante empfindet Lea bei der Raumvorstellung weder Freude noch Klarheit. Marina erklärt das nicht als mangelnde Offenheit. Beide wechseln zu einer einfachen Tabelle mit Vorbereitungszeit, Material und gewünschter Tätigkeit. Lea erkennt, dass eine offene Gesprächsrunde für den ersten Versuch weniger Material braucht. Sie darf diese Variante wählen oder den Test verschieben. Die verworfene Übung ist keine Niederlage; ihre begrenzte Nützlichkeit wird ehrlich festgehalten und der Arbeitsweg an Leas Rückmeldung angepasst."
+        }
+      ],
+      "practice": {
+        "prompt": "Spiele mit einer anderen Person oder schriftlich eine fünfzehnminütige Kurzfassung von Leas Erstfall durch. Halte Arbeitsauftrag, zwei symbolische Lesarten, eine offene Frage, eine freiwillige Übung oder Alternative und den nächsten Schritt fest. Plane auch die Reaktion auf ein Nein.",
+        "model_answer": "Ich beginne mit Leas konkretem Anliegen und frage, ob wir heute zwei Workshopideen und einen kleinen Versuch vergleichen sollen. Die didaktische Symbolkarte nutze ich für zwei Möglichkeiten: verständliche Vermittlung unterschiedlicher Sichtweisen oder langes Abwägen vor der Veröffentlichung. Ich frage: „Wann hast du zuletzt zwischen Ideen gewählt, und was hat dir dabei geholfen?“ Ihre Antwort bestimmt, welche Lesart überhaupt brauchbar ist. Danach biete ich die kurze Raumvorstellung an. Bei einem Nein wechseln wir ohne Bewertung zu einer Tabelle. In der gewählten Fallvariante entscheidet Lea sich für zwanzig Minuten mit drei eigenen Karten. Sie begrenzt die Vorbereitung auf ihre zwei verfügbaren Stunden und bittet freiwillige Bekannte anschließend um Rückmeldung zur Verständlichkeit. Ich lasse sie den Schritt selbst wiederholen und frage, was sie dafür weglassen wird. Wenn sie noch nicht wählen möchte, vereinbaren wir nur das Erproben einer Karte. Meine Notiz beschreibt diesen offenen Versuch und verspricht keinen beruflichen Erfolg.",
+        "rubric": [
+          "Fiktive Angaben und didaktische Positionen werden korrekt bezeichnet.",
+          "Zwei plausible Lesarten werden an Leas Rückmeldung geprüft.",
+          "Eine abgelehnte Übung führt zu einer gleichwertigen Alternative.",
+          "Der nächste Schritt passt zu Zeit und Anliegen.",
+          "Das Ergebnis wird ohne Erfolgsversprechen dokumentiert."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was entscheidet, welche symbolische Lesart im Gespräch brauchbar ist?",
+          "options": [
+            "Die dramatischste Formulierung",
+            "Die Anzahl genannter Planeten",
+            "Leas konkrete Rückmeldung und das vereinbarte Anliegen"
+          ],
+          "correct_index": 2,
+          "explanation": "Die Symbolkarte liefert Anregungen. Die Person und ihr Anliegen entscheiden, ob eine davon sinnvoll verwendet werden kann."
+        },
+        {
+          "id": "q2",
+          "question": "Welche Angabe gehört zur didaktischen Karte dieses Falles?",
+          "options": [
+            "Löwe-Aszendent und Merkur in Waage im dritten Ganzzeichenhaus",
+            "Eine aus Leas echten Geburtsdaten berechnete Jyotish-Karte",
+            "Ein gemessener Energiefluss zwischen den Planeten"
+          ],
+          "correct_index": 0,
+          "explanation": "Die Positionen sind ausdrücklich gesetzt. Bei Löwe als erstem Ganzzeichenhaus ist die Waage das dritte."
+        },
+        {
+          "id": "q3",
+          "question": "Was ist ein angemessenes Ergebnis des Erstfalls?",
+          "options": [
+            "Eine verbindliche Zusage künftigen Einkommens",
+            "Ein frei gewählter, zeitlich begrenzter Versuch oder eine begründete Vertagung",
+            "Ein verpflichtender Start trotz ungeklärter Fragen"
+          ],
+          "correct_index": 1,
+          "explanation": "Der Fall trainiert eigene Entscheidungen und erfahrungsbezogenes Lernen. Eine sichere Zukunftsprognose gehört nicht zum erreichbaren Ergebnis."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://coachingfederation.org/credentialing/coaching-competencies/icf-core-competencies/",
+          "title": "ICF Core Competencies",
+          "author": "International Coaching Federation",
+          "note": "Primärquelle zu gemeinsamem Arbeitsrahmen, aktivem Zuhören und selbst bestimmten Lernschritten. Keine ICF-Zertifizierung oder Übernahme eines vollständigen Ausbildungsprogramms.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://demetra-george.com/learn/mythology2/",
+          "title": "Mythology, Archetypes and Astrology",
+          "author": "Demetra George",
+          "note": "Primärquelle für die bewusst mythologische Arbeit mit inneren Bildern. Das hier beschriebene Feldritual und die Körperlandkarte sind eigene freiwillige Übungen, keine überlieferte Methode der Autorin und kein Wirkungsnachweis.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://www.bacp.co.uk/about-therapy/counselling-terms-and-concepts/",
+          "title": "Counselling terms and concepts",
+          "author": "British Association for Counselling and Psychotherapy",
+          "note": "Primärquelle zur Unterscheidung von Empathie, Arbeitsvereinbarung und Grenzen. Die konkreten Dialoge und Übungsabläufe wurden eigenständig für diesen Lernraum entwickelt.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "academy-beratung-feldarbeit-12",
+      "title": "Erstfall Samir: Nähe und klare Grenzen",
+      "summary": "Übe eine vollständige Fernsitzung mit persönlicher Resonanz, überprüfbaren Rückfragen und einem selbst gewählten Grenzschritt.",
+      "objective": "Du bearbeitest einen fiktiven Beziehungskonflikt, ohne Gedanken abwesender Personen zu behaupten, und wertest dein Vorgehen anhand konkreter Kriterien aus.",
+      "level": "practice",
+      "minutes": 50,
+      "body": "## Den Fall von Vermutungen befreien\nSamir ist eine erfundene Übungsperson und befindet sich für dieses Gespräch in Indien. Seine Religion, Herkunft und Lebensgeschichte sind nicht vorgegeben und sollen nicht aus dem Namen abgeleitet werden. Er berichtet: „Ein Freund schickt mir während meiner Arbeitszeit viele Nachrichten. Ich antworte sofort, obwohl ich eigentlich weiterarbeiten möchte.“ Sein Anliegen ist, freundlich verbunden zu bleiben und seine Konzentration zu schützen. Es gibt keine Geburtsdaten und kein berechnetes Horoskop. Für diesen Fall reicht gute Gesprächsführung; fehlende Daten müssen nicht durch erfundene Positionen ersetzt werden.\n\n## Die eigene Aufmerksamkeit sammeln\nMarina bemerkt vor dem Telefonat selbst Unruhe. Sie notiert diesen Ausgangszustand, damit sie ihn später nicht automatisch Samir zuschreibt. Wenn sie möchte, verwendet sie ihr persönliches Feldritual: einen inneren ruhigen Raum vorstellen, die Absicht formulieren, aufmerksam zuzuhören, und eine klare Grenze für ihre eigene Aufmerksamkeit setzen. Das Ritual bleibt ihre freiwillige spirituelle Praxis. Es liefert keine Informationen über Samirs Aufenthaltsort oder Gefühle. Anschließend prüft sie ganz praktisch Verbindung, ungestörtes Sprechen und den vereinbarten Zeitrahmen.\n\n## Die Frage hinter der Frage finden\nSamir fragt: „Was fühlt mein Freund wirklich, wenn ich nicht sofort antworte?“ Marina erklärt, dass sie die Gedanken des abwesenden Freundes nicht kennt. Sie kann mit Samir untersuchen, was er selbst befürchtet, was tatsächlich zwischen beiden besprochen wurde und welche Grenze er setzen möchte. Eine offene Rückfrage lautet: „Was ist bisher passiert, wenn du später geantwortet hast?“ In der Fallvariante sagt Samir, dass es noch keine ausdrückliche Absprache über Antwortzeiten gibt. Seine Sorge vor Ablehnung ist damit ein berichtetes eigenes Gefühl, kein festgestellter Zustand seines Freundes.\n\n## Resonanz überprüfen statt übertragen\nWährend Samir erzählt, spürt Marina Anspannung in ihren Schultern. Sie ordnet diese zunächst ihrer eigenen Wahrnehmung zu und erinnert sich an die Unruhe vor dem Gespräch. Sie muss Samir dieses Gefühl nicht mitteilen. Falls sie ein inneres Bild verwenden möchte, fragt sie vorher, ob eine symbolische Übung willkommen ist. Samir möchte heute lieber konkrete Worte finden. Marina akzeptiert das und sammelt mit ihm Formulierungen. Die Fähigkeit, auf eine spirituelle Methode zu verzichten, kann zu einer konzentrierten Feldarbeit im eigenen Verständnis gehören: aufmerksam bleiben, ohne die eigene Erfahrung über die andere Person zu stellen.\n\n## Einen begrenzten Versuch vereinbaren\nSamir entwirft selbst eine Nachricht: „Mir ist unser Kontakt wichtig. Während meiner Arbeitszeit lese ich Nachrichten gesammelt und antworte später. Wenn etwas dringend ist, sag bitte ausdrücklich Bescheid.“ Dies ist ein Übungstext, keine von der App versandte Nachricht. Samir entscheidet selbst, ob er ihn verwenden möchte. Er plant, an zwei Arbeitstagen seine Benachrichtigungen zeitweise auszuschalten und danach zu beobachten, wie gut er arbeiten konnte und welche Rückmeldung tatsächlich kam. Seine Handlung und die Reaktion des Freundes bleiben getrennte Beobachtungen.\n\n## Abschließen und den eigenen Lernstand prüfen\nMarina fasst Samirs gewählten Versuch zusammen und lässt ihn korrigieren. Beide vereinbaren in dieser Fallvariante keinen zusätzlichen Kontakt. Sie beendet ihr Ritual, falls sie eines verwendet hat, richtet sich wieder auf ihren Raum aus und schreibt eine knappe Ergebnisnotiz. Für die eigene Auswertung zählt sie beobachtbare Leistungen: eine Gedankenleseaufforderung begrenzen, eine offene Frage stellen, eine Ablehnung respektieren und einen ausführbaren Schritt klären. Lernpunkte oder Abzeichen würdigen solche Aufgabenleistungen. Sie bestätigen keine Hellsicht, therapeutische Ausbildung oder Fähigkeit, über Entfernung fremde Zustände sicher zu erkennen.",
+      "examples": [
+        {
+          "title": "Samir erhält eine unaufgeregte Rückmeldung",
+          "body": "Im fiktiven Folgebericht sagt Samir, sein Freund habe die spätere Antwort akzeptiert. Samir konnte an beiden Testtagen konzentrierter arbeiten. Marina hält diese Angaben fest und fragt, ob er die Vereinbarung beibehalten möchte. Sie behauptet nicht, das Feld des Freundes verändert oder dessen Zustimmung vorausgesehen zu haben. Der hilfreiche Schritt bestand in einer klaren Mitteilung und einem begrenzten Versuch. Die Rückmeldung zeigt, wie dieser einzelne Versuch verlief; sie garantiert keinen gleichbleibenden Verlauf jeder späteren Beziehungssituation."
+        },
+        {
+          "title": "Der Versuch braucht eine Anpassung",
+          "body": "In einer anderen Fallvariante berichtet Samir, dass die Formulierung beim Freund missverständlich angekommen sei. Marina behandelt das nicht als Beweis, dass seine Intuition falsch oder sein Energiefeld geschlossen war. Sie fragt nach den tatsächlich ausgetauschten Worten und hilft, die unklare Stelle zu erkennen. Samir möchte genauer erklären, wann er wieder erreichbar ist. Er entscheidet selbst, ob er einen neuen Versuch macht. Auch ein unvollkommenes Ergebnis liefert brauchbares Lernen, wenn ursprüngliche Absicht, tatsächliche Rückmeldung und nächste Anpassung getrennt bleiben."
+        }
+      ],
+      "practice": {
+        "prompt": "Bearbeite Samirs Fall als schriftlichen Dialog oder Rollenspiel. Notiere Ausgangszustand, Antwort auf die Frage nach dem Freund, eine offene Rückfrage, die Reaktion auf ein Nein zur Bildübung, einen Versuch und deinen Abschluss. Vergleiche danach dein Vorgehen mit den angegebenen Bewertungskriterien.",
+        "model_answer": "Vor dem Anruf notiere ich meine bereits vorhandene Unruhe und richte meine Aufmerksamkeit mit einem freiwilligen persönlichen Ritual aus. Im Gespräch kläre ich Verbindung, Zeit und Samirs Anliegen. Auf die Frage nach den Gefühlen des Freundes antworte ich: „Das kann ich nicht sicher wissen. Wir können anschauen, was du erlebt hast und welche Antwortzeit für dich passt.“ Ich frage nach bisherigen Reaktionen auf spätere Nachrichten. Samir berichtet, dass eine klare Absprache bisher fehlt. Sein Nein zur Bildübung nehme ich an und arbeite mit Worten weiter. Er entwirft einen freundlichen Satz über seine Arbeitszeit und wählt einen Versuch an zwei Tagen. Ich sende die Nachricht nicht für ihn. Im Abschluss wiederholt er seinen Plan und entscheidet, ob weiterer Kontakt gewünscht ist. Meine Bewertung prüft vier Handlungen: keine fremden Gedanken als bekannt ausgeben, eine konkrete offene Frage stellen, die Ablehnung respektieren und einen beobachtbaren nächsten Schritt vereinbaren. Ich halte anschließend nur den notwendigen Fallinhalt und eine allgemeine Lernfrage fest.",
+        "rubric": [
+          "Eigener Ausgangszustand und Samirs berichtete Gefühle bleiben getrennt.",
+          "Gedanken einer abwesenden Person werden nicht als bekannt dargestellt.",
+          "Eine Ablehnung verändert den Ablauf ohne Druck.",
+          "Der Versuch ist konkret, begrenzt und von Samir selbst gewählt.",
+          "Abschluss und Selbstbewertung benennen beobachtbare Gesprächsleistungen."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welche Information ist in Samirs Fall tatsächlich vorgegeben?",
+          "options": [
+            "Er möchte während der Arbeit weniger sofortige Nachrichten beantworten",
+            "Sein Freund fühlt sich sicher abgelehnt",
+            "Seine Religion bestimmt seine bevorzugte Übung"
+          ],
+          "correct_index": 0,
+          "explanation": "Nur Samirs eigenes Anliegen ist berichtet. Die Gefühle des Freundes und religiöse Präferenzen sind nicht bekannt."
+        },
+        {
+          "id": "q2",
+          "question": "Samir lehnt die Bildübung ab. Wie geht Marina weiter?",
+          "options": [
+            "Sie deutet das Nein als versteckte Blockade",
+            "Sie arbeitet mit konkreten Worten weiter und respektiert die Wahl",
+            "Sie beendet die Sitzung, weil Feldarbeit sonst unmöglich sei"
+          ],
+          "correct_index": 1,
+          "explanation": "Aufmerksamkeit und sinnvolle Gesprächsarbeit bleiben ohne Bildübung möglich. Freiwilligkeit muss den Ablauf tatsächlich verändern können."
+        },
+        {
+          "id": "q3",
+          "question": "Was kann ein Lernabzeichen nach diesem Fall benennen?",
+          "options": [
+            "Nachgewiesene Fernwahrnehmung",
+            "Eine abgeschlossene therapeutische Berufsausbildung",
+            "Die bearbeitete Übungsleistung anhand ihrer Kriterien"
+          ],
+          "correct_index": 2,
+          "explanation": "Die Aufgabe zeigt einen Lernversuch. Daraus folgt keine berufliche Zulassung oder Bestätigung übernatürlicher Fähigkeiten."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://coachingfederation.org/credentialing/coaching-competencies/icf-core-competencies/",
+          "title": "ICF Core Competencies",
+          "author": "International Coaching Federation",
+          "note": "Primärquelle zu gemeinsamem Arbeitsrahmen, aktivem Zuhören und selbst bestimmten Lernschritten. Keine ICF-Zertifizierung oder Übernahme eines vollständigen Ausbildungsprogramms.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://www.bacp.co.uk/about-us/protecting-the-public/professional-conduct/what-complaints-tell-us/boundaries/",
+          "title": "Boundaries – what complaints tell us",
+          "author": "British Association for Counselling and Psychotherapy",
+          "note": "Orientierung zu klaren Zeit- und Kontaktgrenzen. Das selbst entwickelte spirituelle Ritual ersetzt diese praktischen Absprachen nicht.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://demetra-george.com/learn/mythology2/",
+          "title": "Mythology, Archetypes and Astrology",
+          "author": "Demetra George",
+          "note": "Primärquelle für die bewusst mythologische Arbeit mit inneren Bildern. Das hier beschriebene Feldritual und die Körperlandkarte sind eigene freiwillige Übungen, keine überlieferte Methode der Autorin und kein Wirkungsnachweis.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,506 @@
+{
+  "id": "jyotish",
+  "title": "Jyotish: ein eigener Bezugsrahmen",
+  "summary": "Sechs manuelle Grundlagenlektionen zu siderischen Koordinaten, Rashi, Lagna, Nakshatra, Vimshottari und Navamsha. Keine automatische Jyotish-Berechnung in der App.",
+  "tradition": "Einführung in indische astrologische Konventionen mit ausdrücklich gewähltem siderischem Bezug; keine religiöse Voraussetzung",
+  "level": "deepening",
+  "prerequisites": [
+    "Gradrechnung und Zeichenfolge helfen. Einstieg und Reihenfolge bleiben frei."
+  ],
+  "lessons": [
+    {
+      "key": "academy-jyotish-01",
+      "title": "Tropisch und siderisch sauber umrechnen",
+      "summary": "Verstehe Ayanamsha als Bezugsunterschied und rechne mit einem ausdrücklich vorgegebenen Übungswert.",
+      "objective": "Du rechnest Gesamtlängen um und dokumentierst Tierkreis, Ayanamsha und Grenzen des App-Rechners.",
+      "level": "deepening",
+      "minutes": 35,
+      "body": "## Ein anderer Nullpunkt\nTropische und siderische Tierkreise teilen den Kreis jeweils in zwölf gleich große Zeichen. Sie verwenden jedoch unterschiedliche Bezugspunkte. Der tropische Nullpunkt orientiert sich am Frühlingspunkt; siderische Systeme verwenden einen festgelegten Bezug zum Sternhimmel. Wegen der Präzession verändern sich diese Bezüge gegeneinander. Die Differenz wird Ayanamsha genannt. Sie ist keine feste Zahl für alle Zeiten und nicht in allen siderischen Schulen gleich. Deshalb genügt die Angabe „vedisch“ allein nicht, um eine Rechnung eindeutig nachzuvollziehen.\n\n## Die Konvention benennen\nLahiri ist eine verbreitete Ayanamsha-Variante und wird auch in K. N. Raos besprochenem Ansatz ausdrücklich verwendet. Daneben existieren andere Varianten. Eine korrekte Dokumentation nennt Datum, verwendete Variante und Rechenquelle. Du wählst nicht nachträglich die Einstellung, deren Deutung am angenehmsten klingt. Für unsere Handübungen wird ein runder Ayanamsha-Wert vorgegeben. Dieser Wert dient dem Rechnen und ist kein aktueller Lahiri-Wert für eine reale Geburt. Eine genaue Anwendung müsste den zeitabhängigen Wert tatsächlich berechnen.\n\n## Die Grundrechnung\nFür die vereinfachte Längenübung gilt: siderische Länge gleich tropische Länge minus vorgegebener Ayanamsha. Ein Planet bei 8 Grad Zwillinge hat tropisch 68 Grad Gesamtlänge. Bei einem ausdrücklich angenommenen Übungs-Ayanamsha von 24 Grad erhältst du 44 Grad, also 14 Grad Stier. Wird das Ergebnis negativ, addierst du 360 Grad. Die Rechnung verändert die Koordinatenbeschreibung derselben Richtung. Sie bedeutet nicht, dass der Planet physisch rückwärts gesprungen ist oder ein Mensch plötzlich eine andere Persönlichkeit bekommen hat.\n\n## Zeichen sind nicht Sternbildgrenzen\nAuch ein siderischer Tierkreis besteht in dieser Konvention aus zwölf Abschnitten zu je dreißig Grad. Die astronomischen Sternbilder haben dagegen ungleiche Ausdehnungen. Deshalb ist „siderisch“ nicht einfach gleichbedeutend mit einer Karte der offiziellen Sternbildgrenzen. Halte diese Begriffe auseinander, wenn jemand fragt, welches Zeichen nun wirklich zutreffe. Du kannst die unterschiedlichen Definitionen erklären, ohne eine Schule zur naturwissenschaftlich bewiesenen Persönlichkeitslehre zu erklären. Die Wahl des Koordinatensystems und die Deutung seiner Symbole bleiben zwei Fragen.\n\n## Was Sense & Stars hier leistet\nDie reguläre Radixberechnung dieser App arbeitet mit ihrem ausgewiesenen tropischen System und Placidus-Häusern. Dieser Kurs schaltet sie nicht auf Jyotish um. Alle siderischen Beispiele sind manuelle, ausdrücklich vorgegebene Lernaufgaben. Übernimm daher keine App-Hausnummer unverändert in eine indische Teilungskarte. Für eine reale Jyotish-Berechnung wären ein passender Rechner, dokumentierte Einstellungen und überprüfte Eingaben erforderlich. Es ist fachlich sauberer, diese Grenze zu nennen, als vorhandene Grafiken nur anders zu beschriften.\n\n## Vergleich ohne Identitätsurteil\nErstelle zum Lernen zwei Spalten für dieselbe vorgegebene Position und rechne die Differenz nach. Ergänze darunter, welche Methode eine spätere Deutung verwenden würde. Frage die Person nicht, welches Etikett sich richtiger anfühlt, um damit die Rechnung zu beweisen. Subjektive Zustimmung entscheidet keinen astronomischen Nullpunkt. Ein sinnvoller Vergleich zeigt, welche Regeln sich ändern und welche Daten gleich bleiben. So kannst du mehrere Traditionen respektvoll kennenlernen, ohne ihre Begriffe und Techniken unbemerkt miteinander zu vermischen.\n\nFür die Gegenkontrolle addierst du den gleichen vorgegebenen Versatz wieder zur siderischen Länge. Du musst bei der ursprünglichen tropischen Länge ankommen, gegebenenfalls nach Abzug eines Vollkreises. Diese Umkehrprobe prüft die Rechnung, ohne eine Deutung oder eine bevorzugte Schule vorauszusetzen.",
+      "examples": [
+        {
+          "title": "Ein Zeichenwechsel in der Rechnung",
+          "body": "Leas Übungsplanet steht tropisch bei 8 Grad Zwillinge. Mit dem ausdrücklich gerundeten Lernwert von 24 Grad Ayanamsha ergibt sich siderisch 14 Grad Stier. Marina schreibt beide Angaben nebeneinander und kennzeichnet den Wert als fiktive Rechenannahme. Sie erklärt nicht, Lea sei jetzt plötzlich ein anderer Mensch. Die Übung zeigt einen Wechsel des Bezugssystems. Für eine reale Karte müsste der tatsächliche datumsbezogene Ayanamsha berechnet und die verwendete Variante angegeben werden."
+        },
+        {
+          "title": "Über den Nullpunkt zurück",
+          "body": "Samirs didaktischer Planet steht tropisch bei 5 Grad Widder. Nach Abzug von 24 Grad erhält Marina minus 19 Grad. Sie addiert 360 und kommt auf 341 Grad, also 11 Grad Fische. Der Planet hat sich nicht bewegt; die Länge wird von einem anderen Nullpunkt aus beschrieben. Marina notiert die Rechenschritte und vermeidet, aus dem Zeichenwechsel einen Beweis für eine bestimmte spirituelle Identität oder eine veränderte Lebensaufgabe abzuleiten."
+        }
+      ],
+      "practice": {
+        "prompt": "Rechne 17 Grad Waage mit dem vorgegebenen Übungs-Ayanamsha 24 Grad in eine siderische Position um. Nenne drei Angaben, die für einen realen Vergleich fehlen.",
+        "model_answer": "Waage beginnt bei 180 Grad. Die tropische Position 17 Grad Waage entspricht deshalb 197 Grad Gesamtlänge. Ich ziehe den vorgegebenen Übungswert von 24 Grad ab und erhalte 173 Grad. Jungfrau beginnt bei 150 Grad, also lautet das Ergebnis 23 Grad Jungfrau. Ich beschrifte die Rechnung ausdrücklich als vereinfachte Handübung. Für einen realen Vergleich fehlen mir mindestens das Datum beziehungsweise der genaue Zeitpunkt, die konkret gewählte Ayanamsha-Variante und die verlässliche Berechnungsquelle der Ausgangsposition. Der gerundete Wert ist kein tatsächlich ermittelter Lahiri-Wert. Ich würde außerdem darauf achten, dass beide Programme dieselben Eingaben verwenden. Die normale App-Radix wird durch diese Rechnung nicht zu einer Jyotish-Karte; ihr ausgewiesenes System bleibt bestehen. Eine symbolische Interpretation wäre ein weiterer Schritt und könnte die geometrische Umrechnung weder bestätigen noch widerlegen.",
+        "rubric": [
+          "197 minus 24 ergibt 173 Grad.",
+          "Das Ergebnis lautet 23 Grad Jungfrau.",
+          "Der Ayanamsha ist als vorgegebener Übungswert markiert.",
+          "Reale Einstellungen und App-Grenze werden benannt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was bezeichnet Ayanamsha?",
+          "options": [
+            "Die Entfernung des Mondes",
+            "Den Bezugsunterschied zwischen tropischer und gewählter siderischer Länge",
+            "Die Größe eines Hauses"
+          ],
+          "correct_index": 1,
+          "explanation": "Ayanamsha bezeichnet den Längenversatz der verwendeten Bezugssysteme."
+        },
+        {
+          "id": "q2",
+          "question": "Sind siderische Zeichen identisch mit ungleich großen astronomischen Sternbildern?",
+          "options": [
+            "Nein, die verwendeten Zeichen bleiben gleich große Abschnitte",
+            "Ja, immer",
+            "Nur bei Nacht"
+          ],
+          "correct_index": 0,
+          "explanation": "Die hier gelehrte siderische Konvention verwendet zwölf Zeichen zu je dreißig Grad."
+        },
+        {
+          "id": "q3",
+          "question": "Was bewirkt dieser Kurs am App-Rechner?",
+          "options": [
+            "Automatische Lahiri-Umstellung",
+            "Automatische Dasha-Berechnung",
+            "Keine automatische Systemumstellung; die Aufgaben werden manuell bearbeitet"
+          ],
+          "correct_index": 2,
+          "explanation": "Die Kursbeispiele sind ausdrücklich von der bestehenden tropischen Radixberechnung getrennt."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.astro.com/swisseph/swephprg.htm",
+          "title": "Swiss Ephemeris: Sidereal mode functions",
+          "author": "Astrodienst",
+          "note": "Technische Referenz für verschiedene siderische Bezugsrahmen und Ayanamsha-Einstellungen. Keine Quelle für Schicksals- oder Gesundheitsdeutungen.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://www.journalofastrology.com/article.php?article_id=317",
+          "title": "Jaimini Chara Dasha – My Approach – 2",
+          "author": "K. N. Rao",
+          "note": "Autorenartikel von 2010 mit persönlicher Methodenposition und Lahiri-Bezug. Seine Fallberichte und Wissenschaftsbehauptungen werden nicht als unabhängiger Wirksamkeitsnachweis übernommen.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "academy-jyotish-02",
+      "title": "Rashi, Lagna und Graha: eine Karte übersetzen",
+      "summary": "Lerne die Grundbegriffe und unterscheide Zeichenbelegung von einer Hausdarstellung.",
+      "objective": "Du liest eine beschriftete Rashi-Tabelle und erkennst, welche Angaben ein indisches Diagramm tatsächlich zeigt.",
+      "level": "deepening",
+      "minutes": 35,
+      "body": "## Erst die Begriffe sortieren\nRashi bezeichnet in diesem Kurs ein Tierkreiszeichen, Lagna den Aszendenten beziehungsweise das aufsteigende Zeichen, und Graha die in der astrologischen Tradition verwendeten Gestirne oder Faktoren. Die klassische Neunergruppe umfasst Sonne, Mond, Mars, Merkur, Jupiter, Venus, Saturn sowie Rahu und Ketu. Rahu und Ketu sind die Mondknoten und keine zusätzlichen sichtbaren Planeten. Wenn du einen indischen Text liest, übersetze diese Grundbegriffe zunächst in eine kleine Tabelle. Dadurch vermeidest du, aus vertraut klingenden Wörtern unbemerkt westliche Spezialregeln zu übernehmen.\n\n## Eine Darstellung ist noch keine Methode\nIndische Horoskope werden in unterschiedlichen grafischen Formen gezeichnet. Manche Darstellungen halten Zeichenplätze fest, andere Hausplätze. Eine Zahl im Feld kann daher das Zeichen bezeichnen und nicht einfach die Hausnummer. Lies immer die Legende und die Lagna-Markierung. Ein rautenförmiges Diagramm ist nicht automatisch genauer als ein Kreis. Beide können dieselben Positionsdaten darstellen. Für den Einstieg verwenden wir deshalb eine einfache Liste mit Faktor, siderischem Zeichen und Grad, bevor wir irgendeine grafische Form interpretieren.\n\n## Vom Lagna aus zählen\nFür diese begrenzte Übung verwenden wir zeichenweise Häuser ab dem Lagna. Liegt das Lagna in Zwillinge, zählt Zwillinge als erstes, Krebs als zweites und so weiter. Das ist eine erklärte Übungskonvention; im Jyotish existieren darüber hinaus differenzierte Bhava-Berechnungen. Eine Rashi-Zuordnung und eine gesonderte Bhava-Karte müssen nicht in jedem Detail dasselbe zeigen. Übertrage deshalb keine Hausnummer aus einem unbekannten Ausdruck, ohne zu wissen, welches Verfahren verwendet wurde. Die Beschriftung ist Teil der fachlichen Arbeit.\n\n## Ein einfacher Datenbogen\nSchreibe zunächst das verwendete Ayanamsha und die Herkunft der Positionen auf. Dann folgen Lagna, Sonne, Mond und die übrigen Faktoren. Ein Zeichenname allein reicht für spätere Teilungsrechnungen nicht, dafür werden Grade und Minuten benötigt. Bei unbekannter Geburtszeit ist das Lagna unsicher, auch wenn manche langsameren Positionen ausreichend stabil bleiben. Eine Tabelle mit leerem Lagna ist ehrlicher als eine vollständig aussehende Grafik, die auf einer beliebigen Hilfszeit beruht und diese nicht sichtbar macht.\n\n## Gemeinsamkeiten nicht mit Gleichheit verwechseln\nViele Zeichen- und Planetennamen lassen sich sprachlich übersetzen. Daraus folgt nicht, dass jede westliche Aspekt-, Herrscher- oder Deutungsregel unverändert übernommen werden kann. Jyotish umfasst eigene Techniken und verschiedene Schulen. Beginne mit einer einzigen klar benannten Konvention. Wenn du später eine westliche Interpretation danebenstellst, markiere sie als Vergleich. Das verhindert ein scheinbar umfassendes Mischsystem, dessen Aussagen sich nicht mehr auf konkrete Regeln zurückführen lassen. Mehr Fachwörter allein schaffen keine größere Genauigkeit.\n\n## Der erste Lernschritt\nOrdne drei vorgegebene Faktoren einem zeichenweisen Haus ab Lagna zu und kontrolliere die Reihenfolge unabhängig. Formuliere anschließend eine neutrale Erklärung der Grafik, ohne persönliche Eigenschaften zu behaupten. Marina sollte einem Klienten sagen können, welche Daten das Blatt enthält und was nur eine gewählte Darstellung ist. Erst danach kann sie fragen, ob die Person überhaupt eine indische symbolische Perspektive kennenlernen möchte. Kenntnisse über eine Tradition setzen weder deren religiöse Überzeugungen noch eine bestimmte Herkunft der lernenden oder ratsuchenden Person voraus.",
+      "examples": [
+        {
+          "title": "Zahl und Haus nicht verwechseln",
+          "body": "Lea sieht in einem fiktiven nordindischen Diagramm im Lagna-Feld die Zahl drei. Marina erklärt anhand der Legende, dass die Zahl dort Zwillinge als drittes Zeichen bezeichnet. Das Feld selbst ist weiterhin das erste Haus. Anschließend schreibt sie die Daten in eine einfache Tabelle um. Damit wird deutlich, dass eine Zahl je nach Darstellungsform unterschiedliche Aufgaben hat. Lea muss die Grafik nicht intuitiv deuten, sondern kann ihre Beschriftung Schritt für Schritt nachvollziehen."
+        },
+        {
+          "title": "Eine fehlende Zeit bleibt fehlend",
+          "body": "Samir besitzt für die Lernübung siderische Planetenwerte, aber keine verlässliche Geburtszeit. Marina kann die angegebenen Zeichen und Grade lesen, erstellt daraus jedoch kein angeblich sicheres Lagna. Sie markiert die zeichenweise Hauszählung als nicht bestimmbar. Für eine reine Rechenaufgabe darf ein Lagna zusätzlich vorgegeben werden, sofern dies deutlich auf dem Blatt steht. So bleiben Datenlesen und Annahme getrennt, und ein vollständiges Diagramm wird nicht mit einer vollständig bekannten Geburt verwechselt."
+        }
+      ],
+      "practice": {
+        "prompt": "Gegebenes Übungs-Lagna Zwillinge: Ordne Mond in Löwe, Venus in Fische und Saturn in Wassermann zeichenweisen Häusern zu. Erkläre Rahu und Ketu.",
+        "model_answer": "Ich zähle vom vorgegebenen Zwillinge-Lagna aus: Zwillinge eins, Krebs zwei, Löwe drei, Jungfrau vier, Waage fünf, Skorpion sechs, Schütze sieben, Steinbock acht, Wassermann neun, Fische zehn, Widder elf und Stier zwölf. Damit steht der Mond im dritten, Venus im zehnten und Saturn im neunten zeichenweisen Haus. Ich bezeichne das Verfahren ausdrücklich als die hier gewählte Rashi-Hausübung und nicht als jede mögliche Bhava-Berechnung. Rahu und Ketu bezeichnen die aufsteigende und absteigende Mondknotenrichtung. Sie gehören zur traditionellen Neunergruppe, sind aber keine zusätzlichen sichtbaren Planeten. Für weitergehende Rechnungen würden genaue siderische Grade, Ayanamsha und Eingabedaten benötigt. Die Positionen sind vorgegeben und nicht von der App als Jyotish-Radix berechnet. Aus der korrekten Hauszuordnung allein würde ich keine persönliche Eigenschaft oder ein zukünftiges Ereignis ableiten.",
+        "rubric": [
+          "Die Hauszählung beginnt beim Lagna.",
+          "Mond drei, Venus zehn und Saturn neun stimmen.",
+          "Rahu und Ketu werden als Mondknoten erklärt.",
+          "Darstellung und Berechnungskonvention sind benannt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was bedeutet Lagna in dieser Einführung?",
+          "options": [
+            "Der nächste Vollmond",
+            "Ein bestimmter Asteroid",
+            "Aszendent beziehungsweise aufsteigendes Zeichen"
+          ],
+          "correct_index": 2,
+          "explanation": "Lagna bezeichnet den örtlichen Aufgangspunkt beziehungsweise sein Zeichen."
+        },
+        {
+          "id": "q2",
+          "question": "Was sind Rahu und Ketu?",
+          "options": [
+            "Die beiden Mondknoten",
+            "Zwei zusätzliche sichtbare Planeten",
+            "Zwei Jahreszeiten"
+          ],
+          "correct_index": 0,
+          "explanation": "Sie sind geometrische Knotenrichtungen, die im astrologischen Graha-System mitgeführt werden."
+        },
+        {
+          "id": "q3",
+          "question": "Was ist vor dem Lesen einer unbekannten Grafik wichtig?",
+          "options": [
+            "Ein passendes Persönlichkeitsbild",
+            "Legende und Bedeutung der Zahlenfelder prüfen",
+            "Immer alle Zahlen als Häuser lesen"
+          ],
+          "correct_index": 1,
+          "explanation": "Darstellungsformen unterscheiden sich darin, ob Zeichen oder Häuser feste Plätze haben."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bvbdelhi.org/wp-content/uploads/2025/11/Prospectus_final.pdf",
+          "title": "Prospectus: Bhavan’s K.N. Rao Institute of Astrology",
+          "author": "Bharatiya Vidya Bhavan, Delhi",
+          "note": "Offizieller Lehrplan belegt Themenumfang und Schulkontext. Er wird weder als frei verfügbarer Vollkurs noch als wissenschaftlicher Wirkungsnachweis behandelt.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://www.astro.com/swisseph/swephprg.htm",
+          "title": "Swiss Ephemeris: Sidereal mode functions",
+          "author": "Astrodienst",
+          "note": "Technische Referenz für verschiedene siderische Bezugsrahmen und Ayanamsha-Einstellungen. Keine Quelle für Schicksals- oder Gesundheitsdeutungen.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "academy-jyotish-03",
+      "title": "Nakshatras und Padas berechnen",
+      "summary": "Teile den Kreis in 27 Abschnitte und einen Abschnitt in vier Viertel.",
+      "objective": "Du bestimmst anhand vorgegebener Grenzen das Nakshatra und Pada einer siderischen Mondposition.",
+      "level": "deepening",
+      "minutes": 35,
+      "body": "## Eine zweite Einteilung des Kreises\nNeben den zwölf Zeichen verwendet die hier gelehrte Jyotish-Konvention 27 gleich große Nakshatras. Ein voller Kreis von 360 Grad geteilt durch 27 ergibt 13 Grad und 20 Bogenminuten je Abschnitt. Jedes Nakshatra wird wiederum in vier Padas geteilt; ein Pada umfasst 3 Grad und 20 Bogenminuten. Bogenminuten sind Winkelmaße: Sechzig davon ergeben ein Grad. Sie sind keine Zeitminuten. Diese einfache Unterscheidung verhindert viele Fehler, wenn du mit Dezimalzahlen oder Tabellen arbeitest.\n\n## Mit Bogenminuten rechnen\nFür eine robuste Handrechnung wandelst du die Position in Bogenminuten ab null Grad Widder um. Ein Nakshatra umfasst 800 Bogenminuten, ein Pada 200. Teile die Gesamtlänge durch 800, nimm den ganzzahligen Anteil und addiere eins für die Nakshatra-Nummer. Der Rest zeigt, wie weit die Position innerhalb des Abschnitts liegt. Für die Pada-Nummer verwendest du ebenfalls den ganzzahligen Anteil: Pada = floor(Rest / 200) + 1. Dabei bedeutet floor, dass der Bruchteil abgeschnitten wird; 420 geteilt durch 200 ergibt also floor(2,1) + 1 = 3. Exakte Grenzwerte gehören in der hier verwendeten Zählung zum neu beginnenden Abschnitt.\n\n## Ein Beispiel mit bekannter Grenze\nRohini erstreckt sich in der üblichen 27er-Tabelle von 10 Grad Stier bis 23 Grad 20 Stier. Eine vorgegebene siderische Mondposition bei 17 Grad Stier liegt sieben Grad nach dem Beginn, also 420 Bogenminuten. Die ersten beiden Padas umfassen zusammen 400 Minuten. Der Mond liegt damit im dritten Pada, zwanzig Bogenminuten nach dessen Anfang. Diese Rechnung benötigt keine psychologische Beschreibung der Person. Sie zeigt zunächst nur, dass du Grenzen und Einheiten korrekt anwenden kannst.\n\n## Namen und Bedeutungen getrennt lernen\nNakshatras besitzen traditionelle Namen, Symbolbilder und Zuordnungen. Lerne diese nicht als starre Persönlichkeitsschubladen. Beginne mit Nummer, Anfang, Ende und gegebenenfalls dem für eine bestimmte Dasha-Methode verwendeten Herrscher. Erst anschließend kannst du eine kulturelle Symbolik als solche kennenlernen. Ein Name ist keine Diagnose über Temperament, Beziehung oder Moral. Besonders bei sehr knappen Grenzabständen müssen Ayanamsha, Zeitgenauigkeit und Berechnungsquelle klar sein, bevor eine ausführliche Deutung überhaupt sinnvoll wird.\n\n## Eine Tabelle gezielt statt vollständig auswendig\nFür eine erste Übung brauchst du nicht alle 27 Namen auswendig. Verwende einen kleinen korrekt beschrifteten Ausschnitt und prüfe, ob die Position darin liegt. Achte darauf, dass Nakshatras Zeichenübergänge überschreiten können; ihre Grenzen sind nicht einfach identisch mit den Dreißiggradgrenzen. Eine Position knapp nach einem Zeichenwechsel beginnt deshalb nicht automatisch ein neues Nakshatra. Wer beide Einteilungen getrennt zeichnet, versteht diesen Unterschied schneller als jemand, der nur fertige Deutungstexte liest.\n\n## Verwendung und App-Grenze\nDie Mondposition im Nakshatra kann in der Vimshottari-Methode als Ausgangspunkt einer Periodenrechnung dienen. Das wird in der nächsten Lektion mit vorgegebenen Zahlen geübt. Sense & Stars liefert hier keine automatische Nakshatra-Berechnung aus der normalen tropischen Radix. Du arbeitest mit ausdrücklich siderischen Übungswerten. Halte in deinem Notizbuch daher Datenquelle, Ayanamsha, Grenztabelle und Rechenweg fest. Ein sorgfältig bestimmtes Pada ist ein nachprüfbares Lernergebnis innerhalb der Konvention; eine daraus entwickelte Lebensdeutung bleibt eine zusätzliche symbolische Annahme.\n\nEine zweite Kontrolle verwendet ausdrücklich den Rest innerhalb des Pada: Rest modulo 200, hier 420 modulo 200 = 20 Bogenminuten. Addiere Nakshatra-Anfang, die vollständig durchlaufenen Padas und diesen kleinen Rest. Für das Beispiel ergibt das 40 Grad plus 400 Bogenminuten plus 20 Bogenminuten = 47 Grad, also 17 Grad Stier. Addiere nicht nochmals die ganzen 420 Minuten zum Pada-Anfang; sonst würdest du die ersten beiden Padas doppelt zählen. Diese Umkehrprobe findet besonders leicht Fehler, bei denen Grad und Bogenminuten versehentlich wie Dezimalzahlen behandelt wurden.",
+      "examples": [
+        {
+          "title": "Leas Mond im dritten Pada",
+          "body": "Leas vorgegebener siderischer Mond liegt bei 17 Grad Stier. Marina benutzt Rohinis Anfang bei 10 Grad Stier und erhält sieben Grad Abstand, also 420 Bogenminuten. Da zwei Padas 400 Minuten umfassen, liegt der Mond im dritten Pada. Sie kontrolliert, dass die Position noch vor Rohinis Ende bei 23 Grad 20 Stier liegt. Die Übung prüft Winkelrechnung und Tabellenlesen; sie beschreibt weder Leas tatsächliches Geburtshoroskop noch ihre Gefühle oder zukünftige Beziehungen."
+        },
+        {
+          "title": "Ein genauer Grenzwert",
+          "body": "Samirs Lernwert lautet 13 Grad 20 Stier. Rohini beginnt bei 10 Grad Stier, also liegt die Position genau 3 Grad 20 nach dem Anfang. Marina ordnet sie nach der festgelegten halboffenen Intervallregel dem zweiten Pada zu. Sie erklärt, dass das erste Pada bis unmittelbar vor diese Grenze reicht. Bei realen Daten knapp an einer Grenze müssten Genauigkeit und Rundung geprüft werden. Ein aufgerundeter Ausdruck darf keine scheinbar sichere Feineinteilung vortäuschen."
+        }
+      ],
+      "practice": {
+        "prompt": "Rohini beginnt bei 10 Grad Stier. Bestimme das Pada für 21 Grad Stier und berechne den zurückgelegten Anteil des gesamten Nakshatras.",
+        "model_answer": "Die vorgegebene Position liegt elf Grad nach Rohinis Anfang. Elf Grad entsprechen 660 Bogenminuten. Ein Pada umfasst 200 Minuten; nach drei vollständigen Padas sind 600 Minuten zurückgelegt. Die Position liegt deshalb im vierten Pada, sechzig Minuten nach dessen Anfang. Das gesamte Nakshatra umfasst 800 Minuten. Der zurückgelegte Anteil beträgt 660 geteilt durch 800, also 0,825 beziehungsweise 82,5 Prozent. Es bleiben 140 Minuten oder 17,5 Prozent. Ich kontrolliere, dass 21 Grad Stier innerhalb der angegebenen Rohini-Grenzen von 10 bis 23 Grad 20 liegt. Auf meinem Blatt stehen siderischer Übungswert, verwendete Grenztabelle und Einheiten. Ich würde die Rechnung nicht mit einer tropischen App-Position durchführen, ohne vorher den Bezug zu klären. Eine symbolische Deutung des vierten Pada wäre ein eigener Schritt und kein Ergebnis dieser bloßen Winkelrechnung.",
+        "rubric": [
+          "Elf Grad werden korrekt in 660 Bogenminuten umgewandelt.",
+          "Das vierte Pada wird erkannt.",
+          "82,5 Prozent zurückgelegt und 17,5 Prozent verbleibend stimmen.",
+          "Siderischer Bezug und Einheiten bleiben sichtbar."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Wie groß ist ein Abschnitt im 27er-System?",
+          "options": [
+            "12 Grad",
+            "13 Grad 20 Bogenminuten",
+            "30 Grad"
+          ],
+          "correct_index": 1,
+          "explanation": "360 Grad geteilt durch 27 ergeben 13 Grad 20 Minuten."
+        },
+        {
+          "id": "q2",
+          "question": "Wie viele Bogenminuten umfasst ein Pada?",
+          "options": [
+            "200",
+            "800",
+            "60"
+          ],
+          "correct_index": 0,
+          "explanation": "3 Grad 20 Minuten entsprechen 3 mal 60 plus 20, also 200 Minuten."
+        },
+        {
+          "id": "q3",
+          "question": "Beginnt bei jedem Zeichenwechsel ein neues Nakshatra?",
+          "options": [
+            "Ja, immer",
+            "Nur bei Tag",
+            "Nein, die beiden Einteilungen haben unterschiedliche Grenzen"
+          ],
+          "correct_index": 2,
+          "explanation": "Dreißiggradzeichen und 13-Grad-20-Abschnitte sind verschiedene Raster."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.vedicastrologer.org/articles/vedic_astro_textbook.pdf",
+          "title": "Vedic Astrology: An Integrated Approach",
+          "author": "P. V. R. Narasimha Rao",
+          "note": "Gezielt geprüft: gedruckte Seiten 10–11 (PDF-Seiten 22–23), Nakshatra- und Pada-Einteilung sowie Rohini-Grenzen. Öffentliches Autorenlehrbuch von P. V. R. Narasimha Rao, nicht K. N. Rao. Eigene Rechenbeispiele; keine Vollbuchlektüre oder Übernahme des Lehrbuchkurses.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://www.bvbdelhi.org/wp-content/uploads/2025/11/Prospectus_final.pdf",
+          "title": "Prospectus: Bhavan’s K.N. Rao Institute of Astrology",
+          "author": "Bharatiya Vidya Bhavan, Delhi",
+          "note": "Offizieller Lehrplan belegt Themenumfang und Schulkontext. Er wird weder als frei verfügbarer Vollkurs noch als wissenschaftlicher Wirkungsnachweis behandelt.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "academy-jyotish-04",
+      "title": "Vimshottari: Anfangsrest statt ganzer Periode",
+      "summary": "Berechne den verbleibenden Anteil der ersten Periode aus einer vorgegebenen Mondposition.",
+      "objective": "Du verwendest eine explizite Periodenfolge und unterscheidest Modelljahre von konkreten Kalenderdaten.",
+      "level": "deepening",
+      "minutes": 40,
+      "body": "## Eine Periodenmethode mit festen Regeln\nVimshottari ist eine traditionelle Jyotish-Methode, die eine Folge von Perioden verschiedenen Grahas zuordnet. Der vollständige Zyklus umfasst in der üblichen Tabelle 120 Modelljahre. Die Reihenfolge mit Dauer lautet Ketu sieben, Venus zwanzig, Sonne sechs, Mond zehn, Mars sieben, Rahu achtzehn, Jupiter sechzehn, Saturn neunzehn und Merkur siebzehn Jahre. Danach beginnt die Folge erneut. Diese Zahlen bilden eine überlieferte Rechenkonvention. Sie sind keine Vorhersage, wie lange ein Mensch lebt, und dürfen nicht als persönliche Lebensfrist verwendet werden.\n\n## Der Mond bestimmt den Einstieg\nIn der hier gelehrten Grundform wird zunächst das siderische Nakshatra des Mondes bestimmt. Dessen Vimshottari-Herrscher benennt die erste Periode. Bei Rohini ist das der Mond. Entscheidend ist dann, welcher Anteil des Nakshatras zum Geburtszeitpunkt noch nicht durchlaufen wurde. Nur dieser verbleibende Anteil der vollen Periodendauer liegt nach dem Startpunkt. Es wäre ein Fehler, bei jeder Geburt im selben Nakshatra automatisch die gesamte volle erste Periode anzusetzen. Die genaue Mondposition macht hier einen Unterschied.\n\n## Einen Restanteil berechnen\nNimm als reine Übung den siderischen Mond bei 13 Grad 20 Stier. Rohini beginnt bei 10 Grad Stier. Der Mond hat also 3 Grad 20 von insgesamt 13 Grad 20 zurückgelegt: 200 von 800 Bogenminuten, also ein Viertel. Drei Viertel bleiben. Die volle Mondperiode umfasst zehn Modelljahre; der Anfangsrest beträgt deshalb siebeneinhalb Modelljahre. Danach folgen in der festen Reihenfolge sieben Marsjahre und achtzehn Rahujahre. Der Rechenweg ist überprüfbar, unabhängig von jeder Deutung.\n\n## Kalenderdaten benötigen weitere Einstellungen\nSiebeneinhalb Modelljahre sind noch kein genaues Enddatum. Dafür muss festgelegt sein, welche Jahreslänge und welche Kalenderumrechnung die verwendete Methode beziehungsweise Software benutzt. Unterschiedliche Konventionen können verschiedene Datumsgrenzen erzeugen. Dokumentiere deshalb nicht nur den Periodennamen, sondern auch die Rechenbasis. Diese Lektion bleibt bewusst bei Anteilen und Modelljahren. Sense & Stars erzeugt daraus keine automatische persönliche Dasha-Zeitleiste. Ein genauer Termin darf nicht aus einer gerundeten Handrechnung als scheinbar präzise Vorhersage weitergegeben werden.\n\n## Zeitraum ist nicht Ereignis\nEin Periodenname allein sagt innerhalb einer anspruchsvolleren traditionellen Analyse ebenfalls noch nicht alles. Weitere Chartbedingungen würden betrachtet, und unterschiedliche Schulen gewichten sie anders. In einer vorsichtigen Beratung kann eine symbolische Zeitstruktur höchstens eine freiwillige Reflexionsfrage anregen. Sie rechtfertigt keine Angst vor einer benannten Mars- oder Rahuphase und keine Garantie für Geld oder Partnerschaft. Eine Person darf Entscheidungen anhand ihrer tatsächlichen Möglichkeiten treffen, ohne auf einen vermeintlich erlaubten kosmischen Zeitpunkt warten zu müssen.\n\n## Dein Kontrollblatt\nSchreibe Nakshatra-Anfang, Mondposition, zurückgelegte Strecke, Reststrecke, Restbruch und volle Periodendauer untereinander. Prüfe, dass zurückgelegter und verbleibender Anteil zusammen eins ergeben. Multipliziere erst danach mit der Jahreszahl. Ergänze die nächsten zwei Perioden und kennzeichne ausdrücklich, dass keine Kalenderdaten berechnet wurden. Bei einem Wert nahe einer Nakshatra-Grenze kontrollierst du außerdem Rundung und Ayanamsha. So lernst du eine konkrete traditionelle Rechnung und erkennst zugleich, welche zusätzlichen Voraussetzungen für eine reale Anwendung noch fehlen.\n\nPrüfe als zusätzliche Gegenrechnung, ob verbrauchter und verbleibender Periodenanteil zusammen wieder die volle Dauer ergeben. Im Beispiel sind zweieinhalb Jahre rechnerisch verbraucht und siebeneinhalb übrig. Eine Summe ungleich zehn weist auf einen Einheiten- oder Bruchfehler hin.",
+      "examples": [
+        {
+          "title": "Leas verkürzte erste Mondperiode",
+          "body": "Leas erfundener siderischer Mond steht bei 13 Grad 20 Stier. Marina berechnet innerhalb Rohinis einen zurückgelegten Anteil von einem Viertel. Deshalb bleiben von der zehnjährigen Mondperiode siebeneinhalb Modelljahre. Sie zeichnet danach Mars mit sieben und Rahu mit achtzehn Jahren an die Zeitleiste. Ein genaues Kalenderdatum trägt sie nicht ein, weil dafür die Jahreskonvention fehlt. Die Grafik ist eine Rechenübung und kein persönlicher Zeitplan für Leas Beruf, Gesundheit oder Beziehungen."
+        },
+        {
+          "title": "Samirs Rest ist nicht der verstrichene Anteil",
+          "body": "Samirs Übungsposition liegt genau in der Mitte eines Nakshatras, dessen Herrscher eine volle Periode von zwanzig Modelljahren erhält. Marina berechnet zehn verbleibende Jahre. Sie erklärt, dass im Mittelpunkt verstrichener und verbleibender Anteil zufällig gleich sind; an anderen Positionen darf man sie nicht verwechseln. Für eine zusätzliche Kontrolle setzt sie einen Viertelpunkt ein und erhält fünfzehn verbleibende Jahre. Die Gegenprobe hilft, einen systematischen Fehler im Rechenverfahren früh zu erkennen."
+        }
+      ],
+      "practice": {
+        "prompt": "Der Mond steht als siderischer Übungswert bei 20 Grad Stier in Rohini. Berechne den Rest der Mondperiode und nenne die folgenden zwei Perioden.",
+        "model_answer": "Rohini beginnt bei 10 Grad Stier, also hat der Mond zehn Grad innerhalb des Nakshatras zurückgelegt. Zehn Grad sind 600 Bogenminuten. Von insgesamt 800 Minuten bleiben 200 übrig, also ein Viertel. Die volle Mondperiode beträgt zehn Modelljahre; ein Viertel davon sind zweieinhalb verbleibende Modelljahre. Danach folgen nach der festgelegten Reihenfolge Mars mit sieben und Rahu mit achtzehn Modelljahren. Ich kontrolliere, dass drei Viertel zurückgelegt und ein Viertel verbleibend zusammen das ganze Nakshatra ergeben. Auf dem Blatt vermerke ich siderische, vorgegebene Übungsdaten und die verwendete Rohini-Grenze. Ein konkretes Enddatum berechne ich nicht, weil Zeitpunkt und Jahreskonvention fehlen. Die Periodenfolge ist keine Aussage darüber, ob ein bestimmtes Ereignis eintreten wird. Eine spätere Deutung müsste ihre zusätzlichen Annahmen offenlegen und dürfte die persönliche Entscheidungsfreiheit nicht durch Angst vor Periodennamen einschränken.",
+        "rubric": [
+          "600 von 800 Minuten sind zurückgelegt.",
+          "Ein Viertel der Mondperiode ergibt 2,5 Modelljahre.",
+          "Mars sieben und Rahu achtzehn folgen korrekt.",
+          "Modelljahre und Kalenderdatum werden unterschieden."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welcher Anteil bestimmt den Anfangsrest?",
+          "options": [
+            "Immer die volle Periode",
+            "Der bereits zurückgelegte Anteil allein",
+            "Der noch verbleibende Anteil des Mond-Nakshatras"
+          ],
+          "correct_index": 2,
+          "explanation": "Der Startpunkt liegt innerhalb einer laufenden Periode; nur der entsprechende Rest wird angesetzt."
+        },
+        {
+          "id": "q2",
+          "question": "Was folgt in der üblichen Reihenfolge auf die Mondperiode?",
+          "options": [
+            "Mars",
+            "Venus",
+            "Saturn"
+          ],
+          "correct_index": 0,
+          "explanation": "Die festgelegte Folge führt von Mond zu Mars und anschließend zu Rahu."
+        },
+        {
+          "id": "q3",
+          "question": "Was fehlt für ein exaktes Kalender-Enddatum zusätzlich?",
+          "options": [
+            "Eine passend klingende Deutung",
+            "Eine erklärte Jahres- und Kalenderkonvention sowie der Startzeitpunkt",
+            "Ein spirituelles Abzeichen"
+          ],
+          "correct_index": 1,
+          "explanation": "Modelljahre müssen nach einer festgelegten Konvention in Daten übersetzt werden."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.vedicastrologer.org/articles/vedic_astro_textbook.pdf",
+          "title": "Vedic Astrology: An Integrated Approach",
+          "author": "P. V. R. Narasimha Rao",
+          "note": "Gezielt geprüft: gedruckte Seiten 210–211 (PDF-Seiten 222–223), Periodenfolge, Anfangsrest und unterschiedliche Jahreskonventionen. Öffentliches Autorenlehrbuch von P. V. R. Narasimha Rao, nicht K. N. Rao. Die vorliegenden Zahlenaufgaben sind eigenständig entwickelt.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://www.vedicastrologer.org/jh/features.htm",
+          "title": "Features of Jagannatha Hora Software",
+          "author": "P. V. R. Narasimha Rao",
+          "note": "Offizielle Beschreibung dokumentiert unterschiedliche Dasha-Jahreskonventionen und Teilungskartenvarianten. Keine Zusage, dass Sense & Stars diese Funktionen berechnet.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "academy-jyotish-05",
+      "title": "Navamsha D9: eine Teilungskarte verstehen",
+      "summary": "Berechne eine einfache D9-Zuordnung und erkenne ihre Empfindlichkeit gegenüber Ausgangsdaten.",
+      "objective": "Du führst die Standard-Neunteilung mit vorgegebenenen siderischen Längen aus und behauptest keine automatische App-Funktion.",
+      "level": "deepening",
+      "minutes": 40,
+      "body": "## Teilung bedeutet eine neue Zuordnung\nEine Navamsha-Karte, häufig D9 genannt, teilt jedes Dreißiggradzeichen in neun Abschnitte. Jeder Abschnitt umfasst 3 Grad und 20 Bogenminuten. Die Abschnitte werden nach einer festgelegten Regel erneut Zeichen zugeordnet. D9 ist deshalb keine zweite Aufnahme des Himmels zu einem anderen Zeitpunkt. Sie ist eine abgeleitete Karte aus denselben Ausgangslängen. Diese Unterscheidung ist wichtig: Ein Planet wandert durch die Teilung nicht tatsächlich an eine andere Stelle. Seine neue Position gehört zu einem symbolischen Rechensystem.\n\n## Die hier verwendete Standardregel\nFür die übliche zyklische Navamsha-Zuordnung kannst du die siderische Gesamtlänge mit neun multiplizieren und das Ergebnis auf den Kreis von null bis unter 360 Grad zurückführen. Diese Kurzform erzeugt die bekannte Standardverteilung. Andere benannte Teilungsvarianten existieren; sie dürfen nicht unbemerkt mit dieser Übung vermischt werden. Notiere deshalb „Standard-Navamsha, zyklische Neunteilung“. Die Berechnung verwendet bereits siderische Ausgangswerte. Ein pauschales Umbenennen der tropischen App-Zeichen ersetzt diesen Schritt nicht.\n\n## Ein Rechenbeispiel\nEin vorgegebener Planet bei 10 Grad Stier hat 40 Grad siderische Gesamtlänge. Neun mal vierzig ergibt 360 Grad. Nach Abzug eines Vollkreises bleibt null Grad Widder in der D9-Zuordnung. Ein Planet bei 11 Grad Stier ergibt 41 mal neun, also 369 Grad, und damit 9 Grad Widder. Die Differenz von einem Grad in der Ausgangskarte wird hier zu neun Grad in der abgeleiteten Länge. Das erklärt, warum genaue Eingaben für feine Teilungskarten besonders wichtig sind.\n\n## Grenzen und Rundung beachten\nEin Ausgangswert nahe einer Teilungsgrenze kann bei kleiner Änderung in ein anderes D9-Zeichen wechseln. Das betrifft besonders den Aszendenten, dessen Ausgangslänge empfindlich auf die Geburtszeit reagiert. Wenn die Zeit nur ungefähr bekannt ist, darfst du keine präzise D9-Lagna-Deutung als gesichert ausgeben. Vergleiche im Zweifel den möglichen Wertebereich. Auch eine auf volle Grade gerundete Tabelle kann für diese Aufgabe zu grob sein. Mehr Nachkommastellen im Ergebnis heilen keine ungenaue Eingabe.\n\n## Traditionelle Bedeutung begrenzen\nJyotish-Schulen verwenden D9 unter anderem für die weitere Beurteilung von Planetenbedingungen und Beziehungsthemen. Daraus folgt keine Erlaubnis, Heirat, Scheidung oder den Charakter eines Partners sicher vorherzusagen. Ein einzelnes D9-Symbol ersetzt weder die Ausgangskarte noch ein tatsächliches Gespräch. Für diese Einführung genügt, die Ableitung zu verstehen und einen korrekten Vergleich zu beschriften. Wer eine umfassende Auslegung lernen möchte, muss die jeweilige Schule und ihre weiteren Regeln gesondert studieren, statt aus einem kurzen Tabellenwert ein Gesamturteil zu bauen.\n\n## Eine nachvollziehbare Lernseite\nNotiere für zwei Werte die siderische Ausgangslänge, Multiplikation, Anzahl abgezogener Vollkreise und D9-Ergebnis. Markiere anschließend, ob eine kleine Eingabeänderung das Zielzeichen verändert. Genau diese Fehlerempfindlichkeit ist ein wichtiger Lerninhalt. Sense & Stars berechnet hier keine persönliche Navamsha-Karte; alle Werte werden manuell vorgegeben. Das Ergebnis kann als Rechenkompetenz geprüft werden. Seine symbolische Bedeutung bleibt ein eigenes, freiwilliges Deutungsangebot, dessen Genauigkeit nicht allein aus der mathematisch korrekten Ableitung folgt.\n\nFür die Kontrolle bei elf Grad Stier rechnest du außerdem den Abstand zur bekannten Zehngradgrenze: ein Grad Ausgangsabstand entspricht neun Grad innerhalb des neuen D9-Zeichens. Diese lokale Gegenprobe bestätigt das Ergebnis, ohne die ganze Multiplikation nochmals identisch zu wiederholen.",
+      "examples": [
+        {
+          "title": "Eine Grenze bei zehn Grad Stier",
+          "body": "Leas vorgegebener Planet liegt bei 10 Grad Stier. Marina rechnet 40 mal neun und führt 360 auf null Grad Widder zurück. Zum Vergleich nimmt sie 9 Grad 59 Stier: Die abgeleitete Länge liegt dann noch kurz vor dem Ende der Fische. Das Beispiel zeigt einen Grenzübertritt durch eine kleine Eingabeänderung. Marina erklärt deshalb, warum gerundete Ausgangsdaten keine scheinbar eindeutige D9-Zuordnung rechtfertigen, wenn die tatsächliche Position nahe dieser Grenze liegt."
+        },
+        {
+          "title": "Samirs Aszendent bleibt unsicher",
+          "body": "Samirs fiktive Geburtszeit ist nur ungefähr bekannt. Zwei plausible Ausgangs-Aszendenten liegen beiderseits einer Navamsha-Grenze. Marina berechnet beide D9-Varianten und kennzeichnet den Unterschied. Sie wählt nicht diejenige aus, deren Beziehungserzählung besser klingt. Für eine reale Anwendung müsste die Zeitunsicherheit geklärt oder die feine Aussage unterlassen werden. Das technische Interesse an einer Teilungskarte ersetzt keine verlässliche Datengrundlage und berechtigt nicht zu sicheren Aussagen über einen zukünftigen Partner."
+        }
+      ],
+      "practice": {
+        "prompt": "Berechne die Standard-D9-Längen für vorgegebene siderische Positionen 4 Grad Widder und 12 Grad Stier. Erkläre, weshalb eine Zeitunsicherheit beim Lagna relevant wäre.",
+        "model_answer": "Vier Grad Widder entsprechen vier Grad Gesamtlänge. Mit neun multipliziert ergeben sich 36 Grad, also 6 Grad Stier in D9. Zwölf Grad Stier entsprechen 42 Grad Gesamtlänge. Neun mal 42 sind 378 Grad; nach Abzug von 360 bleiben 18 Grad Widder. Ich beschrifte beide Ergebnisse als Standard-Navamsha nach zyklischer Neunteilung und als manuelle Rechnung aus vorgegebenen siderischen Werten. Eine kleine Abweichung der Ausgangslänge wird in der abgeleiteten Länge mit dem Faktor neun vergrößert. Beim Lagna kann deshalb eine ungenaue Geburtszeit zu einer anderen D9-Zuordnung führen, besonders nahe einer Grenze. Ich würde solche Varianten sichtbar vergleichen, statt die passendste Geschichte auszuwählen. Die korrekte Rechnung beschreibt eine symbolische Ableitung und beweist weder eine bestimmte Beziehungseigenschaft noch ein künftiges Ereignis. Die normale App-Radix wird dadurch nicht automatisch um eine D9-Berechnung erweitert.",
+        "rubric": [
+          "4 Grad Widder ergeben 6 Grad Stier in D9.",
+          "12 Grad Stier ergeben 18 Grad Widder in D9.",
+          "Standardregel und siderische Eingaben werden genannt.",
+          "Datenunsicherheit wird vor einer feinen Deutung berücksichtigt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Wie groß ist ein Neuntel eines Zeichens?",
+          "options": [
+            "3 Grad 20 Bogenminuten",
+            "9 Grad",
+            "13 Grad 20 Bogenminuten"
+          ],
+          "correct_index": 0,
+          "explanation": "Dreißig Grad geteilt durch neun ergeben 3 Grad 20 Minuten."
+        },
+        {
+          "id": "q2",
+          "question": "Was beschreibt eine D9-Position?",
+          "options": [
+            "Eine neue reale Planetenbahn",
+            "Den Himmel neun Jahre später",
+            "Eine abgeleitete Zuordnung derselben Ausgangslänge"
+          ],
+          "correct_index": 2,
+          "explanation": "Die Teilungskarte ist eine mathematisch-symbolische Transformation."
+        },
+        {
+          "id": "q3",
+          "question": "Was ist bei unsicherem Lagna nahe einer Teilungsgrenze sinnvoll?",
+          "options": [
+            "Die angenehmste Deutung wählen",
+            "Varianten prüfen und die Unsicherheit benennen",
+            "Nachkommastellen frei ergänzen"
+          ],
+          "correct_index": 1,
+          "explanation": "Eine genaue Darstellung darf ungenaue Eingaben nicht verdecken."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bvbdelhi.org/wp-content/uploads/2025/11/Prospectus_final.pdf",
+          "title": "Prospectus: Bhavan’s K.N. Rao Institute of Astrology",
+          "author": "Bharatiya Vidya Bhavan, Delhi",
+          "note": "Offizieller Lehrplan belegt Themenumfang und Schulkontext. Er wird weder als frei verfügbarer Vollkurs noch als wissenschaftlicher Wirkungsnachweis behandelt.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://www.vedicastrologer.org/jh/features.htm",
+          "title": "Features of Jagannatha Hora Software",
+          "author": "P. V. R. Narasimha Rao",
+          "note": "Offizielle Beschreibung dokumentiert unterschiedliche Dasha-Jahreskonventionen und Teilungskartenvarianten. Keine Zusage, dass Sense & Stars diese Funktionen berechnet.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://www.vedicastrologer.org/articles/vedic_astro_textbook.pdf",
+          "title": "Vedic Astrology: An Integrated Approach",
+          "author": "P. V. R. Narasimha Rao",
+          "note": "Gezielt geprüft: gedruckte Seite 55 (PDF-Seite 67), Abschnitt 6.2.9 zur klassischen D9-Einteilung. Öffentliches Autorenlehrbuch von P. V. R. Narasimha Rao, nicht K. N. Rao. Eigene Kontrollrechnungen; keine Aussage, dass Sense & Stars eine D9 automatisch berechnet.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "academy-jyotish-06",
+      "title": "K. N. Rao lesen: Methode, Fallbericht und Beleg trennen",
+      "summary": "Vergleiche Ansätze anhand ihrer Regeln und entwickle einen begrenzten eigenen Lernversuch.",
+      "objective": "Du erstellst ein Quellenblatt, das Autorenpositionen respektiert, ohne ihre Wirksamkeitsbehauptungen ungeprüft zu übernehmen.",
+      "level": "deepening",
+      "minutes": 40,
+      "body": "## Einen Autor in seinem Kontext lesen\nK. N. Rao ist eine wichtige Bezugsperson des vom Nutzer gewünschten Jyotish-Zweigs. Sein öffentlich zugänglicher Artikel über seinen Chara-Dasha-Ansatz zeigt eine persönliche Methodenposition innerhalb einer Tradition. Ein solcher Text kann erklären, welche Regeln ein Autor bevorzugt, welche Probleme er sieht und wie er Fälle bespricht. Er ist aber nicht automatisch eine unabhängige wissenschaftliche Prüfung dieser Regeln. Lies deshalb mit zwei Fragen: Was genau wird methodisch behauptet? Und welche Art von Beleg wird tatsächlich geliefert?\n\n## Chara Dasha ist nicht Vimshottari\nDie in diesem Kurs geübte Vimshottari-Grundrechnung beginnt beim Mond-Nakshatra und verwendet eine Graha-Periodenfolge. Chara Dasha gehört zu anderen, zeichenbezogenen Zeitverfahren. Die Namen dürfen nicht als austauschbare Etiketten verwendet werden. Wenn ein Artikel eine Chara-Dasha-Variante diskutiert, überträgst du seine Regeln nicht ungeprüft auf deine Vimshottari-Tabelle. Auch innerhalb eines Verfahrens können Autoren unterschiedliche Zählweisen vertreten. Notiere daher Methode, Variante, Ayanamsha und die benötigten Daten, bevor du einen Vergleich beginnst.\n\n## Ein Quellenblatt mit vier Feldern\nTeile deine Notiz in Aussage, Regel, Beispiel und offene Frage. Unter Aussage steht eine kurze eigene Zusammenfassung dessen, was der Autor vertritt. Unter Regel notierst du die nachvollziehbare Rechen- oder Auswahlvorschrift. Unter Beispiel hältst du fest, ob es sich um einen rückblickenden Fallbericht oder eine vorab dokumentierte Prüfung handelt. Die offene Frage benennt, was du noch nicht beurteilen kannst. Dadurch vermeidest du, aus einer eindrucksvollen Geschichte unmittelbar eine allgemein gültige Fähigkeit abzuleiten.\n\n## Eigenes Lernen kontrollierbar machen\nWähle für einen ersten Versuch ausschließlich fiktive oder ausdrücklich freigegebene Übungsdaten. Lege die technische Regel fest und rechne sie nach. Wenn du später eine Deutung untersuchen willst, dokumentiere vorher, was als Treffer, Nicht-Treffer oder unklar gilt. Behalte alle Fälle, auch die unpassenden. Eine Sammlung nur erfolgreicher Beispiele lässt keine faire Aussage über die Zuverlässigkeit zu. Für diesen Selbstlernkurs ist das Ziel zunächst methodische Klarheit. Es wird keine persönliche Vorhersagekompetenz durch das Bestehen eines Quiz bescheinigt.\n\n## Respekt ohne Übernahme jeder Behauptung\nDu kannst eine kulturelle und spirituelle Tradition ernst nehmen, ohne jede ihrer Aussagen über Karma, Heilung oder Wissenschaft als Tatsache zu übernehmen. Frage Marina und später ihre Klienten, welche Sprache sie verwenden möchten. Niemand muss religiöse Vorstellungen annehmen, um eine Rechenmethode kennenzulernen. Ebenso sollten kostspielige Rituale, Steine oder andere Abhilfen nicht aus einer angstmachenden Deutung heraus angeboten werden. Ein Lernraum soll Selbstständigkeit fördern und nicht neue Abhängigkeit von exklusivem Geheimwissen oder unvermeidlichen kosmischen Gefahren erzeugen.\n\n## Ein tragfähiger nächster Schritt\nErstelle am Ende eine kleine Vergleichstabelle: westlicher tropischer Ansatz, gewählter siderischer Ansatz, verwendete Häuserregel und betrachtete Zeittechnik. Markiere, welche Daten tatsächlich berechnet und welche nur vorgegeben wurden. Entscheide anschließend, welche einzelne Frage du weiterlernen möchtest. Vielleicht ist es die Kontrolle einer Nakshatra-Grenze, vielleicht eine genaue Quellenlektüre zu einer Dasha-Variante. Diese begrenzte Weiterarbeit ist ehrlicher und lernwirksamer als die Behauptung, sechs Einstiegslektionen ersetzten bereits die ganze Jyotish-Tradition oder berechtigten zu sicheren Prognosen über fremde Leben.",
+      "examples": [
+        {
+          "title": "Lea liest einen Fallbericht",
+          "body": "Lea findet einen eindrucksvollen rückblickenden Bericht über eine berufliche Veränderung. Marina bittet sie, zuerst die verwendete Methode und die vor dem Ereignis tatsächlich dokumentierte Aussage zu suchen. Falls diese Angaben fehlen, markiert Lea den Bericht als interessante Illustration mit offenen Prüffragen. Sie verwirft den Autor nicht pauschal, übernimmt aber auch keine Erfolgsquote. Für ihr eigenes Lernen wählt sie eine klar beschriebene Rechenregel und hält die Grenzen der verfügbaren Quelle schriftlich fest."
+        },
+        {
+          "title": "Samir verwechselt zwei Raos nicht",
+          "body": "Samir liest eine frei zugängliche Rechenerklärung von P. V. R. Narasimha Rao und einen Artikel von K. N. Rao. Marina notiert beide vollständigen Namen, weil es unterschiedliche Autoren sind. Die Übungsrechnung darf nicht dem falschen Lehrer zugeschrieben werden. Anschließend vergleicht sie die konkreten Methodenangaben statt nur die gemeinsame Namensendung. Diese Quellenpflege macht spätere Rückfragen nachvollziehbar und verhindert, dass ein Lernraum Zustimmung oder Autorität erfindet, die aus den Originalquellen nicht hervorgeht."
+        }
+      ],
+      "practice": {
+        "prompt": "Erstelle ein kurzes Quellenprüfblatt zu einem astrologischen Fallbericht: Welche Angaben brauchst du, bevor du daraus eine zuverlässige Methode ableitest?",
+        "model_answer": "Ich notiere zuerst Autor, Titel, Datum und die genaue Methode, zum Beispiel eine benannte Chara-Dasha-Variante. Danach suche ich nach den verwendeten Eingaben, dem Ayanamsha und den nachvollziehbaren Rechenschritten. Für eine Aussage über Vorhersagezuverlässigkeit wäre entscheidend, ob eine konkrete Aussage vor dem Ereignis dokumentiert wurde und wie Treffer und Nicht-Treffer definiert waren. Ein nachträglich ausgewähltes Beispiel genügt dafür nicht. Ich frage außerdem, welche unpassenden Fälle existieren und ob alternative Erklärungen berücksichtigt wurden. Falls diese Informationen fehlen, bezeichne ich den Text als Autorenposition oder Fallillustration mit offenen Fragen. Ich kann trotzdem eine klar beschriebene Rechnung als Lernübung nachvollziehen. Meine eigene Notiz trennt technische Reproduzierbarkeit von persönlicher Bedeutung und von wissenschaftlicher Wirksamkeit. Ich schreibe keine Qualifikation oder Erfolgsquote aus einem einzelnen Beispiel ab und gebe die Quelle mit dem richtigen vollständigen Autorennamen an.",
+        "rubric": [
+          "Autor und konkrete Methode sind eindeutig benannt.",
+          "Rückblick und vorher dokumentierte Aussage werden unterschieden.",
+          "Nicht-Treffer und alternative Erklärungen bleiben relevant.",
+          "Rechenkompetenz wird nicht mit Vorhersagezuverlässigkeit gleichgesetzt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Sind Chara Dasha und Vimshottari austauschbare Namen?",
+          "options": [
+            "Ja, sie rechnen identisch",
+            "Nein, es sind unterschiedliche Zeitverfahren",
+            "Nur bei tropischen Karten"
+          ],
+          "correct_index": 1,
+          "explanation": "Die Verfahren haben unterschiedliche Ausgangspunkte und Regeln."
+        },
+        {
+          "id": "q2",
+          "question": "Was belegt ein einzelner rückblickender Fallbericht sicher?",
+          "options": [
+            "Eine allgemeine Erfolgsquote",
+            "Eine staatliche Qualifikation",
+            "Dass der Autor diesen Fall so darstellt"
+          ],
+          "correct_index": 2,
+          "explanation": "Für Zuverlässigkeitsaussagen braucht es mehr als eine ausgewählte Illustration."
+        },
+        {
+          "id": "q3",
+          "question": "Warum vollständige Autorennamen notieren?",
+          "options": [
+            "Damit unterschiedliche Personen und Positionen nicht vermischt werden",
+            "Weil längere Namen immer glaubwürdiger sind",
+            "Damit keine Quellenprüfung nötig ist"
+          ],
+          "correct_index": 0,
+          "explanation": "P. V. R. Narasimha Rao und K. N. Rao sind beispielsweise verschiedene Autoren."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.journalofastrology.com/article.php?article_id=317",
+          "title": "Jaimini Chara Dasha – My Approach – 2",
+          "author": "K. N. Rao",
+          "note": "Autorenartikel von 2010 mit persönlicher Methodenposition und Lahiri-Bezug. Seine Fallberichte und Wissenschaftsbehauptungen werden nicht als unabhängiger Wirksamkeitsnachweis übernommen.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://www.bvbdelhi.org/wp-content/uploads/2025/11/Prospectus_final.pdf",
+          "title": "Prospectus: Bhavan’s K.N. Rao Institute of Astrology",
+          "author": "Bharatiya Vidya Bhavan, Delhi",
+          "note": "Offizieller Lehrplan belegt Themenumfang und Schulkontext. Er wird weder als frei verfügbarer Vollkurs noch als wissenschaftlicher Wirkungsnachweis behandelt.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://www.vedicastrologer.org/articles/vedic_astro_textbook.pdf",
+          "title": "Vedic Astrology: An Integrated Approach",
+          "author": "P. V. R. Narasimha Rao",
+          "note": "Gezielte technische Prüfung der Abschnitte zu Nakshatras (S. 10–11), D9 (S. 55) und Vimshottari (S. 210–211). Der Autor ist P. V. R. Narasimha Rao und damit eine andere Person als K. N. Rao. Keine Vollbuchlektüre oder Übernahme seiner Wirksamkeitsbehauptungen.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    }
+  ]
+}

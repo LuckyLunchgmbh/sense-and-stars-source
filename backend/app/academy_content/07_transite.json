@@ -1,0 +1,777 @@
+{
+  "id": "transite",
+  "title": "Transite: Zeitverläufe sorgfältig lesen",
+  "summary": "Zehn Lektionen verbinden Positionsvergleich, Ephemeriden, Zeitfenster und wiederholte Kontakte mit offenen Reflexionsfragen und einem eigenen Beobachtungsjournal.",
+  "tradition": "Westliche Transitdeutung mit getrenntem astronomischem Rechenrahmen; keine Ereignis-, Gesundheits- oder Erfolgsprognosen als Tatsachen.",
+  "level": "deepening",
+  "prerequisites": [
+    "Winkel und Hauptaspekte sind hilfreich; alle Lektionen sind frei wählbar."
+  ],
+  "lessons": [
+    {
+      "key": "academy-transite-01",
+      "title": "Zwei Zeitpunkte, zwei Rollen: Radix und Transit",
+      "summary": "Du unterscheidest feste Radixkoordinaten von Positionen zu einem gewählten Vergleichszeitpunkt und berechnest einen einfachen Kontakt.",
+      "objective": "Du unterscheidest feste Radixkoordinaten von Positionen zu einem gewählten Vergleichszeitpunkt und berechnest einen einfachen Kontakt.",
+      "level": "deepening",
+      "minutes": 35,
+      "body": "## Eine historische Position bleibt der Bezugspunkt\nEin Radix enthält Positionen zu einem bestimmten Geburtszeitpunkt. Bei der Transitbetrachtung werden diese historischen Koordinaten mit Positionen zu einem anderen Zeitpunkt verglichen. Der zweite Zeitpunkt kann in der Vergangenheit, Gegenwart oder Zukunft liegen. Die Radixposition wandert dabei nicht mit. Wenn der Radix-Merkur bei fünfzehn Grad Stier steht, bleibt diese Koordinate im Vergleich dieselbe. Der aktuelle oder gewählte Transitplanet bewegt sich dagegen im Zeitverlauf weiter. Diese Rollen müssen in jeder Tabelle eindeutig benannt sein.\n\n## Das Doppelrad richtig lesen\nIn einer üblichen Darstellung stehen die Radixfaktoren in einem inneren und die Transitfaktoren in einem äußeren Ring. Andere Programme können die Reihenfolge umkehren. Verlasse dich deshalb nicht allein auf die Position im Bild, sondern prüfe Legende und Datum. Ein Transit-Mars zu Radix-Venus ist eine andere Beziehung als Transit-Venus zu Radix-Mars. Die beteiligten Planeten sind zwar dieselben, doch der bewegte Faktor und damit der zeitliche Verlauf unterscheiden sich. Eine vollständige Notiz enthält immer beide Rollen.\n\n## Der Winkel entsteht aus zwei Koordinaten\nÜbersetze beide Positionen in absolute ekliptikale Länge und berechne den kleineren Abstand. Steht die feste Radixposition bei fünfundvierzig Grad und der Transitfaktor bei hundertfünfunddreißig Grad, beträgt der Abstand neunzig Grad. Das ist ein exaktes Quadrat unter der üblichen Hauptaspektkonvention. Die Rechnung ist dieselbe Kreisrechnung wie bei Radixaspekten. Neu ist, dass du sie für mehrere Vergleichszeitpunkte wiederholen kannst. Dadurch entsteht ein Verlauf statt einer einzigen Momentaufnahme.\n\n## Gleiche Einstellungen machen den Vergleich verständlich\nFür einen sauberen Einstieg verwendest du auf beiden Seiten dasselbe Tierkreissystem und vergleichbare Koordinaten. Eine tropische Radixposition mit einer siderischen Transitposition zu mischen würde eine künstliche Verschiebung erzeugen. Ebenso solltest du wissen, ob das Programm geozentrische oder andere Positionsangaben verwendet. Der genaue Horizont eines aktuellen Aufenthaltsortes ist für einfache geozentrische Planet-zu-Radixplanet-Vergleiche nicht dasselbe wie die Geburtsortgrundlage der Radixachsen. Zusätzliche Orts- oder Häusertechniken benötigen ihre eigene Erklärung.\n\n## Ein Kontakt ist noch kein Ereignis\nNach der Rechnung beginnt die astrologische Interpretation. Du kannst die beteiligten Funktionen als zeitbezogene Frage betrachten, etwa wie ein aktuelles Vorhaben zu einer vertrauten Arbeitsweise passt. Aus dem exakten Winkel folgt jedoch nicht, dass an diesem Tag eine bestimmte Nachricht, Trennung oder Chance eintreten muss. Auch eine bis auf Minuten berechnete Exaktheit macht die Deutung nicht entsprechend sicher. Technische Genauigkeit und Aussagekraft über menschliches Erleben müssen getrennt beurteilt werden.\n\n## Eine vollständige Transitnotiz anlegen\nNotiere den gewählten Zeitpunkt mit Zeitzone, den Transitfaktor, den Radixfaktor, beide Längen, Aspekttyp und Abweichung. Ergänze die verwendete Orbregel und die Datenqualität des Radixpunkts. Erst danach folgt eine offene Frage. Bei didaktischen Beispielen steht ausdrücklich dabei, dass die Positionen gesetzt wurden. Damit lässt sich die Rechnung später reproduzieren, ohne den Beispielzeitpunkt für einen aktuellen Live-Himmel zu halten. Diese einfache Ordnung ist die Grundlage für alle folgenden Lektionen zu Dauer, Rückläufigkeit und Beobachtung.",
+      "examples": [
+        {
+          "title": "Die Rollen werden vertauscht",
+          "body": "Lea schreibt zunächst nur „Mars–Venus“ in ihr Übungsjournal. Später weiß sie nicht mehr, welcher Faktor der Transit war. Marina ergänzt „Transit-Mars zu Radix-Venus“ und den Vergleichszeitpunkt. Eine zweite Zeile für Transit-Venus zu Radix-Mars bleibt getrennt. Die Winkel könnten zufällig ähnlich sein, die Verläufe sind jedoch verschieden. Die Korrektur verhindert, dass zwei unterschiedliche Kontakte als derselbe Vorgang behandelt werden. Alle Zahlen des Beispiels sind didaktisch gesetzt."
+        },
+        {
+          "title": "Ein exakter Vergleich",
+          "body": "Samirs fiktive Radixposition liegt bei 10° Löwe, also 130°. Der gewählte Transitfaktor steht bei 10° Wassermann, also 310°. Die Differenz beträgt 180° und ergibt eine exakte Opposition. Samir trägt außerdem ein, dass beide Werte tropisch und geozentrisch gemeint sind. Damit ist die Rechnung nachvollziehbar. Sie enthält noch keine Aussage darüber, ob Samir an diesem Tag einen Konflikt erlebt. Diese zusätzliche Deutung müsste als offene Frage formuliert werden."
+        }
+      ],
+      "practice": {
+        "prompt": "Berechne den Kontakt von Transit-Mars auf 18° Jungfrau zu Radix-Merkur auf 20° Zwillinge bei maximal 3° Orbis. Erstelle eine vollständige technische Notiz.",
+        "model_answer": "Ich übersetze Transit-Mars auf 18° Jungfrau in 168° und Radix-Merkur auf 20° Zwillinge in 80°. Der kleinere Abstand beträgt 88°. Zum Quadrat von 90° fehlen 2°, sodass der Kontakt innerhalb der ausdrücklich festgelegten Dreigradgrenze liegt. Meine Notiz lautet: „Didaktisches Beispiel, Transit-Mars zu festem Radix-Merkur, tropische geozentrische Längen 168° und 80°, Quadrat mit 2° Orbis.“ Ein realer Vergleichszeitpunkt wurde nicht angegeben; ich erfinde deshalb kein Datum und bezeichne den Kontakt nicht als heutigen Transit. Ob er anwendend oder trennend ist, kann ich aus dieser einzelnen Momentaufnahme ebenfalls nicht sicher bestimmen. Dafür bräuchte ich einen Verlauf oder passende Bewegungsdaten. Als mögliche spätere Reflexionsfrage könnte ich das Verhältnis von schneller Handlung und verständlicher Erklärung untersuchen. Diese Frage bleibt getrennt von der korrekten Winkelrechnung und sagt kein Ereignis voraus.",
+        "rubric": [
+          "Transit- und Radixrolle sind eindeutig.",
+          "Absolute Längen und Abstand stimmen.",
+          "Orbis und Regel werden angegeben.",
+          "Fehlender Zeitpunkt und Bewegungsverlauf werden nicht erfunden."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was bleibt beim einfachen Transitvergleich fest?",
+          "options": [
+            "Die aktuelle Position aller Planeten.",
+            "Die historische Radixkoordinate.",
+            "Die Tageszeit jeder Sitzung."
+          ],
+          "correct_index": 1,
+          "explanation": "Der Transit wird mit einer festen historischen Position verglichen."
+        },
+        {
+          "id": "q2",
+          "question": "Warum ist „Mars–Venus“ als Notiz unvollständig?",
+          "options": [
+            "Weil beide Planeten niemals einen Aspekt bilden.",
+            "Weil immer ein dritter Planet nötig ist.",
+            "Weil die Rollen von Transit- und Radixfaktor fehlen."
+          ],
+          "correct_index": 2,
+          "explanation": "Die Rollen bestimmen, welcher zeitliche Verlauf untersucht wird."
+        },
+        {
+          "id": "q3",
+          "question": "Was folgt aus einem exakt berechneten Winkel?",
+          "options": [
+            "Eine präzise geometrische Beziehung unter den gewählten Einstellungen.",
+            "Ein sicher eintretendes Lebensereignis.",
+            "Eine bekannte Gefühlslage der Person."
+          ],
+          "correct_index": 0,
+          "explanation": "Die Genauigkeit der Rechnung ist kein Beweis der anschließenden Deutung."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2022/08/24/transits-in-astrology/",
+          "title": "Transits in Astrology: An Introduction to Timing, Episode 365",
+          "author": "Chris Brennan und Leisa Schaim",
+          "note": "Geprüfte Originalübersicht zu Transitbegriff, Ephemeriden und Zeitverlauf. Die eigenen Zahlenübungen und Journalarbeitsblätter sind keine Wiedergabe des Podcasts; Vorhersagebehauptungen der Quelle werden nicht als Wirksamkeitsnachweis übernommen.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "academy-transite-02",
+      "title": "Ephemeriden lesen: Datum, Zeitskala und Bewegung prüfen",
+      "summary": "Du liest eine Positionsreihe, erkennst ihre Zeitbasis und schätzt einen einfachen Verlauf mit ausdrücklich begrenzter Genauigkeit.",
+      "objective": "Du liest eine Positionsreihe, erkennst ihre Zeitbasis und schätzt einen einfachen Verlauf mit ausdrücklich begrenzter Genauigkeit.",
+      "level": "deepening",
+      "minutes": 35,
+      "body": "## Eine Tabelle statt eines fertigen Urteils\nEine Ephemeride stellt berechnete Himmelspositionen für aufeinanderfolgende Zeitpunkte bereit. Sie hilft dir zu sehen, wie schnell und in welche Richtung sich ein Faktor im verwendeten Bezugssystem bewegt. Die Tabelle enthält keine fertige Aussage über einen Menschen. Vor dem Lesen prüfst du die Legende: Welche Zeitskala und welcher Tageszeitpunkt werden verwendet? Sind die Positionen tropisch oder siderisch, geozentrisch oder anders bezogen? Ohne diese Angaben können scheinbar kleine Unterschiede zwischen zwei Tabellen leicht falsch eingeordnet werden.\n\n## Ein Tageswert ist kein ganzer Tag\nWenn eine Tabelle Werte für null Uhr einer angegebenen Zeitskala zeigt, gilt die Zeile für diesen Zeitpunkt. Sie beschreibt nicht automatisch die Position um achtzehn Uhr Ortszeit. Besonders bei schnelleren Faktoren kann der Unterschied bedeutsam sein. Für eine grobe Lernübung darfst du zwischen zwei Tageswerten näherungsweise interpolieren, sofern der Verlauf ausreichend gleichmäßig ist. Für präzise Kontaktzeiten brauchst du eine entsprechend feinere Berechnung. Schreibe die verwendete Näherung immer dazu, statt zusätzliche Genauigkeit nur durch mehr Dezimalstellen vorzutäuschen.\n\n## Eine einfache Zwischenrechnung durchführen\nAngenommen, eine künstliche Tabelle zeigt zu zwei aufeinanderfolgenden Tageszeitpunkten zwanzig und zweiundzwanzig Grad desselben Zeichens. Bei einer ausdrücklich angenommenen gleichmäßigen Bewegung liegt der Zwischenwert nach einem halben Tag bei einundzwanzig Grad. Nach einem Vierteltag wäre er zwanzig Grad dreißig Minuten. Diese Rechnung ist eine lineare Schätzung. Sie wird unzuverlässiger, wenn sich die Geschwindigkeit deutlich verändert. Bei einem Richtungswechsel kann eine einfache Gerade sogar den tatsächlichen Verlauf falsch darstellen.\n\n## Zeichengrenzen korrekt überqueren\nVon neunundzwanzig Grad eines Zeichens zu einem Grad des nächsten sind es zwei Grad vorwärts, nicht achtundzwanzig Grad rückwärts. Übersetze die Werte bei Unsicherheit in absolute Längen. Dasselbe gilt am Übergang von Fische zu Widder, wo die Zahlenskala von knapp dreihundertsechzig auf null springt. Die Himmelsbewegung macht dort keinen Sprung. Eine entfaltete Zahlenreihe kann helfen: Statt null Grad notierst du für die Fortsetzung vorübergehend dreihundertsechzig, damit die Richtung sichtbar bleibt.\n\n## Vorzeichen und Stationsmarkierungen beachten\nRückläufige Bewegung wird in vielen Ephemeriden durch ein R oder ein entsprechendes Zeichen markiert. Die genaue Darstellung ist jedoch nicht überall gleich. Lies deshalb die Legende. Eine Station bezeichnet den Übergang zwischen direkter und rückläufiger scheinbarer Bewegung in der betrachteten Koordinate. Sie bedeutet nicht, dass der Planet physisch auf seiner Bahn stehen bleibt. In der Nähe einer Station sind zusätzliche Zwischenwerte besonders hilfreich, weil ein grober Tagesvergleich eine kurze Annäherung oder Umkehr übersehen kann.\n\n## Eine prüfbare Auswertung schreiben\nDein Ergebnis enthält den gelesenen Wert, seine Zeitbasis, eine gegebenenfalls verwendete Umrechnung und die verbleibende Unsicherheit. Wenn du keine passende Ephemeride vorliegen hast, behauptest du keinen aktuellen Stand. Für das Lernen reichen ausdrücklich künstliche Reihen, solange sie als solche markiert sind. Die Fähigkeit besteht darin, eine Tabelle korrekt zu lesen und eine Näherung als Näherung zu behandeln. Sie schafft die Grundlage dafür, spätere Transitfenster nicht aus Erinnerung oder pauschalen Tagesgeschwindigkeiten zu erraten.",
+      "examples": [
+        {
+          "title": "Ein halber Tag als Näherung",
+          "body": "Lea erhält eine künstliche Tabelle mit 12°00′ um null Uhr und 13°20′ am folgenden Tagesbeginn. Unter der ausdrücklich angenommenen gleichmäßigen Bewegung ergibt die halbe Strecke 40′, also 12°40′ nach zwölf Stunden. Marina lässt Lea die Annahme dazuschreiben. Ohne sie könnte der Zwischenwert zu genau wirken. Für einen realen exakten Kontakttermin würde eine feinere Berechnung verwendet. Die Übung trainiert lediglich den Umgang mit Grad, Minuten und Zeitanteilen."
+        },
+        {
+          "title": "Der Zeichenwechsel täuscht Rückläufigkeit vor",
+          "body": "Samir sieht in zwei Zeilen 29°40′ Stier und 0°20′ Zwillinge. Er vermutet zunächst einen großen Rücksprung. Nach Umrechnung in absolute Längen erkennt er 59°40′ und 60°20′: Der Faktor ist 40′ vorwärts gewandert. Der Zeichenname ist Teil der Koordinate und darf nicht weggelassen werden. Die korrigierte Reihe zeigt, wie wichtig eine vollständige Abschrift ist. Eine fehlende Zeichenangabe kann den gesamten zeitlichen Verlauf falsch erscheinen lassen."
+        }
+      ],
+      "practice": {
+        "prompt": "Eine künstliche Ephemeride zeigt 29°20′ Löwe und 0°40′ Jungfrau genau 24 Stunden später. Berechne die Vorwärtsstrecke und den linearen Schätzwert nach sechs Stunden.",
+        "model_answer": "29°20′ Löwe entsprechen 149°20′, 0°40′ Jungfrau entsprechen 150°40′. Die Vorwärtsstrecke beträgt damit 1°20′, also insgesamt 80 Bogenminuten. Sechs Stunden sind ein Viertel von 24 Stunden. Unter der ausdrücklich angenommenen gleichmäßigen Bewegung lege ich daher ein Viertel der Strecke zurück: 20′. Der Schätzwert nach sechs Stunden beträgt 29°40′ Löwe. Ich würde diesen Wert als lineare Näherung aus einer künstlichen Tagesreihe kennzeichnen. Die Rechnung sagt nicht, dass ein realer Planet in diesem Zeitraum genau gleichmäßig läuft. Außerdem muss die Zeitbasis der Tabelle beibehalten werden; eine beliebige örtliche Uhrzeit darf nicht ohne Umrechnung eingesetzt werden. Für eine reale genaue Transitzeit wären passende Berechnungsdaten nötig. Die Übung zeigt vor allem, dass der Wechsel des Zeichennamens keinen Rücksprung bedeutet und Bogenminuten nicht wie Hundertstel behandelt werden.",
+        "rubric": [
+          "Die Zeichengrenze wird korrekt behandelt.",
+          "Die Strecke beträgt 80 Bogenminuten.",
+          "Der Vierteltageswert stimmt.",
+          "Lineare Näherung und Zeitbasis sind ausdrücklich genannt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was muss vor dem Lesen einer Ephemeride geprüft werden?",
+          "options": [
+            "Nur die schönste Grafik.",
+            "Die gewünschte Deutung.",
+            "Legende, Zeitbasis und Koordinatensystem."
+          ],
+          "correct_index": 2,
+          "explanation": "Diese Angaben bestimmen, was die einzelnen Zahlen tatsächlich bedeuten."
+        },
+        {
+          "id": "q2",
+          "question": "Wie weit ist 29°40′ Stier bis 0°20′ Zwillinge vorwärts?",
+          "options": [
+            "40′",
+            "29°20′",
+            "1°40′"
+          ],
+          "correct_index": 0,
+          "explanation": "Die absoluten Längen steigen von 59°40′ auf 60°20′."
+        },
+        {
+          "id": "q3",
+          "question": "Wann ist lineare Interpolation besonders unsicher?",
+          "options": [
+            "Bei jeder Verwendung von Bogenminuten.",
+            "Nahe einer deutlichen Geschwindigkeitsänderung oder Station.",
+            "Nur wenn die Tabelle gedruckt ist."
+          ],
+          "correct_index": 1,
+          "explanation": "Ein gekrümmter oder umkehrender Verlauf lässt sich nicht zuverlässig durch eine einfache Gerade ersetzen."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2022/08/24/transits-in-astrology/",
+          "title": "Transits in Astrology: An Introduction to Timing, Episode 365",
+          "author": "Chris Brennan und Leisa Schaim",
+          "note": "Geprüfte Originalübersicht zu Transitbegriff, Ephemeriden und Zeitverlauf. Die eigenen Zahlenübungen und Journalarbeitsblätter sind keine Wiedergabe des Podcasts; Vorhersagebehauptungen der Quelle werden nicht als Wirksamkeitsnachweis übernommen.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "academy-transite-03",
+      "title": "Orbis und Zeitfenster: Eintritt, Exaktheit und Austritt",
+      "summary": "Du berechnest ein vereinfachtes Transitfenster und erklärst, warum Orbregel und Geschwindigkeit seine Dauer verändern.",
+      "objective": "Du berechnest ein vereinfachtes Transitfenster und erklärst, warum Orbregel und Geschwindigkeit seine Dauer verändern.",
+      "level": "deepening",
+      "minutes": 35,
+      "body": "## Ein Fenster ist eine Auswahlregel über die Zeit\nBei einer Transitbetrachtung wird häufig nicht nur der exakte Kontakt, sondern ein Zeitraum innerhalb einer gewählten Orbgrenze betrachtet. Der Eintritt beginnt, wenn die Abweichung klein genug wird. Die Exaktheit liegt am Idealwinkel. Der Austritt endet, wenn die Abweichung die Grenze wieder überschreitet. Diese Begriffe beschreiben die angewandte Methode. Sie bedeuten nicht, dass eine nachgewiesene Wirkung zu einer bestimmten Minute eingeschaltet und später ausgeschaltet wird. Das Fenster hängt von der Regel und dem tatsächlichen Bewegungsverlauf ab.\n\n## Eine gleichmäßige Übungsbewegung rechnen\nNimm einen festen Zielgrad von zwanzig Grad und eine Konjunktionsgrenze von zwei Grad an. Bei direkter Bewegung beginnt das Fenster auf achtzehn Grad und endet auf zweiundzwanzig Grad. Die gesamte Strecke beträgt vier Grad. Wenn die künstlich angenommene Geschwindigkeit ein halbes Grad pro Tag beträgt, dauert der Durchgang acht Tage. Der exakte Kontakt liegt nach vier Tagen. Diese einfache Rechnung ist nützlich, um Zusammenhänge zu verstehen. Sie darf nicht ohne Prüfung auf reale Planetenbewegungen übertragen werden.\n\n## Die Grenze verändert die Dauer\nMit einem Orbis von einem Grad wäre die Strecke im selben Beispiel nur zwei Grad lang und das Fenster würde vier Tage dauern. Mit drei Grad wären es sechs Grad Strecke und zwölf Tage. Die unterschiedliche Dauer entsteht aus einer bewussten Auswahl, nicht aus einer veränderten Umlaufbahn. Deshalb müssen Zeitangaben immer zusammen mit der Orbregel genannt werden. Wer nur sagt, ein Transit dauere mehrere Wochen, lässt einen wesentlichen Teil der Methode offen.\n\n## Geschwindigkeit ist nicht überall konstant\nReale scheinbare Bewegung kann schneller, langsamer oder rückläufig werden. Nahe einer Station kann ein Faktor lange in einem kleinen Gradbereich bleiben. Er kann ein Fenster verlassen und später wieder eintreten. Dann entstehen mehrere Teilfenster oder ein längerer zusammenhängender Aufenthalt, je nach tatsächlichen Werten und gewählter Grenze. Eine pauschale Durchschnittsgeschwindigkeit kann solche Fälle nicht zuverlässig abbilden. Nutze eine Positionsreihe und markiere jeden Grenzübertritt einzeln, statt die Gesamtdauer aus einem einzigen Tageswert abzuleiten.\n\n## Ein Fenster nicht mit einem Termin verwechseln\nEine symbolische Reflexionsphase kann für ein Journal nützlich sein. Sie ist jedoch kein verlässlicher Terminplan für Verträge, Behandlungen oder andere wichtige Entscheidungen. Wenn Lea einen Workshopraum buchen muss, sind Verfügbarkeit, Kosten und Vereinbarungen die überprüfbaren Grundlagen. Ein Transitfenster kann höchstens als freiwillige persönliche Orientierung danebenstehen. Es darf nicht dazu führen, notwendige Handlungen ohne sachlichen Grund aufzuschieben oder einen vermeintlich günstigen Tag als Erfolgsgarantie zu behandeln.\n\n## Ein verständliches Diagramm beschreiben\nAuch ohne Grafik kannst du den Verlauf in vier Zeilen darstellen: Eintritt, Annäherung, Exaktheit und Entfernung bis zum Austritt. Ergänze bei jeder Zeile Datum oder Übungstag, Position und Abweichung. Wenn Daten fehlen, bleibt der genaue Übergang offen. In der Deutung formulierst du eine Frage, die während des Fensters beobachtet werden kann, und hältst auch Tage ohne besondere Erfahrung fest. So wird die Zeitdarstellung zu einem nachvollziehbaren Lerninstrument, statt aus einer rechnerischen Nähe einen sicheren Ablauf des Lebens zu machen.",
+      "examples": [
+        {
+          "title": "Ein acht Tage langes Übungsfenster",
+          "body": "Lea setzt für eine Rechnung den Zielgrad auf 20° und die Grenze auf 2°. Ein fiktiver Faktor bewegt sich gleichmäßig mit 0,5° täglich. Von 18° bis 22° legt er 4° zurück und benötigt acht Tage. Lea markiert die Exaktheit bei 20° nach vier Tagen. Sie schreibt ausdrücklich „vereinfachte Übungsbewegung“ darüber. Damit ist klar, dass kein realer heutiger Transit berechnet wurde und die Dauer nicht aus einer tatsächlichen Ephemeride stammt."
+        },
+        {
+          "title": "Eine Station verlängert die Nähe",
+          "body": "Samirs künstliche Reihe zeigt mehrere Tage Werte zwischen 19°50′ und 20°10′. Bei einer Grenze von 1° bleibt der Faktor die ganze Zeit im Fenster, obwohl er zwischendurch die Richtung wechselt. Eine Rechnung mit einer üblichen Durchschnittsgeschwindigkeit würde die Dauer unterschätzen. Samir zählt deshalb die tatsächlich gegebenen Zeitpunkte und markiert den Richtungswechsel. Er deutet die lange Nähe nicht automatisch als besonders schweres Erlebnis, sondern behandelt sie zunächst als Eigenschaft der Positionsreihe."
+        }
+      ],
+      "practice": {
+        "prompt": "Ein fiktiver Faktor bewegt sich gleichmäßig mit 0,25° pro Tag über einen festen Konjunktionsgrad von 12°. Berechne das Fenster bei ±1° und danach bei ±2°.",
+        "model_answer": "Bei einer Grenze von ±1° beginnt das Fenster auf 11° und endet auf 13°. Die Strecke beträgt 2°. Bei einer gleichmäßigen Geschwindigkeit von 0,25° pro Tag sind dafür acht Tage nötig. Die Exaktheit bei 12° liegt nach vier Tagen. Bei ±2° beginnt das Fenster auf 10° und endet auf 14°; die Strecke verdoppelt sich auf 4° und die Dauer auf sechzehn Tage. Die Exaktheit liegt dann acht Tage nach dem Eintritt. Ich würde beide Ergebnisse zusammen mit der jeweiligen Orbregel und der Annahme gleichmäßiger Bewegung dokumentieren. Ein realer Richtungswechsel könnte den Verlauf deutlich verändern. Die Rechnung erlaubt außerdem keine sichere Aussage darüber, wann ein menschliches Thema beginnt oder endet. Sie zeigt, wie eine methodische Toleranz und eine angenommene Geschwindigkeit das dargestellte Zeitfenster bestimmen. Für echte Daten müssten die Grenzübertritte anhand einer passenden Positionsreihe geprüft werden.",
+        "rubric": [
+          "Eintritts- und Austrittsgrade stimmen.",
+          "Beide Zeitdauern sind richtig berechnet.",
+          "Die Exaktheit wird innerhalb des Fensters eingeordnet.",
+          "Die Annahmen werden nicht als reale Prognose ausgegeben."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Wie groß ist die Strecke durch ein Konjunktionsfenster von ±2°?",
+          "options": [
+            "4°",
+            "2°",
+            "8°"
+          ],
+          "correct_index": 0,
+          "explanation": "Der Bereich reicht zwei Grad vor bis zwei Grad nach dem Zielgrad."
+        },
+        {
+          "id": "q2",
+          "question": "Was verändert eine breitere Orbregel unmittelbar?",
+          "options": [
+            "Die physische Umlaufbahn des Planeten.",
+            "Die ausgewählte Dauer der Nähe zum Idealwinkel.",
+            "Die gesicherte Bedeutung eines Ereignisses."
+          ],
+          "correct_index": 1,
+          "explanation": "Das Fenster ist eine methodische Auswahl derselben Bewegung."
+        },
+        {
+          "id": "q3",
+          "question": "Was ist bei einem Richtungswechsel nötig?",
+          "options": [
+            "Immer exakt drei Kontakte annehmen.",
+            "Die durchschnittliche Geschwindigkeit unverändert fortschreiben.",
+            "Den tatsächlichen Verlauf und mögliche erneute Grenzübertritte prüfen."
+          ],
+          "correct_index": 2,
+          "explanation": "Rückläufigkeit kann mehrere Teilverläufe erzeugen; deren Zahl muss berechnet werden."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2022/08/24/transits-in-astrology/",
+          "title": "Transits in Astrology: An Introduction to Timing, Episode 365",
+          "author": "Chris Brennan und Leisa Schaim",
+          "note": "Geprüfte Originalübersicht zu Transitbegriff, Ephemeriden und Zeitverlauf. Die eigenen Zahlenübungen und Journalarbeitsblätter sind keine Wiedergabe des Podcasts; Vorhersagebehauptungen der Quelle werden nicht als Wirksamkeitsnachweis übernommen.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "academy-transite-04",
+      "title": "Rückläufigkeit und Mehrfachkontakte ohne Schicksalsgeschichte",
+      "summary": "Du erklärst scheinbare Rückläufigkeit und unterscheidest rechnerische Wiederholungen von freiwilligen Reflexionsphasen.",
+      "objective": "Du erklärst scheinbare Rückläufigkeit und unterscheidest rechnerische Wiederholungen von freiwilligen Reflexionsphasen.",
+      "level": "deepening",
+      "minutes": 35,
+      "body": "## Der Blick von der bewegten Erde\nPlaneten können sich vor dem Hintergrund des Himmels zeitweise scheinbar entgegen ihrer üblichen Richtung bewegen. Das bedeutet nicht, dass sie auf ihrer Bahn um die Sonne einfach umkehren. Die Beobachtung entsteht aus der relativen Bewegung von Erde und Planet. Bei äußeren Planeten lässt sich der Effekt anschaulich mit einem Überholvorgang vergleichen: Die Blickrichtung zum langsameren Objekt verändert sich, während beide weiterlaufen. Diese astronomische Erklärung ist von jeder astrologischen Bedeutung der Rückläufigkeit zu unterscheiden.\n\n## Ein Zielgrad kann mehrfach erreicht werden\nFür einen Transit wird eine bewegte Position mit einer festen Radixkoordinate verglichen. Durch einen direkten, rückläufigen und erneut direkten Abschnitt kann derselbe Zielgrad mehrfach erreicht werden. Drei Kontakte sind ein häufig besprochenes Muster, aber keine allgemeine Garantie. Liegt der Zielgrad außerhalb des tatsächlich durchlaufenen Schleifenbereichs, kann es bei einem einzigen Kontakt bleiben. Liegt eine Station nahe am Ziel, können weitere Besonderheiten auftreten. Die genaue Anzahl ergibt sich aus der Positionsreihe, nicht allein aus dem Wort rückläufig.\n\n## Eine künstliche Reihe Schritt für Schritt lesen\nStell dir vor, ein Faktor läuft von acht auf zwölf Grad, zurück auf neun und anschließend auf dreizehn Grad. Ein fester Zielgrad von zehn wird auf jedem der drei Abschnitte überquert. Ein Zielgrad von zwölf Komma fünf wird dagegen nur im letzten Abschnitt erreicht. Diese einfache Gegenüberstellung zeigt, weshalb ein pauschales Dreiphasenschema ungenau sein kann. Zeichne den Verlauf auf einer Zeitachse oder schreibe die Teilstrecken getrennt auf. So erkennst du die tatsächlichen Überschneidungen.\n\n## Symbolische Phasen als eigene Arbeitshilfe kennzeichnen\nDu kannst freiwillig drei Arbeitsfragen verwenden: Was wird zuerst sichtbar? Was möchte ich noch einmal prüfen? Was soll danach anders organisiert werden? Diese Fragen können für ein Journal nützlich sein. Sie sind aber eine didaktische Struktur und kein Beweis, dass ein Planet genau diese inneren Schritte verursacht. Wenn eine Person keine entsprechende Entwicklung erlebt, ist das eine gültige Rückmeldung. Die Ereignisse dürfen nicht nachträglich so umbenannt werden, dass sie immer in das gewünschte Muster passen.\n\n## Alltagsregeln nicht aus Rückläufigkeit ableiten\nEine sorgfältige Prüfung von Terminen, Texten oder Absprachen ist grundsätzlich sinnvoll. Sie wird nicht erst bei einem rückläufigen Merkur nötig. Ebenso ist ein Zeitraum nicht automatisch ungeeignet für jede neue Tätigkeit. Wichtige Entscheidungen brauchen passende Informationen, Zustimmung und realistische Bedingungen. Eine astrologische Orientierung kann persönlich bedeutsam sein, sollte aber nicht als pauschales Verbot erscheinen. Sonst wird aus einer freiwilligen Reflexion eine unnötige Einschränkung des eigenen Handelns.\n\n## Wiederholung dokumentieren statt dramatisieren\nDein Transitblatt enthält die Zielposition, den Schleifenbereich, die einzelnen exakten Kontakte und die verwendete Orbgrenze. Ergänze für jeden Kontakt, was tatsächlich beobachtet oder berichtet wurde, einschließlich unauffälliger Tage. Wenn ein Thema wieder auftaucht, prüfe auch alltägliche Gründe: eine laufende Aufgabe, eine noch offene Vereinbarung oder einen regelmäßigen Termin. Wiederholung im Leben ist nicht automatisch ein astrologischer Nachweis. Die Lernleistung besteht darin, Bewegung korrekt zu verstehen und mögliche Bedeutungen offen zu untersuchen, ohne aus einem Himmelsverlauf eine unvermeidliche Geschichte zu machen.",
+      "examples": [
+        {
+          "title": "Drei Kontakte im Schleifenbereich",
+          "body": "Lea zeichnet die künstliche Folge 8° zu 12° zu 9° zu 13° auf. Ihr Zielgrad liegt bei 10°. Er wird im ersten direkten Abschnitt, im rückläufigen Abschnitt und im letzten direkten Abschnitt erreicht. Sie markiert drei Kontakte, ohne ihnen feste Ereignisnamen zu geben. Für ein freiwilliges Journal könnte sie zu jedem Zeitpunkt dieselbe offene Frage beantworten. So bleibt vergleichbar, ob sich überhaupt etwas Relevantes zeigt, statt die drei Phasen bereits im Voraus als Entdeckung, Krise und Lösung festzulegen."
+        },
+        {
+          "title": "Ein Grad außerhalb der Schleife",
+          "body": "Samir verwendet dieselbe künstliche Bewegung, aber einen Zielgrad von 12,5°. Der erste direkte Abschnitt endet bereits bei 12°, der rückläufige führt nur zurück auf 9°. Erst die letzte Bewegung bis 13° erreicht den Zielgrad. Samir notiert deshalb einen Kontakt. Die Aussage „rückläufig bedeutet immer dreimal“ wäre hier falsch. Das Beispiel lässt sich rein geometrisch prüfen und benötigt keine Deutung über Samirs Leben oder seine Bereitschaft, eine vermeintliche Lektion zu lernen."
+        }
+      ],
+      "practice": {
+        "prompt": "Ein künstlicher Verlauf führt von 18° auf 23°, zurück auf 20° und anschließend auf 25°. Zähle die Überquerungen der Zielgrade 19°, 21° und 24° und erläutere den Unterschied.",
+        "model_answer": "Der Zielgrad 19° wird im ersten direkten Abschnitt von 18° auf 23° erreicht. Der Rückweg endet bereits bei 20° und kommt daher nicht mehr zu 19° zurück; auch der letzte Abschnitt beginnt bei 20°. Es bleibt bei einem Kontakt. Der Zielgrad 21° liegt dagegen in allen drei Teilstrecken und wird dreimal überquert. Der Zielgrad 24° liegt oberhalb des ersten Maximums von 23° und wird erst im letzten Abschnitt von 20° auf 25° erreicht, ebenfalls einmal. Die Kontaktzahl hängt somit davon ab, ob ein Zielgrad innerhalb des mehrfach durchlaufenen Bereichs liegt. Ich würde daraus keine drei verpflichtenden Entwicklungsphasen ableiten. Eine freiwillige Reflexionsstruktur wäre möglich, müsste aber als eigene Arbeitsmethode gekennzeichnet bleiben. Für einen realen Transit wären außerdem genaue Zeitpunkte und Positionsdaten erforderlich; die vorliegende Reihe dient ausschließlich der Rechenübung.",
+        "rubric": [
+          "Die Kontaktzahlen 1, 3 und 1 stimmen.",
+          "Jede Teilstrecke wird einzeln geprüft.",
+          "Astronomische Bewegung und Symboldeutung sind getrennt.",
+          "Keine pauschale Dreiphasenregel wird behauptet."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was bedeutet scheinbare Rückläufigkeit bei einem äußeren Planeten?",
+          "options": [
+            "Der Planet kehrt zwingend seine Sonnenumlaufbahn um.",
+            "Eine veränderte beobachtete Bewegungsrichtung durch relative Bahnbewegung.",
+            "Der Planet verschwindet aus dem Sonnensystem."
+          ],
+          "correct_index": 1,
+          "explanation": "Die Blickrichtung von der bewegten Erde erklärt den scheinbaren Rücklauf."
+        },
+        {
+          "id": "q2",
+          "question": "Wovon hängt die Zahl der Kontakte ab?",
+          "options": [
+            "Allein vom Wort rückläufig.",
+            "Von der Zustimmung zur Deutung.",
+            "Vom Zielgrad und dem tatsächlich durchlaufenen Bereich."
+          ],
+          "correct_index": 2,
+          "explanation": "Nur Grade im passenden Schleifenbereich werden mehrfach erreicht."
+        },
+        {
+          "id": "q3",
+          "question": "Wie darf ein Schema aus drei Reflexionsphasen verwendet werden?",
+          "options": [
+            "Als freiwillige, ausdrücklich eigene Arbeitshilfe.",
+            "Als sicherer Ablauf des Lebens.",
+            "Als Beweis für eine bevorstehende Krise."
+          ],
+          "correct_index": 0,
+          "explanation": "Die didaktische Struktur ist von der berechneten Bewegung zu unterscheiden."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2022/08/24/transits-in-astrology/",
+          "title": "Transits in Astrology: An Introduction to Timing, Episode 365",
+          "author": "Chris Brennan und Leisa Schaim",
+          "note": "Geprüfte Originalübersicht zu Transitbegriff, Ephemeriden und Zeitverlauf. Die eigenen Zahlenübungen und Journalarbeitsblätter sind keine Wiedergabe des Podcasts; Vorhersagebehauptungen der Quelle werden nicht als Wirksamkeitsnachweis übernommen.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://science.nasa.gov/image-article/apod-2023-april-15-when-z-is-for-mars/",
+          "title": "When Z is for Mars, Astronomy Picture of the Day",
+          "author": "Robert Nemiroff und Jerry Bonnell / NASA APOD",
+          "note": "Astronomische Erläuterung der scheinbaren Rückläufigkeit durch relative Bahnbewegung. Keine Quelle für astrologische Wirkungen oder Persönlichkeitsdeutungen.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "academy-transite-05",
+      "title": "Schnelle und langsame Faktoren: verschiedene Zeitskalen",
+      "summary": "Du wählst eine passende zeitliche Auflösung und unterscheidest persönliche Zielpunkte von gemeinsam geteilten Himmelspositionen.",
+      "objective": "Du wählst eine passende zeitliche Auflösung und unterscheidest persönliche Zielpunkte von gemeinsam geteilten Himmelspositionen.",
+      "level": "deepening",
+      "minutes": 35,
+      "body": "## Geschwindigkeit bestimmt die sinnvolle Beobachtung\nEin schneller Faktor durchläuft einen kleinen Gradbereich in kürzerer Zeit als ein langsamer. Deshalb braucht ein Beobachtungsblatt für den Mond eine andere zeitliche Auflösung als eine Übersicht über einen langsamen äußeren Planeten. Das bedeutet zunächst nur, dass sich die Koordinaten unterschiedlich schnell ändern. Eine kurze Dauer beweist nicht geringe Bedeutung, eine lange Dauer nicht besondere Schwere. Die zeitliche Auflösung sollte zur tatsächlichen Bewegung und zur begrenzten Lernfrage passen, statt aus einer symbolischen Rangliste abgeleitet zu werden.\n\n## Einen Zeitraum passend wählen\nFür eine künstliche Übung mit einem Grad Bewegung pro Tag können tägliche Werte hilfreich sein. Bei einem Faktor, der in einer Woche nur wenige Bogenminuten zurücklegt, zeigen tägliche Zeilen womöglich kaum Unterschiede. Dann ist eine Wochenübersicht übersichtlicher. Umgekehrt kann ein Monatsraster einen kurzen Kontakt vollständig übersehen. Entscheide daher zuerst, welche Veränderung sichtbar werden soll. Die Wahl des Rasters ist eine technische Frage. Sie beeinflusst, welche Details du erkennst, und sollte in der Auswertung dokumentiert werden.\n\n## Persönliche und gemeinsame Positionen unterscheiden\nRobert Hand unterscheidet in seinem zugänglichen Auszug persönliche und weiter außen liegende Faktoren und verbindet dies unter anderem mit unterschiedlichen Bewegungszeiten. Für die eigene Arbeit ist daraus eine begrenzte Frage hilfreich: Welche Angaben unterscheiden zwei zeitnah geborene Menschen tatsächlich? Ein langsamer Planet kann lange in einem ähnlichen Bereich stehen und wird deshalb von vielen Menschen geteilt. Eine konkrete Verbindung zu einer persönlichen Radixposition kann den Vergleich individueller machen, beweist aber noch keine eindeutige persönliche Wirkung.\n\n## Den Hintergrund nicht zur ganzen Geschichte machen\nWenn ein äußerer Planet ein Zeichen durchläuft, betrifft diese Himmelsposition viele Menschen gleichzeitig. Eine allgemeine Beschreibung kann deshalb keine vollständige individuelle Beratung ersetzen. Frage nach dem genauen Radixziel, dem Anliegen und den tatsächlichen Lebensbedingungen. Zwei Personen können denselben Transitwinkel haben und sehr unterschiedliche Erfahrungen berichten. Diese Unterschiede dürfen nicht einfach als verschieden hoher Bewusstseinsgrad bewertet werden. Der Vergleich zeigt vielmehr, dass ein Himmelsmuster allein die konkrete Lebenssituation nicht vollständig bestimmt.\n\n## Mehrere Zeitskalen gemeinsam darstellen\nFür ein Lernjournal kannst du eine grobe Hintergrundzeile und eine feinere Beobachtungszeile verwenden. Die Hintergrundzeile nennt einen länger dauernden Kontakt mit seiner Orbregel. Die feinere Zeile hält einzelne aktuelle Handlungen oder Erfahrungen fest. Vermeide jedoch, jeden kleinen Vorgang als Auslösung des großen Themas zu deklarieren. Lege vorher fest, was du beobachten möchtest, und notiere auch Ereignisse, die nicht zum erwarteten Muster passen. So bleibt das Journal informativer als eine nachträglich passend sortierte Geschichte.\n\n## Eine begrenzte Auswahl treffen\nFür den Einstieg genügt ein langsamer und ein schneller Übungskontakt. Vergleiche ihre tatsächlichen Zeitfenster und die nötige Zahl von Datenpunkten. Frage danach, ob die gewählte Auflösung die Exaktheit und die Grenzübertritte überhaupt erkennen lässt. Erst im Anschluss kannst du eine freiwillige symbolische Frage ergänzen. Diese Reihenfolge hält den technischen Lerngewinn klar: Du lernst, unterschiedliche Bewegungen angemessen abzubilden. Die Deutung bleibt ein eigener Schritt, der weder aus der Dauer noch aus der Seltenheit automatisch folgt.",
+      "examples": [
+        {
+          "title": "Ein Monatsraster übersieht den Kontakt",
+          "body": "Lea untersucht eine künstliche Bewegung, die in vier Tagen ein ganzes Orbfenster durchläuft. Ihre Tabelle enthält jedoch nur einen Wert am Monatsanfang und einen am Monatsende. Beide liegen außerhalb des Fensters. Daraus darf sie nicht schließen, dass kein Kontakt stattgefunden habe. Sie braucht Zwischenwerte. Das Beispiel zeigt eine Frage der Datenauflösung. Es beweist weder, dass ein kurzer Transit wichtig war, noch dass ein nicht beobachtetes Erlebnis verborgen stattgefunden haben müsse."
+        },
+        {
+          "title": "Ein gemeinsamer Hintergrund wird individuell eingeordnet",
+          "body": "Samir und Lea erhalten im fiktiven Lernfall dieselbe langsame Transitposition. Ihre fest gesetzten Radixziele unterscheiden sich jedoch. Marina vergleicht deshalb die jeweiligen Winkel und fragt anschließend nach den unterschiedlichen Anliegen. Sie verwendet keine einzige allgemeine Deutung als vollständige Beschreibung beider Personen. Auch wenn ein Winkel bei beiden ähnlich wäre, blieben ihre Lebensbedingungen verschieden. Der gemeinsame Himmel ist ein Ausgangspunkt für den Vergleich und keine ausreichende Erklärung identischer Erfahrungen."
+        }
+      ],
+      "practice": {
+        "prompt": "Wähle für einen künstlichen Faktor mit 1° pro Tag und einen mit 1° pro Monat passende Beobachtungsraster für ein Fenster von ±1°. Begründe die Auswahl.",
+        "model_answer": "Bei gleichmäßiger Bewegung umfasst das Fenster jeweils eine Strecke von 2°. Der erste Faktor benötigt dafür ungefähr zwei Tage. Ein Monatsraster wäre viel zu grob; ich würde mindestens tägliche und für die genaue Exaktheit feinere Werte verwenden. Der zweite Faktor benötigt unter derselben künstlichen Annahme ungefähr zwei Monate. Eine Wochenübersicht könnte den Verlauf übersichtlich zeigen, während für genaue Grenzübertritte wiederum feinere Daten nötig wären. Die Auswahl hängt also von der gewünschten Genauigkeit ab. Ich würde nicht aus der längeren Dauer auf eine stärkere psychologische Wirkung schließen. Beide Reihen sind ausdrücklich vereinfachte Lernmodelle; reale Geschwindigkeiten und Rückläufigkeit können die Zeitfenster verändern. Für ein Journal würde ich außerdem dieselbe klar formulierte Beobachtungsfrage beibehalten und auch unauffällige Zeitpunkte notieren. Dadurch lässt sich prüfen, ob die Darstellung technisch ausreichend und die Reflexion tatsächlich hilfreich ist.",
+        "rubric": [
+          "Beide vereinfachten Dauern werden erkannt.",
+          "Die Raster passen zur Bewegung.",
+          "Genauigkeit und Übersicht werden unterschieden.",
+          "Dauer wird nicht automatisch als Wirkungsstärke ausgegeben."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Warum kann ein Monatsraster einen kurzen Kontakt übersehen?",
+          "options": [
+            "Weil kurze Kontakte keine Winkel haben.",
+            "Weil die Radixposition jeden Monat springt.",
+            "Weil der gesamte Durchgang zwischen zwei Datenpunkten liegen kann."
+          ],
+          "correct_index": 2,
+          "explanation": "Zu große Abstände zwischen Messpunkten können einen kurzen Verlauf nicht auflösen."
+        },
+        {
+          "id": "q2",
+          "question": "Was ist bei langsamen äußeren Positionen zu beachten?",
+          "options": [
+            "Viele Menschen können ähnliche Positionen teilen.",
+            "Jeder Mensch hat zwingend eine völlig andere Position.",
+            "Sie beschreiben automatisch das wichtigste persönliche Thema."
+          ],
+          "correct_index": 0,
+          "explanation": "Langsame Bewegung erzeugt gemeinsame Hintergrundkonstellationen; Individualisierung benötigt weitere Angaben."
+        },
+        {
+          "id": "q3",
+          "question": "Was folgt sicher aus längerer Dauer?",
+          "options": [
+            "Die Erfahrung ist zwingend schwerer.",
+            "Der Faktor bleibt nach der Regel länger im betrachteten Bereich.",
+            "Die Person muss mehr lernen als andere."
+          ],
+          "correct_index": 1,
+          "explanation": "Die technische Dauer ist von einer psychologischen Bewertung zu trennen."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2022/08/24/transits-in-astrology/",
+          "title": "Transits in Astrology: An Introduction to Timing, Episode 365",
+          "author": "Chris Brennan und Leisa Schaim",
+          "note": "Geprüfte Originalübersicht zu Transitbegriff, Ephemeriden und Zeitverlauf. Die eigenen Zahlenübungen und Journalarbeitsblätter sind keine Wiedergabe des Podcasts; Vorhersagebehauptungen der Quelle werden nicht als Wirksamkeitsnachweis übernommen.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://www.arhatmedia.com/post/inner-versus-outer-planets",
+          "title": "Inner Versus Outer Planets",
+          "author": "Robert Hand",
+          "note": "Autorisierter Auszug aus Horoscope Symbols, direkt gelesen. Bezugspunkt für die Unterscheidung persönlicher und langsamerer Faktoren; eigene Lernaufgaben, keine Vollbuchauswertung.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-transite-06",
+      "title": "Robert Hand lesen: Jupiter im vierten Haus kritisch übersetzen",
+      "summary": "Du arbeitest mit einem zugänglichen Originalauszug, trennst dessen Deutung von überprüfbaren Aussagen und formulierst eigene offene Übungen.",
+      "objective": "Du arbeitest mit einem zugänglichen Originalauszug, trennst dessen Deutung von überprüfbaren Aussagen und formulierst eigene offene Übungen.",
+      "level": "deepening",
+      "minutes": 35,
+      "body": "## Eine konkrete Quelle statt eines großen Namens\nRobert Hands zugänglicher Auszug über Jupiter im vierten Haus bietet ein begrenztes Beispiel aus seiner Transitdeutung. Für diese Lektion wird dieser einzelne Text gelesen, nicht das gesamte Buch ersetzt. Der Auszug verbindet die vierte Hausposition mit Themen wie Zuhause, Zugehörigkeit und innerem Halt. Er enthält zugleich sehr sichere Aussagen über mögliche Verbesserungen. Für eine verantwortliche Lernarbeit ist beides wichtig: Du erkennst die astrologische Perspektive des Autors und prüfst, welche Formulierungen du in einer eigenen Beratung tatsächlich vertreten kannst.\n\n## Den Quellenkern knapp festhalten\nSchreibe eine kurze Notiz über das behandelte Thema und vermeide eine vollständige Nacherzählung. Die eigene Lernleistung besteht anschließend darin, eine begrenzte Arbeitsfrage zu entwickeln. Beispielsweise könntest du fragen, welche Bedingungen am eigenen Wohn- oder Arbeitsort Unterstützung bieten. Diese Frage kann auch ohne astrologische Überzeugung beantwortet werden. Sie behauptet nicht, dass ein bestimmter Planet die Situation verbessert. Damit wird eine traditionelle Deutungsanregung in ein offenes Gespräch übersetzt, ohne den Originaltext oder seine Autorität zu vereinnahmen.\n\n## Sichere Zukunftssätze in prüfbare Fragen verwandeln\nEin Satz, der eine Verbesserung verspricht, lässt sich in drei Teile zerlegen: das genannte Thema, die erwartete Veränderung und die Sicherheit der Behauptung. Das Thema kannst du als Gesprächsanlass behalten. Die Veränderung wird zu einer Möglichkeit oder zu einem selbst gewählten Ziel. Die Sicherheit wird durch eine Frage ersetzt. Aus einer pauschalen Zusage über häusliches Glück entsteht etwa die Untersuchung, welche konkrete Veränderung den Alltag zu Hause angenehmer machen könnte. Die Person darf antworten, dass dieser Bereich gerade gar nicht ihr Anliegen ist.\n\n## Finanzielle Entscheidungen nicht astrologisch begründen\nDer Originalauszug enthält auch Aussagen zu Immobilien. Eine solche Passage darf in der Lernakademie nicht als Anlageempfehlung übernommen werden. Ob ein Kauf sinnvoll ist, hängt von überprüfbaren finanziellen, rechtlichen und persönlichen Bedingungen ab. Für die didaktische Arbeit genügt die Feststellung, dass eine astrologische Deutung diese Prüfung nicht ersetzt. Eine sichere eigene Übung könnte sich stattdessen auf eine kleine, selbst gewählte Veränderung des vorhandenen Arbeitsbereichs beziehen. Ihr Nutzen lässt sich ohne große Verpflichtung im Alltag beobachten.\n\n## Eine eigene Aufgabe mit Rückmeldung entwerfen\nBitte die Person, drei Eigenschaften eines unterstützenden Ortes zu benennen: beispielsweise Ruhe, erreichbare Materialien oder eine klare Grenze zwischen Arbeit und Erholung. Danach wählt sie eine kleine Veränderung innerhalb ihrer Möglichkeiten. Vorher wird festgelegt, woran sie den Nutzen erkennen möchte. Nach einer Woche kann sie prüfen, ob das Material leichter auffindbar war oder die Arbeit klarer beendet werden konnte. Das Ergebnis gehört zur praktischen Aufgabe. Es beweist nicht die astrologische Theorie und muss nicht positiv ausfallen.\n\n## Quellenbewusstsein als Teil der Synthese\nIn deiner Notiz stehen der Autor, der tatsächlich gelesene Auszug, die knapp benannte Perspektive und deine eigene Übertragung. Kennzeichne, welche Aussage du bewusst nicht übernommen hast. So lernt Marina von einer bekannten Stimme, ohne deren gesamte Position automatisch zur eigenen zu machen. Gute Quellenarbeit bedeutet nicht, jede Behauptung zu sammeln. Sie bedeutet, Herkunft und Reichweite zu verstehen, eigenständig zu denken und eine hilfreiche, überprüfbare Lernhandlung daraus zu entwickeln.",
+      "examples": [
+        {
+          "title": "Ein Arbeitsplatz statt einer Erfolgszusage",
+          "body": "Lea möchte ihren fiktiven Workshop vorbereiten und merkt, dass Unterlagen auf mehreren Tischen liegen. Nach der Quellenlektüre wählt sie eine kleine Aufgabe: Alle benötigten Materialien kommen für eine Woche an einen festen Platz. Sie notiert vorher, ob die Suche dadurch kürzer werden soll. Die spätere Rückmeldung betrifft ihre Arbeitsorganisation. Marina behauptet nicht, Jupiter habe die Veränderung verursacht oder der vierte Hausdurchgang garantiere künftig einen dauerhaft harmonischen Alltag."
+        },
+        {
+          "title": "Eine Aussage wird bewusst nicht übernommen",
+          "body": "Samir liest im Originalauszug eine günstige Einschätzung zu Immobilien. In seiner Quellenkarte markiert er diese Passage als finanzielle Schlussfolgerung, die er nicht aus Astrologie ableiten möchte. Für die Lernaufgabe bleibt er beim Thema Zugehörigkeit und fragt, welche Orte ihm tatsächlich Ruhe geben. Diese Trennung ist kein Verstecken der Quelle. Sie zeigt, dass ein bekannter Autor kritisch gelesen werden darf und eine persönliche Reflexion keine sachliche Investitionsprüfung ersetzt."
+        }
+      ],
+      "practice": {
+        "prompt": "Erstelle eine Quellenkarte zum gelesenen Hand-Auszug: Thema, eine bewusst nicht übernommene Gewissheit, eigene offene Frage und kleine überprüfbare Aufgabe.",
+        "model_answer": "Als Thema der Quelle notiere ich Jupiter im vierten Haus mit dem Deutungsfeld Zuhause, Zugehörigkeit und innerer Unterstützung. Ich halte ausdrücklich fest, dass ich nur den zugänglichen Auszug gelesen habe. Sichere Verbesserungs- oder Anlageaussagen übernehme ich nicht als eigene Zusage. Meine offene Frage lautet: „Welche konkrete Bedingung an deinem Wohn- oder Arbeitsort unterstützt dich derzeit, und welche möchtest du verändern?“ Als kleine Aufgabe könnte die Person einen festen Platz für häufig benötigte Materialien einrichten und eine Woche lang beobachten, ob die Vorbereitung dadurch leichter wird. Vorher legt sie ein eigenes Kriterium fest, etwa weniger Suchzeit oder einen klareren Arbeitsbeginn. Die Aufgabe bleibt freiwillig und kann als unpassend verworfen werden. In der Quellenkarte trenne ich Hands Perspektive von meinem didaktischen Entwurf. Eine gelungene Veränderung wäre ein praktisches Ergebnis, aber kein Beweis einer planetaren Ursache oder eine Empfehlung für größere finanzielle Entscheidungen.",
+        "rubric": [
+          "Der tatsächlich gelesene Auszug wird korrekt begrenzt.",
+          "Eine nicht übernommene Gewissheit wird benannt.",
+          "Die eigene Frage bleibt offen.",
+          "Die Aufgabe ist klein und praktisch überprüfbar."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was wurde für diese Lektion tatsächlich als Quelle genutzt?",
+          "options": [
+            "Ein zugänglicher autorisierter Auszug zu Jupiter im vierten Haus.",
+            "Das vollständige kostenpflichtige Buch.",
+            "Eine persönliche Beratung durch Robert Hand."
+          ],
+          "correct_index": 0,
+          "explanation": "Die Quellenreichweite wird auf den gelesenen Auszug begrenzt."
+        },
+        {
+          "id": "q2",
+          "question": "Wie wird eine sichere Verbesserungszusage sinnvoll bearbeitet?",
+          "options": [
+            "Unverändert als Garantie weitergeben.",
+            "Als Thema aufnehmen und in eine offene, konkrete Frage übersetzen.",
+            "Durch eine noch stärkere Erfolgsbehauptung ersetzen."
+          ],
+          "correct_index": 1,
+          "explanation": "Thema und behauptete Sicherheit können getrennt geprüft werden."
+        },
+        {
+          "id": "q3",
+          "question": "Was beweist eine praktisch hilfreiche Arbeitsplatzveränderung?",
+          "options": [
+            "Dass Jupiter die Veränderung verursacht hat.",
+            "Dass ein Immobilienkauf jetzt sicher gewinnbringend wäre.",
+            "Dass diese konkrete Veränderung im beobachteten Alltag nützlich war."
+          ],
+          "correct_index": 2,
+          "explanation": "Ein praktischer Erfolg darf nicht zu einer unbelegten Ursache oder Finanzempfehlung erweitert werden."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.arhatmedia.com/post/jupiter-in-the-fourth-house-an-excerpt-from-planets-in-transit",
+          "title": "Jupiter in the Fourth House: An excerpt from Planets in Transit",
+          "author": "Robert Hand",
+          "note": "Direkt gelesener autorisierter Originalauszug als begrenztes Beispiel einer traditionellen Transitdeutung. Seine sicheren Zukunfts- und Anlageaussagen werden kritisch eingeordnet und nicht als Empfehlungen übernommen.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-transite-07",
+      "title": "Saturnzyklen: Rückkehr berechnen und Lebensfragen offen halten",
+      "summary": "Du unterscheidest einen ungefähren Umlaufzeitraum von einer individuellen Rückkehr und entwickelst eine begrenzte Bestandsaufnahme.",
+      "objective": "Du unterscheidest einen ungefähren Umlaufzeitraum von einer individuellen Rückkehr und entwickelst eine begrenzte Bestandsaufnahme.",
+      "level": "deepening",
+      "minutes": 35,
+      "body": "## Eine Rückkehr ist ein bestimmter Kontakt\nBei einer Planetenrückkehr erreicht ein Transitplanet wieder die ekliptikale Länge, die er im Radix hatte. Technisch handelt es sich um eine Konjunktion des Transitplaneten mit seiner eigenen historischen Position. Die bekannte ungefähre Umlaufzeit kann eine erste Orientierung geben, ersetzt aber keine individuelle Berechnung. Für Saturn wird häufig ein Zeitraum um neunundzwanzig bis dreißig Jahre genannt. Der genaue Rückkehrzeitpunkt hängt von der Radixkoordinate und dem tatsächlichen geozentrischen Verlauf ab. Er lässt sich nicht einfach durch einen runden Geburtstag bestimmen.\n\n## Mehrere exakte Kontakte sind möglich\nDurch scheinbare Rückläufigkeit kann Saturn denselben Radixgrad mehrfach erreichen. Deshalb kann eine Rückkehr aus mehreren exakten Kontakten innerhalb eines größeren Betrachtungsfensters bestehen. Ob das im konkreten Fall geschieht, muss anhand der Positionsdaten geprüft werden. Eine einzige Datumsangabe kann sonst einen längeren Verlauf zu stark vereinfachen. Umgekehrt darf nicht bei jeder Rückkehr automatisch ein Dreifachkontakt angenommen werden. Die Grundregel bleibt dieselbe wie bei anderen Transiten: Zielgrad, Verlauf und Orbgrenze werden getrennt dokumentiert.\n\n## Ein Zyklus liefert eine Reflexionsstruktur\nIn westlichen Deutungen wird Saturn oft mit Verantwortung, Grenzen, Verpflichtungen und tragfähigen Formen verbunden. Daraus kann eine Bestandsaufnahme entstehen: Welche Aufgaben sind bewusst gewählt, welche laufen aus Gewohnheit weiter, und welche Bedingungen müssen neu vereinbart werden? Diese Fragen können in vielen Lebensphasen sinnvoll sein. Sie werden nicht dadurch wahrer, dass eine Rückkehr berechnet wurde. Die Person muss weder eine Krise erleben noch einen bestimmten Entwicklungsschritt erfüllen, um als angemessen entwickelt zu gelten.\n\n## Alter und Lebensumstände nicht gleichsetzen\nMenschen um denselben Geburtstag können sehr unterschiedliche Aufgaben haben. Ausbildung, Sorgearbeit, Krankheit, finanzielle Lage und gesellschaftliche Möglichkeiten beeinflussen Entscheidungen. Ein astrologischer Zyklus darf diese Unterschiede nicht überdecken. Die Aussage, jemand müsse jetzt zwingend heiraten, ein Unternehmen gründen oder einen Beruf wechseln, wäre aus dem Transit nicht gerechtfertigt. Eine verantwortliche Frage richtet sich auf die tatsächlich bestehenden Verpflichtungen und den verfügbaren Spielraum. Auch Stabilität oder bewusstes Beibehalten einer Situation kann eine selbstbestimmte Entscheidung sein.\n\n## Eine Verpflichtung konkret untersuchen\nWähle eine einzige Aufgabe aus und schreibe auf, wer was bis wann erwartet. Ergänze, welche Zeit und Mittel dafür vorhanden sind. Oft wird dadurch sichtbar, dass ein Problem nicht in mangelnder Disziplin liegt, sondern in einer unklaren Vereinbarung. Eine mögliche nächste Handlung ist dann ein Gespräch über Umfang oder Priorität. Die astrologische Symbolik kann diese Prüfung anregen. Die Tragfähigkeit der Vereinbarung wird jedoch anhand tatsächlicher Bedingungen beurteilt und nicht anhand der vermeintlichen Stärke Saturns.\n\n## Die Quelle als Perspektive lesen\nSteven Forrests zugängliche Texte zeigen eine entwicklungsorientierte Sprache, in der der Umgang mit einem Transit betont wird. Für die eigene Arbeit kann die Frage nach Wahlmöglichkeiten nützlich sein. Sie darf nicht dazu führen, Menschen für alle schwierigen Umstände verantwortlich zu machen. Halte fest, was beeinflussbar ist und was Unterstützung oder äußere Veränderung benötigt. Eine gute Zyklusarbeit endet mit einer klaren Bestandsaufnahme und gegebenenfalls einer kleinen Handlung. Sie braucht keine dramatische Geschichte über Prüfung, Strafe oder unausweichliche Reife.",
+      "examples": [
+        {
+          "title": "Ein Geburtstag ist kein exakter Kontakt",
+          "body": "Lea plant im fiktiven Fall eine Reflexion um ihren dreißigsten Geburtstag. Marina erklärt, dass dieses Alter nur eine grobe Orientierung für die erste Saturnrückkehr bietet. Für einen exakten Kontakt bräuchte sie die tatsächliche Radixposition und eine passende Berechnung. Die Bestandsaufnahme zu Verpflichtungen kann Lea trotzdem freiwillig durchführen. Sie wird nicht als technisch bestätigte Rückkehrberatung ausgegeben. So bleiben ein persönlicher Anlass und eine astronomisch bestimmte Kontaktzeit sauber getrennt."
+        },
+        {
+          "title": "Eine Verpflichtung wird neu vereinbart",
+          "body": "Samir merkt im fiktiven Beispiel, dass eine ehrenamtliche Aufgabe immer mehr Zeit beansprucht. Die Saturnsymbolik dient als Anlass, den Umfang aufzuschreiben: zwei Treffen, Vorbereitung und zusätzliche Nachrichten. Er erkennt, dass die Erwartungen nie klar vereinbart wurden. Sein nächster Schritt ist ein Gespräch über einen festen Zeitrahmen. Das Ergebnis wird an der tatsächlichen Entlastung und Verlässlichkeit geprüft. Es ist keine Bescheinigung, dass er eine kosmische Prüfung bestanden oder seinen Lebenszyklus richtig bewältigt habe."
+        }
+      ],
+      "practice": {
+        "prompt": "Entwirf eine Bestandsaufnahme zu einer freiwillig gewählten Verpflichtung. Trenne technische Rückkehrprüfung, reale Bedingungen und eine kleine mögliche Neuvereinbarung.",
+        "model_answer": "Für die technische Rückkehrprüfung würde ich die Radixlänge Saturns, den aktuellen beziehungsweise gewählten Zeitraum und die tatsächliche Positionsreihe benötigen. Ein runder Geburtstag genügt dafür nicht. Die praktische Bestandsaufnahme kann unabhängig davon beginnen. Ich wähle als fiktive Verpflichtung die Organisation eines monatlichen Treffens. Auf dem Blatt stehen Vorbereitung, Durchführung, Nachbereitung, erwartete Erreichbarkeit und die tatsächlich verfügbare Zeit. Wenn die Aufgabe regelmäßig mehr Stunden beansprucht als vereinbart, wäre eine mögliche Neuvereinbarung, Nachrichten nur an zwei festen Tagen zu beantworten und die Raumorganisation abzugeben. Die Zustimmung der Beteiligten bleibt erforderlich. Ich würde die Veränderung nach einem Monat anhand von Aufwand und Klarheit prüfen. Die Saturnsymbolik liefert dabei eine mögliche Frage nach tragfähigen Grenzen. Sie beweist weder mangelnde Reife noch die Notwendigkeit eines radikalen Lebenswechsels und ersetzt keine Betrachtung der realen Umstände.",
+        "rubric": [
+          "Ein ungefähres Alter wird nicht mit Exaktheit verwechselt.",
+          "Die tatsächlichen Aufgaben und Mittel werden aufgelistet.",
+          "Die Neuvereinbarung ist konkret und freiwillig.",
+          "Keine Krise oder Reifeprüfung wird vorausgesetzt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was ist eine Saturnrückkehr technisch?",
+          "options": [
+            "Saturn steht zwingend am dreißigsten Geburtstag am Aszendenten.",
+            "Transit-Saturn erreicht seine eigene Radixlänge.",
+            "Alle Planeten kehren gleichzeitig zurück."
+          ],
+          "correct_index": 1,
+          "explanation": "Die Rückkehr bezieht sich auf dieselbe historische Planetenkoordinate."
+        },
+        {
+          "id": "q2",
+          "question": "Warum können mehrere Kontakte auftreten?",
+          "options": [
+            "Weil jede Person drei Krisen haben muss.",
+            "Weil das Geburtshaus dreimal gewechselt wird.",
+            "Wegen des tatsächlichen direkten und rückläufigen Verlaufs."
+          ],
+          "correct_index": 2,
+          "explanation": "Mehrfachkontakte sind eine geometrische Möglichkeit, kein verpflichtendes Erlebnisschema."
+        },
+        {
+          "id": "q3",
+          "question": "Welche Frage passt zu einer begrenzten Bestandsaufnahme?",
+          "options": [
+            "Welche Verpflichtung braucht einen klareren Umfang?",
+            "Welche Strafe muss ich jetzt ertragen?",
+            "Welchen Beruf muss ich zwingend aufgeben?"
+          ],
+          "correct_index": 0,
+          "explanation": "Die Frage nach dem Umfang einer Verpflichtung prüft eine reale Vereinbarung, ohne ein Schicksal vorzugeben."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2022/08/24/transits-in-astrology/",
+          "title": "Transits in Astrology: An Introduction to Timing, Episode 365",
+          "author": "Chris Brennan und Leisa Schaim",
+          "note": "Geprüfte Originalübersicht zu Transitbegriff, Ephemeriden und Zeitverlauf. Die eigenen Zahlenübungen und Journalarbeitsblätter sind keine Wiedergabe des Podcasts; Vorhersagebehauptungen der Quelle werden nicht als Wirksamkeitsnachweis übernommen.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://www.forrestastrology.com/blogs/astrology/saturn-in-pisces",
+          "title": "Saturn in Pisces",
+          "author": "Steven Forrest",
+          "note": "Originalartikel als Beispiel für eine entwicklungsorientierte, handlungsbezogene Transitperspektive. Historische Datumsangaben werden nicht als heutiger Live-Transit verwendet; keine Übernahme des Bezahlkurses.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "academy-transite-08",
+      "title": "Äußere Planeten: große Bilder sorgfältig begrenzen",
+      "summary": "Du übersetzt moderne Symbolbilder zu Uranus, Neptun und Pluto in konkrete Fragen, ohne aus langen Transiten Krisen oder verborgene Wahrheiten abzuleiten.",
+      "objective": "Du übersetzt moderne Symbolbilder zu Uranus, Neptun und Pluto in konkrete Fragen, ohne aus langen Transiten Krisen oder verborgene Wahrheiten abzuleiten.",
+      "level": "deepening",
+      "minutes": 35,
+      "body": "## Lange Verläufe laden zu großen Geschichten ein\nUranus, Neptun und Pluto verändern ihre geozentrischen Positionen im Vergleich zu den schnellen Faktoren langsam. In moderner westlicher Astrologie werden sie häufig mit weitreichenden Themen verbunden. Gerade deshalb ist sprachliche Sorgfalt nötig. Wörter wie Befreiung, Auflösung oder Transformation können fast jede Lebensveränderung beschreiben und zugleich starken Eindruck erzeugen. Bevor du sie verwendest, frage, welche konkrete Beobachtung gemeint ist. Ein großer Begriff wird erst dann hilfreich, wenn die Person ihn in eigene, begrenzte Alltagserfahrungen übersetzen kann.\n\n## Uranus als Frage nach Veränderung lesen\nEine mögliche moderne Uranusfrage betrifft den Wunsch nach neuen Wegen oder mehr Spielraum. Das bedeutet nicht, dass ein Mensch spontan alle Bindungen lösen soll. Untersuche, was genau verändert werden möchte und welche Bedingungen erhalten bleiben sollen. Eine kleine Erprobung kann sinnvoller sein als ein umfassender Bruch: ein anderer Arbeitsablauf, eine neue Lernmethode oder ein zeitlich begrenzter Versuch. Der Nutzen wird an Rückmeldungen geprüft. Eine unerwartete Erfahrung ist nicht automatisch ein Beweis, dass Uranus sie ausgelöst hat.\n\n## Neptun als Frage nach Bildern und Unklarheit lesen\nIn moderner Symbolsprache wird Neptun unter anderem mit Vorstellungskraft, Sehnsucht und schwer fassbaren Grenzen verbunden. Eine praktische Frage könnte lauten, welche Teile eines Vorhabens bereits geklärt sind und welche bisher nur als Wunschbild existieren. Das ist hilfreicher als die Behauptung, jemand sei grundsätzlich verwirrt oder besonders hellsichtig. Ein eindrucksvoller innerer Eindruck bleibt ein Eindruck. Er sollte nicht als gesichertes Wissen über abwesende Menschen oder als Grundlage weitreichender Entscheidungen ausgegeben werden.\n\n## Pluto als Frage nach Einfluss und Veränderung lesen\nPluto wird häufig mit Intensität, Macht und tiefgreifendem Wandel verbunden. Für eine begrenzte Beratung kannst du nach tatsächlichen Entscheidungsspielräumen fragen: Wer legt den Umfang einer Aufgabe fest, welche Vereinbarung gilt und was kann die Person selbst ändern? Das ist konkreter als eine unvermeidliche Krise anzukündigen. Auch schwierige äußere Umstände dürfen nicht als notwendige seelische Lektion erklärt werden. Die Person muss keinen Schaden als Entwicklungschance akzeptieren, damit die Deutung stimmig bleibt.\n\n## Gleichzeitige Lebensumstände berücksichtigen\nEin langer Transit kann mit vielen Ereignissen zusammenfallen. Einige entstehen aus fortlaufenden Projekten, Beziehungen oder gesellschaftlichen Bedingungen. Wenn du nachträglich alles unter einen großen Planetennamen sammelst, wird die Deutung kaum noch unterscheidbar. Lege deshalb eine begrenzte Frage fest und halte Gegenbeispiele sowie ereignisarme Zeiträume fest. Eine persönliche Notiz kann subjektiv sinnvoll sein, ohne eine Ursache zu beweisen. Diese Unterscheidung lässt Raum für spirituelle Bedeutung und verhindert zugleich eine unbegrenzte Erklärung jedes Lebensdetails.\n\n## Einen handhabbaren nächsten Schritt wählen\nAm Ende sollte aus dem großen Bild eine kleine, freiwillige Handlung oder eine klarere Frage werden. Bei Veränderungswunsch könnte die Person einen Versuch begrenzen; bei Unklarheit eine fehlende Information einholen; bei ungleicher Zuständigkeit eine Vereinbarung prüfen. Solche Schritte werden durch reale Bedingungen beurteilt. Die äußeren Planeten dienen als mögliche Denkfiguren, nicht als Befehle. Eine gute Bearbeitung macht den Menschen handlungsfähiger, ohne ihm eine zwangsläufige Zukunft oder besondere übersinnliche Erkenntnisfähigkeit zuzuschreiben.",
+      "examples": [
+        {
+          "title": "Ein Wunschbild wird konkret",
+          "body": "Lea träumt im fiktiven Fall von einem großen spirituellen Zentrum. Eine moderne Neptunfrage wird genutzt, um Wunschbild und vorhandene Angaben zu trennen. Sie schreibt auf, was bereits klar ist: ein Workshopthema und zwei interessierte Testpersonen. Raum, laufende Kosten und Nachfrage sind noch offen. Der nächste Schritt bleibt ein kleiner Test. Marina erklärt die offenen Punkte nicht als mangelnden Glauben. Die Übung macht ein Vorhaben konkreter, ohne eine Vision als sichere Zukunft zu bestätigen."
+        },
+        {
+          "title": "Ein Machtwort wird zur Zuständigkeitsfrage",
+          "body": "Samir beschreibt eine fiktive Zusammenarbeit als „Pluto-Kampf“. Marina bittet ihn, den tatsächlichen Ablauf zu nennen. Es zeigt sich, dass zwei Personen unterschiedliche Vorstellungen darüber haben, wer Termine verbindlich zusagt. Die nächste Handlung ist eine klare Zuständigkeitsvereinbarung. Das starke Symbolwort wird dadurch in eine überprüfbare Frage übersetzt. Ob die Vereinbarung gelingt, hängt von den Beteiligten ab. Ein langer Transit liefert keine sichere Erklärung ihrer Motive oder eine Garantie für einen bestimmten Ausgang."
+        }
+      ],
+      "practice": {
+        "prompt": "Übersetze die drei Wörter „Befreiung“, „Auflösung“ und „Transformation“ in je eine konkrete offene Frage. Wähle für eine davon einen kleinen nächsten Schritt.",
+        "model_answer": "Für Befreiung frage ich: „Welchen Ablauf möchtest du verändern, und was soll dabei verlässlich erhalten bleiben?“ Für Auflösung frage ich: „Welche Vereinbarung oder Information ist gerade unklar und müsste genauer beschrieben werden?“ Für Transformation frage ich: „Welche konkrete Aufgabe hat sich verändert, und welche Entscheidung liegt tatsächlich bei dir?“ Ich würde diese Fragen als eigene Übersetzung moderner Symbolbilder kennzeichnen, nicht als vollständige Definition der drei Planeten. Für die zweite Frage wähle ich als kleinen Schritt, eine unklare Terminabsprache schriftlich zusammenzufassen und die andere Person um Bestätigung oder Korrektur zu bitten. Der Nutzen lässt sich daran prüfen, ob beide denselben Ablauf verstehen. Es braucht dafür keine Behauptung über verborgene Energien. Falls die Person keine passende Situation nennt, wird die Frage beiseitegelegt. Große Begriffe dürfen nicht dazu führen, dass zwangsläufig ein Problem gefunden werden muss.",
+        "rubric": [
+          "Alle drei Begriffe werden konkretisiert.",
+          "Die Fragen bleiben offen.",
+          "Ein kleiner überprüfbarer Schritt wird genannt.",
+          "Keine Krise oder übersinnliche Gewissheit wird vorausgesetzt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was macht einen großen Symbolbegriff praktisch nützlich?",
+          "options": [
+            "Eine möglichst dramatische Zukunftsaussage.",
+            "Die Erklärung aller Ereignisse durch einen Planeten.",
+            "Eine konkrete, begrenzte Frage zum tatsächlichen Anliegen."
+          ],
+          "correct_index": 2,
+          "explanation": "Konkrete Fragen lassen sich beantworten und gegebenenfalls verwerfen."
+        },
+        {
+          "id": "q2",
+          "question": "Was ist ein innerer Eindruck über eine abwesende Person?",
+          "options": [
+            "Eine subjektive Wahrnehmung, die kein gesichertes Wissen belegt.",
+            "Eine automatisch bestätigte Information.",
+            "Eine ausreichende Grundlage für jede Entscheidung."
+          ],
+          "correct_index": 0,
+          "explanation": "Die Stärke eines Eindrucks beweist nicht seine Wahrheit über andere Menschen."
+        },
+        {
+          "id": "q3",
+          "question": "Wie wird eine Zuständigkeitsvereinbarung geprüft?",
+          "options": [
+            "An der Länge des Pluto-Transits.",
+            "An tatsächlichem Verständnis und Verhalten der Beteiligten.",
+            "An der Zahl dramatischer Symbole."
+          ],
+          "correct_index": 1,
+          "explanation": "Die Qualität einer Vereinbarung zeigt sich in der realen Zusammenarbeit."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.arhatmedia.com/post/inner-versus-outer-planets",
+          "title": "Inner Versus Outer Planets",
+          "author": "Robert Hand",
+          "note": "Autorisierter Auszug aus Horoscope Symbols, direkt gelesen. Bezugspunkt für die Unterscheidung persönlicher und langsamerer Faktoren; eigene Lernaufgaben, keine Vollbuchauswertung.",
+          "checked_at": "2026-10-20"
+        },
+        {
+          "url": "https://theastrologypodcast.com/2022/08/24/transits-in-astrology/",
+          "title": "Transits in Astrology: An Introduction to Timing, Episode 365",
+          "author": "Chris Brennan und Leisa Schaim",
+          "note": "Geprüfte Originalübersicht zu Transitbegriff, Ephemeriden und Zeitverlauf. Die eigenen Zahlenübungen und Journalarbeitsblätter sind keine Wiedergabe des Podcasts; Vorhersagebehauptungen der Quelle werden nicht als Wirksamkeitsnachweis übernommen.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "academy-transite-09",
+      "title": "Ein Transitjournal führen, das auch Gegenbeispiele bewahrt",
+      "summary": "Du planst eine begrenzte Beobachtung, hältst Erwartungen vorab fest und vermeidest eine nur nachträglich passende Geschichte.",
+      "objective": "Du planst eine begrenzte Beobachtung, hältst Erwartungen vorab fest und vermeidest eine nur nachträglich passende Geschichte.",
+      "level": "deepening",
+      "minutes": 35,
+      "body": "## Eine Beobachtung beginnt vor dem Ergebnis\nEin Journal ist besonders lehrreich, wenn du vor dem Zeitraum aufschreibst, was du untersuchen möchtest. Wähle einen berechneten oder ausdrücklich künstlichen Kontakt und eine konkrete Frage. Notiere die erwartete Beobachtung so, dass auch ein Ausbleiben erkennbar wäre. „Es geschieht etwas Wichtiges“ ist zu offen, weil fast jedes Ereignis darunterfallen kann. „Ich prüfe, wie oft ich vereinbarte Arbeitszeiten tatsächlich einhalte“ ist konkreter. Die Frage darf auch ohne astrologische Annahme sinnvoll sein.\n\n## Den technischen Rahmen festhalten\nDie erste Seite enthält Transitfaktor, festen Radixpunkt, Aspekttyp, Orbregel, betrachteten Zeitraum und Datenquelle. Bei einer künstlichen Übung steht das ausdrücklich dabei. Verändere die Grenze nicht nach dem Ergebnis, um ein Ereignis noch in den Zeitraum aufzunehmen. Wenn du eine andere Regel ausprobieren möchtest, lege eine zweite Auswertung an und kennzeichne den Wechsel. Dadurch bleibt nachvollziehbar, welche Auswahl zuerst bestand und welche erst später ergänzt wurde. Diese Transparenz ist wichtiger als eine besonders eindrucksvolle Trefferliste.\n\n## Gleichbleibende Fragen verwenden\nFür jeden Beobachtungstag nutzt du dieselben kurzen Felder: Was war geplant? Was ist tatsächlich geschehen? Welche äußeren Bedingungen spielten eine Rolle? Passte die vorher formulierte Erwartung, teilweise oder gar nicht? Ergänze eine freie Notiz, aber sammle nur Informationen, die für deine Lernfrage nötig sind. Ein gleichbleibendes Raster erleichtert den Vergleich. Wenn du jeden Tag andere Fragen stellst, kann die spätere Zusammenfassung stärker von deiner Auswahl abhängen als vom tatsächlichen Verlauf.\n\n## Unauffällige Tage gehören dazu\nTage ohne besondere Erfahrung sind keine leeren Daten, die aussortiert werden sollten. Sie zeigen, ob eine Erwartung wirklich häufiger erfüllt wurde oder nur einzelne passende Momente herausgehoben werden. Ebenso wichtig sind Gegenbeispiele: ein guter Arbeitstag während einer erwarteten schwierigen Phase oder ein unklarer Termin während einer vermeintlich unterstützenden. Notiere solche Fälle mit derselben Sorgfalt. Sie müssen nicht sofort durch eine weitere Konstellation erklärt werden. Sonst wird jede Abweichung nur zum Anlass, die Theorie immer weiter auszuweiten.\n\n## Andere Erklärungen mitdenken\nWenn die Person in einer Woche weniger schafft, können Schlaf, Arbeitsmenge, Krankheit, Betreuungspflichten oder fehlende Informationen eine Rolle spielen. Das Journal soll solche Bedingungen sichtbar machen, ohne eine medizinische oder psychologische Diagnose zu versuchen. Eine zeitliche Übereinstimmung mit einem Transit beweist keine Ursache. Auch ein persönlicher Nutzen des Journals ist von einer allgemeinen Wirksamkeitsbehauptung zu unterscheiden. Du kannst lernen, klarer zu planen, obwohl die astrologische Erwartung sich nicht bestätigt.\n\n## Mit einer begrenzten Auswertung enden\nNach dem Zeitraum zählst du passende, teilweise passende und unpassende Einträge und liest die konkreten Situationen erneut. Formuliere, was du gelernt hast und was offen bleibt. Ein kleines persönliches Journal ist keine kontrollierte Studie und erlaubt keine verlässliche Aussage über alle Menschen. Es kann aber deine eigene Deutungssprache präziser machen und zeigen, welche Fragen hilfreich waren. Bewahre die ursprüngliche Erwartung zusammen mit dem Ergebnis auf. So entsteht ein ehrliches Lernarchiv statt einer Sammlung ausschließlich gelungener Geschichten.",
+      "examples": [
+        {
+          "title": "Die Erwartung wird vorab festgelegt",
+          "body": "Lea möchte in einer fiktiven Beobachtungswoche prüfen, ob sie ihre geplanten Schreibzeiten einhält. Vorher legt sie drei Arbeitsblöcke fest und notiert die technische Transitannahme getrennt. Nach der Woche sind zwei Blöcke gelungen, einer wurde wegen eines anderen Termins verschoben. Sie hält alle drei Fälle fest. Die Auswertung zeigt eine praktische Planungsfrage. Sie wird nicht dadurch astrologisch bewiesen, dass zwei Einträge zu einer vorher erhofften Entwicklung passen."
+        },
+        {
+          "title": "Ein Gegenbeispiel bleibt stehen",
+          "body": "Samir erwartet in einer didaktischen Spannungsphase schwierige Absprachen. Ein wichtiges Gespräch verläuft jedoch klar und freundlich. Er notiert diesen Gegenfall und ergänzt nicht sofort einen weiteren günstigen Transit als Rettung seiner Erwartung. Später kann er verschiedene Möglichkeiten untersuchen, muss aber die erste Annahme unverändert bewahren. Dadurch bleibt sichtbar, dass die ursprüngliche Vorhersage nicht zutraf. Das Journal trainiert ehrliche Auswertung und schützt vor einer rückwirkend immer passenden Erzählung."
+        }
+      ],
+      "practice": {
+        "prompt": "Entwirf ein siebentägiges Journal zu einer konkreten Arbeitsfrage. Nenne die vorab festgelegte Erwartung, vier tägliche Felder und eine Auswertungsregel.",
+        "model_answer": "Meine Arbeitsfrage lautet, ob ich einen geplanten Schreibblock von zwanzig Minuten tatsächlich beginne. Die vorab festgelegte Erwartung lautet: An mindestens vier der sieben Tage beginne ich innerhalb von zehn Minuten nach der geplanten Zeit. Eine eventuell betrachtete Transitkonstellation und ihre Orbregel stehen separat als symbolischer Hintergrund, nicht als bewiesene Ursache. Die vier täglichen Felder sind geplanter Beginn, tatsächlicher Beginn, relevante äußere Bedingungen und kurze Bewertung der Erwartung. Am Ende zähle ich, an wie vielen Tagen das Kriterium erfüllt wurde, und prüfe die Gründe für Abweichungen. Auch Tage ohne Schreibversuch bleiben erhalten. Ich ändere die Zehnminutengrenze nicht nachträglich, nur um mehr passende Einträge zu erhalten. Das Ergebnis kann mir bei der Planung helfen, erlaubt aber keine allgemeine Aussage über astrologische Wirksamkeit. Wenn die Frage keinen Nutzen bringt, wähle ich für einen späteren Zeitraum eine andere und dokumentiere den Wechsel.",
+        "rubric": [
+          "Die Erwartung ist vorab und konkret formuliert.",
+          "Das tägliche Raster bleibt gleich.",
+          "Unpassende und unauffällige Tage bleiben erhalten.",
+          "Die Auswertung behauptet keine Kausalität."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Warum wird die Erwartung vor dem Zeitraum aufgeschrieben?",
+          "options": [
+            "Damit sie später nicht unbemerkt an das Ergebnis angepasst wird.",
+            "Damit jedes Ereignis automatisch passt.",
+            "Damit keine Gegenbeispiele vorkommen können."
+          ],
+          "correct_index": 0,
+          "explanation": "Eine vorab dokumentierte Erwartung macht die spätere Prüfung nachvollziehbar."
+        },
+        {
+          "id": "q2",
+          "question": "Was geschieht mit einem unauffälligen Tag?",
+          "options": [
+            "Er wird aus der Auswertung entfernt.",
+            "Er wird ebenso dokumentiert.",
+            "Er beweist eine verborgene Krise."
+          ],
+          "correct_index": 1,
+          "explanation": "Auch fehlende oder unpassende Beobachtungen gehören zu einer ehrlichen Bilanz."
+        },
+        {
+          "id": "q3",
+          "question": "Was beweist eine zeitliche Übereinstimmung allein?",
+          "options": [
+            "Dass der Transit das Ereignis verursacht hat.",
+            "Dass dieselbe Erfahrung bei allen Menschen auftritt.",
+            "Keine eindeutige Ursache."
+          ],
+          "correct_index": 2,
+          "explanation": "Korrelation und Ursache sind verschiedene Aussagen; weitere Bedingungen bleiben relevant."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2022/08/24/transits-in-astrology/",
+          "title": "Transits in Astrology: An Introduction to Timing, Episode 365",
+          "author": "Chris Brennan und Leisa Schaim",
+          "note": "Geprüfte Originalübersicht zu Transitbegriff, Ephemeriden und Zeitverlauf. Die eigenen Zahlenübungen und Journalarbeitsblätter sind keine Wiedergabe des Podcasts; Vorhersagebehauptungen der Quelle werden nicht als Wirksamkeitsnachweis übernommen.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "academy-transite-10",
+      "title": "Ein Transitgespräch vorbereiten: Zeitwissen und Handlung trennen",
+      "summary": "Du erstellst eine knappe Transitbesprechung mit verifizierten Daten, offenen Fragen und einem realistisch überprüfbaren nächsten Schritt.",
+      "objective": "Du erstellst eine knappe Transitbesprechung mit verifizierten Daten, offenen Fragen und einem realistisch überprüfbaren nächsten Schritt.",
+      "level": "deepening",
+      "minutes": 35,
+      "body": "## Der Termin braucht ein geklärtes Anliegen\nBeginne eine Transitbesprechung mit der Frage, wofür die Person Orientierung sucht. Ein allgemeiner Wunsch nach Zukunftswissen ist noch kein klarer Arbeitsauftrag. Vielleicht geht es um eine Entscheidung, eine laufende Aufgabe oder das Verständnis eines vergangenen Zeitraums. Formuliere gemeinsam ein begrenztes Ziel. Für Lea könnte es sein, einen Testworkshop in den nächsten Wochen vorzubereiten. Für Samir vielleicht, wiederkehrende Terminprobleme zu ordnen. Die Besprechung soll dabei helfen, Fragen und Handlungsmöglichkeiten klarer zu sehen, nicht unbekannte Ereignisse als sicher vorherzusagen.\n\n## Den aktuellen Rechenstand wirklich prüfen\nWenn du über heutige oder kommende Kontakte sprichst, müssen die Positionen für den entsprechenden Zeitraum tatsächlich berechnet oder aus einer passenden Ephemeride gelesen sein. Ein alter Artikel mit Datumsangaben ist kein Live-Update. Notiere Prüfdatum, Datenquelle, Zeitzone und Einstellungen. Stelle außerdem sicher, dass die Radixgrundlage ausreichend verlässlich ist. Bei zeitunsicheren Achsenkontakten bleibt die Einschränkung sichtbar. Wenn die technische Prüfung fehlt, verwendest du das Material nur als ausdrücklich allgemeines oder didaktisches Beispiel.\n\n## Wenige Kontakte begründet auswählen\nWähle höchstens einige Kontakte, die zur Frage passen und technisch nachvollziehbar sind. Gib für jeden den bewegten Faktor, den Radixpunkt, das Zeitfenster und die Orbregel an. Erkläre, warum du gerade diesen Kontakt als Gesprächsanlass auswählst. Vermeide eine Liste, die jeden Tag mit einer neuen Warnung versieht. Eine solche Dichte kann Orientierung erschweren und den Eindruck erzeugen, alltägliche Entscheidungen seien ohne ständige astrologische Freigabe nicht möglich. Die Person soll ihre eigenen Maßstäbe behalten.\n\n## Drei Ebenen im Gespräch sichtbar halten\nDie erste Ebene ist die berechnete Bewegung. Die zweite ist eine gewählte symbolische Frage. Die dritte sind tatsächliche Pläne, Rückmeldungen und Bedingungen. Du kannst beispielsweise einen länger dauernden Kontakt als Anlass nehmen, die Tragfähigkeit eines Zeitplans zu besprechen. Ob der Plan funktioniert, hängt aber von Verfügbarkeit, Aufwand und Zustimmung ab. Diese Ebenen dürfen sich ergänzen, ohne einander zu ersetzen. Besonders eine genaue Kontaktzeit sollte nicht als genaue Vorhersage eines menschlichen Ergebnisses präsentiert werden.\n\n## Einen Schritt innerhalb des Einflussbereichs wählen\nAm Ende formuliert die Person eine Handlung, die sie tatsächlich ausführen kann: eine Information einholen, einen Entwurf testen, eine Zuständigkeit klären oder einen begrenzten Versuch planen. Der Schritt erhält einen Zeitpunkt und ein Kriterium für die spätere Prüfung. Er darf auch lauten, vorerst nichts zu verändern, weil wichtige Informationen fehlen. Eine Entscheidung wird nicht allein deshalb dringlich, weil ein Transit bald exakt wird. Reale Fristen und Folgen haben ihre eigene Bedeutung und werden gesondert geprüft.\n\n## Eine verständliche Abschlussnotiz übergeben\nDie Notiz enthält das Anliegen, die geprüften Kontakte mit ihren Grenzen, die hilfreichen Gesprächsfragen und den selbst gewählten nächsten Schritt. Sie kennzeichnet, was offen geblieben ist. Nach einer vereinbarten Zeit kann die Person prüfen, ob der Schritt nützlich war und ob die Deutungssprache hilfreich oder belastend wirkte. Das ist eine praktische Qualitätskontrolle der Beratung, keine automatische Bestätigung astrologischer Wirksamkeit. Eine gute Transitbesprechung endet mit mehr Klarheit und eigener Entscheidungsfähigkeit, nicht mit der Erwartung, für jede weitere Handlung zuerst den Himmel befragen zu müssen.",
+      "examples": [
+        {
+          "title": "Ein alter Artikel wird richtig eingeordnet",
+          "body": "Lea findet einen Artikel über einen Saturnzeichenwechsel mit historischen Datumsangaben. Marina verwendet ihn als Beispiel für eine Deutungsperspektive, nennt ihn aber nicht den heutigen Transitstand. Für eine aktuelle Besprechung würde sie neue Positionsdaten prüfen. Bis dahin bleibt die Übung allgemein. Diese Unterscheidung ist besonders wichtig, wenn ein Lernraum automatisch neue Quellen sammelt: Das Auffinden oder erneute Anzeigen eines Textes macht dessen Datumsangaben nicht automatisch aktuell oder persönlich passend."
+        },
+        {
+          "title": "Ein realer Termin bleibt maßgeblich",
+          "body": "Samirs fiktive Raumreservierung muss bis Freitag bestätigt werden. Eine symbolische Transitfrage regt ihn an, seine Planung zu prüfen. Die Entscheidung stützt sich jedoch auf Kosten, Verfügbarkeit und die tatsächliche Vereinbarung. Er verschiebt die Rückmeldung nicht ohne sachlichen Grund auf einen vermeintlich besseren astrologischen Tag. Marina hilft, die offenen Informationen aufzulisten. Das Gespräch verbindet persönliche Reflexion mit realer Planung, ohne eine Kontaktzeit zur verbindlichen Entscheidungsinstanz zu machen."
+        }
+      ],
+      "practice": {
+        "prompt": "Erstelle eine Vorlage für eine Transit-Abschlussnotiz zu Leas Testworkshop. Verwende Platzhalter für noch nicht berechnete Daten und nenne einen konkreten nächsten Prüfschritt.",
+        "model_answer": "Anliegen: Lea möchte einen kleinen Testworkshop verständlich und organisatorisch tragfähig vorbereiten. Technischer Stand: Transitfaktor [noch zu berechnen], Radixziel [noch zu prüfen], Zeitraum und Orbregel [offen]. Solange diese Felder fehlen, wird keine aktuelle persönliche Transitbehauptung formuliert. Mögliche Reflexionsfrage: Welche Teile des Plans sind bereits klar, und welche brauchen noch eine verlässliche Zusage? Berichtete Bedingungen: Ein Thema ist gewählt; Raum, Termin und Rückmeldungsweg müssen noch bestätigt werden. Nächster Schritt: Lea fragt bis zu einem selbst gewählten Datum eine konkrete Raumoption an und prüft anschließend, ob der vorgesehene Ablauf in die verfügbare Zeit passt. Prüfkriterium: Es liegt eine eindeutige Zusage oder eine dokumentierte Alternative vor. Die Notiz enthält keine Erfolgsgarantie und keinen vorgeschriebenen astrologischen Veröffentlichungstermin. Nach dem Test wird die tatsächliche Rückmeldung der Teilnehmenden ausgewertet. Diese Informationen bilden die Grundlage für die nächste Entscheidung.",
+        "rubric": [
+          "Fehlende Live-Daten bleiben als Platzhalter sichtbar.",
+          "Das Anliegen ist konkret.",
+          "Der nächste Schritt ist praktisch überprüfbar.",
+          "Keine Kontaktzeit wird zur Erfolgsgarantie oder Pflicht."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was macht einen alten Transitartikel aktuell?",
+          "options": [
+            "Dass er von einem bekannten Autor stammt.",
+            "Nur eine neue Prüfung der relevanten Daten, nicht sein erneutes Anzeigen.",
+            "Dass er automatisch im Lernraum auftaucht."
+          ],
+          "correct_index": 1,
+          "explanation": "Aktualität der Positionsangaben muss gesondert geprüft werden."
+        },
+        {
+          "id": "q2",
+          "question": "Welche Grundlage hat eine reale Raumreservierung?",
+          "options": [
+            "Allein ein als günstig gedeuteter Transit.",
+            "Die Anzahl persönlicher Lernpunkte.",
+            "Tatsächliche Verfügbarkeit, Bedingungen und Vereinbarungen."
+          ],
+          "correct_index": 2,
+          "explanation": "Praktische Entscheidungen benötigen überprüfbare reale Informationen."
+        },
+        {
+          "id": "q3",
+          "question": "Was sollte eine gute Abschlussnotiz fördern?",
+          "options": [
+            "Klarheit über Daten, Fragen und selbst gewählte nächste Schritte.",
+            "Abhängigkeit von täglichen Freigaben durch die Beratung.",
+            "Gewissheit über alle kommenden Ereignisse."
+          ],
+          "correct_index": 0,
+          "explanation": "Die Notiz soll eigene Entscheidungsfähigkeit unterstützen und ihre Grenzen sichtbar machen."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2022/08/24/transits-in-astrology/",
+          "title": "Transits in Astrology: An Introduction to Timing, Episode 365",
+          "author": "Chris Brennan und Leisa Schaim",
+          "note": "Geprüfte Originalübersicht zu Transitbegriff, Ephemeriden und Zeitverlauf. Die eigenen Zahlenübungen und Journalarbeitsblätter sind keine Wiedergabe des Podcasts; Vorhersagebehauptungen der Quelle werden nicht als Wirksamkeitsnachweis übernommen.",
+          "checked_at": "2026-10-21"
+        },
+        {
+          "url": "https://www.forrestastrology.com/blogs/astrology/saturn-in-pisces",
+          "title": "Saturn in Pisces",
+          "author": "Steven Forrest",
+          "note": "Originalartikel als Beispiel für eine entwicklungsorientierte, handlungsbezogene Transitperspektive. Historische Datumsangaben werden nicht als heutiger Live-Transit verwendet; keine Übernahme des Bezahlkurses.",
+          "checked_at": "2026-10-21"
+        }
+      ]
+    }
+  ]
+}

@@ -341,10 +341,13 @@ def _reading_draft(conn,finding,run_id):
     return created
 
 
-def updates_status():
+def updates_status(*, connection_factory=None):
     now=utc_now()
-    with get_db() as conn:
-        state=dict(conn.execute("SELECT * FROM learning_update_state WHERE id=1").fetchone())
+    with (connection_factory or get_db)() as conn:
+        state_row=conn.execute("SELECT * FROM learning_update_state WHERE id=1").fetchone()
+        if state_row is None:
+            raise RuntimeError("Der Quellenstatus ist noch nicht eingerichtet.")
+        state=dict(state_row)
         runs=[]
         for row in conn.execute("SELECT id,trigger,started_at,finished_at,status,created,error,sources FROM learning_update_runs ORDER BY id DESC LIMIT 10"):
             item=dict(row); item["sources"]=json.loads(item["sources"]); runs.append(item)
