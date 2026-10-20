@@ -177,7 +177,7 @@ async def lifespan(_app):
     yield
 
 
-app = FastAPI(title="SoulFlow",version="1.1.0",lifespan=lifespan,docs_url=None,redoc_url=None,openapi_url=None)
+app = FastAPI(title="SoulFlow",version="1.1.1",lifespan=lifespan,docs_url=None,redoc_url=None,openapi_url=None)
 app.add_middleware(TrustedHostMiddleware,allowed_hosts=allowed_hosts())
 
 
@@ -222,7 +222,7 @@ async def database_error(_request, _exc):
 
 @app.get("/api/health")
 def health():
-    return {"status":"ok","mode":"hosted" if hosted() else "demo" if demo_mode() else "local","version":"1.1.0",
+    return {"status":"ok","mode":"hosted" if hosted() else "demo" if demo_mode() else "local","version":"1.1.1",
             "source_url":os.environ.get("SOULFLOW_SOURCE_URL") if os.environ.get("SOULFLOW_SWISS_LICENSE")=="agpl-3.0" else None,
             "license":"AGPL-3.0-only" if os.environ.get("SOULFLOW_SWISS_LICENSE")=="agpl-3.0" else None}
 

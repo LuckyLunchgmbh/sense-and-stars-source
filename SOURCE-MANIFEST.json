@@ -15,13 +15,14 @@
     "backend/app/learning.py": "4c2854f34dfc618a3da8b83b2756063246d25f49a1f0022944b8c2a6d40f855b",
     "backend/app/learning_content.py": "4a21f2bb0aa0e07940a08e26ff793143379244385eb859c6f0efb5ece051d1bf",
     "backend/app/learning_updates.py": "c6c9e1e76f080c8dfee9425586c7b51ae9fb2da9807ce3ae37cb2b2a14f48b1e",
-    "backend/app/main.py": "15fb42e5d5c3421c48daaab84c62e2b46edaeac6b7e9502a6098dd587d38805f",
+    "backend/app/main.py": "80fd48db7146b03611b1ba89cc429827f68ed7663860d51a6c59bbe0f8a0a510",
     "backend/app/postgres.py": "f0fe72622577ebee38ccd7e60368b6bb7e42b8865bacf082dc1cd3d7d60f2d13",
     "backend/app/runtime.py": "5efeb6abaaab1032175089820539abd6a7b85f3c63c4d9e227f352648a9211e6",
     "backend/app/schemas.py": "0c81c21686c7379425c75de162bf67fd80aa05ffd4d376fc90abd3bed6b4c29a",
     "backend/app/security.py": "47b3d033ab081f6c34f94462d451e7581fefcff570912db0bbbafcb38f32a4b6",
     "backend/pytest.ini": "6c6ccf864e8f2d2e0223ee8e39bfde660c12435aa37d81e2b14000a6bee15003",
     "backend/requirements.lock": "8b7fdbe6c2be18182dfd5fe9faa6a03efa3773c048c8c045b722468521d83fc7",
+    "backend/requirements.runtime.lock": "67b7e2449afbdba6a6175ff90dbb34f4fbe6c8e8834d0c2af24f4e88679a2d7b",
     "backend/requirements.txt": "be766ad41242f6e40baaaf1f75dd6f8ae74692feb178b96847e41c960b2302ff",
     "backend/tests/test_astro.py": "9b73ca43a997b7d4f73c68895a3fc9cce3827350d3999ed19bb5f1a88a07d13c",
     "backend/tests/test_cloud_database.py": "227cc67c65596bb4ea10e5b5edbac59ae8092c8e6f079b01a0feac19e9129249",
@@ -60,9 +61,9 @@
     "frontend/tests/timezone.test.mjs": "e217a7fccb3f69fdb4a3252be556ec7edf8899dcceb355b632282d9b6e92c7bf",
     "frontend/tsconfig.json": "7a4785ff5d62d7d4ab13d7676d7b125e2a6621678b6fb1534cdaca68ce26f256",
     "frontend/vite.config.ts": "ad1ae14ee43ec465fc5d81c46f77a7daaf6684f78825b08557f459fcf38cbbd0",
-    "pyproject.toml": "4ac8371dbbfe8ce9d0a9e9462e11dd93857bea637c88f8d7420b14e8f9e27a64",
+    "pyproject.toml": "920e2aed377522c4f7453dc5ac68ec7497eedab7d0cddefec6d0ca4c882faa15",
     "release/README.source.md": "97fa5940ae26cad62f4fd896e00057678b67b5ae34d9f9e42917adafeb6dd9f4",
-    "requirements.txt": "72fd95d4aa487ed2fdf7668e34cc4bfd704a22db408b57be228fa5048887f6b6",
+    "requirements.txt": "bd83a8462dc48b9fcc031941aaefa0cc5e2e19af44cc701b2b588241b65fa998",
     "scripts/account.py": "05bbd834604c61075fdefa686df85ed06327ea2501d517b6da1f71e29fe292c6",
     "scripts/backup.py": "e653224628c0aea331ffeb877455e353c2a80af073dd4eb8b57b26dc6ce9d478",
     "scripts/export_source.py": "4c6e73f40fce0345d6173f11fb2f6152fe5c7b90a486844ad8c95965692c0827",
@@ -71,8 +72,8 @@
     "scripts/run.py": "5024d52386b33ac301e38578b80a9085bf9f8ab75b28eb47442d793d07571f57",
     "scripts/setup.py": "fed684b39c478c89b36fec1c2a9e6be6f44d18fcc6f43fdf8651bc6e5bd470c2",
     "scripts/verify_hosted.py": "b0b20853f56fc2149f0b69b581f1741a83870c1798d5f5279de7aab966dbcb52",
-    "uv.lock": "3b49bb985ec821fe24b6cedff11c0e46af49f3f4257d62fba42741c689fb9c3b",
-    "vercel.json": "a3badfa3a30223ed3480d1f5057905374f3c095e6908bb0284fdd1561ed41cb1"
+    "uv.lock": "547624fc253723d66315dfe75027c782a73fe1434a65afb68d97e2e76ec4a934",
+    "vercel.json": "915d6311076cac73c35ca7186ca762c7f312dbc749152ef11b0f6f0ea0e10111"
   },
   "format": 1
 }
