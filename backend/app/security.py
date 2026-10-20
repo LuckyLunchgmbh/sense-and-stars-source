@@ -8,6 +8,9 @@ from fastapi import HTTPException, Request
 
 from .db import get_db
 
+SESSION_COOKIE = "sense_and_stars_session"
+LEGACY_SESSION_COOKIE = "soulflow_session"
+
 
 def now_iso():
     return datetime.now(timezone.utc).isoformat()
@@ -40,11 +43,18 @@ def public_user(row) -> dict:
 
 
 def require_user(request: Request) -> dict:
-    token = request.cookies.get("soulflow_session", "")
-    if not token or len(token) > 200:
+    tokens = tuple(dict.fromkeys(filter(None, (
+        request.cookies.get(SESSION_COOKIE, ""),
+        request.cookies.get(LEGACY_SESSION_COOKIE, ""),
+    ))))
+    if not tokens or any(len(token) > 200 for token in tokens):
         raise HTTPException(401, "Bitte melde dich an.")
     with get_db() as conn:
-        row = conn.execute("SELECT u.* FROM users u JOIN sessions s ON s.user_id=u.id WHERE s.token_hash=? AND s.expires_at>?", (token_hash(token), now_iso())).fetchone()
+        row = None
+        for token in tokens:
+            row = conn.execute("SELECT u.* FROM users u JOIN sessions s ON s.user_id=u.id WHERE s.token_hash=? AND s.expires_at>?", (token_hash(token), now_iso())).fetchone()
+            if row is not None:
+                break
     if row is None:
         raise HTTPException(401, "Die Sitzung ist abgelaufen. Bitte erneut anmelden.")
     return public_user(row)

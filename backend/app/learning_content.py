@@ -1,4 +1,4 @@
-"""Original German lessons for the local SoulFlow learning workspace.
+"""Original German lessons for the local Sense & Stars learning workspace.
 
 The week value is a stable display order, never a calendar or access restriction.
 Only editorial content lives here; publication and account state belong to the
@@ -8,7 +8,7 @@ public serializer. Importing this module never retrieves a source or starts work
 Public primary sources were checked on 20 October 2026. Astrodienst's article
 text was available in the search index; direct requests encountered its browser
 check. The other cited public pages were opened directly. Their bounded roles
-are recorded per lesson; the examples and exercises are original SoulFlow work,
+are recorded per lesson; the examples and exercises are original Sense & Stars work,
 not course reproductions, translations, endorsements or a certified curriculum.
 """
 from textwrap import dedent
@@ -567,7 +567,7 @@ WORKSPACE_LESSONS = (
             Gerade der Zeitabstand zeigt manchmal, wie stark die eigene Tagesstimmung
             beteiligt war. Mark Jones’ freie Videoübersicht ist ein möglicher Weg,
             verschiedene öffentliche Impulse selbst kennenzulernen. Sie ist keine
-            Quelle für unsere Vier-Satz-Übung; diese wurde für SoulFlow entwickelt.
+            Quelle für unsere Vier-Satz-Übung; diese wurde für Sense & Stars entwickelt.
         """),
         "exercise": _text("""
             Betrachte für eine Minute einen gewöhnlichen Gegenstand, etwa einen Schlüssel
@@ -677,7 +677,7 @@ WORKSPACE_LESSONS = (
             beide Menschen an verschiedenen Orten sitzen. Das gemeinsame Gespräch
             entsteht durch vereinbarte Zeit, Aufmerksamkeit und Austausch. Jones’
             Interview enthält dazu seine Feldvorstellung; es belegt keine Übertragung
-            fremder Gefühle. Der folgende Ablauf ist eine eigene SoulFlow-Übungsstruktur,
+            fremder Gefühle. Der folgende Ablauf ist eine eigene Sense-&-Stars-Übungsstruktur,
             keine Methode eines Lehrenden und kein Test paranormaler Fähigkeiten.
 
             Unser erfundener Fall ist ein Probetermin zwischen einer Beraterin in
@@ -853,7 +853,7 @@ WORKSPACE_LESSONS = (
 
             Öffentliche Zugänglichkeit ist keine allgemeine Erlaubnis, Unterricht
             zu kopieren. Für dein Journal sind kurze eigene Einordnungen, Links
-            und selbst entwickelte Übungen der passende Ausgangspunkt. SoulFlow
+            und selbst entwickelte Übungen der passende Ausgangspunkt. Sense & Stars
             aktualisiert diese Quellen nicht automatisch. Prüfe Datum und Zugang,
             wenn du sie später wieder aufrufst. Ein Buchzeichen bewahrt deinen
             Einstieg; eine Versionsnotiz bewahrt, auf welchen Lerntext du dich

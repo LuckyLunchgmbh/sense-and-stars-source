@@ -3,6 +3,8 @@ import os
 import sqlite3
 from pathlib import Path
 
+from .config import compatible_database_path, setting
+
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -16,7 +18,8 @@ class ClosingConnection(sqlite3.Connection):
 
 
 def db_path() -> Path:
-    return Path(os.environ.get("SOULFLOW_DB", ROOT / "data" / "soulflow.sqlite3")).resolve()
+    explicit = setting("DB")
+    return Path(explicit or compatible_database_path(ROOT / "data")).resolve()
 
 
 def get_db(*, cache=False) -> sqlite3.Connection:
@@ -26,8 +29,8 @@ def get_db(*, cache=False) -> sqlite3.Connection:
             raise RuntimeError("DATABASE_URL benötigt eine PostgreSQL-Verbindung.")
         from .postgres import Connection
         return Connection(database_url, write_lock=831746206) if cache else Connection(database_url)
-    if os.environ.get("SOULFLOW_HOSTED") == "1":
-        raise RuntimeError("SOULFLOW_HOSTED benötigt eine dauerhafte DATABASE_URL.")
+    if setting("HOSTED") == "1":
+        raise RuntimeError("SENSE_AND_STARS_HOSTED benötigt eine dauerhafte DATABASE_URL.")
     path = db_path()
     path.parent.mkdir(mode=0o700, parents=True, exist_ok=True)
     conn = sqlite3.connect(path, timeout=10, factory=ClosingConnection)

@@ -17,7 +17,7 @@ export async function api<T>(
     cache: "no-store",
     headers: {
       ...(body === undefined ? {} : { "Content-Type": "application/json" }),
-      ...(verb === "GET" ? {} : { "X-SoulFlow": "1" }),
+      ...(verb === "GET" ? {} : { "X-Sense-And-Stars": "1" }),
     },
     ...(body === undefined ? {} : { body: JSON.stringify(body) }),
   });

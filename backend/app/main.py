@@ -1,4 +1,4 @@
-"""SoulFlow's single-origin API. Start via scripts/run.py; no public demo exposure."""
+"""Sense & Stars single-origin API. Start via scripts/run.py; no public demo exposure."""
 import json
 import os
 import secrets
@@ -15,18 +15,20 @@ from fastapi.responses import FileResponse, JSONResponse
 from starlette.middleware.trustedhost import TrustedHostMiddleware
 
 from .db import ROOT, db_path, get_db, init_schema
+from .config import setting
 from .runtime import allowed_hosts, hosted, public_origin, validate_hosted_settings
 from .schemas import (AppointmentUpdate, Booking, ChartRequest, ClientCreate, ClientUpdate,
                       Login, PortalAccount, Prepare, ProfileUpdate, ResourceCreate, Share)
-from .security import (hash_password, now_iso, public_user, require_admin, require_staff,
-                       require_user, token_hash, verify_password)
+from .security import (LEGACY_SESSION_COOKIE, SESSION_COOKIE, hash_password, now_iso,
+                       public_user, require_admin, require_staff, require_user, token_hash,
+                       verify_password)
 
 BERLIN = ZoneInfo("Europe/Berlin")
 DIST = ROOT / "frontend" / "dist"
 
 
 def demo_mode():
-    return os.environ.get("SOULFLOW_DEMO", "0") == "1"
+    return setting("DEMO", "0") == "1"
 
 
 def init_practice_schema(conn):
@@ -43,7 +45,7 @@ def init_practice_schema(conn):
     # slot; notes, charts, owners, archive state and all real rows are unchanged.
     for row in conn.execute("SELECT id,email FROM clients WHERE is_test=1 AND test_email IS NULL"):
         conn.execute("UPDATE clients SET test_email=?,email=? WHERE id=? AND is_test=1 AND test_email IS NULL",
-                     (row["email"], f"practice-{secrets.token_hex(20)}@soulflow.invalid", row["id"]))
+                     (row["email"], f"practice-{secrets.token_hex(20)}@sense-and-stars.invalid", row["id"]))
     if "archived_at" not in {row["name"] for row in conn.execute("PRAGMA table_info(appointments)")}:
         conn.execute("ALTER TABLE appointments ADD COLUMN archived_at TEXT")
     conn.execute("""CREATE TABLE IF NOT EXISTS practice_examples(
@@ -106,7 +108,7 @@ def client_scope(user, practice, *, archived=False, alias="c"):
 
 
 def insert_client(conn, data, user, *, practice=False, chart_data=None):
-    identity_email = f"practice-{secrets.token_hex(20)}@soulflow.invalid" if practice else data["email"]
+    identity_email = f"practice-{secrets.token_hex(20)}@sense-and-stars.invalid" if practice else data["email"]
     cid = conn.execute("""INSERT INTO clients(name,email,birth_date,birth_time,birth_place,themes,
                           created_at,is_test,test_owner_id,chart,test_email) VALUES(?,?,?,?,?,?,?,?,?,?,?)""",
                        (data["name"], identity_email, data["birth_date"], data["birth_time"],
@@ -141,7 +143,7 @@ def seed_demo(conn):
     for name,email,bdate,btime,place,themes in clients:
         conn.execute("INSERT INTO clients(name,email,birth_date,birth_time,birth_place,themes,created_at) VALUES(?,?,?,?,?,?,?)", (name,email,bdate,btime,place,json.dumps(themes),now_iso()))
     accounts = []
-    for name,email,role,cid in [("Betreiber · Demo","admin@soulflow.example.org","admin",None), ("Beraterin · Demo","praxis@soulflow.example.org","practitioner",None), ("Lea · Demo","lea@example.org","client",1)]:
+    for name,email,role,cid in [("Betreiber · Demo","admin@sense-and-stars.example.org","admin",None), ("Beraterin · Demo","praxis@sense-and-stars.example.org","practitioner",None), ("Lea · Demo","lea@example.org","client",1)]:
         password = secrets.token_urlsafe(18)
         conn.execute("INSERT INTO users(name,email,password_hash,role,client_id,created_at) VALUES(?,?,?,?,?,?)", (name,email,hash_password(password),role,cid,now_iso()))
         accounts.append({"name":name,"email":email,"password":password,"role":role})
@@ -164,7 +166,7 @@ def initialize():
         mode = "demo" if demo_mode() else "local"
         stored = conn.execute("SELECT value FROM meta WHERE key='mode'").fetchone()
         if stored and stored[0] != mode:
-            raise RuntimeError("Demo und lokale Praxis brauchen getrennte Datenbanken. SOULFLOW_DB prüfen.")
+            raise RuntimeError("Demo und lokale Praxis brauchen getrennte Datenbanken. SENSE_AND_STARS_DB prüfen.")
         conn.execute("INSERT OR IGNORE INTO meta(key,value) VALUES('mode',?)",(mode,))
         if demo_mode():
             seed_demo(conn)
@@ -177,7 +179,7 @@ async def lifespan(_app):
     yield
 
 
-app = FastAPI(title="Sense & Stars",version="1.2.0",lifespan=lifespan,docs_url=None,redoc_url=None,openapi_url=None)
+app = FastAPI(title="Sense & Stars",version="1.2.1",lifespan=lifespan,docs_url=None,redoc_url=None,openapi_url=None)
 app.add_middleware(TrustedHostMiddleware,allowed_hosts=allowed_hosts())
 
 
@@ -192,7 +194,9 @@ async def guard(request: Request, call_next):
     if request.url.path.startswith("/api") and request.method in ("POST","PUT","PATCH","DELETE"):
         origin = request.headers.get("origin")
         expected = public_origin() if hosted() else f"{request.url.scheme}://{request.headers.get('host','')}"
-        if request.headers.get("x-soulflow") != "1" or (origin and origin != expected) or request.headers.get("sec-fetch-site") == "cross-site":
+        valid_csrf = (request.headers.get("x-sense-and-stars") == "1"
+                      or request.headers.get("x-soulflow") == "1")
+        if not valid_csrf or (origin and origin != expected) or request.headers.get("sec-fetch-site") == "cross-site":
             return JSONResponse({"detail":"Sicherheitsprüfung fehlgeschlagen. Bitte Sense & Stars direkt öffnen."},status_code=403)
         try:
             size = int(request.headers.get("content-length","0"))
@@ -225,9 +229,9 @@ async def database_error(_request, _exc):
 
 @app.get("/api/health")
 def health():
-    return {"status":"ok","mode":"hosted" if hosted() else "demo" if demo_mode() else "local","version":"1.2.0",
-            "source_url":os.environ.get("SOULFLOW_SOURCE_URL") if os.environ.get("SOULFLOW_SWISS_LICENSE")=="agpl-3.0" else None,
-            "license":"AGPL-3.0-only" if os.environ.get("SOULFLOW_SWISS_LICENSE")=="agpl-3.0" else None}
+    return {"status":"ok","mode":"hosted" if hosted() else "demo" if demo_mode() else "local","version":"1.2.1",
+            "source_url":setting("SOURCE_URL") if setting("SWISS_LICENSE")=="agpl-3.0" else None,
+            "license":"AGPL-3.0-only" if setting("SWISS_LICENSE")=="agpl-3.0" else None}
 
 
 @app.get("/api/demo")
@@ -263,7 +267,7 @@ def login(data: Login, request: Request, response: Response):
         expiry = (datetime.now(timezone.utc)+timedelta(hours=8)).isoformat()
         conn.execute("INSERT INTO sessions(token_hash,user_id,expires_at) VALUES(?,?,?)",(token_hash(token),row["id"],expiry))
         audit(conn,row,"login")
-    response.set_cookie("soulflow_session",token,httponly=True,samesite="strict",secure=hosted() or request.url.scheme=="https",max_age=28800,path="/")
+    response.set_cookie(SESSION_COOKIE,token,httponly=True,samesite="strict",secure=hosted() or request.url.scheme=="https",max_age=28800,path="/")
     return public_user(row)
 
 
@@ -278,8 +282,12 @@ def me(request: Request):
 @app.post("/api/auth/logout")
 def logout(request: Request, response: Response):
     with get_db() as conn:
-        conn.execute("DELETE FROM sessions WHERE token_hash=?",(token_hash(request.cookies.get("soulflow_session","")),))
-    response.delete_cookie("soulflow_session",path="/",httponly=True,samesite="strict")
+        for cookie in (SESSION_COOKIE, LEGACY_SESSION_COOKIE):
+            token = request.cookies.get(cookie, "")
+            if token:
+                conn.execute("DELETE FROM sessions WHERE token_hash=?",(token_hash(token),))
+    response.delete_cookie(SESSION_COOKIE,path="/",httponly=True,samesite="strict")
+    response.delete_cookie(LEGACY_SESSION_COOKIE,path="/",httponly=True,samesite="strict")
     return {"ok":True}
 
 

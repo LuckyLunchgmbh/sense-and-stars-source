@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Exercise a real HTTPS SoulFlow pilot using dedicated synthetic accounts.
+"""Exercise a real HTTPS Sense & Stars pilot using dedicated synthetic accounts.
 
 This script performs mutations only when explicitly invoked. It never creates
 accounts, publishes lessons, invokes cron, or prints credentials/response bodies.
@@ -118,7 +118,7 @@ class API:
                 origin: str | None = None, headers_check=True) -> httpx.Response:
         headers = {}
         if method != "GET":
-            headers = {"X-SoulFlow": "1", "Origin": origin or str(self.client.base_url).rstrip("/"),
+            headers = {"X-Sense-And-Stars": "1", "Origin": origin or str(self.client.base_url).rstrip("/"),
                        "Sec-Fetch-Site": "same-origin"}
         self.report.data["requests"] += 1
         response = self.client.request(method, path, json=body, headers=headers)
@@ -144,7 +144,7 @@ class API:
         cookie = SimpleCookie()
         for header in response.headers.get_list("set-cookie"):
             cookie.load(header)
-        session = cookie.get("soulflow_session")
+        session = cookie.get("sense_and_stars_session")
         self.report.check(name + ".secure_cookie", session is not None and bool(session["secure"])
                           and bool(session["httponly"]) and session["samesite"].lower() == "strict"
                           and session["path"] == "/")
@@ -159,7 +159,7 @@ class API:
 
 def check_public_source(report: Report, source: str):
     report.check("source.https_url", https_url(source))
-    # A separate client carries no SoulFlow cookies or authentication.
+    # A separate client carries no Sense & Stars cookies or authentication.
     with httpx.Client(timeout=60, follow_redirects=False, trust_env=False) as public:
         current = source
         for _ in range(6):

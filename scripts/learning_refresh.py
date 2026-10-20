@@ -8,10 +8,11 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "backend"))
+from app.config import compatible_database_path, set_setting
 
 
 def main():
-    parser = argparse.ArgumentParser(description="SoulFlow Quellenentwürfe aktualisieren")
+    parser = argparse.ArgumentParser(description="Sense & Stars Quellenentwürfe aktualisieren")
     target = parser.add_mutually_exclusive_group(required=True)
     target.add_argument("--demo", action="store_true", help="Nur synthetische lokale Demodatenbank")
     target.add_argument("--hosted", action="store_true", help="Explizit konfigurierte persistente Hosting-Datenbank")
@@ -20,14 +21,14 @@ def main():
     if args.demo:
         if os.environ.get("DATABASE_URL"):
             parser.error("Demo darf keine DATABASE_URL übernehmen.")
-        os.environ["SOULFLOW_HOSTED"] = "0"
-        os.environ["SOULFLOW_DEMO"] = "1"
-        os.environ["SOULFLOW_DB"] = str(ROOT / "data/demo/soulflow.sqlite3")
+        set_setting("HOSTED", "0")
+        set_setting("DEMO", "1")
+        set_setting("DB", str(compatible_database_path(ROOT / "data/demo")))
     elif not os.environ.get("DATABASE_URL"):
         parser.error("Hosted benötigt eine sicher gesetzte DATABASE_URL; kein lokaler Fallback.")
     else:
-        os.environ["SOULFLOW_HOSTED"] = "1"
-        os.environ["SOULFLOW_DEMO"] = "0"
+        set_setting("HOSTED", "1")
+        set_setting("DEMO", "0")
     from app.main import initialize
     from app.db import get_db
     from app.learning_updates import configure_updates, run_updates, updates_status

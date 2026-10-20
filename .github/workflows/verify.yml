@@ -1,4 +1,4 @@
-name: SoulFlow prüfen
+name: "Sense & Stars prüfen"
 on:
   push:
     branches: [main, 'codex/**']
@@ -14,7 +14,7 @@ jobs:
         image: postgres:17
         env:
           POSTGRES_PASSWORD: synthetic_ci_only
-          POSTGRES_DB: soulflow_test
+          POSTGRES_DB: sense_and_stars_test
         ports: ['5432:5432']
         options: >-
           --health-cmd pg_isready
@@ -22,7 +22,7 @@ jobs:
           --health-timeout 5s
           --health-retries 10
     env:
-      SOULFLOW_TEST_POSTGRES_URL: postgresql://postgres:synthetic_ci_only@127.0.0.1:5432/soulflow_test
+      SENSE_AND_STARS_TEST_POSTGRES_URL: postgresql://postgres:synthetic_ci_only@127.0.0.1:5432/sense_and_stars_test
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

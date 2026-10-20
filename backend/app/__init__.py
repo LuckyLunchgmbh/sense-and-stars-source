@@ -1,1 +1,1 @@
-"""SoulFlow local application."""
+"""Sense & Stars local application."""

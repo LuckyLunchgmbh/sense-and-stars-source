@@ -1,6 +1,6 @@
-# Sense & Stars (SoulFlow)
+# Sense & Stars
 
-Sense & Stars, originally named SoulFlow, is a German-language web application for one spiritual counselling
+Sense & Stars is a German-language web application for one spiritual counselling
 practice. It includes client and appointment management, astronomical radix
 calculations, a client portal, an open learning workspace, personal bookmarks
 and notebooks, fictional practice cases, and a symbolic body view.
@@ -12,14 +12,14 @@ or client records are required to build the application.
 
 ## License and scope
 
-Original SoulFlow application code is licensed under **GNU AGPL version 3**.
+Sense & Stars application code is licensed under **GNU AGPL version 3**.
 See `LICENSE` and `THIRD_PARTY_NOTICES.md` for the applicable notices and the
 separate licenses of dependencies. The symbolic interpretation and learning
 exercises are not medical diagnosis, therapy, evidence of remote perception,
 or a professional qualification.
 
 The deployed release must offer this complete corresponding source to its
-network users. Configure `SOULFLOW_SOURCE_URL` to the matching public release
+network users. Configure `SENSE_AND_STARS_SOURCE_URL` to the matching public release
 tag or commit, rather than an unrelated or private repository.
 
 ## Build and run locally
@@ -55,7 +55,7 @@ node --check frontend/public/sw.js
 ```
 
 The PostgreSQL integration tests additionally require an explicitly isolated
-test database through `SOULFLOW_TEST_POSTGRES_URL`. They create and remove their
+test database through `SENSE_AND_STARS_TEST_POSTGRES_URL`. They create and remove their
 own test schemas. Never point tests at unrelated customer databases. The
 repository workflow supplies a disposable PostgreSQL service for these tests.
 
@@ -67,11 +67,11 @@ function. Frontend and API share one HTTPS origin.
 
 Required server-side environment variables are described in `.env.example`:
 
-- `SOULFLOW_HOSTED=1`, `SOULFLOW_DEMO=0`.
-- `SOULFLOW_PUBLIC_ORIGIN`: exact canonical HTTPS origin.
+- `SENSE_AND_STARS_HOSTED=1`, `SENSE_AND_STARS_DEMO=0`.
+- `SENSE_AND_STARS_PUBLIC_ORIGIN`: exact canonical HTTPS origin.
 - `DATABASE_URL`: durable PostgreSQL connection with TLS.
-- `SOULFLOW_SWISS_LICENSE=agpl-3.0` for this release.
-- `SOULFLOW_SOURCE_URL`: matching publicly accessible source tag or commit.
+- `SENSE_AND_STARS_SWISS_LICENSE=agpl-3.0` for this release.
+- `SENSE_AND_STARS_SOURCE_URL`: matching publicly accessible source tag or commit.
 - `CRON_SECRET`: private random value, at least 24 characters.
 
 Enter real values through private environment configuration. Do not pass

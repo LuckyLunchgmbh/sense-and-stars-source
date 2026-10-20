@@ -4,7 +4,7 @@ V1 convention: 1900-01-01..2100-12-31, Gregorian calendar, apparent geocentric
 ecliptic positions, tropical zodiac, Placidus. House membership uses Swiss
 Ephemeris house_pos including ecliptic latitude, not equal 30-degree sectors.
 The engine is pyswisseph; actual return flags identify Swiss/JPL/Moshier data.
-No ephemeris files are downloaded. SOULFLOW_EPHE_PATH may point to local files.
+No ephemeris files are downloaded. SENSE_AND_STARS_EPHE_PATH may point to local files.
 
 Primary documentation checked 2026-10-20:
 https://www.astro.com/swisseph/swephprg.htm
@@ -48,6 +48,7 @@ from fastapi import APIRouter, HTTPException, Query, Request
 from timezonefinder import TimezoneFinder
 
 from .security import require_staff
+from .config import compatible_database_path, setting
 
 router = APIRouter(prefix="/api/astro", tags=["astro"])
 _EPHEMERIS_LOCK = threading.Lock()
@@ -79,10 +80,11 @@ def _normalized(value: str) -> str:
 
 
 def _cache_path() -> Path:
-    explicit = os.environ.get("SOULFLOW_ASTRO_CACHE")
+    explicit = setting("ASTRO_CACHE")
     if explicit:
         return Path(explicit).expanduser()
-    database = Path(os.environ.get("SOULFLOW_DB", str(Path(__file__).resolve().parents[2] / "data" / "soulflow.sqlite3"))).expanduser()
+    root = Path(__file__).resolve().parents[2]
+    database = Path(setting("DB") or compatible_database_path(root / "data")).expanduser()
     return database.parent / "astro-places.sqlite3"
 
 
@@ -169,7 +171,7 @@ def _timezone_name(latitude: float, longitude: float) -> str:
 
 def _query_provider(query: str) -> list[dict]:
     """Single explicit query with an application-wide persistent rate limit."""
-    endpoint = os.environ.get("SOULFLOW_NOMINATIM_URL", "https://nominatim.openstreetmap.org/search")
+    endpoint = setting("NOMINATIM_URL", "https://nominatim.openstreetmap.org/search")
     with _PROVIDER_LOCK:
         # Reserving starts in SQLite also coordinates multiple local workers.
         with _cache() as conn:
@@ -183,7 +185,7 @@ def _query_provider(query: str) -> list[dict]:
         response = httpx.get(
             endpoint,
             params={"q": query, "format": "jsonv2", "limit": 8, "featureType": "settlement", "accept-language": "de,en"},
-            headers={"User-Agent": "SoulFlow/1.0 (local single-practice PWA; explicit place search)", "Accept": "application/json"},
+            headers={"User-Agent": "Sense-And-Stars/1.1 (local single-practice PWA; explicit place search)", "Accept": "application/json"},
             timeout=8.0,
             follow_redirects=False,
         )
@@ -314,7 +316,7 @@ def calculate_chart(birth_date: str, birth_time: str, place: dict, fold: int | N
     planets, ephemerides = [], set()
     # Swiss Ephemeris owns process-level state (path, Delta-T configuration).
     with _EPHEMERIS_LOCK:
-        swe.set_ephe_path(os.environ.get("SOULFLOW_EPHE_PATH", str(Path(__file__).resolve().parents[2] / "data" / "ephemeris")))
+        swe.set_ephe_path(setting("EPHE_PATH", str(Path(__file__).resolve().parents[2] / "data" / "ephemeris")))
         julian_day = swe.julday(utc.year, utc.month, utc.day, hour, swe.GREG_CAL)
         try:
             cusps, ascmc = swe.houses_ex(julian_day, latitude, longitude, b"P", 0)
@@ -356,7 +358,7 @@ def calculate_chart(birth_date: str, birth_time: str, place: dict, fold: int | N
         "utc_offset_seconds": int(local.utcoffset().total_seconds()),
         "timezone_source": f"timezonefinder {_package_version('timezonefinder')} (heutige Ortsgrenzen) + Python zoneinfo/IANA (historische UTC-Offsets); tzdata {_package_version('tzdata')}",
         "coordinates": {"latitude": latitude, "longitude": longitude, "place_id": cached["id"], "label": cached["label"], "source": cached["source"]},
-        "source": {"engine": "pyswisseph", "version": swe.__version__, "swiss_ephemeris_version": swe.version, "requested_ephemeris": "Swiss Ephemeris", "actual_ephemerides": sorted(ephemerides), "reference": "https://www.astro.com/swisseph/swephprg.htm", "license": "pyswisseph AGPLv3; SoulFlow AGPL-3.0-only (siehe LICENSE)"},
+        "source": {"engine": "pyswisseph", "version": swe.__version__, "swiss_ephemeris_version": swe.version, "requested_ephemeris": "Swiss Ephemeris", "actual_ephemerides": sorted(ephemerides), "reference": "https://www.astro.com/swisseph/swephprg.htm", "license": "pyswisseph AGPLv3; Sense & Stars AGPL-3.0-only (siehe LICENSE)"},
         "house_system": "Placidus",
         "house_membership": "Swiss Ephemeris house_pos with ecliptic latitude",
         "zodiac": "tropical",

@@ -2,23 +2,23 @@ import pytest
 
 
 def configured(monkeypatch):
-    monkeypatch.setenv("SOULFLOW_HOSTED", "1")
-    monkeypatch.setenv("SOULFLOW_DEMO", "0")
-    monkeypatch.setenv("SOULFLOW_PUBLIC_ORIGIN", "https://soulflow.example.org")
-    monkeypatch.setenv("DATABASE_URL", "postgresql://test@db.example.org/soulflow?sslmode=require")
+    monkeypatch.setenv("SENSE_AND_STARS_HOSTED", "1")
+    monkeypatch.setenv("SENSE_AND_STARS_DEMO", "0")
+    monkeypatch.setenv("SENSE_AND_STARS_PUBLIC_ORIGIN", "https://sense-and-stars.example.org")
+    monkeypatch.setenv("DATABASE_URL", "postgresql://test@db.example.org/sense_and_stars?sslmode=require")
 
 
 def test_hosted_requires_explicit_license_and_persistence(monkeypatch):
     configured(monkeypatch)
     from app.runtime import validate_hosted_settings
-    monkeypatch.delenv("SOULFLOW_SWISS_LICENSE", raising=False)
+    monkeypatch.delenv("SENSE_AND_STARS_SWISS_LICENSE", raising=False)
     with pytest.raises(RuntimeError, match="Lizenz"):
         validate_hosted_settings()
-    monkeypatch.setenv("SOULFLOW_SWISS_LICENSE", "agpl-3.0")
-    monkeypatch.delenv("SOULFLOW_SOURCE_URL", raising=False)
+    monkeypatch.setenv("SENSE_AND_STARS_SWISS_LICENSE", "agpl-3.0")
+    monkeypatch.delenv("SENSE_AND_STARS_SOURCE_URL", raising=False)
     with pytest.raises(RuntimeError, match="Quellcode"):
         validate_hosted_settings()
-    monkeypatch.setenv("SOULFLOW_SOURCE_URL", "https://github.com/example/soulflow")
+    monkeypatch.setenv("SENSE_AND_STARS_SOURCE_URL", "https://github.com/example/sense-and-stars")
     validate_hosted_settings()
     monkeypatch.delenv("DATABASE_URL")
     with pytest.raises(RuntimeError, match="DATABASE_URL"):
@@ -28,7 +28,7 @@ def test_hosted_requires_explicit_license_and_persistence(monkeypatch):
 @pytest.mark.parametrize("origin", ["http://example.org", "https://user:password@example.org", "https://example.org/other", "https://example.org?token=test"])
 def test_hosted_origin_is_exact_https_without_credentials(monkeypatch, origin):
     configured(monkeypatch)
-    monkeypatch.setenv("SOULFLOW_PUBLIC_ORIGIN", origin)
+    monkeypatch.setenv("SENSE_AND_STARS_PUBLIC_ORIGIN", origin)
     from app.runtime import public_origin
     with pytest.raises(RuntimeError):
         public_origin()
@@ -36,16 +36,17 @@ def test_hosted_origin_is_exact_https_without_credentials(monkeypatch, origin):
 
 def test_hosted_never_exposes_local_demo_accounts(monkeypatch):
     configured(monkeypatch)
-    monkeypatch.setenv("SOULFLOW_DEMO", "1")
+    monkeypatch.setenv("SENSE_AND_STARS_DEMO", "1")
     from app.runtime import validate_hosted_settings
     with pytest.raises(RuntimeError, match="Demo"):
         validate_hosted_settings()
 
 
-def test_public_health_exposes_source_offer_without_secrets(monkeypatch):
+@pytest.mark.parametrize("prefix", ["SENSE_AND_STARS", "SOULFLOW"])
+def test_public_health_exposes_source_offer_without_secrets(monkeypatch, prefix):
     configured(monkeypatch)
-    monkeypatch.setenv("SOULFLOW_SWISS_LICENSE", "agpl-3.0")
-    monkeypatch.setenv("SOULFLOW_SOURCE_URL", "https://github.com/example/source/tree/v1.1.0")
+    monkeypatch.setenv(prefix + "_SWISS_LICENSE", "agpl-3.0")
+    monkeypatch.setenv(prefix + "_SOURCE_URL", "https://github.com/example/source/tree/v1.1.0")
     monkeypatch.setenv("CRON_SECRET", "private-test-only-secret-not-for-response")
     from app.main import health
     result = health()
@@ -56,17 +57,17 @@ def test_public_health_exposes_source_offer_without_secrets(monkeypatch):
 
 def test_hosted_includes_only_exact_platform_deployment_host(monkeypatch):
     configured(monkeypatch)
-    monkeypatch.setenv("VERCEL_URL", "soulflow-qa-deployment.vercel.app")
+    monkeypatch.setenv("VERCEL_URL", "sense-and-stars-qa-deployment.vercel.app")
     from app.runtime import allowed_hosts
-    assert allowed_hosts() == ["soulflow.example.org", "soulflow-qa-deployment.vercel.app"]
+    assert allowed_hosts() == ["sense-and-stars.example.org", "sense-and-stars-qa-deployment.vercel.app"]
 
 
-@pytest.mark.parametrize("value", ["*.vercel.app", "https://soulflow.vercel.app", "user@soulflow.vercel.app", "other.example.org", "soulflow.vercel.app:443"])
+@pytest.mark.parametrize("value", ["*.vercel.app", "https://sense-and-stars.vercel.app", "user@sense-and-stars.vercel.app", "other.example.org", "sense-and-stars.vercel.app:443"])
 def test_platform_host_rejects_wildcards_urls_and_other_domains(monkeypatch, value):
     configured(monkeypatch)
     monkeypatch.setenv("VERCEL_URL", value)
     from app.runtime import allowed_hosts
-    assert allowed_hosts() == ["soulflow.example.org"]
+    assert allowed_hosts() == ["sense-and-stars.example.org"]
 
 
 def test_deployment_host_is_restricted_to_authenticated_cron_route(monkeypatch):
@@ -75,13 +76,13 @@ def test_deployment_host_is_restricted_to_authenticated_cron_route(monkeypatch):
     from starlette.responses import Response
     from app.main import guard
     configured(monkeypatch)
-    monkeypatch.setenv("VERCEL_URL", "soulflow-qa-deployment.vercel.app")
+    monkeypatch.setenv("VERCEL_URL", "sense-and-stars-qa-deployment.vercel.app")
     async def endpoint(_request):
         return Response(status_code=204)
     def request(path, method="GET"):
         return Request({"type":"http", "method":method, "scheme":"https", "path":path,
-                        "headers":[(b"host",b"soulflow-qa-deployment.vercel.app")],
-                        "client":("203.0.113.7",1234), "server":("soulflow-qa-deployment.vercel.app",443)})
+                        "headers":[(b"host",b"sense-and-stars-qa-deployment.vercel.app")],
+                        "client":("203.0.113.7",1234), "server":("sense-and-stars-qa-deployment.vercel.app",443)})
     # The endpoint itself still requires its bearer secret; this checks routing.
     assert asyncio.run(guard(request("/api/internal/learning-updates"),endpoint)).status_code == 204
     assert asyncio.run(guard(request("/api/auth/me"),endpoint)).status_code == 400

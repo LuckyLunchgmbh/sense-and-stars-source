@@ -11,7 +11,7 @@ if sys.version_info < (3,11):
     bundled=Path.home()/".cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3"
     if bundled.exists():
         os.execv(str(bundled),[str(bundled),str(Path(__file__).resolve())])
-    sys.exit("SoulFlow benötigt Python 3.11 oder neuer. Keine globale Installation wurde vorgenommen.")
+    sys.exit("Sense & Stars benötigt Python 3.11 oder neuer. Keine globale Installation wurde vorgenommen.")
 if not shutil.which("npm"):
     sys.exit("Node.js mit npm wird benötigt. Keine globale Installation wurde vorgenommen.")
 venv=root/".venv"

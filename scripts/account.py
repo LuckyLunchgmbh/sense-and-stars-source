@@ -8,8 +8,10 @@ import sys
 
 root=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(root/"backend"))
-os.environ["SOULFLOW_DEMO"]="0"
-os.environ.setdefault("SOULFLOW_DB",str(root/"data/local/soulflow.sqlite3"))
+from app.config import compatible_database_path, set_setting, setting
+set_setting("DEMO", "0")
+if not setting("DB"):
+    set_setting("DB", str(compatible_database_path(root / "data/local")))
 from app.main import initialize
 from app.db import get_db
 from app.security import hash_password,now_iso

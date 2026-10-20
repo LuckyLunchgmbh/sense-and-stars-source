@@ -8,8 +8,8 @@ from fastapi.testclient import TestClient
 
 @pytest.fixture
 def api(tmp_path, monkeypatch):
-    monkeypatch.setenv("SOULFLOW_DB", str(tmp_path / "test.sqlite3"))
-    monkeypatch.setenv("SOULFLOW_DEMO", "1")
+    monkeypatch.setenv("SENSE_AND_STARS_DB", str(tmp_path / "test.sqlite3"))
+    monkeypatch.setenv("SENSE_AND_STARS_DEMO", "1")
     from app.main import app
     with TestClient(app) as client:
         yield client
@@ -18,7 +18,7 @@ def api(tmp_path, monkeypatch):
 def login(api, role="admin"):
     accounts = api.get("/api/demo").json()["accounts"]
     account = next(a for a in accounts if a["role"] == role)
-    r = api.post("/api/auth/login", json={"email": account["email"], "password": account["password"]}, headers={"X-SoulFlow": "1"})
+    r = api.post("/api/auth/login", json={"email": account["email"], "password": account["password"]}, headers={"X-Sense-And-Stars": "1"})
     assert r.status_code == 200, r.text
     cookie = r.headers["set-cookie"].lower()
     assert "httponly" in cookie and "samesite=strict" in cookie
@@ -26,7 +26,7 @@ def login(api, role="admin"):
 
 
 def post(api, path, data):
-    return api.post(path, json=data, headers={"X-SoulFlow": "1"})
+    return api.post(path, json=data, headers={"X-Sense-And-Stars": "1"})
 
 
 def future_slot(days=10):
@@ -37,9 +37,31 @@ def test_auth_csrf_logout_and_cookie(api):
     assert api.get("/api/clients").status_code == 401
     assert api.post("/api/auth/login", json={"email": "x@example.test", "password": "bad"}).status_code == 403
     login(api)
-    assert api.cookies.get("soulflow_session")
+    assert api.cookies.get("sense_and_stars_session")
     assert api.get("/api/clients").headers["cache-control"] == "no-store"
     assert post(api, "/api/auth/logout", {}).status_code == 200
+    assert api.get("/api/auth/me").status_code == 401
+
+
+def test_legacy_header_and_cookie_remain_compatible_during_transition(api):
+    accounts = api.get("/api/demo").json()["accounts"]
+    account = next(a for a in accounts if a["role"] == "admin")
+    response = api.post(
+        "/api/auth/login",
+        json={"email": account["email"], "password": account["password"]},
+        headers={"X-SoulFlow": "1"},
+    )
+    assert response.status_code == 200, response.text
+    token = api.cookies.get("sense_and_stars_session")
+    api.cookies.delete("sense_and_stars_session")
+    api.cookies.set("soulflow_session", token)
+    assert api.get("/api/auth/me").status_code == 200
+
+    logged_out = api.post("/api/auth/logout", json={}, headers={"X-Sense-And-Stars": "1"})
+    assert logged_out.status_code == 200
+    deleted = logged_out.headers.get_list("set-cookie")
+    assert any(value.startswith("sense_and_stars_session=") and "Max-Age=0" in value for value in deleted)
+    assert any(value.startswith("soulflow_session=") and "Max-Age=0" in value for value in deleted)
     assert api.get("/api/auth/me").status_code == 401
 
 
@@ -88,7 +110,7 @@ def test_invalid_inputs_and_origin(api):
     assert post(api, "/api/clients", {"name": "X", "email": "not-email"}).status_code == 422
     assert post(api, "/api/clients", {"name": "X", "email": "x@example.org", "birth_date": "2020-02-31"}).status_code == 422
     assert post(api, "/api/clients/1/resources", {"kind":"audio", "title":"Test", "body":"", "shared":True,"audio_url":"javascript:alert(1)"}).status_code == 422
-    assert api.post("/api/auth/logout", json={}, headers={"X-SoulFlow":"1", "Origin":"https://evil.example"}).status_code == 403
+    assert api.post("/api/auth/logout", json={}, headers={"X-Sense-And-Stars":"1", "Origin":"https://evil.example"}).status_code == 403
 
 
 def test_login_throttle(api):
@@ -106,7 +128,7 @@ def test_session_flow_requires_preparation_and_valid_state(api):
     assert post(api, f"/api/appointments/{aid}/start", {}).status_code == 409
     assert post(api, f"/api/appointments/{aid}/prepare", {"acknowledged":True}).status_code == 200
     assert post(api, f"/api/appointments/{aid}/start", {}).json()["status"] == "in_progress"
-    assert api.patch(f"/api/appointments/{aid}",json={"status":"completed"},headers={"X-SoulFlow":"1"}).json()["status"] == "completed"
+    assert api.patch(f"/api/appointments/{aid}",json={"status":"completed"},headers={"X-Sense-And-Stars":"1"}).json()["status"] == "completed"
     assert post(api, f"/api/appointments/{aid}/start", {}).status_code == 409
 
 
@@ -115,7 +137,7 @@ def test_birth_changes_revoke_chart_release(api):
     from app.db import get_db
     with get_db() as conn:
         conn.execute("UPDATE clients SET chart='{}',chart_shared=1 WHERE id=1")
-    updated = api.patch("/api/clients/1",json={"birth_time":"10:00"},headers={"X-SoulFlow":"1"})
+    updated = api.patch("/api/clients/1",json={"birth_time":"10:00"},headers={"X-Sense-And-Stars":"1"})
     assert updated.status_code == 200, updated.text
     assert updated.json()["chart"] is None
     assert updated.json()["chart_shared"] is False
@@ -138,21 +160,21 @@ def test_concurrent_booking_has_one_winner(api):
 
 def test_logout_revokes_replayed_cookie(api):
     login(api)
-    old_token=api.cookies.get("soulflow_session")
+    old_token=api.cookies.get("sense_and_stars_session")
     post(api,"/api/auth/logout",{})
-    api.cookies.set("soulflow_session",old_token)
+    api.cookies.set("sense_and_stars_session",old_token)
     assert api.get("/api/auth/me").status_code==401
 
 
 def test_chart_payload_and_permissions_are_not_browser_controlled(api):
     login(api)
     assert post(api,"/api/clients/1/chart",{"place_id":"anything", "latitude":52.5,"longitude":13.4}).status_code==422
-    assert api.patch("/api/clients/1",json={"role":"admin"},headers={"X-SoulFlow":"1"}).status_code==422
+    assert api.patch("/api/clients/1",json={"role":"admin"},headers={"X-Sense-And-Stars":"1"}).status_code==422
 
 
 def test_plain_local_mode_has_no_demo_passwords(tmp_path,monkeypatch):
-    monkeypatch.setenv("SOULFLOW_DB",str(tmp_path/"local.sqlite3"))
-    monkeypatch.setenv("SOULFLOW_DEMO","0")
+    monkeypatch.setenv("SENSE_AND_STARS_DB",str(tmp_path/"local.sqlite3"))
+    monkeypatch.setenv("SENSE_AND_STARS_DEMO","0")
     from app.main import app
     with TestClient(app) as client:
         assert client.get("/api/demo").status_code==404

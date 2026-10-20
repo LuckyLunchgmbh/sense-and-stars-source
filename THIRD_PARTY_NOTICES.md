@@ -7,7 +7,7 @@ It is an engineering inventory, not legal advice or a legal opinion.
 
 ## License scope
 
-The original SoulFlow program source released with these notices is licensed
+The Sense & Stars program source released with these notices is licensed
 under **GNU Affero General Public License v3.0 only (AGPL-3.0-only)**, unless
 a file or component says otherwise. The unmodified complete license text is in
 LICENSE. The AGPL does not replace or relicense third-party components, data,
@@ -36,7 +36,7 @@ lockfiles, and local modifications for that revision.
 - **Nominatim / OpenStreetMap results** — obtained only when a user explicitly
   searches for a place. Returned records are attributed in the application as
   © OpenStreetMap contributors under ODbL. They are external runtime data, not
-  SoulFlow-authored data. See https://www.openstreetmap.org/copyright.
+  Sense & Stars-authored data. See https://www.openstreetmap.org/copyright.
 - **IANA time-zone data** — used through Python zoneinfo or the conditional
   tzdata package. The IANA database and the Python package retain their own
   notices; see https://www.iana.org/time-zones and
@@ -44,7 +44,7 @@ lockfiles, and local modifications for that revision.
 
 ## Editorial references
 
-The learning modules contain original SoulFlow summaries, exercises, and
+The learning modules contain Sense & Stars summaries, exercises, and
 questions together with citations to public source pages. The cited websites,
 teachers, organisations, course descriptions, and publication titles are not
 copied into this repository and are not relicensed under the AGPL. A citation

@@ -1633,7 +1633,10 @@ export function AdminPage(props: PageProps) {
         method: "POST",
         credentials: "same-origin",
         cache: "no-store",
-        headers: { "Content-Type": "application/json", "X-SoulFlow": "1" },
+        headers: {
+          "Content-Type": "application/json",
+          "X-Sense-And-Stars": "1",
+        },
         body: "{}",
       });
       const result = (await response.json()) as LearningUpdateResult & {

@@ -18,7 +18,7 @@ with sqlite3.connect(source.as_uri()+"?mode=ro",uri=True) as original:
     if original.execute("PRAGMA integrity_check").fetchone()[0]!="ok": sys.exit("Sicherung ist beschädigt.")
     try:
         mode=original.execute("SELECT value FROM meta WHERE key='mode'").fetchone()[0]
-    except (sqlite3.DatabaseError,TypeError): sys.exit("Keine SoulFlow-Sicherung.")
+    except (sqlite3.DatabaseError,TypeError): sys.exit("Keine Sense-&-Stars-Sicherung.")
     if mode not in ("local","demo"): sys.exit("Unbekannter Datenbankmodus.")
     # Exclusive filesystem creation also closes a time-of-check/time-of-use gap.
     with target.open("xb"):
@@ -29,4 +29,4 @@ with sqlite3.connect(source.as_uri()+"?mode=ro",uri=True) as original:
         restored.execute("DELETE FROM sessions")
         if restored.execute("PRAGMA integrity_check").fetchone()[0]!="ok": sys.exit("Wiederherstellung nicht gültig.")
 print("Neue Datenbank geprüft, alte Sitzungen widerrufen: "+str(target))
-print("Modus: "+mode+". Start über SOULFLOW_DB mit diesem Pfad; vorhandenen Server vorher stoppen.")
+print("Modus: "+mode+". Start über SENSE_AND_STARS_DB mit diesem Pfad; vorhandenen Server vorher stoppen.")

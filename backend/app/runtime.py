@@ -3,15 +3,17 @@ import os
 import re
 from urllib.parse import parse_qs, urlsplit
 
+from .config import setting
+
 
 def hosted():
-    return os.environ.get("SOULFLOW_HOSTED") == "1"
+    return setting("HOSTED") == "1"
 
 
 def public_origin():
     if not hosted():
         return None
-    value = os.environ.get("SOULFLOW_PUBLIC_ORIGIN", "")
+    value = setting("PUBLIC_ORIGIN", "")
     try:
         parsed = urlsplit(value)
         valid = (parsed.scheme == "https" and parsed.hostname and not parsed.username
@@ -20,7 +22,7 @@ def public_origin():
     except ValueError:
         valid = False
     if not valid:
-        raise RuntimeError("SOULFLOW_PUBLIC_ORIGIN benötigt die genaue HTTPS-App-Adresse ohne Zugangsdaten.")
+        raise RuntimeError("SENSE_AND_STARS_PUBLIC_ORIGIN benötigt die genaue HTTPS-App-Adresse ohne Zugangsdaten.")
     return value.rstrip("/")
 
 
@@ -40,7 +42,7 @@ def allowed_hosts():
 def validate_hosted_settings():
     if not hosted():
         return
-    if os.environ.get("SOULFLOW_DEMO") == "1":
+    if setting("DEMO") == "1":
         raise RuntimeError("Lokale Demo-Zugänge dürfen nicht öffentlich gehostet werden.")
     public_origin()
     url = os.environ.get("DATABASE_URL", "")
@@ -49,10 +51,10 @@ def validate_hosted_settings():
         raise RuntimeError("Onlinebetrieb benötigt eine dauerhafte DATABASE_URL.")
     if parsed.hostname not in ("localhost", "127.0.0.1", "::1") and parse_qs(parsed.query).get("sslmode", [""])[0] not in ("require", "verify-ca", "verify-full"):
         raise RuntimeError("Die dauerhafte Datenbank benötigt TLS (sslmode=require oder strenger).")
-    license_choice = os.environ.get("SOULFLOW_SWISS_LICENSE", "")
+    license_choice = setting("SWISS_LICENSE", "")
     if license_choice not in ("agpl-3.0", "professional"):
         raise RuntimeError("Vor öffentlichem Betrieb ist eine ausdrückliche Swiss-Ephemeris-Lizenzwahl nötig.")
     if license_choice == "agpl-3.0":
-        source = urlsplit(os.environ.get("SOULFLOW_SOURCE_URL", ""))
+        source = urlsplit(setting("SOURCE_URL", ""))
         if source.scheme != "https" or not source.hostname or source.username or source.password:
             raise RuntimeError("Die freigegebene AGPL-Fassung benötigt einen zugänglichen Quellcode-Link.")

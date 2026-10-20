@@ -24,7 +24,7 @@ _REAL_PROVIDER = astro._query_provider
 
 @pytest.fixture(autouse=True)
 def isolated_cache(tmp_path, monkeypatch):
-    monkeypatch.setenv("SOULFLOW_ASTRO_CACHE", str(tmp_path / "places.sqlite3"))
+    monkeypatch.setenv("SENSE_AND_STARS_ASTRO_CACHE", str(tmp_path / "places.sqlite3"))
 
     def no_network(_query):
         raise AssertionError("Tests must explicitly mock every remote place query")
@@ -120,7 +120,7 @@ def test_provider_rate_limit_and_transmitted_data(monkeypatch):
     _REAL_PROVIDER("Neustadt")
     assert calls[1][0] - calls[0][0] >= 1.0
     assert calls[0][2]["params"] == {"q": "Heidelberg", "format": "jsonv2", "limit": 8, "featureType": "settlement", "accept-language": "de,en"}
-    assert calls[0][2]["headers"]["User-Agent"].startswith("SoulFlow/")
+    assert calls[0][2]["headers"]["User-Agent"].startswith("Sense-And-Stars/")
     assert calls[0][2]["timeout"] <= 10
     assert "json" not in calls[0][2] and "data" not in calls[0][2]
 
@@ -196,7 +196,7 @@ def test_polar_placidus_failure_is_explicit(monkeypatch):
 
 
 def test_ephemeris_fallback_is_visible(berlin, monkeypatch, tmp_path):
-    monkeypatch.setenv("SOULFLOW_EPHE_PATH", str(tmp_path / "no-ephemeris-files"))
+    monkeypatch.setenv("SENSE_AND_STARS_EPHE_PATH", str(tmp_path / "no-ephemeris-files"))
     chart = astro.calculate_chart("2000-01-01", "13:00", berlin)
     assert "Moshier" in chart["source"]["actual_ephemerides"]
     assert any("Moshier" in warning for warning in chart["warnings"])

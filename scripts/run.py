@@ -11,6 +11,9 @@ import urllib.request
 import webbrowser
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "backend"))
+from app.config import compatible_database_path, set_setting, setting
+
 parser=argparse.ArgumentParser(description="Sense & Stars lokal starten")
 parser.add_argument("--demo",action="store_true",help="Nur synthetische Beispieldaten")
 parser.add_argument("--port",type=int,default=8768)
@@ -33,8 +36,9 @@ try:
 except (urllib.error.URLError,TimeoutError,ConnectionError):
     pass
 env=os.environ.copy()
-env["SOULFLOW_DEMO"]="1" if args.demo else "0"
-env.setdefault("SOULFLOW_DB",str(ROOT/"data"/("demo" if args.demo else "local")/"soulflow.sqlite3"))
+set_setting("DEMO", "1" if args.demo else "0", environ=env)
+if not setting("DB", environ=env):
+    set_setting("DB", str(compatible_database_path(ROOT / "data" / ("demo" if args.demo else "local"))), environ=env)
 print("Sense & Stars "+("DEMO · nur erfundene Daten" if args.demo else "lokaler Kontobetrieb")+" · "+url,flush=True)
 if args.open:
     # Browser can load while uvicorn starts; the launcher remains the foreground process.

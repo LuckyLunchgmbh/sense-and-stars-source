@@ -8,14 +8,17 @@ import sqlite3
 import sys
 
 root=Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(root / "backend"))
+from app.config import compatible_database_path, setting
+
 parser=argparse.ArgumentParser(description="Konsistente lokale Sicherung")
 parser.add_argument("--demo",action="store_true")
 args=parser.parse_args()
-source=Path(os.environ.get("SOULFLOW_DB",root/"data"/("demo" if args.demo else "local")/"soulflow.sqlite3")).resolve()
+source=Path(setting("DB") or compatible_database_path(root / "data" / ("demo" if args.demo else "local"))).resolve()
 if not source.exists(): sys.exit("Datenbank nicht vorhanden.")
 folder=source.parent/"backups"
 folder.mkdir(mode=0o700,parents=True,exist_ok=True)
-target=folder/("soulflow-"+datetime.now().strftime("%Y%m%d-%H%M%S-%f")+".sqlite3")
+target=folder/("sense-and-stars-"+datetime.now().strftime("%Y%m%d-%H%M%S-%f")+".sqlite3")
 with sqlite3.connect(source.as_uri()+"?mode=ro",uri=True) as original, sqlite3.connect(target) as backup:
     original.backup(backup)
     if backup.execute("PRAGMA integrity_check").fetchone()[0]!="ok":

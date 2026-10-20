@@ -12,10 +12,11 @@ def test_backup_and_restore_revoke_sessions_without_overwriting(tmp_path):
     source=tmp_path/"source.sqlite3"
     with sqlite3.connect(source) as conn:
         conn.executescript("CREATE TABLE meta(key TEXT PRIMARY KEY,value TEXT); INSERT INTO meta VALUES('mode','demo'); CREATE TABLE sessions(token TEXT); INSERT INTO sessions VALUES('TEST'); CREATE TABLE records(id INTEGER); INSERT INTO records VALUES(42);")
-    env={**os.environ,"SOULFLOW_DB":str(source)}
+    env={**os.environ,"SENSE_AND_STARS_DB":str(source)}
     backup=subprocess.run([sys.executable,str(ROOT/"scripts/backup.py"),"--demo"],env=env,capture_output=True,text=True)
     assert backup.returncode==0,backup.stderr
     saved=next((tmp_path/"backups").glob("*.sqlite3"))
+    assert saved.name.startswith("sense-and-stars-")
     target=tmp_path/"restored.sqlite3"
     command=[sys.executable,str(ROOT/"scripts/restore.py"),str(saved),str(target)]
     restored=subprocess.run(command,capture_output=True,text=True)

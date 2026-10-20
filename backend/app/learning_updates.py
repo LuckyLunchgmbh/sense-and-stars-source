@@ -158,7 +158,7 @@ def fetch_public_html(url):
     address = resolve_public_address(host)
     connection = _PinnedHTTPS(host,address,max(0.1,FETCH_TIMEOUT-(time.monotonic()-started)))
     try:
-        connection.request("GET",urlsplit(canonical).path,headers={"User-Agent":"SoulFlow-source-review/1.1", "Accept":"text/html", "Accept-Encoding":"identity"})
+        connection.request("GET",urlsplit(canonical).path,headers={"User-Agent":"Sense-And-Stars-source-review/1.1", "Accept":"text/html", "Accept-Encoding":"identity"})
         remaining=FETCH_TIMEOUT-(time.monotonic()-started)
         if remaining<=0:
             raise TimeoutError("Die Quellen-Zeitgrenze ist erreicht.")

@@ -24,6 +24,7 @@ from pydantic import BaseModel, ConfigDict, Field, StrictBool, StrictInt, Valida
 
 from .db import get_db
 from .security import require_admin, require_staff
+from .config import setting
 
 router = APIRouter()
 MAX_WEEK = 260
@@ -215,11 +216,11 @@ SEED_LESSONS = (
     {
         "title": "Ankommen, zuhören und Grenzen achten", "category": "Beratungspraxis", "week": 1,
         "summary": "Ein freiwilliger Einstieg, empathisches Nachfragen und ein klarer Beratungsrahmen.",
-        "body": "Redaktioneller Praxisimpuls · SoulFlow, 20.10.2026\n\n"
+        "body": "Redaktioneller Praxisimpuls · Sense & Stars, 20.10.2026\n\n"
         "Die WHO beschreibt im Selbsthilfeleitfaden ‚Doing What Matters in Times of Stress‘ unter anderem "
         "Grounding: gegenwärtige Gedanken und Gefühle bemerken, Körperkontakt wahrnehmen und sich der Umgebung zuwenden. "
         "Der Leitfaden ist keine Quelle für Astrologie.\n\n"
-        "Eigenständiges SoulFlow-Alltagsbeispiel: Frage zu Beginn ‚Möchtest du erst kurz ankommen oder direkt erzählen?‘ "
+        "Eigenständiges Sense-&-Stars-Alltagsbeispiel: Frage zu Beginn ‚Möchtest du erst kurz ankommen oder direkt erzählen?‘ "
         "Bei Zustimmung kann die Person einen Gegenstand im Raum betrachten, ein Geräusch bemerken und den Kontakt "
         "zur Sitzfläche oder zum Boden wahrnehmen. Augen und Atmung dürfen so bleiben, wie es angenehm ist. "
         "Ein Nein, eine Pause oder ein Themenwechsel sind jederzeit möglich. Die Einladung verspricht keine bestimmte Wirkung.\n\n"
@@ -229,7 +230,7 @@ SEED_LESSONS = (
         "Grenzen benennen: ‚Wir können deine Fragen spirituell reflektieren. Ich stelle keine Diagnose und biete "
         "hier keine medizinische oder psychotherapeutische Behandlung an.‘ Bei Anliegen außerhalb des eigenen "
         "Rahmens wird dieser offengelegt. Dieses redaktionelle Gesprächsbeispiel ist keine WHO-Empfehlung "
-        "für SoulFlow und kein Nachweis einer Beratungskompetenz; das Quiz prüft nur den Lerntext.",
+        "für Sense & Stars und kein Nachweis einer Beratungskompetenz; das Quiz prüft nur den Lerntext.",
         "source_url": "https://www.who.int/publications/i/item/9789240003927",
         "source_title": "WHO · Doing What Matters in Times of Stress (2020), Abschnitt Grounding",
         "quiz": [
@@ -240,11 +241,11 @@ SEED_LESSONS = (
     {
         "title": "Häuser als offene Gesprächslandkarte", "category": "Astro-Grundlagen", "week": 2,
         "summary": "Berechnete Häuser von spirituellen Themen und persönlichen Aussagen unterscheiden.",
-        "body": "Redaktioneller Grundlagenimpuls · SoulFlow, 20.10.2026\n\n"
+        "body": "Redaktioneller Grundlagenimpuls · Sense & Stars, 20.10.2026\n\n"
         "Die Swiss-Ephemeris-Dokumentation beschreibt unterschiedliche Berechnungsverfahren für Häuser. "
-        "Zeitpunkt, geografischer Ort und gewähltes Häusersystem gehören zur Berechnung. SoulFlow V1 verwendet "
+        "Zeitpunkt, geografischer Ort und gewähltes Häusersystem gehören zur Berechnung. Sense & Stars V1 verwendet "
         "Placidus und gibt das System im Ergebnis an. Die mathematische Dokumentation belegt keine Persönlichkeitsdeutung.\n\n"
-        "Für dieses spirituelle Gesprächsbeispiel nutzt SoulFlow folgende konventionelle Themenanker: "
+        "Für dieses spirituelle Gesprächsbeispiel nutzt Sense & Stars folgende konventionelle Themenanker: "
         "Haus 1 – Auftreten und Selbstbild; Haus 4 – Zuhause und Zugehörigkeit; Haus 7 – Begegnung und Beziehungen; "
         "Haus 10 – öffentliche Rolle und berufliche Ausrichtung. Diese Zuordnungen sind Deutungskonventionen, "
         "keine wissenschaftlichen oder psychologischen Befunde.\n\n"
@@ -265,11 +266,11 @@ SEED_LESSONS = (
     {
         "title": "Geburtszeit: Herkunft und Unsicherheit", "category": "Sorgfältige Praxis", "week": 3,
         "summary": "Ortszeit, Zeitzone und unbekannte Angaben nachvollziehbar festhalten.",
-        "body": "Redaktioneller Grundlagenimpuls · SoulFlow, 20.10.2026\n\n"
+        "body": "Redaktioneller Grundlagenimpuls · Sense & Stars, 20.10.2026\n\n"
         "Die IANA-Zeitzonendatenbank dokumentiert die Geschichte lokaler Uhrzeiten ausgewählter Orte. "
         "Sie wird aktualisiert, wenn sich Regeln wie UTC-Abstände oder Sommerzeit ändern. "
         "Eine Ortszeit ist deshalb nicht allein durch eine heutige Zeitzonenabkürzung erklärt.\n\n"
-        "In SoulFlow hältst du den angegebenen Geburtsort und die Geburtszeit mit ihrer Herkunft fest. "
+        "In Sense & Stars hältst du den angegebenen Geburtsort und die Geburtszeit mit ihrer Herkunft fest. "
         "Bei widersprüchlichen oder fehlenden Angaben wird nicht still geraten. "
         "Die App fordert bei doppelt vorkommenden Ortszeiten eine Auswahl; eine nicht existente Ortszeit wird abgelehnt.\n\n"
         "Reflexionsfrage: Welche Angabe weiß ich sicher, welche wurde nur geschätzt? Kennzeichne die Schätzung. "
@@ -341,7 +342,7 @@ def init_learning(conn: sqlite3.Connection):
     from .learning_content import WORKSPACE_LESSONS
 
     seeds = [(dict(lesson, seed_key=f"editorial-v1-{index}"), "published") for index, lesson in enumerate(SEED_LESSONS, 1)]
-    workspace_status = "published" if os.environ.get("SOULFLOW_DEMO") == "1" else "draft"
+    workspace_status = "published" if setting("DEMO") == "1" else "draft"
     seeds.extend((lesson, workspace_status) for lesson in WORKSPACE_LESSONS)
     previous_seed_week = 0
     for lesson, status in seeds:
@@ -660,7 +661,7 @@ def _fetch_rss(source_url: str) -> list[dict]:
         raise ValueError("Nicht konfigurierte Quellen werden nicht abgerufen.")
     deadline = time.monotonic() + FEED_TIMEOUT
     opener = build_opener(_NoRedirect())
-    request = URLRequest(source_url, headers={"User-Agent": "SoulFlow-local-V1/1.0", "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml"})
+    request = URLRequest(source_url, headers={"User-Agent": "Sense-And-Stars-local/1.1", "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml"})
     with opener.open(request, timeout=FEED_TIMEOUT) as response:
         content_length = response.headers.get("Content-Length")
         if content_length and int(content_length) > MAX_FEED_BYTES:

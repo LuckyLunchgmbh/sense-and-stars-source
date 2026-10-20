@@ -1,4 +1,4 @@
-"""Small DB-API bridge for SoulFlow's explicitly tested SQL vocabulary.
+"""Small DB-API bridge for Sense & Stars' explicitly tested SQL vocabulary.
 
 PostgreSQL is the durable hosted store; SQLite remains the local store. This
 module does not pretend to translate arbitrary SQLite. Parameters stay bound,

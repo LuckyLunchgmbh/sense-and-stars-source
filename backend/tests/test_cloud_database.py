@@ -3,10 +3,13 @@ import os
 import pytest
 from app import db
 
+TEST_POSTGRES_URL = (os.environ.get("SENSE_AND_STARS_TEST_POSTGRES_URL")
+                     or os.environ.get("SOULFLOW_TEST_POSTGRES_URL"))
+
 
 @pytest.fixture
 def pg_api(monkeypatch):
-    url = os.environ.get("SOULFLOW_TEST_POSTGRES_URL")
+    url = TEST_POSTGRES_URL
     if not url:
         pytest.skip("explicit isolated PostgreSQL database required")
     import uuid
@@ -19,7 +22,7 @@ def pg_api(monkeypatch):
     parts = urlsplit(url)
     scoped = urlunsplit(parts._replace(query=urlencode([*parse_qsl(parts.query), ("options", "-csearch_path=" + schema + ",public")])))
     monkeypatch.setenv("DATABASE_URL", scoped)
-    monkeypatch.setenv("SOULFLOW_DEMO", "0")
+    monkeypatch.setenv("SENSE_AND_STARS_DEMO", "0")
     from app.main import app
     from app.security import hash_password, now_iso
     from fastapi.testclient import TestClient
@@ -36,7 +39,7 @@ def pg_api(monkeypatch):
 
 def test_postgres_real_login_quiz_notebook_and_practice_flow(pg_api):
     def mutate(method, path, body=None):
-        return pg_api.request(method, path, json=body or {}, headers={"X-SoulFlow": "1"})
+        return pg_api.request(method, path, json=body or {}, headers={"X-Sense-And-Stars": "1"})
     assert mutate("POST", "/api/auth/login", {"email": "pg-admin@example.org", "password": "wrong"}).status_code == 401
     assert mutate("POST", "/api/auth/login", {"email": "pg-admin@example.org", "password": "wrong"}).status_code == 401
     assert mutate("POST", "/api/auth/login", {"email": "pg-admin@example.org", "password": "Test-Postgres-Passphrase"}).status_code == 200
@@ -68,18 +71,18 @@ def test_postgres_real_login_quiz_notebook_and_practice_flow(pg_api):
 def test_hosted_api_has_no_demo_and_requires_session_and_same_origin(pg_api, monkeypatch):
     from app.main import app
     from fastapi.testclient import TestClient
-    monkeypatch.setenv("SOULFLOW_HOSTED", "1")
-    monkeypatch.setenv("SOULFLOW_PUBLIC_ORIGIN", "https://testserver")
-    monkeypatch.setenv("SOULFLOW_SWISS_LICENSE", "agpl-3.0")
-    monkeypatch.setenv("SOULFLOW_SOURCE_URL", "https://example.org/test-source")
+    monkeypatch.setenv("SENSE_AND_STARS_HOSTED", "1")
+    monkeypatch.setenv("SENSE_AND_STARS_PUBLIC_ORIGIN", "https://testserver")
+    monkeypatch.setenv("SENSE_AND_STARS_SWISS_LICENSE", "agpl-3.0")
+    monkeypatch.setenv("SENSE_AND_STARS_SOURCE_URL", "https://example.org/test-source")
     monkeypatch.setenv("CRON_SECRET", "synthetic-test-only-cron-secret-123")
     with TestClient(app, base_url="https://testserver", client=("203.0.113.8", 41000)) as remote:
         assert remote.get("/api/demo").status_code == 404
         assert remote.get("/api/clients").status_code == 401
         payload={"email":"pg-admin@example.org","password":"Test-Postgres-Passphrase"}
-        bad=remote.post("/api/auth/login",json=payload,headers={"X-SoulFlow":"1","Origin":"https://other.example.org"})
+        bad=remote.post("/api/auth/login",json=payload,headers={"X-Sense-And-Stars":"1","Origin":"https://other.example.org"})
         assert bad.status_code == 403
-        login=remote.post("/api/auth/login",json=payload,headers={"X-SoulFlow":"1","Origin":"https://testserver"})
+        login=remote.post("/api/auth/login",json=payload,headers={"X-Sense-And-Stars":"1","Origin":"https://testserver"})
         assert login.status_code == 200, login.text
         assert "Secure" in login.headers["set-cookie"]
         assert "HttpOnly" in login.headers["set-cookie"]
@@ -92,7 +95,7 @@ def test_hosted_api_has_no_demo_and_requires_session_and_same_origin(pg_api, mon
 
 
 def test_hosted_database_fails_closed_without_persistent_url(monkeypatch):
-    monkeypatch.setenv("SOULFLOW_HOSTED", "1")
+    monkeypatch.setenv("SENSE_AND_STARS_HOSTED", "1")
     monkeypatch.delenv("DATABASE_URL", raising=False)
     with pytest.raises(RuntimeError, match="DATABASE_URL"):
         db.get_db()
@@ -103,9 +106,9 @@ def test_sql_translation_keeps_question_marks_inside_strings():
     assert translate_sql("SELECT '?' AS label, ? AS value") == "SELECT '?' AS label, %s AS value"
 
 
-@pytest.mark.skipif(not os.environ.get("SOULFLOW_TEST_POSTGRES_URL"), reason="explicit isolated PostgreSQL database required")
+@pytest.mark.skipif(not TEST_POSTGRES_URL, reason="explicit isolated PostgreSQL database required")
 def test_postgres_real_persistence_transaction_and_constraints(monkeypatch):
-    monkeypatch.setenv("DATABASE_URL", os.environ["SOULFLOW_TEST_POSTGRES_URL"])
+    monkeypatch.setenv("DATABASE_URL", TEST_POSTGRES_URL)
     with db.get_db() as conn:
         db.init_schema(conn)
         stamp = 1792522800.123456
@@ -131,11 +134,11 @@ def test_postgres_real_persistence_transaction_and_constraints(monkeypatch):
         conn.execute("DELETE FROM clients WHERE id=?", (identifier,))
 
 
-@pytest.mark.skipif(not os.environ.get("SOULFLOW_TEST_POSTGRES_URL"), reason="explicit isolated PostgreSQL database required")
+@pytest.mark.skipif(not TEST_POSTGRES_URL, reason="explicit isolated PostgreSQL database required")
 def test_postgres_timeouts_are_transaction_local_and_reapplied_after_boundaries(monkeypatch):
     import psycopg
 
-    url = os.environ["SOULFLOW_TEST_POSTGRES_URL"]
+    url = TEST_POSTGRES_URL
     monkeypatch.setenv("DATABASE_URL", url)
     query = """SELECT current_setting('statement_timeout') AS statement_timeout,
                       current_setting('lock_timeout') AS lock_timeout"""
@@ -159,10 +162,10 @@ def test_postgres_timeouts_are_transaction_local_and_reapplied_after_boundaries(
         conn.close()
 
 
-@pytest.mark.skipif(not os.environ.get("SOULFLOW_TEST_POSTGRES_URL"), reason="explicit isolated PostgreSQL database required")
+@pytest.mark.skipif(not TEST_POSTGRES_URL, reason="explicit isolated PostgreSQL database required")
 def test_postgres_commit_connection_loss_is_normalized(monkeypatch):
     import psycopg, sqlite3
-    url = os.environ["SOULFLOW_TEST_POSTGRES_URL"]
+    url = TEST_POSTGRES_URL
     monkeypatch.setenv("DATABASE_URL", url)
     conn = db.get_db()
     try:
