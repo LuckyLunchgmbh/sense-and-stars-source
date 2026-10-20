@@ -160,6 +160,7 @@ def seed_demo(conn):
 def initialize():
     validate_hosted_settings()
     from .learning import init_learning
+    from .academy import init_academy
     with get_db() as conn:
         init_schema(conn)
         init_practice_schema(conn)
@@ -171,6 +172,7 @@ def initialize():
         if demo_mode():
             seed_demo(conn)
         init_learning(conn)
+        init_academy(conn)
 
 
 @asynccontextmanager
@@ -179,7 +181,7 @@ async def lifespan(_app):
     yield
 
 
-app = FastAPI(title="Sense & Stars",version="1.2.1",lifespan=lifespan,docs_url=None,redoc_url=None,openapi_url=None)
+app = FastAPI(title="Sense & Stars",version="1.3.0",lifespan=lifespan,docs_url=None,redoc_url=None,openapi_url=None)
 app.add_middleware(TrustedHostMiddleware,allowed_hosts=allowed_hosts())
 
 
@@ -229,7 +231,7 @@ async def database_error(_request, _exc):
 
 @app.get("/api/health")
 def health():
-    return {"status":"ok","mode":"hosted" if hosted() else "demo" if demo_mode() else "local","version":"1.2.1",
+    return {"status":"ok","mode":"hosted" if hosted() else "demo" if demo_mode() else "local","version":"1.3.0",
             "source_url":setting("SOURCE_URL") if setting("SWISS_LICENSE")=="agpl-3.0" else None,
             "license":"AGPL-3.0-only" if setting("SWISS_LICENSE")=="agpl-3.0" else None}
 
@@ -294,9 +296,16 @@ def logout(request: Request, response: Response):
 @app.patch("/api/auth/me")
 def profile(data: ProfileUpdate,request: Request):
     user = require_user(request)
+    changes = data.model_dump(exclude_unset=True)
+    if "hourly_rate_cents" in changes and user["role"] == "client":
+        raise HTTPException(403,"Nur die Beraterin kann einen Stundensatz einstellen.")
+    if "tour_completed" in changes:
+        changes["tour_completed"] = int(changes["tour_completed"])
     with get_db() as conn:
-        conn.execute("UPDATE users SET tour_completed=? WHERE id=?",(int(data.tour_completed),user["id"]))
-    return {**user,"tour_completed":data.tour_completed}
+        # Keys come exclusively from the strict ProfileUpdate schema.
+        fields = ",".join(f"{key}=?" for key in changes)
+        conn.execute(f"UPDATE users SET {fields} WHERE id=?",(*changes.values(),user["id"]))
+        return public_user(conn.execute("SELECT * FROM users WHERE id=?",(user["id"],)).fetchone())
 
 
 @app.get("/api/clients")
@@ -489,7 +498,7 @@ def appointments(request: Request, practice: bool = False):
 @app.post("/api/appointments",status_code=201)
 def book(data: Booking,request: Request):
     user = require_user(request)
-    if user["role"]=="client" and (data.client_id != user["client_id"] or data.price_cents != 0):
+    if user["role"]=="client" and (data.client_id != user["client_id"] or data.price_cents not in (None, 0)):
         raise HTTPException(403,"Du kannst ausschließlich für dich selbst einen Folgetermin ohne Preisänderung buchen.")
     start = data.start_at.astimezone(timezone.utc)
     end = start + timedelta(minutes=data.duration_minutes)
@@ -503,12 +512,20 @@ def book(data: Booking,request: Request):
     with get_db() as conn:
         conn.execute("BEGIN IMMEDIATE")  # Serializes overlap check + insert across requests.
         client = client_row(conn,data.client_id,user)
+        if client["is_test"] or user["role"] == "client":
+            price_cents = 0
+        elif data.price_cents is not None:
+            price_cents = data.price_cents
+        else:
+            rate = conn.execute("SELECT hourly_rate_cents FROM users WHERE id=?", (user["id"],)).fetchone()[0] or 0
+            # Exact integer half-up rounding; floating point never touches money.
+            price_cents = (rate * data.duration_minutes + 30) // 60
         where, args = client_scope(user, bool(client["is_test"]))
         for row in conn.execute("SELECT a.start_at,a.duration_minutes FROM appointments a JOIN clients c ON c.id=a.client_id WHERE a.status!='cancelled' AND a.archived_at IS NULL AND "+where, args):
             other = datetime.fromisoformat(row["start_at"])
             if start < other+timedelta(minutes=row["duration_minutes"]) and other < end:
                 raise HTTPException(409,"Dieser Zeitraum ist bereits belegt. Bitte einen anderen Termin wählen.")
-        aid = conn.execute("INSERT INTO appointments(client_id,start_at,duration_minutes,title,price_cents) VALUES(?,?,?,?,?)",(data.client_id,start.isoformat(),data.duration_minutes,data.title,data.price_cents)).lastrowid
+        aid = conn.execute("INSERT INTO appointments(client_id,start_at,duration_minutes,title,price_cents) VALUES(?,?,?,?,?)",(data.client_id,start.isoformat(),data.duration_minutes,data.title,price_cents)).lastrowid
         audit(conn,user,"appointment.book",aid)
         return appointment_json(appointment_row(conn,aid,user))
 
@@ -603,6 +620,8 @@ from .astro import router as astro_router
 from .learning import router as learning_router
 app.include_router(astro_router)
 app.include_router(learning_router)
+from .academy import router as academy_router
+app.include_router(academy_router)
 
 
 @app.get("/{path:path}",include_in_schema=False)

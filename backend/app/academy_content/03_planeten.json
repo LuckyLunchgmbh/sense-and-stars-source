@@ -1,0 +1,921 @@
+{
+  "id": "planeten",
+  "title": "Planeten: Funktionen miteinander verstehen",
+  "summary": "Sonne, Mond und acht weitere Himmelskörper differenziert lesen; Herrscherbeziehungen und Rückläufigkeit technisch nachvollziehen.",
+  "tradition": "Traditionelle sieben Himmelskörper und ausdrücklich moderne Deutungen von Uranus, Neptun und Pluto",
+  "level": "foundation",
+  "prerequisites": [],
+  "lessons": [
+    {
+      "key": "academy-planeten-01",
+      "title": "Sonne: bewusste Richtung und eigener Ausdruck",
+      "summary": "Die Sonne ist ein astronomischer Stern und in der astrologischen Sprache ein zentrales Symbol für Orientierung und Ausdruck.",
+      "objective": "Du entwickelst eine Sonnenfrage, ohne die gesamte Person auf ihr Sonnenzeichen zu reduzieren.",
+      "level": "foundation",
+      "minutes": 25,
+      "body": "## Ein Mittelpunkt der Deutung, nicht die ganze Person\nAstronomisch ist die Sonne ein Stern. In der astrologischen Fachsprache wird sie häufig mit den übrigen beweglichen Horoskopfaktoren unter Planeten geführt und gemeinsam mit dem Mond als Licht bezeichnet. Diese Sprachkonvention verändert ihre astronomische Einordnung nicht. Für die eigene Reflexionsarbeit dieser Lektion verwenden wir die Sonne als Bild für bewusste Richtung, persönlichen Ausdruck und die Frage, wofür jemand sichtbar einstehen möchte. Ein einzelnes Symbol ersetzt dabei keine vollständige Beschreibung eines Menschen.\n\n## Richtung von Erwartungen unterscheiden\nEine hilfreiche Sonnenfrage lautet: Welche Aufgabe fühlt sich für dich selbst bedeutsam an, auch wenn andere etwas anderes erwarten? Sie unterscheidet eine eigene Orientierung von übernommenen Vorstellungen. Lea könnte ihren Workshop gestalten wollen, weil sie gern verständliche kreative Übungen entwickelt. Vielleicht glaubt sie zugleich, besonders außergewöhnlich auftreten zu müssen. Die Übung prüft diese beiden Motive getrennt. Ein klares eigenes Anliegen kann schlicht sein. Es benötigt weder eine große Berufungsbehauptung noch den Anspruch, sich ständig besonders zu fühlen.\n\n## Das Zeichen beschreibt eine mögliche Ausdrucksweise\nEine angenommene Sonne in Zwillinge könnte als Frage nach beweglicher Vermittlung und verschiedenen Perspektiven dienen. Eine Sonne in Steinbock würde in unserer Übung eher Aufbau und übernommene Verantwortung ansprechen. Diese Sätze sind mögliche Lesarten, keine Feststellungen über tatsächliche Personen. Vergleiche zwei Ausdrucksweisen derselben Funktion: Wie kann jemand Orientierung durch neugieriges Erklären zeigen, und wie durch einen verlässlichen Rahmen? So lernst du die Funktion Sonne kennen, ohne sie mit einem einzelnen Zeichen gleichzusetzen.\n\n## Das Haus setzt den Themenbereich\nEin Haus ergänzt, in welchem Bereich die Sonnenfrage betrachtet wird. Ein frei angenommenes drittes Haus könnte Lernen und Austausch als Übungsfeld anbieten; ein zehntes Haus würde öffentliche Aufgaben und Sichtbarkeit in den Vordergrund rücken. Die Hausposition braucht eine verlässliche Zeit und ein benanntes System. Ohne diese Grundlage erfindest du keinen Bereich. Du kannst trotzdem eine allgemeine Frage nach eigener Richtung stellen und klar sagen, dass sie nicht aus einer gesicherten Häuserzuordnung stammt.\n\n## Anerkennung und Handlung verbinden\nWofür jemand gesehen werden möchte, ist eine andere Frage als das, was er tatsächlich tut. Stelle beide nebeneinander. Lea möchte vielleicht als verständlich und zugewandt wahrgenommen werden. Dann kann sie ihren Entwurf darauf prüfen, ob die Anweisungen klar sind und Rückfragen Platz haben. Die Sonnenperspektive wird dadurch praktisch. Sie beschränkt sich nicht auf schmeichelhafte Eigenschaften, sondern fragt nach einem eigenen Beitrag, den die Person gestalten und später anhand von Rückmeldung weiterentwickeln kann.\n\n## Ein Satz für die eigene Richtung\nFormuliere zum Abschluss einen Satz mit drei Teilen: „Mir ist wichtig …; deshalb möchte ich …; als Nächstes prüfe ich …“. Dieser Satz gehört der Person und darf sich ändern. Er ist kein Schicksalsspruch. Wenn andere Horoskopfaktoren scheinbar eine andere Richtung nahelegen, untersuchst du die Spannung später in der Synthese. Du musst sie nicht durch eine stärkere Sonnenbehauptung überdecken. Eine klare Sonne-Lektion schafft Orientierung und lässt zugleich Platz für Bedürfnisse, Beziehungen und tatsächliche Lebensbedingungen.",
+      "examples": [
+        {
+          "title": "Lea benennt ihren Beitrag",
+          "body": "Lea möchte im fiktiven Fall als inspirierende Workshopleiterin wahrgenommen werden. Marina fragt genauer, welchen Beitrag sie leisten möchte. Lea wählt verständliche Übungen, bei denen Menschen etwas selbst ausprobieren können. Daraus entsteht ein überprüfbares Ziel für ihren Probelauf. Die Sonnenperspektive verbindet eigenen Ausdruck mit Handlung. Sie behauptet weder, Lea sei für eine bestimmte Tätigkeit geboren, noch dass ein Sonnenzeichen allein ihre Fähigkeiten oder ihren späteren beruflichen Erfolg festlege."
+        },
+        {
+          "title": "Samir trennt Wunsch und Erwartung",
+          "body": "Samir überlegt in einem fiktiven Fall, welche Aufgabe er in einer Gruppe übernehmen möchte. Andere erwarten, dass er die Organisation leitet; er selbst möchte lieber eine kleine inhaltliche Einheit gestalten. Marina stellt beide Möglichkeiten nebeneinander. Die Sonnenfrage richtet sich auf seinen bewusst gewählten Beitrag. Samir darf sich entscheiden und die Folgen besprechen. Die Übung bewertet Klarheit über den eigenen Wunsch, nicht die Übereinstimmung mit einem vorgegebenen Bild von Führung oder Stärke."
+        }
+      ],
+      "practice": {
+        "prompt": "Formuliere für Lea einen Richtungssatz mit wichtigem Wert, konkretem Beitrag und überprüfbarem nächsten Schritt. Ergänze, was eine Sonnenposition allein nicht verrät.",
+        "model_answer": "Leas Richtungssatz könnte lauten: „Mir ist wichtig, dass Menschen kreative Übungen ohne Vorwissen ausprobieren können; deshalb möchte ich eine kurze, verständliche Einführung anbieten; als Nächstes prüfe ich im Probelauf, ob eine Testperson die Aufgabe ohne zusätzliche Erklärung beginnen kann.“ Der Satz verbindet einen Wert mit einem eigenen Beitrag und einer konkreten Rückmeldung. Er ist eine mögliche Entscheidung der fiktiven Lea, keine aus einem Horoskop abgelesene Berufung. Eine Sonnenposition allein verrät weder ihre Ausbildung noch ihre finanzielle Situation, tatsächlichen Fähigkeiten oder den Erfolg eines Angebots. Für eine symbolische Vertiefung würde ich Zeichen und gegebenenfalls verlässlich berechnetes Haus getrennt ergänzen. Wenn Lea ihren Wert anders beschreibt, verändert sich der Satz. Die Aufgabe ist gelungen, wenn Orientierung verständlich und handlungsnah wird, ohne die Person auf ein einziges astrologisches Merkmal zu reduzieren.",
+        "rubric": [
+          "Wert, Beitrag und nächster Schritt sind verbunden.",
+          "Der Schritt ist praktisch überprüfbar.",
+          "Die Sonnenposition wird nicht mit der ganzen Person gleichgesetzt.",
+          "Unbekannte Fähigkeiten und Lebensumstände bleiben offen."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was ist die Sonne astronomisch?",
+          "options": [
+            "Ein Planet im heutigen astronomischen Sinn.",
+            "Ein Stern.",
+            "Ein natürlicher Satellit der Erde."
+          ],
+          "correct_index": 1,
+          "explanation": "Die astrologische Sammelbezeichnung Planeten ist eine Sprachkonvention; astronomisch bleibt die Sonne ein Stern."
+        },
+        {
+          "id": "q2",
+          "question": "Was ergänzt das Zeichen in einer Sonnenlesart?",
+          "options": [
+            "Die vollständige Biografie.",
+            "Die Genauigkeit der Geburtszeit.",
+            "Eine mögliche Art des Ausdrucks."
+          ],
+          "correct_index": 2,
+          "explanation": "Zeichenfärbung, Planetenfunktion und Lebensbereich sind unterschiedliche Ebenen."
+        },
+        {
+          "id": "q3",
+          "question": "Welche Frage passt zur eigenen Richtung?",
+          "options": [
+            "Welchen Beitrag möchtest du bewusst gestalten?",
+            "Welche Rolle müssen alle mit deinem Zeichen übernehmen?",
+            "Wie beweist dein Zeichen beruflichen Erfolg?"
+          ],
+          "correct_index": 0,
+          "explanation": "Die offene Frage lässt die Person ihre Orientierung selbst benennen."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2016/02/24/significations-of-seven-traditional-planets/",
+          "title": "The Significations of the Seven Traditional Planets, Episode 64",
+          "author": "Chris Brennan, Kelly Surtees und Austin Coppock",
+          "note": "Geprüfte Primärquelle zum traditionellen Vokabular der sieben Himmelskörper. Die Aufgaben, Alltagsszenen und ausführlichen Reflexionsabläufe dieser Lektion sind eigene Synthesen, keine Podcastabschrift.",
+          "checked_at": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/solar-system/",
+          "title": "Solar System Exploration",
+          "author": "NASA Science",
+          "note": "Astronomischer Bezugsrahmen für die Unterscheidung von Stern, Planet und Mond; kein Beleg für astrologische Wirkungsbehauptungen.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-planeten-02",
+      "title": "Mond: Bedürfnisse, Gewohnheiten und Resonanz",
+      "summary": "Der Mond eröffnet Fragen nach vertrauten Reaktionen und Alltagssituationen, in denen sich jemand unterstützt fühlt.",
+      "objective": "Du unterscheidest berichtete Bedürfnisse von einer astrologischen Vermutung und formulierst eine tragbare Alltagserprobung.",
+      "level": "foundation",
+      "minutes": 25,
+      "body": "## Ein anderer Zugang als bewusste Richtung\nDer Mond ist astronomisch der natürliche Begleiter der Erde. Astrologisch gehört er zu den beiden Lichtern. In unserer eigenen Reflexionsarbeit steht er für die Frage, wie jemand auf alltägliche Situationen reagiert und welche Bedingungen sich vertraut oder unterstützend anfühlen. Während die Sonnenübung nach bewusster Richtung fragt, untersucht diese Lektion eher Gewohnheiten und Bedürfnisse. Die Unterscheidung ist ein Arbeitsmodell. Sie darf nicht dazu führen, eine Person in einen angeblich bewussten und einen sicher erkennbaren verborgenen Teil zu zerlegen.\n\n## Ein Bedürfnis braucht eine konkrete Situation\n„Ich brauche Sicherheit“ kann viele Bedeutungen haben. Vielleicht geht es um verlässliche Absprachen, eine ruhige Umgebung oder ausreichend Zeit vor einer Entscheidung. Frage nach einer Situation, in der das Bedürfnis erfüllt oder nicht erfüllt war. Samir könnte merken, dass kurzfristige Planänderungen ihn besonders belasten. Diese Information stammt aus seiner Schilderung. Die Mondposition kann eine Frage anregen, aber sie ersetzt die Antwort nicht. Je konkreter die Situation, desto eher lässt sich ein hilfreicher nächster Schritt finden.\n\n## Gewohnheiten sind nicht immer Bedürfnisse\nEine vertraute Reaktion kann entlasten und trotzdem nicht die einzige Möglichkeit sein. Jemand zieht sich nach einem vollen Tag vielleicht sofort zurück. Das kann zu einem Bedürfnis nach Ruhe passen, aber auch eine unpassende Gewohnheit geworden sein, wenn eigentlich ein kurzes klärendes Gespräch fehlt. Untersuche deshalb Handlung und gewünschte Wirkung getrennt. Was tut die Person? Was hofft sie dadurch zu erreichen? Welche andere Handlung könnte denselben Zweck erfüllen? Diese Fragen lassen Veränderung zu, ohne eine bisherige Strategie abzuwerten.\n\n## Zeichenfärbung als Hypothese\nEin angenommener Mond in Stier kann Fragen nach verlässlichem Rhythmus und angenehmen Bedingungen eröffnen. Ein Mond in Zwillinge könnte Austausch und das Benennen von Eindrücken in den Mittelpunkt stellen. Beide Beispiele sind Lernannahmen. Ein Mensch mit der ersten Position darf gern sprechen; ein Mensch mit der zweiten darf Ruhe brauchen. Die Qualität der Deutung zeigt sich daran, ob du aus der Färbung eine konkrete, veränderbare Frage entwickelst und die Antwort ernst nimmst. Ein Etikett allein leistet das nicht.\n\n## Herkunft behutsam ansprechen\nDer Mond wird in verschiedenen Schulen mit Fürsorge und frühen Erfahrungen verbunden. Daraus darfst du keine Geschichte über Eltern, Schwangerschaft oder Kindheit erfinden. Auch eine starre Gleichsetzung mit der Mutter kann an tatsächlichen Familienformen vorbeigehen. Frage stattdessen, welche unterstützenden Gewohnheiten die Person kennt und was sie heute selbst gestalten möchte. Die Vergangenheit muss nicht vertieft werden, wenn das aktuelle Anliegen eine kleine praktische Veränderung verlangt. Die Person entscheidet, welche Informationen sie teilen möchte.\n\n## Eine alltagstaugliche Erprobung\nLea könnte nach einem Workshop zehn Minuten für eine ruhige Nachbereitung einplanen, statt sofort weitere Aufgaben zu beginnen. Sie beobachtet, ob diese Form ihr tatsächlich hilft. Eine andere Person würde vielleicht lieber kurz mit jemandem sprechen. Die Mondübung sucht keine universell richtige Regulationstechnik und ersetzt keine medizinische oder psychotherapeutische Behandlung. Sie verbindet eine selbst berichtete Alltagserfahrung mit einer freiwilligen kleinen Anpassung. Notiere später, was geholfen hat, was nicht und welche Frage weiterhin offen geblieben ist.",
+      "examples": [
+        {
+          "title": "Samir beschreibt ein Bedürfnis genauer",
+          "body": "Samir sagt im fiktiven Fall, er brauche mehr Sicherheit. Marina fragt nach einer konkreten Situation. In der Lehrgeschichte nennt er kurzfristige Änderungen gemeinsamer Termine. Daraus entsteht eine Bitte um frühere Mitteilung, soweit das möglich ist. Die Mondperspektive hilft, einen allgemeinen Begriff in eine Alltagssituation zu übersetzen. Sie beweist weder eine bestimmte Kindheitsgeschichte noch ein festes emotionales Muster. Samir kann die Beschreibung korrigieren, falls sie sein Anliegen nicht trifft."
+        },
+        {
+          "title": "Lea erprobt einen Übergang",
+          "body": "Lea bemerkt im fiktiven Fall, dass sie nach einem Probeworkshop sofort alles bewerten möchte. Sie testet zunächst eine kurze Pause und notiert danach nur zwei Beobachtungen. Marina beschreibt dies als freiwilligen Versuch, einen Übergang angenehmer zu gestalten. Es gibt kein vorgeschriebenes Mondritual. Nach zwei Anwendungen prüft Lea, ob die Pause hilfreich war oder ob sie lieber ein kurzes Gespräch führen möchte. Ihre tatsächliche Erfahrung bestimmt die weitere Anpassung."
+        }
+      ],
+      "practice": {
+        "prompt": "Unterscheide in Samirs Satz „Ich sage bei Änderungen immer ab, weil ich Sicherheit brauche“ Bedürfnis, Gewohnheit und mögliche Alternative.",
+        "model_answer": "Das genannte Bedürfnis lautet Sicherheit, müsste aber zunächst genauer beschrieben werden. Vielleicht meint Samir Vorhersehbarkeit oder genug Zeit, sich auf einen neuen Ablauf einzustellen. Die Gewohnheit ist das sofortige Absagen bei Änderungen. Diese Handlung ist nicht automatisch die einzige Möglichkeit, das Bedürfnis zu berücksichtigen. Eine Alternative könnte sein, zunächst nach dem neuen Zeitrahmen zu fragen und dann bewusst zu entscheiden. Eine weitere wäre eine gemeinsame Absprache, Änderungen möglichst früh mitzuteilen. Ich würde Samir fragen, welche Möglichkeit zu seiner tatsächlichen Situation passt. Die Mondperspektive dient als Reflexionsrahmen für Reaktion und Bedürfnis. Sie liefert keine Diagnose und keine sichere Erklärung aus der Kindheit. Ein kleiner Versuch könnte bei einer ungefährlichen Alltagssituation stattfinden und anschließend besprochen werden. Wenn die Alternative nicht hilft, wird sie angepasst, statt Samir für eine angeblich falsche Mondreaktion zu bewerten.",
+        "rubric": [
+          "Bedürfnis und konkrete Gewohnheit sind getrennt.",
+          "Der allgemeine Begriff Sicherheit wird präzisiert.",
+          "Mindestens eine freiwillige Alternative wird genannt.",
+          "Keine unbekannte Herkunftsgeschichte wird behauptet."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welche Frage präzisiert ein Bedürfnis am besten?",
+          "options": [
+            "Was bedeutet Sicherheit in dieser konkreten Situation für dich?",
+            "Warum bist du immer so?",
+            "Welche Kindheitsgeschichte muss dahinterstecken?"
+          ],
+          "correct_index": 0,
+          "explanation": "Die konkrete Situation macht ein allgemeines Bedürfnis besprechbar."
+        },
+        {
+          "id": "q2",
+          "question": "Was unterscheidet Gewohnheit und Bedürfnis?",
+          "options": [
+            "Beides ist immer identisch.",
+            "Eine Gewohnheit ist eine mögliche Handlung; ein Bedürfnis beschreibt ihren angestrebten Zweck.",
+            "Ein Bedürfnis ist nur aus dem Radix erkennbar."
+          ],
+          "correct_index": 1,
+          "explanation": "Eine andere Handlung kann unter Umständen denselben Zweck besser erfüllen."
+        },
+        {
+          "id": "q3",
+          "question": "Was lässt sich aus einer Mondposition allein nicht sicher ableiten?",
+          "options": [
+            "Eine verwendete Zeichenposition.",
+            "Eine astrologische Reflexionsfrage.",
+            "Die tatsächliche Geschichte der Elternbeziehung."
+          ],
+          "correct_index": 2,
+          "explanation": "Biografische Informationen müssen aus geeigneten Angaben kommen, nicht aus einer Symbolzuschreibung."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2016/02/24/significations-of-seven-traditional-planets/",
+          "title": "The Significations of the Seven Traditional Planets, Episode 64",
+          "author": "Chris Brennan, Kelly Surtees und Austin Coppock",
+          "note": "Geprüfte Primärquelle zum traditionellen Vokabular der sieben Himmelskörper. Die Aufgaben, Alltagsszenen und ausführlichen Reflexionsabläufe dieser Lektion sind eigene Synthesen, keine Podcastabschrift.",
+          "checked_at": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/solar-system/",
+          "title": "Solar System Exploration",
+          "author": "NASA Science",
+          "note": "Astronomischer Bezugsrahmen für die Unterscheidung von Stern, Planet und Mond; kein Beleg für astrologische Wirkungsbehauptungen.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-planeten-03",
+      "title": "Merkur: Informationen aufnehmen und verständlich weitergeben",
+      "summary": "Merkur wird zum Arbeitsbild für Lernen, Sprache, Unterscheidung und einen sorgfältigen Umgang mit Aussagen.",
+      "objective": "Du erkennst eine Kommunikationslücke und verbesserst eine Erklärung durch gezielte Rückfrage.",
+      "level": "foundation",
+      "minutes": 25,
+      "body": "## Kommunikation besteht aus mehreren Schritten\nMerkur gehört zu den sieben traditionellen Himmelskörpern der Astrologie. In der hier verwendeten Reflexionssprache untersuchen wir mit ihm, wie Informationen aufgenommen, geordnet und ausgedrückt werden. Diese Schritte können unterschiedlich gut zusammenpassen. Eine Person kann sehr viel wissen und trotzdem schwer verständlich erklären. Eine andere formuliert anschaulich, prüft aber ihre Quellen zu wenig. Die Merkuranalyse wird hilfreicher, wenn sie nicht pauschal Intelligenz bewertet, sondern einen konkreten Vorgang des Lernens oder Kommunizierens betrachtet.\n\n## Aufnahme: Was wurde wirklich gesagt?\nBeginne mit dem Unterschied zwischen Wortlaut und eigener Ergänzung. Wenn Lea sagt, ihre Einführung sei zu lang, weißt du noch nicht, welcher Teil zu lang ist oder woran sie das erkennt. Frage nach einer konkreten Stelle. Eine Rückfrage kann mehr klären als eine sofortige Erklärung. Schreibe bei einer Übung den ursprünglichen Satz auf und markiere, welche Information du selbst ergänzt hast. So erkennst du, wie schnell ein unklarer Ausdruck zu einer vermeintlich sicheren Geschichte werden kann.\n\n## Ordnung: Was gehört zusammen?\nEine gute Erklärung braucht eine Reihenfolge. Für einen Workshop könnte Lea zuerst das Ziel nennen, dann Material und Ablauf erklären und zuletzt eine Frage zulassen. Wenn sie zwischen diesen Ebenen springt, müssen Teilnehmende die Struktur selbst herstellen. Übe, Informationen nach ihrer Funktion zu sortieren. Eine Liste mit allem, was dir einfällt, ist noch keine verständliche Anleitung. Die Merkuranfrage lautet hier, welche Unterscheidung das Verstehen erleichtert und welche Einzelheit für den ersten Schritt noch nicht nötig ist.\n\n## Ausdruck: Wer soll es verstehen?\nWähle Wörter passend zum Vorwissen. Der Begriff Orbis braucht für Anfänger eine kurze Erklärung als erlaubte Winkelabweichung. Für Fortgeschrittene kann die genaue gewählte Toleranz wichtiger sein. Frage nach einer Erklärung in eigenen Worten, statt nur „Alles klar?“ zu sagen. Menschen stimmen manchmal aus Höflichkeit zu. Eine kurze Wiedergabe zeigt konkreter, ob deine Formulierung angekommen ist. Das ist eine Prüfung deiner Vermittlung und kein Test, ob das Gegenüber klug genug ist.\n\n## Zeichen und Haus differenzieren\nEin angenommener Merkur in Widder kann Fragen nach direktem Einstieg anregen; in Jungfrau nach sorgfältiger Unterscheidung; in Fische nach bildhafter Darstellung. Keine Stellung ist pauschal intelligenter. Ein Haus setzt gegebenenfalls den Themenbereich hinzu. Merkur im dritten Haus ist deshalb nicht identisch mit Merkur in Zwillinge. Halte Funktion, Färbung und Bereich getrennt. Erst danach formulierst du eine mögliche Frage zu einem konkreten Kommunikationsvorgang. Das verhindert, dass ein Schlagwort die ganze Analyse ersetzt.\n\n## Eine Erklärung in zwei Fassungen\nWähle ein Thema und schreibe eine Fassung für eine Person ohne Vorwissen sowie eine für eine geübte Person. Beide Fassungen sollen denselben Kern korrekt erhalten. Anschließend prüfst du, welche Begriffe erklärt werden müssen und welche Details weggelassen werden dürfen, ohne irreführend zu werden. Eine gelungene Merkurübung verbindet Genauigkeit mit Verständlichkeit. Sie braucht keine Behauptung über angeborene Begabung. Der sichtbare Lernerfolg ist eine bessere Erklärung, die eine andere Person nachvollziehen und bei Bedarf korrigieren kann.",
+      "examples": [
+        {
+          "title": "Leas Anleitung erhält eine Reihenfolge",
+          "body": "Lea erklärt im fiktiven Probelauf gleichzeitig Ziel, Material und mehrere Varianten ihrer Übung. Eine Testperson weiß danach nicht, womit sie anfangen soll. Marina schlägt vor, zuerst nur den ersten Handlungsschritt zu nennen und eine Variante später anzubieten. Die Merkurperspektive richtet sich auf den Informationsfluss. Sie bewertet nicht Leas Intelligenz. Im nächsten Versuch wird geprüft, ob die Testperson ohne zusätzliche Hilfe beginnen kann. Die Rückmeldung entscheidet über die Qualität der neuen Reihenfolge."
+        },
+        {
+          "title": "Samir hört eine Ergänzung heraus",
+          "body": "Samir berichtet im fiktiven Fall: „Die Antwort kam spät, also war mein Anliegen unwichtig.“ Marina trennt den berichteten Zeitpunkt von der vermuteten Bedeutung. Sie fragt, ob Samir den Grund für die späte Antwort kennt. Vielleicht gibt es mehrere Möglichkeiten. Die Merkurübung besteht im Unterscheiden von Information und Schlussfolgerung. Samirs Gefühl wird dabei nicht abgewertet. Es kann ernst genommen werden, während die Erklärung für das Verhalten des Gegenübers noch offen bleibt."
+        }
+      ],
+      "practice": {
+        "prompt": "Erkläre das Wort Aspekt einmal für einen Anfänger und einmal für jemanden mit Grundwissen. Nenne eine Rückfrage, mit der du Verständlichkeit prüfst.",
+        "model_answer": "Für einen Anfänger würde ich sagen: „Ein Aspekt beschreibt in der Astrologie eine Winkelbeziehung zwischen zwei Positionen im Horoskop. Verschiedene Winkel erhalten unterschiedliche symbolische Bedeutungen.“ Für eine Person mit Grundwissen ergänze ich: „Bei der Prüfung unterscheiden wir den exakten Grundwinkel und den gewählten Orbis; ein Abstand von dreiundneunzig Grad liegt drei Grad vom Quadrat entfernt.“ Beide Fassungen erhalten denselben Kern, setzen aber unterschiedliches Vorwissen voraus. Meine Rückfrage lautet: „Wie würdest du den Unterschied zwischen Winkel und erlaubter Abweichung in eigenen Worten erklären?“ Wenn die Antwort unklar bleibt, ändere ich meine Erklärung. Ich würde nicht daraus schließen, die Person sei unbegabt. Die Merkurperspektive untersucht hier Aufnahme, Ordnung und Ausdruck von Informationen. Der Lernerfolg besteht in einer korrekten und verständlichen Vermittlung, nicht in einer Aussage über einen vermeintlich überlegenen Merkur im Radix.",
+        "rubric": [
+          "Beide Fassungen sind sachlich vereinbar.",
+          "Das Vorwissen wird berücksichtigt.",
+          "Grundwinkel und Toleranz sind getrennt.",
+          "Die Rückfrage prüft Verständnis ohne Personenurteil."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was untersucht eine konkrete Merkurfrage eher als ein Intelligenzetikett?",
+          "options": [
+            "Den Wert einer Person.",
+            "Den Vorgang des Aufnehmens, Ordnens und Vermittelns.",
+            "Die garantierte berufliche Eignung."
+          ],
+          "correct_index": 1,
+          "explanation": "Eine konkrete Kommunikationshandlung lässt sich nachvollziehen und verbessern."
+        },
+        {
+          "id": "q2",
+          "question": "Welche Rückfrage prüft Verständlichkeit am besten?",
+          "options": [
+            "Ist doch ganz einfach, oder?",
+            "Du hast sicher alles verstanden?",
+            "Wie würdest du den ersten Schritt in eigenen Worten beschreiben?"
+          ],
+          "correct_index": 2,
+          "explanation": "Eine eigene Wiedergabe zeigt konkreter, welche Information angekommen ist."
+        },
+        {
+          "id": "q3",
+          "question": "Was bleibt bei zwei Erklärungen für unterschiedliches Vorwissen gleich?",
+          "options": [
+            "Der sachliche Kern.",
+            "Die Anzahl aller Fachwörter.",
+            "Die genaue Länge jedes Satzes."
+          ],
+          "correct_index": 0,
+          "explanation": "Vermittlung darf die Form anpassen, ohne den Inhalt zu verfälschen."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2016/02/24/significations-of-seven-traditional-planets/",
+          "title": "The Significations of the Seven Traditional Planets, Episode 64",
+          "author": "Chris Brennan, Kelly Surtees und Austin Coppock",
+          "note": "Geprüfte Primärquelle zum traditionellen Vokabular der sieben Himmelskörper. Die Aufgaben, Alltagsszenen und ausführlichen Reflexionsabläufe dieser Lektion sind eigene Synthesen, keine Podcastabschrift.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-planeten-04",
+      "title": "Venus: Werte wählen und Verbindung gestalten",
+      "summary": "Venus eröffnet Fragen nach Vorlieben, Wertschätzung, Genuss und der Form von Beziehungen.",
+      "objective": "Du übersetzt eine persönliche Wertvorstellung in eine konkrete Wahl und unterscheidest Zustimmung von eigener Vorliebe.",
+      "level": "foundation",
+      "minutes": 25,
+      "body": "## Was ist mir etwas wert?\nVenus gehört zu den sieben traditionellen Himmelskörpern. In unserer eigenen Reflexionsarbeit verwenden wir sie für Fragen nach Vorlieben, Wertschätzung und verbindenden Gesten. Dabei geht es nicht nur um Partnerschaft oder romantische Anziehung. Auch die Gestaltung eines Raums, die Auswahl eines Angebots oder die Entscheidung, wofür Zeit eingesetzt wird, kann Werte sichtbar machen. Eine Venusposition sagt nicht automatisch, was eine Person schön findet oder wen sie lieben muss. Sie bietet eine symbolische Perspektive auf Entscheidungen und Beziehungsgestaltung.\n\n## Eine Vorliebe darf eigenständig sein\nManchmal fällt es leichter, zu sagen, was anderen gefallen könnte, als die eigene Wahl zu benennen. Frage deshalb zuerst nach der persönlichen Präferenz und erst danach nach einer gemeinsamen Lösung. Lea könnte eine schlichte, ruhige Workshopgestaltung bevorzugen, obwohl sie glaubt, spirituelle Angebote müssten aufwendig dekoriert sein. Die Übung hilft, übernommenes Bild und eigene Vorliebe zu unterscheiden. Eine begründete schlichte Wahl ist nicht weniger wertvoll. Gestaltung soll den Zweck und die Person unterstützen, statt ein fremdes Klischee erfüllen zu müssen.\n\n## Wertschätzung wird konkret\n„Du bist toll“ ist freundlich, aber wenig genau. Eine konkrete Anerkennung könnte benennen, dass jemand eine schwierige Frage verständlich erklärt oder eine Vereinbarung eingehalten hat. Übe, Wertschätzung auf eine tatsächliche Handlung zu beziehen. Samir könnte seinem Gegenüber danken, dass es eine Terminänderung früh mitgeteilt hat. Dadurch wird sichtbar, welches Verhalten die Verbindung unterstützt. Die Übung verlangt keine dauernde Zustimmung. Auch in einer guten Beziehung darf jemand eine andere Vorliebe oder einen anderen Wunsch ausdrücken.\n\n## Geben und Empfangen betrachten\nEine verbindende Geste kann freiwillig sein oder mit unausgesprochenen Erwartungen verbunden werden. Frage, ob ein Geschenk, ein Gefallen oder zusätzliche Zeit tatsächlich ohne Gegenleistung angeboten wird. Wenn eine Gegenseitigkeit erwartet wird, kann sie offen besprochen werden. Das ist hilfreicher, als spätere Enttäuschung als festen Charakterzug zu deuten. In Leas Workshop könnte eine kostenlose Zusatzleistung freundlich gemeint sein, aber ihren Aufwand dauerhaft übersteigen. Wertschätzung schließt ein, den eigenen Beitrag und seine Grenzen ernst zu nehmen.\n\n## Zeichen verändern die Form\nEine angenommene Venus in Stier kann Fragen nach beständigen, konkreten Formen von Wertschätzung anregen. In Zwillinge könnte gemeinsamer Austausch ein Schwerpunkt sein. In Steinbock könnten Verlässlichkeit und langfristige Entscheidungen betrachtet werden. Diese Möglichkeiten ersetzen kein Gespräch über tatsächliche Wünsche. Vor allem darfst du daraus keine feste sexuelle Orientierung, Geschlechtsrolle oder Beziehungsfähigkeit ableiten. Die Symbolfunktion bleibt eine Frage danach, wie Wert und Verbindung gestaltet werden, während die Person ihre eigene Lebensform bestimmt.\n\n## Eine Wahl mit nachvollziehbarem Maßstab\nZum Abschluss stellst du zwei Möglichkeiten gegenüber und nennst den Wert, nach dem du auswählst. Lea könnte zwischen zusätzlicher Dekoration und gutem Arbeitsmaterial entscheiden. Samir könnte eine verbindliche gemeinsame Zeit einem teuren Geschenk vorziehen. Es gibt keine allgemein richtige Venuswahl. Entscheidend ist, dass Maßstab, Entscheidung und mögliche Folgen verständlich werden. Prüfe später, ob die gewählte Form tatsächlich das ausdrückt, was gemeint war. So wird aus einem abstrakten Wert eine bewusste, überprüfbare Gestaltung.",
+      "examples": [
+        {
+          "title": "Lea entscheidet nach ihrem Maßstab",
+          "body": "Lea möchte im fiktiven Workshop eine angenehme Umgebung schaffen. Sie überlegt, ob sie viele dekorative Gegenstände oder wenige gut verwendbare Materialien anschafft. Ihr gewählter Wert lautet ruhige Verständlichkeit. Deshalb entscheidet sie sich für eine schlichte Gestaltung und klare Arbeitsflächen. Die Venusperspektive verbindet Vorliebe und konkrete Wahl. Marina behauptet nicht, eine bestimmte Ästhetik sei astrologisch vorgeschrieben. Die Teilnehmerrückmeldung zeigt später, ob die Gestaltung den beabsichtigten Zweck tatsächlich unterstützt."
+        },
+        {
+          "title": "Samir macht Wertschätzung verständlich",
+          "body": "Samir möchte im fiktiven Fall Nähe ausdrücken und denkt zunächst an ein Geschenk. Sein Gegenüber sagt, eine verlässlich eingehaltene gemeinsame Zeit sei gerade wichtiger. Samir kann seine Geste daran ausrichten, ohne dass seine ursprüngliche Idee wertlos wäre. Die Venusübung untersucht, wie Wertschätzung ankommt. Sie unterscheidet Absicht und Wirkung. Eine passende Geste entsteht durch Rückfrage und gemeinsame Verständigung, nicht durch die Annahme, eine Horoskopstellung verrate automatisch den Wunsch eines anderen Menschen."
+        }
+      ],
+      "practice": {
+        "prompt": "Lea will ihre Zeit wertschätzen und zugleich ein zugängliches Angebot machen. Formuliere zwei Werte, eine mögliche Spannung und eine konkrete, begrenzte Lösung ohne Preisvorgabe.",
+        "model_answer": "Die beiden Werte könnten Zugänglichkeit für Teilnehmende und ein fairer Umgang mit Leas Vorbereitungszeit sein. Eine Spannung entsteht, wenn sie unbegrenzt zusätzliche Betreuung anbietet, um besonders entgegenkommend zu wirken. Eine mögliche fiktive Lösung wäre ein Workshop von 60 Minuten: 40 Minuten gemeinsame Einführung, zehn Minuten eigene Übung und zehn Minuten Fragerunde. Ein einseitiges Merkblatt ist enthalten; zusätzliche Einzelgespräche oder laufende Nachbetreuung gehören nicht zu diesem begrenzten Angebot. Über einen tatsächlichen Preis müsste Lea anhand ihrer Situation bewusst entscheiden; diese Übung setzt keinen Betrag fest. Die Venusperspektive fragt, wie mehrere Werte in einer konkreten Form sichtbar werden können. Ich würde Lea außerdem fragen, welche Zugänglichkeit ihr besonders wichtig ist: verständliche Sprache, ein kleiner Zeitumfang oder andere Bedingungen. So wird der Begriff genauer. Die Lösung darf später angepasst werden, wenn sich der tatsächliche Aufwand zeigt. Wertschätzung richtet sich dabei auf die Teilnehmenden und auf Leas eigenen Beitrag, ohne eine unbegrenzte Selbstverpflichtung zu verlangen.",
+        "rubric": [
+          "Zwei Werte werden klar benannt.",
+          "Die Spannung wird konkret beschrieben.",
+          "Die Lösung hat einen begrenzten Umfang.",
+          "Es wird kein unbestätigter Preis festgelegt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welche Frage passt zur Venusperspektive?",
+          "options": [
+            "Welche Form drückt deine Wertschätzung tatsächlich aus?",
+            "Welche Person musst du aufgrund des Zeichens lieben?",
+            "Welche Diagnose erklärt deine Vorlieben?"
+          ],
+          "correct_index": 0,
+          "explanation": "Die Frage bleibt bei einer selbst gewählten, konkreten Form von Wert und Verbindung."
+        },
+        {
+          "id": "q2",
+          "question": "Was hilft bei einer verbindenden Geste?",
+          "options": [
+            "Nur die eigene gute Absicht beachten.",
+            "Nachfragen, ob die Form beim Gegenüber passend ankommt.",
+            "Die gewünschte Reaktion voraussetzen."
+          ],
+          "correct_index": 1,
+          "explanation": "Absicht und Wirkung sind verschieden; eine Rückfrage kann sie besser zusammenbringen."
+        },
+        {
+          "id": "q3",
+          "question": "Was lässt sich aus einer Venusposition allein nicht bestimmen?",
+          "options": [
+            "Eine symbolische Frage nach Werten.",
+            "Die Zeichenposition in der verwendeten Karte.",
+            "Die tatsächliche sexuelle Orientierung einer Person."
+          ],
+          "correct_index": 2,
+          "explanation": "Persönliche Identität und Lebensform werden nicht aus einem Symbol festgelegt."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2016/02/24/significations-of-seven-traditional-planets/",
+          "title": "The Significations of the Seven Traditional Planets, Episode 64",
+          "author": "Chris Brennan, Kelly Surtees und Austin Coppock",
+          "note": "Geprüfte Primärquelle zum traditionellen Vokabular der sieben Himmelskörper. Die Aufgaben, Alltagsszenen und ausführlichen Reflexionsabläufe dieser Lektion sind eigene Synthesen, keine Podcastabschrift.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-planeten-05",
+      "title": "Mars: handeln, wünschen und Grenzen vertreten",
+      "summary": "Mars bietet eine Perspektive auf Initiative, Konflikt und die konkrete Form einer eigenen Entscheidung.",
+      "objective": "Du formulierst einen klaren Wunsch und eine respektvolle Grenze und unterscheidest Entschlossenheit von Druck.",
+      "level": "foundation",
+      "minutes": 25,
+      "body": "## Eine Absicht wird zur Handlung\nMars gehört zu den sieben traditionellen Himmelskörpern. In unserer eigenen Reflexionssprache steht er für die Frage, wie ein Wunsch in eine Handlung übergeht und wie Widerstand behandelt wird. Das umfasst einen kleinen Anfang ebenso wie eine klare Grenze. Mars ist nicht einfach ein Etikett für Aggressivität. Ein ruhiges Nein kann entschlossen sein, während ein lauter Streit das eigentliche Anliegen verdeckt. Untersuche deshalb einen konkreten Handlungsvorgang, statt eine Person anhand des Symbols als durchsetzungsfähig oder schwierig festzulegen.\n\n## Wunsch, Bitte und Grenze unterscheiden\nEin Wunsch beschreibt, was jemand möchte. Eine Bitte richtet sich an eine andere Person und lässt eine Antwort zu. Eine Grenze beschreibt, was die Person selbst tun oder nicht tun wird. Samir könnte wünschen, dass Termine früher geplant werden. Er könnte um eine Mitteilung bis Donnerstag bitten. Seine Grenze könnte sein, dass er kurzfristige zusätzliche Aufgaben nicht immer übernimmt. Diese drei Sätze haben unterschiedliche Funktionen. Wenn sie vermischt werden, klingt eine Bitte schnell wie eine verdeckte Forderung oder eine Grenze bleibt unklar.\n\n## Konflikt als Unterschied beschreiben\nEin Konflikt muss nicht bedeuten, dass jemand böse Absichten hat. Vielleicht konkurrieren Zeitwünsche, Erwartungen oder Zuständigkeiten. Frage zuerst, worin der Unterschied besteht. Dann suche eine Handlung, die den eigenen Standpunkt deutlich macht, ohne über die andere Person zu verfügen. Leas Workshop kann beispielsweise eine feste Endzeit haben, obwohl einzelne Teilnehmende gern länger sprechen würden. Sie kann freundlich auf das Ende hinweisen. Ihre Grenze schützt den vereinbarten Rahmen und braucht keine abwertende Erklärung über die Wünsche der anderen.\n\n## Zeichen verändern das Vorgehen\nEin angenommener Mars in Widder könnte einen direkten Anfang als Frage aufwerfen. In Waage könnte die Handlung stärker mit Abstimmung verbunden werden. In Steinbock könnte ein geplanter, schrittweiser Aufbau untersucht werden. Diese Unterschiede sind mögliche Stile, keine Rangliste wirksamer Menschen. Auch ein zögerlicher Beginn kann passend sein, wenn wichtige Informationen fehlen. Frage nicht nur, ob gehandelt wird, sondern wann, wofür und mit welchen Folgen. Das macht die Symbolarbeit differenzierter als das Schlagwort Tatkraft.\n\n## Körperliche Bilder bleiben Bilder\nWörter wie Energie, Spannung oder Feuer können eine Handlung anschaulich beschreiben. In dieser Lektion sind sie Metaphern und keine Messwerte körperlicher Kraft. Eine Marsposition erlaubt keine Diagnose, keine Aussage über Gewaltbereitschaft und keine sichere Vorhersage eines Unfalls. Wenn jemand tatsächliche gesundheitliche Beschwerden nennt, bleibt die astrologische Reflexion von deren fachlicher Abklärung getrennt. Für die Übung genügt die Frage, welche konkrete Handlung im eigenen Einflussbereich liegt und welche Handlung nicht verantwortbar übernommen werden sollte.\n\n## Eine Grenze in eigener Verantwortung\nFormuliere zum Abschluss eine Grenze mit einem eigenen Verb: „Ich beende die Sitzung zur vereinbarten Zeit“ ist klarer als „Du darfst mich nicht überfordern“. Ergänze eine respektvolle Alternative, wenn sie tatsächlich angeboten werden kann. Lea könnte weitere Fragen für einen späteren Termin sammeln, ohne diesen automatisch zu versprechen. Prüfe im Rückblick, ob die Grenze verständlich war und eingehalten wurde. Die Marsübung verbindet Entschlossenheit mit Verantwortung für den eigenen Anteil, nicht mit Kontrolle über das Verhalten anderer.",
+      "examples": [
+        {
+          "title": "Lea beendet den Workshop",
+          "body": "Im fiktiven Probelauf möchten Teilnehmende nach der vereinbarten Endzeit weiterreden. Lea sagt, dass sie den gemeinsamen Teil jetzt beendet und offene Fragen für eine spätere Planung notiert. Marina betrachtet dies als konkrete Grenze. Die Mars-Perspektive verlangt keinen scharfen Ton. Entscheidend ist, dass Lea ihren eigenen Handlungsspielraum beschreibt und keine zusätzliche Betreuung verspricht, die sie nicht leisten kann. Rückmeldung kann später zeigen, ob das Ende klar genug angekündigt war."
+        },
+        {
+          "title": "Samir trennt drei Sätze",
+          "body": "Samir übt im fiktiven Fall: „Ich wünsche mir planbare Abende. Kannst du Änderungen möglichst bis Donnerstag mitteilen? Aufgaben, die erst am selben Abend dazukommen, übernehme ich nur, wenn ich Zeit habe.“ Marina markiert Wunsch, Bitte und Grenze getrennt. Die Übung zeigt, wie Handlungsfähigkeit sprachlich klarer wird. Sie garantiert nicht, dass das Gegenüber zustimmt. Samir bleibt für seine eigene Zusage verantwortlich und kann eine Antwort hören, ohne den Wunsch sofort aufzugeben."
+        }
+      ],
+      "practice": {
+        "prompt": "Formuliere für Lea je einen Wunsch, eine Bitte und eine eigene Grenze zur Vorbereitungszeit ihres Workshops. Erkläre den Unterschied.",
+        "model_answer": "Leas Wunsch könnte lauten: „Ich möchte den Workshop sorgfältig vorbereiten und trotzdem freie Abende behalten.“ Ihre Bitte an eine Mitorganisatorin wäre: „Kannst du mir deine Ergänzungen bis Dienstag schicken, damit ich sie in Ruhe prüfen kann?“ Eine eigene Grenze lautet: „Änderungen nach Mittwoch nehme ich nur auf, wenn sie für die Verständlichkeit unbedingt nötig sind.“ Der Wunsch beschreibt eine bevorzugte Situation. Die Bitte lädt die andere Person zu einem Beitrag ein und lässt eine Antwort zu. Die Grenze benennt Leas eigenes Vorgehen. Diese Unterscheidung passt zur Mars-Perspektive, weil aus einem allgemeinen Bedürfnis konkrete Handlungen werden. Ich würde die Grenze nicht als Strafe formulieren. Wenn ein wichtiger neuer Umstand entsteht, kann Lea bewusst neu entscheiden. Klarheit bedeutet hier, Verantwortung für die eigene Zusage zu übernehmen, statt andere durch eine vermeintlich astrologisch begründete Forderung zu kontrollieren.",
+        "rubric": [
+          "Wunsch, Bitte und Grenze sind unterscheidbar.",
+          "Die Grenze beschreibt eigenes Handeln.",
+          "Die Bitte lässt eine Antwort zu.",
+          "Kein Druck wird mit einer Symbolposition gerechtfertigt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welcher Satz ist am klarsten eine eigene Grenze?",
+          "options": [
+            "Ich wünsche mir mehr Ruhe.",
+            "Ich beende den gemeinsamen Teil um 19 Uhr.",
+            "Könntest du früher kommen?"
+          ],
+          "correct_index": 1,
+          "explanation": "Der zweite Satz beschreibt eigenes Handeln; die anderen sind Wunsch und Bitte."
+        },
+        {
+          "id": "q2",
+          "question": "Was unterscheidet Entschlossenheit von Druck?",
+          "options": [
+            "Entschlossenheit ist immer leise.",
+            "Druck ist immer wirksamer.",
+            "Entschlossenheit kann den eigenen Anteil klären, ohne die Wahl des Gegenübers aufzuheben."
+          ],
+          "correct_index": 2,
+          "explanation": "Die Verantwortung für das eigene Handeln ersetzt keinen Anspruch auf Kontrolle anderer."
+        },
+        {
+          "id": "q3",
+          "question": "Welche Information liefert eine Marsposition nicht zuverlässig?",
+          "options": [
+            "Eine Diagnose oder sichere Aussage über Gewaltbereitschaft.",
+            "Eine benannte Zeichenposition.",
+            "Einen möglichen Einstieg in eine Reflexionsfrage."
+          ],
+          "correct_index": 0,
+          "explanation": "Gesundheit und Gefährlichkeit dürfen nicht aus einem astrologischen Symbol abgeleitet werden."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2016/02/24/significations-of-seven-traditional-planets/",
+          "title": "The Significations of the Seven Traditional Planets, Episode 64",
+          "author": "Chris Brennan, Kelly Surtees und Austin Coppock",
+          "note": "Geprüfte Primärquelle zum traditionellen Vokabular der sieben Himmelskörper. Die Aufgaben, Alltagsszenen und ausführlichen Reflexionsabläufe dieser Lektion sind eigene Synthesen, keine Podcastabschrift.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-planeten-06",
+      "title": "Jupiter: Möglichkeiten erweitern und Maßstäbe prüfen",
+      "summary": "Jupiter verbindet in der Symbolarbeit Sinn, Lernen und Wachstum mit der Frage nach einem angemessenen Maß.",
+      "objective": "Du entwickelst eine hilfreiche Erweiterung für ein Vorhaben und prüfst ihre Voraussetzungen, statt bloßen Optimismus zu übernehmen.",
+      "level": "foundation",
+      "minutes": 25,
+      "body": "## Mehr Möglichkeiten sehen\nJupiter gehört zu den traditionellen sieben Himmelskörpern. Für unsere eigene Lernarbeit betrachten wir ihn als Bild für Erweiterung, Vertrauen und die Suche nach einem größeren Zusammenhang. Eine Erweiterung kann Wissen, Handlungsspielraum oder eine neue Beziehung betreffen. Sie muss nicht immer mehr Geld, mehr Reichweite oder ein größeres Angebot bedeuten. Manchmal entsteht Wachstum dadurch, dass eine Person eine bisher übersehene Möglichkeit erkennt. Die Frage lautet deshalb zuerst, was sich sinnvoll erweitern soll und welchem Anliegen diese Erweiterung dient.\n\n## Hoffnung und Voraussetzung verbinden\nEine ermutigende Perspektive kann helfen, einen ersten Versuch zu wagen. Sie wird tragfähiger, wenn ihre Voraussetzungen genannt werden. Lea könnte ihren Workshop später für eine größere Gruppe anbieten. Dafür braucht sie vielleicht einen verständlichen Ablauf, mehr Material oder eine andere Raumplanung. Diese Bedingungen schwächen die Hoffnung nicht. Sie machen aus einem schönen Bild einen prüfbaren Entwurf. Eine Jupiterfrage kann daher lauten: Welche Chance siehst du, und was müsste vorhanden sein, damit du sie verantwortbar nutzen kannst?\n\n## Das richtige Maß finden\nMehr ist nicht immer besser. Ein langer Workshop kann weniger klar sein als eine kurze Einheit. Viele Quellen können verwirren, wenn ihre Aussagen nicht sortiert werden. Frage deshalb, wann eine Erweiterung dem Ziel dient und wann sie den Kern überdeckt. Für Lea könnte ein zusätzliches Beispiel hilfreich sein, während fünf neue Themen den ersten Ablauf überladen. Das Maß ergibt sich aus Zweck, Zeit und Rückmeldung. Es wird nicht allein durch die Begeisterung der anbietenden Person bestimmt.\n\n## Überzeugungen beweglich halten\nJupiter wird häufig mit Weltbildern und Sinnfragen verbunden. In einer Beratung kannst du untersuchen, welche Überzeugung eine Entscheidung trägt. Samir könnte glauben, dass eine gute Beziehung alle Interessen teilen müsse. Eine offene Frage prüft, ob gemeinsame Werte auch bei unterschiedlichen Hobbys möglich sind. Du musst die Überzeugung nicht sofort widerlegen. Hilfreich ist, Beispiele und Gegenbeispiele zu sammeln. So wird ein Weltbild zu einer bewussten Orientierung, die lernen kann, statt zu einer Regel, der jede Erfahrung angepasst werden muss.\n\n## Zeichen, Haus und Zeitmaß\nEin angenommener Jupiter in Zwillinge kann die Erweiterung durch vielfältiges Lernen als Thema anbieten; in Steinbock könnte die Frage nach einem tragfähigen Rahmen für Wachstum entstehen. Ein Haus ergänzt gegebenenfalls den Bereich. Robert Hand unterscheidet in seinem zugänglichen Text persönliche, schnellere Faktoren von langsameren sozialen und überpersönlichen Perspektiven. Diese Unterscheidung erinnert daran, aus einer langsameren Zeichenposition keine einzigartige Einzelbiografie zu konstruieren. Für eine persönliche Synthese werden weitere Faktoren und die tatsächliche Situation gebraucht.\n\n## Eine Erweiterung als Versuch\nZum Abschluss wählst du genau eine Erweiterung und beschreibst Ziel, Voraussetzung und Grenze. Lea könnte eine zweite Übungsvariante im Probelauf testen, aber die Gesamtdauer gleich halten. Danach prüft sie, ob die zusätzliche Möglichkeit verständlich war oder eher ablenkte. Das Ergebnis darf auch sein, die Erweiterung wieder wegzulassen. Eine gute Jupiterübung verbindet Zuversicht mit Lernfähigkeit. Sie verspricht kein Glück und keine garantierte Fülle, sondern macht eine neue Möglichkeit so konkret, dass ihre Folgen beobachtet werden können.",
+      "examples": [
+        {
+          "title": "Lea erweitert gezielt",
+          "body": "Lea möchte im fiktiven Fall nach einem gelungenen Probelauf gleich vier weitere Themen ergänzen. Marina fragt, welche Erweiterung den Teilnehmenden tatsächlich hilft. Lea wählt nur ein zusätzliches Beispiel und prüft, ob es die Anleitung verständlicher macht. Die Jupiterperspektive erhält die Freude an Wachstum, begrenzt aber den Versuch. Nach der Rückmeldung kann Lea das Beispiel behalten oder streichen. Ein größeres Angebot wird nicht allein deshalb als besser bewertet, weil es umfangreicher wirkt."
+        },
+        {
+          "title": "Samir prüft eine Überzeugung",
+          "body": "Samir meint im fiktiven Gespräch, gemeinsame Interessen seien die wichtigste Grundlage jeder Beziehung. Marina bittet ihn, zwischen Interessen, Werten und Absprachen zu unterscheiden. Samir könnte entdecken, dass Verlässlichkeit für ihn wichtiger ist als dieselben Freizeitaktivitäten. Die Jupiterübung untersucht den größeren Maßstab hinter einer Aussage. Sie ersetzt ihn nicht durch die Überzeugung der Beraterin. Entscheidend ist, ob Samir seinen eigenen Maßstab genauer und mit Platz für Gegenbeispiele formulieren kann."
+        }
+      ],
+      "practice": {
+        "prompt": "Plane eine einzige Erweiterung für Leas Workshop. Nenne Nutzen, Voraussetzungen, Grenze und ein Ergebnis, bei dem du die Erweiterung wieder entfernen würdest.",
+        "model_answer": "Ich würde ein zweites kurzes Beispiel für dieselbe Übung ergänzen, damit Menschen mit unterschiedlichem Alltag einen Zugang finden. Der gewünschte Nutzen ist bessere Verständlichkeit, nicht bloß mehr Inhalt. Voraussetzung ist, dass das erste Beispiel bereits klar formuliert ist und die zusätzliche Erklärung in den bestehenden Zeitrahmen passt. Die Grenze lautet, kein neues Thema und keine zusätzliche Aufgabe einzuführen. Im Probelauf fragt Lea, welches Beispiel den Einstieg erleichtert hat. Wenn die zweite Darstellung Verwirrung erzeugt oder die praktische Übungszeit verdrängt, würde ich sie wieder entfernen oder kürzen. Die Jupiterperspektive liegt im bewussten Erweitern von Möglichkeiten. Sie enthält zugleich eine Gegenprobe. Lea muss nicht jede begeisternde Idee sofort umsetzen. Ein kleiner Versuch liefert bessere Informationen darüber, ob Wachstum dem tatsächlichen Lernziel dient oder nur den Umfang des Angebots vergrößert.",
+        "rubric": [
+          "Es wird genau eine Erweiterung gewählt.",
+          "Der Nutzen ist konkret beschrieben.",
+          "Voraussetzungen und Grenze sind benannt.",
+          "Ein ehrliches Rücknahmekriterium ist enthalten."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welche Frage verbindet Zuversicht mit Prüfung?",
+          "options": [
+            "Wie machen wir alles sofort größer?",
+            "Warum darf niemand Zweifel haben?",
+            "Welche Chance besteht, und welche Voraussetzungen braucht sie?"
+          ],
+          "correct_index": 2,
+          "explanation": "Die Frage macht eine Möglichkeit handlungsnah und überprüfbar."
+        },
+        {
+          "id": "q2",
+          "question": "Was wäre ein sinnvoller Maßstab für eine Workshop-Erweiterung?",
+          "options": [
+            "Ob sie das benannte Lernziel verständlicher erreichbar macht.",
+            "Ob sie möglichst beeindruckend klingt.",
+            "Ob sie mehr Fachbegriffe enthält."
+          ],
+          "correct_index": 0,
+          "explanation": "Der Nutzen orientiert sich am tatsächlichen Zweck."
+        },
+        {
+          "id": "q3",
+          "question": "Warum genügt eine langsame Zeichenposition nicht für eine einzigartige Biografie?",
+          "options": [
+            "Weil Zeichen keine Grade haben.",
+            "Weil viele Menschen diese Position teilen und weitere Faktoren sowie Kontext nötig sind.",
+            "Weil nur schnelle Faktoren berechnet werden können."
+          ],
+          "correct_index": 1,
+          "explanation": "Ein geteilter Hintergrund darf nicht als individuelle Lebensgeschichte ausgegeben werden."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2016/02/24/significations-of-seven-traditional-planets/",
+          "title": "The Significations of the Seven Traditional Planets, Episode 64",
+          "author": "Chris Brennan, Kelly Surtees und Austin Coppock",
+          "note": "Geprüfte Primärquelle zum traditionellen Vokabular der sieben Himmelskörper. Die Aufgaben, Alltagsszenen und ausführlichen Reflexionsabläufe dieser Lektion sind eigene Synthesen, keine Podcastabschrift.",
+          "checked_at": "2026-10-20"
+        },
+        {
+          "url": "https://www.arhatmedia.com/post/inner-versus-outer-planets",
+          "title": "Inner Versus Outer Planets – autorisierter Auszug aus Horoscope Symbols",
+          "author": "Robert Hand / ARHAT Media",
+          "note": "Geprüfter frei zugänglicher Auszug zur Unterscheidung persönlicher und langsamerer Faktoren. Die konkreten Übungen und Beispiele dieser Lektion sind eigenständig.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-planeten-07",
+      "title": "Saturn: Grenzen, Verantwortung und erlernbare Form",
+      "summary": "Saturn wird als Bild für Begrenzung und Aufbau untersucht, ohne Schwierigkeiten zu einem Schicksalsurteil zu machen.",
+      "objective": "Du unterscheidest eine reale Grenze, eine übernommene Regel und eine trainierbare Fähigkeit und entwickelst einen passenden Schritt.",
+      "level": "foundation",
+      "minutes": 25,
+      "body": "## Eine Grenze genauer benennen\nSaturn gehört zu den traditionellen sieben Himmelskörpern. In unserer Reflexionsarbeit öffnet er Fragen nach Begrenzung, Verantwortung und der Form, die durch Übung entsteht. Das Wort Grenze kann dabei sehr Verschiedenes meinen. Eine Person hat tatsächlich nur wenige freie Stunden. Eine andere folgt einer übernommenen Vorstellung, alles allein schaffen zu müssen. Wieder eine andere braucht noch Erfahrung mit einer bestimmten Aufgabe. Diese Fälle verlangen unterschiedliche Antworten. Ein pauschales Etikett wie Blockade würde wichtige Unterschiede verdecken.\n\n## Reale Bedingungen respektieren\nLea kann ihren Workshop nicht in einem beliebig großen Zeitfenster vorbereiten, wenn ihr Alltag andere Verpflichtungen enthält. Eine reale Grenze lässt sich nicht durch einen ermutigenden Satz aufheben. Frage zuerst nach verfügbaren Mitteln und nach dem Umfang des Vorhabens. Vielleicht muss die erste Fassung kleiner werden. Das ist keine Niederlage. Ein passender Rahmen kann gerade ermöglichen, dass ein Vorhaben überhaupt begonnen und verlässlich fortgeführt wird. Die Symbolik dient dazu, Bedingungen ernst zu nehmen, nicht sie moralisch zu bewerten.\n\n## Übernommene Regeln prüfen\nDer Satz „Ich darf erst starten, wenn ich alles weiß“ klingt wie eine Sicherheitsregel, kann aber einen überschaubaren Lernversuch unmöglich machen. Frage, woher die Regel kommt und welchen Zweck sie erfüllen soll. Vielleicht soll sie andere vor unklaren Angeboten schützen. Dieser Zweck kann durch einen klar begrenzten Probelauf, ehrliche Beschreibung und passende Vorbereitung besser erfüllt werden. Eine Regel wird nicht allein deshalb verworfen, weil sie streng ist. Sie wird darauf geprüft, ob ihre konkrete Form dem beabsichtigten Zweck dient.\n\n## Können wächst durch passende Wiederholung\nEine schwierige Aufgabe kann in kleinere Teile zerlegt werden. Lea könnte zunächst nur eine zweiminütige Erklärung üben, statt einen ganzen Workshop fehlerfrei halten zu wollen. Nach jedem Versuch betrachtet sie eine konkrete Verbesserung. Wiederholung braucht Rückmeldung, sonst wird möglicherweise nur dieselbe Unklarheit gefestigt. Die Saturnperspektive verbindet hier Geduld mit Struktur. Sie verspricht nicht, dass jede Fähigkeit unbegrenzt erlernbar ist, und verlangt keine Selbstüberforderung. Das Maß der Übung soll zu Person und Aufgabe passen.\n\n## Deutung ohne Drohung\nSaturn wird in manchen Texten mit schweren Erfahrungen verbunden. Solche historischen oder symbolischen Zuordnungen rechtfertigen keine Aussage, dass eine Person zwangsläufig leiden müsse. Eine angenommene Saturnposition in einem Beziehungshaus erlaubt beispielsweise keine sichere Vorhersage von Einsamkeit. Du kannst stattdessen nach Erwartungen, verbindlichen Absprachen und tragbaren Grenzen fragen. Schwierige Erfahrungen dürfen benannt werden, wenn die Person sie berichtet. Sie werden nicht aus einem Symbol als bereits bekannte Tatsache ergänzt.\n\n## Ein tragfähiger nächster Schritt\nZum Abschluss sortierst du ein Hindernis in drei Felder: Bedingung, Regel oder Fähigkeit. Manchmal gehören mehrere Ebenen dazu. Wähle dann für jede Ebene eine passende Reaktion: Umfang anpassen, Regel prüfen oder einen begrenzten Teil üben. Samir könnte eine reale Zeitgrenze anerkennen und zugleich lernen, sie deutlicher auszusprechen. Der Lernerfolg liegt in einer genaueren Unterscheidung. Saturn wird dadurch zu einer nützlichen Frage nach verantwortlicher Gestaltung, ohne zum Urteil über Wert, Zukunft oder angeblich notwendiges Leiden eines Menschen zu werden.",
+      "examples": [
+        {
+          "title": "Leas Hindernis wird sortiert",
+          "body": "Lea sagt im fiktiven Fall, sie sei noch nicht bereit. Marina fragt, was genau fehlt. In der Lehrgeschichte hat Lea nur zwei freie Abende, eine unklare Einleitung und die Vorstellung, vor dem Start jedes Thema kennen zu müssen. Die Saturnübung trennt reale Zeitgrenze, trainierbare Erklärung und übernommene Regel. Daraus entstehen drei verschiedene Schritte. Ein einziges Wort wie Blockade hätte diese Unterschiede verdeckt und möglicherweise zu einem unpassenden allgemeinen Ratschlag geführt."
+        },
+        {
+          "title": "Samir übt eine klare Zusage",
+          "body": "Samir sagt im fiktiven Fall häufig zu viel zu und zieht sich später zurück. Marina fragt, welche Zusage er tatsächlich tragen kann. Er formuliert eine kleinere Aufgabe mit einem klaren Ende. Die Saturnperspektive richtet sich auf Verlässlichkeit durch passende Begrenzung. Sie erklärt Samir nicht als unfähig oder lieblos. Nach einer Woche wird geprüft, ob die kleinere Zusage realistisch war und ob sie gegenüber anderen verständlich genug ausgesprochen wurde."
+        }
+      ],
+      "practice": {
+        "prompt": "Sortiere Leas drei Aussagen: „Ich habe nur zwei freie Abende“, „Ich muss vor dem Start alles wissen“, „Meine Einführung ist noch unklar“. Entwickle passende Reaktionen.",
+        "model_answer": "Die zwei freien Abende sind zunächst eine reale Rahmenbedingung. Ich würde den Umfang der Vorbereitung daran anpassen und keine unbegrenzte zusätzliche Zeit voraussetzen. Der Satz, vor dem Start alles wissen zu müssen, ist eine Regel, deren Zweck geprüft werden sollte. Für einen klar begrenzten Probelauf kann eine ehrliche Beschreibung des Inhalts und der Grenzen genügen. Die unklare Einführung betrifft eine konkrete Fähigkeit oder ein Arbeitsmittel. Lea kann eine kurze Fassung schreiben, vorlesen und eine Testperson um Rückmeldung bitten. Diese drei Reaktionen passen zu drei unterschiedlichen Problemen. Die Saturnperspektive unterstützt die genaue Unterscheidung von Grenze, Verantwortung und Übung. Ich würde nicht alle Aussagen als Angst oder Blockade erklären. Wenn neue Informationen hinzukommen, kann sich die Einordnung ändern. Ziel ist eine tragbare nächste Handlung, nicht der Nachweis, dass Lea jede Schwierigkeit durch mehr Disziplin überwinden müsse.",
+        "rubric": [
+          "Reale Bedingung, Regel und Fähigkeit sind unterschieden.",
+          "Jede Ebene erhält eine passende Reaktion.",
+          "Der Probelauf bleibt klar begrenzt.",
+          "Kein moralisches Urteil ersetzt die Analyse."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welche Aussage beschreibt am ehesten eine reale Rahmenbedingung?",
+          "options": [
+            "Mir stehen diese Woche zwei freie Abende zur Verfügung.",
+            "Ich darf niemals eine Frage offenlassen.",
+            "Ich muss immer alles allein können."
+          ],
+          "correct_index": 0,
+          "explanation": "Die verfügbare Zeit ist eine konkrete Bedingung; die anderen Sätze sind Regeln oder Ansprüche."
+        },
+        {
+          "id": "q2",
+          "question": "Was ist eine passende Reaktion auf eine unklare Einführung?",
+          "options": [
+            "Eine feste Charakterdiagnose stellen.",
+            "Eine kurze Fassung üben und gezielte Rückmeldung einholen.",
+            "Den gesamten Berufswunsch aufgeben."
+          ],
+          "correct_index": 1,
+          "explanation": "Ein konkretes Kommunikationsproblem braucht eine konkrete Übung."
+        },
+        {
+          "id": "q3",
+          "question": "Welche Aussage wäre eine unzulässige Gewissheit aus Saturnsymbolik?",
+          "options": [
+            "Wir könnten über deine Zusagen sprechen.",
+            "Welche Grenze ist gerade real?",
+            "Diese Stellung garantiert Einsamkeit."
+          ],
+          "correct_index": 2,
+          "explanation": "Eine symbolische Position trägt keine sichere Vorhersage einer solchen Lebensgeschichte."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2016/02/24/significations-of-seven-traditional-planets/",
+          "title": "The Significations of the Seven Traditional Planets, Episode 64",
+          "author": "Chris Brennan, Kelly Surtees und Austin Coppock",
+          "note": "Geprüfte Primärquelle zum traditionellen Vokabular der sieben Himmelskörper. Die Aufgaben, Alltagsszenen und ausführlichen Reflexionsabläufe dieser Lektion sind eigene Synthesen, keine Podcastabschrift.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-planeten-08",
+      "title": "Uranus: Veränderung prüfen und Freiheit konkretisieren",
+      "summary": "Die moderne Uranusdeutung öffnet Fragen nach Unterbrechung, Eigenständigkeit und sinnvoller Erneuerung.",
+      "objective": "Du unterscheidest einen hilfreichen Veränderungsversuch von bloßer Neuheit und planst ihn mit Rückmeldung und Rückkehrmöglichkeit.",
+      "level": "foundation",
+      "minutes": 25,
+      "body": "## Eine moderne Erweiterung der Symbolsprache\nUranus gehört nicht zu den sieben klassischen Himmelskörpern, mit denen die antiken astrologischen Systeme arbeiteten. Seine heutige Deutung ist Teil einer späteren Entwicklung. In der modernen Symbolsprache wird er häufig mit Neuerung, Unterbrechung und Unabhängigkeit verbunden. Die offizielle Podcastdiskussion von Chris Brennan und Rick Levine behandelt auch, wie solche Bedeutungen historisch entstanden. Diese Geschichte ist interessant, aber kein naturwissenschaftlicher Nachweis einer Wirkung. Unsere eigene Übung nutzt das Symbol als Frage nach einer bewusst gestalteten Veränderung.\n\n## Was soll frei werden?\nFreiheit ist ein großes Wort. Frage, wovon oder wozu eine Person mehr Freiheit möchte. Samir könnte weniger kurzfristige Verpflichtungen wünschen, aber gleichzeitig verbindliche Beziehungen erhalten wollen. Lea könnte ihren Workshop auf eigene Weise gestalten, ohne jeden bewährten Ablauf aufzugeben. Die konkrete Frage verhindert, dass Unabhängigkeit nur als pauschales Gegenalles erscheint. Eine hilfreiche Veränderung benennt den gewünschten Spielraum und die Verantwortung, die mit seiner Nutzung verbunden ist.\n\n## Eine Unterbrechung ist nicht automatisch ein Fortschritt\nEin gewohnter Ablauf kann unpassend geworden sein. Eine überraschende Änderung kann ihn verbessern oder zusätzliche Verwirrung schaffen. Prüfe deshalb, welches Problem vorliegt. Lea könnte eine bisher lange Einführung durch eine kurze praktische Einstiegsübung ersetzen. Der Zweck wäre, Teilnehmenden schneller einen Zugang zu ermöglichen. Ob das gelingt, muss der Probelauf zeigen. Die Uranusperspektive eröffnet die Möglichkeit des Andersmachens, entscheidet aber nicht vorab, dass jede ungewöhnliche Variante überlegen ist.\n\n## Kleine Experimente statt großer Sprünge\nWähle einen Veränderungsversuch, dessen Folgen überschaubar bleiben. Notiere, was geändert wird, was gleich bleibt und woran der Nutzen erkennbar wäre. Eine Rückkehrmöglichkeit erleichtert das Lernen. Lea kann beim nächsten Probelauf wieder zur alten Reihenfolge zurückkehren, wenn der neue Einstieg unklar ist. Das Experiment braucht keine dramatische Lebensentscheidung. Gerade ein kleiner Test kann zeigen, ob eine neue Form zum tatsächlichen Anliegen passt. Diese Methode ist unsere eigene praktische Übertragung, keine vorgeschriebene Uranustechnik.\n\n## Individualität im Zusammenhang\nEine langsame Uranusposition im Zeichen wird von vielen Menschen geteilt. Sie reicht deshalb nicht aus, um jemanden als einzigartig rebellisch, technisch begabt oder grundsätzlich beziehungsfern zu beschreiben. Für eine persönliche astrologische Synthese würden weitere Positionen, Aspekte und der konkrete Lebenskontext betrachtet. Robert Hands Unterscheidung schnellerer persönlicher und langsamerer Faktoren ist hier eine nützliche Erinnerung. Ein gemeinsamer Hintergrund kann eine Perspektive anbieten, ohne schon eine individuelle Biografie zu erzählen.\n\n## Eine Veränderung besprechbar machen\nWenn andere Menschen betroffen sind, gehört ihre Perspektive in den Versuch. Samir kann nicht allein eine gemeinsame Regel ändern und dies mit seinem Bedürfnis nach Freiheit rechtfertigen. Er kann seinen Wunsch benennen, einen Vorschlag machen und die Folgen gemeinsam prüfen. Zum Abschluss formulierst du deshalb neben der Neuerung auch eine Rückfrage an Betroffene. Die Uranusübung verbindet Eigenständigkeit mit nachvollziehbarer Verantwortung. Ihr Ergebnis ist ein klarer Versuch mit Rückmeldung, nicht die Behauptung, jede Unterbrechung sei kosmisch notwendig oder automatisch befreiend.",
+      "examples": [
+        {
+          "title": "Lea testet einen anderen Einstieg",
+          "body": "Lea beginnt ihren fiktiven Workshop bisher mit einer langen Erklärung. Sie probiert nun eine kurze praktische Frage vor der Einführung aus. Der Rest des Ablaufs bleibt gleich. Danach fragt sie, ob dieser Einstieg Orientierung oder Verwirrung erzeugt hat. Die Uranusperspektive unterstützt einen begrenzten Versuch. Lea muss nicht ihre ganze Arbeitsweise neu erfinden. Wenn die neue Reihenfolge nicht hilft, kann sie sie zurücknehmen und hat trotzdem etwas über den Ablauf gelernt."
+        },
+        {
+          "title": "Samir verhandelt mehr Spielraum",
+          "body": "Samir möchte im fiktiven Fall einen Abend pro Woche frei von gemeinsamen Planungen halten. Er erklärt den Wunsch und fragt, welche Folgen das für sein Gegenüber hätte. Beide können einen Versuch für zwei Wochen vereinbaren. Die Übung verbindet Freiheit mit Absprachen. Marina behauptet nicht, eine Uranusstellung mache Bindung unmöglich. Der gewünschte Spielraum wird konkret beschrieben und später gemeinsam geprüft, statt als allgemeine Rechtfertigung für jede spontane Änderung verwendet zu werden."
+        }
+      ],
+      "practice": {
+        "prompt": "Plane für Lea einen begrenzten Veränderungsversuch am Workshopbeginn: Problem, Änderung, Messfrage und Rückkehrmöglichkeit. Nenne, wer vorher einbezogen werden sollte.",
+        "model_answer": "Das Problem lautet, dass Teilnehmende nach einer langen Einführung noch nicht wissen, wie sie anfangen sollen. Die Änderung wäre eine kurze praktische Einstiegsfrage vor der Erklärung. Material, Thema und Gesamtdauer bleiben gleich, damit der Unterschied besser beurteilt werden kann. Die Messfrage lautet: „Konntest du nach dem Einstieg den ersten Schritt ohne zusätzliche Hilfe beginnen?“ Eine Rückkehrmöglichkeit besteht darin, beim nächsten Probelauf wieder die alte Reihenfolge zu verwenden oder beide Varianten zu verbinden. Wenn eine Mitorganisatorin beteiligt ist, sollte Lea den Versuch vorher mit ihr besprechen. Die Uranusperspektive regt hier eine neue Möglichkeit an, ersetzt aber keine Rückmeldung. Ich würde die neue Form nicht allein wegen ihrer Ungewöhnlichkeit als besser bezeichnen. Der Versuch ist gelungen, wenn seine Folgen nachvollziehbar sind und Lea daraus eine begründete Entscheidung für den nächsten Ablauf treffen kann.",
+        "rubric": [
+          "Ein konkretes Problem ist benannt.",
+          "Nur eine begrenzte Änderung wird getestet.",
+          "Eine sinnvolle Rückfrage prüft den Nutzen.",
+          "Rückkehrmöglichkeit und Betroffene sind berücksichtigt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was unterscheidet Uranus von den sieben klassischen Himmelskörpern?",
+          "options": [
+            "Er kann keine astronomische Position haben.",
+            "Seine astrologische Deutung entstand als spätere Erweiterung.",
+            "Er gehört zu jedem antiken Herrscherschema."
+          ],
+          "correct_index": 1,
+          "explanation": "Die klassische Siebenerordnung enthält Sonne, Mond, Merkur, Venus, Mars, Jupiter und Saturn."
+        },
+        {
+          "id": "q2",
+          "question": "Wann ist ein Veränderungsversuch gut prüfbar?",
+          "options": [
+            "Wenn möglichst alles gleichzeitig verändert wird.",
+            "Wenn sein Erfolg vorab feststeht.",
+            "Wenn Problem, begrenzte Änderung und Rückmeldung klar sind."
+          ],
+          "correct_index": 2,
+          "explanation": "Ein begrenzter Versuch macht die Folgen einer Änderung eher nachvollziehbar."
+        },
+        {
+          "id": "q3",
+          "question": "Was muss bei einer gemeinsamen Regel berücksichtigt werden?",
+          "options": [
+            "Die Perspektive der betroffenen Personen.",
+            "Nur die spontanste Idee.",
+            "Eine astrologische Rechtfertigung ersetzt jede Absprache."
+          ],
+          "correct_index": 0,
+          "explanation": "Eigenständigkeit hebt gemeinsame Verantwortung nicht auf."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2021/09/23/uranus-in-astrology-meaning-and-significations/",
+          "title": "Uranus in Astrology: Meaning and Significations, Episode 320",
+          "author": "Chris Brennan und Rick Levine",
+          "note": "Offizielle Episodenbeschreibung und zugehöriger Transkriptauszug über die Entwicklung der modernen Uranusdeutung geprüft. Fallbeispiele und Entscheidungsmethode sind eigene Arbeiten; historische Zuordnungen sind kein Wirkungsnachweis.",
+          "checked_at": "2026-10-20"
+        },
+        {
+          "url": "https://www.arhatmedia.com/post/inner-versus-outer-planets",
+          "title": "Inner Versus Outer Planets – autorisierter Auszug aus Horoscope Symbols",
+          "author": "Robert Hand / ARHAT Media",
+          "note": "Geprüfter frei zugänglicher Auszug zur Unterscheidung persönlicher und langsamerer Faktoren. Die konkreten Übungen und Beispiele dieser Lektion sind eigenständig.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-planeten-09",
+      "title": "Neptun: Bilder, Ideale und Unterscheidungsfähigkeit",
+      "summary": "Die moderne Neptundeutung lädt zu Imagination ein und verlangt zugleich Klarheit darüber, was erlebt, erhofft und gewusst wird.",
+      "objective": "Du kannst ein Ideal als Anregung nutzen, ohne es mit einer Tatsache oder einem Versprechen zu verwechseln.",
+      "level": "foundation",
+      "minutes": 30,
+      "body": "## Zwischen Vorstellung und Erfahrung\nNeptun gehört zu den modernen Erweiterungen der astrologischen Symbolsprache. Häufig werden mit ihm Imagination, Ideale, Sehnsucht und die Möglichkeit von Täuschung verbunden. Diese Begriffe sind Deutungskonventionen. Unsere eigene Übung untersucht, wie ein Mensch ein inneres Bild nutzen kann, ohne es für eine bereits gesicherte äußere Wirklichkeit zu halten. Ein Ideal kann Richtung geben. Ein Wunsch kann Hoffnung ausdrücken. Beides wird hilfreicher, wenn erkennbar bleibt, welche Informationen tatsächlich vorliegen und welche Bedeutung die Person selbst hinzufügt.\n\n## Ein Ideal genau beschreiben\nLea könnte von einem Workshop träumen, in dem sich alle verstanden fühlen. Das Bild zeigt eine wertvolle Absicht, ist aber kein Ergebnis, das sie für alle garantieren kann. Frage, welche gestaltbaren Bedingungen dieses Ideal unterstützen würden: verständliche Anleitung, freiwillige Beteiligung und Zeit für Rückfragen. So wird die Sehnsucht in einen verantwortbaren Beitrag übersetzt. Ein Ideal muss nicht aufgegeben werden, weil es nicht vollständig kontrollierbar ist. Es braucht eine klare Grenze zwischen eigener Gestaltung und fremder Erfahrung.\n\n## Projektion im Alltag erkennen\nWenn eine neue Lehrperson besonders überzeugend wirkt, kann man ihr Fähigkeiten zuschreiben, die noch gar nicht geprüft wurden. Unterscheide, was sie tatsächlich gezeigt hat, was sie verspricht und was du dir von ihr erhoffst. Diese drei Listen helfen beim Lernen aus öffentlichen Quellen. Ein berührender Vortrag kann eine interessante Perspektive bieten und trotzdem unbelegte Behauptungen enthalten. Die Neptunübung fragt hier nach der Beziehung zwischen Faszination und Prüfung. Sie verlangt nicht, jede Begeisterung misstrauisch zu zerstören.\n\n## Eine Bildübung freiwillig halten\nBiete an, für ein Thema ein Bild oder einen Satz zu wählen. Die Person darf auch sachlich antworten oder die Übung auslassen. Wenn Samir ein Bild nennt, fragt Marina nach seiner eigenen Bedeutung. Ihre spontane Assoziation wird nicht als verborgene Wahrheit ausgegeben. Eine Metapher kann mehrere Bedeutungen haben und sich im Gespräch verändern. Zum Abschluss wird gefragt, welche konkrete Frage oder Handlung daraus entsteht. Dadurch erhält das Bild einen Bezug zum Alltag, ohne eine umfassende Erklärung liefern zu müssen.\n\n## Empfindung ist keine Fernmessung\nIn einem Gespräch können starke eigene Eindrücke auftauchen. Sie dürfen wahrgenommen werden, bleiben aber zunächst eigene Erfahrungen. Aus einer Neptunposition oder einem intensiven Gefühl folgt kein Nachweis, dass fremde Gedanken, Belastungen oder Energiefelder über eine Entfernung erkannt wurden. Wenn eine spirituelle Deutung gewünscht ist, wird sie als solche benannt. Die überprüfbare Gesprächsebene besteht aus Fragen und Rückmeldungen. Diese Unterscheidung schützt die Offenheit der Übung, weil niemand eine behauptete Wahrnehmung der Beraterin bestätigen muss.\n\n## Einen guten Traum in einen guten Schritt übersetzen\nZum Abschluss schreibst du drei Sätze: Mein Ideal ist …; mein tatsächlich gestaltbarer Beitrag ist …; meine offene Frage bleibt …. Lea kann damit einen berührenden Workshop anstreben und zugleich einen realistischen Probelauf vorbereiten. Wenn die Rückmeldung anders ausfällt als erhofft, ist das eine Information über den Ablauf. Es muss nicht als fehlende spirituelle Offenheit erklärt werden. Die Neptunperspektive verbindet Vorstellungskraft mit Unterscheidung und lässt sowohl Begeisterung als auch Korrektur zu.",
+      "examples": [
+        {
+          "title": "Leas Ideal bekommt einen Rahmen",
+          "body": "Lea möchte im fiktiven Fall, dass sich alle Teilnehmenden nach dem Workshop leichter fühlen. Marina fragt, welchen Teil sie tatsächlich gestalten kann. Lea wählt eine verständliche Übung, Wahlmöglichkeiten und einen ruhigen Abschluss. Das erhoffte Gefühl bleibt offen. Die Neptunperspektive hilft, Ideal und Angebot zu unterscheiden. Eine Person darf den Workshop anders erleben. Ihre Rückmeldung wird nicht als mangelnde Bereitschaft abgewertet, sondern kann die nächste Gestaltung des Ablaufs verbessern."
+        },
+        {
+          "title": "Samir prüft eine faszinierende Quelle",
+          "body": "Samir hört im fiktiven Lernfall einen Vortrag, der verspricht, jede Beziehung anhand eines Symbols erklären zu können. Er ist zunächst begeistert. Als Übung notiert er, welche konkrete Methode vorgestellt wurde, welche Behauptung ungeprüft bleibt und was er sich selbst davon erhofft. Die Trennung ermöglicht Interesse ohne vorschnelle Übernahme. Er kann einen nützlichen Gedanken behalten und das umfassende Versprechen trotzdem zurückweisen. Die Übung stärkt eigene Urteilskraft, statt einen neuen Guru an die Stelle des alten zu setzen."
+        }
+      ],
+      "practice": {
+        "prompt": "Übersetze Leas Ideal „Alle sollen sich tief verstanden fühlen“ in einen gestaltbaren Beitrag und eine offene Auswertungsfrage. Kennzeichne, was sie nicht garantieren kann.",
+        "model_answer": "Leas Ideal zeigt den Wunsch nach einem zugewandten Workshop. Ihr gestaltbarer Beitrag könnte sein, klare Fragen zu stellen, freiwillige Beteiligung zu ermöglichen und Rückmeldungen aufmerksam aufzunehmen. Sie kann außerdem ausreichend Zeit für den Abschluss einplanen. Nicht garantieren kann sie, dass jede Person sich tief verstanden fühlt oder eine bestimmte innere Veränderung erlebt. Meine Auswertungsfrage lautet: „Welche Stelle hat dir geholfen, dein eigenes Thema klarer zu beschreiben, und wo fehlte dir etwas?“ Diese Frage lässt unterschiedliche Erfahrungen zu. Die Neptunperspektive verbindet hier ein sinnvolles Ideal mit einer erkennbaren Grenze. Ich würde eine enttäuschte Rückmeldung nicht spirituell umdeuten. Sie kann zeigen, dass eine Anweisung, der Zeitrahmen oder die Erwartungsklärung verbessert werden muss. Die Aufgabe ist gelungen, wenn Inspiration erhalten bleibt und zugleich klar benannt wird, was Lea tatsächlich anbietet und was offen bleibt.",
+        "rubric": [
+          "Ideal und kontrollierbarer Beitrag sind getrennt.",
+          "Ein emotionales Ergebnis wird nicht garantiert.",
+          "Die Auswertungsfrage erlaubt unterschiedliche Erfahrungen.",
+          "Enttäuschung wird nicht als spiritueller Mangel umgedeutet."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welche Liste hilft bei einer faszinierenden Quelle?",
+          "options": [
+            "Gezeigte Methode, behauptetes Versprechen und eigene Hoffnung getrennt notieren.",
+            "Nur bestätigende Eindrücke sammeln.",
+            "Die Bekanntheit als vollständigen Beweis verwenden."
+          ],
+          "correct_index": 0,
+          "explanation": "Die Trennung bewahrt Interesse und prüfende Urteilskraft."
+        },
+        {
+          "id": "q2",
+          "question": "Was ist ein intensiver eigener Eindruck zunächst?",
+          "options": [
+            "Ein sicherer Messwert über das Gegenüber.",
+            "Eine eigene Erfahrung, deren Bedeutung offen geprüft werden muss.",
+            "Ein Nachweis für eine bestimmte Planetenkraft."
+          ],
+          "correct_index": 1,
+          "explanation": "Die Erfahrung kann ernst genommen werden, ohne ihre Herkunft als bewiesen darzustellen."
+        },
+        {
+          "id": "q3",
+          "question": "Welche Aussage ist als Angebot angemessen?",
+          "options": [
+            "Jeder wird sich danach verstanden fühlen.",
+            "Die Übung löst jede Beziehungsschwierigkeit.",
+            "Wir bieten eine freiwillige Reflexionsübung mit Raum für Rückfragen."
+          ],
+          "correct_index": 2,
+          "explanation": "Das Angebot beschreibt einen gestaltbaren Ablauf statt eines garantierten inneren Ergebnisses."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/transcripts/tap-ep-326-transcript-neptune-in-astrology-meanings-and-significations/",
+          "title": "Neptune in Astrology: Meanings and Significations, Episode 326 – Transkript",
+          "author": "Chris Brennan und Laura Nalbandian",
+          "note": "Geprüfter offizieller Transkriptauszug als Quelle für die moderne Verbindung von Neptun mit Imagination, Idealen und Täuschung. Die freiwillige Bildarbeit und ihre Prüfschritte sind eigene Übungen; spirituelle Annahmen der Gesprächspartner werden nicht vorausgesetzt.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-planeten-10",
+      "title": "Pluto: Einfluss, Bindung und bewusste Veränderung",
+      "summary": "Pluto wird in modernen Schulen mit Macht und Wandlung verbunden; die praktische Arbeit braucht konkrete Fragen und sorgfältige Grenzen.",
+      "objective": "Du untersuchst Einfluss und Veränderungsmöglichkeiten, ohne aus einem Symbol eine verborgene Krise oder ein Trauma abzuleiten.",
+      "level": "foundation",
+      "minutes": 30,
+      "body": "## Eine moderne Deutungsgeschichte\nPluto ist astronomisch ein Zwergplanet und gehört in vielen modernen astrologischen Schulen weiterhin zum üblichen Deutungsbestand. Die astronomische Kategorie und die astrologische Verwendung sind verschiedene Fragen. In der modernen Symbolsprache werden mit Pluto häufig Einfluss, Kontrolle, Intensität und Wandlung verbunden. Die offizielle Diskussion von Chris Brennan und Richard Tarnas behandelt auch die Entstehung dieser Zuordnungen. Unsere eigene Lernübung nimmt daraus eine begrenzte Frage auf: Wo liegen tatsächliche Handlungsmöglichkeiten, Abhängigkeiten und veränderbare Vereinbarungen in einer konkreten Situation?\n\n## Einfluss konkret beschreiben\nDas Wort Macht klingt groß, lässt sich aber im Alltag präzisieren. Wer verfügt über wichtige Informationen? Wer entscheidet über Ausgaben? Wer kann einer Vereinbarung zustimmen oder sie verlassen? Lea könnte mit einer Mitorganisatorin klären, wer Anmeldungen verwaltet und wer zusätzliche Kosten freigibt. Diese Fragen machen Zuständigkeiten sichtbar. Sie setzen keinen Konflikt voraus. Einfluss kann verantwortungsvoll genutzt werden. Eine Pluto-Perspektive wird hilfreicher, wenn sie konkrete Strukturen untersucht, statt Menschen vorschnell als kontrollierend oder machtlos zu etikettieren.\n\n## Bindung und Wahlmöglichkeiten unterscheiden\nEine Beziehung oder ein Vorhaben kann sich verbindlich anfühlen und dennoch Handlungsspielraum enthalten. Frage, welche Zusage tatsächlich besteht und welche zusätzliche Verpflichtung nur angenommen wird. Samir könnte glauben, jede spontane Aufgabe übernehmen zu müssen, obwohl dies nie vereinbart wurde. Die Übung untersucht, welche Grenze ausgesprochen werden kann. In anderen Situationen können reale Abhängigkeiten bestehen, die nicht durch einen einfachen Satz verschwinden. Dann muss der Handlungsspielraum ehrlich klein beschrieben werden, statt Veränderung als reine Willensfrage darzustellen.\n\n## Schwierige Erfahrungen nicht erfinden\nManche moderne Pluto-Texte verwenden intensive Begriffe. Daraus folgt keine Berechtigung, Trauma, Missbrauch oder eine bevorstehende Krise aus einer Stellung abzuleiten. Wenn eine Person eine schwierige Erfahrung selbst berichtet, hörst du zu und bleibst bei deiner tatsächlichen Kompetenz. Du musst keine verborgene Ursache enthüllen, um eine verantwortliche Frage zu stellen. Eine astrologische Übung ist kein Verfahren zur Diagnose oder Erinnerungssuche. Die Person bestimmt, was sie erzählen möchte; eine verweigerte Antwort bestätigt keine Vermutung.\n\n## Veränderung in überprüfbare Teile zerlegen\nWandlung kann als Bild anregen, doch eine praktische Änderung braucht eine Form. Lea könnte eine unklare Kostenabsprache durch eine schriftliche Grenze ersetzen. Samir könnte eine bislang unausgesprochene Erwartung in einem Gespräch benennen. Frage, welche Folgen die Änderung für andere hat und ob sie rückgängig gemacht werden kann. Große Worte sollten nicht zu einem dramatischen Handlungsdruck führen. Ein kleiner klarer Schritt kann bedeutsamer sein als die Behauptung, ein ganzes altes Selbst müsse sterben oder vollständig neu entstehen.\n\n## Langsame Faktoren nicht überpersonalisieren\nPluto bewegt sich langsam; seine Zeichenposition wird von vielen Menschen geteilt. Sie liefert daher keine einzigartige Geschichte über einen einzelnen Menschen. In einer astrologischen Synthese würden Aspekte, Häuser und weitere Faktoren betrachtet, jeweils mit ihren Voraussetzungen. Zum Abschluss hältst du eine reale Zuständigkeit, eine offene Frage und eine mögliche kleine Änderung fest. Die Qualität der Plutoübung zeigt sich an größerer Klarheit über Einfluss und Wahlmöglichkeiten, nicht an der Intensität der Sprache oder an einer vermeintlich enthüllten verborgenen Wahrheit.",
+      "examples": [
+        {
+          "title": "Lea macht Entscheidungsspielraum sichtbar",
+          "body": "Lea und eine Mitorganisatorin planen den fiktiven Workshop. Beide dürfen kleine Materialien kaufen, aber niemand weiß, wer über größere Ausgaben entscheidet. Marina fragt nach einer klaren Zuständigkeit und einem gemeinsamen Rahmen. Die Pluto-Perspektive betrachtet hier Einfluss als konkrete Struktur. Sie erfindet keinen Machtkampf. Eine verständliche Vereinbarung kann späteren Konflikten vorbeugen und macht sichtbar, wer welche Entscheidung tragen soll, ohne eine Person pauschal als kontrollierend oder abhängig zu beschreiben."
+        },
+        {
+          "title": "Samir prüft eine angenommene Pflicht",
+          "body": "Samir glaubt im fiktiven Fall, jede zusätzliche Aufgabe übernehmen zu müssen, weil er sich einmal allgemein hilfsbereit gezeigt hat. Marina fragt, was tatsächlich vereinbart wurde. Samir könnte erkennen, dass eine konkrete Grenze noch gar nicht ausgesprochen ist. Die Übung untersucht einen möglichen Handlungsspielraum. Sie setzt nicht voraus, dass jede Abhängigkeit nur eingebildet wäre. Wenn reale Folgen bestehen, werden diese benannt. Veränderung wird als begrenzte Entscheidung behandelt und nicht als erzwungene persönliche Transformation."
+        }
+      ],
+      "practice": {
+        "prompt": "Erstelle für Leas Zusammenarbeit eine kleine Einflusskarte: Information, Entscheidung, Zustimmung und offene Frage. Formuliere eine konkrete Verbesserung.",
+        "model_answer": "Bei Information notiere ich, wer die Anmeldungen erhält und welche Angaben die andere Organisatorin für ihre Aufgabe braucht. Bei Entscheidung halte ich fest, wer zusätzliche Ausgaben freigibt. Bei Zustimmung steht, welche Änderungen beide gemeinsam besprechen möchten, beispielsweise eine längere Veranstaltungsdauer. Eine offene Frage könnte lauten: „Bis zu welchem Umfang darf jede Person selbstständig Material ergänzen?“ Als konkrete Verbesserung vereinbaren beide einen überschaubaren Rahmen und dokumentieren größere Änderungen gemeinsam. Die Pluto-Perspektive hilft hier, Einfluss sichtbar zu machen, ohne einen Konflikt zu behaupten. Ich würde weder geheime Motive noch eine traumatische Vorgeschichte ergänzen. Die Karte beschreibt eine Zusammenarbeit, keine ganze Persönlichkeit. Nach dem Probelauf wird geprüft, ob die Vereinbarung verständlich und praktikabel war. Wenn nicht, ändern beide den Rahmen anhand der tatsächlichen Erfahrung. Ein klarer kleiner Eingriff kann hilfreicher sein als eine dramatische Deutung über Macht und Wandlung.",
+        "rubric": [
+          "Information und Entscheidung werden getrennt.",
+          "Zustimmung und offene Fragen sind sichtbar.",
+          "Eine konkrete Verbesserung ist formuliert.",
+          "Keine geheime Krise oder Biografie wird erfunden."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welche Aussage trennt Astronomie und astrologische Verwendung richtig?",
+          "options": [
+            "Pluto kann kein Zwergplanet sein, wenn er astrologisch benutzt wird.",
+            "Pluto ist astronomisch ein Zwergplanet und wird in vielen modernen Deutungen verwendet.",
+            "Die astronomische Kategorie beweist seine Symbolwirkung."
+          ],
+          "correct_index": 1,
+          "explanation": "Die Einordnung eines Himmelskörpers und seine symbolische Verwendung sind unterschiedliche Ebenen."
+        },
+        {
+          "id": "q2",
+          "question": "Welche Frage untersucht Einfluss konkret?",
+          "options": [
+            "Wer hat die stärkste verborgene Energie?",
+            "Welche Krise muss bevorstehen?",
+            "Wer verfügt über Informationen und entscheidet über zusätzliche Ausgaben?"
+          ],
+          "correct_index": 2,
+          "explanation": "Die dritte Frage bezieht sich auf überprüfbare Zuständigkeiten."
+        },
+        {
+          "id": "q3",
+          "question": "Was darf aus einer Pluto-Position nicht als Tatsache abgeleitet werden?",
+          "options": [
+            "Eine unbekannte traumatische Erfahrung.",
+            "Eine mögliche offene Reflexionsfrage.",
+            "Die angegebene Zeichenposition."
+          ],
+          "correct_index": 0,
+          "explanation": "Biografie und gesundheitliche Aussagen dürfen nicht aus einem Symbol erfunden werden."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2022/01/20/pluto-in-astrology-meaning-and-significations/",
+          "title": "Pluto in Astrology: Meaning and Significations, Episode 336",
+          "author": "Chris Brennan und Richard Tarnas",
+          "note": "Geprüfte offizielle Episodenseite zur Geschichte und zum modernen Deutungsvokabular Plutos. Keine Übernahme der dort vertretenen historischen Wirkungsbehauptungen; konkrete Fallarbeit ist eigenständig.",
+          "checked_at": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/solar-system/",
+          "title": "Solar System Exploration",
+          "author": "NASA Science",
+          "note": "Astronomischer Bezugsrahmen für die Unterscheidung von Stern, Planet und Mond; kein Beleg für astrologische Wirkungsbehauptungen.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-planeten-11",
+      "title": "Herrscher und Dispositoren: Verbindungen nachvollziehen",
+      "summary": "Das traditionelle Domizilschema verbindet Zeichen mit Planeten und ermöglicht klare, überprüfbare Beziehungsketten.",
+      "objective": "Du bestimmst den Dispositor einer Planetenposition und verfolgst eine kurze Kette, ohne daraus allein ein Gesamturteil abzuleiten.",
+      "level": "deepening",
+      "minutes": 30,
+      "body": "## Eine zusätzliche Beziehungsebene\nEin Planet steht in einem Zeichen. Der traditionelle Herrscher dieses Zeichens wird als dessen Domizilherrscher bezeichnet. Betrachtet man die Beziehung zu einem Planeten, der dort steht, spricht man vom Dispositor. Für die technische Übung bedeutet das: Du liest zuerst das Zeichen der Ausgangsposition und suchst dann den zugeordneten Herrscher. Diese Regel erzeugt eine Verbindung zwischen zwei Faktoren. Sie ist etwas anderes als ein Aspekt, denn sie braucht nicht zuerst einen bestimmten Winkel zwischen den beiden Positionen.\n\n## Das traditionelle Schema lernen\nDie Sonne gehört zu Löwe, der Mond zu Krebs. Merkur regiert Zwillinge und Jungfrau, Venus Stier und Waage, Mars Widder und Skorpion, Jupiter Schütze und Fische, Saturn Steinbock und Wassermann. Diese Tabelle verwendet die sieben klassischen Himmelskörper. Moderne Zuordnungen mit Uranus, Neptun und Pluto können in anderen Schulen hinzukommen. Für eine nachvollziehbare Kette entscheidest du dich vorab für ein Schema. Wechsle nicht mitten in der Rechnung unbemerkt zwischen verschiedenen Herrschern, nur weil ein anderes Ergebnis interessanter wirkt.\n\n## Eine Kette Schritt für Schritt\nNimm die frei erfundene Lehrposition Merkur in Waage. Waage wird von Venus regiert, also ist Venus der Dispositor Merkurs. Wenn Venus im Steinbock steht, führt der nächste Schritt zu Saturn. Wenn Saturn in Wassermann steht, befindet er sich im traditionellen Schema in seinem eigenen Domizil. Die Kette endet dann bei Saturn als selbstbezogenem Endpunkt dieser Verbindung. Diese Rechnung sagt noch nichts über die tatsächliche Biografie einer Person. Sie ordnet zuerst technische Beziehungen innerhalb der gewählten Symbolregeln.\n\n## Kreise erkennen statt endlos weitergehen\nNicht jede Kette endet bei einem Planeten im eigenen Zeichen. Bei Venus in Widder und Mars in Stier führen beide Zuordnungen wechselseitig aufeinander. Markiere diese Schleife, statt die Namen unbegrenzt weiterzuschreiben. Eine solche gegenseitige Rezeption nach Domizil ist eine besondere Beziehung innerhalb des Schemas; ihre weitere Bewertung hängt von Schule und zusätzlichen Bedingungen ab. Für die erste Übung genügt, sie korrekt zu erkennen. Auch längere Kreise sind möglich. Eine sauber gezeichnete Pfeilfolge verhindert unnötige Verwirrung.\n\n## Domizil ist nicht das gesamte Würdensystem\nEin Planet im eigenen Zeichen steht im Domizil. Daneben kennen traditionelle Schulen weitere Würden und Bedingungen, die in einem vertiefenden Kurs behandelt werden. Verwechsle Herrschaft nicht mit Erhöhung und erkläre eine Position nicht allein aufgrund eines Begriffs für gut oder schlecht. Eine technische Stärke ist außerdem kein moralischer Wert der Person. Der Planet, der eine Kette beendet, ersetzt nicht alle anderen Faktoren. Die Kette ist eine zusätzliche Ordnungshilfe für eine spätere Synthese.\n\n## Die Rechnung in eine offene Frage übersetzen\nIm Beispiel Merkur, Venus, Saturn könnte eine eigene Reflexionsfrage untersuchen, wie Kommunikation, Wertentscheidungen und verbindliche Rahmen zusammenwirken. Diese Frage ist eine didaktische Übertragung, keine zwingende Bedeutung der Kette. Notiere sie getrennt von der Rechnung. Prüfe zuerst die Zuordnungen und erst danach die sprachliche Synthese. So bleibt erkennbar, welche Schritte objektiv innerhalb des Schemas kontrolliert werden können und wo eine offene Interpretation beginnt. Genau diese Trennung macht eine fortgeschrittene Technik lernbar.",
+      "examples": [
+        {
+          "title": "Eine Kette mit Endpunkt",
+          "body": "Die frei erfundenen Lehrpositionen lauten Merkur in Waage, Venus in Steinbock und Saturn in Wassermann. Marina zeichnet Merkur zu Venus, Venus zu Saturn und Saturn zu sich selbst. Sie verwendet durchgehend die traditionelle Herrscherordnung. Erst danach entwickelt sie eine mögliche Frage nach Kommunikation, Werten und verbindlichen Absprachen. Die Pfeilkette ist eine technische Übung. Sie ist weder ein berechneter Radix von Lea noch ein Beweis dafür, dass Saturn ihr gesamtes Leben bestimmt."
+        },
+        {
+          "title": "Eine gegenseitige Verbindung",
+          "body": "Im zweiten Lehrbeispiel steht Venus im Widder und Mars im Stier. Der Herrscher des Widders ist Mars; der Herrscher des Stiers ist Venus. Die Pfeile führen daher von Venus zu Mars und zurück. Marina markiert die Schleife als gegenseitige Domizilbeziehung. Sie behauptet nicht, damit sei jede Schwierigkeit aufgehoben. Für eine weitergehende Deutung wären zusätzliche Regeln und der vollständige Kontext nötig. Zuerst zählt, dass die Zuordnung korrekt und ohne heimlichen Systemwechsel erfolgt."
+        }
+      ],
+      "practice": {
+        "prompt": "Bestimme mit dem traditionellen Schema die Kette für Mond in Zwillinge, Merkur in Fische und Jupiter in Schütze. Erkläre, wo sie endet und was daraus noch nicht folgt.",
+        "model_answer": "Der Mond steht im Zeichen Zwillinge. Dessen traditioneller Herrscher ist Merkur, daher führt der erste Pfeil vom Mond zu Merkur. Merkur steht in Fische, dessen traditioneller Herrscher Jupiter ist. Der zweite Pfeil führt also von Merkur zu Jupiter. Jupiter steht in Schütze und damit in einem eigenen Domizil. Die Kette endet an diesem selbstbezogenen Punkt. Ich würde alle drei Schritte aufschreiben und das verwendete traditionelle Schema ausdrücklich nennen. Daraus folgt noch keine Gesamtbewertung eines Menschen und keine sichere Aussage über Erfolg, Gefühle oder Beruf. Auch andere Würden, Aspekte und Häuser sind in dieser kurzen Aufgabe nicht geprüft. Als mögliche eigene Reflexionsfrage könnte ich später untersuchen, wie Bedürfnisse, sprachliche Einordnung und größere Überzeugungen zusammenhängen. Diese Frage steht getrennt von der technischen Rechnung. Der Übungserfolg besteht zunächst in einer korrekten, nachvollziehbaren Zuordnung ohne Wechsel zu einem modernen Fische-Herrscher mitten in der Kette.",
+        "rubric": [
+          "Das traditionelle Schema wird durchgehend verwendet.",
+          "Jeder Pfeil ist aus dem Zeichen begründet.",
+          "Der Endpunkt Jupiter in Schütze wird erkannt.",
+          "Technische Kette und Deutung bleiben getrennt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Wer ist im traditionellen Schema Dispositor von Merkur in Waage?",
+          "options": [
+            "Merkur selbst.",
+            "Saturn.",
+            "Venus."
+          ],
+          "correct_index": 2,
+          "explanation": "Waage ist ein Domizil der Venus; die Zeichenposition bestimmt diesen Schritt."
+        },
+        {
+          "id": "q2",
+          "question": "Was unterscheidet eine Dispositorbeziehung von einem Aspekt?",
+          "options": [
+            "Sie entsteht aus der Herrscherzuordnung des Zeichens, nicht zunächst aus einem Winkel.",
+            "Sie ist immer ein exaktes Trigon.",
+            "Sie benötigt grundsätzlich keine Zeichenposition."
+          ],
+          "correct_index": 0,
+          "explanation": "Aspekte und Herrscherbeziehungen sind verschiedene technische Ebenen."
+        },
+        {
+          "id": "q3",
+          "question": "Was ergibt Venus in Widder und Mars in Stier nach Domizil?",
+          "options": [
+            "Zwei unabhängige Endpunkte im eigenen Zeichen.",
+            "Eine gegenseitige Verbindung zwischen Venus und Mars.",
+            "Automatisch dieselbe Verbindung wie eine Konjunktion."
+          ],
+          "correct_index": 1,
+          "explanation": "Beide stehen im Domizil des jeweils anderen; das ist keine Aussage über ihren Winkelabstand."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/transcripts/ep-156-transcript-essential-dignities-and-debilities-with-charles-obert/",
+          "title": "Essential Dignities and Debilities, Episode 156 – Transkript",
+          "author": "Chris Brennan und Charles Obert",
+          "note": "Geprüfter offizieller Transkriptauszug zum traditionellen Domizilschema und zur Unterscheidung von Herrschaft und weiteren Würden. Die Kettenbeispiele und Prüfmethode dieser Lektion sind eigene Lehrkonstruktionen.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-planeten-12",
+      "title": "Rückläufigkeit: Perspektive, Tempo und Deutungsgrenzen",
+      "summary": "Rückläufigkeit beschreibt eine scheinbare Bewegung am Himmel; astrologische Lesarten sind eine zusätzliche Ebene.",
+      "objective": "Du erkennst rückläufige Längenentwicklung in einer Tabelle und trennst den astronomischen Befund von einer freiwilligen Reflexionsübung.",
+      "level": "deepening",
+      "minutes": 30,
+      "body": "## Der beobachtete Weg kann sich umkehren\nRückläufigkeit bezeichnet im astrologischen Gebrauch eine zeitweise abnehmende geozentrische ekliptikale Länge eines Planeten. Der Planet kehrt dabei nicht plötzlich seine physische Umlaufrichtung um die Sonne um. Die scheinbare Bewegung entsteht aus der relativen Bewegung und der Beobachterperspektive. Die NASA erklärt dies für äußere Planeten anschaulich mit dem Überholen durch die schneller umlaufende Erde. Diese astronomische Erklärung ist von jeder astrologischen Bedeutung zu trennen. Ein beobachtbarer Perspektiveffekt beweist keine Störung von Gesprächen, Verträgen oder Geräten.\n\n## Eine Tabelle lesen\nStell dir drei aufeinanderfolgende Tagespositionen eines frei gewählten Lehrplaneten vor: zwölf Grad zwanzig, zwölf Grad zehn und zwölf Grad null im selben Zeichen. Die Länge nimmt ab; in diesem Ausschnitt ist die Bewegung rückläufig. Steigen die Werte dagegen von zwölf auf dreizehn und vierzehn Grad, ist sie direktläufig. An einer Station wechselt die Bewegungsrichtung nach einer Phase sehr geringer scheinbarer Geschwindigkeit. Für genaue Angaben müssen Zeitpunkte und Koordinatenkonventionen klar sein. Die Übungszahlen sind absichtlich erfunden und keine aktuelle Ephemeride.\n\n## Den Nullpunkt nicht vergessen\nEin Wechsel von neunundzwanzig Grad eines Zeichens zu null Grad des nächsten ist keine Rückläufigkeit, wenn die Bewegung vorwärts durch den Tierkreis geht. Rechne bei Unsicherheit in Gesamtgrade um und beachte den Kreisübergang. Ebenso kann ein rückläufiger Planet in das vorherige Zeichen zurückkehren. Eine reine Betrachtung der Zahl ohne Zeichenname kann irreführen. Diese technische Kontrolle ist besonders wichtig, wenn du Tabellen aus verschiedenen Darstellungen vergleichst oder einen Zeitbereich nahe einem Zeichenwechsel untersuchst.\n\n## Radix und Transit unterscheiden\nEin rückläufiger Planet im Geburtshoroskop beschreibt den Bewegungszustand zum gewählten Geburtszeitpunkt. Eine aktuelle rückläufige Phase ist ein Transitgeschehen zu einer späteren Zeit. Beides ist nicht dasselbe. Verschiedene astrologische Schulen bieten unterschiedliche Lesarten an, etwa eine Betonung von Überprüfung oder anders gerichteter Verarbeitung. Solche Deutungen müssen als Modelle benannt werden. Sie erlauben keine sichere Aussage, dass jemand grundsätzlich schlecht kommuniziert oder während einer bestimmten Phase keine vernünftige Entscheidung treffen kann.\n\n## Eine freiwillige Überprüfungsroutine\nDu kannst eine rückläufige Phase als persönlichen Anlass nehmen, Unterlagen oder Absprachen zu prüfen. Die gleiche Sorgfalt ist auch zu anderen Zeiten sinnvoll. Lea könnte ihre Workshop-Einladung auf widersprüchliche Angaben kontrollieren. Samir könnte eine unklare Vereinbarung noch einmal besprechen. Der Nutzen dieser Handlungen lässt sich am tatsächlichen Ergebnis prüfen. Er beweist nicht, dass die Himmelsbewegung den Fehler verursacht hat. Eine hilfreiche Routine braucht keine Angst vor einer kosmischen Störung und kein pauschales Verbot neuer Vorhaben.\n\n## Eine saubere Dokumentation\nNotiere zum Abschluss Datum, Positionen, erkennbare Bewegungsrichtung und die Quelle der Ephemeride, wenn du echte Daten verwendest. Schreibe eine mögliche Reflexionsfrage in eine getrennte Zeile. Prüfe außerdem, ob du aus einem zeitlichen Zusammentreffen vorschnell eine Ursache gemacht hast. Wenn ein Gerät während einer rückläufigen Phase ausfällt, bleiben technische Ursachen zu untersuchen. Die Lektion verbindet geometrisches Verständnis mit einer freiwilligen Arbeitsroutine und verhindert, dass ein berechenbarer Bewegungszustand zu einer umfassenden Erklärung für beliebige Alltagsereignisse wird.",
+      "examples": [
+        {
+          "title": "Lea überprüft ohne Verbotsregel",
+          "body": "Lea hört im fiktiven Fall, sie dürfe während einer rückläufigen Phase keinen Workshop planen. Marina trennt die astronomische Bewegung von diesem pauschalen Ratschlag. Lea kann ihre Angaben sorgfältig prüfen und reale Rahmenbedingungen beachten, unabhängig vom Kalenderetikett. Sie kontrolliert Uhrzeit, Ort und Anmeldung. Falls ein Fehler auffällt, wird er konkret korrigiert. Die Übung nutzt Überprüfung als hilfreiche Handlung, ohne eine Ursache im Himmel zu behaupten oder ein vernünftiges Vorhaben automatisch zu verschieben."
+        },
+        {
+          "title": "Eine scheinbar fallende Zahl",
+          "body": "Eine Lehrtabelle zeigt erst 29 Grad Stier und danach 1 Grad Zwillinge. Ein Lernender hält die kleinere Zahl zunächst für Rückläufigkeit. Marina rechnet in Gesamtgrade um: 59 und 61 Grad. Die Position nimmt zu; der Planet ist in diesem vereinfachten Ausschnitt direktläufig. Das Beispiel zeigt, warum Zeichenname und Grad zusammengehören. Es ist eine geometrische Übung mit erfundenen Zahlen und enthält weder eine aktuelle Vorhersage noch eine Aussage über einen bestimmten Menschen."
+        }
+      ],
+      "practice": {
+        "prompt": "Beurteile zwei frei erfundene Folgen: 14 Grad10 Waage → 14 Grad00 Waage → 13 Grad50 Waage; sowie 29 Grad Stier → 1 Grad Zwillinge. Ergänze eine sinnvolle Überprüfungsroutine ohne astrologische Kausalbehauptung.",
+        "model_answer": "In der ersten Folge nimmt die Länge innerhalb desselben Zeichens ab. Die Werte beschreiben deshalb in diesem vereinfachten Ausschnitt eine rückläufige Bewegung. Die Angaben zehn, null und fünfzig sind Bogenminuten innerhalb der jeweiligen Gradposition, keine Uhrminuten. In der zweiten Folge rechne ich 29 Grad Stier zu 59 Gesamtgraden und 1 Grad Zwillinge zu 61 Gesamtgraden um. Die Länge steigt; der scheinbare Rückgang der Zahl entsteht nur durch den Zeichenwechsel. Als praktische Routine könnte Lea ihre Einladung auf einheitliche Uhrzeit, eindeutigen Ort und verständliche Anmeldung prüfen. Diese Kontrolle ist unabhängig von einer rückläufigen Phase sinnvoll. Wenn sie einen Fehler findet, beweist das keine astrologische Ursache. Ich würde astronomischen Befund, gewählte Reflexionsidee und tatsächlich gefundene Unklarheit getrennt notieren. So bleibt sowohl die Rechnung als auch der Nutzen der Handlung nachvollziehbar, ohne einen allgemeinen Verzicht auf neue Vorhaben zu verlangen.",
+        "rubric": [
+          "Abnehmende Länge wird korrekt erkannt.",
+          "Der Zeichenwechsel wird mit Gesamtgraden geprüft.",
+          "Bogenminuten und Zeitminuten sind unterschieden.",
+          "Die Routine enthält keine unbelegte Ursache oder Verbotsregel."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was kehrt sich bei scheinbarer geozentrischer Rückläufigkeit um?",
+          "options": [
+            "Die beobachtete Längenentwicklung, nicht plötzlich die physische Umlaufrichtung.",
+            "Die Schwerkraft des Planeten.",
+            "Die Reihenfolge der Tierkreiszeichen."
+          ],
+          "correct_index": 0,
+          "explanation": "Der Effekt entsteht aus relativer Bewegung und Perspektive."
+        },
+        {
+          "id": "q2",
+          "question": "Wie entwickelt sich die Länge von 29 Grad Stier zu 1 Grad Zwillinge?",
+          "options": [
+            "Sie sinkt von 29 auf 1 Gesamtgrad.",
+            "Sie steigt von 59 auf 61 Gesamtgrad.",
+            "Sie bleibt genau gleich."
+          ],
+          "correct_index": 1,
+          "explanation": "Stier beginnt bei 30 und Zwillinge bei 60 Grad."
+        },
+        {
+          "id": "q3",
+          "question": "Was belegt ein gefundener Schreibfehler während einer rückläufigen Phase?",
+          "options": [
+            "Dass alle neuen Vorhaben scheitern müssen.",
+            "Dass Rückläufigkeit den Fehler sicher verursacht hat.",
+            "Zunächst nur, dass ein konkreter Fehler gefunden wurde."
+          ],
+          "correct_index": 2,
+          "explanation": "Zeitliches Zusammentreffen allein beweist keine Ursache."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/image-article/apod-2026-may-6-the-retrograde-dance-of-saturn-and-neptune/",
+          "title": "The Retrograde Dance of Saturn and Neptune",
+          "author": "Keighley Rockcliffe / NASA; Redaktion Robert Nemiroff und Jerry Bonnell",
+          "note": "Geprüfte astronomische Erklärung der scheinbaren Rückläufigkeit äußerer Planeten aus der sich ändernden Beobachterperspektive. Keine Quelle für astrologische Alltagsprognosen.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    }
+  ]
+}

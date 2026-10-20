@@ -9,6 +9,7 @@ import sys
 import urllib.error
 import urllib.request
 import webbrowser
+import tomllib
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "backend"))
@@ -28,7 +29,8 @@ url=f"http://127.0.0.1:{args.port}"
 try:
     with urllib.request.urlopen(url+"/api/health",timeout=1) as response:
         health=json.load(response)
-    if health.get("version") not in ("1.0.0", "1.1.0") or health.get("mode")!=("demo" if args.demo else "local"):
+    current_version = tomllib.loads((ROOT / "pyproject.toml").read_text())["project"]["version"]
+    if health.get("version") != current_version or health.get("mode")!=("demo" if args.demo else "local"):
         sys.exit("Dieser Port wird bereits von einem anderen Modus oder Dienst verwendet.")
     print("Sense & Stars läuft bereits: "+url,flush=True)
     if args.open: webbrowser.open(url)

@@ -1,0 +1,616 @@
+{
+  "id": "grundlagen",
+  "title": "Grundlagen: sicher lesen und offen fragen",
+  "summary": "Acht frei wählbare Einstiege in Datenqualität, Symbolsprache, Koordinaten und einen nachvollziehbaren ersten Lernablauf.",
+  "tradition": "Westliche Astrologie mit ausdrücklich getrenntem astronomischem Bezugsrahmen",
+  "level": "foundation",
+  "prerequisites": [],
+  "lessons": [
+    {
+      "key": "academy-grundlagen-01",
+      "title": "Drei Ebenen: Himmelsdaten, Deutung und Erfahrung",
+      "summary": "Eine saubere Arbeitsweise beginnt damit, Berechnung, Symbolsprache und persönliche Rückmeldung zu unterscheiden.",
+      "objective": "Du kannst eine astrologische Aussage in überprüfbare Daten, gewählte Deutung und noch offene Erfahrung zerlegen.",
+      "level": "foundation",
+      "minutes": 25,
+      "body": "## Was eine Karte zeigt\nEin Geburtshoroskop ordnet berechnete Himmelspositionen einem Zeitpunkt und einem Ort zu. Die Rechnung beantwortet Fragen nach Koordinaten. Sie beantwortet zunächst keine Frage nach Charakter, Berufung oder Zukunft. Sobald du einem Symbol eine menschliche Bedeutung gibst, wechselst du von einer Position zu einer Interpretation. Dieser Wechsel ist legitim, wenn er sichtbar bleibt. Ein genau berechneter Winkel macht die anschließende psychologische Vermutung nicht automatisch ebenso genau. Genau diese Unterscheidung ist die erste praktische Kompetenz.\n\n## Drei Spalten statt einer Gewissheit\nLege für deine ersten Analysen drei Spalten an. In die erste kommen Daten: beispielsweise ein Planet, sein Zeichen, ein Haus und die verwendeten Berechnungseinstellungen. In die zweite kommt deine symbolische Lesart. In die dritte gehören Aussagen der ratsuchenden Person und deine Beobachtungen aus dem Gespräch. Die Spalten dürfen einander anregen, aber nicht unbemerkt ersetzen. Wenn jemand erzählt, dass ein Thema passt, ist das eine persönliche Rückmeldung. Es ist kein allgemeiner Nachweis der astrologischen Methode.\n\n## Eine Frage verändert die Beziehung\nDer Satz „Du kannst keine Grenzen setzen“ beansprucht Wissen über einen Menschen. Die Frage „In welchen Situationen fällt dir ein klares Nein leicht oder schwer?“ eröffnet einen untersuchbaren Raum. Eine gute Frage enthält auch die Möglichkeit, dass das vorgeschlagene Thema nicht passt. Sie ist konkret genug, damit die Person eine Situation nennen kann. Vermeide Formulierungen, die jede Antwort als Bestätigung verwenden: Auch ein Nein darf wirklich Nein bedeuten und muss nicht als angebliche Verdrängung umgedeutet werden.\n\n## Was spirituell bleiben darf\nManche Menschen erleben astrologische Bilder als sinnstiftend, andere als kreative Metaphern. Beides kann einen Platz haben. Begriffe wie Seele, Bestimmung oder Energie werden deshalb als gewählte Deutungssprache gekennzeichnet. Sie dürfen nicht als gemessene Eigenschaften erscheinen. Niemand muss ein Glaubensmodell übernehmen, um mit einer Frage nach Wünschen, Gewohnheiten oder Entscheidungen zu arbeiten. Frage nach der bevorzugten Sprache. Besonders in einer ersten Sitzung ist verständliche Alltagssprache oft hilfreicher als ein dichtes Netz spiritueller Fachwörter.\n\n## Irrtum als Arbeitsinformation\nEine unpassende Deutung ist kein Versagen der ratsuchenden Person. Notiere sie sachlich und verändere deine Hypothese. Prüfe zunächst, ob du Daten verwechselt hast oder zu schnell von einem einzelnen Symbol auf das ganze Leben geschlossen hast. Danach kannst du eine alternative Frage anbieten oder das Thema beenden. Dieser Ablauf schützt vor dem Drang, immer recht haben zu müssen. Auch eine erfolgreiche Rückfrage macht aus einer ursprünglichen Vermutung rückwirkend keine sichere Erkenntnis.\n\n## Dein erstes Arbeitsblatt\nSchreibe für einen fiktiven Fall einen Datensatz, zwei mögliche Lesarten und eine offene Frage auf. Ergänze anschließend, welche Antwort gegen deine bevorzugte Lesart sprechen würde. Dadurch trainierst du bewusst Gegenbeispiele. Markiere außerdem, welche Information du gar nicht besitzt: ohne Gespräch kennst du weder Gefühle noch Lebensgeschichte zuverlässig. Die fertige Notiz sollte so klar sein, dass du eine Woche später erkennst, was berechnet, was vorgeschlagen und was tatsächlich berichtet wurde. Diese Sorgfalt trägt alle weiteren Kurse.",
+      "examples": [
+        {
+          "title": "Eine Behauptung wird prüfbar",
+          "body": "Im fiktiven Übungsfall steht Merkur in einem Luftzeichen. Marina notiert zunächst nur die Platzierung. Als mögliche Lesart schlägt sie Freude am Austausch vor. Die Person berichtet jedoch, dass sie in Gruppen kaum spricht, dafür gern schreibt. Marina ersetzt die starre Vorstellung von Gesprächigkeit durch eine Frage nach Ausdrucksformen. Sie hält fest: Die Schreibvorliebe stammt aus der Antwort, nicht aus einer Messung im Horoskop. Auch Schweigsamkeit musste nicht passend umgedeutet werden."
+        },
+        {
+          "title": "Ein Eindruck bleibt ein Eindruck",
+          "body": "Während eines Telefonats spürt eine Beraterin eigene Anspannung. Sie schreibt nicht in die Klientenakte, die andere Person trage fremde Energie. Stattdessen prüft sie ihre Sitzhaltung, ihre Erwartungen und den Gesprächsverlauf. Falls es zum Anliegen passt, fragt sie, wie sich das Gespräch für das Gegenüber anfühlt. Eine Rückmeldung darf den Eindruck verändern. Die Übung trainiert Aufmerksamkeit und Rückfrage; sie belegt keinen Zugang zu einem unsichtbaren Feld eines entfernten Menschen."
+        }
+      ],
+      "practice": {
+        "prompt": "Formuliere aus „Saturn zeigt, dass du Angst vor Verantwortung hast“ ein Arbeitsblatt mit Datenebene, zwei möglichen Lesarten, einer offenen Frage und einem Gegenbeispiel.",
+        "model_answer": "Auf der Datenebene würde ich zuerst nur die tatsächlich vorliegende Saturnposition und die verwendeten Einstellungen festhalten. Der Ausgangssatz nennt keine Position und ist deshalb schon als technische Beschreibung unvollständig. Als erste symbolische Lesart könnte ich Schwierigkeiten beim Übernehmen von Aufgaben untersuchen. Als zweite wäre ein besonders gewissenhafter Umgang mit Verpflichtungen denkbar. Beide Lesarten bleiben Vorschläge. Meine Frage lautet: „Welche Verantwortung übernimmst du gern, und wann wird sie dir zu viel?“ Ein Gegenbeispiel zur Angst-Hypothese wäre eine Person, die Aufgaben gelassen annimmt und gerade mehr Gestaltungsspielraum sucht. Ich würde diese Antwort nicht als versteckte Angst erklären. In der Akte würde ich die Antwort als Selbstauskunft kennzeichnen. Ein gemeinsam formulierter nächster Schritt könnte sein, eine konkrete Aufgabe zu klären. Daraus folgt weder eine Diagnose noch eine Aussage über alle Menschen mit derselben Saturnposition.",
+        "rubric": [
+          "Berechnete Angaben und Deutung sind getrennt.",
+          "Mindestens zwei mögliche Lesarten werden genannt.",
+          "Die Frage erlaubt Zustimmung und Widerspruch.",
+          "Ein echtes Gegenbeispiel bleibt gültig."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was macht eine genaue Planetenberechnung verlässlich?",
+          "options": [
+            "Sie beweist jede Deutung.",
+            "Sie bestimmt Positionen innerhalb der angegebenen Berechnung.",
+            "Sie kennt die Gefühle eines Klienten."
+          ],
+          "correct_index": 1,
+          "explanation": "Die Genauigkeit bezieht sich auf Himmelspositionen. Deutung und persönliche Erfahrung sind weitere, getrennte Ebenen."
+        },
+        {
+          "id": "q2",
+          "question": "Eine Person widerspricht deiner Lesart. Was ist sinnvoll?",
+          "options": [
+            "Den Widerspruch als Blockade deuten.",
+            "Die Aussage als Rückmeldung festhalten und die Hypothese prüfen.",
+            "Die Person überreden."
+          ],
+          "correct_index": 1,
+          "explanation": "Eine offene Interpretation muss durch Rückmeldungen verändert oder verworfen werden können."
+        },
+        {
+          "id": "q3",
+          "question": "Welche Formulierung kennzeichnet die Ebene am klarsten?",
+          "options": [
+            "Du bist deshalb krank.",
+            "Dieses Symbol garantiert Erfolg.",
+            "Als symbolische Frage könnten wir untersuchen, was dir Halt gibt."
+          ],
+          "correct_index": 2,
+          "explanation": "Die dritte Formulierung benennt den symbolischen Status und lädt zu einer ergebnisoffenen Untersuchung ein."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.chani.com/astro-education/what-is-a-birth-chart",
+          "title": "What is a birth chart?",
+          "author": "CHANI Redaktion",
+          "note": "Geprüfte Einführung zur Struktur des Horoskops. Die hier entwickelten Arbeitsabläufe, Fallbeispiele und Qualitätsprüfungen sind eigene didaktische Entwürfe; die spirituelle Lebenszweck-Deutung der Quelle wird nicht vorausgesetzt.",
+          "checked_at": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/solar-system/",
+          "title": "Solar System Exploration",
+          "author": "NASA Science",
+          "note": "Astronomischer Bezugsrahmen: Sonne, Planeten und Monde. Keine Quelle für astrologische Charakter- oder Wirkungsbehauptungen.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-grundlagen-02",
+      "title": "Geburtsdaten sorgfältig aufnehmen",
+      "summary": "Zeit, Ort und Herkunft der Angaben bestimmen, welche Teile eines Radix belastbar berechnet werden können.",
+      "objective": "Du erstellst einen nachvollziehbaren Datenbogen und erkennst, wann du keine genaue Häuserdeutung anbieten solltest.",
+      "level": "foundation",
+      "minutes": 25,
+      "body": "## Genauigkeit beginnt vor dem Rad\nEine aufwendige Zeichnung kann unzuverlässige Eingaben nicht ausgleichen. Deshalb beginnt die Arbeit mit einem kurzen Datenbogen: Datum, örtliche Geburtszeit, Geburtsort und Herkunft jeder Angabe. Das Datum allein reicht für einen vollständigen ortsbezogenen Radix nicht aus. Bei der Zeit ist entscheidend, ob sie aus einer Urkunde, einer Erinnerung oder einer Schätzung stammt. Eine auf fünf Minuten gerundete Familienerinnerung sollte nicht als minutengenaue amtliche Angabe gespeichert werden. Dokumentierte Unsicherheit ist hilfreicher als scheinbare Präzision.\n\n## Ort eindeutig machen\nEin Ortsname kann in mehreren Ländern oder Regionen vorkommen. Wähle deshalb den passenden Treffer mit Land und Region bewusst aus. Der heutige Wohnort ersetzt den Geburtsort nicht. Bei einem Krankenhaus außerhalb der angegebenen Heimatstadt ist für die Berechnung der tatsächliche Geburtsort maßgeblich. Wenn nur ein ungefährer Ort bekannt ist, notiere diese Einschränkung. Frage dabei nur nach Informationen, die du wirklich benötigst. Persönliche Namen oder Gesprächsnotizen gehören nicht in eine externe Ortssuche.\n\n## Die Uhrzeit ist lokal\nEine notierte Uhrzeit stammt normalerweise von der damaligen Ortsuhr. Die Zuordnung zu einer globalen Zeit erfordert die für Datum und Ort geltende Zeitzone einschließlich historischer Sommerzeitregeln. Rechne nicht pauschal eine Stunde ab, weil du gerade in Deutschland lebst. An Zeitumstellungstagen können lokale Uhrzeiten doppelt vorkommen oder gar nicht existieren. Ein System muss solche Fälle kenntlich machen. Wenn eine Auswahl nötig ist, klärst du die Bedeutung der Eingabe, statt unbemerkt eine Variante zu wählen.\n\n## Unsicherheit verändert den Arbeitsumfang\nBei unbekannter Geburtszeit darf eine Hilfszeit zum Betrachten langsamerer Positionen dienen, sofern sie deutlich als Hilfswert gekennzeichnet ist. Daraus entstehen keine verlässlichen Häuser, Achsen oder minutengenauen Aussagen. Auch der Mond kann im Verlauf eines Tages seine Position deutlich verändern und unter Umständen das Zeichen wechseln. Prüfe gegebenenfalls einen Zeitbereich. Sage ausdrücklich, welche Aussagen innerhalb dieses Bereichs stabil bleiben und welche sich verändern. Eine fehlende Zeit muss nicht jede Reflexion verhindern, begrenzt aber die Technik.\n\n## Rückfragen ohne Druck\nNicht jede Person kann eine Urkunde beschaffen oder Familienmitglieder fragen. Biete deshalb unterschiedliche Arbeitstiefen an. Du kannst zunächst mit allgemeinen Symbolen, einem selbst gewählten Thema oder einem klar markierten Übungsbild arbeiten. Eine nachträgliche Geburtszeitkorrektur ist eine eigene, unsichere astrologische Methode und keine Wiederbeschaffung einer verlorenen amtlichen Uhrzeit. Verkaufe eine stimmig klingende Erzählung nicht als bewiesene Rekonstruktion. Der Wunsch nach einer vollständigen Karte darf fehlende Daten nicht unsichtbar machen.\n\n## Eine kleine Eingangskontrolle\nLies den fertigen Datenbogen vor einer Sitzung einmal laut zurück. Stimmen Tag und Monat, ist das Datum richtig geschrieben, handelt es sich um morgens oder abends, ist der Ort wirklich ausgewählt? Bitte die Person, erkennbare Fehler zu berichtigen. Halte bei einer späteren Korrektur fest, welche Version du benutzt hast. So lassen sich Unterschiede zwischen zwei Berechnungen erklären. Erst danach lohnt sich die ausführliche Symbolarbeit. Diese Kontrolle spart oft mehr Verwirrung als eine weitere komplizierte Deutungstechnik.",
+      "examples": [
+        {
+          "title": "Zwei Städte mit demselben Namen",
+          "body": "Eine fiktive Klientin nennt „Frankfurt“ und eine Geburtszeit von 07:30 Uhr. Marina fragt zunächst, ob Frankfurt am Main oder Frankfurt an der Oder gemeint ist, statt den ersten Suchtreffer zu übernehmen. Anschließend erfasst sie die Zeit als lokale Zeit am Geburtstag. Die Klientin erklärt, dass die Angabe aus einer späteren Erinnerung stammt. Marina notiert daher auch „ungefähr“ und behandelt kleine Unterschiede an Hausgrenzen mit Zurückhaltung."
+        },
+        {
+          "title": "Unbekannte Zeit, ehrliches Angebot",
+          "body": "Ein Übungsklient kennt nur seinen Geburtstag und den Ort. Marina bietet ein Gespräch über vorgegebene astrologische Symbole an und kennzeichnet jede verwendete Hilfszeit ausdrücklich. Sie behauptet keinen bestimmten Aszendenten. Für einen möglichen Zeichenwechsel des Mondes würde sie den ganzen Tag prüfen. Der Klient kann trotzdem Fragen nach Alltag, Zielen und Beziehungen bearbeiten. Der Nutzen des Gesprächs wird an Verständlichkeit und eigener Reflexion gemessen, nicht an erfundenen exakten Häusern."
+        }
+      ],
+      "practice": {
+        "prompt": "Erstelle einen Datenbogen für einen fiktiven Menschen: Geburtstag bekannt, Ort mehrdeutig, Zeit „irgendwann nach dem Frühstück“. Beschreibe deine Rückfragen und den erlaubten Arbeitsumfang.",
+        "model_answer": "Mein Bogen enthält zunächst das bestätigte Datum, den noch ungeklärten Ortsnamen und die wörtliche Zeitangabe. Ich würde keine Uhrzeit wie 08:00 Uhr als Tatsache eintragen. Zuerst kläre ich Land, Region und tatsächlichen Geburtsort. Danach frage ich, wer die Zeit erinnert und ob ein Dokument vorhanden ist. Falls keine genauere Angabe möglich ist, bleibt die Zeit unbekannt. Ich erkläre, dass daraus kein belastbarer Aszendent und keine genaue Häuserverteilung entstehen. Für eine ausdrücklich technische Erkundung könnte ich mehrere mögliche Tageszeiten vergleichen und die wechselnden Positionen markieren. Die Beratung selbst kann mit allgemeinen, frei gewählten Reflexionsfragen beginnen. Ich würde weder eine exakte Zukunftsprognose noch eine vermeintlich gesicherte Zeitkorrektur anbieten. Wenn später eine verlässlichere Angabe kommt, lege ich eine neue Datenversion an und prüfe die vorher verwendeten Aussagen erneut.",
+        "rubric": [
+          "Die unklare Zeit wird nicht erfunden.",
+          "Der Ort wird eindeutig abgefragt.",
+          "Die Herkunft der Angaben wird dokumentiert.",
+          "Grenzen von Häusern und Achsen werden erklärt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welche Zeit gehört normalerweise zunächst in den Datenbogen?",
+          "options": [
+            "Die örtlich notierte Geburtszeit samt Herkunft.",
+            "Immer UTC ohne Umrechnung.",
+            "Die heutige Uhrzeit am Wohnort."
+          ],
+          "correct_index": 0,
+          "explanation": "Die örtliche Angabe wird mit den historischen Regeln für Ort und Datum umgerechnet."
+        },
+        {
+          "id": "q2",
+          "question": "Was ist bei völlig unbekannter Geburtszeit besonders unsicher?",
+          "options": [
+            "Die Schreibweise des Namens.",
+            "Aszendent und Häuser.",
+            "Die Reihenfolge der Tierkreiszeichen."
+          ],
+          "correct_index": 1,
+          "explanation": "Achsen und Häuser hängen wesentlich von Ort und Zeit ab."
+        },
+        {
+          "id": "q3",
+          "question": "Was tust du bei einem mehrdeutigen Ortsnamen?",
+          "options": [
+            "Den ersten Treffer wählen.",
+            "Den Wohnort verwenden.",
+            "Land und Region klären und den Treffer bestätigen."
+          ],
+          "correct_index": 2,
+          "explanation": "Eine bestätigte Ortsauswahl verhindert unbemerkte Berechnungen für den falschen Ort."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.chani.com/astro-education/what-is-a-birth-chart",
+          "title": "What is a birth chart?",
+          "author": "CHANI Redaktion",
+          "note": "Geprüfte Einführung zur Struktur des Horoskops. Die hier entwickelten Arbeitsabläufe, Fallbeispiele und Qualitätsprüfungen sind eigene didaktische Entwürfe; die spirituelle Lebenszweck-Deutung der Quelle wird nicht vorausgesetzt.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-grundlagen-03",
+      "title": "Das Rad lesen: vier verschiedene Bausteine",
+      "summary": "Planet, Zeichen, Haus und Aspekt beantworten unterschiedliche Fragen innerhalb einer Deutung.",
+      "objective": "Du liest eine einfache Position korrekt ab und vermischst Zeichen, Häuser und Verbindungen nicht.",
+      "level": "foundation",
+      "minutes": 25,
+      "body": "## Erst die Legende, dann die Geschichte\nEin Radix enthält mehrere Informationsschichten. Wer alle Symbole gleichzeitig deuten möchte, verliert leicht die Orientierung. Beginne deshalb mit der Legende der konkreten Darstellung. Welche Zeichen stehen für Sonne, Mond und Planeten? Wo werden Tierkreiszeichen und Hausnummern angezeigt? Welche Linien verbinden Positionen? Farben können hilfreich sein, sind aber nicht überall gleich belegt. Nutze die Beschriftung und die zugehörige Tabelle. Ein roter Strich ist ohne Legende noch keine belastbare technische Aussage.\n\n## Die Funktion eines Planeten\nIn der astrologischen Symbolsprache werden Planeten als unterschiedliche Themen oder Funktionen verwendet. Für einen ersten Übungssatz kannst du beispielsweise Merkur als Bild für Austausch auswählen. Das ist eine Deutungskonvention. Die Frage lautet zunächst: Welches Thema betrachten wir? Entscheidend ist, diese Funktion nicht mit der ganzen Person gleichzusetzen. Niemand besteht nur aus Merkur, nur aus der Sonne oder nur aus dem auffälligsten Symbol. Die Karte wird erst durch Zusammenschau und Gespräch zu einer sinnvollen Arbeitsgrundlage.\n\n## Ein Zeichen beschreibt eine Färbung\nDas Zeichen gibt innerhalb dieser Sprache eine Art der Ausgestaltung an. Merkur in einem bestimmten Zeichen wird also anders beschrieben als derselbe Planet in einem anderen Zeichen. Für den Einstieg hilft die Frage: Wie könnte das Thema gestaltet werden? Das Zeichen allein nennt weder den konkreten Lebensbereich noch ein unvermeidliches Verhalten. Eine Platzierung kann auf verschiedene Weise gelebt werden. Schreibe deshalb mehrere mögliche Ausdrucksformen auf, bevor du dich auf eine einzige Geschichte festlegst.\n\n## Ein Haus setzt einen Bereich\nHäuser ordnen Themen dem ortsbezogenen Horoskop zu. Sie hängen vom gewählten Häusersystem und den Geburtsdaten ab. Für einen einfachen Lesesatz fragst du: In welchem Lebensbereich betrachten wir diese Funktion? Zeichen und Haus sind nicht austauschbar. Das dritte Haus ist kein Zwillinge-Zeichen, und Merkur im dritten Haus ist nicht automatisch dasselbe wie Merkur in Zwillinge. Solche Gleichsetzungen wirken bequem, nehmen der Karte aber wichtige Unterschiede. Beschreibe jede Ebene zunächst getrennt.\n\n## Aspekte verbinden zwei Positionen\nAspekte sind Beziehungen zwischen Positionen, die anhand von Winkeln und gewählten Toleranzen untersucht werden. Damit kommt eine zweite Funktion ins Spiel. Du fragst beispielsweise, wie Austausch und Abgrenzung zusammenwirken könnten. Der Aspekt ersetzt weder die beiden Planeten noch deren Zeichen und Häuser. Er ergänzt das Bild. Für die erste Lektüre genügen wenige klar erkennbare Verbindungen. Ein Netz aus vielen Linien ist keine Aufforderung, jede mögliche Beziehung in einem Gespräch gleichzeitig zu behandeln.\n\n## Vom Ablesen zum vorsichtigen Satz\nNotiere zuerst eine Position ohne Interpretation: Planet, Zeichen, Grad, Haus. Ergänze danach eine Verbindung zu einem anderen Planeten, sofern sie tatsächlich angezeigt und überprüft ist. Formuliere erst dann einen möglichen alltagsnahen Satz. Prüfe abschließend, ob du eine Information ergänzt hast, die in deinen Daten gar nicht enthalten war. Aussagen über Ausbildung, Familiengeschichte oder tatsächliche Gefühle entstehen nicht aus dem Ablesen. Diese Reihenfolge lässt dich auch bei komplexeren Karten sehen, welcher Teil des Satzes auf welcher Grundlage steht.",
+      "examples": [
+        {
+          "title": "Ein Satz mit sichtbaren Ebenen",
+          "body": "In einer frei erfundenen Übung steht Merkur in Stier im elften Haus. Marina schreibt: Austausch als Thema, bedächtiges Prüfen als mögliche Färbung, Gruppen als gewählter Lebensbereich. Daraus entsteht die Frage, wie die Person in einem Team Vorschläge vorbereitet. Ohne tatsächlichen Aspekt ergänzt sie keine Spannung zu Saturn. Die Frage ist ein Gesprächsvorschlag aus drei Symbolschichten. Ob sie zur Person passt, bleibt ausdrücklich offen und wird im Gespräch geklärt."
+        },
+        {
+          "title": "Eine scheinbare Abkürzung korrigieren",
+          "body": "Ein Lernender setzt Venus im zweiten Haus mit Venus in Stier gleich. Marina zeichnet zwei Spalten: In der einen steht die Zeichenposition, in der anderen der Lebensbereich. Eine Venus im zweiten Haus kann in unterschiedlichen Zeichen stehen. Sie formuliert daher zwei verschiedene Übungsfragen: Welche Art von Wertschätzung wird dargestellt, und welche materiellen oder persönlichen Ressourcen sind angesprochen? Der Vergleich bewahrt beide Ebenen, ohne eine Stellung durch die andere zu ersetzen."
+        }
+      ],
+      "practice": {
+        "prompt": "Zerlege „Mars in Waage im sechsten Haus im Quadrat zu Saturn“ in vier Ebenen. Erfinde keine zusätzliche Biografie. Formuliere eine offene Arbeitsfrage.",
+        "model_answer": "Mars ist im Satz das ausgewählte Planetensymbol. Waage ist die Zeichenposition, das sechste Haus der angegebene Bereich, und das Quadrat beschreibt die Verbindung zu Saturn. Ich würde diese Angaben zunächst als Übungsdaten kennzeichnen, denn es liegt kein vollständig berechneter Fall vor. Als mögliche eigene Synthese könnte ich untersuchen, wie sich Handeln, Abstimmung und Verpflichtungen in alltäglichen Arbeitsabläufen begegnen. Meine Frage lautet: „Wie findest du in wiederkehrenden Aufgaben eine Balance zwischen eigenem Vorgehen und Vereinbarungen mit anderen?“ Ich würde daraus weder eine Erkrankung noch eine bestimmte Tätigkeit ableiten. Für eine genauere technische Prüfung bräuchte ich die Position von Saturn und die zugelassene Aspekttoleranz. Auch eine passende Antwort würde nicht bedeuten, dass Mars, Waage und das sechste Haus dieselbe Bedeutung haben. Die Ebenen bleiben in meinen Notizen getrennt nachvollziehbar.",
+        "rubric": [
+          "Alle vier Ebenen werden korrekt benannt.",
+          "Zeichen und Haus werden nicht gleichgesetzt.",
+          "Die Frage bleibt alltagsnah und offen.",
+          "Nicht vorhandene Details werden nicht ergänzt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welche Frage passt als Einstieg zum Haus?",
+          "options": [
+            "Wann muss etwas geschehen?",
+            "In welchem Lebensbereich wird ein Thema betrachtet?",
+            "Welche Person ist moralisch überlegen?"
+          ],
+          "correct_index": 1,
+          "explanation": "Das Haus wird als Themenbereich gelesen; es nennt für sich weder Termin noch Urteil."
+        },
+        {
+          "id": "q2",
+          "question": "Was ist ein Aspekt?",
+          "options": [
+            "Ein anderer Name für ein Tierkreiszeichen.",
+            "Eine tatsächliche Emotion.",
+            "Eine Winkelbeziehung nach gewählten astrologischen Regeln."
+          ],
+          "correct_index": 2,
+          "explanation": "Aspekte beziehen Positionen aufeinander und haben eigene Regeln für Winkel und Toleranzen."
+        },
+        {
+          "id": "q3",
+          "question": "Ist das dritte Haus mit Zwillinge identisch?",
+          "options": [
+            "Nein, Haus und Zeichen sind verschiedene Ebenen.",
+            "Ja, immer.",
+            "Nur wenn Merkur rückläufig ist."
+          ],
+          "correct_index": 0,
+          "explanation": "Die Gleichsetzung würde Ortsbezug und Zeichenfärbung vermischen."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.chani.com/astro-education/what-is-a-birth-chart",
+          "title": "What is a birth chart?",
+          "author": "CHANI Redaktion",
+          "note": "Geprüfte Einführung zur Struktur des Horoskops. Die hier entwickelten Arbeitsabläufe, Fallbeispiele und Qualitätsprüfungen sind eigene didaktische Entwürfe; die spirituelle Lebenszweck-Deutung der Quelle wird nicht vorausgesetzt.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-grundlagen-04",
+      "title": "Tierkreiszeichen und Sternbilder unterscheiden",
+      "summary": "Ein Zeichen ist ein definierter Abschnitt des Tierkreises. Ein Sternbild ist eine andere Art der Himmelseinteilung.",
+      "objective": "Du erklärst, warum tropische und siderische Angaben verschieden sein können, ohne einen Rechenfehler zu unterstellen.",
+      "level": "foundation",
+      "minutes": 25,
+      "body": "## Eine Skala braucht einen Anfang\nStell dir einen Kreis mit dreihundertsechzig Graden vor. Um eine Position eindeutig zu nennen, musst du wissen, wo die Zählung beginnt. Die astrologischen Zeichen teilen diesen Kreis in zwölf gleich große Abschnitte. Das Zeichen benennt dabei eine Lage auf einer gewählten Skala. Wer nur den Zeichenname hört, kennt noch nicht die verwendete Skala. Deshalb gehört die Angabe des Tierkreissystems in eine nachvollziehbare Analyse, ähnlich wie eine Maßeinheit zu einer gemessenen Zahl gehört.\n\n## Tropisch als Vereinbarung\nIm tropischen System ist der Anfang des Widders an den Frühlingspunkt gebunden. Gemeint ist eine geometrisch definierte Richtung im jährlichen Lauf, nicht die aktuelle Ausdehnung eines sichtbaren Sternbildes. Die symbolischen Geschichten über Jahreszeiten sind zusätzliche Interpretationen. Sie sind nicht mit einer weltweit identischen lokalen Wettererfahrung gleichzusetzen. Für einen Menschen auf der südlichen Halbkugel sehen die Jahreszeiten anders aus. Ein sauberer Unterricht trennt daher die Definition der Skala von einer anschließend verwendeten saisonalen Metapher.\n\n## Siderisch braucht ebenfalls eine Definition\nSiderische Systeme orientieren ihre Zählung an einem stellaren Bezugsrahmen. Die Differenz zum tropischen System wird als Ayanamsha angegeben. Es existieren unterschiedliche Festlegungen; deshalb genügt das Wort siderisch nicht für jede präzise Vergleichsrechnung. Der hier später behandelte Jyotish-Kurs benennt sein verwendetes Beispielsystem ausdrücklich. Eine einfache Umrechnung mit einer ungefähren Zahl kann den Gedanken erklären, ersetzt aber keine genaue Berechnung für ein konkretes Datum. Auch ein siderisches Zeichen bleibt ein gleich großer Abschnitt.\n\n## Sternbilder sind keine zwölf gleich großen Kästchen\nDie astronomischen Sternbilder und die astrologischen Zeichen sind unterschiedliche Einteilungen. Wenn jemand sagt, die Sonne stehe astronomisch vor einem anderen Sternbild als dem tropischen Sonnenzeichen, kann diese Aussage ohne Widerspruch richtig sein. Die beiden Aussagen benutzen verschiedene Bezugssysteme. Daraus folgt weder, dass jede astrologische Interpretation bewiesen wäre, noch dass ein korrekt bezeichnetes tropisches Zeichen als Rechenfehler gelten müsste. Zuerst musst du klären, welche Art von Aussage überhaupt verglichen wird.\n\n## Zwei Ausdrucke nebeneinander\nWenn zwei Programme unterschiedliche Zeichen anzeigen, prüfe Datum, Uhrzeit, Ort und System, bevor du eine Deutung vergleichst. Notiere außerdem das Häusersystem, weil eine Änderung dort ein anderes Problem betrifft. Verändere nicht mehrere Einstellungen gleichzeitig. Ein kontrollierter Vergleich ändert eine Größe und beobachtet die Folgen. So erkennst du, ob eine Abweichung durch den Tierkreis, eine Zeitkorrektur oder eine andere Hauseinteilung entsteht. Eine sympathischere Deutung ist kein technischer Test für die richtige Eingabe.\n\n## Eine hilfreiche Erklärung für Klienten\nDu kannst sagen: „Die beiden Karten benutzen verschiedene Koordinatenkonventionen. Für dieses Gespräch verwenden wir die hier angegebene.“ Danach kannst du begründen, welche Tradition du untersuchst. Du brauchst andere Schulen nicht abzuwerten, um deine eigene Arbeitsweise deutlich zu machen. Vermeide jedoch, Resultate beliebig zu mischen und danach als einheitliches System auszugeben. Ein bewusster Vergleich ist möglich; er braucht sichtbare Beschriftungen. Diese Gewohnheit wird später besonders beim Wechsel zwischen westlicher Astrologie und Jyotish wichtig.",
+      "examples": [
+        {
+          "title": "Zwei Karten, unterschiedliche Skalen",
+          "body": "Ein fiktiver Lernfall enthält eine tropische Position im frühen Widder. Ein siderischer Ausdruck zeigt denselben Himmelskörper im vorhergehenden Zeichen. Marina erklärt zunächst die unterschiedlichen Nullpunkte der Skalen. Sie sucht nicht sofort eine passende Persönlichkeitsgeschichte für beide Positionen. Erst wenn Einstellungen und Datum nachvollziehbar sind, kann sie die beiden Deutungstraditionen vergleichen. Die Übung bewertet ihre Fähigkeit zur Unterscheidung der Systeme, nicht die Entscheidung, welches Bild sich subjektiv angenehmer anfühlt."
+        },
+        {
+          "title": "Eine Wettermetapher wird eingeordnet",
+          "body": "In einem Gespräch beschreibt jemand Widder als Frühlingsaufbruch. Die fiktive Klientin lebt jedoch auf der südlichen Halbkugel und erlebt zur entsprechenden Zeit Herbst. Marina erklärt, dass die tropische Skala denselben geometrischen Bezug verwendet, während die Frühlingsgeschichte eine kulturelle Metapher ist. Sie kann die Frage nach einem persönlichen Neubeginn trotzdem anbieten. Sie behauptet dabei weder, die Klientin erlebe lokales Frühlingswetter, noch dass die Metapher naturwissenschaftlich die Persönlichkeit erkläre."
+        }
+      ],
+      "practice": {
+        "prompt": "Zwei Programme nennen für dieselben Geburtsangaben verschiedene Sonnenzeichen. Erstelle eine Prüfreihenfolge und erkläre den Unterschied zwischen Zeichen und Sternbild in eigenen Worten.",
+        "model_answer": "Ich prüfe zuerst, ob Datum, lokale Uhrzeit und Geburtsort tatsächlich gleich eingegeben wurden. Anschließend vergleiche ich die Zeitzonenbehandlung und lese die Systemangaben beider Programme. Wenn eines tropisch und das andere siderisch arbeitet, ist die Verschiedenheit der Zeichen zunächst erklärbar. Beim siderischen Ergebnis notiere ich zusätzlich das verwendete Ayanamsha. Ich ändere Einstellungen einzeln, damit ich die Ursache der Abweichung erkennen kann. Ein astrologisches Zeichen ist ein gleich großer Abschnitt einer festgelegten Kreisskala. Ein astronomisches Sternbild gehört zu einer anderen Einteilung des Himmels und muss sich nicht mit diesem Abschnitt decken. Ich würde daher nicht einfach sagen, eines der Programme sei falsch. Erst ein Vergleich bei gleichen Einstellungen kann einen Rechenfehler nahelegen. Für die Beratung vereinbare ich ein benanntes System und markiere einen eventuellen Vergleich als Wechsel der Perspektive.",
+        "rubric": [
+          "Eingabedaten werden vor der Deutung geprüft.",
+          "Tropisch und siderisch werden unterschieden.",
+          "Das Ayanamsha wird beim siderischen Vergleich berücksichtigt.",
+          "Sternbilder und gleich große Zeichen werden nicht verwechselt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Wie groß ist ein Tierkreiszeichen in den üblichen tropischen und siderischen Systemen?",
+          "options": [
+            "30 Grad.",
+            "Je nach sichtbarem Sternbild verschieden.",
+            "Immer 60 Grad."
+          ],
+          "correct_index": 0,
+          "explanation": "Zwölf gleich große Zeichen teilen den Kreis von 360 Grad in Abschnitte von 30 Grad."
+        },
+        {
+          "id": "q2",
+          "question": "Was bezeichnet Ayanamsha?",
+          "options": [
+            "Eine Geburtsuhrzeit.",
+            "Die Differenz zwischen tropischem und einem definierten siderischen Tierkreis.",
+            "Ein Häusersystem."
+          ],
+          "correct_index": 1,
+          "explanation": "Für einen genauen siderischen Vergleich muss auch die konkrete Festlegung benannt werden."
+        },
+        {
+          "id": "q3",
+          "question": "Was prüfst du bei zwei abweichenden Ausdrucken zuerst?",
+          "options": [
+            "Welche Deutung schöner klingt.",
+            "Die Farbe der Darstellung.",
+            "Eingaben und Berechnungseinstellungen."
+          ],
+          "correct_index": 2,
+          "explanation": "Ein kontrollierter Vergleich beginnt mit identischen Daten und nachvollziehbaren Konventionen."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2016/01/03/zodiac-debate-tropical-vs-sidereal/",
+          "title": "The Zodiac Debate: Tropical vs Sidereal, Episode 60",
+          "author": "Chris Brennan, Kenneth Miller und Nick Dagan Best",
+          "note": "Die lesbaren Episodennotizen unterscheiden tropische, siderische und Sternbild-Bezugssysteme. Rechenbeispiele und Beratungsszenarien dieser Lektion sind eigene Arbeiten.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-grundlagen-05",
+      "title": "Elemente und Modalitäten als Arbeitsvokabular",
+      "summary": "Vier Elemente und drei Modalitäten helfen, verschiedene Arten des Handelns zu beschreiben, ohne Menschen festzuschreiben.",
+      "objective": "Du ordnest die zwölf Zeichen technisch korrekt ein und nutzt die Kategorien als offene Prozessfragen.",
+      "level": "foundation",
+      "minutes": 25,
+      "body": "## Zwei unterschiedliche Sortierfragen\nElement und Modalität sortieren die Zeichen nach verschiedenen Gesichtspunkten. Die vier Elemente heißen Feuer, Erde, Luft und Wasser. Die drei Modalitäten heißen kardinal, fix und veränderlich. Ein Zeichen erhält jeweils eine Zuordnung aus beiden Gruppen. Für den Einstieg brauchst du keine Rangordnung zwischen ihnen. Keine Kombination macht einen Menschen wertvoller, spiritueller oder erfolgreicher. Die Begriffe sind Kategorien einer Symbolsprache. Sie messen weder eine körperliche Substanz noch einen feststehenden Charakter.\n\n## Elemente in konkrete Fragen übersetzen\nIn unserer eigenen Lernübung steht Feuer für die Frage, was Begeisterung und Handlungsimpuls weckt. Erde lenkt den Blick auf Mittel, Umsetzung und sinnlich erfahrbare Bedingungen. Luft bietet eine Perspektive auf Austausch, Begriffe und verschiedene Sichtweisen. Wasser lädt dazu ein, Gefühle und subjektive Verbundenheit anzusprechen. Diese Formulierungen sind Gesprächsangebote, keine Tests. Du darfst jede Frage jedem Menschen stellen. Eine Person muss nicht in einem Wasserzeichen geboren sein, um über Gefühle sprechen zu können.\n\n## Modalitäten als Bewegungsphasen\nKardinal lässt sich für eine Übung mit dem Anstoßen eines Vorhabens verbinden. Fix hilft, Stabilität und Fortführung zu untersuchen. Veränderlich öffnet Fragen nach Anpassung und Übergängen. Stell dir eine kleine Veranstaltung vor: Jemand eröffnet die Planung, jemand hält die Absprachen verlässlich zusammen, jemand reagiert flexibel auf neue Bedingungen. Alle drei Aufgaben sind nötig. Die Qualität hängt nicht davon ab, welche Rolle angeblich am höchsten entwickelt ist, sondern davon, was eine konkrete Situation verlangt.\n\n## Die Zuordnungen lernen\nWidder, Krebs, Waage und Steinbock sind kardinal. Stier, Löwe, Skorpion und Wassermann sind fix. Zwillinge, Jungfrau, Schütze und Fische sind veränderlich. Bei den Elementen gehören Widder, Löwe und Schütze zum Feuer; Stier, Jungfrau und Steinbock zur Erde; Zwillinge, Waage und Wassermann zur Luft; Krebs, Skorpion und Fische zum Wasser. Schreibe die Kombinationen in eine Tabelle. Jede Verbindung aus Element und Modalität kommt genau einmal vor. Diese Struktur hilft beim Erinnern stärker als zwölf unverbundene Schlagwortlisten.\n\n## Auszählen braucht Regeln\nWenn du später Elemente in einem Radix zählst, lege vorher fest, welche Positionen du einbeziehst und ob du sie unterschiedlich gewichtest. Eine Liste aus zehn Planeten ist nicht direkt mit einer Liste aus sieben klassischen Himmelskörpern vergleichbar. Achsen sind außerdem keine Planeten. Ein rechnerisches Übergewicht in deiner gewählten Tabelle bedeutet nicht automatisch, dass ein Mensch ein psychologisches Defizit im anderen Bereich hat. Das Ergebnis beschreibt zuerst deine Auswahlregel. Frage anschließend nach konkreten Erfahrungen und Ressourcen.\n\n## Ein fehlendes Symbol ist kein fehlendes Können\nDie fiktive Lea möchte ihre Arbeit ordnen. Selbst wenn in einer Übung keine Planeten in Erdzeichen stehen, besitzt Lea möglicherweise ausgezeichnete organisatorische Fähigkeiten. Du kannst nach funktionierenden Routinen fragen, statt ihr mangelnde Bodenhaftung zuzuschreiben. Umgekehrt garantiert viel Erde keine Zuverlässigkeit. Verwende Kategorien als Landkarte für abwechslungsreiche Fragen und lerne ihre Grenzen mit. So bleiben die Begriffe nützlich, ohne die Person in einer Schublade festzuhalten oder normale Unterschiede als Mangel zu bewerten.",
+      "examples": [
+        {
+          "title": "Leas Werkstatt: drei Phasen",
+          "body": "Lea ist eine wiederkehrende fiktive Lernperson, keine reale Klientin. Sie möchte einen kleinen kreativen Workshop anbieten. Marina nutzt Modalitäten als Arbeitsraster: einen Termin festlegen, einen verlässlichen Ablauf halten und auf Teilnehmerwünsche reagieren. Diese drei Aufgaben werden unabhängig von einem Horoskop gesammelt. Erst danach können frei angenommene Symbolpositionen als zusätzliche Reflexionsbilder dienen. Die Übung zeigt, wie eine Kategorie zu einer konkreten Frage wird, ohne Leas tatsächliche Eigenschaften aus Sternen abzuleiten."
+        },
+        {
+          "title": "Samir ohne vermeintlichen Mangel",
+          "body": "Samir ist ebenfalls ein fiktiver Fall. Seine angenommene Übungskarte enthält in der gewählten Auszählung wenig Wasser. Marina sagt nicht, er könne nichts fühlen. Sie fragt nach Situationen, in denen er Verbundenheit erlebt, und nach Worten, die er dafür benutzt. Samir nennt in der Fallbeschreibung gemeinsame Spaziergänge. Die Antwort erhält Vorrang vor der Erwartung aus der Tabelle. So bleibt die Auszählung ein Gesprächsanstoß und wird nicht zu einem Defiziturteil."
+        }
+      ],
+      "practice": {
+        "prompt": "Ordne Widder, Stier, Zwillinge und Krebs jeweils Element und Modalität zu. Plane für Leas Workshop je eine Frage zum Anfangen, Stabilisieren und Anpassen.",
+        "model_answer": "Widder ist kardinales Feuer, Stier fixe Erde, Zwillinge veränderliche Luft und Krebs kardinales Wasser. Diese Zuordnungen gehören zum verwendeten westlichen Vokabular. Für Leas Workshop frage ich zunächst: „Welche erste verbindliche Entscheidung brauchst du, damit aus der Idee ein Termin wird?“ Zum Stabilisieren frage ich: „Welche kleine Routine hält Vorbereitung und Anmeldung zuverlässig zusammen?“ Für die Anpassung lautet meine Frage: „Was kannst du verändern, wenn weniger Menschen kommen als erwartet?“ Keine dieser Aufgaben setzt eine bestimmte Zeichenbesetzung voraus. Ich würde die Antworten zunächst ohne Auswertung des Radix sammeln. So sehe ich, welche Fähigkeiten Lea bereits besitzt. Eine spätere symbolische Ergänzung kann neue Blickwinkel anbieten, aber nicht die tatsächliche Planung ersetzen. In meinem Notizbuch trenne ich die korrekte Zeichenklassifikation von den selbst entwickelten Fragen für den ausdrücklich fiktiven Fall.",
+        "rubric": [
+          "Die vier Zeichen sind korrekt zugeordnet.",
+          "Drei unterschiedliche Prozessphasen werden angesprochen.",
+          "Die Fragen beziehen sich konkret auf Leas Vorhaben.",
+          "Es wird kein Fähigkeitsmangel aus einer fehlenden Besetzung behauptet."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welche Modalität hat Stier?",
+          "options": [
+            "Kardinal.",
+            "Fix.",
+            "Veränderlich."
+          ],
+          "correct_index": 1,
+          "explanation": "Stier gehört mit Löwe, Skorpion und Wassermann zu den fixen Zeichen."
+        },
+        {
+          "id": "q2",
+          "question": "Welches Zeichen ist veränderliche Luft?",
+          "options": [
+            "Zwillinge.",
+            "Waage.",
+            "Wassermann."
+          ],
+          "correct_index": 0,
+          "explanation": "Zwillinge verbindet das Element Luft mit der veränderlichen Modalität."
+        },
+        {
+          "id": "q3",
+          "question": "Was bedeutet wenig Wasser in einer gewählten Auszählung sicher?",
+          "options": [
+            "Die Person hat keine Gefühle.",
+            "Die Person ist unzuverlässig.",
+            "In dieser Auswahl liegen wenige gezählte Positionen in Wasserzeichen."
+          ],
+          "correct_index": 2,
+          "explanation": "Die sichere Aussage betrifft zunächst nur die Auszählung, nicht eine psychologische Fähigkeit."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2018/10/15/the-signs-of-the-zodiac-qualities-and-meanings-part-1/",
+          "title": "The Signs of the Zodiac: Qualities and Meanings – Part 1, Episode 175",
+          "author": "Chris Brennan, Kelly Surtees und Austin Coppock",
+          "note": "Geprüfte Episodennotizen führen Element, Modalität und Herrscher als Zeichenkategorien auf. Die Prozessübungen dieser Lektion sind eigene didaktische Entwürfe.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-grundlagen-06",
+      "title": "Grade und Abstände selbst nachvollziehen",
+      "summary": "Ein paar einfache Rechnungen helfen, Positionen und Aspekte unabhängig von Linienfarben zu kontrollieren.",
+      "objective": "Du wandelst Zeichenpositionen in Kreisgrade um und berechnest den kleineren Winkelabstand zweier Positionen.",
+      "level": "foundation",
+      "minutes": 25,
+      "body": "## Die Zahl hinter dem Symbol\nEine Zeichenposition enthält zwei Informationen: den Abschnitt des Tierkreises und den Grad innerhalb dieses Abschnitts. Jedes Zeichen umfasst dreißig Grad. Für einfache Rechnungen kannst du eine Position auf die durchgehende Skala von null bis unter dreihundertsechzig Grad übertragen. Widder beginnt bei null, Stier bei dreißig und Zwillinge bei sechzig Grad. Die folgenden Zeichen setzen diese Reihe fort. Diese Umrechnung ist Geometrie innerhalb der gewählten Skala und enthält noch keine astrologische Deutung.\n\n## Eine vollständige Starttabelle\nDie Startwerte lauten: Widder null, Stier dreißig, Zwillinge sechzig, Krebs neunzig, Löwe hundertzwanzig und Jungfrau hundertfünfzig Grad. Waage beginnt bei hundertachtzig, Skorpion bei zweihundertzehn, Schütze bei zweihundertvierzig, Steinbock bei zweihundertsiebzig, Wassermann bei dreihundert und Fische bei dreihundertdreißig Grad. Addiere den Grad im Zeichen zum Startwert. Zwölf Grad Löwe ergeben hundertzwanzig plus zwölf, also hundertzweiunddreißig Grad. Schreibe den Startwert und die Position im Zeichen zunächst getrennt auf. So bleibt sichtbar, welche Zahlen du addiert hast, und ein Übertragungsfehler lässt sich leichter finden.\n\n## Der Kreis hat zwei Wege\nZwischen zwei Punkten gibt es auf einem Kreis zwei Verbindungen. Für den üblichen kleineren Winkelabstand ziehst du zunächst die kleinere absolute Position von der größeren ab. Ist das Ergebnis größer als hundertachtzig Grad, ziehst du es von dreihundertsechzig ab. So liegen achtundzwanzig Grad Fische und zwei Grad Widder nur vier Grad auseinander, obwohl die Zahlen dreihundertachtundfünfzig und zwei zunächst weit auseinander aussehen. Der Übergang über den Nullpunkt ist ein häufiger Fehler beim ersten Rechnen.\n\n## Winkel und Toleranz trennen\nEin Quadrat hat als Grundwinkel neunzig Grad, ein Trigon hundertzwanzig und eine Opposition hundertachtzig. Ob eine konkrete Abweichung noch als Aspekt gilt, hängt von einer festgelegten Toleranz ab, dem Orbis. Ein Abstand von siebenundachtzig Grad liegt drei Grad vom exakten Quadrat entfernt. Eine Schule kann dafür eine andere Grenze wählen als eine andere. Deshalb solltest du den berechneten Abstand und die verwendete Regel getrennt notieren. Ein farbiger Strich verbirgt diese Entscheidung oft hinter einer bequemen Darstellung.\n\n## Bogenminuten sind keine Uhrminuten\nEin Grad enthält sechzig Bogenminuten. Zehn Grad dreißig Bogenminuten entsprechen zehneinhalb Grad. Die kleine Minute in einer Positionsangabe ist damit eine Winkelunterteilung. Sie sagt nicht, dass ein Planet in dreißig Zeitminuten die nächste Position erreicht. Achte auf die Beschriftung deiner Tabelle. Für die ersten Übungen reichen ganze Grade; später kannst du Dezimalwerte oder Grad und Bogenminuten verwenden. Wichtig ist, während einer Rechnung bei einer verständlichen Darstellungsweise zu bleiben.\n\n## Erst prüfen, dann benennen\nNimm zwei ausdrücklich erfundene Lehrpositionen und rechne den Abstand mit Papier und Stift. Zeichne anschließend einen groben Kreis als Plausibilitätskontrolle. Liegen die Punkte fast gegenüber, kann ein Ergebnis von wenigen Grad nicht stimmen. Erst nach dieser Prüfung vergibst du einen Aspektnamen und untersuchst seine mögliche Bedeutung. Du brauchst nicht jede spätere Analyse von Hand zu berechnen. Das Verständnis der Rechnung hilft jedoch, falsche Eingaben, missverstandene Angaben und unpassende Toleranzen zu erkennen.",
+      "examples": [
+        {
+          "title": "Ein Abstand über den Anfang",
+          "body": "Im Lehrbeispiel liegt ein Punkt bei 28 Grad Fische und ein zweiter bei 2 Grad Widder. Ihre durchgehenden Positionen sind 358 und 2 Grad. Die erste Differenz beträgt 356 Grad. Der kleinere Weg ist 360 minus 356, also 4 Grad. Marina zeichnet beide Punkte direkt links und rechts vom Nullpunkt. Die Skizze bestätigt, dass die Positionen nahe beieinanderliegen. Die Zahlen sind frei gewählt und kein berechneter Klientenfall."
+        },
+        {
+          "title": "Ein beinahe genaues Quadrat",
+          "body": "Für eine zweite Übung verwendet Marina 10 Grad Stier und 13 Grad Löwe. Auf der Kreisskala sind das 40 und 133 Grad. Der Abstand beträgt 93 Grad, die Abweichung vom exakten Quadrat 3 Grad. Ob das Programm eine Verbindung zeichnet, hängt vom zugelassenen Orbis ab. Marina dokumentiert daher Abstand und Regel. Sie leitet aus der bloßen Rechnung weder einen Streit noch eine Lebenskrise der fiktiven Person ab."
+        }
+      ],
+      "practice": {
+        "prompt": "Rechne die kleineren Abstände für 5 Grad Krebs zu 5 Grad Waage sowie 29 Grad Wassermann zu 1 Grad Widder. Nenne einen passenden exakten Grundwinkel nur dort, wo die Zahlen ihn ergeben.",
+        "model_answer": "Fünf Grad Krebs entsprechen fünfundneunzig Grad auf der Gesamtskala. Fünf Grad Waage entsprechen hundertfünfundachtzig Grad. Die Differenz ist neunzig Grad; damit liegt im Lehrbeispiel ein exakter Quadratwinkel vor. Neunundzwanzig Grad Wassermann entsprechen dreihundertneunundzwanzig Grad. Ein Grad Widder entspricht einem Grad. Die direkte Differenz beträgt dreihundertachtundzwanzig Grad. Für den kleineren Weg rechne ich dreihundertsechzig minus dreihundertachtundzwanzig und erhalte zweiunddreißig Grad. Diesen Wert würde ich nicht als exaktes Sextil bezeichnen, denn dessen Grundwinkel beträgt sechzig Grad. Ich zeichne beide Fälle grob in einen Kreis und kontrolliere besonders den Übergang über null. Die Rechnung ist unabhängig davon überprüfbar, welche symbolischen Bedeutungen später besprochen werden. Ohne eine benannte Toleranz ergänze ich keinen ungenauen Aspektnamen nur deshalb, weil er mir vertraut klingt. Damit bleibt auch ein späterer Vergleich mit einer Softwareausgabe gut nachvollziehbar.",
+        "rubric": [
+          "Zeichenanfänge werden korrekt addiert.",
+          "Der Übergang über null wird korrekt behandelt.",
+          "Winkel und Deutung sind getrennt.",
+          "Toleranzen werden nicht still erfunden."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welcher Gesamtposition entsprechen 12 Grad Löwe?",
+          "options": [
+            "112 Grad.",
+            "132 Grad.",
+            "142 Grad."
+          ],
+          "correct_index": 1,
+          "explanation": "Löwe beginnt bei 120 Grad; hinzu kommen 12 Grad."
+        },
+        {
+          "id": "q2",
+          "question": "Wie groß ist der kleinere Abstand von 358 zu 2 Grad?",
+          "options": [
+            "356 Grad.",
+            "180 Grad.",
+            "4 Grad."
+          ],
+          "correct_index": 2,
+          "explanation": "Der kürzere Weg führt über den Nullpunkt: 360 minus 356 ergibt 4."
+        },
+        {
+          "id": "q3",
+          "question": "Was bedeutet Orbis?",
+          "options": [
+            "Eine erlaubte Abweichung vom exakten Aspektwinkel.",
+            "Die lokale Sommerzeit.",
+            "Ein weiterer Planet."
+          ],
+          "correct_index": 0,
+          "explanation": "Der Orbis ist eine gewählte Toleranzregel; er ist nicht der Grundwinkel selbst."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.chani.com/astro-education/what-is-a-birth-chart",
+          "title": "What is a birth chart?",
+          "author": "CHANI Redaktion",
+          "note": "Geprüfte Einführung zur Struktur des Horoskops. Die hier entwickelten Arbeitsabläufe, Fallbeispiele und Qualitätsprüfungen sind eigene didaktische Entwürfe; die spirituelle Lebenszweck-Deutung der Quelle wird nicht vorausgesetzt.",
+          "checked_at": "2026-10-20"
+        },
+        {
+          "url": "https://theastrologypodcast.com/2016/01/03/zodiac-debate-tropical-vs-sidereal/",
+          "title": "The Zodiac Debate: Tropical vs Sidereal, Episode 60",
+          "author": "Chris Brennan, Kenneth Miller und Nick Dagan Best",
+          "note": "Die lesbaren Episodennotizen unterscheiden tropische, siderische und Sternbild-Bezugssysteme. Rechenbeispiele und Beratungsszenarien dieser Lektion sind eigene Arbeiten.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-grundlagen-07",
+      "title": "Schulen vergleichen, ohne sie zu vermischen",
+      "summary": "Traditionelle, psychologische und evolutionäre Perspektiven stellen unterschiedliche Fragen an dieselbe Karte.",
+      "objective": "Du kennzeichnest eine gewählte Schule und erkennst, wann eine Aussage eine zusätzliche spirituelle Annahme benötigt.",
+      "level": "foundation",
+      "minutes": 25,
+      "body": "## Mehrere Fragen an eine Karte\nAstrologie ist kein einheitliches Lehrbuch mit nur einer Deutungssprache. Verschiedene Schulen wählen unterschiedliche Techniken, Schwerpunkte und Annahmen. Eine traditionelle Analyse kann die Stellung eines Planeten nach festgelegten Würden untersuchen. Eine psychologische Lesart kann nach inneren Spannungen und Entwicklungsmöglichkeiten fragen. Eine evolutionäre Perspektive kann spirituelle Vorstellungen von Wachstum oder Seelenentwicklung einbeziehen. Diese Unterschiede müssen nicht zu einem Wettbewerb werden. Für eine nachvollziehbare Beratung musst du aber sagen können, aus welcher Perspektive du gerade sprichst.\n\n## Eine Technik hat einen Kontext\nEin Begriff wie Herrscher, Sektion oder Mondknoten erhält seine Bedeutung aus einem Regelzusammenhang. Wenn du nur ein eindrucksvolles Wort übernimmst, ohne diesen Zusammenhang zu verstehen, entsteht leicht eine unklare Mischung. Beginne beim Lernen deshalb mit einer Frage: Welche Daten braucht diese Technik, und welche Schlussfolgerungen erlaubt sie innerhalb ihrer eigenen Schule? Notiere außerdem, ob das Ergebnis eine Berechnung, eine historische Zuordnung oder eine spirituelle Interpretation ist. Das hilft dir, unterschiedliche Arten von Aussagen nicht als gleich sicher zu behandeln.\n\n## Psychologische Sprache sorgfältig verwenden\nWörter wie Schatten, Projektion oder Bindung klingen vertraut, besitzen aber je nach Zusammenhang verschiedene Bedeutungen. Eine astrologische Reflexion mit solchen Begriffen ist keine psychologische Diagnostik. In dieser Akademie werden sie als mögliche Gesprächsperspektiven eingeführt. Frage nach konkreten Erfahrungen, statt ein unbewusstes Motiv zu behaupten. Die Arbeit von Liz Greene und Howard Sasportas ist eine wichtige historische Orientierung für psychologische Astrologie. Daraus folgt keine automatische fachliche Qualifikation für jede Person, die ihre Begriffe benutzt.\n\n## Spirituelle Annahmen offen anbieten\nManche Menschen möchten über Karma oder Seelenwege sprechen. Andere empfinden diese Wörter als unpassend. Lege vor einer entsprechenden Übung offen, dass du ein spirituelles Modell anbietest. Eine Deutung vergangener Leben lässt sich nicht aus einer Position als gesicherte Biografie ablesen. Du kannst dieselbe Lernfrage häufig auch ohne diese Annahme stellen: Welche Gewohnheit ist vertraut, und welche neue Handlung möchtest du erproben? So bleibt die Selbstbestimmung der lernenden oder ratsuchenden Person erhalten.\n\n## Vergleichen mit einem kleinen Protokoll\nWähle eine einzige Lehrposition und schreibe zwei klar beschriftete Lesarten nebeneinander. Halte fest, welche Zusatzinformationen jede Perspektive benötigt. Suche sowohl Überschneidungen als auch echte Unterschiede. Glätte Widersprüche nicht dadurch, dass du alle Aussagen als irgendwie gleich erklärst. Ein Vergleich kann zeigen, dass eine Schule etwas anderes fragt als die andere. Das ist bereits ein Lernergebnis. Eine besonders berührende Formulierung ersetzt dabei weder technische Kenntnis noch eine Prüfung der eigenen Annahmen.\n\n## Ein eigener Weg bleibt transparent\nDu darfst im Laufe der Zeit einen persönlichen Schwerpunkt entwickeln. Gute Integration bedeutet, Herkunft und Grenzen deiner Werkzeuge zu kennen. Im Gespräch kannst du sagen: „Hier nutze ich eine moderne Reflexionsfrage; die folgende Regel stammt aus einem traditionellen System.“ Wenn du zwischen tropischer und siderischer Berechnung wechselst, benennst du zusätzlich den technischen Wechsel. Lernfreiheit heißt nicht Beliebigkeit. Sie heißt, eine bewusste Auswahl treffen zu können, statt unbemerkt verschiedene Regeln und Weltbilder in einen vermeintlich eindeutigen Befund zu verwandeln.",
+      "examples": [
+        {
+          "title": "Lea hört zwei Perspektiven",
+          "body": "Lea, die fiktive Workshop-Gründerin, möchte über Verantwortung sprechen. Eine moderne Reflexionsfrage untersucht, welche Aufgaben sie als sinnvoll erlebt. Eine traditionelle Lehrübung würde zunächst die tatsächliche Stellung des betreffenden Planeten und weitere Regeln verlangen. Marina behauptet nicht, beide Verfahren lieferten denselben Befund. Sie beschriftet ihre Notizen getrennt. Weil für Lea gerade eine konkrete Planung zählt, bleibt die Gesprächsfrage beim nächsten machbaren Schritt und macht keine Aussage über ein vorherbestimmtes Schicksal."
+        },
+        {
+          "title": "Samir entscheidet über die Sprache",
+          "body": "Samir möchte seine Beziehungsmuster betrachten, aber keine Aussagen über vergangene Leben hören. Marina respektiert diese Wahl. Bei einer späteren Mondknotenübung spricht sie deshalb über vertraute Verhaltensweisen und neue Handlungsmöglichkeiten. Sie erklärt, dass andere Schulen hier spirituelle Begriffe verwenden. Samirs Entscheidung wird weder als mangelnde Offenheit noch als Blockade bewertet. Das Lernziel besteht darin, Unterschiede zwischen Modellen zu erkennen und eine freiwillige, verständliche Gesprächssprache zu wählen."
+        }
+      ],
+      "practice": {
+        "prompt": "Schreibe zwei unterschiedlich beschriftete Fragen zum Thema Verantwortung: eine alltagsbezogene Reflexion und eine ausdrücklich optionale spirituelle Frage. Nenne die Grenzen beider.",
+        "model_answer": "Meine alltagsbezogene Frage lautet: „Welche Verantwortung möchtest du in diesem Monat bewusst übernehmen, und welche Zusage braucht eine neue Grenze?“ Diese Frage kann durch konkrete Erfahrungen und Entscheidungen bearbeitet werden. Sie ist keine Diagnose und beweist auch keine astrologische Ursache. Als optionale spirituelle Frage könnte ich anbieten: „Wenn du dein derzeitiges Lernen als Teil eines persönlichen Seelenweges betrachten möchtest, welches Thema würdest du darin erkennen?“ Vor dieser zweiten Frage kläre ich, ob diese Sprache erwünscht ist. Ich behaupte weder einen vorgegebenen Seelenplan noch ein Wissen über frühere Leben. Wenn die Person die Perspektive ablehnt, entfällt sie vollständig. Beide Fragen können eine Reflexion anregen, aber keine äußeren Ereignisse garantieren. In meinen Notizen stehen Überschrift, verwendete Annahme und die tatsächlich gegebene Antwort. So bleibt erkennbar, welches Modell ich angeboten habe und was die Person selbst daraus gemacht hat.",
+        "rubric": [
+          "Die zwei Perspektiven sind deutlich beschriftet.",
+          "Spirituelle Sprache ist ausdrücklich freiwillig.",
+          "Keine Diagnose oder Schicksalsgewissheit wird behauptet.",
+          "Die Grenzen beider Fragen sind benannt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was ist bei der Kombination verschiedener Schulen wichtig?",
+          "options": [
+            "Begriffe ohne Herkunft sammeln.",
+            "Regeln, Annahmen und Perspektivwechsel kennzeichnen.",
+            "Immer die dramatischste Aussage wählen."
+          ],
+          "correct_index": 1,
+          "explanation": "Transparente Integration bewahrt den Kontext einer Methode."
+        },
+        {
+          "id": "q2",
+          "question": "Belegt eine astrologische Schatten-Deutung eine psychologische Diagnose?",
+          "options": [
+            "Nein.",
+            "Ja, wenn sie überzeugend klingt.",
+            "Ja, wenn ein Quiz bestanden wurde."
+          ],
+          "correct_index": 0,
+          "explanation": "Eine astrologische Reflexion ersetzt keine fachliche Diagnostik oder Qualifikation."
+        },
+        {
+          "id": "q3",
+          "question": "Wie gehst du mit einer abgelehnten spirituellen Annahme um?",
+          "options": [
+            "Als Blockade auslegen.",
+            "Trotzdem weiterverwenden.",
+            "Eine passende freiwillige Sprache wählen oder das Thema weglassen."
+          ],
+          "correct_index": 2,
+          "explanation": "Selbstbestimmung schließt eine echte Wahl über Weltbilder und Gesprächssprache ein."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://cpalondon.com/howard/",
+          "title": "Howard Sasportas",
+          "author": "Centre for Psychological Astrology",
+          "note": "Geprüfte institutionelle Biografie belegt Sasportas, seine Häuserpublikation und die Verbindung mit Liz Greene. Keine vollständige Wiedergabe seiner Bücher oder Seminare.",
+          "checked_at": "2026-10-20"
+        },
+        {
+          "url": "https://theastrologypodcast.com/2016/01/03/zodiac-debate-tropical-vs-sidereal/",
+          "title": "The Zodiac Debate: Tropical vs Sidereal, Episode 60",
+          "author": "Chris Brennan, Kenneth Miller und Nick Dagan Best",
+          "note": "Die lesbaren Episodennotizen unterscheiden tropische, siderische und Sternbild-Bezugssysteme. Rechenbeispiele und Beratungsszenarien dieser Lektion sind eigene Arbeiten.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-grundlagen-08",
+      "title": "Dein erster zusammenhängender Lernfall",
+      "summary": "Ein kurzer, klar dokumentierter Durchlauf verbindet Datenprüfung, Symbolarbeit, Gespräch und Nachbereitung.",
+      "objective": "Du erstellst eine begrenzte Übungsanalyse mit nachvollziehbaren Annahmen, offenen Fragen und einem überprüfbaren nächsten Schritt.",
+      "level": "foundation",
+      "minutes": 25,
+      "body": "## Klein anfangen, vollständig arbeiten\nEin erster Lernfall muss nicht das ganze Leben erklären. Wähle ein überschaubares Anliegen, beispielsweise eine Entscheidung im Arbeitsalltag. Der wiederkehrende fiktive Fall Lea möchte einen kreativen Workshop vorbereiten, ohne ihre Erholungszeit zu verlieren. Für diese Lektion verwenden wir frei angenommene Symbolpositionen als Lehrmaterial. Sie stammen nicht aus einer heimlich berechneten echten Geburt. Schreibe diesen Status auf dein Blatt. So kannst du Zusammenhänge üben, ohne erfundene Genauigkeit oder eine vermeintliche echte Klientenakte zu erzeugen.\n\n## Einen klaren Auftrag formulieren\nLeas Anliegen lautet nicht „Erkläre mir alles über mich“, sondern „Wie kann ich einen ersten Workshop gut vorbereiten?“ Begrenze deine Analyse auf dieses Thema. Du kannst zwei oder drei astrologische Symbole auswählen, die passende Fragen anregen. Die Auswahl muss nachvollziehbar sein, aber sie braucht nicht jede Position der Karte zu umfassen. Wenn du merkst, dass du immer weitere Techniken ergänzen möchtest, kehre zur Ausgangsfrage zurück. Mehr Symbole sind nicht automatisch mehr hilfreiche Information.\n\n## Eine kleine Beweiskette notieren\nHalte für jede verwendete Position getrennt fest: Welche Lehrangabe liegt vor? Welche Deutungskonvention wählst du? Welche Frage ergibt sich daraus? Welche Information müsstest du von Lea erst erfahren? Diese vier Schritte bilden deine Arbeitskette. Vermeide Aussagen über Ereignisse, die in der Fallbeschreibung nicht vorkommen. Du kennst Leas Einkommen, Familiengeschichte und Gesundheitszustand nicht. Auch eine lebendige Vorstellung während des Lesens ist keine zusätzliche Fallinformation. Sie kann als eigene Idee notiert, aber nicht zur Tatsache gemacht werden.\n\n## Die Antwort verändert den Entwurf\nStelle dir anschließend zwei unterschiedliche Antworten Leas vor. Vielleicht braucht sie vor allem einen festen Termin. Vielleicht hat sie bereits einen Termin und benötigt Unterstützung beim Begrenzen des Umfangs. Derselbe symbolische Einstieg kann zu verschiedenen praktischen Schwerpunkten führen. Eine gute Übungsanalyse lässt diese Verzweigung zu. Sie ist kein fertiges Drehbuch, das jede Person bestätigen muss. Schreibe auf, welche Frage du nach jeder Antwort stellen würdest und welche ursprüngliche Vermutung du gegebenenfalls fallen lässt.\n\n## Einen kleinen Schritt vereinbaren\nAm Ende steht eine Handlung, die Lea selbst wählen kann: einen Entwurf auf eine Seite begrenzen, einen Probetermin mit einer vertrauten Person vereinbaren oder eine Pause im Ablauf markieren. Die Handlung soll zum tatsächlichen Anliegen passen und ohne astrologischen Erfolgszwang überprüfbar sein. Frage, woran Lea merken würde, dass sie hilfreich war. Ein nächster Schritt ist keine Garantie für geschäftlichen Erfolg. Er verbindet Reflexion mit einer überschaubaren Erfahrung und verhindert, dass die Sitzung nur aus abstrakten Beschreibungen besteht.\n\n## Nachbereiten und wiederholen\nLies nach der Übung deine Notizen aus der Sicht einer anderen Person. Sind Annahmen sichtbar? Sind die Fragen verständlich? Hat Lea echte Wahlmöglichkeiten? Markiere einen gelungenen Satz und einen Satz, den du verbessern möchtest. Speichere die nützliche Formulierung in deinem Notizbuch und setze für die technische Frage ein Lesezeichen. Wiederholung bedeutet hier, eine konkrete Fähigkeit erneut anzuwenden. Ein Lernabzeichen bestätigt erledigte Lernaufgaben; es ersetzt weder Beratungserfahrung noch eine eigenständige Prüfung, ob du einen realen Auftrag verantwortbar übernehmen kannst.",
+      "examples": [
+        {
+          "title": "Leas erster Probelauf",
+          "body": "In der fiktiven Fallbeschreibung hat Lea viele Workshop-Ideen und wenig freie Abende. Marina wählt die Frage, welche zwei Bestandteile für einen ersten Probelauf genügen. Lea könnte antworten, dass sie eine kurze Einführung und eine gemeinsame Übung ausprobieren möchte. Der nächste Schritt wäre ein Ablauf auf einer Seite mit einer klaren Endzeit. Die astrologischen Symbole dienen hier als Anregung zur Strukturierung. Der Plan wird an Leas tatsächlichen Zeitmöglichkeiten geprüft, nicht am Versprechen eines günstigen Schicksals."
+        },
+        {
+          "title": "Samirs abweichendes Anliegen",
+          "body": "Samir möchte keinen Workshop planen, sondern ein ruhiges Gespräch über eine Beziehung vorbereiten. Marina übernimmt nicht einfach Leas Handlungsvorschlag. Sie fragt, welche konkrete Situation Samir ansprechen möchte und welche Grenze er respektvoll benennen will. Ein nächster Schritt könnte ein kurzer Gesprächseinstieg in eigenen Worten sein. Die beiden Lernfälle nutzen dieselbe saubere Arbeitskette, führen aber zu unterschiedlichen Fragen. Gerade dieser Unterschied zeigt, dass die Person und ihr Anliegen den Ablauf mitbestimmen."
+        }
+      ],
+      "practice": {
+        "prompt": "Erstelle für Lea eine einseitige Übungsanalyse: Auftrag, zwei ausdrücklich angenommene Symbole, je eine offene Frage, zwei mögliche Antworten und einen nächsten Schritt. Markiere alles, was du nicht weißt.",
+        "model_answer": "Mein Auftrag lautet: Lea möchte einen ersten kreativen Workshop vorbereiten und ihre freie Zeit schützen. Als ausdrücklich erfundene Lehrsymbole verwende ich Merkur für die Verständlichkeit des Angebots und Saturn für eine klare Begrenzung des Umfangs. Das sind keine berechneten Radixwerte. Zu Merkur frage ich: „Was sollen Teilnehmende nach einer Stunde verstanden oder ausprobiert haben?“ Zu Saturn frage ich: „Welche Vorbereitung passt realistisch in deine verfügbaren Abende?“ Lea könnte bereits einen Ablauf besitzen; dann würde ich nur die Verständlichkeit prüfen. Sie könnte aber noch viele unverbundene Ideen sammeln; dann wäre eine Auswahl von zwei Bestandteilen sinnvoll. Als nächsten Schritt schlage ich einen freiwilligen Entwurf auf einer Seite vor. Einkommen, Familienpflichten und Gesundheit kenne ich nicht und ergänze sie nicht. Bei der Nachbereitung prüfe ich, ob die Fragen hilfreich und veränderbar geblieben sind. Den Lernerfolg bewerte ich an der nachvollziehbaren Arbeitsweise, nicht an einer behaupteten Vorhersage.",
+        "rubric": [
+          "Der Auftrag ist konkret und begrenzt.",
+          "Lehrsymbole werden als Annahmen kenntlich gemacht.",
+          "Mindestens zwei mögliche Antworten verändern den Ablauf.",
+          "Der nächste Schritt ist freiwillig und überprüfbar.",
+          "Unbekannte Daten bleiben ausdrücklich unbekannt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was ist für einen ersten Lernfall besonders sinnvoll?",
+          "options": [
+            "Ein begrenztes Anliegen mit vollständiger Arbeitskette.",
+            "Möglichst viele Techniken ohne Rückfrage.",
+            "Eine genaue Zukunftsbehauptung."
+          ],
+          "correct_index": 0,
+          "explanation": "Ein kleiner vollständiger Ablauf ist überprüfbarer als eine große Sammlung unverbundener Deutungen."
+        },
+        {
+          "id": "q2",
+          "question": "Was darf eine erfundene Lehrposition nicht werden?",
+          "options": [
+            "Ein Anlass für eine offene Frage.",
+            "Eine angeblich berechnete Tatsache über einen realen Menschen.",
+            "Ein deutlich markiertes Übungsbeispiel."
+          ],
+          "correct_index": 1,
+          "explanation": "Lehrannahmen dürfen nicht als echte Falldaten ausgegeben werden."
+        },
+        {
+          "id": "q3",
+          "question": "Was bestätigt ein Lernabzeichen hier?",
+          "options": [
+            "Eine medizinische Qualifikation.",
+            "Garantierten Beratungserfolg.",
+            "Die bezeichneten abgeschlossenen Lernaufgaben."
+          ],
+          "correct_index": 2,
+          "explanation": "Das Abzeichen benennt eine Lernleistung und ersetzt keine berufliche Qualifikation."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.chani.com/astro-education/what-is-a-birth-chart",
+          "title": "What is a birth chart?",
+          "author": "CHANI Redaktion",
+          "note": "Geprüfte Einführung zur Struktur des Horoskops. Die hier entwickelten Arbeitsabläufe, Fallbeispiele und Qualitätsprüfungen sind eigene didaktische Entwürfe; die spirituelle Lebenszweck-Deutung der Quelle wird nicht vorausgesetzt.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    }
+  ]
+}

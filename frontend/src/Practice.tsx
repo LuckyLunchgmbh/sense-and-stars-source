@@ -33,6 +33,7 @@ import {
 } from "./ui";
 import { BodyChart } from "./BodyChart";
 import { ContextHelp } from "./Help";
+import { euroToCents, suggestedPrice } from "./pricing";
 const modeQuery = (practice?: boolean) =>
   practice ? "?practice=1" : "?practice=0";
 const statusName: Record<Appointment["status"], string> = {
@@ -194,6 +195,7 @@ export function DashboardPage(props: PageProps) {
                   <AppointmentRow
                     key={a.id}
                     appointment={a}
+                    practice={props.practice}
                     onPrepare={() => setPrepare(a)}
                     compact
                   />
@@ -337,6 +339,7 @@ export function AppointmentRow({
   onComplete,
   compact = false,
   client = false,
+  practice = false,
 }: {
   appointment: Appointment;
   onPrepare?: () => void;
@@ -344,6 +347,7 @@ export function AppointmentRow({
   onComplete?: () => void;
   compact?: boolean;
   client?: boolean;
+  practice?: boolean;
 }) {
   return (
     <div className={"appointment-row " + (compact ? "compact" : "")}>
@@ -363,6 +367,14 @@ export function AppointmentRow({
           {dateFormat(a.start_at, { hour: "2-digit", minute: "2-digit" })} Uhr{" "}
           <span className="bullet">·</span>
           {a.duration_minutes} Min.
+          {!practice && (
+            <>
+              <span className="bullet">·</span>
+              <span className="appointment-value">
+                {money(a.price_cents)} Sitzungswert
+              </span>
+            </>
+          )}
         </p>
         <div className="appointment-badges">
           <Badge
@@ -625,6 +637,7 @@ export function CalendarPage(props: PageProps) {
               <AppointmentRow
                 key={a.id}
                 appointment={a}
+                practice={props.practice}
                 client={client}
                 onPrepare={() => setPrepare(a)}
                 onCancel={client ? undefined : () => setCancel(a)}
@@ -737,6 +750,10 @@ function AppointmentForm({
   const isCurrent = useRequestScope();
   const saveLock = useRef(false);
   const originalPractice = practice === true;
+  const [duration, setDuration] = useState(60);
+  const [manualPrice, setManualPrice] = useState(false);
+  const [price, setPrice] = useState("");
+  const proposedPrice = suggestedPrice(user.hourly_rate_cents, duration);
   const [busy, setBusy] = useState(false),
     [error, setError] = useState("");
   async function submit(event: FormEvent<HTMLFormElement>) {
@@ -759,13 +776,28 @@ function AppointmentForm({
     setError("");
     try {
       const startAt = toBerlinISO(String(f.get("start_at")));
+      const manualCents = manualPrice ? euroToCents(price) : null;
+      if (
+        user.role !== "client" &&
+        !practice &&
+        manualPrice &&
+        manualCents === null
+      )
+        throw new Error(
+          "Bitte gib den vereinbarten Betrag ein. Für eine kostenlose Sitzung trage 0 ein.",
+        );
       await api("/appointments", {
         client_id:
           user.role === "client" ? user.client_id : Number(f.get("client_id")),
         start_at: startAt,
         title: f.get("title"),
         duration_minutes: Number(f.get("duration_minutes")),
-        price_cents: Math.round(Number(f.get("price") || 0) * 100),
+        price_cents:
+          user.role === "client" || practice
+            ? 0
+            : manualPrice
+              ? manualCents
+              : null,
       });
       refresh();
       notify(
@@ -836,7 +868,12 @@ function AppointmentForm({
         </label>
         <label>
           Dauer
-          <select disabled={busy} name="duration_minutes" defaultValue="60">
+          <select
+            disabled={busy}
+            name="duration_minutes"
+            value={duration}
+            onChange={(event) => setDuration(Number(event.target.value))}
+          >
             {[15, 30, 45, 60, 90, 120, 180].map((n) => (
               <option value={n} key={n}>
                 {n} Minuten
@@ -845,18 +882,58 @@ function AppointmentForm({
           </select>
         </label>
         {user.role !== "client" && !practice && (
-          <label className="full">
-            Sitzungswert in €{" "}
-            <span className="optional">optional · keine Zahlung</span>
-            <input
-              type="number"
-              readOnly={busy}
-              name="price"
-              min="0"
-              step="0.01"
-              defaultValue="0"
-            />
-          </label>
+          <section
+            className="full appointment-price"
+            aria-label="Sitzungspreis"
+          >
+            <div>
+              <span className="small-label">SITZUNGSPREIS</span>
+              <strong>
+                {manualPrice
+                  ? "Individuelle Vereinbarung"
+                  : money(proposedPrice)}
+              </strong>
+            </div>
+            <p>
+              {user.hourly_rate_cents == null
+                ? "Noch kein Stundensatz hinterlegt. Du kannst ihn in den Einstellungen festlegen."
+                : `${money(user.hourly_rate_cents)} pro Stunde · ${duration} Minuten`}
+            </p>
+            <label className="academy-check">
+              <input
+                type="checkbox"
+                checked={manualPrice}
+                disabled={busy}
+                onChange={(event) => {
+                  setManualPrice(event.target.checked);
+                  if (event.target.checked)
+                    setPrice((proposedPrice / 100).toFixed(2));
+                }}
+              />
+              Sitzungspreis manuell anpassen
+            </label>
+            {manualPrice && (
+              <label>
+                Vereinbarter Betrag in €
+                <input
+                  inputMode="decimal"
+                  name="price"
+                  value={price}
+                  onChange={(event) => setPrice(event.target.value)}
+                  readOnly={busy}
+                  required
+                />
+                <small>
+                  0 € ist eine kostenlose Sitzung. Der vereinbarte Betrag bleibt
+                  für diesen Termin erhalten.
+                </small>
+              </label>
+            )}
+            <small>
+              Der Sitzungswert dient deiner Übersicht. Es wird keine Rechnung
+              oder Zahlung ausgelöst.
+            </small>
+          </section>
         )}
         <div className="full">
           <ErrorBox error={error} />

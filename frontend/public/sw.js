@@ -1,5 +1,5 @@
 /* Public app shell only. API responses and client records never enter Cache Storage. */
-const CACHE = "sense-stars-public-v1";
+const CACHE = "sense-stars-public-v1.3.0";
 const PUBLIC_FILES = [
   "/",
   "/index.html",

@@ -1,0 +1,645 @@
+{
+  "id": "mondknoten-asteroiden",
+  "title": "Mondknoten und Asteroiden",
+  "summary": "Acht vertiefende Lektionen über Knotenachsen, Entwicklungsfragen und eine begrenzte, nachvollziehbare Arbeit mit mythologischen Symbolen.",
+  "tradition": "Moderne westliche und evolutionäre Symboldeutung; astronomische Knotenbegriffe getrennt von spirituellen Annahmen",
+  "level": "deepening",
+  "prerequisites": [
+    "Zeichen, Häuser und Winkel verstehen hilft; alle Lektionen bleiben frei zugänglich."
+  ],
+  "lessons": [
+    {
+      "key": "academy-mondknoten-asteroiden-01",
+      "title": "Mondknoten: Schnittpunkte statt Himmelskörper",
+      "summary": "Berechne die Gegenposition und unterscheide Bahngeometrie von Deutung.",
+      "objective": "Du erklärst die Knotenachse, rechnest Gegenpositionen aus und dokumentierst die gewählte Knotenart.",
+      "level": "deepening",
+      "minutes": 30,
+      "body": "## Zwei Ebenen schneiden sich\nStelle dir die Erdbahnebene um die Sonne als großes Blatt Papier vor. Die Bahnebene des Mondes liegt dazu schräg. Die Schnittlinie beider Ebenen hat zwei entgegengesetzte Richtungen. Dort liegen die aufsteigende und die absteigende Knotenrichtung. Beim aufsteigenden Knoten wechselt der Mond von südlicher zu nördlicher ekliptikaler Breite, beim absteigenden umgekehrt. Die Begriffe beschreiben eine Bewegung relativ zur Ekliptik; sie meinen weder den geografischen Nordpol noch moralisches Aufsteigen. Ein Mondknoten ist kein weiterer kleiner Planet, der etwas aussendet.\n\n## Die Gegenposition ausrechnen\nIn einem Horoskop werden Knoten als Längen auf dem Tierkreis eingetragen. Der Gegenknoten liegt um 180 Grad versetzt. Beginne bei null Grad Widder, zähle für jedes weitere Zeichen dreißig Grad und addiere die Gradposition im Zeichen. Ein vorgegebener Nordknoten bei 14 Grad Zwillinge entspricht 74 Grad Gesamtlänge. Dazu kommen 180 Grad: 254 Grad, also 14 Grad Schütze. Überschreitet die Summe 360 Grad, ziehst du 360 ab. Die gleiche Gradzahl in gegenüberliegenden Zeichen erleichtert die Kontrolle.\n\n## Warum zwei Programme abweichen können\nEphemeriden unterscheiden unter anderem einen mittleren und einen wahren Mondknoten. Der mittlere Knoten glättet die Bewegung; der wahre berücksichtigt Schwankungen der momentanen Bahn. Deshalb können ihre Positionen voneinander abweichen. „Wahr“ ist hier eine technische Bezeichnung und kein Beweis für die spirituelle Wahrheit einer Deutung. Vergleiche zwei Ausgaben erst, nachdem du Knotenart, Datum, Zeit und Tierkreis geprüft hast. Besonders nahe einer Zeichengrenze kann die gewählte Berechnung die Zuordnung verändern. Notiere die Variante, statt die angenehmere Deutung auszuwählen.\n\n## Verbindung zu Finsternissen\nDie Neigung der Mondbahn erklärt, warum nicht jeder Neu- und Vollmond eine Finsternis erzeugt. Dafür muss die Ausrichtung von Sonne, Erde und Mond auch räumlich passen, was in Knotennähe möglich wird. Eine bloße Knotenposition im Radix ist jedoch kein vollständiger Finsterniskalender. Und eine astronomisch berechnete Finsternis sagt allein nichts über eine bevorstehende Trennung, Krankheit oder seelische Aufgabe eines Menschen aus. Diese zusätzliche Behauptung würde eine andere Art von Begründung benötigen als die Bahnrechnung.\n\n## Eine saubere Lernnotiz\nTrenne deshalb drei Zeilen: Was wurde berechnet? Welche symbolische Bedeutung möchte ich ausprobieren? Was berichtet die Person tatsächlich? Für die erste Zeile reichen Knotenart, Koordinatensystem und Positionen. In der zweiten kann eine Frage nach vertrauten und neuen Verhaltensweisen stehen. Die dritte bleibt bis zum Gespräch leer. Dieser Aufbau verhindert, dass eine korrekte Gegenposition unbemerkt zur angeblich bewiesenen Lebensgeschichte wird. Du kannst dieselbe astronomische Grundlage verwenden, ohne eine karmische Weltanschauung anzunehmen.\n\n## Kontrolle vor der Interpretation\nZeichne abschließend beide Punkte in einen leeren Kreis. Verbinde sie mit einer geraden Linie durch die Mitte. Prüfe Zeichenabstand und Gradzahl noch einmal unabhängig von deiner Rechnung. Wenn die Achse nicht genau gegenüberliegt, suche zuerst den Rechen- oder Übertragungsfehler. Erst danach ergänzt du eine mögliche Reflexionsfrage. So lernst du, technische Genauigkeit und offene Symbolarbeit zusammenzubringen, ohne die Aussagekraft der einen Ebene auf die andere zu übertragen.",
+      "examples": [
+        {
+          "title": "Ein Wert über 360 Grad",
+          "body": "Samirs fiktives Arbeitsblatt nennt den Nordknoten bei 22 Grad Steinbock. Marina rechnet neun Zeichenabschnitte mal dreißig plus zweiundzwanzig: 292 Grad. Die Gegenposition ergibt 472 Grad; nach Abzug von 360 bleiben 112 Grad, also 22 Grad Krebs. Diese Rechnung sagt nichts darüber aus, wie Samir seine Familie erlebt. Erst eine zusätzliche, freiwillige Gesprächsfrage könnte das Thema Zugehörigkeit aufnehmen. Die Platzierung ist ein Übungswert und kein berechnetes Geburtshoroskop."
+        },
+        {
+          "title": "Verschiedene Knotenarten vergleichen",
+          "body": "Lea vergleicht zwei fiktive Ausdrucke mit einer Knotenposition nahe einer Zeichengrenze. Einer verwendet den mittleren, der andere den wahren Knoten. Marina kennzeichnet beide Einstellungen und verzichtet darauf, aus der Abweichung zwei widersprüchliche Schicksale zu machen. Für das Lernblatt entscheidet sie sich vorab für eine Variante und behält sie im ganzen Vergleich bei. Sie kann anschließend erklären, warum eine unterschiedliche Konvention bereits die technische Grundlage verändert, bevor eine Interpretation beginnt."
+        }
+      ],
+      "practice": {
+        "prompt": "Gegeben ist ein mittlerer Nordknoten bei 7 Grad Wassermann. Berechne den Gegenknoten und schreibe eine technische Notiz plus eine davon getrennte Reflexionsfrage.",
+        "model_answer": "Wassermann beginnt bei 300 Grad Gesamtlänge. Der gegebene Nordknoten liegt deshalb bei 307 Grad. Ich addiere 180 und erhalte 487 Grad; nach Abzug eines Vollkreises bleiben 127 Grad. Löwe beginnt bei 120 Grad, also steht der Südknoten in diesem Beispiel bei 7 Grad Löwe. Ich prüfe, dass beide Zeichen einander gegenüberliegen und dieselbe Gradzahl tragen. In die technische Notiz schreibe ich „mittlerer Mondknoten, vorgegebener didaktischer Wert“. Ein Datum wurde nicht geliefert; ich behaupte daher keine reale Berechnung für einen Menschen. Als getrennte Reflexionsfrage könnte ich anbieten: „Wie erlebst du den Wechsel zwischen eigenem Ausdruck und Zusammenarbeit in einer Gruppe?“ Die Antwort würde ich als Selbstauskunft festhalten. Weder das Thema noch eine bestimmte Antwort folgen zwingend aus dem geometrischen Schnittpunkt. Beim späteren Programmvergleich würde ich zuerst die verwendete Knotenart und den Tierkreis kontrollieren.",
+        "rubric": [
+          "Gesamtlänge und Rückführung auf 0–360 Grad stimmen.",
+          "Der Gegenknoten lautet 7 Grad Löwe.",
+          "Knotenart und Herkunft des Wertes sind dokumentiert.",
+          "Die Reflexionsfrage wird nicht als astronomischer Befund ausgegeben."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was ist ein Mondknoten?",
+          "options": [
+            "Ein unsichtbarer kleiner Planet",
+            "Eine Schnittpunkt-Richtung zweier Bahnebenen",
+            "Der nördlichste Punkt der Erde"
+          ],
+          "correct_index": 1,
+          "explanation": "Die Knoten beziehen sich auf die Schnittlinie von Mondbahn und Ekliptikebene."
+        },
+        {
+          "id": "q2",
+          "question": "Nordknoten 18 Grad Stier: Wo liegt der Gegenknoten?",
+          "options": [
+            "18 Grad Skorpion",
+            "18 Grad Waage",
+            "12 Grad Skorpion"
+          ],
+          "correct_index": 0,
+          "explanation": "Gegenzeichen haben bei dieser Achse dieselbe Gradzahl; Stier und Skorpion liegen 180 Grad auseinander."
+        },
+        {
+          "id": "q3",
+          "question": "Weshalb können zwei Knotenangaben verschieden sein?",
+          "options": [
+            "Eine muss spirituell falsch sein",
+            "Der Gegenknoten hat keinen festen Abstand",
+            "Es wurden mittlerer und wahrer Knoten verwendet"
+          ],
+          "correct_index": 2,
+          "explanation": "Unterschiedliche Berechnungskonventionen müssen vor einer Deutung geprüft werden."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/moon/eclipses/",
+          "title": "Eclipses and the Moon",
+          "author": "NASA Science",
+          "note": "Astronomischer Hintergrund zu Bahneigung und Finsternissen; keine Quelle für karmische Deutungen.",
+          "checked_at": "2026-10-20"
+        },
+        {
+          "url": "https://www.astro.com/swisseph/swephprg.htm",
+          "title": "Swiss Ephemeris: Programming Interface",
+          "author": "Astrodienst",
+          "note": "Technische Referenz zu mittleren und wahren Mondknoten. Eigene Rechenbeispiele mit vorgegebenen Übungswerten.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-mondknoten-asteroiden-02",
+      "title": "Die Achse als Entwicklungsfrage lesen",
+      "summary": "Vertraute Fähigkeiten bleiben Ressourcen; ein neuer Lernschritt wird selbst gewählt.",
+      "objective": "Du entwickelst eine nicht fatalistische Knoteninterpretation mit überprüfbarem Alltagsexperiment.",
+      "level": "deepening",
+      "minutes": 30,
+      "body": "## Ein Angebot, kein Lebensauftrag\nJan Spillers veröffentlichte Buchbeschreibung stellt den Nordknoten in einen spirituellen Zusammenhang mit Lebensrichtung und ungenutzten Möglichkeiten. Das ist eine erkennbare Perspektive innerhalb moderner Astrologie. Sie ist weder die einzig mögliche Knotendeutung noch eine nachgewiesene Kenntnis vergangener Leben. Für diesen Kurs entwickeln wir daraus keine Buchzusammenfassung, sondern ein eigenes Arbeitsmodell: Die Achse darf eine Frage danach anregen, was vertraut ist und was jemand freiwillig erproben möchte. Die Person bestimmt, ob diese Frage für sie sinnvoll ist.\n\n## Vertraut bedeutet nicht schlecht\nEin häufiger Fehler besteht darin, alles am Südknoten abzuwerten. Dann klingt das eigene Können wie ein Hindernis, das beseitigt werden müsse. Arbeite stattdessen mit drei Feldern: vorhandene Stärke, mögliche Übernutzung und ergänzende Fähigkeit. Wer zuverlässig Verantwortung übernimmt, braucht diese Fähigkeit nicht aufzugeben. Vielleicht möchte die Person lernen, Zuständigkeiten zu teilen. Ebenso kann spontanes Handeln hilfreich sein, während in einer bestimmten Situation mehr Abstimmung benötigt wird. Eine Ressource und ihre Übernutzung sind verschiedene Dinge.\n\n## Einen Lernschritt passend verkleinern\nDie Aufforderung „Lebe deinen Nordknoten“ ist kaum überprüfbar. Ein brauchbares Experiment benennt Verhalten, Anlass und Zeitraum. Beispielsweise könnte Lea in der nächsten Teamsitzung eine eigene Idee vorstellen, bevor sie fremde Vorschläge kommentiert. Anschließend prüft sie, ob der Versuch ihr geholfen hat. Das ist ein konkreter Lernschritt, unabhängig davon, ob sie eine Seelenmetapher verwendet. Große Lebensentscheidungen wie Kündigungen oder Trennungen werden nicht aus einem solchen Symbol abgeleitet. Die Übung soll Wahlmöglichkeiten vermehren, nicht neue Pflichten erzeugen.\n\n## Beide Richtungen ausprobieren\nLass die Person zunächst Beispiele nennen, ohne die gewünschte Richtung zu verraten. Welche Fähigkeit nutzt sie oft? Wo wünscht sie mehr Spielraum? Danach kannst du zwei gegensätzliche Experimente anbieten. Bei einer Achse zwischen Eigenständigkeit und Abstimmung könnte das einmal eine klare eigene Entscheidung und einmal eine bewusst eingeholte Rückmeldung sein. Vielleicht braucht sie je nach Lebensbereich beides. Eine gute Auswertung darf ergeben, dass deine erste Zuordnung nicht passt. Das macht die Übung genauer und verhindert einseitige Selbstoptimierung.\n\n## Sprache und Zustimmung\nFrage ausdrücklich, welche Wörter willkommen sind. „Seelenweg“ kann für einen Menschen stimmig und für einen anderen fremd sein. „Lernrichtung“ oder „neuer Handlungsspielraum“ erlauben denselben praktischen Versuch ohne Glaubensannahme. Vermeide Aussagen über Schuld aus früheren Leben, angeblich karmisch notwendiges Leid oder eine Pflicht, schwierige Beziehungen auszuhalten. Solche Behauptungen würden die Selbstbestimmung einschränken. Zustimmung zur astrologischen Reflexion bedeutet nicht Zustimmung zu jeder spirituellen Erklärung.\n\n## Ein Ergebnis dokumentieren\nSchreibe am Ende vier kurze Sätze: Das kann ich bereits. Das tue ich manchmal zu oft. Das möchte ich testen. Daran erkenne ich, ob der Versuch nützlich war. Ergänze auch eine Abbruchbedingung, etwa zunehmenden Druck oder ein unpassendes Thema. Bei der nächsten Sitzung wird nicht geprüft, ob die Person ihrem Horoskop gehorcht hat. Es wird geprüft, ob der selbst gewählte Schritt alltagstauglich war. Eine nicht hilfreiche Übung darf enden, während die vorhandenen Fähigkeiten weiterhin gewürdigt werden.",
+      "examples": [
+        {
+          "title": "Leas freiwilliger Schritt",
+          "body": "Lea sagt im fiktiven Fall, dass sie in Besprechungen gut vermittelt, eigene Ideen aber oft zurückstellt. Marina bietet als symbolische Achsenfrage Eigenständigkeit und Kooperation an. Lea wählt selbst, einmal einen Vorschlag vor der Diskussion auszusprechen. Ihre Vermittlungsfähigkeit bleibt ausdrücklich wertvoll. Nach einer Woche beurteilt sie nicht ihren spirituellen Fortschritt, sondern ob sie sich verständlicher eingebracht hat und wie das Team reagierte. Die Übung ist ein eigenes didaktisches Beispiel, keine Aussage aus Spillers Buch."
+        },
+        {
+          "title": "Samir widerspricht der Richtung",
+          "body": "Samir hört die Vermutung, er müsse unabhängiger werden, und erklärt, dass er Entscheidungen bereits allein trifft. Sein Anliegen sei, Unterstützung anzunehmen. Marina nimmt diese Rückmeldung ernst und dreht die praktische Frage um: Wen könnte er zu einer konkreten Sache um Rat bitten? Sie behauptet nicht, der Widerspruch beweise eine unbewusste Blockade. Samirs berichtetes Anliegen bestimmt die Übung. Die symbolische Achse dient als Gesprächsanlass und verliert ihren Nutzen, wenn sie seine Erfahrung verdrängt."
+        }
+      ],
+      "practice": {
+        "prompt": "Entwirf für Lea ein siebentägiges Lernexperiment zu Eigenständigkeit und Kooperation. Benenne Ressource, Übernutzung, Schritt, Erfolgskriterium und eine erlaubte alternative Richtung.",
+        "model_answer": "Leas Ressource ist ihre Fähigkeit, andere Standpunkte zu verstehen und Gespräche zu vermitteln. Als mögliche Übernutzung nennt sie selbst, dass ihre eigenen Ideen dabei unsichtbar bleiben. Ich formuliere keinen Charakterfehler. Ihr Experiment lautet: In einer vorher ausgewählten Besprechung stellt sie eine eigene Idee in zwei Sätzen vor und bittet danach um Rückmeldungen. Als Erfolg zählt zunächst, dass sie die Idee ausgesprochen hat; Zustimmung des Teams ist keine Voraussetzung. Anschließend notiert sie, wie es ihr dabei ging und ob sie den Versuch wiederholen möchte. Falls sie feststellt, dass sie ohnehin sehr viel Raum einnimmt, wäre die alternative Richtung, gezielt eine stille Kollegin einzubeziehen. Beide Möglichkeiten erhalten ihre Entscheidungsfreiheit. Nach sieben Tagen kann Lea die Übung verändern oder beenden. Ich würde das Ergebnis nicht als Nachweis eines Seelenplans darstellen, sondern als persönliche Auswertung eines freiwilligen Kommunikationsversuchs.",
+        "rubric": [
+          "Eine vorhandene Stärke bleibt erhalten.",
+          "Das Experiment enthält Anlass und konkretes Verhalten.",
+          "Erfolg hängt nicht von Zustimmung anderer ab.",
+          "Eine alternative Richtung und ein Abbruch sind möglich."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welche Aussage beschreibt den Südknoten in diesem Arbeitsmodell am besten?",
+          "options": [
+            "Alles dort muss überwunden werden",
+            "Er zeigt zwingend frühere Schuld",
+            "Er kann als Bild für Vertrautes dienen, einschließlich Ressourcen"
+          ],
+          "correct_index": 2,
+          "explanation": "Das Modell untersucht Vertrautheit und mögliche Übernutzung, ohne vorhandenes Können abzuwerten."
+        },
+        {
+          "id": "q2",
+          "question": "Welche Aufgabe ist überprüfbar?",
+          "options": [
+            "Lebe endlich deine Bestimmung",
+            "Stelle in der nächsten Besprechung eine eigene Idee vor",
+            "Erreiche vollständige spirituelle Entwicklung"
+          ],
+          "correct_index": 1,
+          "explanation": "Ein bestimmtes Verhalten in einer benannten Situation lässt sich anschließend auswerten."
+        },
+        {
+          "id": "q3",
+          "question": "Was belegt die verwendete Verlagsseite?",
+          "options": [
+            "Spillers thematische Ausrichtung auf den Nordknoten",
+            "Die wissenschaftliche Wirksamkeit jeder Deutung",
+            "Dass ihre vollständigen Übungen frei übernommen werden dürfen"
+          ],
+          "correct_index": 0,
+          "explanation": "Die Quelle beschreibt das Buch und seine Perspektive; sie ersetzt weder Wirksamkeitsnachweis noch Nutzungsrechte."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.penguinrandomhouse.com/books/171161/astrology-for-the-soul-by-jan-spiller/",
+          "title": "Astrology for the Soul – Verlagsbeschreibung",
+          "author": "Jan Spiller / Penguin Random House",
+          "note": "Die Verlagsbeschreibung belegt Spillers spirituelle Ausrichtung auf den Nordknoten; kein Zugriff auf das vollständige Buch. Übungen und Deutungsvarianten hier sind eigene Entwürfe.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-mondknoten-asteroiden-03",
+      "title": "Zeichen und Häuser der Knoten getrennt kombinieren",
+      "summary": "Unterscheide Ausdrucksweise und Lebensbereich, bevor du einen Übungsauftrag formulierst.",
+      "objective": "Du verbindest eine vorgegebene Knotenachse mit Zeichen- und Hausfragen, ohne beides gleichzusetzen.",
+      "level": "deepening",
+      "minutes": 30,
+      "body": "## Zwei unterschiedliche Fragen\nEin Zeichen beschreibt in astrologischer Symbolsprache eine mögliche Art des Ausdrucks. Ein Haus ordnet einen Lebensbereich zu. Diese Ebenen können zusammenwirken, sind aber nicht identisch. Widder ist nicht automatisch das erste Haus, und Waage ist nicht automatisch das siebte. Wenn du Knoten deutest, schreibst du deshalb zunächst getrennt auf: Welche Ausdrucksfrage bietet das Zeichen an? In welchem Bereich könnte das Haus eine Gesprächsfrage anregen? Erst danach entsteht ein kombinierter Satz. So vermeidest du die verbreitete Abkürzung, jedes Zeichen wie sein nummerngleiches Haus zu behandeln.\n\n## Ein didaktisches Achsenbild\nNehmen wir ausdrücklich vorgegebene Übungspositionen: Nordknoten im Widder im dritten Haus, Südknoten in der Waage im neunten Haus. Für Widder und Waage könnte die Ausdrucksfrage zwischen eigener Initiative und Abstimmung liegen. Die Hausachse könnte den Austausch über konkrete Beobachtungen und größere Weltanschauungen betreffen. Eine mögliche Kombination wäre, eine eigene Beobachtung auszusprechen, statt zunächst die perfekte gemeinsame Theorie zu suchen. Eine andere wäre, das eigene Weltbild durch echte Gespräche zu erweitern. Keine der beiden Formulierungen ist eine feststehende Biografie.\n\n## Nicht aus einem Symbol alles ableiten\nEine Knotenachse allein beschreibt nicht die ganze Radix. Achte auf das Anliegen und auf andere bereits verstandene Faktoren, etwa Merkur bei einem Kommunikationsthema. Ergänzungen sollen die Frage präzisieren, nicht so viele Deutungen liefern, bis irgendetwas passt. Entscheide vorab, welche zwei oder drei Faktoren du überhaupt einbeziehst. Wenn die Geburtszeit unsicher ist, können Häuserzuordnungen unzuverlässig sein. Dann bleibt gegebenenfalls nur die Zeichenebene für die symbolische Übung, ausdrücklich mit dieser Begrenzung.\n\n## Von der Kombination zur Nachfrage\nEine kombinierte Frage sollte weder die Antwort vorwegnehmen noch eine Eigenschaft unterstellen. Statt „Du versteckst dich hinter fremden Wahrheiten“ wäre möglich: „Wann hilft dir eine allgemeine Überzeugung, und wann möchtest du eine konkrete Erfahrung genauer betrachten?“ Anschließend fragst du nach einer Situation. Die Person kann erzählen, dass sie beides schon gut verbindet. Dann brauchst du keinen Mangel zu erfinden. Eine gelungene vorhandene Balance kann genauso Gegenstand des Lernens sein wie eine gewünschte Veränderung.\n\n## Ein Blatt mit vier Kästen\nZeichne vier Kästen: Nordzeichen, Nordhaus, Südzeichen, Südhaus. Trage in jeden zunächst nur zwei neutrale Stichwörter ein. Verbinde erst dann jeweils Zeichen und Haus. Schreibe unter die beiden Kombinationen eine mögliche Ressource und eine mögliche Schwierigkeit. Das zwingt dich, beide Enden der Achse differenziert zu behandeln. Vermeide Listen mit zwölf fertigen Schicksalsurteilen. Ein überschaubares Arbeitsblatt lässt viel deutlicher erkennen, welcher Gedankenschritt von welcher symbolischen Annahme stammt.\n\n## Die Auswertung bleibt bei der Person\nBitte zum Abschluss um eine eigene Formulierung: Welche der Fragen war brauchbar, welche wirkte unpassend? Die endgültige Lernnotiz sollte die Worte der Person enthalten, nicht bloß deine astrologischen Begriffe. Ein daraus abgeleiteter Schritt kann sehr klein sein, etwa eine Rückfrage im Gespräch oder ein kurzer eigener Text. Falls keine Frage hilft, wird die Achse für dieses Anliegen beiseitegelegt. Die Freiheit, ein Symbol nicht zu verwenden, gehört zur kompetenten Anwendung ebenso wie das Kombinieren mehrerer Ebenen.",
+      "examples": [
+        {
+          "title": "Eine Frage für Leas Workshop",
+          "body": "Lea bekommt für eine Übung die Knotenachse Widder im dritten und Waage im neunten Haus vorgegeben. Sie plant einen Workshop und möchte verständlicher sprechen. Marina fragt, ob Lea zuerst eine eigene Alltagsszene erzählen und danach das übergeordnete Konzept erklären möchte. Damit werden Initiative und konkreter Austausch kombiniert. Lea entscheidet selbst, ob diese Reihenfolge passt. Der Vorschlag beschreibt eine Unterrichtsmethode und behauptet weder einen tatsächlich berechneten Knotenstand noch einen vorgeschriebenen beruflichen Weg."
+        },
+        {
+          "title": "Häuser ohne Zeit bleiben offen",
+          "body": "Samir kennt im fiktiven Fall seine Geburtszeit nicht. Eine Kollegin nennt dennoch eine genaue Knotenachse im zweiten und achten Haus. Marina fragt nach der Grundlage und erkennt, dass eine beliebige Hilfszeit eingesetzt wurde. Sie übernimmt diese Hausangaben nicht. Wenn Samir eine Symbolübung wünscht, kann sie mit den vorgegebenen Zeichenfragen arbeiten oder ganz beim aktuellen Anliegen bleiben. Die fehlende Uhrzeit wird sichtbar dokumentiert, statt durch eine überzeugende Erzählung verdeckt zu werden."
+        }
+      ],
+      "practice": {
+        "prompt": "Nutze die vorgegebene Achse Nordknoten Zwillinge im sechsten Haus und Südknoten Schütze im zwölften Haus. Trenne die vier Ebenen und entwickle zwei offene Fragen zum Arbeitsalltag.",
+        "model_answer": "Ich behandle die Positionen als vorgegebene Übung, nicht als reale Berechnung. Für Zwillinge notiere ich Austausch und verschiedene Beobachtungen; zum sechsten Haus Aufgaben und alltägliche Abläufe. Für Schütze wähle ich Orientierung und größere Zusammenhänge; zum zwölften Haus Rückzug und schwer sichtbare Hintergründe. Eine mögliche erste Frage lautet: „Welche konkrete Rückmeldung würde dir helfen, einen alltäglichen Arbeitsablauf besser zu verstehen?“ Eine zweite lautet: „Wann gibt dir Rückzug Orientierung, und wann fehlt dir anschließend der Austausch über praktische Einzelheiten?“ Ich würde weder Rückzug noch eine große Vision grundsätzlich abwerten. Die Person könnte bereits eine passende Balance beschreiben. Als kleiner Versuch wäre denkbar, nach einer stillen Planungsphase eine Kollegin um eine konkrete Beobachtung zu bitten. Ob dieser Vorschlag nützt, wird im Alltag geprüft. Ohne verlässliche Geburtszeit würde ich die Häuser in einer echten Beratung nicht als gesicherte Positionen verwenden.",
+        "rubric": [
+          "Zeichen und Häuser werden als unterschiedliche Ebenen behandelt.",
+          "Vier symbolische Ausgangspunkte sind erkennbar.",
+          "Die Fragen erlauben eine unpassende Antwort.",
+          "Unklare Geburtszeit begrenzt die Häuseraussage."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was bezeichnet das Haus in dieser Kombination?",
+          "options": [
+            "Den Lebensbereich einer symbolischen Frage",
+            "Automatisch das gleich nummerierte Zeichen",
+            "Die wissenschaftliche Stärke einer Knotenwirkung"
+          ],
+          "correct_index": 0,
+          "explanation": "Haus und Zeichen beantworten verschiedene Fragen und werden nicht gleichgesetzt."
+        },
+        {
+          "id": "q2",
+          "question": "Welche Voraussetzung ist für verlässliche Häuser wichtig?",
+          "options": [
+            "Die Lieblingsfarbe",
+            "Die genaue Ausbildung",
+            "Eine ausreichend verlässliche Geburtszeit und ein Ort"
+          ],
+          "correct_index": 2,
+          "explanation": "Häuser und Achsen hängen wesentlich von Zeitpunkt und Ort ab."
+        },
+        {
+          "id": "q3",
+          "question": "Was folgt, wenn die Person beide Achsenthemen schon gut verbindet?",
+          "options": [
+            "Eine versteckte Blockade muss gesucht werden",
+            "Die vorhandene Balance darf als Ergebnis stehen bleiben",
+            "Die Knoten müssen neu berechnet werden"
+          ],
+          "correct_index": 1,
+          "explanation": "Nicht jede Symbolübung muss einen Mangel hervorbringen."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.penguinrandomhouse.com/books/171161/astrology-for-the-soul-by-jan-spiller/",
+          "title": "Astrology for the Soul – Verlagsbeschreibung",
+          "author": "Jan Spiller / Penguin Random House",
+          "note": "Die Verlagsbeschreibung belegt Spillers spirituelle Ausrichtung auf den Nordknoten; kein Zugriff auf das vollständige Buch. Übungen und Deutungsvarianten hier sind eigene Entwürfe.",
+          "checked_at": "2026-10-20"
+        },
+        {
+          "url": "https://www.astro.com/swisseph/swephprg.htm",
+          "title": "Swiss Ephemeris: Programming Interface",
+          "author": "Astrodienst",
+          "note": "Technische Referenz zu mittleren und wahren Mondknoten. Eigene Rechenbeispiele mit vorgegebenen Übungswerten.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-mondknoten-asteroiden-04",
+      "title": "Knotenzyklen als begrenztes Reflexionsfenster",
+      "summary": "Lerne Wiederkehr, Opposition und eine vorab festgelegte Beobachtung auseinanderzuhalten.",
+      "objective": "Du unterscheidest astronomische Wiederkehr und persönliche Bedeutung und führst ein nicht rückwirkend passend gemachtes Protokoll.",
+      "level": "deepening",
+      "minutes": 30,
+      "body": "## Wiederkehr ist zunächst Geometrie\nWenn eine laufende Knotenposition wieder nahe der entsprechenden Geburtsposition liegt, spricht astrologische Sprache von einer Knotenwiederkehr. Liegt der laufende Nordknoten nahe dem Geburts-Südknoten, ist es eine Opposition zur ursprünglichen Nordposition. Solche Bezeichnungen beschreiben Winkelbeziehungen. Sie sagen zunächst nicht, was jemand erleben wird. Auch ein regelmäßig wiederkehrendes Muster am Himmel beweist keinen regelmäßig gleichartigen Lebensabschnitt. Die Biografie einer Person wird durch viele Bedingungen geprägt, die in einem Winkel nicht enthalten sind.\n\n## Eine genaue Frage vorab wählen\nFür eine brauchbare Lernbeobachtung formulierst du vor dem Zeitraum eine eng begrenzte Frage. „Welche neuen Lernwege probiere ich aus?“ ist konkreter als „Was wird schicksalhaft?“ Lege Beginn, Ende und die Art der Notiz fest. Zum Beispiel werden über vier Wochen einmal pro Woche selbst gewählte Lernschritte protokolliert. Schreibe auch auf, was als Nicht-Treffer gelten würde. Wenn kein neuer Lernweg entsteht, bleibt genau das im Protokoll stehen. Nachträgliche Umdeutungen würden die Beobachtung unbrauchbar machen.\n\n## Technik zuerst kontrollieren\nVerwende für Radix und laufende Position dieselbe Knotenart und denselben Tierkreis. Notiere, ob du exakte Winkel oder einen vorab gewählten Abstand um die Exaktheit betrachtest. Ein solcher Abstand heißt Orbis und ist eine Interpretationskonvention, kein Messfehler der Ephemeride. Wenn du ihn nachträglich vergrößerst, bis ein Ereignis hineinpasst, veränderst du die Regel während der Auswertung. Für diese Lektion reichen vorgegebene Positionen; sie ist keine Funktion zur Berechnung eines persönlichen Zukunftskalenders.\n\n## Beobachtung und Bedeutung trennen\nIn einer Kalendernotiz stehen zunächst Ereignis und Datum: eine Kursanmeldung, ein Gespräch oder auch eine unveränderte Woche. Erst daneben schreibst du die persönliche Bedeutung. Vielleicht fühlte sich eine kleine Entscheidung bedeutsam an, obwohl nichts Spektakuläres geschah. Diese Bedeutung darf subjektiv wichtig sein. Sie wird dadurch aber nicht zum Beleg, dass ein Knoten sie verursacht hat. Vergleiche außerdem ähnliche Wochen außerhalb des gewählten Fensters, damit du normale Veränderungen nicht allein wegen des astrologischen Etiketts heraushebst.\n\n## Keine Frist für Lebensentscheidungen\nEine Wiederkehr ist kein Ultimatum, bis zu dem ein Mensch seinen Seelenplan erfüllen muss. Wenn ein Klient unter Zeitdruck gerät, nimm die Frist aus der Deutung. Ein sinnvoller Schritt kann auch später erfolgen. Prüfe praktische Bedingungen wie verfügbare Zeit, finanzielle Verpflichtungen und Unterstützung getrennt vom Symbol. Ein ruhiger Reflexionskalender soll Entscheidungen verständlicher machen. Er soll keine Angst erzeugen, eine einmalige kosmische Gelegenheit unwiederbringlich zu verpassen.\n\n## Das Protokoll auswerten\nMarkiere am Ende bestätigte Beobachtungen, unklare Fälle und Gegenbeispiele in unterschiedlichen Spalten. Lies zuerst die vorher formulierte Frage, erst dann deine Notizen. Überlege, ob die Beobachtung ohne astrologisches Wissen genauso aufgefallen wäre. Halte fest, was du gelernt hast und welche Behauptung du gerade nicht begründen kannst. Dieses Vorgehen stärkt sorgfältiges Denken. Es lässt spirituelle Sinngebung zu, ohne aus wenigen Erinnerungen eine überprüfte Vorhersagemethode zu machen oder ungeprüfte Regeln an Klienten weiterzugeben.\n\nEin zusätzliches Kontrollfeld fragt nach Erwartungen vor dem Zeitraum. Wer eine Wende erwartet, beobachtet vielleicht aufmerksamer und handelt selbst anders. Notiere deshalb auch eigene Initiativen. So bleibt sichtbar, ob eine Veränderung nach einer bewusst getroffenen Entscheidung entstand, statt allein dem ausgewählten Himmelsfenster zugeschrieben zu werden.",
+      "examples": [
+        {
+          "title": "Ein enges Beobachtungsfenster",
+          "body": "Für Leas fiktives Lerntagebuch wird ein Zeitraum mit vorgegebenen Knotenpositionen ausgewählt. Sie notiert vorab, dass sie neue Lernaktivitäten zählen will: Anmeldung, tatsächliche Teilnahme oder selbst erarbeitete Übung. Am Ende gibt es eine Anmeldung und drei unveränderte Wochen. Marina hält genau diese Verteilung fest. Sie erklärt nicht nachträglich jede Unterhaltung zu einer schicksalhaften Ausbildung. Die Beobachtung zeigt, was Lea getan hat, und lässt die Frage nach einer astrologischen Ursache offen."
+        },
+        {
+          "title": "Eine unveränderte Woche zählt mit",
+          "body": "Samir erwartet während einer symbolisch betrachteten Opposition eine große Beziehungsentscheidung. Tatsächlich verbringt er eine gewöhnliche Woche mit Arbeit und Freunden. Marina streicht die Woche nicht aus der Auswertung und erfindet kein verborgenes Ereignis. Stattdessen prüft sie, ob die Erwartung unnötigen Druck erzeugt hat. Samir entscheidet, künftig kleinere Alltagsthemen zu notieren. Das Protokoll bleibt vollständig und zeigt auch, dass eine eindrucksvolle Deutung nicht automatisch zu einem passenden Erlebnis führt."
+        }
+      ],
+      "practice": {
+        "prompt": "Erstelle ein vierwöchiges Beobachtungsblatt zu einem vorgegebenen Knotenzeitraum. Definiere eine Frage, die Zählregel, Nicht-Treffer und eine Vergleichswoche.",
+        "model_answer": "Meine Frage lautet: „Wie oft beginne ich in diesem Zeitraum einen selbst gewählten Lernschritt?“ Als Lernschritt zählt eine konkrete Handlung von mindestens zehn Minuten, etwa ein geplanter Übungsbogen oder die Teilnahme an einem vereinbarten Gespräch. Ein bloßer Gedanke zählt nicht. Ich lege vier aufeinanderfolgende Wochen vorab fest und notiere pro Woche Datum, Tätigkeit und eigene Bewertung des Nutzens. Eine Woche ohne Handlung wird ausdrücklich als null eingetragen. Zusätzlich protokolliere ich eine gleich lange Alltagswoche außerhalb des ausgewählten Zeitraums nach derselben Regel. Bei der Auswertung vergleiche ich die Notizen und berücksichtige Urlaub, Krankheit oder besondere Arbeitsbelastung als mögliche andere Erklärungen. Ich würde aus einer höheren Zahl keinen Ursachennachweis ableiten. Die Knotenangaben bleiben vorgegebene Übungsdaten mit dokumentierter Knotenart. Entscheidend ist, dass ich meine Regeln nach dem Ergebnis nicht verändere und auch fehlende Übereinstimmungen aufbewahre.",
+        "rubric": [
+          "Frage und Zählregel stehen vor der Beobachtung fest.",
+          "Nullwerte und Gegenbeispiele werden behalten.",
+          "Vergleich und mögliche andere Erklärungen sind vorgesehen.",
+          "Aus persönlicher Bedeutung wird keine Ursache abgeleitet."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was ist eine Knotenwiederkehr zunächst?",
+          "options": [
+            "Eine garantierte Lebenswende",
+            "Eine erneute Winkelübereinstimmung mit der Ausgangsposition",
+            "Ein Wechsel des geografischen Wohnorts"
+          ],
+          "correct_index": 1,
+          "explanation": "Die technische Bezeichnung beschreibt eine Position; persönliche Ereignisse sind eine zusätzliche Frage."
+        },
+        {
+          "id": "q2",
+          "question": "Wann wird der Beobachtungs-Orbis festgelegt?",
+          "options": [
+            "Erst wenn ein passendes Ereignis gefunden wurde",
+            "Er muss täglich erweitert werden",
+            "Vor der Auswertung"
+          ],
+          "correct_index": 2,
+          "explanation": "Eine vorab festgelegte Regel schützt vor nachträglichem Passendmachen."
+        },
+        {
+          "id": "q3",
+          "question": "Wie behandelst du eine Woche ohne passendes Ereignis?",
+          "options": [
+            "Als gültigen Nicht-Treffer im Protokoll",
+            "Als verdrängtes Ereignis",
+            "Du entfernst sie aus der Statistik"
+          ],
+          "correct_index": 0,
+          "explanation": "Auch Nicht-Treffer gehören zur vollständigen Beobachtung."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.astro.com/swisseph/swephprg.htm",
+          "title": "Swiss Ephemeris: Programming Interface",
+          "author": "Astrodienst",
+          "note": "Technische Referenz zu mittleren und wahren Mondknoten. Eigene Rechenbeispiele mit vorgegebenen Übungswerten.",
+          "checked_at": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/moon/eclipses/",
+          "title": "Eclipses and the Moon",
+          "author": "NASA Science",
+          "note": "Astronomischer Hintergrund zu Bahneigung und Finsternissen; keine Quelle für karmische Deutungen.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-mondknoten-asteroiden-05",
+      "title": "Asteroiden auswählen: Mythos ohne Suchtrick",
+      "summary": "Begrenze die Auswahl vor der Deutung und halte Mythologie, Position und Gespräch auseinander.",
+      "objective": "Du entwirfst ein nachvollziehbares Auswahlverfahren für wenige zusätzliche Symbole.",
+      "level": "deepening",
+      "minutes": 30,
+      "body": "## Warum Begrenzung hilfreich ist\nEin Horoskop kann um viele kleinere Himmelskörper ergänzt werden. Mehr Einträge bedeuten jedoch nicht automatisch mehr Erkenntnis. Je mehr Namen, Winkel und Geschichten du durchschaust, desto leichter findest du nachträglich etwas, das zu einem bekannten Ereignis passt. Eine verantwortliche Lernmethode beginnt deshalb mit einer kleinen Auswahl vor der Betrachtung des Falls. Für den Einstieg reichen wenige vorher festgelegte Symbole. Du solltest erklären können, warum du gerade diese verwendest und wann du sie wieder beiseitelegst.\n\n## Drei Herkunftsfragen\nPrüfe für jeden Eintrag drei Dinge: Ist die Position tatsächlich berechnet oder nur für eine Übung vorgegeben? Woher stammt die mythologische Geschichte? Welche zusätzliche Deutung füge ich selbst hinzu? Ein astronomischer Name überträgt nicht automatisch alle Eigenschaften einer mythologischen Figur auf einen Menschen. Demetra George vertritt einen mythologischen Zugang, in dem solche Geschichten Bedeutung anregen können. Wir lernen daran die bewusste Arbeit mit Bildern, übernehmen aber nicht die Annahme, jede Namensähnlichkeit müsse eine verborgene Wahrheit offenlegen.\n\n## Eine kleine Auswahlregel\nDu könntest vorab festlegen, nur Ceres, Pallas, Juno und Vesta zu betrachten und nur eine enge, vorher definierte Verbindung zu Sonne, Mond oder Aszendent zu untersuchen. Der konkrete Orbis ist eine gewählte Regel, kein Naturgesetz. Notiere ihn. Wenn kein passender Kontakt vorliegt, ist das Ergebnis „kein Kontakt nach dieser Regel“. Suche dann nicht unbegrenzt weitere Körper, bis eine eindrucksvolle Geschichte entsteht. Die Grunddeutung von Planeten, Häusern und Anliegen bleibt ohnehin wichtiger als eine lange Liste zusätzlicher Namen.\n\n## Mythen haben mehrere Lesarten\nEine mythologische Erzählung kann Fürsorge, Macht, Konflikt, Verlust oder Selbstbestimmung enthalten. Wähle nicht automatisch die dramatischste Szene. Frage stattdessen, welche Perspektive sich für das aktuelle Anliegen als Metapher eignet. Historische Geschichten spiegeln auch die Machtverhältnisse ihrer Zeit. Ihre Rollenbilder müssen nicht zu heutigen Menschen passen. Ein Symbol kann von Menschen jedes Geschlechts verwendet oder abgelehnt werden. Eine Deutung darf keine gesellschaftliche Rolle oder Familienpflicht aus einem Götternamen ableiten.\n\n## Eine Hypothese mit Ausstieg\nFormuliere zu einem gewählten Symbol zwei mögliche Fragen und eine Bedingung, unter der du es nicht weiterverwendest. Beispielsweise könnte eine Fürsorgefrage hilfreich sein, wenn die Person tatsächlich über Betreuung spricht. Wenn sie stattdessen eine technische berufliche Entscheidung bearbeiten möchte, ist vielleicht ein anderer Zugang sinnvoller. Das Symbol muss dem Anliegen dienen. Es ist kein Qualitätsmerkmal, jedes sichtbare Objekt im Radix irgendwie in die Sitzung einzubauen oder jede Rückmeldung passend umzudeuten.\n\n## Dein Quellenblatt\nEin gutes Blatt enthält Körpername, Nummer oder eindeutige Kennung, Positionsquelle, verwendete Auswahlregel, mythologischen Bezug und eigene Gesprächsfrage. Ergänze die Antwort der Person erst nach dem Gespräch. So entsteht eine überprüfbare Lernspur. Bei fehlender Ephemeride arbeitest du mit ausdrücklich didaktischen Angaben und behauptest keine App-Berechnung. Sense & Stars zeigt nicht automatisch jeden hier besprochenen Asteroiden an. Die Fähigkeit, eine interessante Deutung aus Datengründen zurückzustellen, gehört zu einer sorgfältigen Arbeitsweise und schützt vor scheinbarer Präzision.",
+      "examples": [
+        {
+          "title": "Lea legt die Auswahl vorher fest",
+          "body": "Lea möchte für ihre Lernübung vier benannte Asteroiden und Kontakte innerhalb von zwei Grad zu Sonne oder Mond betrachten. In dem vorgegebenen Datensatz erfüllt nur Ceres diese Regel. Marina bespricht deshalb höchstens diese Verbindung und sucht nicht anschließend nach einem Asteroiden mit dem Namen von Leas Beruf. Sie notiert auch die drei Nicht-Treffer. Die Begrenzung macht nachvollziehbar, wie die Auswahl entstand, und verhindert eine nachträgliche Sammlung besonders passend klingender Namen."
+        },
+        {
+          "title": "Ein Mythos wird nicht zur Rolle",
+          "body": "Samir hört, Juno müsse bei ihm zwingend eine Ehe bedeuten. Marina erläutert, dass sie Juno höchstens als gewähltes Bild für Absprachen und Verbindlichkeit verwenden würde. Samir möchte über eine Freundschaft sprechen, nicht über Heirat. Beide können daher eine Frage nach gegenseitigen Erwartungen prüfen. Falls er das Bild unpassend findet, entfällt es. Sein Geschlecht und sein Beziehungsstatus werden nicht aus einer mythologischen Figur oder einer vorgegebenen Himmelsposition abgeleitet."
+        }
+      ],
+      "practice": {
+        "prompt": "Formuliere eine Auswahlregel für höchstens vier Asteroiden. Zeige an einem erfundenen Datensatz einen Treffer, einen Nicht-Treffer und zwei mögliche Fragen zum Treffer.",
+        "model_answer": "Ich wähle vorab Ceres, Pallas, Juno und Vesta. Für diese Übung betrachte ich nur Konjunktionen innerhalb von zwei Grad zur vorgegebenen Sonne oder zum Mond. Der Datensatz ist erfunden und wird nicht als astronomische Berechnung ausgegeben. Ceres liegt ein Grad neben dem Mond und erfüllt die Regel. Juno liegt fünf Grad neben der Sonne und erfüllt sie nicht; ich erweitere den Orbis nicht nachträglich. Zum Ceres-Bild könnte ich fragen: „Welche Unterstützung empfindest du als hilfreich?“ Eine alternative Frage wäre: „Wann wird gut gemeinte Unterstützung für dich zu viel?“ Beide Fragen bleiben offen und erlauben unterschiedliche Antworten. Ich notiere die Rechenregel, den mythologischen Bezug und meine eigene Formulierung getrennt. Wenn die Person kein Fürsorgethema bearbeiten möchte, lasse ich das Symbol weg. Weitere Namen werden nicht allein deshalb gesucht, weil sie zufällig zur bekannten Geschichte passen.",
+        "rubric": [
+          "Auswahl und Orbis sind vorab begrenzt.",
+          "Treffer und Nicht-Treffer folgen derselben Regel.",
+          "Mythos, Positionsdaten und eigene Deutung bleiben unterscheidbar.",
+          "Das Symbol kann bei fehlendem Nutzen entfallen."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Warum die Auswahl vorab begrenzen?",
+          "options": [
+            "Damit Gegenbeispiele unsichtbar werden",
+            "Weil alle anderen Körper unwirklich sind",
+            "Damit nicht nachträglich beliebige passende Geschichten gesucht werden"
+          ],
+          "correct_index": 2,
+          "explanation": "Eine feste Auswahl macht den Weg zur Deutung nachvollziehbar."
+        },
+        {
+          "id": "q2",
+          "question": "Was folgt aus einem mythologischen Namen?",
+          "options": [
+            "Eine mögliche kulturelle Metapher, keine bewiesene Persönlichkeit",
+            "Eine verpflichtende soziale Rolle",
+            "Eine zuverlässige Ereignisprognose"
+          ],
+          "correct_index": 0,
+          "explanation": "Die Benennung und die Deutung sind unterschiedliche Ebenen."
+        },
+        {
+          "id": "q3",
+          "question": "Ein Kontakt verfehlt deinen vorab gewählten Orbis. Was notierst du?",
+          "options": [
+            "Einen verdeckten Treffer",
+            "Einen Nicht-Treffer nach dieser Regel",
+            "Eine falsche Geburtsgeschichte"
+          ],
+          "correct_index": 1,
+          "explanation": "Regeln dürfen nicht nach dem gewünschten Ergebnis verschoben werden."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://demetra-george.com/learn/mythology2/",
+          "title": "Mythology, Archetypes and Astrology",
+          "author": "Demetra George",
+          "note": "Belegt den mythologischen Zugang der Autorin. Konkrete Arbeitsblätter, Fragen und Fallgeschichten sind eigene didaktische Entwürfe; keine Übernahme ihres Kursmaterials.",
+          "checked_at": "2026-10-20"
+        },
+        {
+          "url": "https://demetra-george.com/pdf/Asteroids_Mythic_Astrology.pdf",
+          "title": "Asteroids and Mythic Astrology",
+          "author": "Demetra George",
+          "note": "Fachaufsatz zur Asteroidendeutung und ihren mythologischen Annahmen. Dient der Einordnung der Schule, nicht als Beweis psychologischer oder physikalischer Wirkungen.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-mondknoten-asteroiden-06",
+      "title": "Ceres: Fürsorge, Empfang und Grenzen",
+      "summary": "Entwickle aus einem mythologischen Bild konkrete Fragen zum Geben und Annehmen.",
+      "objective": "Du unterscheidest hilfreiche Fürsorge, ungefragtes Übernehmen und selbst gewählte Unterstützung.",
+      "level": "deepening",
+      "minutes": 30,
+      "body": "## Körper und Bild unterscheiden\nCeres ist astronomisch ein Zwergplanet im Asteroidengürtel. Diese Einordnung ist unabhängig davon, welche Symbolik Astrologinnen verwenden. In mythologischer Arbeit kann der Name Ceres Fragen nach Nahrung, Fürsorge, Wachstum und dem Umgang mit Veränderungen anregen. Hier nutzen wir das Bild als freiwillige Gesprächshilfe. Daraus folgt keine biologische Eigenschaft, keine Aussage über Fruchtbarkeit und kein Urteil über die Fähigkeit, Kinder zu versorgen. Eine astronomische Bezeichnung ist keine medizinische oder familiäre Diagnose.\n\n## Fürsorge hat eine empfangende Seite\nFrage nicht nur, wie jemand für andere sorgt. Untersuche auch, welche Unterstützung die Person tatsächlich annehmen möchte. Hilfreiche Fürsorge ist nicht immer die größte Menge an Hilfe. Manchmal braucht jemand praktische Entlastung, manchmal Zuhören, manchmal Zeit ohne Einmischung. Eine nützliche Frage lautet: „Woran würdest du merken, dass diese Unterstützung zu dir passt?“ So wird aus einem großen Symbol eine konkrete Beobachtung. Die Antwort kann von deiner Vorstellung und von früheren Gewohnheiten abweichen.\n\n## Angebot und Übernahme trennen\nEin Angebot lässt eine echte Wahl. Übernahme beginnt dort, wo du ohne Absprache entscheidest, was das Gegenüber braucht, und ein Nein nicht akzeptierst. Das gilt im Privatleben ebenso wie in einer Beratung. Marina kann zum Beispiel einen kurzen Vorbereitungsbogen anbieten, muss aber nicht ungefragt jede Woche nachfragen oder Aufgaben kontrollieren. Fürsorge wird belastend, wenn sie heimliche Erwartungen enthält: Dankbarkeit, Nähe oder ständige Erreichbarkeit. Schreibe solche Erwartungen als eigene Wünsche auf, statt sie dem anderen als Verpflichtung zuzuschieben.\n\n## Eine Landkarte der Unterstützung\nZeichne drei Kreise: Was kann ich selbst tun? Wobei möchte ich Unterstützung? Was gehört nicht in diese Beziehung? Für Leas Workshop könnte der erste Kreis die Vorbereitung enthalten, der zweite eine Rückmeldung zum Ablauf und der dritte eine verbindliche Entscheidung über ihre berufliche Zukunft. Diese Aufteilung macht deutlich, dass Unterstützung begrenzt sein darf. Sie verhindert, dass eine Beraterin allein für das Wohlbefinden einer anderen Person verantwortlich gemacht wird oder diese Verantwortung selbst übernimmt.\n\n## Veränderung ohne Verlusturteil\nWenn eine Person weniger Hilfe benötigt, kann das unterschiedliche Gefühle auslösen. Freude, Unsicherheit oder Traurigkeit dürfen nebeneinanderstehen. Ein Ceres-Bild kann dazu eine vorsichtige Frage anregen, aber es erklärt diese Gefühle nicht automatisch. Frage nach der konkreten Beziehung und nach dem gewünschten nächsten Schritt. Vermeide es, jede Ablösung als Trauma oder karmische Trennung zu benennen. Vielleicht verändert sich einfach eine Abmachung. Die Person kann neu festlegen, wie Nähe und Eigenständigkeit zusammenpassen.\n\n## Eine alltagstaugliche Vereinbarung\nSchließe mit einer kleinen, überprüfbaren Bitte ab: Wer bietet was an, wann und für wie lange? Eine Formulierung wie „Kannst du am Donnerstag zehn Minuten meinen Ablauf gegenlesen?“ ist klarer als „Du musst mich mehr unterstützen“. Vereinbare auch, dass ein Nein möglich bleibt. Nach dem Versuch wird geprüft, ob die Hilfe tatsächlich nützlich war. Das Lernziel besteht darin, Bedürfnisse und Grenzen verständlich auszudrücken. Die Deutung eines Ceres-Symbols ist nur ein möglicher Einstieg, nicht die Voraussetzung für diese Fähigkeit.",
+      "examples": [
+        {
+          "title": "Lea bittet konkret",
+          "body": "Lea bereitet einen fiktiven Workshop vor und wünscht sich Unterstützung. Zunächst sagt sie nur, niemand helfe ihr genug. Marina lädt sie ein, eine konkrete Bitte zu formulieren. Lea entscheidet sich für zehn Minuten Rückmeldung zu ihrer Einleitung durch eine Freundin. Die Freundin darf ablehnen oder einen anderen Zeitpunkt anbieten. Dadurch wird sichtbar, was Lea braucht, ohne dass die Freundin die gesamte Verantwortung für den Workshop übernehmen soll. Das Ceres-Bild dient lediglich als Anlass für diese Klärung."
+        },
+        {
+          "title": "Samir nimmt ein Nein ernst",
+          "body": "Samir möchte einem Freund bei dessen Umzug helfen. Der Freund wünscht sich jedoch Ruhe und hat bereits Unterstützung. Marina fragt im Übungsdialog, ob Samir die Absage als Information annehmen kann, ohne sie als Zurückweisung seiner Person zu behandeln. Samir bemerkt seinen eigenen Wunsch, gebraucht zu werden. Dieser Wunsch wird nicht aus Ceres diagnostiziert, sondern stammt aus seiner Selbstbeobachtung. Er entscheidet, seine Hilfe einmal anzubieten und anschließend die Wahl des Freundes zu respektieren."
+        }
+      ],
+      "practice": {
+        "prompt": "Erstelle für Leas Workshop eine Unterstützungslandkarte mit drei Kreisen und einer konkreten Bitte. Benenne eine Grenze und eine Auswertung.",
+        "model_answer": "In den ersten Kreis schreibe ich Aufgaben, die Lea selbst übernehmen möchte: Thema auswählen, Material ordnen und den Einstieg üben. In den zweiten kommen klar begrenzte Unterstützungswünsche, etwa zehn Minuten Rückmeldung zur Verständlichkeit. Der dritte enthält Dinge, die die Freundin nicht entscheiden soll, zum Beispiel ob Lea ihren Beruf wechseln muss. Die Bitte lautet: „Hast du Donnerstag zehn Minuten Zeit, meine Einleitung anzuhören und mir zu sagen, welche Stelle unklar ist?“ Ein Nein bleibt zulässig; Lea kann eine andere Person fragen oder den Versuch verschieben. Als Grenze vereinbart sie, dass aus der Rückmeldung keine dauerhafte Betreuung entsteht. Nach dem Gespräch notiert sie, welche konkrete Änderung ihr geholfen hat. Ich würde weder ihren Bedarf noch die Antwort der Freundin aus einer Ceres-Position erklären. Das Bild unterstützt die Reflexion über Fürsorge, während die tatsächliche Abmachung von beiden Menschen getroffen wird.",
+        "rubric": [
+          "Selbstverantwortung und gewünschte Unterstützung sind getrennt.",
+          "Die Bitte nennt eine konkrete Tätigkeit und einen Zeitraum.",
+          "Ein Nein und eine Grenze bleiben möglich.",
+          "Die Auswertung bezieht sich auf erlebten Nutzen."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was ist Ceres astronomisch?",
+          "options": [
+            "Ein Mondknoten",
+            "Ein Zwergplanet",
+            "Ein Fixstern"
+          ],
+          "correct_index": 1,
+          "explanation": "NASA beschreibt Ceres als Zwergplanet im Asteroidengürtel."
+        },
+        {
+          "id": "q2",
+          "question": "Woran erkennt man ein echtes Hilfsangebot?",
+          "options": [
+            "Ein Nein bleibt ohne Bestrafung möglich",
+            "Es muss unbedingt angenommen werden",
+            "Es ersetzt alle weiteren Absprachen"
+          ],
+          "correct_index": 0,
+          "explanation": "Ein Angebot wahrt die Wahl der empfangenden Person."
+        },
+        {
+          "id": "q3",
+          "question": "Welche Frage ist im Ceres-Arbeitsblatt sinnvoll?",
+          "options": [
+            "Welche Krankheit verursacht Ceres?",
+            "Welche Familienrolle ist dir vorgeschrieben?",
+            "Welche konkrete Unterstützung möchtest du annehmen?"
+          ],
+          "correct_index": 2,
+          "explanation": "Die Frage führt zu einer selbst bestimmten, beobachtbaren Vereinbarung."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://demetra-george.com/learn/mythology2/",
+          "title": "Mythology, Archetypes and Astrology",
+          "author": "Demetra George",
+          "note": "Belegt den mythologischen Zugang der Autorin. Konkrete Arbeitsblätter, Fragen und Fallgeschichten sind eigene didaktische Entwürfe; keine Übernahme ihres Kursmaterials.",
+          "checked_at": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/dwarf-planets/ceres/facts/",
+          "title": "Ceres Facts",
+          "author": "NASA Science",
+          "note": "Astronomische Einordnung und Namensbezug. Die Fürsorgelandkarte ist eine eigene Übung, keine NASA-Aussage über menschliches Verhalten.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-mondknoten-asteroiden-07",
+      "title": "Pallas und Juno: Strategie und Vereinbarung",
+      "summary": "Nutze zwei verschiedene Metaphern, um einen Plan von einer gegenseitigen Abmachung zu unterscheiden.",
+      "objective": "Du formulierst einen Lösungsplan und prüfst getrennt, ob alle Beteiligten den Absprachen zustimmen.",
+      "level": "deepening",
+      "minutes": 30,
+      "body": "## Zwei Bilder, zwei Arbeitsfragen\nIn moderner mythologischer Astrologie werden Pallas häufig mit Mustererkennen und Strategie, Juno mit Partnerschaft und Verbindlichkeit verbunden. Wir verwenden diese Zuordnungen als gewählte Metaphern. Sie sind keine Messung von Intelligenz, Treue oder Beziehungsfähigkeit. Der praktische Nutzen entsteht aus zwei unterschiedlichen Fragen: Wie lässt sich eine Aufgabe sinnvoll angehen? Und worauf haben sich die Beteiligten tatsächlich geeinigt? Ein kluger Plan ist noch kein gemeinsamer Vertrag. Eine feste Vereinbarung wiederum ersetzt keinen brauchbaren Plan.\n\n## Die Pallas-Frage: Muster sichtbar machen\nBeginne mit einer konkreten Schwierigkeit und sammle beobachtbare Abläufe. Bei einem immer wieder verspäteten Workshopstart könnten Anreise, Materialaufbau und Begrüßung durcheinandergeraten. Ordne die Schritte, suche Engpässe und entwirf zwei Alternativen. Diese Tätigkeit braucht keine Behauptung, jemand sei aufgrund eines Asteroiden besonders strategisch begabt. Das Symbol kann erinnern, genauer hinzusehen. Zeichne einen Ablauf mit Pfeilen oder schreibe die Schritte auf Karten. Erst dann entscheidest du, welches Muster überhaupt durch die Beobachtungen gestützt wird.\n\n## Die Juno-Frage: Zustimmung sichtbar machen\nPrüfe anschließend jede Aufgabe darauf, wer sie übernommen hat und ob die Person zugestimmt hat. „Du machst doch bestimmt den Aufbau“ ist keine klare Vereinbarung. Besser ist eine ausdrückliche Frage mit Zeit und Umfang. Verbindlichkeit entsteht durch verständliche Absprachen, nicht durch die Annahme, eine enge Beziehung verpflichte automatisch zu Hilfe. Eine Vereinbarung kann außerdem neu verhandelt werden, wenn sich Bedingungen ändern. Das Bild von Bindung darf weder Eifersucht rechtfertigen noch jemanden zum Bleiben in einer schädlichen Beziehung verpflichten.\n\n## Wo beide Fragen sich ergänzen\nEin guter Ablauf scheitert, wenn niemand die vorgesehenen Aufgaben übernehmen möchte. Eine freundliche Zusage scheitert, wenn Zeit und Mittel unrealistisch sind. Deshalb stehen in deinem Arbeitsblatt zwei Spalten nebeneinander: sachliche Machbarkeit und gegenseitige Zustimmung. Ein Problem kann in einer oder beiden Spalten liegen. Diese Unterscheidung verhindert, dass ein organisatorischer Fehler vorschnell als mangelnde Loyalität ausgelegt wird. Umgekehrt solltest du fehlende Zustimmung nicht mit einer noch besseren Planung übergehen.\n\n## Mehrere Lesarten offenhalten\nWenn eine symbolische Kombination auf Spannung zwischen Strategie und Bindung hinweist, sind verschiedene Fragen möglich. Plant jemand zu viel allein? Werden Vereinbarungen gemacht, ohne die Umsetzung zu prüfen? Oder funktioniert die Zusammenarbeit bereits gut und soll bewusst erhalten werden? Wähle die Frage nach dem berichteten Anliegen. Ein vorgegebenes Quadrat zwischen Pallas und Juno wäre in dieser Lektion nur ein Übungsbild für die Gegenüberstellung. Es beweist keinen Streit und wird nicht nachträglich als Ursache einer Meinungsverschiedenheit präsentiert.\n\n## Ein kleiner Testlauf\nLass die Beteiligten eine überschaubare Aufgabe mit klarer Zuständigkeit ausprobieren. Halte fest, was vereinbart wurde, was tatsächlich geschah und was beim nächsten Mal anders sein soll. Eine Auswertung kann ergeben, dass der Plan gut war, aber die Zeit zu knapp; oder dass die Aufgabe falsch verteilt wurde. Vermeide persönliche Etiketten. Am Ende steht eine verbesserte Abmachung, die beide Seiten verstehen. So wird aus einer abstrakten Symbolpaarung ein konkretes Werkzeug zum Denken und zum respektvollen Zusammenarbeiten.",
+      "examples": [
+        {
+          "title": "Workshop ohne stillschweigende Aufgaben",
+          "body": "Lea plant mit einer Freundin einen fiktiven Workshop. Ihr Ablauf ist detailliert, aber sie hat angenommen, dass die Freundin alle Materialien mitbringt. Marina trennt die Strategiefrage von der Vereinbarungsfrage. Die Reihenfolge des Workshops kann sinnvoll sein, während die Zuständigkeit noch ungeklärt ist. Lea fragt konkret nach und erfährt, dass ihre Freundin nur die Begrüßung übernehmen möchte. Beide passen den Plan an. Daraus folgt kein Urteil über Loyalität oder eine angeblich problematische Juno-Position."
+        },
+        {
+          "title": "Samirs Abmachung braucht einen Plan",
+          "body": "Samir und ein Freund wollen regelmäßig gemeinsam lernen. Beide haben zugestimmt, treffen sich aber nie, weil kein Termin festgelegt wurde. In der Übung steht die Zustimmung bereits fest; es fehlt ein umsetzbarer Ablauf. Marina schlägt vor, einen einzigen Termin mit Dauer und Thema zu vereinbaren. Nach diesem Versuch können beide entscheiden, ob sie weitermachen. Das Problem wird als Planungslücke behandelt und nicht als Beweis mangelnder Bindungsfähigkeit oder eines verborgenen Beziehungsmusters."
+        }
+      ],
+      "practice": {
+        "prompt": "Lea und Samir wollen gemeinsam einen Übungsabend anbieten. Entwirf einen kleinen Plan und prüfe jede Zuständigkeit auf ausdrückliche Zustimmung.",
+        "model_answer": "Ich beginne mit dem Ziel: ein Übungsabend von vierzig Minuten mit einer kurzen Einführung und einem fiktiven Fall. Der sachliche Ablauf lautet fünf Minuten Ankommen, zehn Minuten Erklärung, zwanzig Minuten gemeinsame Übung und fünf Minuten Rückblick. Danach kläre ich die Zuständigkeiten einzeln. Lea möchte die Einführung übernehmen; Samir wird gefragt, ob er den Übungsbogen vorbereitet und den Zeitrahmen begleitet. Eine vermutete Bereitschaft trage ich nicht als Zusage ein. Beide prüfen, ob sie die Vorbereitung tatsächlich leisten können. Falls Samir nur zehn Minuten Zeit hat, wird der Umfang kleiner. Nach dem Abend vergleichen sie Plan, Vereinbarung und tatsächlichen Verlauf. Eine Abweichung wird zunächst konkret beschrieben, etwa fehlendes Material, statt als Untreue ausgelegt. Pallas und Juno dienen dabei als Merkhilfe für Strategie und Abmachung. Sie liefern keine Diagnose über die beiden fiktiven Personen.",
+        "rubric": [
+          "Ablauf und Zustimmung werden getrennt geprüft.",
+          "Aufgaben haben klare Zuständigkeiten und Grenzen.",
+          "Eine Änderung der Vereinbarung bleibt möglich.",
+          "Abweichungen werden konkret statt als Charakterurteil beschrieben."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welche Frage gehört zur Strategieebene?",
+          "options": [
+            "Wer muss mir aufgrund seiner Rolle helfen?",
+            "Wie beweist ein Asteroid Treue?",
+            "Welche Schritte führen mit den vorhandenen Mitteln zum Ziel?"
+          ],
+          "correct_index": 2,
+          "explanation": "Strategie untersucht Ablauf, Mittel und mögliche Hindernisse."
+        },
+        {
+          "id": "q2",
+          "question": "Was fehlt bei „Du bringst sicher die Unterlagen mit“?",
+          "options": [
+            "Eine ausdrückliche Zustimmung",
+            "Ein weiterer Asteroid",
+            "Eine stärkere Schicksalsdeutung"
+          ],
+          "correct_index": 0,
+          "explanation": "Eine Annahme ersetzt keine gemeinsame Vereinbarung."
+        },
+        {
+          "id": "q3",
+          "question": "Der Ablauf funktioniert, aber niemand hat die Aufgaben zugesagt. Was ist offen?",
+          "options": [
+            "Nur die Zeichenberechnung",
+            "Die Vereinbarungsebene",
+            "Die astronomische Klassifikation"
+          ],
+          "correct_index": 1,
+          "explanation": "Machbarkeit und Zustimmung sind getrennte Voraussetzungen."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://demetra-george.com/learn/mythology2/",
+          "title": "Mythology, Archetypes and Astrology",
+          "author": "Demetra George",
+          "note": "Belegt den mythologischen Zugang der Autorin. Konkrete Arbeitsblätter, Fragen und Fallgeschichten sind eigene didaktische Entwürfe; keine Übernahme ihres Kursmaterials.",
+          "checked_at": "2026-10-20"
+        },
+        {
+          "url": "https://demetra-george.com/pdf/Asteroids_Mythic_Astrology.pdf",
+          "title": "Asteroids and Mythic Astrology",
+          "author": "Demetra George",
+          "note": "Fachaufsatz zur Asteroidendeutung und ihren mythologischen Annahmen. Dient der Einordnung der Schule, nicht als Beweis psychologischer oder physikalischer Wirkungen.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-mondknoten-asteroiden-08",
+      "title": "Vesta und Chiron: Hingabe ohne Heilsversprechen",
+      "summary": "Unterscheide konzentrierte Praxis, eigene Grenzen und die metaphorische Sprache einer Verletzung.",
+      "objective": "Du entwickelst eine begrenzte Hingabeübung und erkennst, wann eine Wundmetapher nicht in die Beratung gehört.",
+      "level": "deepening",
+      "minutes": 30,
+      "body": "## Zwei unterschiedliche Symbolfelder\nVesta wird in moderner Symbolarbeit häufig mit Sammlung, Hingabe und einem bewahrten inneren Raum verbunden. Chiron wird oft über das Bild des verwundeten Lehrers oder Heilers angesprochen. Das sind kulturelle Deutungsangebote. Chiron ist astronomisch kein gewöhnlicher Planet; seine symbolische Verwendung macht eine Person weder krank noch zur Heilerin. In dieser Lektion geht es um eine praktische Unterscheidung: Wofür möchte ich mich konzentriert einsetzen, und wo muss ich meine Grenzen achten? Die Antwort kommt aus der Person, nicht aus einem Symbol.\n\n## Hingabe braucht ein Ende\nEin Vesta-Bild kann dazu anregen, eine Tätigkeit für eine bestimmte Zeit bewusst zu wählen. Lege Anfang, Dauer und Abschluss fest. Zum Beispiel übt Marina zwanzig Minuten eine Gesprächseinleitung, schaltet danach ab und notiert einen Lernpunkt. Konzentration ist nicht gleich Selbstaufgabe. Wenn jede Pause als mangelnde spirituelle Disziplin gilt, wird die Übung unbrauchbar. Ein schützender Arbeitsrahmen enthält daher Erholung und die Erlaubnis, eine Aufgabe zu verschieben. Das gilt besonders, wenn berufliche Sorgearbeit und private Verpflichtungen zusammenkommen.\n\n## Eine Wundmetapher vorsichtig verwenden\nFrage zuerst, ob die Person überhaupt über eine empfindliche Erfahrung sprechen möchte. Ein Chiron-Symbol erlaubt keine Suche nach versteckten Traumata. Es berechtigt auch nicht dazu, aus einer Körperempfindung eine Geschichte über Missbrauch oder Krankheit abzuleiten. Wenn jemand von einer schwierigen Erfahrung erzählt, bleibe bei den tatsächlich genannten Worten und bei deinem vereinbarten Arbeitsumfang. Eine spirituelle Reflexionssitzung ist kein Ersatz für medizinische oder psychotherapeutische Behandlung. Unbekannte Fachfragen werden als unbekannt benannt.\n\n## Erfahrung ist nicht automatisch Kompetenz\nEigene schwierige Erfahrungen können Sensibilität fördern. Sie machen aber nicht von selbst kompetent, andere Menschen in ähnlichen Situationen zu begleiten. Prüfe, ob du zuhören kannst, ohne deine Geschichte über die des Gegenübers zu legen. Ein hilfreicher innerer Satz lautet: „Das erinnert mich an etwas Eigenes; trotzdem kenne ich die Bedeutung für diese Person noch nicht.“ Notiere die eigene Resonanz getrennt. Wenn sie deine Aufmerksamkeit stark bindet, ist eine Pause oder eine fachlich passende Reflexion deiner Arbeit sinnvoller als eine spontane Deutung.\n\n## Vom Bild zur begrenzten Handlung\nStatt „Deine Wunde ist deine Berufung“ könntest du fragen: „Welche Erfahrung möchtest du freiwillig in dein Lernen einbringen, und was soll privat bleiben?“ Daraus kann eine kleine Handlung entstehen, etwa eine Fortbildung zu Gesprächsführung oder eine klarere Zeitgrenze. Die Person muss ihr Leid nicht sinnvoll finden, öffentlich machen oder beruflich verwerten. Manche Erfahrungen bleiben ohne spirituelle Erklärung. Auch das ist eine gültige Antwort und sollte in einer respektvollen Beratung Platz haben.\n\n## Abschluss und Selbstprüfung\nSchreibe nach der Übung auf, was du getan hast, wie lange und ob du deine Grenze eingehalten hast. Prüfe außerdem, welche Aussagen du aus eigener Erfahrung ergänzt hast und welche tatsächlich vom Gegenüber kamen. Eine gute Lernleistung besteht darin, rechtzeitig zu sagen: „Dafür fehlt mir die passende Qualifikation.“ Vesta und Chiron können als Metaphern zu dieser Sorgfalt anregen. Sie ersetzen weder Ausbildung noch überprüfte Fähigkeiten und dürfen niemals eine Behandlung versprechen, die du nicht anbieten kannst.",
+      "examples": [
+        {
+          "title": "Ein Vesta-Rahmen für Marina",
+          "body": "Marina übt in einem fiktiven Lernabend eine Gesprächseröffnung. Sie legt zwanzig Minuten fest, räumt Ablenkungen weg und nimmt danach fünf Minuten für Notizen. Als die Zeit endet, hört sie auf, obwohl noch nicht alles perfekt klingt. Der Abschluss gehört zur Übung. Sie deutet Müdigkeit nicht als fremde Energie und verlängert nicht aus Pflichtgefühl. Das Vesta-Bild erinnert sie an bewusste Sammlung, während die tatsächliche Fähigkeit durch wiederholtes Üben und Rückmeldung wächst."
+        },
+        {
+          "title": "Samirs Erfahrung bleibt seine eigene",
+          "body": "Samir berichtet im Übungsfall von einer belastenden Trennung. Marina erinnert sich an etwas Ähnliches und merkt, dass sie sofort Ratschläge geben möchte. Sie hält inne und fragt, was Samir heute besprechen will. Er möchte lediglich eine klare Grenze für künftige Nachrichten formulieren. Marina bleibt bei diesem Anliegen. Sie erklärt seine Erfahrung nicht zur karmischen Wunde und behauptet auch nicht, eine Chiron-Position verrate seine Vergangenheit. Die eigene Erinnerung bleibt getrennt von seiner Erzählung."
+        }
+      ],
+      "practice": {
+        "prompt": "Entwirf eine zwanzigminütige Hingabeübung und eine Antwort auf den Satz „Chiron zeigt dir doch, welche Wunde ich habe“.",
+        "model_answer": "Meine Übung beginnt mit einem klaren Ziel: Ich möchte eine verständliche Gesprächseröffnung formulieren. Fünf Minuten sammle ich die nötigen Punkte, zehn Minuten spreche ich zwei Varianten und fünf Minuten notiere ich, welche Formulierung ruhiger und klarer war. Danach endet die Übung; Erschöpfung wird nicht als Beweis besonderer Tiefe bewertet. Auf die Frage nach Chiron antworte ich: „Aus diesem Symbol kann ich keine konkrete Verletzung oder Diagnose erkennen. Wenn du möchtest, können wir über eine Erfahrung sprechen, die du selbst benennen willst, oder das Thema weglassen.“ Ich würde weder eine verborgene Erinnerung suchen noch eine Heilwirkung versprechen. Wenn das Anliegen fachliche Behandlung erfordert, benenne ich die Grenze meiner spirituellen Beratung. In meiner Lernnotiz trenne ich eigene Resonanz, tatsächlich gehörte Angaben und offene Fragen. Das Symbol bleibt ein freiwilliges Bild; die Person entscheidet über Tiefe und Inhalt des Gesprächs.",
+        "rubric": [
+          "Die Hingabeübung hat Ziel, Dauer und Abschluss.",
+          "Keine Verletzung oder Diagnose wird aus Chiron behauptet.",
+          "Eigene Resonanz und berichtete Erfahrung bleiben getrennt.",
+          "Grenzen der eigenen Qualifikation werden benannt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was gehört zu einer begrenzten Hingabeübung?",
+          "options": [
+            "Ein geplanter Abschluss",
+            "Ein Verbot von Pausen",
+            "Eine Garantie spiritueller Fortschritte"
+          ],
+          "correct_index": 0,
+          "explanation": "Ein klarer Abschluss schützt Konzentration davor, zur Selbstüberforderung zu werden."
+        },
+        {
+          "id": "q2",
+          "question": "Was lässt sich aus einem Chiron-Symbol zuverlässig über eine konkrete Wunde ableiten?",
+          "options": [
+            "Ihr genaues Entstehungsdatum",
+            "Die verantwortliche Person",
+            "Keine solche konkrete Diagnose"
+          ],
+          "correct_index": 2,
+          "explanation": "Eine symbolische Zuordnung liefert weder medizinische Befunde noch verlässliche Erinnerungen."
+        },
+        {
+          "id": "q3",
+          "question": "Was folgt aus einer eigenen ähnlichen Erfahrung?",
+          "options": [
+            "Automatische Fachkompetenz",
+            "Ein möglicher eigener Bezug, der getrennt geprüft werden muss",
+            "Dass beide Geschichten identisch sind"
+          ],
+          "correct_index": 1,
+          "explanation": "Eigene Erfahrung kann Resonanz auslösen, ersetzt aber weder Zuhören noch Ausbildung."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://demetra-george.com/learn/mythology2/",
+          "title": "Mythology, Archetypes and Astrology",
+          "author": "Demetra George",
+          "note": "Belegt den mythologischen Zugang der Autorin. Konkrete Arbeitsblätter, Fragen und Fallgeschichten sind eigene didaktische Entwürfe; keine Übernahme ihres Kursmaterials.",
+          "checked_at": "2026-10-20"
+        },
+        {
+          "url": "https://demetra-george.com/pdf/Asteroids_Mythic_Astrology.pdf",
+          "title": "Asteroids and Mythic Astrology",
+          "author": "Demetra George",
+          "note": "Fachaufsatz zur Asteroidendeutung und ihren mythologischen Annahmen. Dient der Einordnung der Schule, nicht als Beweis psychologischer oder physikalischer Wirkungen.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    }
+  ]
+}

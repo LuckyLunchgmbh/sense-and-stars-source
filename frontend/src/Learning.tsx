@@ -11,6 +11,7 @@ import type {
   LearningUpdateSource,
 } from "./types";
 import { ContextHelp } from "./Help";
+import { Academy, AcademyLessonReader } from "./Academy";
 import type { PageProps } from "./App";
 import {
   Badge,
@@ -22,7 +23,8 @@ import {
   SectionTitle,
 } from "./ui";
 
-type WorkspaceTab = "library" | "bookmarks" | "pins" | "notebook" | "sources";
+type WorkspaceTab =
+  "academy" | "library" | "bookmarks" | "pins" | "notebook" | "sources";
 type LessonState = "bookmarked" | "pinned" | "practiced" | "reflected";
 const LEVELS: Record<string, string> = {
   foundation: "Grundlagen",
@@ -30,6 +32,7 @@ const LEVELS: Record<string, string> = {
   practice: "Praxis",
 };
 const TABS: { id: WorkspaceTab; label: string }[] = [
+  { id: "academy", label: "Akademie" },
   { id: "library", label: "Bibliothek" },
   { id: "bookmarks", label: "Lesezeichen" },
   { id: "pins", label: "Pinnwand" },
@@ -72,7 +75,7 @@ export function LearningPage(props: PageProps) {
     "/learning",
     props.revision,
   );
-  const [tab, setTab] = useState<WorkspaceTab>("library");
+  const [tab, setTab] = useState<WorkspaceTab>("academy");
   const [selected, setSelected] = useState<Lesson | null>(null);
   const [editor, setEditor] = useState<{
     note?: NotebookNote;
@@ -189,52 +192,55 @@ export function LearningPage(props: PageProps) {
           <Icon name="book" size={24} />
         </span>
       </div>
-      <section
-        className="glass-card workspace-welcome"
-        aria-label="Orientierung im Lernraum"
-      >
-        <div>
-          <span className="eyebrow">OFFEN FÜR DEINEN EIGENEN RHYTHMUS</span>
-          <h2>
-            Ein Kapitel lesen.
-            <br />
-            <em>Etwas Eigenes daraus machen.</em>
-          </h2>
-          <p>
-            Alle {lessons.length} veröffentlichten Kapitel sind offen. Merke dir
-            Gedanken, übe in deinem Tempo und halte deine Erfahrungen im
-            privaten Notizbuch fest.
-          </p>
-          <div className="workspace-overview">
-            <span>
-              <strong>{completed}</strong> gelesen
-            </span>
-            <span>
-              <strong>{lessons.filter((l) => l.practiced).length}</strong> geübt
-            </span>
-            <span>
-              <strong>{lessons.filter((l) => l.reflected).length}</strong>{" "}
-              reflektiert
-            </span>
+      {tab === "library" && (
+        <section
+          className="glass-card workspace-welcome"
+          aria-label="Orientierung im Lernraum"
+        >
+          <div>
+            <span className="eyebrow">OFFEN FÜR DEINEN EIGENEN RHYTHMUS</span>
+            <h2>
+              Ein Kapitel lesen.
+              <br />
+              <em>Etwas Eigenes daraus machen.</em>
+            </h2>
+            <p>
+              Alle {lessons.length} veröffentlichten Kapitel sind offen. Merke
+              dir Gedanken, übe in deinem Tempo und halte deine Erfahrungen im
+              privaten Notizbuch fest.
+            </p>
+            <div className="workspace-overview">
+              <span>
+                <strong>{completed}</strong> gelesen
+              </span>
+              <span>
+                <strong>{lessons.filter((l) => l.practiced).length}</strong>{" "}
+                geübt
+              </span>
+              <span>
+                <strong>{lessons.filter((l) => l.reflected).length}</strong>{" "}
+                reflektiert
+              </span>
+            </div>
           </div>
-        </div>
-        {recommended && (
-          <div className="workspace-suggestion">
-            <span className="small-label">EIN MÖGLICHER EINSTIEG</span>
-            <h3>{recommended.title}</h3>
-            <p>{recommended.summary}</p>
-            <button
-              className="button secondary"
-              onClick={() => setSelected(recommended)}
-            >
-              Kapitel öffnen <Icon name="arrow" size={17} />
-            </button>
-            <small>
-              Eine Einladung. Du kannst jedes andere Kapitel wählen.
-            </small>
-          </div>
-        )}
-      </section>
+          {recommended && (
+            <div className="workspace-suggestion">
+              <span className="small-label">EIN MÖGLICHER EINSTIEG</span>
+              <h3>{recommended.title}</h3>
+              <p>{recommended.summary}</p>
+              <button
+                className="button secondary"
+                onClick={() => setSelected(recommended)}
+              >
+                Kapitel öffnen <Icon name="arrow" size={17} />
+              </button>
+              <small>
+                Eine Einladung. Du kannst jedes andere Kapitel wählen.
+              </small>
+            </div>
+          )}
+        </section>
+      )}
       <nav className="workspace-tabs" aria-label="Bereiche im Lernraum">
         {TABS.map((item) => (
           <button
@@ -263,6 +269,13 @@ export function LearningPage(props: PageProps) {
           <Icon name="check" size={16} />
           {saved}
         </p>
+      )}
+      {tab === "academy" && (
+        <Academy
+          {...props}
+          onCreateNote={createNote}
+          onLessonUpdated={lessonUpdated}
+        />
       )}
       {isLibrary && (
         <section aria-label={TABS.find((item) => item.id === tab)?.label}>
@@ -484,18 +497,30 @@ export function LearningPage(props: PageProps) {
           Heilwirkung.
         </p>
       </div>
-      {selected && (
-        <LessonReader
+      {selected?.academy_course_id ? (
+        <AcademyLessonReader
           key={selected.id}
           {...props}
-          lesson={
-            data.lessons.find((lesson) => lesson.id === selected.id) || selected
-          }
-          previousScore={data.progress.quiz_scores[String(selected.id)]}
+          id={selected.id}
           onClose={() => setSelected(null)}
-          onUpdate={lessonUpdated}
+          onUpdated={lessonUpdated}
           onCreateNote={createNote}
         />
+      ) : (
+        selected && (
+          <LessonReader
+            key={selected.id}
+            {...props}
+            lesson={
+              data.lessons.find((lesson) => lesson.id === selected.id) ||
+              selected
+            }
+            previousScore={data.progress.quiz_scores[String(selected.id)]}
+            onClose={() => setSelected(null)}
+            onUpdate={lessonUpdated}
+            onCreateNote={createNote}
+          />
+        )
       )}
       {editor && (
         <NotebookEditor

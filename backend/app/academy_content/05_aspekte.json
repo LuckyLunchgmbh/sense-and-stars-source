@@ -1,0 +1,888 @@
+{
+  "id": "aspekte",
+  "title": "Aspekte: Beziehungen im Horoskop",
+  "summary": "Zwölf Lektionen führen von der Winkelrechnung über die fünf Hauptaspekte zu Bewegungsrichtung, Figuren und einer nachvollziehbaren Gesamtgewichtung.",
+  "tradition": "Westliche gradbezogene Aspektlehre; Unterschiede zur zeichenbezogenen hellenistischen Konvention werden ausdrücklich benannt.",
+  "level": "deepening",
+  "prerequisites": [
+    "Planetenfunktionen und Zeichenpositionen sind hilfreich; alle Lektionen bleiben frei zugänglich."
+  ],
+  "lessons": [
+    {
+      "key": "academy-aspekte-01",
+      "title": "Winkel berechnen: vom Tierkreis zur Aspektliste",
+      "summary": "Du berechnest den kleineren Winkel zwischen zwei ekliptikalen Längen und trennst Rechenwert, Aspekttyp und Deutung.",
+      "objective": "Du berechnest den kleineren Winkel zwischen zwei ekliptikalen Längen und trennst Rechenwert, Aspekttyp und Deutung.",
+      "level": "deepening",
+      "minutes": 30,
+      "body": "## Ein Kreis braucht einen gemeinsamen Nullpunkt\nEine Position wie zwölf Grad Löwe enthält zwei Angaben: das Zeichen und den Grad innerhalb dieses Zeichens. Für eine Winkelrechnung übersetzt du sie zunächst in eine durchgehende Skala von null bis unter dreihundertsechzig Grad. Widder beginnt bei null, Stier bei dreißig, Zwillinge bei sechzig, Krebs bei neunzig, Löwe bei hundertzwanzig und Jungfrau bei hundertfünfzig Grad. Waage beginnt bei hundertachtzig, Skorpion bei zweihundertzehn, Schütze bei zweihundertvierzig, Steinbock bei zweihundertsiebzig, Wassermann bei dreihundert und Fische bei dreihundertdreißig. Zwölf Grad Löwe entsprechen somit hundertzweiunddreißig Grad.\n\n## Zwei Wege verbinden dieselben Punkte\nSubtrahiere die kleineren von den größeren Koordinaten. Ist die Differenz größer als hundertachtzig Grad, ziehst du sie von dreihundertsechzig ab. Damit erhältst du den kleineren Abstand auf dem Kreis. Für zweihundertneunzig und zehn Grad ergibt die erste Subtraktion zweihundertachtzig. Der kürzere Weg beträgt achtzig Grad. Eine Zeichnung, bei der die Verbindung über den Nullpunkt läuft, hilft beim Verständnis. Der Anfang der Zahlenskala ist keine Lücke im Himmel. Positionen direkt vor und nach null Grad können sehr nahe beieinanderliegen.\n\n## Winkel und Aspekt sind verschiedene Angaben\nDer gemessene beziehungsweise aus Positionen berechnete Abstand lautet beispielsweise zweiundneunzig Grad. Das Quadrat ist dagegen eine astrologische Kategorie mit dem Idealwinkel neunzig Grad. Die Abweichung beträgt zwei Grad und wird Orbis genannt. Ob du diesen Kontakt in deine Arbeitsliste aufnimmst, hängt von einer vorher gewählten Toleranz ab. Bei einer Übungsregel von höchstens drei Grad wird er aufgenommen; bei höchstens einem Grad nicht. Die Rechnung ändert sich dadurch nicht. Nur die Klassifikation fällt anders aus. Diese Trennung verhindert, dass Einstellungen im Programm mit Naturgesetzen verwechselt werden.\n\n## Minuten sind keine Dezimalstellen\nEin Grad besteht aus sechzig Bogenminuten. Zwölf Grad dreißig Minuten sind zwölf Komma fünf Grad und nicht zwölf Komma dreißig. Bei einer Differenz von fünf Grad zehn Minuten und zwei Grad vierzig Minuten leihst du einen Grad: vier Grad siebzig Minuten minus zwei Grad vierzig Minuten ergeben zwei Grad dreißig Minuten. Alternativ wandelst du vor der Rechnung alle Positionen in Minuten um. Behalte eine Methode konsequent bei und runde erst das Ergebnis, damit ein Kontakt an einer Orbgrenze nicht versehentlich hinein- oder herausrutscht.\n\n## Eine nachvollziehbare Liste führen\nErstelle Spalten für Planet A, Planet B, beide absoluten Längen, kleineren Abstand, gewählten Idealwinkel und Abweichung. Erst danach folgt eine kurze symbolische Frage. Bei zehn Faktoren gibt es fünfundvierzig unterschiedliche Paare. A zu B und B zu A sind bei dieser einfachen Abstandsrechnung dasselbe Paar und werden nicht doppelt gezählt. Weitere Eigenschaften, etwa wer sich wem annähert, benötigen zusätzliche Bewegungsdaten. Ein fertiger Winkel allein liefert diese Information noch nicht.\n\n## Vom Rechnen zum Lesen\nPrüfe zum Abschluss einen Datensatz ohne Radgrafik. Wenn du das Ergebnis aus den Zahlen reproduzieren kannst, bist du weniger von Linienfarben oder einer voreingestellten Softwareauswahl abhängig. Frage anschließend, welcher Kontakt für das Anliegen überhaupt relevant sein könnte. Nicht jede technisch gefundene Linie verdient dieselbe Gesprächszeit. Exakte Geometrie kann eine Deutung transparent machen, sie beweist jedoch keine Persönlichkeitseigenschaft. Der Wert dieser Übung besteht in einer kontrollierbaren Grundlage, auf der später ausdrücklich gekennzeichnete symbolische Fragen entstehen.",
+      "examples": [
+        {
+          "title": "Über den Nullpunkt",
+          "body": "Im didaktischen Zahlenbeispiel steht Merkur auf 358° und Mars auf 3°. Die einfache Differenz beträgt 355°, doch der zweite Weg über den Kreisanfang ist nur 5° lang. Marina trägt deshalb 5° in ihre Tabelle ein. Bei einem vereinbarten Konjunktionsorbis von 6° wäre der Kontakt enthalten. Eine Zeichnung mit zwei Punkten nahe dem Kreisanfang zeigt sofort, warum 355° als kleinerer Abstand falsch wäre. Es handelt sich um frei gewählte Übungspositionen, nicht um ein berechnetes Geburtshoroskop."
+        },
+        {
+          "title": "Grad und Minuten",
+          "body": "Lea prüft im fiktiven Lernfall eine Position auf 14°20′ Stier und eine weitere auf 16°50′ Löwe. Die absoluten Längen sind 44°20′ und 136°50′. Der Abstand beträgt 92°30′, also liegt eine Abweichung von 2°30′ zum Quadrat vor. Lea notiert nicht einfach „etwa zwei Grad“, weil eine Orbgrenze von 2° sonst falsch angewandt würde. Erst nach dieser technischen Prüfung fragt sie, welche beiden symbolischen Funktionen im Gespräch sinnvoll verglichen werden könnten."
+        }
+      ],
+      "practice": {
+        "prompt": "Berechne für 28° Fische und 2° Krebs den kleineren Abstand, den nächstliegenden Hauptaspekt und dessen Orbis. Verwende eine ausdrücklich festgelegte Grenze von 5°.",
+        "model_answer": "Ich übersetze 28° Fische in 358° und 2° Krebs in 92°. Die direkte Differenz ist 266°. Weil dieser Weg größer als ein Halbkreis ist, nehme ich den Gegenweg: 360° minus 266° ergeben 94°. Der nächstliegende Hauptaspekt ist das Quadrat mit seinem Idealwinkel von 90°. Die Abweichung beträgt 4° und liegt innerhalb der ausdrücklich vorgegebenen Grenze von 5°. Ich würde daher „Quadrat, Orbis 4°“ dokumentieren. Die Zeichen Fische und Krebs bilden nach Zeichen eine Trigonbeziehung; das ändert die hier verwendete gradbezogene Rechnung nicht. Genau an diesem Beispiel sieht man, warum die Methode genannt werden muss. Ohne Namen der Faktoren kann ich außerdem noch keine sinnvolle symbolische Frage formulieren. Meine fertige Tabelle enthält beide Koordinaten, beide Rechenwege und die verwendete Orbregel. Eine Aussage über Leas Verhalten oder Zukunft ist aus diesen Zahlen allein nicht abgeleitet.",
+        "rubric": [
+          "Absolute Längen stimmen.",
+          "Der kürzere Kreisweg wurde benutzt.",
+          "Aspekttyp und Abweichung sind getrennt.",
+          "Die Orbregel ist ausdrücklich dokumentiert."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Wie groß ist der kleinere Abstand zwischen 350° und 20°?",
+          "options": [
+            "330°",
+            "30°",
+            "170°"
+          ],
+          "correct_index": 1,
+          "explanation": "Der direkte Abstand ist 330°; der andere Kreisweg beträgt 360° minus 330°, also 30°."
+        },
+        {
+          "id": "q2",
+          "question": "Was bedeuten 12°30′ als Dezimalzahl?",
+          "options": [
+            "12,3°",
+            "12,03°",
+            "12,5°"
+          ],
+          "correct_index": 2,
+          "explanation": "Dreißig Minuten sind die Hälfte von sechzig Minuten und damit ein halbes Grad."
+        },
+        {
+          "id": "q3",
+          "question": "Was verändert eine andere Orbgrenze?",
+          "options": [
+            "Die Auswahl der berücksichtigten Kontakte.",
+            "Die berechneten Planetenpositionen.",
+            "Die Länge eines Grades."
+          ],
+          "correct_index": 0,
+          "explanation": "Der Winkel bleibt gleich; die Konvention entscheidet, ob er als hinreichend nah am Idealwinkel gilt."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2021/10/16/aspects-in-astrology-the-five-major-configurations/",
+          "title": "Aspects in Astrology: The Five Major Configurations, Episode 323",
+          "author": "Chris Brennan und Claire Moon",
+          "note": "Originalquelle zur Terminologie der fünf Hauptaspekte und zur Unterscheidung von Zeichen- und Gradbeziehungen. Die Rechenbeispiele, Lernabfolge und Gesprächsübungen sind eigenständig; keine Wiedergabe des Kurses.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-aspekte-02",
+      "title": "Orben wählen und Grenzfälle ehrlich behandeln",
+      "summary": "Du legst eine nachvollziehbare Orbregel fest und vergleichst enge, weite sowie zeichenübergreifende Kontakte.",
+      "objective": "Du legst eine nachvollziehbare Orbregel fest und vergleichst enge, weite sowie zeichenübergreifende Kontakte.",
+      "level": "deepening",
+      "minutes": 30,
+      "body": "## Die Toleranz gehört zur Methode\nSelten stehen zwei Faktoren genau im Idealwinkel. Deshalb arbeiten gradbezogene Deutungen mit einer zulässigen Abweichung. Diese Toleranz heißt Orbis. Eine Regel kann für alle Hauptaspekte gleich sein oder zwischen Sonne, Mond, Planeten und Achsen unterscheiden. Verschiedene Schulen verwenden unterschiedliche Grenzen. Du brauchst zu Beginn keine angeblich einzig richtige Tabelle, sondern eine klare, wiederholbare Übungsregel. Für diese Lektion nehmen wir fünf Grad für Hauptaspekte. Das ist eine didaktische Festlegung und keine Aussage darüber, wie weit eine messbare Wirkung reicht.\n\n## Eine Grenze ist kein Lautstärkeregler\nEin Kontakt mit vier Grad neunundfünfzig Minuten wird unter dieser Regel aufgenommen; einer mit fünf Grad einer Minute nicht. Daraus folgt kein plötzlicher Sprung im Leben der betreffenden Person. Die Grenze dient der übersichtlichen Auswahl. Notiere grenznahe Fälle deshalb als solche. Wenn du später einen engeren Filter verwendest, kannst du erkennen, warum eine Linie verschwunden ist. Verändere die Einstellung nicht erst dann, wenn dir eine bestimmte Geschichte gefällt. Sonst suchst du nach passenden Regeln statt nach einer konsistenten Analyse.\n\n## Eng ist zunächst nur geometrisch eng\nEin Quadrat mit einem halben Grad Abweichung ist näher am Idealwinkel als eines mit vier Grad. Diese Aussage ist rechnerisch. Die anschließende Gewichtung bleibt eine interpretative Entscheidung. Ein weiter Kontakt zu einem zeitunsicheren Aszendenten kann weniger belastbar sein als ein enger Kontakt zwischen zwei sicher berechneten Planeten. Ein sehr enger Kontakt zweier langsamer Planeten wird außerdem von vielen Menschen eines Jahrgangs geteilt. Enge allein macht einen Aspekt daher noch nicht zur wichtigsten persönlichen Aussage im Radix.\n\n## Zeichen und Grade können auseinandergehen\nEin Planet am Ende eines Zeichens und einer am Anfang des nächsten können eine enge Konjunktion nach Grad bilden, obwohl sie in verschiedenen Zeichen stehen. Umgekehrt können zwei Planeten im selben Zeichen mehr als zwanzig Grad auseinanderliegen. Das ist eine Zeichenverbindung, aber nach unserer Fünfgradregel keine enge Konjunktion. Beschreibe beide Befunde getrennt. Eine moderne gradbezogene Schule und eine hellenistische zeichenbezogene Schule können dieselben Positionen unterschiedlich ordnen, ohne dass eine der beiden Zahlenrechnungen falsch sein muss.\n\n## Empfindlichkeit praktisch prüfen\nErzeuge drei Listen desselben fiktiven Radix: mit drei, fünf und acht Grad Toleranz. Welche Kontakte bleiben immer bestehen, welche erscheinen erst spät? Die stabile Schnittmenge ist ein guter Ausgangspunkt für eine knappe Besprechung. Die zusätzlichen Kontakte sind Vertiefungsmaterial. Du musst daraus keine Rangliste menschlicher Bedeutung machen. Der Vergleich zeigt vor allem, wie viel deiner Darstellung von Einstellungen abhängt. Schreibe bei jeder Liste die Regel dazu, damit du sie eine Woche später noch erklären kannst.\n\n## Eine begründete Auswahl präsentieren\nFür einen ersten Termin kannst du zwei gut nachvollziehbare Kontakte auswählen und einen Grenzfall in Reserve halten. Begründe die Auswahl mit Anliegen, Datenqualität, beteiligten Funktionen und einer konsistenten Regel. Ein Satz wie „Ich beginne mit diesem engeren Kontakt, weil er die angesprochene Frage nach Ausdruck und Zurückhaltung anschaulich macht“ ist informativer als „Diese Linie ist stärker“. Lasse im Notizbuch Platz für abweichende Rückmeldungen. Die Orbregel soll deine Arbeit übersichtlich machen, nicht das Gespräch gegen Widerspruch absichern.",
+      "examples": [
+        {
+          "title": "Derselbe Himmel, zwei Listen",
+          "body": "Samir vergleicht zwei aus Übungskoordinaten erzeugte Listen. Ein Venus-Saturn-Abstand von 96° erscheint bei 8° Orbis als Quadrat, bei 5° dagegen nicht. Er prüft zuerst die Einstellungen und findet keinen Rechenfehler. In seiner Notiz steht nun „6° Abweichung, nur im weiteren Filter enthalten“. Damit kann er später entscheiden, ob dieser Kontakt für seine Fragestellung überhaupt nützlich ist. Er behauptet nicht, dass die Software eine Beziehungseigenschaft ein- oder ausgeschaltet habe."
+        },
+        {
+          "title": "Konjunktion an einer Zeichengrenze",
+          "body": "Lea setzt für eine Rechenübung Merkur auf 29° Stier und Venus auf 1° Zwillinge. Der Abstand beträgt 2°, also ergibt sich nach der vereinbarten Gradregel eine Konjunktion. Die Zeichen unterscheiden sich jedoch. Ihre Deutungsfrage verbindet deshalb zwei Funktionen, ohne ihnen automatisch denselben Ausdrucksstil zuzuschreiben. Eine zeichenbezogene Übersicht würde den Befund anders ordnen. Lea bewahrt beide Beschreibungen und nennt im Gespräch ausdrücklich, welche Methode gerade die Grundlage bildet."
+        }
+      ],
+      "practice": {
+        "prompt": "Prüfe Abstände von 88°, 95° und 97° bei einer Quadratgrenze von einschließlich 5°. Vergleiche danach mit 3° und erläutere den Grenzfall.",
+        "model_answer": "Zum Idealwinkel von 90° betragen die Abweichungen 2°, 5° und 7°. Unter der ersten Regel werden 88° und 95° aufgenommen, 97° jedoch nicht. Das Wort einschließlich bedeutet, dass genau 5° noch innerhalb der Grenze liegen. Mit einer Grenze von 3° bleibt nur der Kontakt bei 88° erhalten. Ich würde den Fall bei 95° als Grenzfall dokumentieren und keine drastische Bedeutungsänderung behaupten, wenn ein anderer Filter ihn nicht zeigt. Für die weitere Arbeit halte ich zunächst die erste Regel fest, statt sie passend zu einer erwünschten Interpretation zu verändern. Außerdem fehlen in dieser Aufgabe die beteiligten Planeten, Häuser und die Genauigkeit der Geburtszeit. Eine persönliche Priorisierung ist deshalb noch nicht möglich. Die Übung prüft zunächst die nachvollziehbare Auswahl anhand einer ausdrücklich gesetzten Konvention. Erst danach würde ich eine begrenzte symbolische Fragestellung ergänzen.",
+        "rubric": [
+          "Alle drei Abweichungen stimmen.",
+          "Die inklusive Grenze wird korrekt behandelt.",
+          "Der zweite Filter wird konsistent angewandt.",
+          "Rechnerische Nähe wird nicht mit bewiesener Wirkung gleichgesetzt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was bedeutet eine inklusive Orbgrenze von 5°?",
+          "options": [
+            "Nur weniger als 5° sind enthalten.",
+            "Jeder Kontakt im gleichen Zeichen ist enthalten.",
+            "Genau 5° sind noch enthalten."
+          ],
+          "correct_index": 2,
+          "explanation": "Inklusive bezeichnet die eingeschlossene Grenze; Zeichenbeziehungen sind eine andere Methode."
+        },
+        {
+          "id": "q2",
+          "question": "Was ist bei 29° Stier und 1° Zwillinge rechnerisch richtig?",
+          "options": [
+            "Der Gradabstand beträgt 2°.",
+            "Der Gradabstand beträgt 28°.",
+            "Verschiedene Zeichen verhindern jeden kleinen Abstand."
+          ],
+          "correct_index": 0,
+          "explanation": "Die Zeichengrenze unterbricht den Kreis nicht: Von 29° Stier bis 1° Zwillinge sind es zwei Grad."
+        },
+        {
+          "id": "q3",
+          "question": "Wie prüfst du, warum eine Linie nach einem Softwarewechsel fehlt?",
+          "options": [
+            "Sofort eine veränderte Persönlichkeit annehmen.",
+            "Zuerst Berechnungsdaten und Orbregeln vergleichen.",
+            "Alle Orben erweitern, bis die Linie erscheint."
+          ],
+          "correct_index": 1,
+          "explanation": "Unterschiedliche Filter können dieselben Koordinaten unterschiedlich darstellen; der methodische Vergleich kommt zuerst."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2021/10/16/aspects-in-astrology-the-five-major-configurations/",
+          "title": "Aspects in Astrology: The Five Major Configurations, Episode 323",
+          "author": "Chris Brennan und Claire Moon",
+          "note": "Originalquelle zur Terminologie der fünf Hauptaspekte und zur Unterscheidung von Zeichen- und Gradbeziehungen. Die Rechenbeispiele, Lernabfolge und Gesprächsübungen sind eigenständig; keine Wiedergabe des Kurses.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-aspekte-03",
+      "title": "Konjunktion: zwei Funktionen am selben Ort",
+      "summary": "Du deutest eine Konjunktion als gemeinsame Fragestellung, ohne die beteiligten Funktionen zu einer einzigen Eigenschaft zu verkürzen.",
+      "objective": "Du deutest eine Konjunktion als gemeinsame Fragestellung, ohne die beteiligten Funktionen zu einer einzigen Eigenschaft zu verkürzen.",
+      "level": "deepening",
+      "minutes": 30,
+      "body": "## Nähe verbindet, erklärt aber noch nicht alles\nBei einer Konjunktion liegen zwei Faktoren nahe derselben ekliptikalen Länge. Der Idealabstand beträgt null Grad. Die geometrische Nähe lässt sich leicht berechnen; die Deutung beginnt erst mit der Frage, welche Funktionen du den beteiligten Faktoren zuschreibst. Eine Verbindung von Merkur und Mars lädt zu anderen Fragen ein als eine von Mond und Saturn. Deshalb ist „Konjunktion bedeutet gut“ oder „Konjunktion bedeutet schwierig“ keine ausreichende Arbeitsregel. Die Form beschreibt eine Verbindung, während die beteiligten Symbole den Inhalt liefern.\n\n## Zwei Verben vor einem Adjektiv\nSchreibe zunächst für jeden Faktor ein Verb auf. Merkur könnte in einer westlichen Symbolsprache für benennen oder vergleichen stehen, Mars für handeln oder durchsetzen. Verbinde diese Tätigkeiten in einem Satz: „Wie werden Gedanken zu einer Handlung?“ Dadurch vermeidest du vorschnelle Personenetiketten wie aggressiv oder brillant. Danach entwickelst du mehrere Möglichkeiten. Eine enge Verbindung von Sprechen und Handeln könnte entschlossenes Argumentieren, schnelles Unterbrechen oder das klare Ansprechen eines Problems anregen. Welche Möglichkeit tatsächlich relevant ist, klärt das Gespräch.\n\n## Zeichen und Haus ergänzen verschiedene Fragen\nDas Zeichen bietet eine Sprache für den Ausdrucksstil; das Haus ordnet einen Lebensbereich zu. Beide Angaben sind Ergänzungen, keine Ersatznamen der Planeten. Eine Konjunktion im dritten Haus kann als Anlass dienen, Kommunikation im Alltag zu untersuchen. Im zehnten Haus könnte die Frage auf öffentliche Aufgaben gerichtet werden. Solche Zuordnungen sind schulabhängige Interpretationen. Bei unbekannter Geburtszeit lässt du die genaue Hausgeschichte offen. Eine schlüssig klingende Erzählung wird nicht zuverlässiger, wenn eine ihrer Grundlagen nur geschätzt ist.\n\n## Gemeinsamkeit kann auch Unterscheidung brauchen\nEine hilfreiche Übung besteht darin, die verbundenen Funktionen absichtlich getrennt zu betrachten. Zuerst darf eine Figur nur informieren, danach nur handeln. Was geht verloren, wenn beides ständig gleichzeitig geschieht? Was wird leichter, wenn zwischen Nachricht und Reaktion eine Pause liegt? Die Übung ist keine astrologische Behandlung. Sie übersetzt eine Symbolverbindung in eine beobachtbare Alltagshandlung. Das Ergebnis kann ebenso lauten, dass die Verbindung im Leben bereits gut differenziert ist und keine zusätzliche Aufgabe braucht.\n\n## Gruppen von Planeten nicht pauschal zählen\nDrei nahe Faktoren bilden mehrere Paare. Wenn A einen Abstand von vier Grad zu B und B wiederum vier Grad zu C hat, können A und C acht Grad auseinanderliegen. Bei einer Fünfgradregel sind deshalb nicht automatisch alle drei paarweise konjunkt. Eine grafische Gruppe ist noch kein vollständiges Netz enger Kontakte. Prüfe die einzelnen Abstände und beschreibe, welcher Faktor die Verbindung vermittelt. Begriffe wie Stellium werden zudem unterschiedlich definiert; verwende sie nur zusammen mit deiner konkreten Definition.\n\n## Einen Gesprächseinstieg formulieren\nAus einer Konjunktion entsteht am besten eine Frage, die beide Funktionen sichtbar hält. „Wann hilft dir deine schnelle Reaktion beim Erklären, und wann möchtest du erst nachdenken?“ ist genauer als „Du bist impulsiv“. Lasse ausdrücklich Raum für Situationen, in denen die vorgeschlagene Verbindung nicht passt. Notiere anschließend die Antwort getrennt von der ursprünglichen Hypothese. So wird die Deutung zu einem untersuchbaren Angebot. Das Lernziel ist nicht, eine möglichst eindrucksvolle Eigenschaft zu erraten, sondern die Beziehung zwischen zwei Symbolen nachvollziehbar und offen zu bearbeiten.",
+      "examples": [
+        {
+          "title": "Leas Workshopfrage",
+          "body": "Für eine fiktive Übung erhält Lea eine Merkur-Mars-Konjunktion im dritten Haus; diese Platzierung ist didaktisch gesetzt. Sie möchte einen Workshop anbieten und bemerkt selbst, dass sie Fragen sehr schnell beantwortet. Marina fragt, wann diese Schnelligkeit hilfreich ist und wann sie Teilnehmenden Denkzeit nimmt. Lea wählt eine kurze Pause nach jeder Frage als Experiment. Die beobachtbare Aufgabe entsteht aus ihrem berichteten Anliegen. Die Konjunktion beweist weder Ungeduld noch eine besondere Lehrbegabung."
+        },
+        {
+          "title": "Eine Kette ist kein vollständiges Dreieck",
+          "body": "In einer zweiten Zeichnung stehen Sonne, Merkur und Venus bei 10°, 14° und 18° desselben Zeichens. Bei höchstens 5° Orbis sind Sonne-Merkur und Merkur-Venus Konjunktionen, Sonne-Venus jedoch nicht. Samir markiert Merkur als mittleren Faktor. Er beschreibt anschließend getrennt die Verbindung von Selbstausdruck und Benennen sowie die von Benennen und Wertschätzen. Das verhindert, dass er aus einer auffälligen Gruppe ohne Rechnung drei gleich enge Beziehungen macht."
+        }
+      ],
+      "practice": {
+        "prompt": "Entwickle für eine didaktische Mond-Saturn-Konjunktion zwei mögliche Alltagsszenen und eine Frage, die weder Kälte noch Angst voraussetzt.",
+        "model_answer": "Ich beginne mit zwei getrennten Funktionen: Der Mond dient hier als Symbol für vertraute Bedürfnisse und alltägliche Reaktionen; Saturn als Symbol für Begrenzung, Verpflichtung und Struktur. In einer ersten Szene schafft eine Person feste Ruhezeiten, die ihr Sicherheit geben. In einer zweiten übernimmt sie viele Pflichten und bemerkt ihre eigenen Bedürfnisse erst spät. Beide Szenen sind Möglichkeiten, keine aus der Konjunktion ermittelten Tatsachen. Meine Frage lautet: „Welche festen Abläufe unterstützen dich, und bei welchen Verpflichtungen wünschst du dir mehr Spielraum?“ Die Antwort könnte auch zeigen, dass die Person weder ein Problem noch ein besonderes Interesse an diesem Thema hat. Dann würde ich keine verborgene Härte behaupten. Für einen nächsten Schritt könnte sie freiwillig eine bestehende Verpflichtung genauer beschreiben und prüfen, ob deren Umfang klar vereinbart ist. Eine solche Aufgabe bewertet konkrete Umstände und lässt die persönliche Bedeutung der Symbole offen.",
+        "rubric": [
+          "Beide Funktionen bleiben unterscheidbar.",
+          "Zwei unterschiedliche Möglichkeiten werden entwickelt.",
+          "Die Frage setzt kein Defizit voraus.",
+          "Die praktische Handlung stammt aus dem Gesprächskontext."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welcher Idealwinkel gehört zur Konjunktion?",
+          "options": [
+            "0°",
+            "60°",
+            "180°"
+          ],
+          "correct_index": 0,
+          "explanation": "Die Konjunktion bezeichnet Nähe auf derselben ekliptikalen Länge."
+        },
+        {
+          "id": "q2",
+          "question": "A–B beträgt 4°, B–C 4°, A–C 8°. Was gilt bei maximal 5°?",
+          "options": [
+            "Alle drei Paare sind gleich eng konjunkt.",
+            "Nur die beiden ersten Paare sind innerhalb der Grenze.",
+            "Keines der Paare kann eine Konjunktion sein."
+          ],
+          "correct_index": 1,
+          "explanation": "Jedes Paar wird einzeln gerechnet; Nähe ist nicht automatisch transitiv."
+        },
+        {
+          "id": "q3",
+          "question": "Welche Frage hält zwei Funktionen offen?",
+          "options": [
+            "Warum bist du immer aggressiv?",
+            "Welcher Planet verhindert deinen Erfolg?",
+            "Wie verbinden sich bei dir Planen und Handeln?"
+          ],
+          "correct_index": 2,
+          "explanation": "Die Frage nach Planen und Handeln untersucht eine Beziehung zwischen Funktionen und setzt keine feste Eigenschaft voraus."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2021/10/16/aspects-in-astrology-the-five-major-configurations/",
+          "title": "Aspects in Astrology: The Five Major Configurations, Episode 323",
+          "author": "Chris Brennan und Claire Moon",
+          "note": "Originalquelle zur Terminologie der fünf Hauptaspekte und zur Unterscheidung von Zeichen- und Gradbeziehungen. Die Rechenbeispiele, Lernabfolge und Gesprächsübungen sind eigenständig; keine Wiedergabe des Kurses.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-aspekte-04",
+      "title": "Opposition: zwei Pole in ein Gespräch bringen",
+      "summary": "Du erkennst eine Opposition rechnerisch und entwickelst eine Deutung, die beiden Seiten Platz lässt.",
+      "objective": "Du erkennst eine Opposition rechnerisch und entwickelst eine Deutung, die beiden Seiten Platz lässt.",
+      "level": "deepening",
+      "minutes": 30,
+      "body": "## Der Halbkreis als geometrischer Ausgangspunkt\nDie Opposition hat einen Idealabstand von hundertachtzig Grad. Zwei Punkte stehen sich im Tierkreis gegenüber. Bei einer Abweichung von zwei Grad kann der kleinere Abstand hundertachtundsiebzig Grad betragen. Ein direkter Vorwärtsweg von hundertzweiundachtzig Grad beschreibt dieselbe Nähe zur Opposition; nach der Umrechnung auf den kleineren Abstand bleiben hundertachtundsiebzig. Die Richtung des Weges ist für diese einfache Klassifikation unerheblich. Für Bewegungsfragen brauchst du später zusätzliche Angaben über Geschwindigkeit und Zeit.\n\n## Eine Polarität ist mehr als ein Streit\nIn einer modernen symbolischen Lesart bietet die Opposition ein Bild für zwei unterschiedliche Bedürfnisse oder Perspektiven. Häufig wird sie vorschnell als Konflikt mit einem anderen Menschen erzählt. Doch beide Seiten können innerhalb derselben Person auftreten, in verschiedenen Situationen abwechseln oder bereits gut miteinander verbunden sein. Eine Venus-Uranus-Opposition könnte beispielsweise als Frage nach Verbindlichkeit und Spielraum gelesen werden. Sie beweist keine Trennung, Untreue oder Bindungsunfähigkeit. Die gewählte Lesart muss beide Funktionen ernst nehmen, statt eine Seite zum Problem zu erklären.\n\n## Die Achse gemeinsam benennen\nBei einer Zeichenopposition liegen die Faktoren häufig in Zeichen derselben Modalität und komplementärer Elementgruppen. Für die praktische Gesprächsarbeit ist es hilfreicher, das gemeinsame Thema der Achse zu suchen als bloß Gegensätze aufzulisten. Eigene Initiative und Abstimmung mit anderen können beide zum Thema Entscheidung gehören. Privatleben und öffentliche Verantwortung können beide mit Zugehörigkeit und Verlässlichkeit zu tun haben. Diese gemeinsame Frage bietet eine Brücke. Die Zeichenbezeichnungen selbst sind noch keine Erklärung eines tatsächlichen Konflikts.\n\n## Nicht jedes Gegenüber ist eine Projektion\nPsychologische Deutungen verwenden manchmal den Begriff Projektion: Eine eigene Möglichkeit wird vor allem an anderen wahrgenommen. Als Reflexionsfrage kann das interessant sein. Es wäre jedoch unzulässig, daraus zu folgern, dass jedes berichtete Fehlverhalten eines Gegenübers nur im Inneren der ratsuchenden Person liege. Frage nach konkreten Situationen und beobachtbaren Handlungen. Eine Person darf reale Grenzen setzen, auch wenn eine symbolische Betrachtung zusätzliche Perspektiven anbietet. Der Horoskopkontakt ersetzt keine Prüfung dessen, was zwischen Menschen tatsächlich geschieht.\n\n## Mit zwei Stühlen ohne Rollenfestlegung arbeiten\nDu kannst zwei Spalten statt einer fertigen Diagnose verwenden. Links steht, was die erste Funktion braucht; rechts, was die zweite benötigt. Schreibe danach eine dritte Zeile: Welche Vereinbarung könnte beiden teilweise gerecht werden? Für Nähe und Freiraum wäre das etwa ein verlässlicher gemeinsamer Termin neben ausdrücklich eigener Zeit. Diese Vereinbarung ist ein freiwilliges Alltagsexperiment. Sie muss nicht astrologisch begründet werden und kann unabhängig vom Radix auf ihre praktische Tauglichkeit geprüft werden. Ein Kompromiss ist außerdem nicht immer angemessen; manche Grenzen sind nicht verhandelbar.\n\n## Den Erfolg konkret überprüfen\nNach einer Woche fragt die Person nicht, ob sie ihre Opposition überwunden hat. Sie prüft, ob die Vereinbarung verständlich war, ob sie eingehalten wurde und ob sich dadurch etwas im Alltag verbessert hat. Falls nicht, wird die Vereinbarung verändert. Die Symbole können zur Reflexion anregen, sollen aber nicht zum dauerhaften Etikett werden. In deiner Dokumentation stehen deshalb die beiden vorgeschlagenen Themen, die tatsächliche Rückmeldung und die gewählte Handlung getrennt. So bleibt die Deutung beweglich und das Urteil über das eigene Leben bei der Person.",
+      "examples": [
+        {
+          "title": "Samirs Zeitvereinbarung",
+          "body": "Samir beschreibt im fiktiven Fall den Wunsch nach gemeinsamen Abenden und zugleich nach ungestörter eigener Zeit. Die Übung setzt dafür eine Venus-Uranus-Opposition an, ohne einen realen Radix zu behaupten. Marina bittet ihn, für beide Wünsche einen konkreten Satz zu schreiben. Er schlägt einen festen gemeinsamen Abend und einen frei gestalteten Abend vor. Entscheidend wird die Zustimmung seiner Partnerperson. Die Symbolik kann das Thema ordnen, aber sie erteilt keine einseitige Erlaubnis, Vereinbarungen zu brechen."
+        },
+        {
+          "title": "Beruf und Rückzug",
+          "body": "Lea sieht in einer didaktisch gesetzten Opposition zwischen einem Faktor im vierten und einem im zehnten Haus zunächst nur die Frage „Familie oder Beruf?“. Beim genaueren Gespräch merkt sie, dass sie ihre Arbeitszeiten vorhersehbarer machen möchte. Sie braucht keine endgültige Entscheidung gegen einen Lebensbereich. Die neue Frage lautet, welche zeitlichen Grenzen beide Bereiche schützen. Das Beispiel zeigt, dass eine Opposition nicht zwangsläufig eine unvereinbare Entweder-oder-Situation beschreibt, sondern auch zu besserer Abstimmung anregen kann."
+        }
+      ],
+      "practice": {
+        "prompt": "Formuliere für eine didaktische Sonne-Mond-Opposition eine gemeinsame Achsenfrage, zwei gleichberechtigte Bedürfnisse und eine konkrete Wochenvereinbarung.",
+        "model_answer": "Als gemeinsame Frage würde ich untersuchen, wie bewusst gewählte Vorhaben und alltägliche Bedürfnisse zusammenpassen. Die Sonne verwende ich hier als Symbol für Gestaltung und bewusste Ausrichtung, den Mond für vertraute Abläufe und subjektives Wohlbefinden. Ein Bedürfnis könnte sein, ein eigenes Projekt sichtbar voranzubringen. Das andere könnte verlässliche Erholung am Abend betreffen. Meine Wochenvereinbarung lautet: An zwei vorher bestimmten Nachmittagen erhält das Projekt einen begrenzten Arbeitsblock; danach wird eine ausdrücklich freie Zeit eingeplant. Ob diese Einteilung passt, entscheidet die Person anhand ihrer tatsächlichen Verpflichtungen. Ich würde nicht behaupten, dass Sonne und Mond einen inneren Krieg verursachen. Bei der Auswertung werden Arbeitsfortschritt, Erholung und unerwartete Hindernisse besprochen. Falls die Vereinbarung nicht funktioniert, ändern wir Umfang oder Zeitpunkt. Die Opposition bleibt eine gewählte Denkfigur und wird nicht zum Beweis, dass die Person grundsätzlich widersprüchlich oder unfähig zu klaren Entscheidungen sei.",
+        "rubric": [
+          "Die geometrische oder symbolische Achse wird klar benannt.",
+          "Beide Bedürfnisse werden respektvoll formuliert.",
+          "Die Vereinbarung ist konkret überprüfbar.",
+          "Reale Grenzen werden nicht als bloße Projektion entwertet."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welcher kleinere Abstand liegt 2° von einer Opposition entfernt?",
+          "options": [
+            "92°",
+            "178°",
+            "182°"
+          ],
+          "correct_index": 1,
+          "explanation": "Der kleinere Kreisabstand ist höchstens 180°; 178° weicht um zwei Grad davon ab."
+        },
+        {
+          "id": "q2",
+          "question": "Was sollte eine erste Oppositionsdeutung leisten?",
+          "options": [
+            "Eine Seite als falsch festlegen.",
+            "Eine unvermeidliche Trennung vorhersagen.",
+            "Beide beteiligten Funktionen und eine gemeinsame Frage sichtbar machen."
+          ],
+          "correct_index": 2,
+          "explanation": "Die Polarität wird als untersuchbare Beziehung beschrieben, nicht als fertiges Urteil."
+        },
+        {
+          "id": "q3",
+          "question": "Was folgt aus dem Begriff Projektion?",
+          "options": [
+            "Eine mögliche Reflexionsfrage, kein Beweis gegen berichtete Ereignisse.",
+            "Dass äußere Grenzverletzungen immer eingebildet sind.",
+            "Dass die andere Person keine Verantwortung trägt."
+          ],
+          "correct_index": 0,
+          "explanation": "Ein psychologischer Begriff ersetzt keine Prüfung konkreter Handlungen und Verantwortlichkeiten."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2021/10/16/aspects-in-astrology-the-five-major-configurations/",
+          "title": "Aspects in Astrology: The Five Major Configurations, Episode 323",
+          "author": "Chris Brennan und Claire Moon",
+          "note": "Originalquelle zur Terminologie der fünf Hauptaspekte und zur Unterscheidung von Zeichen- und Gradbeziehungen. Die Rechenbeispiele, Lernabfolge und Gesprächsübungen sind eigenständig; keine Wiedergabe des Kurses.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-aspekte-05",
+      "title": "Quadrat: Spannung in eine bearbeitbare Aufgabe übersetzen",
+      "summary": "Du verbindest die Geometrie des Quadrats mit konkreten Handlungsfragen, ohne Schwierigkeit als Schicksal festzuschreiben.",
+      "objective": "Du verbindest die Geometrie des Quadrats mit konkreten Handlungsfragen, ohne Schwierigkeit als Schicksal festzuschreiben.",
+      "level": "deepening",
+      "minutes": 30,
+      "body": "## Neunzig Grad bilden den Rahmen\nEin Quadrat entspricht einem Viertelkreis und hat den Idealwinkel neunzig Grad. Ein tatsächlicher Abstand von siebenundachtzig Grad weicht um drei Grad davon ab. Das Quadrat ist deshalb zunächst eine geometrische Beziehung. In der westlichen Deutung wird es häufig mit Reibung oder Anpassungsbedarf verbunden. Diese Konvention sagt noch nicht, welches konkrete Problem ein Mensch erlebt. Auch der Begriff Spannung muss übersetzt werden: Geht es um konkurrierende Termine, unterschiedliche Erwartungen, einen inneren Widerspruch oder lediglich um eine interessante theoretische Frage?\n\n## Die beiden Funktionen einzeln verstehen\nNimm als Übung Merkur und Saturn. Merkur kann für Benennen, Unterscheiden und Austausch stehen; Saturn für Regeln, Begrenzung und langfristige Verantwortung. Eine vorschnelle Deutung würde daraus mangelnde Intelligenz oder ständige Angst machen. Eine genauere Frage untersucht, wann sorgfältige Prüfung das Sprechen unterstützt und wann sie es unnötig verzögert. Dieselbe Symbolverbindung kann zu einer Ressource oder einer Belastung passen. Das Gespräch muss zeigen, welche Situation überhaupt vorliegt. Ein geometrischer Kontakt misst weder Denkfähigkeit noch psychische Gesundheit.\n\n## Reibung braucht eine konkrete Szene\nBitte um ein Beispiel aus der vergangenen Woche. Wer war beteiligt, was sollte geschehen, was wurde tatsächlich gesagt und was blieb offen? Diese Fragen machen aus einem allgemeinen Etikett eine untersuchbare Situation. „Ich bin blockiert“ kann bedeuten, dass eine Information fehlt, dass eine Frist unrealistisch ist oder dass die Person ihren Text fünfmal überarbeitet. Je nach Ursache braucht es einen anderen nächsten Schritt. Astrologische Wörter dürfen diese Unterschiede nicht verdecken. Die Handlung wird aus der Szene abgeleitet, nicht aus einer Liste vermeintlicher Planeteneigenschaften.\n\n## Drei Arten von Veränderung unterscheiden\nManchmal hilft eine neue Fähigkeit, beispielsweise eine klare Bitte zu formulieren. Manchmal braucht es eine äußere Vereinbarung, etwa eine realistische Abgabefrist. Manchmal ist eine Grenze nötig: Eine Aufgabe wird abgelehnt oder in ihrem Umfang reduziert. Diese Möglichkeiten lassen sich nicht durch positives Denken gegeneinander austauschen. Frage deshalb, was im Einflussbereich der Person liegt und was nicht. Ein Quadrat als Symbol für Entwicklung darf nicht zur Aufforderung werden, jede Belastung allein auszuhalten oder sich für ungünstige Umstände verantwortlich zu machen.\n\n## Unterstützung gehört in dieselbe Analyse\nSuche im Horoskop nicht ausschließlich nach weiteren Spannungsbildern. Ein anderer Kontakt kann eine alternative Frage anregen, etwa nach Zusammenarbeit, Übung oder bereits vorhandenen Routinen. Noch wichtiger sind tatsächlich berichtete Ressourcen: eine hilfreiche Kollegin, freie Zeit, Erfahrung oder ein klarer Arbeitsauftrag. Diese Angaben haben ihre eigene Herkunft und müssen nicht im Radix bestätigt werden. Eine gute Synthese hält astrologische Anregung und praktische Lebensinformation zusammen, ohne beides zu verwechseln. Das Ziel ist ein verständlicher nächster Versuch, kein möglichst dramatisches Gesamtbild.\n\n## Eine Aufgabe klein genug machen\nFormuliere die Aufgabe so, dass sie innerhalb einer Woche ausprobiert werden kann. Statt „Lerne, dich auszudrücken“ lautet sie beispielsweise „Schicke einen Entwurf nach einer Korrekturrunde an eine vereinbarte Person“. Lege vorher fest, woran die Person den Nutzen erkennen möchte. Vielleicht ist das weniger Zeitverlust, vielleicht eine klarere Rückmeldung. Auch ein erfolgloser Versuch liefert Informationen. Er beweist weder eine schlechte Konstellation noch mangelnde Entwicklung. Diese konkrete Arbeitsweise macht aus dem Quadrat eine begrenzte Reflexionshilfe, ohne eine nachgewiesene Ursache für menschliches Verhalten zu behaupten.",
+      "examples": [
+        {
+          "title": "Der endlose Entwurf",
+          "body": "Lea berichtet im fiktiven Workshopfall, dass sie ihren Einladungstext immer wieder überarbeitet. Eine didaktische Merkur-Saturn-Spannung dient als Gesprächsanlass. Marina fragt nach dem tatsächlichen Ablauf und erfährt, dass keine maximale Länge vereinbart wurde. Lea setzt daraufhin eine Wortgrenze und eine Korrekturrunde fest. Der nächste Schritt betrifft somit den Arbeitsprozess. Das Beispiel wäre schlecht bearbeitet, wenn Marina nur „Du hast Angst vor Kritik“ behauptete und die fehlende Aufgabenklärung übersähe."
+        },
+        {
+          "title": "Unterschiedliche Geschwindigkeiten",
+          "body": "Samir beschreibt, dass er Entscheidungen schnell treffen möchte, während eine Kollegin zuerst Unterlagen prüft. Für die Übung wird ein Mars-Saturn-Quadrat als Denkbild verwendet. Beide Arbeitsweisen können einen Zweck haben. Samir vereinbart, welche Entscheidungen er selbst treffen darf und wann eine Prüfung erforderlich ist. Die Lösung besteht nicht darin, die Kollegin als Saturnhindernis zu etikettieren. Sie entsteht durch Zuständigkeit und Zeitrahmen. Ob diese Vereinbarung hilft, lässt sich später unabhängig von astrologischen Überzeugungen beobachten."
+        }
+      ],
+      "practice": {
+        "prompt": "Bearbeite die Aussage „Mein Mars-Saturn-Quadrat hält mich von allem ab“. Entwickle zwei alternative Erklärungen für eine konkrete Verzögerung und eine überprüfbare Aufgabe.",
+        "model_answer": "Ich würde zunächst nach einer einzelnen verzögerten Handlung fragen. Angenommen, die Person möchte einen Workshop veröffentlichen, hat aber weder einen Raum bestätigt noch die benötigte Teilnehmerzahl festgelegt. Eine erste Erklärung wäre eine reale organisatorische Abhängigkeit: Ohne Raumzusage kann die Einladung noch nicht fertig werden. Eine zweite wäre ein unklarer eigener Maßstab, durch den immer neue Vorbereitungen hinzukommen. Beide Erklärungen lassen sich prüfen und müssen nicht aus dem Aspekt abgeleitet werden. Als Aufgabe könnte die Person bis Donnerstag eine Raumoption schriftlich bestätigen lassen und anschließend eine kurze Liste mit wirklich notwendigen Veröffentlichungsschritten erstellen. Mars und Saturn können dabei als Symbole für Initiative und Begrenzung dienen. Ich würde aber nicht sagen, dass sie die Verzögerung verursachen. Bei der Auswertung prüfen wir die tatsächlichen Ergebnisse und ändern den Plan bei Bedarf. Das Ziel ist eine handhabbare Entscheidung statt einer umfassenden Aussage über das ganze Leben.",
+        "rubric": [
+          "Eine konkrete Situation ersetzt das globale Etikett.",
+          "Mindestens zwei prüfbare Erklärungen werden angeboten.",
+          "Die Aufgabe hat einen klaren Umfang und Zeitpunkt.",
+          "Der Aspekt wird nicht als bewiesene Ursache behandelt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welcher Idealwinkel gehört zum Quadrat?",
+          "options": [
+            "120°",
+            "150°",
+            "90°"
+          ],
+          "correct_index": 2,
+          "explanation": "Ein Quadrat entspricht der Viertelung des Kreises."
+        },
+        {
+          "id": "q2",
+          "question": "Was ist die beste erste Rückfrage bei „Ich bin blockiert“?",
+          "options": [
+            "Bei welcher konkreten Handlung in der letzten Woche?",
+            "Welcher Planet ist schuld?",
+            "Warum entwickelst du dich nicht?"
+          ],
+          "correct_index": 0,
+          "explanation": "Eine konkrete Szene macht Ursachen und Handlungsmöglichkeiten unterscheidbar."
+        },
+        {
+          "id": "q3",
+          "question": "Welcher nächste Schritt ist überprüfbar?",
+          "options": [
+            "Alle inneren Spannungen auflösen.",
+            "Einen Entwurf nach einer vereinbarten Korrekturrunde verschicken.",
+            "Den Planeten positiv stimmen."
+          ],
+          "correct_index": 1,
+          "explanation": "Einen Entwurf nach einer vereinbarten Korrekturrunde zu verschicken hat einen klaren Umfang und ein beobachtbares Ergebnis."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2021/10/16/aspects-in-astrology-the-five-major-configurations/",
+          "title": "Aspects in Astrology: The Five Major Configurations, Episode 323",
+          "author": "Chris Brennan und Claire Moon",
+          "note": "Originalquelle zur Terminologie der fünf Hauptaspekte und zur Unterscheidung von Zeichen- und Gradbeziehungen. Die Rechenbeispiele, Lernabfolge und Gesprächsübungen sind eigenständig; keine Wiedergabe des Kurses.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-aspekte-06",
+      "title": "Trigon: Leichtigkeit erkennen und bewusst nutzen",
+      "summary": "Du unterscheidest eine symbolisch leichte Verbindung von einer tatsächlich geübten Fähigkeit und entwickelst eine konkrete Anwendung.",
+      "objective": "Du unterscheidest eine symbolisch leichte Verbindung von einer tatsächlich geübten Fähigkeit und entwickelst eine konkrete Anwendung.",
+      "level": "deepening",
+      "minutes": 30,
+      "body": "## Ein Drittelkreis mit mehreren Lesarten\nDas Trigon hat einen Idealwinkel von hundertzwanzig Grad. Drei exakte Trigone können einen Kreis in drei gleiche Teile gliedern. Bei zeichenbezogener Betrachtung verbinden Trigone Zeichen desselben Elements. In gradbezogenen Grenzfällen können die Zeichenbezeichnungen jedoch anders ausfallen; deshalb rechnest du immer zuerst und benennst deine Methode. Die verbreitete Deutung als Leichtigkeit oder Unterstützung ist eine astrologische Konvention. Sie ist keine Messung von Talent und keine Garantie dafür, dass eine Person eine bestimmte Tätigkeit bereits gut beherrscht.\n\n## Leicht verfügbar ist nicht automatisch ausgeübt\nEine Person kann gern schreiben und trotzdem noch keinen verständlichen Workshoptext verfasst haben. Freude an einer Tätigkeit, Zugang zu einer Möglichkeit und nachweisbare Fertigkeit sind verschiedene Dinge. Wenn du ein Trigon besprichst, frage deshalb nach konkreten Erfahrungen. Was gelingt ohne große Vorbereitung? Woran merken andere den Nutzen? Was wurde tatsächlich geübt? Eine Ressource wird greifbar, wenn sie sich an einer Situation zeigen lässt. Die bloße Aussage „Du hast ein Talent“ kann angenehm klingen, hilft aber wenig bei der nächsten Entscheidung.\n\n## Vertraute Wege können auch bequem werden\nEine leichte Verbindung kann als Bild für Gewohnheit dienen. Was immer schnell funktioniert, wird manchmal weiter benutzt, obwohl eine andere Vorgehensweise besser zum aktuellen Anliegen passen würde. Eine Person erklärt beispielsweise alles ausführlich, obwohl gerade eine knappe Entscheidung gefragt ist. Das bedeutet nicht, dass das Trigon plötzlich negativ geworden wäre. Es zeigt, dass jede Fähigkeit einen passenden Kontext braucht. Frage daher auch, wann die vertraute Stärke zu viel Raum einnimmt und welche ergänzende Fähigkeit dann nützlich wäre.\n\n## Die beteiligten Funktionen bleiben wichtig\nEin Merkur-Jupiter-Trigon könnte in einer gewählten westlichen Symbolsprache zu Fragen nach dem Verhältnis von Einzelinformation und Überblick anregen. Ein Mond-Venus-Trigon würde andere Themen nahelegen, beispielsweise Gewohnheit und Wertschätzung. Diese Bilder ersetzen keine Beobachtung. Entwickle zu jedem Kontakt einen Satz mit zwei Tätigkeiten und anschließend eine reale Anwendung. Bei Merkur und Jupiter könnte das sein, ein umfangreiches Thema in drei verständliche Kernaussagen zu übersetzen. Danach lässt sich durch Rückmeldung prüfen, ob die Erklärung tatsächlich verständlich geworden ist.\n\n## Ressourcen nicht mit Anstrengungsvermeidung verwechseln\nEine hilfreiche Ressource kann gerade darin bestehen, eine schwierige Aufgabe länger auszuhalten oder passende Unterstützung zu suchen. Leichtigkeit bedeutet nicht, dass kein Aufwand nötig ist. Wenn Marina eine Begabung anspricht, sollte sie auch fragen, welche Übung und welche Bedingungen sie bisher unterstützt haben. So würdigt sie die tatsächlich geleistete Arbeit, statt jeden Erfolg dem Horoskop zuzuschreiben. Umgekehrt darf fehlende Übung nicht als verschwendetes astrologisches Geschenk moralisiert werden. Menschen haben unterschiedliche Möglichkeiten, Zeit und Prioritäten.\n\n## Ein kleines Anwendungsprojekt entwerfen\nWähle eine bereits berichtete Stärke und verbinde sie mit einem aktuellen Ziel. Beschreibe das Ergebnis so, dass eine andere Person es anschauen oder hören kann: eine kurze Erklärung, ein geordnetes Arbeitsblatt oder eine nachvollziehbare Einladung. Bitte anschließend um konkrete Rückmeldung zu Verständlichkeit, Nutzen und offenen Fragen. In der Dokumentation trennst du die symbolische Anregung von der beobachteten Leistung. Das Trigon kann zum Blick auf Ressourcen einladen. Die Qualität des entstandenen Ergebnisses wird jedoch an seiner tatsächlichen Wirkung im gewählten Kontext geprüft.",
+      "examples": [
+        {
+          "title": "Überblick für einen Workshop",
+          "body": "Lea erhält im fiktiven Übungsradix ein Merkur-Jupiter-Trigon. Statt ihr pauschal eine Lehrerinnenbegabung zuzuschreiben, bittet Marina sie, ihr Workshopthema in drei Sätzen zu erklären. Eine Testleserin versteht zwei Sätze, beim dritten fehlen Beispiele. Lea ergänzt ein konkretes Alltagsszenario. So entsteht aus einer möglichen Ressourcendeutung eine sichtbare Übung. Das Trigon erklärt nicht, warum die ersten Sätze gelungen sind, und es ersetzt auch nicht die Rückmeldung zur Verständlichkeit."
+        },
+        {
+          "title": "Eine angenehme Gewohnheit prüfen",
+          "body": "Samir beschreibt, dass er bei Spannungen schnell eine freundliche Atmosphäre herstellen kann. Ein didaktisches Mond-Venus-Trigon dient als Reflexionsbild. Diese Fähigkeit kann Zusammenarbeit erleichtern; sie kann aber auch dazu führen, dass ein offenes Sachproblem zu früh übergangen wird. Samir übt deshalb, zuerst die Stimmung anzuerkennen und anschließend eine konkrete offene Frage zu stellen. Das Beispiel untersucht den Einsatz einer berichteten Stärke. Es macht weder Freundlichkeit noch Konfliktvermeidung zu einer unveränderlichen Eigenschaft seines Horoskops."
+        }
+      ],
+      "practice": {
+        "prompt": "Entwickle für ein didaktisches Merkur-Jupiter-Trigon eine Ressourcenfrage, ein kleines Lernprodukt und zwei Kriterien zur Prüfung seiner Verständlichkeit.",
+        "model_answer": "Meine Ressourcenfrage lautet: „Bei welchen Themen gelingt es dir, Einzelheiten zu einem verständlichen Überblick zu verbinden?“ Ich würde nach einem konkreten Beispiel fragen, statt eine Begabung vorauszusetzen. Als Lernprodukt schlage ich eine halbe Seite vor, auf der die Person ein selbst gewähltes Thema mit drei Kernaussagen und einem eigenen Beispiel erklärt. Das erste Prüfkriterium ist, ob eine Testleserin die Hauptaussage mit eigenen Worten wiedergeben kann. Das zweite ist, ob sie erkennen kann, welche Handlung oder Entscheidung aus der Erklärung folgen soll. Wenn die Rückmeldung unklar ausfällt, wird der Text überarbeitet. Die astrologische Verbindung liefert hier eine mögliche Fragestellung, aber die Qualität des Produkts wird direkt geprüft. Ich würde außerdem nach Zeit, Übung und Unterstützung fragen, damit die tatsächliche Arbeit der Person sichtbar bleibt. Ein angenehmes Gefühl beim Schreiben ist noch kein ausreichender Nachweis, dass die Erklärung für andere verständlich ist.",
+        "rubric": [
+          "Die Ressourcenfrage verlangt ein konkretes Beispiel.",
+          "Das Lernprodukt ist überschaubar und sichtbar.",
+          "Zwei praktische Prüfkriterien sind genannt.",
+          "Talent, Übung und Ergebnis werden unterschieden."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welcher Idealwinkel gehört zum Trigon?",
+          "options": [
+            "120°",
+            "60°",
+            "180°"
+          ],
+          "correct_index": 0,
+          "explanation": "Ein Trigon entspricht einem Drittel des Kreises."
+        },
+        {
+          "id": "q2",
+          "question": "Was unterscheidet eine Ressource von einer bloßen Zuschreibung?",
+          "options": [
+            "Sie klingt besonders positiv.",
+            "Eine konkrete Erfahrung oder Anwendung kann beschrieben werden.",
+            "Sie braucht grundsätzlich keine Übung."
+          ],
+          "correct_index": 1,
+          "explanation": "Eine Ressource wird greifbar, wenn ihre Nutzung in einer Situation nachvollziehbar ist."
+        },
+        {
+          "id": "q3",
+          "question": "Wie wird ein Lernprodukt sinnvoll geprüft?",
+          "options": [
+            "Durch die Zahl harmonischer Linien im Radix.",
+            "Durch die Zustimmung zur astrologischen Deutung.",
+            "Durch konkrete Rückmeldung zur Verständlichkeit."
+          ],
+          "correct_index": 2,
+          "explanation": "Die Qualität des Produkts lässt sich am Produkt prüfen, unabhängig von der Symbolik."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2021/10/16/aspects-in-astrology-the-five-major-configurations/",
+          "title": "Aspects in Astrology: The Five Major Configurations, Episode 323",
+          "author": "Chris Brennan und Claire Moon",
+          "note": "Originalquelle zur Terminologie der fünf Hauptaspekte und zur Unterscheidung von Zeichen- und Gradbeziehungen. Die Rechenbeispiele, Lernabfolge und Gesprächsübungen sind eigenständig; keine Wiedergabe des Kurses.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-aspekte-07",
+      "title": "Sextil: eine Möglichkeit braucht eine konkrete Nutzung",
+      "summary": "Du erkennst das Sextil und formulierst eine freiwillige Handlung, die zwei unterschiedliche Fähigkeiten zusammenbringt.",
+      "objective": "Du erkennst das Sextil und formulierst eine freiwillige Handlung, die zwei unterschiedliche Fähigkeiten zusammenbringt.",
+      "level": "deepening",
+      "minutes": 30,
+      "body": "## Sechzig Grad als Verbindung\nDas Sextil hat einen Idealabstand von sechzig Grad. In einer einfachen Kreiszeichnung entspricht es einem Sechstel des gesamten Umfangs. Bei einer zeichenbezogenen Betrachtung verbinden sich beispielsweise Widder und Zwillinge oder Stier und Krebs. Die gradbezogene Methode prüft dagegen die tatsächlichen Längen und eine gewählte Orbgrenze. Ein Abstand von vierundsechzig Grad liegt vier Grad vom Ideal entfernt. Diese Rechnung sagt noch nichts darüber, ob eine Gelegenheit im Leben vorhanden ist oder genutzt wird. Das bleibt eine gesonderte Frage.\n\n## Unterschiedliche Funktionen können sich ergänzen\nIn modernen Lesarten wird das Sextil häufig als unterstützende Verbindung oder Möglichkeit beschrieben. Für die Praxis ist es sinnvoll, das Wort Möglichkeit in zwei konkrete Tätigkeiten zu übersetzen. Merkur und Venus könnten zum Beispiel für verständliches Benennen und wertschätzende Auswahl stehen. Daraus könnte eine Aufgabe entstehen, eine Einladung zugleich klar und freundlich zu formulieren. Ein solcher Vorschlag ist nachvollziehbarer als die pauschale Aussage, jemand habe Glück. Er zeigt außerdem, welche Leistung tatsächlich geübt werden soll und welches Ergebnis später betrachtet werden kann.\n\n## Gelegenheit und Zugang nicht verwechseln\nEine Person kann Interesse und Fähigkeiten besitzen, aber wenig Zeit, Geld oder Unterstützung haben. Eine symbolisch unterstützende Verbindung beseitigt diese Bedingungen nicht. Frage deshalb nach dem tatsächlichen Zugang zur vorgeschlagenen Tätigkeit. Kann Lea einen Workshopraum kostenlos testen? Hat Samir jemanden, mit dem er eine Gesprächsübung durchführen möchte? Wenn die Voraussetzung fehlt, wird die Aufgabe angepasst. Aus einem nicht genutzten Sextil darf kein Vorwurf entstehen. Die Deutung soll Möglichkeiten sichtbar machen, ohne strukturelle oder persönliche Grenzen als mangelnden Willen zu erklären.\n\n## Einen ersten Schritt von einem großen Ziel trennen\nDas Ziel könnte lauten, eine verständliche Angebotsseite zu erstellen. Ein erster Schritt wäre, drei mögliche Überschriften zu schreiben und eine Person nach ihrem Verständnis zu fragen. Der Schritt benötigt noch keine fertige Website und keine langfristige Selbstverpflichtung. Diese Unterscheidung macht die Übung zugänglich. Sie erlaubt auch, nach dem Versuch zu entscheiden, dass eine andere Richtung sinnvoller ist. Ein Aspekt liefert keine Pflicht, eine bestimmte Fähigkeit auszubauen. Die Auswahl bleibt bei der lernenden Person.\n\n## Die Ergänzung sichtbar machen\nPrüfe bei deinem Entwurf, ob tatsächlich beide Funktionen vorkommen. Ein Text, der nur freundlich klingt, aber keine Information enthält, nutzt das gewählte Merkur-Venus-Bild nur halb. Ein Text mit allen Details, aber unverständlicher Ansprache, könnte ebenfalls überarbeitet werden. Schreibe deshalb zwei getrennte Prüffragen: Was erfährt die Leserin? Wie wird sie angesprochen? Erst danach folgt eine Gesamtbewertung. Diese Vorgehensweise ist auf viele Kombinationen übertragbar, ohne jedem Kontakt dieselbe Bedeutung zu geben. Die konkreten Tätigkeiten müssen jeweils neu bestimmt werden.\n\n## Rückmeldung ist der eigentliche Lerngewinn\nNach dem Versuch wird festgehalten, was leichter war als erwartet und welche zusätzliche Hilfe nötig wurde. Vielleicht war die Idee gut, aber der Umfang zu groß. Vielleicht brauchte die Person ein Beispiel oder einen klareren Zeitrahmen. Solche Rückmeldungen sind nützlicher als die Frage, ob der Aspekt funktioniert hat. Die Symbolsprache hat eine mögliche Verbindung angeboten; die Übung liefert Informationen über eine wirkliche Tätigkeit. Wer beides trennt, kann Anregungen nutzen und zugleich unpassende Vorschläge ohne Gesichtsverlust verwerfen.",
+      "examples": [
+        {
+          "title": "Eine Einladung in zwei Fassungen",
+          "body": "Lea arbeitet im fiktiven Workshopfall mit einem didaktisch gesetzten Merkur-Venus-Sextil. Sie schreibt zunächst eine sachliche Einladung mit Ort, Zeit und Inhalt. Danach überarbeitet sie die Ansprache, ohne die Informationen zu verlieren. Eine Testleserin prüft, ob sie das Angebot versteht und sich respektvoll angesprochen fühlt. Die Aufgabe verbindet zwei Tätigkeiten und erzeugt ein sichtbares Ergebnis. Ob die Einladung später zu Buchungen führt, bleibt offen und wird nicht aus dem Sextil vorhergesagt."
+        },
+        {
+          "title": "Ein kleiner Versuch statt einer Pflicht",
+          "body": "Samir möchte besser zuhören, hat aber gerade keine Zeit für einen langen Kurs. Eine symbolische Verbindung von Aufmerksamkeit und Austausch wird deshalb in eine kurze Übung übersetzt: In einem freiwilligen Gespräch fasst er einmal zusammen, was er verstanden hat, und fragt nach einer Korrektur. Die andere Person kann die Übung ablehnen. Der Nutzen wird an der Rückmeldung geprüft. Samir muss nicht beweisen, dass er eine astrologische Gelegenheit erkannt oder ausreichend genutzt hat."
+        }
+      ],
+      "practice": {
+        "prompt": "Entwirf für ein didaktisches Venus-Mars-Sextil eine kleine Übung, die Wertschätzung und klare Initiative verbindet. Nenne eine Voraussetzung und eine Abbruchmöglichkeit.",
+        "model_answer": "Ich verwende Venus als Symbol für Wertschätzung und Auswahl, Mars für Initiative und klare Handlung. Eine passende Übung wäre, eine konkrete gemeinsame Aktivität vorzuschlagen und zugleich nach der tatsächlichen Zustimmung des Gegenübers zu fragen. Der Satz könnte lauten: „Ich würde am Samstag gern mit dir spazieren gehen. Passt dir das, oder möchtest du etwas anderes?“ Die Voraussetzung ist ein freiwilliger Kontakt, in dem eine solche Einladung angemessen ist. Ein Nein wird akzeptiert und nicht als Aufforderung verstanden, überzeugender zu werden. Als Rückmeldung prüft die Person, ob ihr Wunsch verständlich war und ob sie die Antwort wirklich offen gelassen hat. Die Übung benötigt keine Annahme über besondere Anziehungskraft. Sie verbindet zwei beobachtbare Gesprächshandlungen. Wenn das Gegenüber nicht teilnehmen möchte oder die Situation unangenehm wird, endet der Versuch. Das Sextil bleibt ein gewählter Denkimpuls und erzeugt weder Anspruch noch Verpflichtung.",
+        "rubric": [
+          "Beide symbolischen Funktionen werden in Handlungen übersetzt.",
+          "Die Übung bleibt klein und freiwillig.",
+          "Eine reale Voraussetzung ist genannt.",
+          "Ablehnung oder Abbruch werden akzeptiert."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welcher Idealwinkel gehört zum Sextil?",
+          "options": [
+            "30°",
+            "60°",
+            "120°"
+          ],
+          "correct_index": 1,
+          "explanation": "Das Sextil entspricht einem Sechstel des Kreises."
+        },
+        {
+          "id": "q2",
+          "question": "Was macht aus einer allgemeinen Möglichkeit eine Lernaufgabe?",
+          "options": [
+            "Eine möglichst große Erfolgszusage.",
+            "Die Behauptung, dass keine Anstrengung nötig ist.",
+            "Ein kleiner Schritt mit beobachtbarem Ergebnis."
+          ],
+          "correct_index": 2,
+          "explanation": "Ein klarer Schritt erlaubt praktische Rückmeldung und Anpassung."
+        },
+        {
+          "id": "q3",
+          "question": "Was folgt aus einer nicht genutzten symbolischen Möglichkeit?",
+          "options": [
+            "Zunächst nichts über den Willen oder Wert der Person.",
+            "Dass die Person ihr Schicksal verpasst hat.",
+            "Dass die Berechnung zwingend falsch sein muss."
+          ],
+          "correct_index": 0,
+          "explanation": "Zeit, Zugang, Prioritäten und Zustimmung sind reale Bedingungen, die eine Deutung nicht ersetzen kann."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2021/10/16/aspects-in-astrology-the-five-major-configurations/",
+          "title": "Aspects in Astrology: The Five Major Configurations, Episode 323",
+          "author": "Chris Brennan und Claire Moon",
+          "note": "Originalquelle zur Terminologie der fünf Hauptaspekte und zur Unterscheidung von Zeichen- und Gradbeziehungen. Die Rechenbeispiele, Lernabfolge und Gesprächsübungen sind eigenständig; keine Wiedergabe des Kurses.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-aspekte-08",
+      "title": "Anwendend und trennend: Bewegung statt Momentaufnahme",
+      "summary": "Du bestimmst aus zwei Zeitpunkten, ob sich ein Kontakt seiner Exaktheit nähert oder davon entfernt.",
+      "objective": "Du bestimmst aus zwei Zeitpunkten, ob sich ein Kontakt seiner Exaktheit nähert oder davon entfernt.",
+      "level": "deepening",
+      "minutes": 30,
+      "body": "## Ein Bild zeigt noch keine Richtung\nEine einzelne Aspektliste enthält Positionen zu einem bestimmten Zeitpunkt. Daraus kannst du Abstand und Orbis berechnen. Ob der Kontakt gerade genauer wird, ist eine andere Frage. Dafür brauchst du Bewegungsinformationen: mindestens einen Vergleichszeitpunkt oder verlässliche Geschwindigkeiten. Anwendend bedeutet, dass sich der Kontakt seiner exakten Stellung nähert. Trennend bedeutet, dass er sich von einer bereits erreichten Exaktheit entfernt. Diese Begriffe beschreiben zunächst eine zeitliche Beziehung. Sie sind keine Garantie für ein kommendes Ereignis oder einen bereits abgeschlossenen inneren Prozess.\n\n## Vergleiche die Abweichung, nicht nur die Gradzahl\nAngenommen, zwei Faktoren bilden zuerst einen Abstand von siebenundachtzig Grad und später von neunundachtzig Grad. Zum Quadrat von neunzig Grad wird die Abweichung kleiner: drei Grad werden zu einem Grad. Dieser Abschnitt ist anwendend. Bei einem Übergang von einundneunzig zu vierundneunzig Grad wächst die Abweichung von einem auf vier Grad; dieser Abschnitt ist trennend. Würdest du nur fragen, ob die absolute Gradzahl steigt, könntest du die Fälle verwechseln. Entscheidend ist der Abstand zum jeweiligen Idealwinkel.\n\n## Beide Faktoren können sich bewegen\nBei einem Transit zu einer Radixposition bleibt der Radixpunkt als historische Koordinate fest. Bei zwei aktuellen Planeten verändern sich dagegen beide Positionen. Ein schnellerer Planet muss einen langsameren nicht immer einfach einholen: Einer kann rückläufig erscheinen, beide können ähnliche Geschwindigkeiten haben oder eine Station erreichen. Berechne deshalb den relativen Verlauf. Für den Einstieg genügt eine kleine Tabelle mit zwei oder drei Zeitpunkten. Je näher ein Richtungswechsel liegt, desto weniger zuverlässig wäre eine grobe lineare Schätzung über viele Tage.\n\n## Rückläufigkeit verändert die Begegnungsfolge\nEin Planet kann einen bestimmten Grad mehrfach überqueren, weil seine scheinbare Bewegung zeitweise rückläufig ist. Dann kann derselbe Radixkontakt mehrmals exakt werden. Zwischen den exakten Kontakten ändern sich anwendende und trennende Abschnitte. Es wäre falsch, jede Rückläufigkeit pauschal als Rückschritt im Leben zu deuten. Ebenso wenig lässt sich ohne Positionsdaten behaupten, dass ein Kontakt genau dreimal stattfinden werde. Die Anzahl hängt vom tatsächlichen Verlauf und dem Zielgrad ab. Eine Ephemeride oder eine geeignete Berechnung muss diese Frage beantworten.\n\n## Die zeitliche Deutung bleibt eine zusätzliche Wahl\nManche Schulen gewichten anwendende Kontakte stärker oder unterscheiden symbolisch zwischen Aufbau und Nachklang. Solche Regeln gehören zur jeweiligen Tradition und sollten benannt werden. Ein enger trennender Kontakt ist nicht automatisch unwichtig. Auch ein anwendender Kontakt muss für das aktuelle Anliegen nicht zentral sein. Prüfe daher zuerst die technische Aussage und füge die Gewichtung erst anschließend hinzu. Diese Reihenfolge verhindert, dass eine erwartete Geschichte die Auswahl der Zeitpunkte oder die Auslegung der Bewegung bestimmt.\n\n## Eine eigene Kontrolltabelle führen\nNotiere Datum, beide Längen, kleineren Winkel und Abweichung zum Zielaspekt. Ergänze eine Spalte für die Bewegungsrichtung und eine für Unsicherheit. Wenn ein Kontakt zwischen zwei Messpunkten exakt geworden sein könnte, schreibe nicht einfach durchgehend anwendend oder trennend. Verfeinere den Zeitraum oder kennzeichne den Übergang als offen. Am Ende sollte eine andere Person deine Einordnung anhand der Zahlen nachvollziehen können. Die wichtigste Fähigkeit dieser Lektion ist das saubere Lesen eines Verlaufs, nicht das Erfinden einer passenden Zukunftserzählung.",
+      "examples": [
+        {
+          "title": "Ein Quadrat wird genauer",
+          "body": "In einer ausdrücklich künstlichen Tabelle steht ein bewegter Faktor zuerst bei 27°, später bei 29°, während die feste Radixposition 120° beträgt. Die Abstände sind 93° und 91°; die Abweichung zum Quadrat sinkt von 3° auf 1°. Marina bezeichnet diesen Abschnitt als anwendend. Dass die kleinere Koordinate steigt, ist hier nur Begleitinformation. Entscheidend ist die sinkende Abweichung. Eine Aussage darüber, was Lea an diesen Tagen erleben wird, enthält die Rechnung nicht."
+        },
+        {
+          "title": "Ein Richtungswechsel verhindert die einfache Schätzung",
+          "body": "Samir sieht einen Faktor bei 14° und einen Zielgrad bei 15°. Aus dem Abstand von einem Grad schließt er zunächst auf eine baldige Exaktheit. Die nächste Tabellenzeile zeigt jedoch eine Station und danach rückläufige Werte von 13°50′. Der Kontakt erreicht den Zielgrad in diesem Abschnitt nicht. Samir korrigiert seine Notiz. Das Beispiel zeigt, weshalb eine Momentaufnahme und die durchschnittliche Geschwindigkeit nicht genügen, um einen exakten Kontakttermin verlässlich zu bestimmen."
+        }
+      ],
+      "practice": {
+        "prompt": "Ein Quadrat hat an drei fiktiven Tagen Abstände von 88°, 90° und 93°. Beschreibe die Abschnitte und erkläre, welche Aussage über Ereignisse daraus nicht folgt.",
+        "model_answer": "Am ersten Tag liegt die Abweichung zum Idealwinkel von 90° bei 2°. Am zweiten Tag ist sie null, am dritten Tag beträgt sie 3°. Der Abschnitt vom ersten zum zweiten Tag nähert sich der Exaktheit und ist damit anwendend. Der Abschnitt nach dem zweiten Tag entfernt sich davon und ist trennend. Ich würde den mittleren Zeitpunkt als exakt markieren, soweit die angegebenen Werte tatsächlich so genau vorliegen. Die drei Zahlen erlauben noch keine Aussage darüber, welches Ereignis stattfinden wird oder ob die Person überhaupt eine besondere Erfahrung berichtet. Für eine genauere Zeitangabe innerhalb eines Tages wären feinere Positionsdaten nötig. Ebenso würde ich nicht behaupten, dass das Thema nach dem dritten Tag erledigt sei. Das ist eine Deutung, keine Folge der Winkelrechnung. Die Tabelle beschreibt ausschließlich den Verlauf des Kontakts unter den gewählten Koordinaten und dem ausdrücklich festgelegten Zielwinkel.",
+        "rubric": [
+          "Die Abweichungen werden richtig berechnet.",
+          "Anwendender und trennender Abschnitt sind unterschieden.",
+          "Die Exaktheit wird separat markiert.",
+          "Die zeitliche Rechnung wird nicht als Ereignisgarantie ausgegeben."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was bedeutet anwendend?",
+          "options": [
+            "Der Planet steht immer vor dem anderen im Tierkreis.",
+            "Die Person muss sofort handeln.",
+            "Die Abweichung zum exakten Kontakt wird kleiner."
+          ],
+          "correct_index": 2,
+          "explanation": "Anwendung beschreibt die Annäherung an die Exaktheit, nicht eine Handlungsanweisung."
+        },
+        {
+          "id": "q2",
+          "question": "Welche Information fehlt einer einzelnen Winkelliste für die Bewegungsrichtung?",
+          "options": [
+            "Ein Verlauf oder passende Geschwindigkeitsdaten.",
+            "Die Lieblingsfarbe der Person.",
+            "Die Linienfarbe im Radix."
+          ],
+          "correct_index": 0,
+          "explanation": "Bewegung kann nicht allein aus einem statischen Abstand bestimmt werden."
+        },
+        {
+          "id": "q3",
+          "question": "Warum ist nahe einer Station Vorsicht bei linearer Schätzung nötig?",
+          "options": [
+            "Weil der Tierkreis dann keine 360° mehr hat.",
+            "Weil sich Geschwindigkeit und Richtung deutlich ändern können.",
+            "Weil alle Kontakte automatisch dreimal auftreten."
+          ],
+          "correct_index": 1,
+          "explanation": "Eine Station verändert den Verlauf; Anzahl und Zeitpunkt der Kontakte müssen tatsächlich geprüft werden."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2021/10/16/aspects-in-astrology-the-five-major-configurations/",
+          "title": "Aspects in Astrology: The Five Major Configurations, Episode 323",
+          "author": "Chris Brennan und Claire Moon",
+          "note": "Originalquelle zur Terminologie der fünf Hauptaspekte und zur Unterscheidung von Zeichen- und Gradbeziehungen. Die Rechenbeispiele, Lernabfolge und Gesprächsübungen sind eigenständig; keine Wiedergabe des Kurses.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-aspekte-09",
+      "title": "Zeichenaspekte und Gradaspekte getrennt lesen",
+      "summary": "Du vergleichst zwei astrologische Konventionen an denselben Positionen und vermeidest einen unbemerkten Methodenwechsel.",
+      "objective": "Du vergleichst zwei astrologische Konventionen an denselben Positionen und vermeidest einen unbemerkten Methodenwechsel.",
+      "level": "deepening",
+      "minutes": 30,
+      "body": "## Dieselben Daten, zwei verschiedene Fragen\nEine gradbezogene Aspektprüfung fragt nach dem tatsächlichen Winkel zwischen zwei Positionen. Eine zeichenbezogene Prüfung fragt nach der Beziehung der Zeichen, in denen die Faktoren stehen. Diese Fragen können zu unterschiedlichen Listen führen. Der Unterschied ist nicht automatisch ein Rechenfehler. Er gehört zur verwendeten Tradition. In einer hellenistischen Betrachtung spielen Zeichenbeziehungen eine wichtige Rolle; moderne Arbeitsweisen nutzen häufig gradbezogene Kontakte mit Orben. Innerhalb beider Felder gibt es weitere Unterschiede, weshalb du die konkrete Regel benennen solltest.\n\n## Zeichenbeziehungen ohne Positionsrechnung erkennen\nVom Widder aus bilden Zwillinge und Wassermann Sextilbeziehungen, Krebs und Steinbock Quadratbeziehungen, Löwe und Schütze Trigonbeziehungen und Waage eine Opposition. Dabei zählt die Zeichenordnung. Ein Planet auf einem frühen Widdergrad und einer auf einem späten Löwegrad stehen nach Zeichen im Trigon, obwohl ihr tatsächlicher Abstand deutlich von hundertzwanzig Grad abweichen kann. Eine enge Gradverbindung ist also eine zusätzliche Information. Die Zeichenbeziehung wird nicht durch die bloße Anwendung eines kleinen Orbis definiert.\n\n## Ein Grenzfall macht den Unterschied sichtbar\nStelle einen Faktor auf neunundzwanzig Grad Widder und einen zweiten auf ein Grad Jungfrau. Die absoluten Längen betragen neunundzwanzig und hunderteinundfünfzig Grad. Der Abstand liegt bei hundertzweiundzwanzig Grad und damit nahe am Trigon. Die Zeichen Widder und Jungfrau bilden jedoch kein Trigon nach Zeichen. In einer gradbezogenen Liste kann deshalb ein Trigon erscheinen, während eine streng zeichenbezogene Liste keine entsprechende Hauptaspektbeziehung zeigt. Beide Aussagen lassen sich korrekt dokumentieren, solange du sie nicht vermischst.\n\n## Aversion ist ein Fachwort, kein Personenurteil\nIn traditioneller Terminologie können Zeichen ohne eine der entsprechenden Hauptaspektbeziehungen als einander nicht sehend beschrieben werden. Dafür wird der Begriff Aversion verwendet. Er bedeutet in diesem technischen Zusammenhang nicht, dass ein Mensch einen anderen hasst oder eine Funktion vollständig fehlt. Übertrage historische Bildsprache nicht ungeprüft in Alltagssprache. Eine Person muss sich nicht als innerlich getrennt erleben, nur weil eine bestimmte zeichenbezogene Beziehung so eingeordnet wird. Technische Begriffe brauchen eine verständliche und begrenzte Erklärung.\n\n## Methoden nicht nach Wunsch kombinieren\nDu kannst Schulen vergleichen, solltest aber nicht jeweils diejenige auswählen, die gerade eine bevorzugte Geschichte stützt. Lege für eine Analyse fest, welche Methode den Grundaufbau liefert und welche als Vergleich dient. Erstelle zwei Spalten und schreibe die jeweiligen Ergebnisse hinein. Wenn du beide Perspektiven im Gespräch verwendest, erkläre den Wechsel. Eine bewusste Gegenüberstellung kann lehrreich sein; ein unbemerkter Wechsel erzeugt dagegen scheinbar mehr Bestätigungen, obwohl dieselben Daten nur unterschiedlich sortiert wurden.\n\n## Eine begrenzte Schlussfolgerung ziehen\nNach dem Vergleich kannst du sagen, welcher Kontakt in beiden Listen sichtbar bleibt und welcher nur unter einer Konvention erscheint. Daraus folgt noch keine Rangfolge der Wahrheit astrologischer Deutungen. Der Vergleich zeigt zunächst Methodenabhängigkeit. Für die Beratung ist deshalb eine zusätzliche Frage nötig: Hilft die gewählte Darstellung, das konkrete Anliegen verständlich und offen zu besprechen? Die Antwort kann auch lauten, dass der technische Unterschied für diese Sitzung keine praktische Bedeutung hat. Fachkenntnis zeigt sich dann darin, ihn korrekt zu kennen, ohne ihn unnötig zum Mittelpunkt zu machen.",
+      "examples": [
+        {
+          "title": "Gradtrigon ohne Zeichentrigon",
+          "body": "Lea verwendet in einer Rechenübung 29° Widder und 1° Jungfrau. Nach Umrechnung auf 29° und 151° erhält sie einen Abstand von 122°. Bei einer Grenze von 3° ist das ein gradbezogenes Trigon mit 2° Abweichung. In der Zeichenordnung bilden Widder und Jungfrau aber kein Trigon. Lea notiert beide Befunde und vermeidet den Satz, eine der beiden Softwareansichten sei kaputt. Zuerst muss geklärt werden, welche Konvention die jeweilige Darstellung benutzt."
+        },
+        {
+          "title": "Zeichentrigon ohne engen Gradkontakt",
+          "body": "Samir setzt einen Faktor auf 1° Widder und einen zweiten auf 29° Löwe. Die Zeichen bilden eine Trigonbeziehung. Der tatsächliche Abstand beträgt aber 148°, also 28° mehr als der Idealwinkel eines Trigons. In einer engen gradbezogenen Liste erscheint deshalb kein Trigon. Samir erkennt, dass „gleiches Element“ nicht automatisch „enger Winkel“ bedeutet. Er kann die Zeichenbeziehung als traditionelles Strukturmerkmal notieren und die fehlende Gradnähe zugleich korrekt festhalten."
+        }
+      ],
+      "practice": {
+        "prompt": "Prüfe 28° Fische und 2° Krebs nach Zeichen und nach Grad. Verwende für die Gradliste höchstens 5° und erkläre den Unterschied in Alltagssprache.",
+        "model_answer": "Fische und Krebs gehören in der westlichen Zeichenordnung zur Wassergruppe und bilden nach Zeichen eine Trigonbeziehung. Für die Gradrechnung übersetze ich die Positionen in 358° und 92°. Der direkte Abstand beträgt 266°, der kleinere Kreisweg damit 94°. Dieser Wert liegt 4° vom Quadrat entfernt und innerhalb der vorgegebenen Fünfgradgrenze. In der Gradliste notiere ich also ein Quadrat, in der Zeichenliste ein Trigon. Alltagssprachlich würde ich erklären, dass die eine Methode die Beziehung der Zeichenfelder betrachtet, während die andere die genaue Entfernung der beiden Punkte misst. Ich würde nicht behaupten, die Person sei deshalb zugleich harmonisch und disharmonisch. Solche Etiketten wären ohnehin zu grob. Vor einer weiteren Deutung lege ich fest, welche Methode den Rahmen bildet. Der Vergleich bleibt als methodische Notiz erhalten, damit spätere Leserinnen den scheinbaren Widerspruch nachvollziehen können.",
+        "rubric": [
+          "Die Zeichenbeziehung stimmt.",
+          "Absolute Längen und kleiner Abstand stimmen.",
+          "Die gradbezogene Klassifikation folgt der Orbregel.",
+          "Der Methodenunterschied wird verständlich erklärt."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was prüft ein zeichenbezogener Aspekt zuerst?",
+          "options": [
+            "Die Beziehung der beiden Zeichen in der Tierkreisordnung.",
+            "Nur den Abstand in Bogenminuten.",
+            "Die Lebensgeschichte der Person."
+          ],
+          "correct_index": 0,
+          "explanation": "Die Zeichenbeziehung ist der Ausgangspunkt; enge Gradnähe ist eine zusätzliche Prüfung."
+        },
+        {
+          "id": "q2",
+          "question": "29° Widder und 1° Jungfrau liegen wie weit auseinander?",
+          "options": [
+            "152°",
+            "122°",
+            "118°"
+          ],
+          "correct_index": 1,
+          "explanation": "Die absoluten Längen sind 29° und 151°; ihre Differenz beträgt 122°."
+        },
+        {
+          "id": "q3",
+          "question": "Was ist ein methodisch sauberer Vergleich?",
+          "options": [
+            "Die passende Regel erst nach der gewünschten Deutung wählen.",
+            "Abweichende Listen als persönliche Widersprüchlichkeit ausgeben.",
+            "Beide Konventionen benennen und ihre Ergebnisse getrennt dokumentieren."
+          ],
+          "correct_index": 2,
+          "explanation": "Transparente Regeln verhindern, dass Methodenwechsel unbemerkt als zusätzliche Bestätigung erscheinen."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2021/10/16/aspects-in-astrology-the-five-major-configurations/",
+          "title": "Aspects in Astrology: The Five Major Configurations, Episode 323",
+          "author": "Chris Brennan und Claire Moon",
+          "note": "Originalquelle zur Terminologie der fünf Hauptaspekte und zur Unterscheidung von Zeichen- und Gradbeziehungen. Die Rechenbeispiele, Lernabfolge und Gesprächsübungen sind eigenständig; keine Wiedergabe des Kurses.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-aspekte-10",
+      "title": "Aspektfiguren: erst alle Verbindungen prüfen",
+      "summary": "Du erkennst T-Quadrat und großes Trigon anhand vollständiger Paarprüfungen und vermeidest dramatische Figurenetiketten.",
+      "objective": "Du erkennst T-Quadrat und großes Trigon anhand vollständiger Paarprüfungen und vermeidest dramatische Figurenetiketten.",
+      "level": "deepening",
+      "minutes": 30,
+      "body": "## Eine Figur besteht aus überprüfbaren Kanten\nEine auffällige Zeichnung im Horoskop kann den Blick sofort fesseln. Bevor du sie deutest, prüfst du jedoch jede Verbindung einzeln. Eine Aspektfigur ist keine zusätzliche Himmelsposition, sondern eine Kombination ausgewählter Kontakte. Ihre Erkennung hängt deshalb von den verwendeten Orben und den einbezogenen Faktoren ab. Wenn du die Toleranz stark erweiterst oder viele zusätzliche Punkte aufnimmst, entstehen mehr Figuren. Diese Zunahme ist zunächst eine Folge der Darstellungsregeln und keine Entdeckung zusätzlicher persönlicher Probleme oder Begabungen.\n\n## Das T-Quadrat aufbauen\nEin T-Quadrat besteht in seiner einfachen Form aus einer Opposition und zwei Quadraten zu einem dritten Faktor. Die beiden gegenüberliegenden Faktoren bilden die Basis, der dritte wird häufig als Spitze bezeichnet. Prüfe zunächst die Opposition und anschließend beide Quadrate. Wenn eine der drei Beziehungen unter deiner Regel fehlt, solltest du nicht stillschweigend von einer vollständigen Figur sprechen. Du kannst die Nähe zur Figur beschreiben, musst aber die Abweichung sichtbar lassen. Der Name allein ersetzt die technische Prüfung nicht.\n\n## Die Spitze nicht zum Schuldigen machen\nIn modernen Lesarten wird dem Spitzenfaktor oft besondere Aufmerksamkeit gegeben. Daraus darf nicht folgen, dass dieser Planet alle Schwierigkeiten verursacht oder dass ein Mensch an einem bestimmten Lebensbereich zwangsläufig scheitert. Eine bessere Arbeitsweise fragt, wie die drei Funktionen in einer konkreten Situation zusammenkommen. Welche zwei Bedürfnisse stehen sich gegenüber, und welche dritte Tätigkeit muss dabei ebenfalls berücksichtigt werden? Die Antwort kann zu einer Prioritätenfrage führen. Sie bleibt aber eine gemeinsam geprüfte Interpretation, keine Diagnose einer festen inneren Struktur.\n\n## Das große Trigon vollständig prüfen\nEin großes Trigon benötigt drei Faktoren, die paarweise Trigone bilden. Drei Planeten in Zeichen desselben Elements reichen für eine enge gradbezogene Figur nicht aus, wenn die tatsächlichen Winkel stark abweichen. Prüfe alle drei Kanten. Eine solche Figur wird häufig als Bild für einen leicht verfügbaren Kreislauf von Funktionen gelesen. Ob daraus eine geübte Fähigkeit, eine angenehme Gewohnheit oder gar keine relevante Alltagserfahrung entsteht, ist offen. Der Name großes Trigon ist deshalb keine Auszeichnung und kein Nachweis außergewöhnlicher Begabung.\n\n## Fehlende Punkte sind keine fehlenden Fähigkeiten\nManchmal wird bei einem T-Quadrat der gegenüberliegende Punkt zur Spitze als ergänzende Richtung betrachtet. Das kann eine kreative Reflexionsübung sein. Dieser geometrische Gegenpunkt ist jedoch kein tatsächlich dort stehender Planet. Auch ein unbesetzter Bereich bedeutet nicht, dass der Person eine Fähigkeit fehlt. Wenn du eine ergänzende Frage entwickelst, kennzeichne sie als selbst gewählten Perspektivwechsel. Die Person darf feststellen, dass die vorgeschlagene Ergänzung bereits gut gelingt oder für ihr Anliegen keine Rolle spielt.\n\n## Die Figur in eine überschaubare Besprechung übersetzen\nWähle eine Szene und schreibe für jeden der drei Faktoren eine Funktion auf. Beschreibe anschließend die drei Beziehungen, ohne neue Eigenschaften hinzuzuerfinden. Prüfe, ob die Gesamtfigur tatsächlich mehr erklärt als die einzelnen Kontakte. Manchmal reicht es, nur ein besonders relevantes Paar zu besprechen. Ein fachlich sauberes Gespräch muss nicht jede sichtbare Figur auswerten. Der Nutzen liegt darin, eine komplexere Kombination verständlich zu machen und ihre Grenzen zu kennen, statt durch einen eindrucksvollen Namen zusätzliche Gewissheit zu erzeugen.",
+      "examples": [
+        {
+          "title": "Ein vollständiges T-Quadrat",
+          "body": "In einer didaktischen Zeichnung stehen drei Faktoren bei 10°, 100° und 190°. Die äußeren Punkte sind 180° voneinander entfernt, der mittlere liegt zu beiden im Abstand von 90°. Marina kann die Figur deshalb exakt als T-Quadrat beschreiben. Sie notiert aber noch keine Lebensgeschichte. Erst mit den gewählten Planetenfunktionen und einer konkreten Fragestellung wäre eine symbolische Besprechung möglich. Die Geometrie allein sagt nicht, ob Lea gerade unter Druck steht oder mit einer Aufgabe gut zurechtkommt."
+        },
+        {
+          "title": "Die dritte Kante fehlt",
+          "body": "Samir prüft drei Übungspositionen bei 5°, 127° und 250°. Die kleineren Abstände betragen 122°, 123° und 115°. Bei höchstens 3° Orbis liegen die ersten beiden innerhalb der Trigongrenze, die dritte Verbindung weicht jedoch 5° ab. Nach dieser Regel ist es kein vollständiges großes Trigon. Samir kann zwei Trigone und einen weiteren Grenzkontakt notieren. Er erweitert die Toleranz nicht nachträglich nur deshalb, weil die fertige Figur ansprechender aussieht."
+        }
+      ],
+      "practice": {
+        "prompt": "Prüfe die Positionen 15°, 105° und 196° bei maximal 2° Orbis. Benenne die Figur und formuliere eine begrenzte Deutungsfrage ohne Schicksalsaussage.",
+        "model_answer": "Zwischen 15° und 105° liegen genau 90°, also ein exaktes Quadrat. Zwischen 105° und 196° liegen 91°, also ein Quadrat mit 1° Abweichung. Der direkte Abstand zwischen 15° und 196° beträgt 181°; der kleinere Kreisweg beträgt 179° und weicht damit 1° von der Opposition ab. Alle drei Kontakte liegen innerhalb der vorgegebenen Zweigradgrenze. Die Figur ist unter dieser Regel ein T-Quadrat, dessen Spitze bei 105° liegt. Ohne Planetennamen kann ich nur eine allgemeine Arbeitsfrage formulieren: „Welche dritte Aufgabe muss berücksichtigt werden, wenn zwei unterschiedliche Anliegen gleichzeitig Aufmerksamkeit verlangen?“ Ich würde ausdrücklich erklären, dass diese Frage ein didaktischer Zugang zur Figur ist. Sie beweist weder einen dauerhaften Konflikt noch eine besondere Entwicklungsaufgabe. Für eine persönliche Besprechung benötige ich die beteiligten Funktionen, verlässliche Daten und vor allem ein tatsächlich genanntes Anliegen.",
+        "rubric": [
+          "Alle drei Paarabstände sind geprüft.",
+          "Die Orbgrenze wird konsistent angewandt.",
+          "Basis und Spitze werden korrekt erkannt.",
+          "Die Deutung bleibt begrenzt und setzt kein Problem voraus."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welche Kontakte bilden ein einfaches T-Quadrat?",
+          "options": [
+            "Drei Sextile.",
+            "Eine Opposition und zwei Quadrate.",
+            "Zwei Konjunktionen und ein Trigon."
+          ],
+          "correct_index": 1,
+          "explanation": "Die beiden Quadrate verbinden die Enden der Opposition mit dem dritten Faktor."
+        },
+        {
+          "id": "q2",
+          "question": "Was braucht ein gradbezogenes großes Trigon?",
+          "options": [
+            "Nur drei Planeten in gleichnamigen Häusern.",
+            "Beliebige drei Linien in derselben Farbe.",
+            "Drei paarweise Trigone innerhalb der gewählten Grenzen."
+          ],
+          "correct_index": 2,
+          "explanation": "Jede Kante muss einzeln geprüft werden; die optische Form allein genügt nicht."
+        },
+        {
+          "id": "q3",
+          "question": "Was bedeutet ein geometrischer Gegenpunkt ohne Planet?",
+          "options": [
+            "Eine rechnerische Position, die als freiwillige Reflexionshilfe dienen kann.",
+            "Eine nachgewiesene fehlende Fähigkeit.",
+            "Ein unsichtbarer zusätzlicher Planet."
+          ],
+          "correct_index": 0,
+          "explanation": "Der Gegenpunkt ist eine Konstruktion und darf nicht als vorhandener Himmelskörper oder Defizit ausgegeben werden."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2021/10/16/aspects-in-astrology-the-five-major-configurations/",
+          "title": "Aspects in Astrology: The Five Major Configurations, Episode 323",
+          "author": "Chris Brennan und Claire Moon",
+          "note": "Originalquelle zur Terminologie der fünf Hauptaspekte und zur Unterscheidung von Zeichen- und Gradbeziehungen. Die Rechenbeispiele, Lernabfolge und Gesprächsübungen sind eigenständig; keine Wiedergabe des Kurses.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-aspekte-11",
+      "title": "Ein Aspektdialog: Funktionen, Alltag und Gegenbeispiele",
+      "summary": "Du entwickelst aus einem Kontakt mehrere begrenzte Hypothesen und prüfst sie anhand einer fiktiven Gesprächsszene.",
+      "objective": "Du entwickelst aus einem Kontakt mehrere begrenzte Hypothesen und prüfst sie anhand einer fiktiven Gesprächsszene.",
+      "level": "deepening",
+      "minutes": 30,
+      "body": "## Eine Deutung ist eine Kette von Entscheidungen\nZwischen einer Zahl und einem Beratungssatz liegen mehrere Schritte. Du wählst eine Aspektregel, ordnest den Faktoren symbolische Funktionen zu, ergänzt Zeichen und Häuser und entscheidest, welche Frage zum Anliegen passt. Jeder dieser Schritte kann anders ausfallen. Schreibe die Kette deshalb einmal vollständig auf. Ein Satz wie „Du hältst Gefühle zurück“ verdeckt sehr viele Annahmen. Eine transparente Bearbeitung zeigt dagegen, wie eine bestimmte Frage entstanden ist und welche anderen Lesarten ebenfalls denkbar wären.\n\n## Eine Funktion ist keine feste Person\nBeginne mit Tätigkeiten oder Bedürfnissen, nicht mit Personenrollen. Saturn muss nicht der Vater sein, Venus nicht eine Partnerin und Mars nicht ein streitender Mann. Solche Zuordnungen können biografisch unpassend sein und Geschlechterbilder festschreiben. Frage stattdessen beispielsweise nach Struktur, Auswahl oder Durchsetzung. Wenn die Person später selbst eine konkrete Beziehung nennt, gehört diese Information zur Gesprächsebene. Sie wurde nicht allein durch den Planeten erkannt. Diese Unterscheidung macht die Deutung offener und verhindert voreilige Geschichten über unbekannte Menschen.\n\n## Zwei Hypothesen wirklich unterschiedlich machen\nEine erste Hypothese zu Merkur und Saturn könnte sorgfältiges Prüfen vor einer Aussage betreffen. Eine zweite könnte das klare Erklären komplexer Regeln sein. Das sind unterschiedliche Möglichkeiten, obwohl beide mit denselben Symbolen arbeiten. Dagegen wären „Du hast Angst zu sprechen“ und „Du versteckst deine Sprechangst“ keine echten Alternativen. Sie schützen dieselbe Behauptung gegen Widerspruch. Gute Alternativen erlauben, dass eine Person keine der beiden Lesarten passend findet. Dann wird nicht automatisch eine dritte, noch verborgenere Erklärung behauptet.\n\n## Nach einer Szene fragen\nBitte um eine konkrete Situation, in der das vorgeschlagene Thema relevant sein könnte. Lass die Person den Ablauf in eigenen Worten schildern. Vermeide Fragen, die bereits die erwartete Antwort enthalten, etwa „Wurdest du wieder übergangen?“ Eine neutralere Frage lautet: „Wie kam die Entscheidung zustande?“ Notiere, was berichtet wird, und unterscheide es von deiner Interpretation. Auch eine treffende Rückmeldung macht die anfängliche Hypothese nicht zu einer allgemein bewiesenen Aussage über alle Menschen mit diesem Kontakt.\n\n## Ein Gegenbeispiel ernst nehmen\nWenn die Person berichtet, dass sie spontan und gern spricht, ist das ein möglicher Einwand gegen eine Hypothese über starkes Zurückhalten. Du kannst fragen, ob der Unterschied vom Kontext abhängt, aber nur ohne Zwang zur Bestätigung. Vielleicht trifft die Hypothese schlicht nicht zu. Halte auch das fest. Diese Fähigkeit ist besonders wichtig, wenn eine Deutung emotional eindrucksvoll klingt. Das Ziel einer Beratung ist nicht, jeden Kontakt passend zu erklären, sondern der Person eine verständliche und freiwillige Reflexion zu ermöglichen.\n\n## Die Sitzung mit einer gemeinsamen Formulierung schließen\nAm Ende fasst die Person selbst zusammen, welcher Gedanke hilfreich war. Daraus kann eine kleine Handlung oder auch nur eine offene Frage entstehen. Die Abschlussnotiz enthält die verwendete Symbolverbindung, die bestätigten Gesprächsangaben, verworfene Hypothesen und den vereinbarten nächsten Schritt. Damit lässt sich später nachvollziehen, was tatsächlich besprochen wurde. Eine solche Notiz ist wertvoller als eine lange Liste allgemeiner Eigenschaften. Sie hält die Verantwortung für Entscheidungen bei der Person und macht deine Arbeitsweise überprüfbar.",
+      "examples": [
+        {
+          "title": "Eine unpassende Hypothese zurücknehmen",
+          "body": "Marina fragt im fiktiven Samir-Fall, ob ein didaktischer Merkur-Saturn-Kontakt zu langem Prüfen vor dem Sprechen passen könnte. Samir widerspricht: In seiner Arbeit erklärt er spontan und sicher. Marina notiert den Widerspruch und bietet keine versteckte Angst als Ersatzbehauptung an. Erst auf seine eigene Initiative spricht Samir über das sorgfältige Schreiben von Verträgen. Das neue Thema stammt aus seiner Schilderung. Es beweist nicht rückwirkend, dass die erste Aussage doch richtig gewesen sei."
+        },
+        {
+          "title": "Eine Funktion wird nicht zur Vatergeschichte",
+          "body": "Lea zeigt für eine Übung eine Sonne-Saturn-Verbindung. Marina vermeidet die Behauptung, Leas Vater sei streng gewesen. Stattdessen fragt sie nach selbst gewählten Zielen und äußeren Anforderungen. Lea erzählt von einer ehrenamtlichen Aufgabe, deren Umfang unklar geworden ist. Die Besprechung konzentriert sich auf eine neue Vereinbarung. Eine biografische Aussage über ihren Vater wäre ohne entsprechende Information unbegründet gewesen. Das Beispiel zeigt, wie Tätigkeiten eine präzisere und weniger festlegende Gesprächssprache ermöglichen."
+        }
+      ],
+      "practice": {
+        "prompt": "Schreibe einen kurzen Dialog zu einer didaktischen Venus-Saturn-Spannung: zwei mögliche Lesarten, eine neutrale Frage, eine widersprechende Antwort und deine angemessene Reaktion.",
+        "model_answer": "Ich könnte zunächst zwei Lesarten anbieten: Die Verbindung könnte als Frage nach Verbindlichkeit in Beziehungen oder nach einer sorgfältigen Auswahl wertvoller Dinge dienen. Meine neutrale Frage lautet: „In welchem Bereich möchtest du gerade klarer entscheiden, was dir wichtig ist?“ Die fiktive Person antwortet: „Eigentlich fällt mir das leicht; ich habe kein Problem mit Entscheidungen.“ Meine Reaktion wäre: „Dann passt dieser Einstieg möglicherweise nicht zu deinem Anliegen. Womit möchtest du dich stattdessen beschäftigen?“ Ich würde nicht behaupten, die Leichtigkeit sei eine Abwehr oder das eigentliche Problem liege verborgen. Falls die Person später von einer konkreten Verpflichtung erzählt, kann ich diese unabhängig von der verworfenen Hypothese besprechen. In der Notiz halte ich fest, dass der erste Vorschlag nicht passend war. Der Dialog zeigt, dass eine offene Deutung tatsächlich veränderbar bleibt und die ratsuchende Person nicht für die Bestätigung einer vorgefertigten Geschichte zuständig ist.",
+        "rubric": [
+          "Die beiden Lesarten unterscheiden sich inhaltlich.",
+          "Die Frage enthält keine erwartete Antwort.",
+          "Der Widerspruch wird akzeptiert.",
+          "Die Dokumentation trennt Hypothese und Selbstauskunft."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Welche Alternative ist wirklich offen?",
+          "options": [
+            "Die gleiche Behauptung als verborgenes Problem.",
+            "Eine Deutung, der niemand widersprechen kann.",
+            "Eine andere mögliche Funktion, die ebenfalls verworfen werden darf."
+          ],
+          "correct_index": 2,
+          "explanation": "Eine echte Alternative kann durch Rückmeldung verändert oder zurückgenommen werden."
+        },
+        {
+          "id": "q2",
+          "question": "Warum sollte Saturn nicht automatisch als Vater übersetzt werden?",
+          "options": [
+            "Weil eine solche Personenrolle zusätzliche biografische Annahmen enthält.",
+            "Weil Saturn grundsätzlich keine symbolische Bedeutung hat.",
+            "Weil Väter in keinem Horoskop vorkommen dürfen."
+          ],
+          "correct_index": 0,
+          "explanation": "Die Symbolfunktion und eine konkrete biografische Person sind verschiedene Ebenen."
+        },
+        {
+          "id": "q3",
+          "question": "Was gehört in eine nachvollziehbare Abschlussnotiz?",
+          "options": [
+            "Nur die bestätigten Sätze.",
+            "Hypothese, tatsächliche Rückmeldung und vereinbarter Schritt.",
+            "Eine Diagnose aus jedem Aspekt."
+          ],
+          "correct_index": 1,
+          "explanation": "Auch verworfene Annahmen und die Herkunft von Informationen helfen, den Verlauf korrekt zu verstehen."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2021/10/16/aspects-in-astrology-the-five-major-configurations/",
+          "title": "Aspects in Astrology: The Five Major Configurations, Episode 323",
+          "author": "Chris Brennan und Claire Moon",
+          "note": "Originalquelle zur Terminologie der fünf Hauptaspekte und zur Unterscheidung von Zeichen- und Gradbeziehungen. Die Rechenbeispiele, Lernabfolge und Gesprächsübungen sind eigenständig; keine Wiedergabe des Kurses.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "key": "academy-aspekte-12",
+      "title": "Aspekte gewichten: eine begründete Auswahl statt Linienflut",
+      "summary": "Du erstellst aus einer Aspektliste eine kurze, nachvollziehbare Gesprächsagenda mit Prioritäten und offenen Grenzen.",
+      "objective": "Du erstellst aus einer Aspektliste eine kurze, nachvollziehbare Gesprächsagenda mit Prioritäten und offenen Grenzen.",
+      "level": "deepening",
+      "minutes": 30,
+      "body": "## Vollständigkeit und Gesprächsnutzen sind verschieden\nEine Software kann sehr viele Kontakte anzeigen. Eine Sitzung hat jedoch begrenzte Zeit und ein konkretes Anliegen. Deshalb bedeutet gute Vorbereitung nicht, jede Linie ausführlich zu deuten. Zuerst prüfst du die Daten und die gewählten Regeln. Danach entscheidest du, welche Kontakte eine hilfreiche Frage zum Anliegen anbieten. Eine kurze, begründete Auswahl kann fachlich sorgfältiger sein als eine vollständige Liste allgemeiner Bedeutungen. Die ausgelassenen Kontakte verschwinden dadurch nicht; sie werden lediglich nicht zum Schwerpunkt dieser Besprechung gemacht.\n\n## Mit Datenqualität beginnen\nAchsen und Häuser reagieren auf die Geburtszeit. Ist diese nur ungefähr bekannt, dürfen eng klingende Achsenkontakte nicht mit derselben Sicherheit behandelt werden wie ausreichend stabile Planetenpositionen. Auch der Mond kann bei unsicherem Zeitpunkt relevant wandern. Markiere deshalb bei jedem ausgewählten Kontakt, welche Eingaben seine Einordnung beeinflussen. Eine scheinbar exakte Linie ist kein Vorteil, wenn ihre Grundlage unklar ist. Du kannst einen solchen Kontakt als Vergleich notieren, solltest aber keine zentrale Geschichte auf ihn bauen, ohne die Unsicherheit zu erklären.\n\n## Relevanz vor dramatischem Namen\nEin enger Plutoaspekt kann Aufmerksamkeit auf sich ziehen, muss aber nicht die beste erste Frage für Leas Workshopplanung liefern. Vielleicht hilft ein Kontakt, der das Verhältnis von Erklären und Handeln anschaulich macht, dem aktuellen Anliegen mehr. Relevanz bedeutet hier keine nachgewiesene astrologische Wirkung, sondern einen nachvollziehbaren Bezug zur gewünschten Reflexion. Schreibe für jeden Kandidaten einen Satz: „Diesen Kontakt möchte ich besprechen, weil …“ Wenn die Begründung nur aus eindrucksvollen Fachwörtern besteht, ist die Auswahl noch nicht klar genug.\n\n## Wiederholung nicht künstlich vervielfachen\nMehrere Kontakte können ähnliche Themen anregen. Das kann eine nützliche Ordnungshilfe sein, ist aber nicht automatisch eine unabhängige Bestätigung. Drei Aspekte desselben Planeten enthalten teilweise dieselbe Ausgangsinformation. Ebenso können eine Zeichenbeschreibung und eine daraus abgeleitete Elementbeschreibung stark überlappen. Fasse solche Hinweise zu einem Themenblock zusammen, statt sie als drei Beweise zu zählen. Dadurch vermeidest du eine scheinbare Gewissheit, die vor allem durch Wiederholung entsteht. Halte außerdem abweichende Hinweise fest, statt sie aus der Synthese zu entfernen.\n\n## Ressourcen und Spannungen gemeinsam prüfen\nWähle nach Möglichkeit eine Frage zu einer Schwierigkeit und eine zu einer bereits berichteten Ressource. Das bedeutet nicht, zwanghaft einen guten Aspekt gegen einen schlechten aufzurechnen. Es bedeutet, die tatsächliche Person nicht auf ein Problem zu reduzieren. Eine Ressource kann außerhalb astrologischer Symbolik liegen: Erfahrung, Unterstützung, freie Zeit oder eine klare Vereinbarung. Diese Informationen dürfen unmittelbar in die Planung eingehen. Sie benötigen keine astrologische Legitimation. Der Radix bleibt ein Reflexionsangebot innerhalb eines größeren Gesprächs.\n\n## Eine Agenda mit Ausstiegsmöglichkeit schreiben\nEine brauchbare Agenda enthält das Anliegen, zwei priorisierte Kontakte, ihre technischen Angaben, je eine offene Frage und einen Reservepunkt. Ergänze, wann du einen Vorschlag verwerfen würdest. Beginne die Sitzung mit der Zustimmung der Person zu dieser Richtung. Wenn sich ihr Anliegen verändert, darf sich auch die Agenda ändern. Zum Abschluss dokumentierst du, welche Fragen tatsächlich hilfreich waren. So entsteht mit der Zeit ein Lernarchiv über deine Gesprächsarbeit. Es ersetzt keine Wirksamkeitsstudie, zeigt aber, ob du transparent, verständlich und an den genannten Bedürfnissen orientiert gearbeitet hast.",
+      "examples": [
+        {
+          "title": "Zwei Kontakte reichen für den Einstieg",
+          "body": "Lea möchte einen ersten Workshop planen. Ihre fiktive Übungsliste enthält neun Kontakte, darunter Merkur-Mars, Mond-Venus und mehrere Verbindungen langsamer Planeten. Marina wählt zunächst Merkur-Mars für die Frage nach Erklären und Umsetzen sowie Mond-Venus für die Gestaltung einer angenehmen Lernumgebung. Sie begründet die Auswahl mit Leas Anliegen und hält die übrigen Kontakte als Reserve. Die Anzahl der besprochenen Linien wird nicht zum Qualitätsmaß. Entscheidend ist, ob daraus verständliche und freiwillige nächste Schritte entstehen."
+        },
+        {
+          "title": "Eine unklare Uhrzeit verändert die Priorität",
+          "body": "Samir kennt seine fiktive Geburtszeit nur innerhalb einer Stunde. In einer Beispielberechnung erscheint ein sehr enger Kontakt zum Aszendenten. Marina markiert ihn als zeitabhängig und beginnt stattdessen mit einem stabileren Planetenpaar. Sie erklärt, dass die scheinbare Genauigkeit der Linie von der angenommenen Uhrzeit abhängt. Das ist keine Abwertung des Achsenkontakts, sondern eine Anpassung an die Datenqualität. Eine spätere Klärung der Zeit könnte die Auswahl verändern; bis dahin bleibt die entsprechende Deutung ausdrücklich offen."
+        }
+      ],
+      "practice": {
+        "prompt": "Erstelle für Leas fiktives Anliegen „Workshop verständlich anbieten“ eine Agenda mit zwei Kontakten, einer technischen Unsicherheit, zwei offenen Fragen und einem Kriterium zum Verwerfen einer Hypothese.",
+        "model_answer": "Ich beginne mit Leas ausdrücklich genanntem Ziel, ein verständliches Workshopangebot zu formulieren. Als didaktische Kontakte wähle ich Merkur-Mars für die Verbindung von Erklärung und Handlung sowie Merkur-Jupiter für das Verhältnis von Einzelheiten und Überblick. Ich kennzeichne beide Platzierungen als Übungsannahmen, nicht als berechneten realen Radix. Eine mögliche technische Unsicherheit wäre eine nur geschätzte Geburtszeit, weshalb ich keine genaue Häusergeschichte zum Schwerpunkt mache. Meine Fragen lauten: „Welche Information brauchen Teilnehmende, bevor sie sich entscheiden können?“ und „Welche drei Aussagen sollen nach dem Lesen im Gedächtnis bleiben?“ Falls Lea berichtet, dass die Texte bereits klar sind und ihr eigentlich ein geeigneter Raum fehlt, verwerfe ich die Text-Hypothese als aktuellen Schwerpunkt. Dann richtet sich die Sitzung auf die tatsächliche organisatorische Frage. Die Agenda bleibt somit eine vorbereitete Orientierung und kein Programm, das unabhängig von ihrer Rückmeldung abgearbeitet werden muss.",
+        "rubric": [
+          "Das Anliegen bestimmt die Auswahl.",
+          "Technische Unsicherheit wird konkret benannt.",
+          "Die Fragen bleiben offen und verständlich.",
+          "Ein echtes Verwerfungskriterium ist enthalten."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Was sollte die erste Auswahl von Aspekten bestimmen?",
+          "options": [
+            "Datenqualität, Anliegen und nachvollziehbare Fragestellung.",
+            "Nur die auffälligste Linienfarbe.",
+            "Möglichst viele dramatische Planetennamen."
+          ],
+          "correct_index": 0,
+          "explanation": "Eine begründete Auswahl verbindet methodische Sorgfalt mit dem tatsächlichen Gesprächsziel."
+        },
+        {
+          "id": "q2",
+          "question": "Sind drei ähnliche Hinweise automatisch drei unabhängige Beweise?",
+          "options": [
+            "Ja, Wiederholung beweist die Deutung.",
+            "Nein, sie können dieselbe Ausgangsinformation mehrfach verwenden.",
+            "Nur wenn alle drei aus derselben Software stammen."
+          ],
+          "correct_index": 1,
+          "explanation": "Überlappende Merkmale müssen als solche erkannt werden, damit keine Scheinsicherheit entsteht."
+        },
+        {
+          "id": "q3",
+          "question": "Was geschieht, wenn die Person ein anderes Anliegen nennt?",
+          "options": [
+            "Die vorbereitete Deutung wird trotzdem vollständig vorgetragen.",
+            "Der Widerspruch wird als Blockade erklärt.",
+            "Die Agenda wird passend angepasst."
+          ],
+          "correct_index": 2,
+          "explanation": "Die Vorbereitung dient dem Gespräch; sie ersetzt die aktuelle Rückmeldung nicht."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theastrologypodcast.com/2021/10/16/aspects-in-astrology-the-five-major-configurations/",
+          "title": "Aspects in Astrology: The Five Major Configurations, Episode 323",
+          "author": "Chris Brennan und Claire Moon",
+          "note": "Originalquelle zur Terminologie der fünf Hauptaspekte und zur Unterscheidung von Zeichen- und Gradbeziehungen. Die Rechenbeispiele, Lernabfolge und Gesprächsübungen sind eigenständig; keine Wiedergabe des Kurses.",
+          "checked_at": "2026-10-20"
+        }
+      ]
+    }
+  ]
+}
