@@ -8,6 +8,7 @@ from email.message import EmailMessage
 from email.utils import formataddr
 import ipaddress
 import json
+import os
 from pathlib import Path
 import smtplib
 import ssl
@@ -73,6 +74,17 @@ SEND_TIMEOUT = 6
 _SEND_SLOTS = BoundedSemaphore(2)
 
 
+def _worker_environment():
+    # Hosted launchers may add uv/dependency bundles directly to sys.path rather
+    # than PYTHONPATH. A fresh interpreter otherwise loses those imports. Resolve
+    # parent-relative paths before the worker switches to the backend directory.
+    environment = os.environ.copy()
+    paths = [str(Path(__file__).resolve().parent.parent)]
+    paths.extend(str(Path(path or os.getcwd()).resolve()) for path in sys.path if isinstance(path, str))
+    environment["PYTHONPATH"] = os.pathsep.join(dict.fromkeys(paths))
+    return environment
+
+
 def send_message(settings: MailSettings, recipient: str, subject: str, text: str):
     """Await delivery acceptance with a hard deadline, including DNS resolution.
 
@@ -93,6 +105,7 @@ def send_message(settings: MailSettings, recipient: str, subject: str, text: str
         reserve_mail_attempt()
         subprocess.run([sys.executable, "-m", "app.recovery_mail"], input=payload,
                        cwd=Path(__file__).resolve().parent.parent,
+                       env=_worker_environment(),
                        stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
                        timeout=SEND_TIMEOUT, check=True)
     finally:

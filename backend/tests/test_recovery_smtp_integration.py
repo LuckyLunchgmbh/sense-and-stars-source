@@ -6,6 +6,9 @@ OpenSSL generates an ephemeral certificate; no global trust store is modified.
 from contextlib import contextmanager
 from email import policy
 from email.parser import BytesParser
+import os
+from pathlib import Path
+import shlex
 import shutil
 import socketserver
 import ssl
@@ -149,6 +152,43 @@ def test_real_tls_worker_delivers_reset_and_change_notice(smtp_certificate, monk
     assert "30 Minuten" in body
     assert token not in messages[1].get_content()
     assert "Alle bisherigen Anmeldungen" in messages[1].get_content()
+
+
+def test_real_tls_worker_inherits_parent_only_import_paths(smtp_certificate, tmp_path, monkeypatch):
+    """Model a launcher that adds dependency bundles only to parent sys.path."""
+    interpreter = Path(recovery_mail.sys.executable).absolute()
+    wrapper = tmp_path / "python-no-site"
+    wrapper.write_text("#!/bin/sh\nexec " + shlex.quote(str(interpreter)) + ' -S "$@"\n')
+    wrapper.chmod(0o700)
+    monkeypatch.setattr(recovery_mail.sys, "executable", str(wrapper))
+    monkeypatch.syspath_prepend(os.path.relpath(tmp_path, Path.cwd()))
+    monkeypatch.delenv("PYTHONPATH", raising=False)
+    monkeypatch.setenv("SSL_CERT_FILE", str(smtp_certificate[0]))
+    original_run = subprocess.run
+    probe = original_run([str(wrapper), "-c", "import email_validator"],
+                         capture_output=True, text=True, check=False)
+    assert probe.returncode != 0
+    assert "ModuleNotFoundError" in probe.stderr and "email_validator" in probe.stderr
+    observed = []
+    def run_worker(args, **kwargs):
+        observed.append((args, kwargs))
+        return original_run(args, **kwargs)
+    monkeypatch.setattr(recovery_mail.subprocess, "run", run_worker)
+    with tls_smtp(smtp_certificate, "ssl") as (settings, messages):
+        token = "synthetic-parent-path-token"
+        recovery_mail.send_reset(settings, "recipient@example.org", token)
+    assert len(messages) == 1
+    assert token in messages[0].get_content()
+    args, kwargs = observed[0]
+    assert args == [str(wrapper), "-m", "app.recovery_mail"]
+    assert settings.password not in str(args) and token not in str(args)
+    assert kwargs["timeout"] == recovery_mail.SEND_TIMEOUT
+    assert kwargs["stdout"] == kwargs["stderr"] == subprocess.DEVNULL
+    assert kwargs.get("shell", False) is False
+    assert kwargs["env"]["SSL_CERT_FILE"] == str(smtp_certificate[0])
+    assert all(Path(path).is_absolute() for path in kwargs["env"]["PYTHONPATH"].split(os.pathsep))
+    assert str(tmp_path.resolve()) in kwargs["env"]["PYTHONPATH"].split(os.pathsep)
+    assert "PYTHONPATH" not in os.environ  # No mutation of the parent's environment.
 
 
 def test_real_worker_rejects_untrusted_certificate(smtp_certificate, monkeypatch):
