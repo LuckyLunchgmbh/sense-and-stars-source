@@ -11,6 +11,8 @@ from urllib.parse import urlparse
 from zoneinfo import ZoneInfo
 
 from fastapi import FastAPI, HTTPException, Request, Response
+from fastapi.exceptions import RequestValidationError
+from fastapi.exception_handlers import request_validation_exception_handler
 from fastapi.responses import FileResponse, JSONResponse
 from starlette.middleware.trustedhost import TrustedHostMiddleware
 
@@ -181,7 +183,7 @@ async def lifespan(_app):
     yield
 
 
-app = FastAPI(title="Sense & Stars",version="1.3.0",lifespan=lifespan,docs_url=None,redoc_url=None,openapi_url=None)
+app = FastAPI(title="Sense & Stars",version="1.3.1",lifespan=lifespan,docs_url=None,redoc_url=None,openapi_url=None)
 app.add_middleware(TrustedHostMiddleware,allowed_hosts=allowed_hosts())
 
 
@@ -224,6 +226,14 @@ async def integrity_error(_request, _exc):
     return JSONResponse({"detail":"Dieser Datensatz oder diese E-Mail-Adresse existiert bereits. Bitte Angaben prüfen."},status_code=409)
 
 
+@app.exception_handler(RequestValidationError)
+async def validation_error(request: Request, exc: RequestValidationError):
+    if request.url.path.startswith("/api/auth/password-reset/"):
+        # Pydantic's default includes the raw input, possibly a token/password.
+        return JSONResponse({"detail":"Bitte prüfe die Angaben. Das neue Passwort benötigt 12 bis 256 Zeichen; beide Eingaben müssen übereinstimmen."}, status_code=422)
+    return await request_validation_exception_handler(request, exc)
+
+
 @app.exception_handler(sqlite3.OperationalError)
 async def database_error(_request, _exc):
     return JSONResponse({"detail":"Die Datenbank ist vorübergehend nicht verfügbar. Bitte erneut versuchen."},status_code=503)
@@ -231,7 +241,7 @@ async def database_error(_request, _exc):
 
 @app.get("/api/health")
 def health():
-    return {"status":"ok","mode":"hosted" if hosted() else "demo" if demo_mode() else "local","version":"1.3.0",
+    return {"status":"ok","mode":"hosted" if hosted() else "demo" if demo_mode() else "local","version":"1.3.1",
             "source_url":setting("SOURCE_URL") if setting("SWISS_LICENSE")=="agpl-3.0" else None,
             "license":"AGPL-3.0-only" if setting("SWISS_LICENSE")=="agpl-3.0" else None}
 
@@ -250,17 +260,21 @@ def demo():
 def login(data: Login, request: Request, response: Response):
     # Limit per account and local peer; hash the key so attempts do not store emails.
     key = token_hash((request.client.host if request.client else "local") + ":" + data.email.lower())
+    account_key = token_hash(data.email.lower())
     now = clock.time()
     with get_db() as conn:
         conn.execute("BEGIN IMMEDIATE")
         conn.execute("DELETE FROM login_attempts WHERE first_at<?",(now-600,))
         attempt = conn.execute("SELECT * FROM login_attempts WHERE key=?",(key,)).fetchone()
         if attempt and attempt["failures"] >= 5:
+            # Attribute pre-migration rows on their next use, without lifting the limit.
+            conn.execute("UPDATE login_attempts SET account_key=? WHERE key=?", (account_key, key))
+            conn.commit()
             raise HTTPException(429,"Zu viele Anmeldeversuche. Bitte in zehn Minuten erneut versuchen.")
         row = conn.execute("SELECT * FROM users WHERE email=?",(data.email.lower(),)).fetchone()
         valid = verify_password(data.password, row["password_hash"] if row else DUMMY_HASH)
         if not row or not valid:
-            conn.execute("INSERT INTO login_attempts(key,failures,first_at) VALUES(?,1,?) ON CONFLICT(key) DO UPDATE SET failures=login_attempts.failures+1",(key,now))
+            conn.execute("INSERT INTO login_attempts(key,failures,first_at,account_key) VALUES(?,1,?,?) ON CONFLICT(key) DO UPDATE SET failures=login_attempts.failures+1,account_key=excluded.account_key",(key,now,account_key))
             conn.commit()  # Failed attempts survive the HTTP exception rollback.
             raise HTTPException(401,"E-Mail-Adresse oder Passwort ist nicht korrekt.")
         conn.execute("DELETE FROM login_attempts WHERE key=?",(key,))
@@ -622,6 +636,8 @@ app.include_router(astro_router)
 app.include_router(learning_router)
 from .academy import router as academy_router
 app.include_router(academy_router)
+from .password_recovery import router as password_recovery_router
+app.include_router(password_recovery_router)
 
 
 @app.get("/{path:path}",include_in_schema=False)

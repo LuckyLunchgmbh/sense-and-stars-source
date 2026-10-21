@@ -24,6 +24,23 @@ class Login(StrictModel):
         return value.strip()
 
 
+class PasswordResetRequest(StrictModel):
+    email: Annotated[EmailStr, Field(max_length=254)]
+
+
+class PasswordResetConfirm(StrictModel):
+    model_config = ConfigDict(extra="forbid", str_strip_whitespace=False)
+    token: Annotated[str, Field(min_length=43, max_length=43, pattern=r"^[A-Za-z0-9_-]+$")]
+    password: Annotated[str, Field(min_length=12, max_length=256)]
+    password_confirm: Annotated[str, Field(min_length=12, max_length=256)]
+
+    @model_validator(mode="after")
+    def matching_passwords(self):
+        if self.password != self.password_confirm:
+            raise ValueError("Die beiden Passwörter stimmen nicht überein.")
+        return self
+
+
 class ProfileUpdate(StrictModel):
     tour_completed: bool | None = None
     name: Annotated[str, Field(min_length=1, max_length=120)] | None = None

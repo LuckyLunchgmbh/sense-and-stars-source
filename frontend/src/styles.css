@@ -3001,6 +3001,56 @@ summary {
   margin-top: 29px;
   text-align: center;
 }
+.login-form .auth-heading:focus {
+  outline: none;
+}
+.login-form .auth-forgot,
+.login-form .auth-back {
+  min-height: 44px;
+  width: 100%;
+  margin-top: 10px;
+  white-space: normal;
+  color: #765386;
+}
+.login-form .auth-field-help {
+  color: #675773;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 10px 0 18px;
+}
+.login-form .auth-recovery-form > label {
+  margin: 20px 0 8px;
+}
+.login-form .auth-recovery-form > label:first-child {
+  margin-top: 0;
+}
+.login-form .auth-recovery-form > input {
+  width: 100%;
+}
+.login-form .auth-recovery-form .auth-password-toggle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  margin: 12px 0;
+  cursor: pointer;
+}
+.login-form .auth-password-toggle input {
+  width: 20px;
+  height: 20px;
+  min-height: 20px;
+  flex: 0 0 20px;
+  margin: 0;
+  accent-color: var(--chakra-crown);
+}
+.login-form .auth-recovery-help {
+  display: grid;
+  gap: 14px;
+}
+.login-form .alert {
+  overflow-wrap: anywhere;
+}
 @media (min-width: 1500px) {
   .sidebar {
     width: 255px;

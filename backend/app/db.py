@@ -76,3 +76,15 @@ def init_schema(conn):
     columns = {row["name"] for row in conn.execute("PRAGMA table_info(users)")}
     if "hourly_rate_cents" not in columns:
         conn.execute("ALTER TABLE users ADD COLUMN hourly_rate_cents INTEGER CHECK(hourly_rate_cents >= 0 AND hourly_rate_cents <= 1000000)")
+    login_columns = {row["name"] for row in conn.execute("PRAGMA table_info(login_attempts)")}
+    if "account_key" not in login_columns:
+        conn.execute("ALTER TABLE login_attempts ADD COLUMN account_key TEXT")
+    conn.execute("CREATE INDEX IF NOT EXISTS login_attempts_account ON login_attempts(account_key)")
+    conn.execute("""CREATE TABLE IF NOT EXISTS password_reset_tokens(
+      token_hash TEXT PRIMARY KEY, user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+      credential_fingerprint TEXT NOT NULL, expires_at REAL NOT NULL, created_at REAL NOT NULL)""")
+    conn.execute("CREATE INDEX IF NOT EXISTS password_reset_user ON password_reset_tokens(user_id)")
+    conn.execute("""CREATE TABLE IF NOT EXISTS password_reset_limits(
+      key TEXT PRIMARY KEY, count INTEGER NOT NULL, first_at REAL NOT NULL, last_at REAL NOT NULL)""")
+    conn.execute("""CREATE TABLE IF NOT EXISTS mail_send_budget(
+      period TEXT PRIMARY KEY, attempts INTEGER NOT NULL CHECK(attempts >= 0))""")

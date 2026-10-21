@@ -1,5 +1,14 @@
-import { useEffect, useRef, useState, type FormEvent } from "react";
-import { api, roleName } from "./api";
+import {
+  useEffect,
+  useLayoutEffect,
+  useRef,
+  useState,
+  type FormEvent,
+} from "react";
+import { api, ApiError, roleName } from "./api";
+import { AuthLayout } from "./AuthLayout";
+import { PasswordRecovery } from "./PasswordRecovery";
+import { captureRecoveryLink, type RecoveryLink } from "./recoveryLink";
 import type { DeploymentMode, Health, User } from "./types";
 import { go, useRequestScope, useRoute } from "./hooks";
 import {
@@ -10,7 +19,6 @@ import {
   Icon,
   Loading,
   Modal,
-  OrbitArt,
   type IconName,
 } from "./ui";
 import {
@@ -45,7 +53,11 @@ function safeHttpsUrl(value: string | null | undefined) {
     return null;
   }
 }
-export default function App() {
+export default function App({
+  initialRecoveryLink = null,
+}: {
+  initialRecoveryLink?: RecoveryLink | null;
+}) {
   const [user, setUser] = useState<User | null>(null),
     [checking, setChecking] = useState(true),
     [revision, setRevision] = useState(0),
@@ -55,6 +67,18 @@ export default function App() {
     [offline, setOffline] = useState(!navigator.onLine),
     [mode, setMode] = useState<DeploymentMode>("local"),
     [sourceUrl, setSourceUrl] = useState<string | null>(null);
+  const [recoveryLink, setRecoveryLink] = useState(initialRecoveryLink);
+  const [recoveryEmail, setRecoveryEmail] = useState("");
+  const [recoveryRevision, setRecoveryRevision] = useState(0);
+  // Register before useRoute so subsequent reset links are scrubbed before routing.
+  useLayoutEffect(() => {
+    const capture = () => {
+      setRecoveryLink(captureRecoveryLink(window.location, window.history));
+      setRecoveryRevision((value) => value + 1);
+    };
+    window.addEventListener("hashchange", capture);
+    return () => window.removeEventListener("hashchange", capture);
+  }, []);
   const fullRoute = useRoute();
   const { practice, route } = parseWorkspaceRoute(fullRoute);
   useEffect(() => {
@@ -124,11 +148,48 @@ export default function App() {
         <Loading />
       </div>
     );
+  if (
+    recoveryLink ||
+    fullRoute === "reset-password" ||
+    fullRoute === "forgot-password"
+  )
+    return (
+      <PasswordRecovery
+        key={`${fullRoute === "forgot-password" ? "request" : "reset"}-${recoveryRevision}`}
+        link={
+          fullRoute === "forgot-password"
+            ? null
+            : recoveryLink || { token: null }
+        }
+        initialEmail={recoveryEmail}
+        offline={offline}
+        sourceUrl={sourceUrl}
+        onRequestNew={() => {
+          setRecoveryLink(null);
+          go("forgot-password", false);
+        }}
+        onPasswordChanged={() => {
+          setUser(null);
+          setTour(false);
+          setRecoveryLink({ token: null });
+        }}
+        onBack={() => {
+          setRecoveryLink(null);
+          setUser(null);
+          setTour(false);
+          go("home", false);
+        }}
+      />
+    );
   if (!user)
     return (
       <Login
         offline={offline}
         sourceUrl={sourceUrl}
+        onForgot={(email) => {
+          setRecoveryEmail(email);
+          go("forgot-password", false);
+        }}
         onLogin={(u) => {
           setUser(u);
           setTour(!u.tour_completed);
@@ -176,7 +237,9 @@ export default function App() {
         restart={() => setTour(true)}
         logout={logout}
         mode={mode}
-        onSaved={(updated) => setUser((current) => current?.id === updated.id ? updated : current)}
+        onSaved={(updated) =>
+          setUser((current) => (current?.id === updated.id ? updated : current))
+        }
       />
     );
   else if (active === "learning" && !isClient)
@@ -484,14 +547,19 @@ function Login({
   onLogin,
   offline,
   sourceUrl,
+  onForgot,
 }: {
   onLogin: (user: User) => void;
   offline: boolean;
   sourceUrl: string | null;
+  onForgot: (email: string) => void;
 }) {
+  const active = useRef(true);
+  const heading = useRef<HTMLHeadingElement>(null);
   const [email, setEmail] = useState(""),
     [password, setPassword] = useState(""),
     [error, setError] = useState(""),
+    [locked, setLocked] = useState(false),
     [busy, setBusy] = useState(false),
     [demo, setDemo] = useState<{
       accounts: {
@@ -503,6 +571,8 @@ function Login({
       notice: string;
     } | null>(null);
   useEffect(() => {
+    active.current = true;
+    heading.current?.focus();
     api<{
       accounts: {
         name: string;
@@ -512,163 +582,129 @@ function Login({
       }[];
       notice: string;
     }>("/demo")
-      .then(setDemo)
+      .then((value) => {
+        if (active.current) setDemo(value);
+      })
       .catch(() => {});
+    return () => {
+      active.current = false;
+    };
   }, []);
   async function submit(event: FormEvent) {
     event.preventDefault();
     setBusy(true);
     setError("");
+    setLocked(false);
     try {
-      onLogin(await api<User>("/auth/login", { email, password }));
+      const authenticated = await api<User>("/auth/login", { email, password });
+      if (!active.current) return;
+      onLogin(authenticated);
       setPassword("");
     } catch (error) {
-      setError((error as Error).message);
+      if (!active.current) return;
+      const rateLimited = error instanceof ApiError && error.status === 429;
+      setLocked(rateLimited);
+      setError(
+        rateLimited
+          ? "Die Anmeldung ist nach mehreren Versuchen vorübergehend gesperrt. Bitte warte bis zu zehn Minuten oder setze dein Passwort zurück."
+          : (error as Error).message,
+      );
     } finally {
-      setBusy(false);
+      if (active.current) setBusy(false);
     }
   }
   return (
-    <div className="login-page">
-      <div className="login-story">
-        <a
-          className="brand-link"
-          href="#"
-          aria-label="Sense & Stars – Anmeldung"
-        >
-          <Brand dark />
-        </a>
-        <div className="login-story-content">
-          <span className="eyebrow">ANKOMMEN. VERBINDEN. ENTFALTEN.</span>
-          <h1>
-            Ein Raum.
-            <br />
-            Unendlich viel
-            <br /> <em>Entwicklung.</em>
-          </h1>
+    <AuthLayout sourceUrl={sourceUrl}>
+      <span className="welcome-icon">
+        <Icon name="sun" size={28} />
+      </span>
+      <span className="eyebrow">WILLKOMMEN IN DEINEM RAUM</span>
+      <h2 ref={heading} tabIndex={-1} className="auth-heading">
+        Schön, dass du da bist.
+      </h2>
+      <p>Melde dich an und komm in Ruhe an.</p>
+      {offline && (
+        <div className="alert" role="status">
+          Du bist offline. Die App-Hülle ist bereit; für die Anmeldung und deine
+          geschützten Inhalte benötigst du wieder eine Verbindung.
+        </div>
+      )}
+      <form onSubmit={submit}>
+        <label>
+          E-Mail-Adresse
+          <input
+            type="email"
+            name="email"
+            autoComplete="username"
+            required
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder="dein.name@beispiel.de"
+          />
+        </label>
+        <label>
+          Passwort
+          <input
+            type="password"
+            name="password"
+            autoComplete="current-password"
+            required
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            placeholder="Dein persönliches Passwort"
+          />
+        </label>
+        <ErrorBox error={error} />
+        <button className="button primary login-button" disabled={busy}>
+          {busy ? "Dein Raum öffnet sich …" : "Meinen Raum öffnen"}
+          <Icon name="arrow" size={18} />
+        </button>
+      </form>
+      <button
+        className="button text auth-forgot"
+        type="button"
+        onClick={() => onForgot(email)}
+      >
+        Passwort vergessen?
+      </button>
+      {locked && (
+        <p className="auth-field-help" role="status">
+          Du kannst auch während der Anmeldepause einen Link zum Zurücksetzen
+          anfordern.
+        </p>
+      )}
+      {demo && (
+        <details className="demo-access">
+          <summary>
+            Lokale Demo entdecken <Badge>Testzugänge</Badge>
+          </summary>
           <p>
-            Für die Menschen, die du begleitest.
-            <br />
-            Und für deinen eigenen Weg.
+            {demo.notice ||
+              "Ausschließlich synthetische Beispieldaten. Die Zugangsdaten werden bei der Einrichtung lokal erzeugt."}
           </p>
-          <OrbitArt />
-        </div>
-        <div className="login-story-footer">
-          <span className="mini-chakras">
-            {[
-              "root",
-              "sacral",
-              "solar",
-              "heart",
-              "throat",
-              "third-eye",
-              "crown",
-            ].map((t) => (
-              <i key={t} style={{ background: `var(--chakra-${t})` }} />
-            ))}
-          </span>
-          <span>In deinem Rhythmus. Mit klarem Blick.</span>
-        </div>
-      </div>
-      <div className="login-form-wrap">
-        <div className="login-form">
-          <span className="welcome-icon">
-            <Icon name="sun" size={28} />
-          </span>
-          <span className="eyebrow">WILLKOMMEN IN DEINEM RAUM</span>
-          <h2>Schön, dass du da bist.</h2>
-          <p>Melde dich an und komm in Ruhe an.</p>
-          {offline && (
-            <div className="alert" role="status">
-              Du bist offline. Die App-Hülle ist bereit; für die Anmeldung und
-              deine geschützten Inhalte benötigst du wieder eine Verbindung.
-            </div>
-          )}
-          <form onSubmit={submit}>
-            <label>
-              E-Mail-Adresse
-              <input
-                type="email"
-                name="email"
-                autoComplete="username"
-                required
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="dein.name@beispiel.de"
-              />
-            </label>
-            <label>
-              Passwort
-              <input
-                type="password"
-                name="password"
-                autoComplete="current-password"
-                required
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                placeholder="Dein persönliches Passwort"
-              />
-            </label>
-            <ErrorBox error={error} />
-            <button className="button primary login-button" disabled={busy}>
-              {busy ? "Dein Raum öffnet sich …" : "Meinen Raum öffnen"}
-              <Icon name="arrow" size={18} />
-            </button>
-          </form>
-          <p className="login-security">
-            <Icon name="lock" size={14} /> Dein Zugang ist persönlich und
-            geschützt.
-          </p>
-          {sourceUrl && (
-            <p className="login-security">
-              <a
-                className="text-link"
-                href={sourceUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+          <div>
+            {demo.accounts.map((account) => (
+              <button
+                type="button"
+                className="demo-account"
+                key={account.email}
+                onClick={() => {
+                  setEmail(account.email);
+                  setPassword(account.password);
+                  setError("");
+                }}
               >
-                Quellcode · AGPL
-              </a>
-            </p>
-          )}
-          {demo && (
-            <details className="demo-access">
-              <summary>
-                Lokale Demo entdecken <Badge>Testzugänge</Badge>
-              </summary>
-              <p>
-                {demo.notice ||
-                  "Ausschließlich synthetische Beispieldaten. Die Zugangsdaten werden bei der Einrichtung lokal erzeugt."}
-              </p>
-              <div>
-                {demo.accounts.map((account) => (
-                  <button
-                    type="button"
-                    className="demo-account"
-                    key={account.email}
-                    onClick={() => {
-                      setEmail(account.email);
-                      setPassword(account.password);
-                      setError("");
-                    }}
-                  >
-                    <span>
-                      <strong>{account.name}</strong>
-                      <small>{roleName(account.role)}</small>
-                    </span>
-                    <Icon name="arrow" size={16} />
-                  </button>
-                ))}
-              </div>
-            </details>
-          )}
-          <div className="login-disclaimer">
-            Astrologie dient der spirituellen Reflexion. Sense &amp; Stars
-            ersetzt keine medizinische oder psychotherapeutische Beratung.
+                <span>
+                  <strong>{account.name}</strong>
+                  <small>{roleName(account.role)}</small>
+                </span>
+                <Icon name="arrow" size={16} />
+              </button>
+            ))}
           </div>
-        </div>
-      </div>
-    </div>
+        </details>
+      )}
+    </AuthLayout>
   );
 }
 function Tour({
