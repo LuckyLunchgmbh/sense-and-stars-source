@@ -183,7 +183,7 @@ async def lifespan(_app):
     yield
 
 
-app = FastAPI(title="Sense & Stars",version="1.3.2",lifespan=lifespan,docs_url=None,redoc_url=None,openapi_url=None)
+app = FastAPI(title="Sense & Stars",version="1.3.3",lifespan=lifespan,docs_url=None,redoc_url=None,openapi_url=None)
 app.add_middleware(TrustedHostMiddleware,allowed_hosts=allowed_hosts())
 
 
@@ -241,7 +241,7 @@ async def database_error(_request, _exc):
 
 @app.get("/api/health")
 def health():
-    return {"status":"ok","mode":"hosted" if hosted() else "demo" if demo_mode() else "local","version":"1.3.2",
+    return {"status":"ok","mode":"hosted" if hosted() else "demo" if demo_mode() else "local","version":"1.3.3",
             "source_url":setting("SOURCE_URL") if setting("SWISS_LICENSE")=="agpl-3.0" else None,
             "license":"AGPL-3.0-only" if setting("SWISS_LICENSE")=="agpl-3.0" else None}
 
@@ -638,6 +638,9 @@ from .academy import router as academy_router
 app.include_router(academy_router)
 from .password_recovery import router as password_recovery_router
 app.include_router(password_recovery_router)
+from .dedication import router as dedication_router
+app.include_router(dedication_router)
+
 
 
 @app.get("/{path:path}",include_in_schema=False)

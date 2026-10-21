@@ -2835,6 +2835,26 @@ summary {
   position: relative;
   z-index: 1;
 }
+.login-dedication {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: fit-content;
+  margin-top: 30px;
+  padding-top: 21px;
+  border-top: 1px solid #ecd5a455;
+  color: #f3e3c7;
+  font-family: var(--serif);
+  font-size: 21px;
+  letter-spacing: 0.015em;
+}
+.login-dedication svg {
+  width: 52px;
+  height: 24px;
+  color: #e5c795;
+}
 .login-story-content .orbit-art {
   position: absolute;
   bottom: -10px;
@@ -7341,5 +7361,199 @@ textarea::placeholder {
   }
   .academy-step-actions .button {
     width: 100%;
+  }
+}
+
+/* The letter is private API content; its public frame stays deliberately quiet. */
+body:has(dialog.dedication-modal[open]) {
+  overflow: hidden;
+}
+.dedication-modal {
+  width: 650px;
+  padding: 32px 38px 30px;
+  background: #fffcff;
+  border-color: #dfd0e7;
+  scrollbar-gutter: stable;
+}
+.dedication-modal .modal-top {
+  margin-bottom: 18px;
+  gap: 20px;
+}
+.dedication-modal .modal-top .eyebrow {
+  color: #795f86;
+  font-size: 10px;
+}
+.dedication-modal .modal-top h2 {
+  color: #684675;
+  font-size: clamp(29px, 4vw, 37px);
+  line-height: 1.18;
+  overflow-wrap: anywhere;
+  margin-top: 12px;
+}
+.dedication-modal .modal-top h2:focus {
+  outline: none;
+}
+.dedication-modal .modal-top > .icon-button {
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  color: #765783;
+  margin: -6px -10px 0 0;
+}
+.dedication-letter {
+  color: var(--ink);
+  font-size: 16px;
+  line-height: 1.85;
+}
+.dedication-letter-mark {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin: 4px 0 29px;
+  padding-bottom: 21px;
+  border-bottom: 1px solid #e7dce9;
+  color: #715c7b;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.dedication-letter-mark svg {
+  width: 46px;
+  height: 23px;
+  flex: 0 0 46px;
+  color: #a67e3a;
+}
+.dedication-letter > p {
+  margin: 0 0 21px;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+.dedication-letter .dedication-salutation {
+  color: #70507d;
+  font-weight: 500;
+}
+.dedication-letter .dedication-signature {
+  margin: 28px 0 0;
+  color: #715c7b;
+  font-size: 14px;
+}
+.dedication-signature span {
+  display: block;
+  margin-top: 2px;
+  color: #684675;
+  font-family: var(--serif);
+  font-size: 29px;
+  line-height: 1.5;
+}
+.dedication-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+  border-top: 1px solid #e7dce9;
+  padding-top: 23px;
+  margin-top: 27px;
+}
+.dedication-actions p {
+  max-width: 235px;
+  color: #715c7b;
+  font-size: 12px;
+  line-height: 1.7;
+}
+.dedication-actions .button {
+  min-height: 46px;
+  flex-shrink: 0;
+  font-size: 13px;
+}
+.dedication-notice {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 18px 42px 0;
+  padding: 16px 18px;
+  border: 1px solid #ddcee5;
+  border-radius: 12px;
+  background: #fbf7fd;
+  color: #675273;
+}
+.dedication-notice > svg {
+  flex: 0 0 19px;
+}
+.dedication-notice > p {
+  flex: 1;
+  font-size: 13px;
+  line-height: 1.6;
+}
+.dedication-notice > .button {
+  min-height: 44px;
+  white-space: normal;
+}
+.dedication-settings > p {
+  color: #675273;
+  font-size: 14px;
+}
+.dedication-settings > .button {
+  min-height: 44px;
+  white-space: normal;
+}
+@media (max-width: 760px) {
+  .login-dedication {
+    margin-top: 22px;
+    padding-top: 18px;
+    font-size: 19px;
+  }
+  .login-dedication svg {
+    width: 47px;
+  }
+  .dedication-notice {
+    margin: 14px 18px 0;
+    display: grid;
+    grid-template-columns: 19px minmax(0, 1fr);
+    align-items: start;
+  }
+  .dedication-notice > svg {
+    margin-top: 3px;
+  }
+  .dedication-notice > .button {
+    grid-column: 2;
+    justify-self: start;
+  }
+}
+@media (max-width: 500px) {
+  .dedication-modal {
+    max-width: calc(100vw - 24px);
+    max-height: calc(100dvh - 30px);
+    padding: 25px 23px 23px;
+    border-radius: 16px;
+  }
+  .dedication-modal .modal-top {
+    gap: 6px;
+  }
+  .dedication-modal .modal-top h2 {
+    font-size: 29px;
+  }
+  .dedication-modal .modal-top > .icon-button {
+    margin-right: -9px;
+  }
+  .dedication-letter-mark {
+    gap: 10px;
+    margin-bottom: 25px;
+  }
+  .dedication-letter {
+    font-size: 16px;
+    line-height: 1.85;
+  }
+  .dedication-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+  }
+  .dedication-actions p {
+    max-width: none;
+    font-size: 13px;
+  }
+  .dedication-actions .button {
+    width: 100%;
+    font-size: 14px;
   }
 }

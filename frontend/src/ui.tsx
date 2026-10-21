@@ -217,14 +217,19 @@ export function Modal({
   children,
   onClose,
   wide = false,
+  className = "",
+  focusTitle = false,
 }: {
   title: string;
   description?: string;
   children: ReactNode;
   onClose: () => void;
   wide?: boolean;
+  className?: string;
+  focusTitle?: boolean;
 }) {
   const ref = useRef<HTMLDialogElement>(null);
+  const heading = useRef<HTMLHeadingElement>(null);
   const id = useId();
   useEffect(() => {
     const node = ref.current;
@@ -238,20 +243,28 @@ export function Modal({
       if (suspended && node?.isConnected && !node.open) node.showModal();
       suspended = false;
     };
-    if (!suspended) node?.showModal();
+    if (!suspended) {
+      node?.showModal();
+      if (focusTitle) heading.current?.focus({ preventScroll: true });
+    }
     window.addEventListener("offline", suspend);
     window.addEventListener("online", resume);
     return () => {
       window.removeEventListener("offline", suspend);
       window.removeEventListener("online", resume);
       node?.close();
-      previous?.focus();
+      if (previous?.isConnected && previous !== document.body)
+        previous.focus({ preventScroll: true });
+      else
+        document.getElementById("main-content")?.focus({ preventScroll: true });
     };
   }, []);
   return (
     <dialog
       ref={ref}
-      className={"modal " + (wide ? "modal-wide" : "")}
+      className={["modal", wide ? "modal-wide" : "", className]
+        .filter(Boolean)
+        .join(" ")}
       aria-labelledby={id}
       onCancel={(event) => {
         event.preventDefault();
@@ -273,7 +286,9 @@ export function Modal({
       <div className="modal-top">
         <div>
           <span className="eyebrow">SENSE &amp; STARS</span>
-          <h2 id={id}>{title}</h2>
+          <h2 id={id} ref={heading} tabIndex={focusTitle ? -1 : undefined}>
+            {title}
+          </h2>
           {description && <p>{description}</p>}
         </div>
         <button

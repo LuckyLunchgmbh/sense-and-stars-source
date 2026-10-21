@@ -88,3 +88,13 @@ def init_schema(conn):
       key TEXT PRIMARY KEY, count INTEGER NOT NULL, first_at REAL NOT NULL, last_at REAL NOT NULL)""")
     conn.execute("""CREATE TABLE IF NOT EXISTS mail_send_budget(
       period TEXT PRIMARY KEY, attempts INTEGER NOT NULL CHECK(attempts >= 0))""")
+    conn.execute("""CREATE TABLE IF NOT EXISTS personal_dedications(
+      id INTEGER PRIMARY KEY, user_id INTEGER NOT NULL UNIQUE REFERENCES users(id) ON DELETE CASCADE,
+      title TEXT NOT NULL, salutation TEXT NOT NULL, paragraphs_json TEXT NOT NULL,
+      closing TEXT NOT NULL, sender TEXT NOT NULL,
+      content_version INTEGER NOT NULL DEFAULT 1 CHECK(content_version >= 1), created_at TEXT NOT NULL)""")
+    conn.execute("""CREATE TABLE IF NOT EXISTS personal_dedication_views(
+      dedication_id INTEGER NOT NULL REFERENCES personal_dedications(id) ON DELETE CASCADE,
+      session_token_hash TEXT NOT NULL REFERENCES sessions(token_hash) ON DELETE CASCADE,
+      content_version INTEGER NOT NULL CHECK(content_version >= 1), dismissed_at TEXT NOT NULL,
+      PRIMARY KEY(dedication_id,session_token_hash,content_version))""")

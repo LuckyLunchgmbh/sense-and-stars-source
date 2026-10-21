@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { Brand, Icon, OrbitArt } from "./ui";
+import { InfinityMark } from "./Dedication";
 
 export function AuthLayout({
   children,
@@ -31,6 +32,10 @@ export function AuthLayout({
             <br />
             Und für deinen eigenen Weg.
           </p>
+          <div className="login-dedication">
+            <span>Für Marina</span>
+            <InfinityMark />
+          </div>
           <OrbitArt />
         </div>
         <div className="login-story-footer">

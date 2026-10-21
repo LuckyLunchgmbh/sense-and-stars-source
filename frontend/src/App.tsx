@@ -8,6 +8,17 @@ import {
 import { api, ApiError, roleName } from "./api";
 import { AuthLayout } from "./AuthLayout";
 import { PasswordRecovery } from "./PasswordRecovery";
+import {
+  DedicationDialog,
+  DedicationNotice,
+  DedicationSettings,
+} from "./Dedication";
+import {
+  useDedication,
+  useOtherDialogOpen,
+  type DedicationController,
+} from "./useDedication";
+import { dedicationBlocksTour } from "./dedicationState";
 import { captureRecoveryLink, type RecoveryLink } from "./recoveryLink";
 import type { DeploymentMode, Health, User } from "./types";
 import { go, useRequestScope, useRoute } from "./hooks";
@@ -70,6 +81,8 @@ export default function App({
   const [recoveryLink, setRecoveryLink] = useState(initialRecoveryLink);
   const [recoveryEmail, setRecoveryEmail] = useState("");
   const [recoveryRevision, setRecoveryRevision] = useState(0);
+  const [authRevision, setAuthRevision] = useState(0);
+  const [authNotice, setAuthNotice] = useState("");
   // Register before useRoute so subsequent reset links are scrubbed before routing.
   useLayoutEffect(() => {
     const capture = () => {
@@ -81,24 +94,48 @@ export default function App({
   }, []);
   const fullRoute = useRoute();
   const { practice, route } = parseWorkspaceRoute(fullRoute);
+  const recoveryActive =
+    !!recoveryLink ||
+    fullRoute === "reset-password" ||
+    fullRoute === "forgot-password";
+  const dedication = useDedication(
+    user && !recoveryActive ? `${user.id}:${authRevision}` : null,
+  );
+  const otherDialogOpen = useOtherDialogOpen();
   useEffect(() => {
+    if (dedication.state.status !== "expired") return;
+    setUser(null);
+    setTour(false);
+    setAuthNotice(
+      "Deine Anmeldung ist abgelaufen. Bitte melde dich erneut an.",
+    );
+    go("home", false);
+  }, [dedication.state.status]);
+  useEffect(() => {
+    let active = true;
     api<Health>("/health")
       .then((value) => {
+        if (!active) return;
         setMode(value.mode);
         setSourceUrl(safeHttpsUrl(value.source_url));
       })
       .catch(() => {});
     api<User>("/auth/me")
       .then((u) => {
+        if (!active) return;
         setUser(u);
+        setAuthRevision((value) => value + 1);
         setTour(!u.tour_completed);
       })
       .catch(() => {})
-      .finally(() => setChecking(false));
+      .finally(() => {
+        if (active) setChecking(false);
+      });
     const online = () => setOffline(!navigator.onLine);
     window.addEventListener("online", online);
     window.addEventListener("offline", online);
     return () => {
+      active = false;
       window.removeEventListener("online", online);
       window.removeEventListener("offline", online);
     };
@@ -134,6 +171,7 @@ export default function App({
   async function logout() {
     try {
       await api("/auth/logout", {});
+      setAuthNotice("");
       setUser(null);
       setTour(false);
       go("home", false);
@@ -148,11 +186,7 @@ export default function App({
         <Loading />
       </div>
     );
-  if (
-    recoveryLink ||
-    fullRoute === "reset-password" ||
-    fullRoute === "forgot-password"
-  )
+  if (recoveryActive)
     return (
       <PasswordRecovery
         key={`${fullRoute === "forgot-password" ? "request" : "reset"}-${recoveryRevision}`}
@@ -186,12 +220,15 @@ export default function App({
       <Login
         offline={offline}
         sourceUrl={sourceUrl}
+        notice={authNotice}
         onForgot={(email) => {
           setRecoveryEmail(email);
           go("forgot-password", false);
         }}
         onLogin={(u) => {
+          setAuthNotice("");
           setUser(u);
+          setAuthRevision((value) => value + 1);
           setTour(!u.tour_completed);
           go("home", false);
         }}
@@ -237,6 +274,7 @@ export default function App({
         restart={() => setTour(true)}
         logout={logout}
         mode={mode}
+        dedication={dedication}
         onSaved={(updated) =>
           setUser((current) => (current?.id === updated.id ? updated : current))
         }
@@ -463,6 +501,7 @@ export default function App({
             <ContextHelp topic="practice" />
           </div>
         )}
+        {!offline && <DedicationNotice controller={dedication} />}
         <main
           id="main-content"
           className="main-content"
@@ -530,7 +569,16 @@ export default function App({
           </button>
         </div>
       )}
-      {tour && (
+      {dedication.state.open &&
+        dedication.state.dedication &&
+        !otherDialogOpen && (
+          <DedicationDialog
+            key={`${dedication.state.dedication.id}:${dedication.state.dedication.version}`}
+            letter={dedication.state.dedication}
+            onClose={() => void dedication.dismiss()}
+          />
+        )}
+      {tour && !dedicationBlocksTour(dedication.state) && !otherDialogOpen && (
         <Tour
           user={user}
           onClose={() => setTour(false)}
@@ -548,11 +596,13 @@ function Login({
   offline,
   sourceUrl,
   onForgot,
+  notice,
 }: {
   onLogin: (user: User) => void;
   offline: boolean;
   sourceUrl: string | null;
   onForgot: (email: string) => void;
+  notice: string;
 }) {
   const active = useRef(true);
   const heading = useRef<HTMLHeadingElement>(null);
@@ -623,6 +673,11 @@ function Login({
         Schön, dass du da bist.
       </h2>
       <p>Melde dich an und komm in Ruhe an.</p>
+      {notice && (
+        <div className="alert" role="status">
+          {notice}
+        </div>
+      )}
       {offline && (
         <div className="alert" role="status">
           Du bist offline. Die App-Hülle ist bereit; für die Anmeldung und deine
@@ -831,6 +886,7 @@ function Tour({
   return (
     <Modal
       title="Willkommen bei Sense & Stars"
+      className="tour-modal"
       onClose={() => {
         if (!busy) void finish();
       }}
@@ -899,12 +955,14 @@ function Settings({
   logout,
   mode,
   onSaved,
+  dedication,
 }: {
   user: User;
   restart: () => void;
   logout: () => void;
   mode: DeploymentMode;
   onSaved: (user: User) => void;
+  dedication: DedicationController;
 }) {
   const isCurrent = useRequestScope();
   const [name, setName] = useState(user.name);
@@ -1034,6 +1092,7 @@ function Settings({
             App-Tour wiederholen <Icon name="arrow" size={17} />
           </button>
         </section>
+        <DedicationSettings controller={dedication} />
         <section className="glass-card settings-card wide">
           <span className="card-icon heart">
             <Icon name="shield" />
