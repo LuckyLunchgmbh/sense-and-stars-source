@@ -26,7 +26,7 @@ class DedicationDismiss(StrictModel):
 
 
 def _active_session(conn, request, user_id):
-    # Recheck under the write lock on dismissal: revocation must win over stale
+    # Recheck under the write lock on acknowledgement: revocation must win over stale
     # authentication. Cookie aliases retain the same order as require_user.
     for cookie in (SESSION_COOKIE, LEGACY_SESSION_COOKIE):
         token = request.cookies.get(cookie, "")
@@ -56,14 +56,13 @@ def own_dedication(request: Request):
         row = conn.execute("SELECT * FROM personal_dedications WHERE user_id=?", (user["id"],)).fetchone()
         if row is None:
             return {"dedication": None, "auto_open": False}
-        session = _active_session(conn, request, user["id"])
-        viewed = conn.execute("SELECT 1 FROM personal_dedication_views WHERE dedication_id=? AND session_token_hash=? AND content_version=?",
-                              (row["id"], session, row["content_version"])).fetchone()
-        return {"dedication": _public_letter(row), "auto_open": viewed is None}
+        _active_session(conn, request, user["id"])
+        presented = conn.execute("SELECT 1 FROM personal_dedication_receipts WHERE dedication_id=? AND user_id=? AND content_version=?",
+                                 (row["id"], user["id"], row["content_version"])).fetchone()
+        return {"dedication": _public_letter(row), "auto_open": presented is None}
 
 
-@router.post("/dismiss")
-def dismiss_dedication(data: DedicationDismiss, request: Request):
+def _acknowledge_dedication(data: DedicationDismiss, request: Request, *, completed: bool):
     user = require_user(request)
     with get_db() as conn:
         conn.execute("BEGIN IMMEDIATE")
@@ -72,8 +71,27 @@ def dismiss_dedication(data: DedicationDismiss, request: Request):
                            (user["id"], data.id, data.version)).fetchone()
         if row is None:
             raise HTTPException(404, "Diese persönliche Widmung ist nicht verfügbar.")
-        conn.execute("""INSERT INTO personal_dedication_views
-          (dedication_id,session_token_hash,content_version,dismissed_at) VALUES(?,?,?,?)
-          ON CONFLICT(dedication_id,session_token_hash,content_version) DO NOTHING""",
-          (data.id,session,data.version,now_iso()))
+        stamp = now_iso()
+        conn.execute("""INSERT INTO personal_dedication_receipts
+          (dedication_id,user_id,content_version,presented_at) VALUES(?,?,?,?)
+          ON CONFLICT(dedication_id,user_id,content_version) DO NOTHING""",
+          (data.id,user["id"],data.version,stamp))
+        if completed:
+            conn.execute("""INSERT INTO personal_dedication_views
+              (dedication_id,session_token_hash,content_version,dismissed_at) VALUES(?,?,?,?)
+              ON CONFLICT(dedication_id,session_token_hash,content_version) DO NOTHING""",
+              (data.id,session,data.version,stamp))
     return {"ok": True}
+
+
+@router.post("/presented")
+def presented_dedication(data: DedicationDismiss, request: Request):
+    # Called only after the client actually presents the dialog. A GET remains
+    # read-only, so a failed load cannot silently consume the one-time welcome.
+    return _acknowledge_dedication(data, request, completed=False)
+
+
+@router.post("/dismiss")
+def dismiss_dedication(data: DedicationDismiss, request: Request):
+    # Older clients only send dismissal; they also get durable acknowledgement.
+    return _acknowledge_dedication(data, request, completed=True)

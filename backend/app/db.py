@@ -98,3 +98,21 @@ def init_schema(conn):
       session_token_hash TEXT NOT NULL REFERENCES sessions(token_hash) ON DELETE CASCADE,
       content_version INTEGER NOT NULL CHECK(content_version >= 1), dismissed_at TEXT NOT NULL,
       PRIMARY KEY(dedication_id,session_token_hash,content_version))""")
+
+    # Account/version receipt survives revoked or expired sessions. The letter is
+    # still private runtime content; this table records no prose or credentials.
+    conn.execute("""CREATE TABLE IF NOT EXISTS personal_dedication_receipts(
+      dedication_id INTEGER NOT NULL REFERENCES personal_dedications(id) ON DELETE CASCADE,
+      user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+      content_version INTEGER NOT NULL CHECK(content_version >= 1), presented_at TEXT NOT NULL,
+      PRIMARY KEY(dedication_id,user_id,content_version))""")
+    # Preserve only actual legacy acknowledgements whose session belongs to the
+    # letter recipient. Never infer presentation from a GET or missing history.
+    conn.execute("""INSERT INTO personal_dedication_receipts
+      (dedication_id,user_id,content_version,presented_at)
+      SELECT v.dedication_id,d.user_id,v.content_version,MIN(v.dismissed_at)
+      FROM personal_dedication_views v
+      JOIN personal_dedications d ON d.id=v.dedication_id
+      JOIN sessions s ON s.token_hash=v.session_token_hash AND s.user_id=d.user_id
+      GROUP BY v.dedication_id,d.user_id,v.content_version
+      ON CONFLICT(dedication_id,user_id,content_version) DO NOTHING""")

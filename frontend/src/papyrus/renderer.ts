@@ -1,5 +1,6 @@
 import * as THREE from "three";
 import { traceGlyph } from "./glyphTrace";
+import { writingDuration } from "./motion";
 
 export type PapyrusPhase =
   "loading" | "sealed" | "opening" | "writing" | "reading";
@@ -916,13 +917,7 @@ export function createPapyrusRenderer(options: Options): PapyrusRenderer {
           progress = Math.floor(progress) + 1;
           continue;
         }
-        const duration = !g.char.trim()
-          ? 18
-          : /[.,…!?]/u.test(g.char)
-            ? 120
-            : /[A-ZÄÖÜ]/u.test(g.char)
-              ? 195
-              : 112;
+        const duration = writingDuration(g.char);
         const remaining = (1 - (progress - Math.floor(progress))) * duration,
           step = Math.min(budget, remaining);
         progress = Math.min(

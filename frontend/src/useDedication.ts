@@ -45,9 +45,11 @@ export function useDedication(scope: string | null) {
   const currentScope = useRef(scope);
   const mounted = useRef(true);
   const saving = useRef<{ scope: string; requestId: number } | null>(null);
+  const presenting = useRef<{ scope: string; requestId: number } | null>(null);
   useLayoutEffect(() => {
     currentScope.current = scope;
     saving.current = null;
+    presenting.current = null;
   }, [scope]);
   useEffect(() => {
     mounted.current = true;
@@ -101,6 +103,40 @@ export function useDedication(scope: string | null) {
     // Revalidate the session and current content version before reading again.
     retry();
   }
+  async function present() {
+    if (!scope || !current.dedication || !current.presentationRequired) return;
+    const requestId = current.requestId;
+    if (
+      presenting.current?.scope === scope &&
+      presenting.current.requestId === requestId
+    )
+      return;
+    const operation = { scope, requestId };
+    presenting.current = operation;
+    dispatch({ type: "presenting", scope, requestId });
+    try {
+      const result = await withDeadline(
+        api<{ ok: boolean }>("/dedication/presented", {
+          id: current.dedication.id,
+          version: current.dedication.version,
+        }),
+      );
+      if (!result.ok) throw new Error("Anzeige nicht bestätigt");
+      if (mounted.current && currentScope.current === scope)
+        dispatch({ type: "presented", scope, requestId });
+    } catch (reason) {
+      if (presenting.current === operation) presenting.current = null;
+      if (mounted.current && currentScope.current === scope)
+        dispatch({
+          type:
+            reason instanceof ApiError && reason.status === 401
+              ? "expired"
+              : "presentation-failed",
+          scope,
+          requestId,
+        });
+    }
+  }
   async function dismiss() {
     if (!scope || !current.dedication) return;
     const requestId = current.requestId;
@@ -138,7 +174,7 @@ export function useDedication(scope: string | null) {
       if (saving.current === operation) saving.current = null;
     }
   }
-  return { state: current, retry, open, dismiss };
+  return { state: current, retry, open, dismiss, present };
 }
 
 // Defer automatic dialogs while an ordinary practice/learning dialog is open.

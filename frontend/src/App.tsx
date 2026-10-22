@@ -576,6 +576,7 @@ export default function App({
             key={`${dedication.state.dedication.id}:${dedication.state.dedication.version}`}
             letter={dedication.state.dedication}
             onClose={() => void dedication.dismiss()}
+            onPresented={() => void dedication.present()}
           />
         )}
       {tour && !dedicationBlocksTour(dedication.state) && !otherDialogOpen && (

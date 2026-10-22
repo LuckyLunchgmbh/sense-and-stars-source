@@ -266,3 +266,84 @@ test("response validation rejects malformed data instead of silently treating it
   ])
     assert.throws(() => parseDedicationResponse(value), /Nachricht/);
 });
+
+test("presentation receipt saves without closing, and failures remain explicit and retryable", () => {
+  const visible = loaded();
+  const sending = dedicationReducer(visible, {
+    type: "presenting",
+    scope,
+    requestId: 1,
+  });
+  assert.equal(sending.open, true);
+  assert.equal(sending.presenting, true);
+  const failure = dedicationReducer(sending, {
+    type: "presentation-failed",
+    scope,
+    requestId: 1,
+  });
+  assert.equal(failure.open, true);
+  assert.equal(failure.dedication, visible.dedication);
+  assert.match(failure.presentationError, /nicht gespeichert/);
+  const retry = dedicationReducer(failure, {
+    type: "presenting",
+    scope,
+    requestId: 1,
+  });
+  const saved = dedicationReducer(retry, {
+    type: "presented",
+    scope,
+    requestId: 1,
+  });
+  assert.equal(saved.open, true);
+  assert.equal(saved.presentationError, "");
+  assert.equal(saved.presenting, false);
+});
+
+test("late presentation receipts never affect a different session or newer message", () => {
+  const next = loading("another-session", 4);
+  for (const type of ["presenting", "presented", "presentation-failed"]) {
+    assert.equal(dedicationReducer(next, { type, scope, requestId: 1 }), next);
+    assert.equal(
+      dedicationReducer(next, { type, scope: "another-session", requestId: 3 }),
+      next,
+    );
+  }
+});
+
+test("a successful completion supersedes an older failing presentation request", () => {
+  let state = dedicationReducer(loaded(), {
+    type: "presenting",
+    scope,
+    requestId: 1,
+  });
+  state = dedicationReducer(state, { type: "dismiss", scope, requestId: 1 });
+  state = dedicationReducer(state, { type: "dismissed", scope, requestId: 1 });
+  const late = dedicationReducer(state, {
+    type: "presentation-failed",
+    scope,
+    requestId: 1,
+  });
+  assert.equal(late.presentationError, "");
+  assert.equal(late.presenting, false);
+  assert.equal(late.presentationRequired, false);
+});
+
+test("manual reopening of an acknowledged letter requires no new receipt", () => {
+  const state = dedicationReducer(loading(), {
+    type: "loaded",
+    scope,
+    requestId: 1,
+    response: { dedication: letter, auto_open: false },
+    manual: true,
+  });
+  assert.equal(state.open, true);
+  assert.equal(state.presentationRequired, false);
+  assert.equal(
+    dedicationReducer(state, {
+      type: "presentation-failed",
+      scope,
+      requestId: 1,
+    }),
+    state,
+  );
+});

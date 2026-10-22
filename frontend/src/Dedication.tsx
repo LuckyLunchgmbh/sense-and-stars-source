@@ -26,15 +26,18 @@ export function InfinityMark({ className = "" }: { className?: string }) {
 export function DedicationDialog({
   letter,
   onClose,
+  onPresented,
 }: {
   letter: Dedication;
   onClose: () => void;
+  onPresented: () => void;
 }) {
   return (
     <PapyrusExperience
       key={`${letter.id}:${letter.version}`}
       letter={letter}
       onClose={onClose}
+      onPresented={onPresented}
     />
   );
 }
@@ -44,8 +47,9 @@ export function DedicationNotice({
 }: {
   controller: DedicationController;
 }) {
-  const { state, retry, dismiss } = controller;
-  const error = state.loadError || state.dismissalError;
+  const { state, retry, dismiss, present } = controller;
+  const error =
+    state.loadError || state.dismissalError || state.presentationError;
   if (!error) return null;
   return (
     <div className="dedication-notice" role="status">
@@ -53,14 +57,22 @@ export function DedicationNotice({
       <p>{error}</p>
       <button
         className="button secondary small"
-        disabled={state.saving}
-        onClick={() => (state.loadError ? retry() : void dismiss())}
+        disabled={state.saving || state.presenting}
+        onClick={() =>
+          state.loadError
+            ? retry()
+            : state.dismissalError
+              ? void dismiss()
+              : void present()
+        }
       >
         {state.loadError
           ? "Erneut laden"
-          : state.saving
+          : state.saving || state.presenting
             ? "Wird gespeichert …"
-            : "Schließen erneut speichern"}
+            : state.dismissalError
+              ? "Schließen erneut speichern"
+              : "Anzeige erneut speichern"}
       </button>
     </div>
   );

@@ -22,6 +22,9 @@ export interface DedicationState {
   saving: boolean;
   loadError: string;
   dismissalError: string;
+  presentationError: string;
+  presenting: boolean;
+  presentationRequired: boolean;
 }
 
 type ScopedAction = { scope: string; requestId: number };
@@ -39,7 +42,10 @@ export type DedicationAction =
         | "hide"
         | "dismiss"
         | "dismissed"
-        | "dismiss-failed";
+        | "dismiss-failed"
+        | "presenting"
+        | "presented"
+        | "presentation-failed";
     });
 
 export function initialDedicationState(
@@ -54,6 +60,9 @@ export function initialDedicationState(
     saving: false,
     loadError: "",
     dismissalError: "",
+    presentationError: "",
+    presenting: false,
+    presentationRequired: false,
   };
 }
 
@@ -99,6 +108,8 @@ export function dedicationReducer(
           !!action.response.dedication &&
           (action.manual || action.response.auto_open),
         loadError: "",
+        presentationError: "",
+        presentationRequired: action.response.auto_open,
       };
     case "failed":
       return {
@@ -122,13 +133,40 @@ export function dedicationReducer(
         ? { ...state, open: false, saving: true, dismissalError: "" }
         : state;
     case "dismissed":
-      return { ...state, saving: false, dismissalError: "" };
+      return {
+        ...state,
+        saving: false,
+        dismissalError: "",
+        presentationError: "",
+        presentationRequired: false,
+        presenting: false,
+      };
+    case "presenting":
+      return state.presentationRequired
+        ? { ...state, presenting: true, presentationError: "" }
+        : state;
+    case "presented":
+      return {
+        ...state,
+        presenting: false,
+        presentationError: "",
+        presentationRequired: false,
+      };
+    case "presentation-failed":
+      return state.presentationRequired
+        ? {
+            ...state,
+            presenting: false,
+            presentationError:
+              "Die einmalige Anzeige konnte nicht gespeichert werden. Die Nachricht kann bei der nächsten Anmeldung erneut erscheinen.",
+          }
+        : state;
     case "dismiss-failed":
       return {
         ...state,
         saving: false,
         dismissalError:
-          "Das Schließen deiner Nachricht konnte nicht gespeichert werden. Sie kann nach einem Neuladen wieder erscheinen. Dein Raum bleibt nutzbar.",
+          "Der Abschluss deiner Nachricht konnte nicht gespeichert werden. Dein Raum bleibt nutzbar. Du kannst das Speichern erneut versuchen.",
       };
   }
 }

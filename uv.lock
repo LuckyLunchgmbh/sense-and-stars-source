@@ -353,7 +353,7 @@ sdist = { url = "https://files.pythonhosted.org/packages/66/a6/db70d67a00dda42eb
 
 [[package]]
 name = "sense-and-stars"
-version = "1.4.0"
+version = "1.4.1"
 source = { virtual = "." }
 dependencies = [
     { name = "annotated-doc" },

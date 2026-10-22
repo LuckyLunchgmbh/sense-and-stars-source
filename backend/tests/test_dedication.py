@@ -53,6 +53,7 @@ def dismiss(client, identifier, version=1, **headers):
 def test_anonymous_cannot_read_private_message(api):
     assert api.get("/api/dedication").status_code == 401
     assert dismiss(api, 1).status_code == 401
+    assert presented(api, 1).status_code == 401
 
 
 def test_no_default_letter_and_read_has_no_side_effects(api):
@@ -64,6 +65,7 @@ def test_no_default_letter_and_read_has_no_side_effects(api):
     with get_db() as conn:
         assert conn.execute("SELECT COUNT(*) FROM personal_dedications").fetchone()[0] == 0
         assert conn.execute("SELECT COUNT(*) FROM personal_dedication_views").fetchone()[0] == 0
+        assert conn.execute("SELECT COUNT(*) FROM personal_dedication_receipts").fetchone()[0] == 0
 
 
 def exercise_private_message(client, target, other):
@@ -87,9 +89,9 @@ def exercise_private_message(client, target, other):
         # An unrelated editable profile name/email cannot move the target.
         conn.execute("UPDATE users SET name=? WHERE id=?",("TEST changed display",user["id"]))
     assert client.get("/api/dedication").json()["dedication"]==expected
-    # Fresh session automatically shows the same letter again.
+    # A fresh session retains the account acknowledgement without an automatic repeat.
     login(client,target)
-    assert client.get("/api/dedication").json()["auto_open"] is True
+    assert client.get("/api/dedication").json()["auto_open"] is False
     assert dismiss(client,identifier).status_code==200
     # Another account cannot read or dismiss the target by guessing its ID.
     login(client,other)
@@ -157,3 +159,136 @@ def test_corrupt_private_content_fails_closed(api):
     with get_db() as conn:conn.execute("UPDATE personal_dedications SET paragraphs_json=? WHERE id=?",('{invalid',identifier))
     response=api.get("/api/dedication")
     assert response.status_code==503 and TEXT["salutation"] not in response.text
+
+
+
+def presented(client, identifier, version=1, **headers):
+    return client.post("/api/dedication/presented", json={"id":identifier,"version":version},
+                       headers={**HEADERS,**headers})
+
+
+def exercise_first_presentation(client, target, other):
+    user=login(client,target);identifier=seed(user["id"])
+    expected={"id":identifier,"version":1,**TEXT}
+    # Merely fetching is not presentation and must not write a durable receipt.
+    for _ in range(2):
+        assert client.get("/api/dedication").json()=={"dedication":expected,"auto_open":True}
+    with get_db() as conn:
+        assert conn.execute("SELECT COUNT(*) FROM personal_dedication_receipts").fetchone()[0]==0
+    assert presented(client,identifier,Origin="https://other.example.org").status_code==403
+    assert presented(client,identifier+100).status_code==404
+    assert presented(client,identifier,version=2).status_code==404
+    acknowledgement=presented(client,identifier)
+    assert acknowledgement.json()=={"ok":True}
+    assert acknowledgement.headers["cache-control"]=="no-store"
+    with get_db() as conn:
+        receipt=dict(conn.execute("SELECT * FROM personal_dedication_receipts").fetchone())
+        assert receipt["user_id"]==user["id"] and receipt["dedication_id"]==identifier
+        assert conn.execute("SELECT COUNT(*) FROM personal_dedication_views").fetchone()[0]==0
+    assert presented(client,identifier).status_code==200
+    with get_db() as conn:
+        assert dict(conn.execute("SELECT * FROM personal_dedication_receipts").fetchone())==receipt
+    assert client.get("/api/dedication").json()=={"dedication":expected,"auto_open":False}
+    # Another login, session revocation, and routine schema startup cannot erase it.
+    assert client.post("/api/auth/logout",json={},headers=HEADERS).status_code==200
+    login(client,target)
+    with get_db() as conn:init_schema(conn)
+    with get_db() as conn:init_schema(conn)
+    assert client.get("/api/dedication").json()=={"dedication":expected,"auto_open":False}
+    assert dismiss(client,identifier).status_code==200
+    with get_db() as conn:
+        assert conn.execute("SELECT COUNT(*) FROM personal_dedication_receipts").fetchone()[0]==1
+    # The settings read remains available; another account can neither read nor mark it.
+    login(client,other)
+    assert client.get("/api/dedication").json()=={"dedication":None,"auto_open":False}
+    assert presented(client,identifier).status_code==404
+    with get_db() as conn:
+        assert conn.execute("SELECT COUNT(*) FROM personal_dedication_receipts").fetchone()[0]==1
+    login(client,target)
+    with get_db() as conn:
+        conn.execute("UPDATE personal_dedications SET content_version=2 WHERE id=?",(identifier,))
+    assert client.get("/api/dedication").json()=={"dedication":{**expected,"version":2},"auto_open":True}
+    assert presented(client,identifier).status_code==404
+    assert presented(client,identifier,version=2).status_code==200
+    assert client.get("/api/dedication").json()["auto_open"] is False
+    with get_db() as conn:
+        assert conn.execute("SELECT COUNT(*) FROM personal_dedication_receipts").fetchone()[0]==2
+
+
+def test_first_presentation_survives_logins_sqlite(api):
+    identities=accounts(api)
+    exercise_first_presentation(api,identities["practitioner"],identities["admin"])
+
+
+def test_first_presentation_survives_logins_postgres(pg_api):
+    exercise_first_presentation(pg_api,
+       {"email":"pg-practice@example.org","password":"Test-Postgres-Passphrase"},
+       {"email":"pg-admin@example.org","password":"Test-Postgres-Passphrase"})
+
+
+def test_presentation_checks_active_session_and_payload(api):
+    identity=accounts(api)["practitioner"];user=login(api,identity);identifier=seed(user["id"])
+    for payload in [{"id":identifier,"version":1,"user_id":user["id"]},
+                    {"id":identifier,"version":True},{"id":identifier,"version":"1"},
+                    {"id":identifier,"version":0}]:
+        response=api.post("/api/dedication/presented",json=payload,headers=HEADERS)
+        assert response.status_code==422
+    with get_db() as conn:
+        conn.execute("UPDATE sessions SET expires_at='2000-01-01' WHERE user_id=?",(user["id"],))
+    assert presented(api,identifier).status_code==401
+    with get_db() as conn:
+        assert conn.execute("SELECT COUNT(*) FROM personal_dedication_receipts").fetchone()[0]==0
+
+
+def exercise_legacy_migration(client,target,other):
+    user=login(client,target);identifier=seed(user["id"])
+    own_session=token_hash(client.cookies.get(SESSION_COOKIE))
+    login(client,other);foreign_session=token_hash(client.cookies.get(SESSION_COOKIE))
+    stamp="2026-10-21T01:02:03+00:00"
+    with get_db() as conn:
+        conn.execute("INSERT INTO personal_dedication_views VALUES(?,?,?,?)",(identifier,own_session,1,stamp))
+        # Even corrupt legacy data from a different owner's session cannot count as presentation.
+        conn.execute("INSERT INTO personal_dedication_views VALUES(?,?,?,?)",(identifier,foreign_session,2,stamp))
+        before_letter=dict(conn.execute("SELECT * FROM personal_dedications WHERE id=?",(identifier,)).fetchone())
+        before_views=[dict(row) for row in conn.execute("SELECT * FROM personal_dedication_views ORDER BY content_version")]
+    with get_db() as conn:init_schema(conn)
+    with get_db() as conn:init_schema(conn)
+    with get_db() as conn:
+        assert dict(conn.execute("SELECT * FROM personal_dedications WHERE id=?",(identifier,)).fetchone())==before_letter
+        assert [dict(row) for row in conn.execute("SELECT * FROM personal_dedication_views ORDER BY content_version")]==before_views
+        rows=[dict(row) for row in conn.execute("SELECT * FROM personal_dedication_receipts")]
+        assert len(rows)==1 and rows[0]["content_version"]==1
+        assert rows[0]["user_id"]==user["id"] and rows[0]["presented_at"]==stamp
+    login(client,target)
+    assert client.get("/api/dedication").json()["auto_open"] is False
+    with get_db() as conn:
+        conn.execute("DELETE FROM personal_dedications WHERE id=?",(identifier,))
+        assert conn.execute("SELECT COUNT(*) FROM personal_dedication_receipts").fetchone()[0]==0
+
+
+
+def test_migration_only_backfills_owned_acknowledgements_and_preserves_records_sqlite(api):
+    identities=accounts(api)
+    exercise_legacy_migration(api,identities["practitioner"],identities["admin"])
+
+
+def test_migration_only_backfills_owned_acknowledgements_and_preserves_records_postgres(pg_api):
+    exercise_legacy_migration(pg_api,
+       {"email":"pg-practice@example.org","password":"Test-Postgres-Passphrase"},
+       {"email":"pg-admin@example.org","password":"Test-Postgres-Passphrase"})
+
+
+def test_each_account_has_its_own_first_presentation(api):
+    identities=accounts(api)
+    user=login(api,identities["practitioner"]);first=seed(user["id"])
+    assert presented(api,first).status_code==200
+    other=login(api,identities["admin"]);second=seed(other["id"])
+    assert api.get("/api/dedication").json()["auto_open"] is True
+    assert presented(api,first).status_code==404
+    assert presented(api,second).status_code==200
+    with get_db() as conn:
+        pairs={(row["user_id"],row["dedication_id"]) for row in conn.execute("SELECT * FROM personal_dedication_receipts")}
+        assert pairs=={(user["id"],first),(other["id"],second)}
+    login(api,identities["practitioner"])
+    assert api.get("/api/dedication").json()["dedication"]["id"]==first
+    assert api.get("/api/dedication").json()["auto_open"] is False

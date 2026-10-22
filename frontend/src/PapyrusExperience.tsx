@@ -6,14 +6,21 @@ import type {
   PapyrusRenderer,
 } from "./papyrus/renderer";
 import paperUrl from "./papyrus/paper.png";
+import {
+  createPapyrusTransition,
+  PAPYRUS_MOTION,
+  type PapyrusArrival,
+} from "./papyrus/motion";
 import "./PapyrusExperience.css";
 
 export function PapyrusExperience({
   letter,
   onClose,
+  onPresented,
 }: {
   letter: Dedication;
   onClose: () => void;
+  onPresented: () => void;
 }) {
   const dialog = useRef<HTMLDialogElement>(null);
   const scene = useRef<HTMLCanvasElement>(null);
@@ -27,10 +34,16 @@ export function PapyrusExperience({
   const loadTimerRef = useRef<number | undefined>(undefined);
   const close = useRef(onClose);
   close.current = onClose;
+  const presented = useRef(onPresented);
+  presented.current = onPresented;
+  const transition = useRef<ReturnType<typeof createPapyrusTransition> | null>(
+    null,
+  );
   const titleId = useId();
   const [phase, setPhase] = useState<PapyrusPhase>("loading");
   const [reduced, setReduced] = useState(false);
   const [plain, setPlain] = useState(false);
+  const [arrival, setArrival] = useState<PapyrusArrival>("waiting");
   const [atEnd, setAtEnd] = useState(false);
   const [status, setStatus] = useState("Die Papyrusrolle wird vorbereitet.");
   plainRef.current = plain;
@@ -44,6 +57,11 @@ export function PapyrusExperience({
     if (!node || !canvas || !input || !space || !sealButton) return;
     let active = true;
     let ready = false;
+    let receiptPending = false;
+    let firstFrame = 0,
+      secondFrame = 0,
+      receiptFrame = 0,
+      receiptPaint = 0;
     let suspended = !navigator.onLine;
     const previous = document.activeElement as HTMLElement | null;
     const previousOverflow = document.body.style.overflow;
@@ -55,6 +73,37 @@ export function PapyrusExperience({
     setAtEnd(false);
     setPlain(false);
     plainRef.current = false;
+    setArrival("waiting");
+    const afterVisiblePaint = () => {
+      receiptPending = true;
+      cancelAnimationFrame(receiptFrame);
+      cancelAnimationFrame(receiptPaint);
+      receiptFrame = requestAnimationFrame(() => {
+        receiptPaint = requestAnimationFrame(() => {
+          if (active && receiptPending && node.open && !document.hidden) {
+            receiptPending = false;
+            presented.current();
+          }
+        });
+      });
+    };
+    const motion = createPapyrusTransition({
+      stage: (value) => active && setArrival(value),
+      reduced: () => reducedRef.current,
+      close: () => active && close.current(),
+      presented: afterVisiblePaint,
+    });
+    transition.current = motion;
+    const begin = () => {
+      // Paint the transparent native modal before starting its background fade.
+      cancelAnimationFrame(firstFrame);
+      cancelAnimationFrame(secondFrame);
+      firstFrame = requestAnimationFrame(() => {
+        secondFrame = requestAnimationFrame(() => {
+          if (active && node.open && !document.hidden) motion.begin();
+        });
+      });
+    };
     const showPlain = () => {
       if (!active) return;
       plainRef.current = true;
@@ -63,14 +112,19 @@ export function PapyrusExperience({
       renderer.current = null;
       setPlain(true);
       setStatus("Dein Brief ist ohne räumliche Effekte lesbar.");
+      motion.reveal();
     };
     const changePreference = (event: MediaQueryListEvent) => {
       if (!active) return;
       reducedRef.current = event.matches;
       setReduced(event.matches);
       renderer.current?.setReduced(event.matches);
+      motion.preferencesChanged();
     };
     const suspend = () => {
+      motion.suspend();
+      cancelAnimationFrame(receiptFrame);
+      cancelAnimationFrame(receiptPaint);
       suspended = node.open;
       node.close();
       document.body.style.overflow = previousOverflow;
@@ -79,14 +133,28 @@ export function PapyrusExperience({
       if (active && suspended && node.isConnected && !node.open) {
         node.showModal();
         document.body.style.overflow = "hidden";
+        begin();
+        if (receiptPending) afterVisiblePaint();
       }
       suspended = false;
     };
-    if (!suspended) node.showModal();
+    if (!suspended) {
+      node.showModal();
+      begin();
+    }
+    const visible = () => {
+      if (!active) return;
+      if (document.hidden) motion.suspend();
+      else if (node.open) {
+        begin();
+        if (receiptPending) afterVisiblePaint();
+      }
+    };
     node.focus({ preventScroll: true });
     preference.addEventListener("change", changePreference);
     window.addEventListener("offline", suspend);
     window.addEventListener("online", resume);
+    document.addEventListener("visibilitychange", visible);
     const loadTimer = window.setTimeout(() => {
       if (!ready) showPlain();
     }, 15000);
@@ -119,7 +187,7 @@ export function PapyrusExperience({
           onReady: () => {
             ready = true;
             clearTimeout(loadTimer);
-            if (active && !suspended) sealButton.focus({ preventScroll: true });
+            if (active) motion.reveal();
           },
           onFailure: showPlain,
         });
@@ -127,6 +195,12 @@ export function PapyrusExperience({
       .catch(showPlain);
     return () => {
       active = false;
+      motion.dispose();
+      transition.current = null;
+      cancelAnimationFrame(firstFrame);
+      cancelAnimationFrame(secondFrame);
+      cancelAnimationFrame(receiptFrame);
+      cancelAnimationFrame(receiptPaint);
       clearTimeout(loadTimer);
       renderer.current?.dispose();
       renderer.current = null;
@@ -134,6 +208,7 @@ export function PapyrusExperience({
       preference.removeEventListener("change", changePreference);
       window.removeEventListener("offline", suspend);
       window.removeEventListener("online", resume);
+      document.removeEventListener("visibilitychange", visible);
       node.close();
       document.body.style.overflow = previousOverflow;
       if (previous?.isConnected && previous !== document.body)
@@ -144,8 +219,10 @@ export function PapyrusExperience({
   }, [letter]);
 
   useEffect(() => {
+    if (arrival !== "ready") return;
     if (plain) reader.current?.focus({ preventScroll: true });
-  }, [plain]);
+    else if (phase === "sealed") seal.current?.focus({ preventScroll: true });
+  }, [plain, arrival, phase]);
 
   function plainRead() {
     plainRef.current = true;
@@ -154,6 +231,7 @@ export function PapyrusExperience({
     renderer.current = null;
     setPlain(true);
     setStatus("Dein Brief ist ohne räumliche Effekte lesbar.");
+    transition.current?.reveal();
   }
   const opened = phase === "writing" || phase === "reading";
   return (
@@ -164,6 +242,14 @@ export function PapyrusExperience({
       closedby="none"
       tabIndex={-1}
       data-phase={phase}
+      data-arrival={arrival}
+      aria-busy={arrival !== "ready" && arrival !== "leaving"}
+      style={
+        {
+          "--papyrus-enter-ms": `${PAPYRUS_MOTION.entrance}ms`,
+          "--papyrus-exit-ms": `${PAPYRUS_MOTION.exit}ms`,
+        } as React.CSSProperties
+      }
       onCancel={(event) => event.preventDefault()}
       onKeyDown={(event) => {
         if (event.key === "Escape") {
@@ -187,7 +273,7 @@ export function PapyrusExperience({
             ref={seal}
             className="papyrus-seal"
             aria-label="Unendlichkeitssiegel berühren und die Papyrusrolle öffnen"
-            disabled={phase !== "sealed"}
+            disabled={phase !== "sealed" || arrival !== "ready"}
             onClick={() => renderer.current?.open()}
           />
           <p className="papyrus-invitation">
@@ -231,7 +317,7 @@ export function PapyrusExperience({
           {plain && (
             <button
               className="papyrus-reader-finish"
-              onClick={() => close.current()}
+              onClick={() => transition.current?.leave()}
             >
               In meinen Raum <span aria-hidden="true">↗</span>
             </button>
@@ -265,6 +351,7 @@ export function PapyrusExperience({
                   reducedRef.current = event.target.checked;
                   setReduced(event.target.checked);
                   renderer.current?.setReduced(event.target.checked);
+                  transition.current?.preferencesChanged();
                 }}
               />{" "}
               Ohne Effekte
@@ -277,7 +364,10 @@ export function PapyrusExperience({
             </p>
           )}
           {opened && atEnd && (
-            <button className="papyrus-finish" onClick={() => close.current()}>
+            <button
+              className="papyrus-finish"
+              onClick={() => transition.current?.leave()}
+            >
               In meinen Raum <span aria-hidden="true">↗</span>
             </button>
           )}
