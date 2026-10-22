@@ -1,6 +1,6 @@
 # Third-Party Notices
 
-Stand: 20.10.2026. This inventory was prepared from the committed lockfiles
+Stand: 22.10.2026. This inventory was prepared from the committed lockfiles
 backend/requirements.lock, uv.lock, and frontend/package-lock.json, and
 cross-checked against the metadata of the installed Python and Node packages.
 It is an engineering inventory, not legal advice or a legal opinion.
@@ -103,21 +103,24 @@ package distribution.
 
 ## JavaScript packages
 
-The exact package/version inventory below comes from
-frontend/package-lock.json. The lock contains 120 resolved entries, including
-optional platform binaries. Runtime packages are React, React DOM, and Scheduler;
-the remaining entries are build, type, test, or optional platform dependencies.
-Full copyright and license texts remain in the upstream package distributions.
+The exact package/version inventory below comes from frontend/package-lock.json.\nThe lock contains 129 resolved entries, including optional platform binaries.
+Runtime packages include React, React DOM, Scheduler and Three.js0.180.0; the
+remaining entries are build, type, test or optional platform dependencies.
+Three.js is MIT licensed; its full notice is preserved at
+frontend/public/licenses/three.txt and served at /licenses/three.txt.
+Full upstream copyright and license texts remain in each package distribution.
 
-<details><summary>Apache-2.0 — 2 package(s)</summary>
+<details><summary>Apache-2.0 — 3 package(s)</summary>
 
+- @dimforge/rapier3d-compat@0.12.0
 - baseline-browser-mapping@2.11.30
 - typescript@5.9.3
 
 </details>
 
-<details><summary>BSD-3-Clause — 1 package(s)</summary>
+<details><summary>BSD-3-Clause — 2 package(s)</summary>
 
+- @webgpu/types@0.1.74
 - source-map-js@1.2.2
 
 </details>
@@ -138,7 +141,7 @@ Full copyright and license texts remain in the upstream package distributions.
 
 </details>
 
-<details><summary>MIT — 111 package(s)</summary>
+<details><summary>MIT — 118 package(s)</summary>
 
 - @babel/code-frame@7.29.7
 - @babel/compat-data@7.29.7
@@ -217,6 +220,7 @@ Full copyright and license texts remain in the upstream package distributions.
 - @rollup/rollup-win32-ia32-msvc@4.64.12
 - @rollup/rollup-win32-x64-gnu@4.64.12
 - @rollup/rollup-win32-x64-msvc@4.64.12
+- @tweenjs/tween.js@23.1.3
 - @types/babel__core@7.20.5
 - @types/babel__generator@7.27.0
 - @types/babel__template@7.4.4
@@ -224,6 +228,9 @@ Full copyright and license texts remain in the upstream package distributions.
 - @types/estree@1.0.9
 - @types/react-dom@19.3.0
 - @types/react@19.3.0
+- @types/stats.js@0.17.4
+- @types/three@0.180.0
+- @types/webxr@0.5.24
 - @vitejs/plugin-react@5.2.0
 - browserslist@4.29.4
 - convert-source-map@2.0.0
@@ -232,11 +239,13 @@ Full copyright and license texts remain in the upstream package distributions.
 - esbuild@0.28.2
 - escalade@3.2.0
 - fdir@6.5.0
+- fflate@0.8.3
 - fsevents@2.3.3
 - gensync@1.0.0-beta.2
 - js-tokens@4.0.0
 - jsesc@3.1.0
 - json5@2.2.3
+- meshoptimizer@0.22.0
 - ms@2.1.3
 - nanoid@3.3.20
 - node-releases@2.0.59
@@ -248,6 +257,7 @@ Full copyright and license texts remain in the upstream package distributions.
 - react@19.3.1
 - rollup@4.64.12
 - scheduler@0.28.0
+- three@0.180.0
 - tinyglobby@0.2.17
 - update-browserslist-db@1.3.4
 - vite@7.3.7

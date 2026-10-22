@@ -1,4 +1,5 @@
-import { Icon, Modal } from "./ui";
+import { Icon } from "./ui";
+import { PapyrusExperience } from "./PapyrusExperience";
 import type { Dedication } from "./dedicationState";
 import type { DedicationController } from "./useDedication";
 
@@ -30,33 +31,11 @@ export function DedicationDialog({
   onClose: () => void;
 }) {
   return (
-    <Modal
-      title={letter.title}
+    <PapyrusExperience
+      key={`${letter.id}:${letter.version}`}
+      letter={letter}
       onClose={onClose}
-      className="dedication-modal"
-      focusTitle
-    >
-      <div className="dedication-letter">
-        <div className="dedication-letter-mark">
-          <InfinityMark />
-          <span>Ein persönlicher Brief für dich</span>
-        </div>
-        <p className="dedication-salutation">{letter.salutation}</p>
-        {letter.paragraphs.map((paragraph, index) => (
-          <p key={index}>{paragraph}</p>
-        ))}
-        <p className="dedication-signature">
-          {letter.closing}
-          <span>{letter.sender}</span>
-        </p>
-      </div>
-      <div className="dedication-actions">
-        <p>Du findest diese Nachricht jederzeit wieder unter Einstellungen.</p>
-        <button className="button primary" onClick={onClose}>
-          In meinen Raum <Icon name="arrow" size={18} />
-        </button>
-      </div>
-    </Modal>
+    />
   );
 }
 

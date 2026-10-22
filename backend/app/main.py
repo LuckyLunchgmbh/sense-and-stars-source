@@ -183,7 +183,7 @@ async def lifespan(_app):
     yield
 
 
-app = FastAPI(title="Sense & Stars",version="1.3.3",lifespan=lifespan,docs_url=None,redoc_url=None,openapi_url=None)
+app = FastAPI(title="Sense & Stars",version="1.4.0",lifespan=lifespan,docs_url=None,redoc_url=None,openapi_url=None)
 app.add_middleware(TrustedHostMiddleware,allowed_hosts=allowed_hosts())
 
 
@@ -241,7 +241,7 @@ async def database_error(_request, _exc):
 
 @app.get("/api/health")
 def health():
-    return {"status":"ok","mode":"hosted" if hosted() else "demo" if demo_mode() else "local","version":"1.3.3",
+    return {"status":"ok","mode":"hosted" if hosted() else "demo" if demo_mode() else "local","version":"1.4.0",
             "source_url":setting("SOURCE_URL") if setting("SWISS_LICENSE")=="agpl-3.0" else None,
             "license":"AGPL-3.0-only" if setting("SWISS_LICENSE")=="agpl-3.0" else None}
 

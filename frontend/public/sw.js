@@ -1,5 +1,5 @@
 /* Public app shell only. API responses and client records never enter Cache Storage. */
-const CACHE = "sense-stars-public-v1.3.0";
+const CACHE = "sense-stars-public-v1.4.0";
 const PUBLIC_FILES = [
   "/",
   "/index.html",
@@ -53,7 +53,7 @@ self.addEventListener("fetch", (event) => {
     return;
   const isStatic =
     PUBLIC_FILES.includes(url.pathname) ||
-    /^\/assets\/[\w.-]+\.(js|css|svg|woff2?)$/.test(url.pathname);
+    /^\/assets\/[\w.-]+\.(js|css|svg|png|webp|woff2?)$/.test(url.pathname);
   if (!isStatic) return;
   event.respondWith(
     fetch(event.request)
